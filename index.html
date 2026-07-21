@@ -670,13 +670,16 @@
     .prof-badge { display: none; }
     body.prof-mode .prof-badge { display: inline-flex; }
     .hub-back-link {
+      display: none;
+    }
+    body.prof-mode .hub-back-link {
       display: inline-flex; align-items: center; gap: .3rem;
       color: rgba(255,255,255,.75); text-decoration: none;
       font-size: .8rem; font-weight: 600;
       position: absolute; left: 1.25rem; top: 1rem;
       transition: color .15s;
     }
-    .hub-back-link:hover { color: #fff; }
+    body.prof-mode .hub-back-link:hover { color: #fff; }
     .prof-badge {
       align-items: center;
       background: #7C3AED; color: #fff;
