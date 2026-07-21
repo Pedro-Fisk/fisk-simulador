@@ -154,9 +154,9 @@
         "id": "e1m19",
         "topic": "Nationality / To Be",
         "question": "Is Laura Japanese? — No, ___________",
-        "options": ["she isn't.", "she doesn't.", "she isn't Japanese.", "Both A and C are correct."],
-        "correct": 3,
-        "explanation": "Quando queremos responder 'não' a uma pergunta com o verbo 'to be', podemos usar a resposta curta ou a resposta completa — as duas estão certas. Neste caso, 'she isn't' e 'she isn't Japanese' são as duas formas corretas. Portanto, a resposta correta é 'BOTH A AND C are correct'."
+        "options": ["she isn't.", "she doesn't.", "she isn't Japanese.", "no, isn't she."],
+        "correct": 0,
+        "explanation": "Para responder negativamente a uma pergunta com o verbo 'to be', usamos a resposta curta: sujeito + verbo 'to be' negado. Neste caso, a resposta curta correta é 'she isn't'. Portanto, a resposta correta é 'SHE ISN'T'."
       },
       {
         "id": "e1m20",
@@ -514,9 +514,9 @@
         "id": "e1m64",
         "topic": "The Time",
         "question": "It's 11:50. How do you say it in English?",
-        "options": ["eleven fifty", "ten to twelve", "fifty past eleven", "Both A and B are correct"],
-        "correct": 3,
-        "explanation": "Em inglês, os horários podem ser ditos de duas formas: a forma digital ('eleven fifty') ou a forma analógica ('ten to twelve', ou seja, faltam 10 para as 12). As duas formas são corretas. Portanto, a resposta correta é 'BOTH A AND B are correct'."
+        "options": ["eleven fifty", "ten to twelve", "fifty past eleven", "twelve to ten"],
+        "correct": 1,
+        "explanation": "Quando faltam 10 minutos para a próxima hora, usamos 'ten to' + a hora seguinte. São 11:50, ou seja, faltam 10 minutos para as 12. Portanto, a resposta correta é 'TEN TO twelve'."
       },
       {
         "id": "e1m65",
@@ -816,9 +816,9 @@
         "id": "e1f21",
         "topic": "Numbers (100-999)",
         "question": "How do you write 325 in words?",
-        "options": ["three hundred twenty-five", "three hundred and twenty-five", "three hundred two five", "Both A and B are correct"],
-        "correct": 3,
-        "explanation": "Quando queremos dizer números de 100 em diante, podemos usar ou não a palavra 'and' depois de 'hundred' — as duas formas são aceitas em inglês. Neste caso, 325 pode ser 'three hundred twenty-five' ou 'three hundred AND twenty-five'. Portanto, a resposta correta é 'BOTH A AND B are correct'."
+        "options": ["three hundred twenty-five", "three hundred and twenty-five", "three hundred two five", "three and hundred twenty-five"],
+        "correct": 1,
+        "explanation": "A forma padrão do inglês britânico para números acima de 100 usa 'and' entre 'hundred' e o restante do número. Portanto, 325 se escreve 'three hundred AND twenty-five'. Portanto, a resposta correta é 'THREE HUNDRED AND TWENTY-FIVE'."
       },
       {
         "id": "e1f22",
@@ -1216,17 +1216,17 @@
         "id": "e1f71",
         "topic": "Numbers (100-999)",
         "question": "How do you write 147 in words?",
-        "options": ["one hundred forty-seven", "one hundred and forty-seven", "one four seven", "Both A and B are correct"],
-        "correct": 3,
-        "explanation": "Em inglês americano, não se usa 'and' entre 'hundred' e o restante (one hundred forty-seven). Em inglês britânico, usa-se 'and' (one hundred AND forty-seven). As duas formas são aceitas internacionalmente. Portanto, a resposta correta é 'BOTH A AND B are correct'."
+        "options": ["one hundred forty-seven", "one hundred and forty-seven", "one four seven", "one and hundred forty-seven"],
+        "correct": 1,
+        "explanation": "A forma padrão do inglês britânico para números acima de 100 usa 'and' entre 'hundred' e o restante do número. Portanto, 147 se escreve 'one hundred AND forty-seven'. Portanto, a resposta correta é 'ONE HUNDRED AND FORTY-SEVEN'."
       },
       {
         "id": "e1f72",
         "topic": "Numbers (100-999)",
-        "question": "What is the correct way to say 999?",
-        "options": ["nine hundred ninety-nine", "nine hundred and ninety-nine", "Both are correct", "nine ninety-nine"],
-        "correct": 2,
-        "explanation": "Assim como em outros números de três dígitos, 999 pode ser dito com ou sem 'and' entre 'hundred' e 'ninety-nine'. As duas formas são aceitas em inglês. Portanto, a resposta correta é 'BOTH are correct'."
+        "question": "What is the correct way to say 999 in English?",
+        "options": ["nine hundred and ninety-nine", "nine hundreds and ninety-nine", "nine nine nine hundred", "nine ninety-nine hundred"],
+        "correct": 0,
+        "explanation": "Números de três dígitos em inglês seguem o padrão: centena + 'and' + dezena e unidade. Portanto, 999 = 'nine hundred and ninety-nine'. Nunca se usa o plural 'hundreds' para dizer um número específico."
       },
       {
         "id": "e1f73",

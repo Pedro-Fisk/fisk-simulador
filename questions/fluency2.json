@@ -26,25 +26,25 @@
         "id": "f2m03",
         "topic": "Reporting Verbs – Time Changes",
         "question": "She said, 'I will call you tomorrow.' → She told me she _____ call me the next day.",
-        "options": ["will", "would", "was going to", "Both B and C"],
-        "correct": 3,
-        "explanation": "Quando queremos contar o que alguém disse, o 'will' do futuro muda para 'would' ou 'was going to' — os dois estão certos. Neste caso, ela disse que ia ligar amanhã, e ao contar isso, 'tomorrow' vira 'the next day' e o 'will' pode virar 'would' ou 'was going to'. Portanto, a resposta correta é BOTH B AND C (would / was going to)."
+        "options": ["will", "would", "was going to", "would have called"],
+        "correct": 1,
+        "explanation": "Quando queremos contar o que alguém disse, o 'will' do futuro muda para 'would' no discurso reportado — esse é o recuo de tempo padrão. Neste caso, ela disse que ia ligar amanhã e ao reportar: 'She told me she WOULD call me the next day'. Portanto, a resposta correta é WOULD."
       },
       {
         "id": "f2m04",
         "topic": "Reporting Verbs – Time Changes",
         "question": "He said, 'I saw her yesterday.' → He said he had seen her _____.",
-        "options": ["yesterday", "the day before", "the previous day", "Both B and C"],
-        "correct": 3,
-        "explanation": "Quando queremos contar o que alguém disse, as palavras de tempo também mudam. Neste caso, 'yesterday' (ontem) vira 'the day before' ou 'the previous day' ao reportar a fala — as duas formas são igualmente corretas. Portanto, a resposta correta é BOTH B AND C (the day before / the previous day)."
+        "options": ["yesterday", "the day before", "the previous day", "the last day"],
+        "correct": 1,
+        "explanation": "Quando queremos contar o que alguém disse, as palavras de tempo mudam: 'yesterday' vira 'the day before' no discurso reportado — essa é a expressão mais comum e natural. Neste caso: 'He said he had seen her THE DAY BEFORE'. Portanto, a resposta correta é THE DAY BEFORE."
       },
       {
         "id": "f2m05",
         "topic": "Reported Questions – Yes/No",
         "question": "She asked, 'Do you live alone?' → She asked _____ I lived alone.",
-        "options": ["if", "that", "whether", "Both A and C"],
-        "correct": 3,
-        "explanation": "Quando queremos contar uma pergunta de sim ou não indiretamente, usamos 'if' ou 'whether' para introduzi-la — os dois significam a mesma coisa aqui. Neste caso, ela perguntou se eu morava sozinho, e a ordem do verbo fica normal: 'she asked if/whether I lived alone'. Portanto, a resposta correta é BOTH A AND C (if / whether)."
+        "options": ["if", "that", "whether", "when"],
+        "correct": 2,
+        "explanation": "Quando queremos contar uma pergunta de sim ou não indiretamente, usamos 'whether' — a forma mais formal e precisa para perguntas indiretas de sim/não. Neste caso, ela perguntou se eu morava sozinho: 'She asked WHETHER I lived alone'. Portanto, a resposta correta é WHETHER."
       },
       {
         "id": "f2m06",
@@ -74,9 +74,9 @@
         "id": "f2m09",
         "topic": "So / Neither",
         "question": "I'm not hungry. — _____ am I. (agreement with negative)",
-        "options": ["So", "Neither", "Nor", "Both B and C"],
-        "correct": 3,
-        "explanation": "Quando queremos dizer 'eu também não' — concordar com algo negativo — usamos 'neither' ou 'nor' mais o verbo e o sujeito. Neste caso, a pessoa disse que não estava com fome e a resposta concorda: 'Neither am I' ou 'Nor am I' — os dois significam a mesma coisa. Portanto, a resposta correta é BOTH B AND C (Neither / Nor)."
+        "options": ["So", "Neither", "Nor", "Either"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer 'eu também não' — concordar com algo negativo — usamos 'Neither' seguido do auxiliar e do sujeito. Neste caso, a pessoa disse que não estava com fome e a resposta concorda: 'NEITHER am I'. Essa é a forma padrão e mais comum para concordância negativa. Portanto, a resposta correta é NEITHER."
       },
       {
         "id": "f2m10",
@@ -234,9 +234,9 @@
         "id": "f2m29",
         "topic": "So / Neither",
         "question": "I've never been to Japan. — _____ have I.",
-        "options": ["So", "Neither", "Nor", "Both B and C"],
-        "correct": 3,
-        "explanation": "Quando queremos concordar com algo negativo usando 'never', usamos 'Neither' ou 'Nor' antes do auxiliar e do sujeito. Neste caso, nenhum dos dois foi ao Japão: 'Neither have I' ou 'Nor have I' — os dois significam a mesma coisa. Portanto, a resposta correta é BOTH B AND C."
+        "options": ["So", "Neither", "Nor", "Not either"],
+        "correct": 1,
+        "explanation": "Quando queremos concordar com algo negativo usando 'never', usamos 'Neither' antes do auxiliar e do sujeito — essa é a forma padrão. Neste caso, nenhum dos dois foi ao Japão: 'NEITHER have I'. Portanto, a resposta correta é NEITHER."
       },
       {
         "id": "f2m30",
@@ -250,9 +250,9 @@
         "id": "f2m31",
         "topic": "So / Neither",
         "question": "Mark didn't understand the lesson. — _____ did Lisa.",
-        "options": ["So", "Neither", "Nor", "Both B and C"],
-        "correct": 3,
-        "explanation": "Quando queremos concordar com algo negativo em inglês, usamos 'Neither' ou 'Nor' antes do auxiliar e do sujeito. Neste caso, Lisa também não entendeu a aula: 'Neither did Lisa' ou 'Nor did Lisa' — os dois são corretos. Portanto, a resposta correta é BOTH B AND C."
+        "options": ["So", "Neither", "Nor", "So either"],
+        "correct": 1,
+        "explanation": "Quando queremos concordar com algo negativo em inglês, usamos 'Neither' antes do auxiliar e do sujeito — essa é a forma padrão e mais natural. Neste caso, Lisa também não entendeu a aula: 'NEITHER did Lisa'. Portanto, a resposta correta é NEITHER."
       },
       {
         "id": "f2m32",
@@ -338,17 +338,17 @@
         "id": "f2m42",
         "topic": "Reported Questions – Yes/No",
         "question": "The teacher asked, 'Are you paying attention?' → The teacher asked _____ I was paying attention.",
-        "options": ["that", "if", "whether", "Both B and C"],
-        "correct": 3,
-        "explanation": "Quando contamos uma pergunta de sim ou não indiretamente, usamos 'if' ou 'whether' para introduzi-la — os dois têm o mesmo significado. Neste caso, a professora queria saber se a pessoa estava prestando atenção: 'the teacher asked IF/WHETHER I was paying attention'. Portanto, a resposta correta é BOTH B AND C."
+        "options": ["that", "if", "whether", "when"],
+        "correct": 2,
+        "explanation": "Quando contamos uma pergunta de sim ou não indiretamente, usamos 'whether' — a forma mais precisa e formal para introduzir perguntas indiretas de sim/não. Neste caso, a professora queria saber se a pessoa estava prestando atenção: 'The teacher asked WHETHER I was paying attention'. Portanto, a resposta correta é WHETHER."
       },
       {
         "id": "f2m43",
         "topic": "Reported Questions – Yes/No",
         "question": "My friend asked me, 'Did you enjoy the concert?' → My friend asked me _____ the concert.",
-        "options": ["if I had enjoyed", "that I enjoyed", "whether I enjoyed", "Both A and C"],
-        "correct": 3,
-        "explanation": "Quando contamos uma pergunta de sim ou não no passado, usamos 'if' ou 'whether' — e o 'did' some, pois o verbo recua para 'had enjoyed'. Neste caso: 'My friend asked me IF/WHETHER I HAD enjoyed the concert' — ambas as formas são corretas. Portanto, a resposta correta é BOTH A AND C."
+        "options": ["if I had enjoyed", "that I enjoyed", "whether I enjoyed", "if I would have enjoyed"],
+        "correct": 0,
+        "explanation": "Quando contamos uma pergunta de sim ou não no passado, usamos 'if' e o verbo recua um tempo: 'did enjoy' vira 'had enjoyed'. Neste caso: 'My friend asked me IF I HAD ENJOYED the concert' — o 'did' some, o verbo vai para o past perfect e usamos 'if' para introduzir. Portanto, a resposta correta é IF I HAD ENJOYED."
       },
       {
         "id": "f2m44",
@@ -514,9 +514,9 @@
         "id": "f2m64",
         "topic": "Reporting Verbs",
         "question": "My boss said, 'You must finish this by Friday.' → My boss said I _____ finish it by Friday.",
-        "options": ["must", "have to", "had to", "Both B and C"],
+        "options": ["must", "have to", "had to", "need to"],
         "correct": 2,
-        "explanation": "Quando contamos o que alguém disse usando 'must' para obrigação, esse 'must' geralmente muda para 'had to' no discurso reportado. Neste caso, o chefe deu uma ordem e ao reportar: 'My boss said I HAD TO finish it by Friday'. Portanto, a resposta correta é HAD TO."
+        "explanation": "Quando contamos o que alguém disse usando 'must' para obrigação, esse 'must' muda para 'had to' no discurso reportado — pois o tempo recua para o passado. Neste caso, o chefe deu uma ordem e ao reportar: 'My boss said I HAD TO finish it by Friday'. Portanto, a resposta correta é HAD TO."
       },
       {
         "id": "f2m65",
@@ -608,9 +608,9 @@
         "id": "f2f10",
         "topic": "Verbs of Opinion",
         "question": "What do you think _____ their new house?",
-        "options": ["of", "about", "for", "Both A and B"],
-        "correct": 3,
-        "explanation": "Quando queremos pedir a opinião de alguém sobre algo, usamos 'think of' ou 'think about' — os dois funcionam para esse fim. Neste caso, estamos perguntando o que a pessoa acha da casa nova, e tanto 'of' quanto 'about' são aceitos. Portanto, a resposta correta é BOTH A AND B (of / about)."
+        "options": ["of", "about", "for", "at"],
+        "correct": 1,
+        "explanation": "Quando queremos pedir a opinião de alguém sobre algo, usamos 'think about' — a preposição padrão para expressar opinião ou reflexão. Neste caso, estamos perguntando o que a pessoa acha da casa nova: 'What do you think ABOUT their new house?' Portanto, a resposta correta é ABOUT."
       },
       {
         "id": "f2f11",

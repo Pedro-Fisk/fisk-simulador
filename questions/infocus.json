@@ -26,9 +26,9 @@
         "id": "ifm03",
         "topic": "Past Tenses",
         "question": "When I was a child, I _____ to school by bicycle every day.",
-        "options": ["used to go", "was going", "would go", "Both A and C"],
-        "correct": 3,
-        "explanation": "Quando queremos falar de hábitos que tínhamos no passado mas não temos mais, podemos usar 'used to' ou 'would' com o verbo — as duas formas funcionam para ações repetidas no passado. Neste caso, ir de bicicleta para a escola todo dia era um hábito de infância, e tanto 'used to go' quanto 'would go' expressam isso. Portanto, a resposta correta é BOTH A AND C."
+        "options": ["used to go", "was going", "would go", "had been going"],
+        "correct": 0,
+        "explanation": "Quando queremos falar de hábitos que tínhamos no passado mas não temos mais, a forma preferida é 'used to + verbo'. Embora 'would go' também seja possível para hábitos, 'used to' é a escolha mais natural e abrangente — funciona tanto para ações repetidas quanto para estados passados. Neste caso, ir de bicicleta para a escola todo dia era um hábito de infância que não continuamos na vida adulta. Portanto, a resposta correta é USED TO GO."
       },
       {
         "id": "ifm04",
@@ -130,9 +130,9 @@
         "id": "ifm16",
         "topic": "Conditionals – Unless/As Long As",
         "question": "You can borrow my car _____ you drive carefully.",
-        "options": ["unless", "provided that", "as long as", "Both B and C"],
-        "correct": 3,
-        "explanation": "Quando queremos dizer 'desde que' ou 'contanto que', podemos usar 'as long as' ou 'provided that' — as duas expressões têm o mesmo sentido. Neste caso, a pessoa pode pegar o carro emprestado contanto que dirija com cuidado. Portanto, a resposta correta é AS LONG AS e PROVIDED THAT (ambas corretas)."
+        "options": ["unless", "provided that", "as long as", "even if"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer 'desde que' ou 'contanto que', usamos 'as long as'. É a expressão mais natural e direta para indicar uma condição positiva — a pessoa pode pegar o carro emprestado contanto que dirija com cuidado. 'Unless' significa 'a menos que' (sentido negativo) e 'even if' indica indiferença à condição. Portanto, a resposta correta é AS LONG AS."
       },
       {
         "id": "ifm17",
@@ -194,9 +194,9 @@
         "id": "ifm24",
         "topic": "Past Tenses",
         "question": "Every summer when I was young, we _____ to the coast for two weeks.",
-        "options": ["were going", "went", "would go", "Both B and C"],
-        "correct": 3,
-        "explanation": "Para descrever hábitos repetidos no passado, podemos usar tanto o Simple Past quanto 'would + verbo'. Ambas as formas expressam ações que aconteciam com regularidade em um período anterior da vida. Portanto, as respostas corretas são WENT e WOULD GO (ambas corretas)."
+        "options": ["were going", "went", "would go", "had been going"],
+        "correct": 1,
+        "explanation": "Para descrever ações que aconteciam com regularidade no passado em frases narrativas, usamos o Simple Past. 'Went' é a forma mais natural e neutra neste contexto. 'Would go' é possível mas tem um tom mais literário e menos comum na fala cotidiana. 'Were going' indica uma ação em andamento num momento específico, não um hábito. Portanto, a resposta correta é WENT."
       },
       {
         "id": "ifm25",
@@ -210,9 +210,9 @@
         "id": "ifm26",
         "topic": "Future Tenses",
         "question": "The government _____ a major infrastructure bill next month. (planned decision)",
-        "options": ["will announce", "announces", "is going to announce", "Both A and C"],
-        "correct": 3,
-        "explanation": "Para planos já decididos sobre o futuro, podemos usar tanto 'will' quanto 'be going to'. Neste caso, o anúncio é algo planejado de antemão — e ambas as formas são aceitáveis em inglês para expressar intenção futura. Portanto, as respostas corretas são WILL ANNOUNCE e IS GOING TO ANNOUNCE (ambas corretas)."
+        "options": ["will announce", "announces", "is going to announce", "would announce"],
+        "correct": 2,
+        "explanation": "Quando falamos de uma decisão ou plano já definido com antecedência, usamos 'be going to'. O enunciado indica que o anúncio é uma 'planned decision' — algo já decidido pelo governo, não uma decisão espontânea. 'Will' é usado para decisões tomadas no momento da fala. Portanto, a resposta correta é IS GOING TO ANNOUNCE."
       },
       {
         "id": "ifm27",
@@ -378,9 +378,9 @@
         "id": "ifm47",
         "topic": "Conditionals – Unless/As Long As",
         "question": "I'll support your proposal _____ it doesn't compromise our budget.",
-        "options": ["unless", "as long as", "provided that", "Both B and C"],
-        "correct": 3,
-        "explanation": "'As long as' e 'provided that' têm o mesmo significado de 'contanto que / desde que'. Ambas as expressões introduzem uma condição necessária para que algo aconteça. Portanto, as respostas corretas são AS LONG AS e PROVIDED THAT (ambas corretas)."
+        "options": ["unless", "as long as", "provided that", "even though"],
+        "correct": 1,
+        "explanation": "'As long as' significa 'contanto que / desde que' e introduz uma condição positiva necessária para que o apoio aconteça. É a expressão mais natural e direta neste contexto conversacional. 'Unless' tem sentido negativo embutido e 'even though' indica concessão, não condição. Portanto, a resposta correta é AS LONG AS."
       },
       {
         "id": "ifm48",
@@ -442,9 +442,9 @@
         "id": "ifm55",
         "topic": "Past Tenses – While/When",
         "question": "The lights went out _____ we were having dinner.",
-        "options": ["during", "while", "when", "Both B and C"],
-        "correct": 3,
-        "explanation": "'While' e 'when' podem ambos introduzir uma ação contínua que foi interrompida por outra, quando seguidos de Past Continuous. Neste caso, estávamos jantando quando as luzes apagaram. Tanto 'while we were having dinner' quanto 'when we were having dinner' estão corretos. Portanto, a resposta correta é BOTH B AND C."
+        "options": ["during", "while", "when", "as soon as"],
+        "correct": 1,
+        "explanation": "'While' é a conjunção preferida para introduzir uma ação contínua no passado (Past Continuous) que serve de pano de fundo para outro evento. Indica simultaneidade e duração. 'During' exige um substantivo, não uma oração. 'As soon as' expressa sequência imediata, não simultaneidade. Portanto, a resposta correta é WHILE."
       },
       {
         "id": "ifm56",
@@ -498,9 +498,9 @@
         "id": "ifm62",
         "topic": "Future Tenses – Future Perfect",
         "question": "They _____ the new headquarters by next spring.",
-        "options": ["will complete", "are completing", "will have completed", "Both A and C"],
-        "correct": 3,
-        "explanation": "'Will complete' indica uma ação futura simples; 'will have completed' enfatiza que a ação estará concluída antes do ponto de referência futuro ('next spring'). Ambas as formas são gramaticalmente possíveis neste contexto. Portanto, a resposta correta é BOTH A AND C."
+        "options": ["will complete", "are completing", "will have completed", "will be completing"],
+        "correct": 2,
+        "explanation": "A expressão 'by next spring' funciona como prazo — indica que a ação estará concluída antes desse ponto no futuro. Quando queremos expressar que algo terá sido finalizado antes de um momento futuro, usamos o Future Perfect ('will have + particípio'). Portanto, a resposta correta é WILL HAVE COMPLETED."
       },
       {
         "id": "ifm63",
@@ -648,9 +648,9 @@
         "id": "iff10",
         "topic": "Cleft Sentences – It Is...That",
         "question": "It was Tom _____ broke the window. (emphatic)",
-        "options": ["which", "who", "that", "Both B and C"],
-        "correct": 3,
-        "explanation": "Quando queremos destacar quem fez algo, usamos a estrutura 'it was... who/that...'. Neste caso, queremos enfatizar que foi o Tom — e não outra pessoa — quem quebrou a janela. Para pessoas, tanto 'who' quanto 'that' funcionam. Portanto, a resposta correta é WHO ou THAT (ambos corretos)."
+        "options": ["which", "who", "that", "whom"],
+        "correct": 1,
+        "explanation": "Quando queremos destacar quem fez algo em uma cleft sentence, usamos a estrutura 'it was... who...'. Para pessoas, 'who' é o pronome relativo preferido e mais natural. 'Which' refere-se a coisas, não pessoas. 'Whom' é pronome objeto, mas aqui o pronome é sujeito da oração relativa ('broke'). Portanto, a resposta correta é WHO."
       },
       {
         "id": "iff11",
@@ -888,9 +888,9 @@
         "id": "iff40",
         "topic": "Relative Pronouns – Advanced",
         "question": "The town _____ I grew up has changed enormously.",
-        "options": ["where", "which", "in which", "Both A and C"],
-        "correct": 3,
-        "explanation": "Para indicar lugar em orações relativas, podemos usar 'where' (mais natural e direto) ou 'in which' (mais formal). Ambas as formas conectam 'the town' com 'I grew up'. 'Which' sozinho não é correto aqui porque precisaria da preposição 'in'. Portanto, a resposta correta é BOTH A AND C."
+        "options": ["where", "which", "in which", "that"],
+        "correct": 0,
+        "explanation": "Para indicar lugar em orações relativas, usamos 'where' — é a forma mais natural e direta. 'Where' equivale a 'in which' e pode substituí-lo sem preposição. 'Which' sozinho é incorreto aqui porque o verbo 'grew up' exige a preposição 'in'. Portanto, a resposta correta é WHERE."
       },
       {
         "id": "iff41",
@@ -904,9 +904,9 @@
         "id": "iff42",
         "topic": "Relative Pronouns – Advanced",
         "question": "This is the professor _____ I was telling you about.",
-        "options": ["who", "whom", "which", "Both A and B"],
-        "correct": 3,
-        "explanation": "Quando o pronome relativo é o objeto de um verbo, pode-se usar 'whom' (formal) ou 'who' (informal e muito aceito no inglês contemporâneo). Ambas as formas são corretas, embora 'whom' seja mais preciso gramaticalmente em registros formais. Portanto, a resposta correta é BOTH A AND B."
+        "options": ["who", "whom", "which", "whose"],
+        "correct": 1,
+        "explanation": "Quando o pronome relativo funciona como objeto do verbo (aqui, objeto da preposição 'about'), a forma gramaticalmente correta é 'whom'. 'Whom' é exigido em registros formais e é o padrão em inglês avançado. 'Which' refere-se a coisas, não pessoas. 'Whose' indica posse. Portanto, a resposta correta é WHOM."
       },
       {
         "id": "iff43",
@@ -952,9 +952,9 @@
         "id": "iff48",
         "topic": "Cleft Sentences – It Is...That",
         "question": "It is the quality of her work _____ sets her apart from the others.",
-        "options": ["which", "that", "who", "Both A and B"],
-        "correct": 3,
-        "explanation": "Na estrutura de ênfase 'It is... that/which', quando destacamos uma coisa (não uma pessoa), podemos usar tanto 'that' quanto 'which'. Neste caso, 'the quality of her work' é o elemento enfatizado — e tanto 'that' quanto 'which' são gramaticalmente aceitos. Portanto, a resposta correta é BOTH A AND B."
+        "options": ["which", "that", "who", "what"],
+        "correct": 1,
+        "explanation": "Na estrutura cleft 'It is... that', 'that' é o conector padrão e preferido. Embora 'which' seja tecnicamente possível em alguns contextos formais, 'that' é universalmente aceito e mais comum nas cleft sentences. 'Who' refere-se a pessoas, não a coisas. Portanto, a resposta correta é THAT."
       },
       {
         "id": "iff49",
@@ -968,17 +968,17 @@
         "id": "iff50",
         "topic": "Cleft Sentences – It Is...That",
         "question": "It is the government's policy _____ needs to change, not just the law.",
-        "options": ["who", "which", "that", "Both B and C"],
-        "correct": 3,
-        "explanation": "Na estrutura enfática 'It is... that/which', quando o elemento destacado é uma coisa ou ideia abstrata, tanto 'that' quanto 'which' são gramaticalmente corretos. 'The government's policy' é uma coisa — e podemos usar 'that' (mais informal) ou 'which' (mais formal). Portanto, a resposta correta é BOTH B AND C."
+        "options": ["who", "which", "that", "whose"],
+        "correct": 2,
+        "explanation": "Na estrutura cleft 'It is... that', 'that' é o conector padrão e preferido — funciona com pessoas, coisas e ideias abstratas. É a forma mais comum e neutra nas cleft sentences. 'Who' é para pessoas no papel de sujeito. 'Which' não é usado em cleft sentences canônicas. Portanto, a resposta correta é THAT."
       },
       {
         "id": "iff51",
         "topic": "Cleft Sentences – It Is...That",
         "question": "It was her persistence _____ eventually led to the breakthrough.",
-        "options": ["who", "which", "that", "Both B and C"],
-        "correct": 3,
-        "explanation": "A estrutura cleft 'It was... that/which' é usada para destacar um elemento específico da frase. Quando o elemento destacado é uma coisa, 'that' e 'which' são ambos aceitos. Neste caso, 'her persistence' é destacada como a causa do avanço. Portanto, a resposta correta é BOTH B AND C."
+        "options": ["who", "which", "that", "whose"],
+        "correct": 2,
+        "explanation": "Na estrutura cleft 'It was... that', 'that' é o conector padrão para cleft sentences — funciona com qualquer elemento destacado, seja pessoa, coisa ou ideia. 'Her persistence' é uma coisa/qualidade, e 'that' é a forma preferida. 'Who' seria usada se o elemento fosse uma pessoa no papel de sujeito. Portanto, a resposta correta é THAT."
       },
       {
         "id": "iff52",
@@ -1040,9 +1040,9 @@
         "id": "iff59",
         "topic": "Comparatives/Superlatives – Advanced",
         "question": "She is _____ the best candidate we have interviewed for the position.",
-        "options": ["far and away", "very", "much", "Both A and C"],
+        "options": ["far and away", "very", "much", "by much"],
         "correct": 0,
-        "explanation": "'Far and away' é uma expressão usada para intensificar superlativas, significando 'de longe / indiscutivelmente o melhor'. Enquanto 'much' intensifica comparativos, não superlativas. Portanto, a resposta correta é FAR AND AWAY."
+        "explanation": "'Far and away' é uma expressão usada para intensificar superlativas, significando 'de longe / indiscutivelmente'. É o modificador correto antes de 'the best'. 'Very' e 'much' não se combinam com superlativas — 'much' intensifica comparativos, não superlativas. Portanto, a resposta correta é FAR AND AWAY."
       },
       {
         "id": "iff60",
@@ -1080,17 +1080,17 @@
         "id": "iff64",
         "topic": "Inversion – So/Neither",
         "question": "'She can't drive.' — '_____ can I.'",
-        "options": ["Neither", "Nor", "So", "Both A and B"],
-        "correct": 3,
-        "explanation": "Para concordar com uma afirmação negativa, usamos 'neither' ou 'nor' seguido de inversão (auxiliar + sujeito). Ambas as formas são corretas: 'Neither can I' e 'Nor can I'. 'So can I' seria usado para concordar com afirmativas. Portanto, a resposta correta é BOTH A AND B."
+        "options": ["Neither", "Nor", "So", "Either"],
+        "correct": 0,
+        "explanation": "Para concordar com uma afirmação negativa, usamos 'neither' seguido de inversão (auxiliar + sujeito). 'Neither can I' é a forma padrão e mais comum de expressar concordância negativa. 'So can I' seria usado para concordar com afirmativas. 'Either' aparece no final da frase ('I can't either'), não no início com inversão. Portanto, a resposta correta é NEITHER."
       },
       {
         "id": "iff65",
         "topic": "Inversion – So/Neither",
         "question": "'I've been to Australia.' — '_____ have I.'",
-        "options": ["Neither", "So", "Nor", "Both B and C"],
+        "options": ["Neither", "So", "Nor", "Also"],
         "correct": 1,
-        "explanation": "Para concordar com uma afirmação positiva, usamos 'So + auxiliar + sujeito'. Neste caso, a afirmação original usa o Present Perfect ('I've been'), então a concordância é 'So have I'. 'Neither/Nor' seriam usados para concordar com frases negativas. Portanto, a resposta correta é SO."
+        "explanation": "Para concordar com uma afirmação positiva, usamos 'So + auxiliar + sujeito'. Neste caso, a afirmação original usa o Present Perfect ('I've been'), então a concordância é 'So have I'. 'Neither/Nor' são usados para concordar com frases negativas. 'Also' não funciona com essa estrutura de inversão. Portanto, a resposta correta é SO."
       },
       {
         "id": "iff66",

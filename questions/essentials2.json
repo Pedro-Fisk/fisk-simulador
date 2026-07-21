@@ -138,9 +138,9 @@
         "id": "e2m17",
         "topic": "Numbers",
         "question": "How do you read the number 2,500?",
-        "options": ["two thousand and five hundred", "twenty-five hundred", "two million five hundred", "Both A and B are correct"],
-        "correct": 3,
-        "explanation": "Quando queremos dizer o número 2.500 em inglês, existem duas formas igualmente corretas: 'two thousand five hundred' ou 'twenty-five hundred'. Neste caso, as opções A e B estão ambas certas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+        "options": ["two thousand and five hundred", "twenty-five hundred", "two million five hundred", "two thousand fifty"],
+        "correct": 1,
+        "explanation": "O número 2.500 pode ser dito como 'two thousand five hundred' (mais formal) ou 'twenty-five hundred' (forma coloquial muito usada, especialmente no inglês americano). A forma mais natural na fala cotidiana é TWENTY-FIVE HUNDRED. Portanto, a resposta correta é TWENTY-FIVE HUNDRED."
       },
       {
         "id": "e2m18",
@@ -162,17 +162,17 @@
         "id": "e2m20",
         "topic": "When / While",
         "question": "_____ Jane was taking a bath, the phone rang.",
-        "options": ["When", "While", "Both are correct", "During"],
-        "correct": 2,
-        "explanation": "Quando queremos ligar duas ações do passado — uma em andamento e outra que aconteceu de repente —, podemos usar WHEN ou WHILE. Neste caso, as duas opções funcionam, pois tomar banho é uma ação que durava um tempo quando o telefone tocou. Portanto, a resposta correta é BOTH ARE CORRECT."
+        "options": ["While", "During", "For", "Until"],
+        "correct": 0,
+        "explanation": "Usamos 'while' para conectar duas ações passadas quando uma estava em progresso (Past Continuous: was taking) e a outra aconteceu de repente (Simple Past: rang). 'During' é seguido de substantivo, não de oração com sujeito e verbo."
       },
       {
         "id": "e2m21",
         "topic": "Can / Could – Ability",
         "question": "Could you read and write when you were a child?",
-        "options": ["Yes, I could.", "Yes, I can.", "Yes, I could read and write.", "Both A and C are correct."],
-        "correct": 3,
-        "explanation": "Quando queremos responder sim a uma pergunta com COULD, podemos dar uma resposta curta ('Yes, I could') ou uma resposta completa ('Yes, I could read and write') — as duas estão certas. Neste caso, a pergunta é sobre uma habilidade que você tinha quando era criança. Portanto, a resposta correta é BOTH A AND C ARE CORRECT."
+        "options": ["Yes, I could.", "Yes, I can.", "No, I can't.", "Yes, I am able to."],
+        "correct": 0,
+        "explanation": "Para responder afirmativamente a uma pergunta com 'could', usamos 'Yes, I could.' O auxiliar 'can' não é usado para falar de habilidades no passado — 'could' é a forma correta."
       },
       {
         "id": "e2m22",
@@ -450,33 +450,33 @@
         "id": "e2m56",
         "topic": "Numbers / Years",
         "question": "How do you say the year '1776'?",
-        "options": ["one thousand seven hundred seventy-six", "seventeen seventy-six", "seventeen hundred and seventy-six", "Both B and C are correct"],
-        "correct": 3,
-        "explanation": "Para anos a partir de 1100, podemos ler em dois blocos de dois dígitos ('seventeen seventy-six') ou como 'seventeen hundred (and) seventy-six'. As duas formas estão corretas. Portanto, a resposta correta é BOTH B AND C ARE CORRECT."
+        "options": ["one thousand seven hundred seventy-six", "seventeen seventy-six", "seventeen hundred and seventy-six", "seventeen and seventy-six"],
+        "correct": 1,
+        "explanation": "Para dizer um ano em inglês, lemos em dois blocos de dois dígitos. O ano 1776 fica 'seventeen' (17) mais 'seventy-six' (76). Essa é a forma convencional e mais usada na fala. Portanto, a resposta correta é SEVENTEEN SEVENTY-SIX."
       },
       {
         "id": "e2m57",
         "topic": "Numbers / Years",
         "question": "How do you say the year '2005'?",
-        "options": ["twenty oh-five", "two thousand and five", "twenty hundred five", "Both A and B are correct"],
-        "correct": 3,
-        "explanation": "Para anos entre 2001 e 2009, usamos principalmente 'two thousand and five', mas a forma 'twenty oh-five' também é usada e aceita. As duas formas são corretas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+        "options": ["twenty oh-five", "two thousand and five", "twenty hundred five", "two oh oh five"],
+        "correct": 1,
+        "explanation": "Para anos entre 2001 e 2009, a forma padrão em inglês é 'two thousand (and) five'. O ano 2005 não pode ser dito em dois blocos como os outros anos do século XX, porque '20 05' não funciona bem. Portanto, a resposta correta é TWO THOUSAND AND FIVE."
       },
       {
         "id": "e2m58",
         "topic": "Numbers / Years",
         "question": "How do you say the year '1900'?",
-        "options": ["one thousand nine hundred", "nineteen hundred", "nineteen zero zero", "Both A and B are correct"],
-        "correct": 3,
-        "explanation": "O ano 1900 pode ser dito de duas formas: 'one thousand nine hundred' ou, de forma mais natural, 'nineteen hundred'. As duas expressões estão corretas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+        "options": ["one thousand nine hundred", "nineteen hundred", "nineteen zero zero", "one nine hundred"],
+        "correct": 1,
+        "explanation": "O ano 1900 é dito como 'nineteen hundred' em inglês — essa é a forma convencional e mais usada na fala. A forma 'one thousand nine hundred' existe mas é muito pouco usada para dizer anos. Portanto, a resposta correta é NINETEEN HUNDRED."
       },
       {
         "id": "e2m59",
         "topic": "Numbers / Years",
         "question": "How do you say the year '2016'?",
-        "options": ["two thousand sixteen", "twenty sixteen", "twenty hundred sixteen", "Both A and B are correct"],
-        "correct": 3,
-        "explanation": "Para anos do século XXI a partir de 2010, podemos dizer 'two thousand sixteen' ou, de forma mais curta e moderna, 'twenty sixteen'. As duas formas são corretas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+        "options": ["two thousand sixteen", "twenty sixteen", "twenty hundred sixteen", "two oh sixteen"],
+        "correct": 1,
+        "explanation": "Para anos do século XXI a partir de 2010, a forma mais moderna e usada na fala é 'twenty sixteen' — lida em dois blocos, como nos anos do século XX. Portanto, a resposta correta é TWENTY SIXTEEN."
       },
       {
         "id": "e2m60",
@@ -490,9 +490,9 @@
         "id": "e2m61",
         "topic": "Numbers",
         "question": "How do you say '325'?",
-        "options": ["three hundred twenty-five", "three hundred and twenty-five", "three twenty-five", "Both A and B are correct"],
-        "correct": 3,
-        "explanation": "O número 325 pode ser dito como 'three hundred twenty-five' (mais comum no inglês americano) ou 'three hundred and twenty-five' (mais comum no inglês britânico). As duas formas são corretas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+        "options": ["three hundred twenty-five", "three hundred and twenty-five", "three twenty-five", "three hundreds twenty-five"],
+        "correct": 1,
+        "explanation": "O número 325 é dito como 'three hundred and twenty-five' — essa forma com AND é a mais comum, especialmente no inglês britânico e também amplamente usada no inglês americano. 'Hundred' nunca recebe -s mesmo quando há mais de um. Portanto, a resposta correta é THREE HUNDRED AND TWENTY-FIVE."
       },
       {
         "id": "e2m62",
@@ -712,9 +712,9 @@
         "id": "e2f13",
         "topic": "Can / Could – Request",
         "question": "_____ you help me clean the kitchen, please? (formal request)",
-        "options": ["Can", "Will", "Could", "Both A and C"],
-        "correct": 3,
-        "explanation": "Quando queremos pedir ajuda a alguém, podemos usar CAN (mais informal) ou COULD (mais educado e formal), e as duas formas funcionam. Neste caso, tanto 'Can you help me?' quanto 'Could you help me?' estão corretos. Portanto, a resposta correta é BOTH A AND C."
+        "options": ["Can", "Will", "Could", "Shall"],
+        "correct": 2,
+        "explanation": "Para fazer um pedido formal em inglês, usamos COULD — é mais educado que CAN e é a forma preferida em contextos formais. 'Will you help me?' soa como uma ordem, e 'Shall you help me?' não é usado para pedidos. Portanto, a resposta correta é COULD."
       },
       {
         "id": "e2f14",
@@ -776,9 +776,9 @@
         "id": "e2f21",
         "topic": "Numbers – Years",
         "question": "How do you say the year '2030'?",
-        "options": ["twenty hundred and thirty", "two thousand thirty", "twenty thirty", "Both B and C are correct"],
-        "correct": 3,
-        "explanation": "Quando queremos dizer o ano 2030, existem duas formas igualmente corretas em inglês: 'two thousand thirty' ou 'twenty thirty'. Neste caso, as opções B e C estão ambas certas. Portanto, a resposta correta é BOTH B AND C ARE CORRECT."
+        "options": ["twenty hundred and thirty", "two thousand thirty", "twenty thirty", "two thousand and thirty hundred"],
+        "correct": 2,
+        "explanation": "Para anos do século XXI a partir de 2010, a forma mais moderna e usada na fala é 'twenty thirty' — dois blocos de dois dígitos, como nos anos do século XX. Portanto, a resposta correta é TWENTY THIRTY."
       },
       {
         "id": "e2f22",
@@ -928,9 +928,9 @@
         "id": "e2f40",
         "topic": "Can / Could / May – Permission",
         "question": "A student wants to speak to the teacher after class. Which options are polite?",
-        "options": ["Can I talk to you?", "Could I talk to you?", "May I talk to you?", "Both B and C are correct"],
-        "correct": 3,
-        "explanation": "Para pedir permissão de forma educada, usamos COULD (semi-formal) ou MAY (muito formal). As duas formas são corretas em contextos formais como uma escola. CAN também funciona, mas é menos educado. Portanto, a resposta correta é BOTH B AND C ARE CORRECT."
+        "options": ["Can I talk to you?", "Could I talk to you?", "May I talk to you?", "Shall I talk to you?"],
+        "correct": 2,
+        "explanation": "Para pedir permissão de forma muito educada e formal, usamos MAY. A escala de formalidade é: MAY (mais formal) → COULD → CAN (menos formal). Para falar com um professor após a aula, MAY I TALK TO YOU? é a forma mais adequada. Portanto, a resposta correta é MAY I TALK TO YOU?"
       },
       {
         "id": "e2f41",
@@ -1240,25 +1240,25 @@
         "id": "e2f79",
         "topic": "Will – Future",
         "question": "The negative form of 'she will go' is:",
-        "options": ["she no will go", "she will not go", "she won't go", "Both B and C are correct"],
-        "correct": 3,
-        "explanation": "A forma negativa de WILL pode ser WILL NOT (formal) ou WON'T (contração informal). As duas formas estão corretas: 'she will not go' e 'she won't go'. Portanto, a resposta correta é BOTH B AND C ARE CORRECT."
+        "options": ["she no will go", "she will not go", "she won't go", "she willn't go"],
+        "correct": 2,
+        "explanation": "A contração de WILL NOT é WON'T — essa é a forma natural e muito usada na fala. 'She willn't go' não existe em inglês. Portanto, a resposta correta é SHE WON'T GO."
       },
       {
         "id": "e2f80",
         "topic": "Numbers – Years",
         "question": "How do you say the year '1066'?",
-        "options": ["one thousand and sixty-six", "ten sixty-six", "one zero six six", "Both A and B are correct"],
-        "correct": 3,
-        "explanation": "O ano 1066 pode ser dito de duas formas: 'one thousand and sixty-six' ou, mais comumente, 'ten sixty-six' (dois blocos de dois dígitos). As duas formas são corretas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+        "options": ["one thousand and sixty-six", "ten sixty-six", "one zero six six", "ten hundred sixty-six"],
+        "correct": 1,
+        "explanation": "Para dizer anos em inglês, usamos dois blocos de dois dígitos quando possível. O ano 1066 fica 'ten' (10) mais 'sixty-six' (66) — essa é a forma convencional e mais usada na fala. Portanto, a resposta correta é TEN SIXTY-SIX."
       },
       {
         "id": "e2f81",
         "topic": "Numbers – Years",
         "question": "How do you say the year '1492'?",
-        "options": ["fourteen ninety-two", "one thousand four hundred ninety-two", "fourteen hundred and ninety-two", "Both A and C are correct"],
-        "correct": 3,
-        "explanation": "O ano 1492 pode ser dito como 'fourteen ninety-two' (dois blocos) ou 'fourteen hundred and ninety-two'. As duas formas são corretas e naturais em inglês. Portanto, a resposta correta é BOTH A AND C ARE CORRECT."
+        "options": ["fourteen ninety-two", "one thousand four hundred ninety-two", "fourteen hundred and ninety-two", "fourteen and ninety-two"],
+        "correct": 0,
+        "explanation": "Para dizer anos em inglês, usamos dois blocos de dois dígitos. O ano 1492 fica 'fourteen' (14) mais 'ninety-two' (92) — essa é a forma convencional e mais usada na fala. Portanto, a resposta correta é FOURTEEN NINETY-TWO."
       },
       {
         "id": "e2f82",
@@ -1272,9 +1272,9 @@
         "id": "e2f83",
         "topic": "Numbers – Years",
         "question": "How do you say the year '1910'?",
-        "options": ["one thousand nine hundred ten", "nineteen ten", "nineteen hundred ten", "Both A and B are correct"],
-        "correct": 3,
-        "explanation": "O ano 1910 pode ser dito como 'nineteen ten' (dois blocos de dois dígitos) ou 'one thousand nine hundred ten'. A forma mais natural é 'nineteen ten'. As duas formas são aceitas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+        "options": ["one thousand nine hundred ten", "nineteen ten", "nineteen hundred ten", "one nine ten"],
+        "correct": 1,
+        "explanation": "Para dizer anos em inglês, lemos em dois blocos de dois dígitos. O ano 1910 fica 'nineteen' (19) mais 'ten' (10) — essa é a forma convencional e mais natural na fala. Portanto, a resposta correta é NINETEEN TEN."
       },
       {
         "id": "e2f84",
@@ -1336,9 +1336,9 @@
         "id": "e2f91",
         "topic": "Genitive Case",
         "question": "How do you say 'o final do livro' in English?",
-        "options": ["the end of the book", "the book's end", "Both A and B are correct", "the book end"],
-        "correct": 2,
-        "explanation": "Em inglês, a posse pode ser expressa de duas formas: com o genitivo (BOOK'S END) ou com a preposição of (END OF THE BOOK). As duas formas são corretas em inglês. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+        "options": ["the end of the book", "the book's end", "the books end", "the book end"],
+        "correct": 0,
+        "explanation": "Em inglês, para coisas inanimadas como um livro, a forma mais natural é usar a preposição OF: THE END OF THE BOOK. O genitivo 's é mais usado para pessoas e animais. Portanto, a resposta correta é THE END OF THE BOOK."
       },
       {
         "id": "e2f92",

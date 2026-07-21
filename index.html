@@ -710,27 +710,34 @@
       margin-bottom: 2.5vw;
     }
     body.prof-mode .q-text {
-      font-size: clamp(2rem, 3.8vw, 7rem) !important;
+      font-size: clamp(1.7rem, 3.2vw, 6rem) !important;
       line-height: 1.3 !important;
-      margin-bottom: 3.5vw !important;
+      margin-bottom: 3vw !important;
     }
     body.prof-mode .opts-grid {
       gap: 1.2vw;
       grid-template-columns: 1fr 1fr;
     }
     body.prof-mode .opt-btn {
-      font-size: clamp(1.4rem, 2.4vw, 4rem) !important;
-      padding: 2.5vw 2.5vw !important;
+      font-size: clamp(1.2rem, 2vw, 3.4rem) !important;
+      padding: 2.1vw 2.2vw !important;
       border-radius: 1vw;
       gap: 1.8vw;
       line-height: 1.3;
       min-height: 0 !important;
     }
     body.prof-mode .opt-letter {
-      width: clamp(2rem, 3.8vw, 5.5rem);
-      height: clamp(2rem, 3.8vw, 5.5rem);
-      font-size: clamp(.75rem, 1.5vw, 2.2rem);
+      width: clamp(1.7rem, 3.2vw, 4.7rem);
+      height: clamp(1.7rem, 3.2vw, 4.7rem);
+      font-size: clamp(.65rem, 1.3vw, 1.9rem);
       flex-shrink: 0;
+    }
+    body.prof-mode .prof-explanation {
+      font-size: clamp(1.1rem, 1.8vw, 2.8rem);
+      padding: 1.5vw 2vw;
+      border-radius: 1vw;
+      margin-top: 2vw;
+      line-height: 1.5;
     }
 
     /* prof-nav base (hidden outside prof-mode) */
@@ -761,17 +768,17 @@
       color: var(--gray); white-space: nowrap; text-align: center; min-width: 56px;
     }
     body.prof-mode #btn-revelar {
-      font-size: clamp(1rem, 1.5vw, 2rem);
-      padding: 1.2vw 2vw;
+      font-size: clamp(.9rem, 1.3vw, 1.7rem);
+      padding: 1.1vw 2vw;
       border-radius: .8vw;
     }
     body.prof-mode .prof-step-btn {
-      font-size: clamp(.9rem, 1.3vw, 1.8rem);
-      padding: 1.2vw 2vw;
+      font-size: clamp(.8rem, 1.1vw, 1.55rem);
+      padding: 1.1vw 2vw;
       border-radius: .8vw;
     }
     body.prof-mode .prof-prog {
-      font-size: clamp(.9rem, 1.3vw, 1.8rem);
+      font-size: clamp(.8rem, 1.1vw, 1.55rem);
       min-width: 5vw;
     }
     .opt-btn.prof-correct {
@@ -781,6 +788,14 @@
     body.theme-dark .opt-btn.prof-correct {
       background: rgba(20,83,45,.3) !important;
       border-color: #22c55e !important; color: #86efac !important;
+    }
+    .opt-btn.prof-wrong {
+      background: #fee2e2 !important; border-color: #dc2626 !important;
+      color: #991b1b !important; font-weight: 800;
+    }
+    body.theme-dark .opt-btn.prof-wrong {
+      background: rgba(127,29,29,.3) !important;
+      border-color: #f87171 !important; color: #fca5a5 !important;
     }
     .prof-explanation {
       background: #f0fdf4; border: 1.5px solid #86efac;
@@ -1387,7 +1402,7 @@ function profRender() {
       <div class="q-text">${q.question}</div>
       <div class="opts-grid">
         ${q._opts.map((opt, j) => `
-          <button class="opt-btn" id="prof-opt-${j}" style="pointer-events:none;">
+          <button class="opt-btn" id="prof-opt-${j}" onclick="profSelect(${j})">
             <span class="opt-letter">${LETTERS[j]}</span>
             <span>${opt}</span>
           </button>`).join('')}
@@ -1395,6 +1410,7 @@ function profRender() {
       <div class="prof-explanation" id="prof-expl" style="display:none;"></div>
     </div>`;
 
+  state.profChosen = null;
   document.getElementById('prof-prog').textContent = `${i + 1} / ${total}`;
 
   const revBtn = document.getElementById('btn-revelar');
@@ -1412,6 +1428,15 @@ function profRender() {
   if (scrollEl) scrollEl.scrollTop = 0;
 }
 
+function profSelect(j) {
+  if (state.profRevealed) return;
+  state.profChosen = j;
+  for (let k = 0; k < 4; k++) {
+    const b = document.getElementById('prof-opt-' + k);
+    if (b) b.classList.toggle('chosen', k === j);
+  }
+}
+
 function profReveal() {
   if (state.profRevealed) return;
   state.profRevealed = true;
@@ -1420,6 +1445,11 @@ function profReveal() {
 
   const correctBtn = document.getElementById('prof-opt-' + q._correct);
   if (correctBtn) correctBtn.classList.add('prof-correct');
+
+  if (state.profChosen !== null && state.profChosen !== q._correct) {
+    const wrongBtn = document.getElementById('prof-opt-' + state.profChosen);
+    if (wrongBtn) { wrongBtn.classList.remove('chosen'); wrongBtn.classList.add('prof-wrong'); }
+  }
 
   const expl = document.getElementById('prof-expl');
   if (expl && q.explanation) {

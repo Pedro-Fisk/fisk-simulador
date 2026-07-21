@@ -74,9 +74,9 @@
         "id": "t2m09",
         "topic": "First Conditional",
         "question": "If it rains, I _____ go by car.",
-        "options": ["will", "would", "am going to", "Both A and C are correct"],
-        "correct": 3,
-        "explanation": "Quando queremos falar de um resultado possível no futuro, podemos usar 'will' ou 'going to' — as duas formas funcionam. Neste caso, se chover, a pessoa vai de carro, e tanto 'will go' quanto 'am going to go' expressam a mesma ideia. Portanto, a resposta correta é BOTH A AND C ARE CORRECT — as duas opções estão certas."
+        "options": ["will", "would", "am going to", "will be going"],
+        "correct": 0,
+        "explanation": "Quando queremos falar de um resultado possível no futuro em uma primeira condicional (if + presente + resultado), usamos 'will' na cláusula de resultado. Neste caso, se chover, a pessoa vai de carro — uma consequência futura e possível. Portanto, a resposta correta é WILL."
       },
       {
         "id": "t2m10",
