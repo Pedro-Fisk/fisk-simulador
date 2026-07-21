@@ -1,0 +1,369 @@
+{
+  "book": "infocus",
+  "bookName": "In Focus",
+  "level": "advanced",
+  "midterm": {
+    "label": "Prova do Meio do Livro",
+    "topics": "Sections 1–5: Present Tenses, Past Tenses, Future Tenses, Subjunctive, Conditionals (1st, 2nd, 3rd, Mixed)",
+    "questions": [
+      {
+        "id": "ifm01",
+        "topic": "Present Tenses",
+        "question": "Scientists have recently discovered that dolphins _____ complex languages.",
+        "options": ["use", "are using", "have used", "used"],
+        "correct": 0,
+        "explanation": "Quando queremos falar de um fato permanente ou uma verdade científica, usamos o verbo no presente simples. Neste caso, a frase descreve algo que os golfinhos sempre fazem — é um fato da natureza, não uma situação temporária. Portanto, a resposta correta é USE."
+      },
+      {
+        "id": "ifm02",
+        "topic": "Present Tenses",
+        "question": "I _____ about buying a new apartment these days.",
+        "options": ["think", "am thinking", "have thought", "was thinking"],
+        "correct": 1,
+        "explanation": "Quando queremos falar de algo temporário que está acontecendo nesse período da vida, usamos 'am/is/are' com o verbo com -ing. Neste caso, a pessoa está pensando em comprar um apartamento 'these days' — é uma situação passageira, não um fato permanente. Portanto, a resposta correta é AM THINKING."
+      },
+      {
+        "id": "ifm03",
+        "topic": "Past Tenses",
+        "question": "When I was a child, I _____ to school by bicycle every day.",
+        "options": ["used to go", "was going", "would go", "Both A and C"],
+        "correct": 3,
+        "explanation": "Quando queremos falar de hábitos que tínhamos no passado mas não temos mais, podemos usar 'used to' ou 'would' com o verbo — as duas formas funcionam para ações repetidas no passado. Neste caso, ir de bicicleta para a escola todo dia era um hábito de infância, e tanto 'used to go' quanto 'would go' expressam isso. Portanto, a resposta correta é BOTH A AND C."
+      },
+      {
+        "id": "ifm04",
+        "topic": "Past Tenses",
+        "question": "She entered the room, turned on the lights, and _____ on the sofa.",
+        "options": ["was sitting", "sat", "had sat", "would sit"],
+        "correct": 1,
+        "explanation": "Quando queremos contar uma série de ações que aconteceram uma após a outra no passado, usamos a forma passada do verbo para cada uma. Neste caso, ela entrou, acendeu as luzes e sentou — três ações em sequência. Portanto, a resposta correta é SAT."
+      },
+      {
+        "id": "ifm05",
+        "topic": "Past Tenses",
+        "question": "By the time the ambulance arrived, the patient _____ already _____.",
+        "options": ["was / dying", "has / died", "had / died", "would / die"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo aconteceu antes de outro evento no passado, usamos 'had' com a forma passada do verbo. Neste caso, o paciente já havia morrido antes de a ambulância chegar — uma ação anterior à outra no passado. Portanto, a resposta correta é HAD / DIED."
+      },
+      {
+        "id": "ifm06",
+        "topic": "Future Tenses",
+        "question": "The train _____ at 8 pm. (scheduled timetable)",
+        "options": ["will leave", "is going to leave", "leaves", "is leaving"],
+        "correct": 2,
+        "explanation": "Quando queremos falar de horários oficiais e programados, como trens e aviões, usamos o verbo no presente simples. Neste caso, é um horário de trem — algo fixo e oficial, não um plano pessoal. Portanto, a resposta correta é LEAVES."
+      },
+      {
+        "id": "ifm07",
+        "topic": "Future Tenses",
+        "question": "Look at those dark clouds! It _____ rain.",
+        "options": ["will", "is going to", "shall", "might"],
+        "correct": 1,
+        "explanation": "Quando queremos fazer uma previsão baseada em algo que estamos vendo agora, usamos 'is/are going to'. Neste caso, há nuvens escuras no céu — uma evidência visível de que vai chover em breve. Portanto, a resposta correta é IS GOING TO."
+      },
+      {
+        "id": "ifm08",
+        "topic": "Future Tenses",
+        "question": "This time next week, I _____ on a beach in Hawaii.",
+        "options": ["will lie", "will be lying", "am going to lie", "lie"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo vai estar acontecendo em um momento específico no futuro, usamos 'will be' com o verbo com -ing. Neste caso, 'this time next week' indica um momento exato na próxima semana, e a pessoa vai estar deitada na praia naquele instante. Portanto, a resposta correta é WILL BE LYING."
+      },
+      {
+        "id": "ifm09",
+        "topic": "Subjunctive",
+        "question": "The doctor recommended that he _____ smoking immediately.",
+        "options": ["stops", "stop", "stopped", "should stop"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que alguém recomendou que outra pessoa fizesse algo, usamos 'recommend that' com o verbo igual para todo mundo, sem -s. Neste caso, o médico recomendou que ele parasse de fumar — mesmo sendo 'he', o verbo não leva -s. Portanto, a resposta correta é STOP."
+      },
+      {
+        "id": "ifm10",
+        "topic": "Subjunctive",
+        "question": "It is essential that every student _____ a dictionary.",
+        "options": ["has", "have", "will have", "should having"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo é essencial ou importante que alguém faça, usamos 'it is essential/important that' com o verbo igual para todo mundo, sem -s. Neste caso, é essencial que cada aluno tenha um dicionário — mesmo sendo 'every student', o verbo não leva -s. Portanto, a resposta correta é HAVE."
+      },
+      {
+        "id": "ifm11",
+        "topic": "First Conditional",
+        "question": "You won't get a seat _____ you buy the ticket in advance.",
+        "options": ["if", "unless", "although", "in case"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer 'a não ser que' ou 'se não', usamos 'unless'. Neste caso, a pessoa não vai conseguir assento se não comprar o ingresso com antecedência — 'unless' carrega esse sentido negativo. Portanto, a resposta correta é UNLESS."
+      },
+      {
+        "id": "ifm12",
+        "topic": "Second Conditional",
+        "question": "I _____ what to do if I _____ you.",
+        "options": ["know / am", "would know / were", "knew / were", "would know / am"],
+        "correct": 1,
+        "explanation": "Quando queremos imaginar uma situação hipotética no presente, usamos 'would' na parte do resultado e a forma passada do verbo na parte da condição. Neste caso, a pessoa está imaginando o que faria se estivesse no lugar do outro — algo que não é real. Portanto, a resposta correta é WOULD KNOW / WERE."
+      },
+      {
+        "id": "ifm13",
+        "topic": "Third Conditional",
+        "question": "She _____ the job if she had prepared better for the interview.",
+        "options": ["might have gotten", "would get", "got", "had gotten"],
+        "correct": 0,
+        "explanation": "Quando queremos imaginar um passado diferente e dizer o que poderia ter acontecido, usamos 'might/would/could have' com a forma passada do verbo. Neste caso, ela não se preparou bem para a entrevista e talvez pudesse ter conseguido o emprego — 'might' indica que era possível, mas não certo. Portanto, a resposta correta é MIGHT HAVE GOTTEN."
+      },
+      {
+        "id": "ifm14",
+        "topic": "Mixed Conditionals",
+        "question": "If he had saved money, he _____ so broke now.",
+        "options": ["wouldn't be", "wouldn't have been", "wasn't", "won't be"],
+        "correct": 0,
+        "explanation": "Quando queremos falar de algo que não aconteceu no passado e dizer como isso afeta o presente, usamos 'had' na condição e 'would be' no resultado. Neste caso, ele não economizou dinheiro no passado e por isso está sem dinheiro agora — passado que explica o presente. Portanto, a resposta correta é WOULDN'T BE."
+      },
+      {
+        "id": "ifm15",
+        "topic": "Mixed Conditionals",
+        "question": "If she _____ more patient, she would have finished the project on time.",
+        "options": ["is", "was", "were", "had been"],
+        "correct": 2,
+        "explanation": "Quando queremos falar de como alguém é hoje e imaginar o que poderia ter acontecido diferente no passado, usamos 'were' na condição e 'would have' no resultado. Neste caso, a pessoa não é paciente por natureza e isso atrapalhou o projeto no passado. Portanto, a resposta correta é WERE."
+      },
+      {
+        "id": "ifm16",
+        "topic": "Conditionals – Unless/As Long As",
+        "question": "You can borrow my car _____ you drive carefully.",
+        "options": ["unless", "provided that", "as long as", "Both B and C"],
+        "correct": 3,
+        "explanation": "Quando queremos dizer 'desde que' ou 'contanto que', podemos usar 'as long as' ou 'provided that' — as duas expressões têm o mesmo sentido. Neste caso, a pessoa pode pegar o carro emprestado contanto que dirija com cuidado. Portanto, a resposta correta é AS LONG AS e PROVIDED THAT (ambas corretas)."
+      },
+      {
+        "id": "ifm17",
+        "topic": "Present Tenses – State Verbs",
+        "question": "She _____ what you mean. (understand – state verb)",
+        "options": ["is understanding", "was understanding", "understands", "understand"],
+        "correct": 2,
+        "explanation": "Quando o verbo descreve um estado mental — como entender, saber, acreditar, gostar — usamos o presente simples, nunca a forma com -ing. Neste caso, 'understand' descreve algo que a pessoa sabe, não uma ação que está fazendo agora. Portanto, a resposta correta é UNDERSTANDS."
+      },
+      {
+        "id": "ifm18",
+        "topic": "Past Tenses – While/When",
+        "question": "While I _____ TV, my phone rang.",
+        "options": ["watched", "was watching", "had watched", "watch"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que uma coisa estava acontecendo quando outra a interrompeu, usamos 'was/were' com o verbo com -ing para a ação que estava em andamento. Neste caso, a pessoa estava assistindo TV quando o telefone tocou — assistir era o que estava acontecendo no momento. Portanto, a resposta correta é WAS WATCHING."
+      },
+      {
+        "id": "ifm19",
+        "topic": "Future Tenses – Future Perfect",
+        "question": "By the end of this year, I _____ Spanish for two years.",
+        "options": ["will study", "will be studying", "will have been studying", "am studying"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que uma ação vai continuar acontecendo até um ponto no futuro e queremos destacar a duração, usamos 'will have been' com o verbo com -ing. Neste caso, no final do ano a pessoa vai estar estudando espanhol há dois anos — a duração é o ponto importante. Portanto, a resposta correta é WILL HAVE BEEN STUDYING."
+      },
+      {
+        "id": "ifm20",
+        "topic": "Conditionals",
+        "question": "_____ it rain tomorrow, the match will be cancelled.",
+        "options": ["Should", "Would", "Could", "Might"],
+        "correct": 0,
+        "explanation": "Quando queremos fazer uma condição de forma mais elegante e formal, usamos 'should' no lugar de 'if', mudando a ordem da frase. Neste caso, 'should it rain' é uma forma sofisticada de dizer 'if it rains' — muito comum em comunicações profissionais. Portanto, a resposta correta é SHOULD."
+      },
+      {
+        "id": "ifm21",
+        "topic": "Subjunctive",
+        "question": "The manager insisted that the report _____ by Monday.",
+        "options": ["is finished", "be finished", "will be finished", "was finished"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que alguém insistiu em que algo fosse feito, usamos 'insist that' com o verbo igual para todo mundo — e quando a ação recai sobre uma coisa, usamos 'be' com a forma passada do verbo. Neste caso, o gerente insistiu que o relatório fosse terminado até segunda. Portanto, a resposta correta é BE FINISHED."
+      },
+      {
+        "id": "ifm22",
+        "topic": "Conditionals – Mixed",
+        "question": "If I were you, I _____ accepted their offer yesterday.",
+        "options": ["would have", "would", "had", "will have"],
+        "correct": 0,
+        "explanation": "Quando queremos imaginar que somos outra pessoa agora e dizer o que teríamos feito no passado, usamos 'if I were you' com 'would have' no resultado. Neste caso, a pessoa está dizendo que, se estivesse no lugar do outro, teria aceitado a oferta ontem — presente imaginado com resultado no passado. Portanto, a resposta correta é WOULD HAVE."
+      }
+    ]
+  },
+  "final": {
+    "label": "Prova do Final do Livro",
+    "topics": "Sections 1–10: Todo o conteúdo + Inversion, Gerunds vs Infinitives, Relative Pronouns, Comparatives/Superlatives, Passive Voice All Tenses, Emphatic Forms/Cleft Sentences",
+    "questions": [
+      {
+        "id": "iff01",
+        "topic": "Inversion – Negative Adverbials",
+        "question": "'Never have I _____ such a rude person.' (inversion)",
+        "options": ["met", "meet", "meeting", "to meet"],
+        "correct": 0,
+        "explanation": "Quando queremos dar ênfase a algo que nunca aconteceu, a ordem muda: o verbo de apoio vem antes da pessoa. Neste caso, a frase começa com 'never' e por isso a ordem é 'never have I' — e o verbo que completa o sentido é a forma passada de 'meet'. Portanto, a resposta correta é MET."
+      },
+      {
+        "id": "iff02",
+        "topic": "Inversion",
+        "question": "Hardly _____ sat down when the phone rang.",
+        "options": ["I had", "I have", "had I", "have I"],
+        "correct": 2,
+        "explanation": "Quando queremos dar ênfase a algo que mal aconteceu quando outra coisa ocorreu, a ordem muda: o verbo de apoio vem antes da pessoa. Neste caso, 'hardly' inicia a frase, então em vez de 'I had', dizemos 'had I' — a pessoa mal havia sentado quando o telefone tocou. Portanto, a resposta correta é HAD I."
+      },
+      {
+        "id": "iff03",
+        "topic": "Gerunds vs Infinitives – Meaning Change",
+        "question": "I stopped _____ when the movie started. (stopped doing something)",
+        "options": ["to talk", "talking", "talk", "to talking"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que paramos de fazer uma atividade, usamos 'stop' com o verbo com -ing. Neste caso, a pessoa parou de falar quando o filme começou — a atividade de falar foi interrompida. Portanto, a resposta correta é TALKING."
+      },
+      {
+        "id": "iff04",
+        "topic": "Gerunds vs Infinitives – Meaning Change",
+        "question": "I'll never forget _____ my grandmother for the first time.",
+        "options": ["meeting", "to meet", "to meeting", "meet"],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que nunca vamos esquecer uma experiência que vivemos no passado, usamos 'forget' com o verbo com -ing. Neste caso, a pessoa se lembra do momento em que conheceu a avó — foi algo que aconteceu e ficou na memória para sempre. Portanto, a resposta correta é MEETING."
+      },
+      {
+        "id": "iff05",
+        "topic": "Gerunds vs Infinitives",
+        "question": "She pretended _____ asleep when he came in.",
+        "options": ["to be", "being", "be", "having been"],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que alguém fez de conta que estava fazendo algo, usamos 'pretend' com 'to' e o verbo. Neste caso, ela fingiu estar dormindo quando ele entrou no quarto. Portanto, a resposta correta é TO BE."
+      },
+      {
+        "id": "iff06",
+        "topic": "Relative Pronouns – Advanced",
+        "question": "The reason _____ she left was personal.",
+        "options": ["why", "which", "that", "for which"],
+        "correct": 0,
+        "explanation": "Quando queremos explicar a razão de algo com uma segunda frase, usamos 'why' logo depois de 'reason'. Neste caso, a frase explica a razão pela qual ela foi embora — e 'why' é a palavra que conecta as duas partes. Portanto, a resposta correta é WHY."
+      },
+      {
+        "id": "iff07",
+        "topic": "Passive Voice – All Tenses",
+        "question": "The bridge _____ for two months. (Present Perfect Passive)",
+        "options": ["has been closed", "is closed", "was closed", "had been closed"],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que algo foi fechado ou feito e ainda está nessa situação até hoje, usamos 'has/have been' com a forma passada do verbo. Neste caso, a ponte foi fechada há dois meses e continua fechada — a ação no passado tem efeito no presente. Portanto, a resposta correta é HAS BEEN CLOSED."
+      },
+      {
+        "id": "iff08",
+        "topic": "Passive Voice – All Tenses",
+        "question": "The report _____ before the deadline. (Future Perfect Passive)",
+        "options": ["will complete", "will be completed", "will have been completed", "is going to complete"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo vai ter sido concluído antes de um prazo futuro, usamos 'will have been' com a forma passada do verbo. Neste caso, o relatório vai estar pronto antes do prazo — ele vai ter sido terminado antes desse momento. Portanto, a resposta correta é WILL HAVE BEEN COMPLETED."
+      },
+      {
+        "id": "iff09",
+        "topic": "Passive Voice – Modal",
+        "question": "All documents _____ within 30 days. (modal passive)",
+        "options": ["must submit", "must be submitted", "must have submitted", "should submit"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo deve ser feito — sem falar quem deve fazer — usamos 'must/should/can be' com a forma passada do verbo. Neste caso, os documentos precisam ser enviados dentro de 30 dias — o foco está nos documentos, não em quem os envia. Portanto, a resposta correta é MUST BE SUBMITTED."
+      },
+      {
+        "id": "iff10",
+        "topic": "Cleft Sentences – It Is...That",
+        "question": "It was Tom _____ broke the window. (emphatic)",
+        "options": ["which", "who", "that", "Both B and C"],
+        "correct": 3,
+        "explanation": "Quando queremos destacar quem fez algo, usamos a estrutura 'it was... who/that...'. Neste caso, queremos enfatizar que foi o Tom — e não outra pessoa — quem quebrou a janela. Para pessoas, tanto 'who' quanto 'that' funcionam. Portanto, a resposta correta é WHO ou THAT (ambos corretos)."
+      },
+      {
+        "id": "iff11",
+        "topic": "Cleft Sentences – What",
+        "question": "I need more time. → What _____ is more time.",
+        "options": ["I need", "do I need", "need I", "I'm needing"],
+        "correct": 0,
+        "explanation": "Quando queremos destacar o que precisamos ou queremos usando 'what', a ordem depois de 'what' é sempre normal: pessoa e depois o verbo, sem inverter. Neste caso, queremos enfatizar que o que a pessoa precisa é mais tempo. Portanto, a resposta correta é I NEED."
+      },
+      {
+        "id": "iff12",
+        "topic": "Comparatives/Superlatives – Advanced",
+        "question": "The Amazon is by far _____ river in the world in terms of volume.",
+        "options": ["the larger", "the most large", "the largest", "larger"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo é de longe o maior ou melhor de todos, usamos 'by far the' com o superlativo. Neste caso, o Amazonas é de longe o maior rio do mundo em volume — e 'large' é uma palavra curta, então o superlativo termina em '-est'. Portanto, a resposta correta é THE LARGEST."
+      },
+      {
+        "id": "iff13",
+        "topic": "Comparatives – Modification",
+        "question": "She works _____ than I expected.",
+        "options": ["far more efficiently", "much more efficient", "far efficient", "more efficiently much"],
+        "correct": 0,
+        "explanation": "Quando queremos intensificar uma comparação, usamos 'far' ou 'much' antes do comparativo. Neste caso, ela trabalha de forma muito mais eficiente do que o esperado — e como estamos descrevendo como ela trabalha, usamos a forma com -ly. Portanto, a resposta correta é FAR MORE EFFICIENTLY."
+      },
+      {
+        "id": "iff14",
+        "topic": "Inversion – So/Neither",
+        "question": "'I have never been to Japan.' — 'Neither _____ I.'",
+        "options": ["had", "have", "did", "was"],
+        "correct": 1,
+        "explanation": "Quando queremos concordar com uma frase negativa de alguém, usamos 'neither' seguido do mesmo verbo de apoio que a pessoa usou. Neste caso, a frase original usa 'have', então a resposta de concordância também usa 'have' — espelhando o verbo da frase anterior. Portanto, a resposta correta é NEITHER HAVE I."
+      },
+      {
+        "id": "iff15",
+        "topic": "Gerunds vs Infinitives",
+        "question": "The doctor advised her _____ smoking.",
+        "options": ["stop", "to stop", "stopping", "to stopping"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que alguém aconselhou outra pessoa a fazer algo, usamos 'advise' seguido da pessoa e depois 'to' com o verbo. Neste caso, o médico aconselhou ela a parar de fumar. Portanto, a resposta correta é TO STOP."
+      },
+      {
+        "id": "iff16",
+        "topic": "Passive Voice – Reporting Verbs",
+        "question": "People say he is the richest man in the city. → He _____ to be the richest man.",
+        "options": ["says", "is said", "said", "has said"],
+        "correct": 1,
+        "explanation": "Quando queremos compartilhar o que as pessoas dizem sobre alguém sem citar uma fonte específica, usamos 'is said to be', 'is believed to be' ou expressões parecidas. Neste caso, dizem que ele é o homem mais rico da cidade — é uma informação de domínio público, sem origem definida. Portanto, a resposta correta é IS SAID."
+      },
+      {
+        "id": "iff17",
+        "topic": "Conditionals – Formal Inversion",
+        "question": "_____ you need any assistance, please don't hesitate to call.",
+        "options": ["If", "Should", "Were", "Had"],
+        "correct": 1,
+        "explanation": "Quando queremos fazer uma condição de forma mais elegante e formal, como em e-mails profissionais ou cartas, usamos 'should' no lugar de 'if', mudando a ordem da frase. Neste caso, 'should you need assistance' é uma forma sofisticada de dizer 'if you need assistance'. Portanto, a resposta correta é SHOULD."
+      },
+      {
+        "id": "iff18",
+        "topic": "Relative Pronouns – Non-Defining",
+        "question": "Venice, _____ I visited last summer, is a fascinating city.",
+        "options": ["that", "which", "who", "where"],
+        "correct": 1,
+        "explanation": "Quando queremos adicionar uma informação extra sobre algo entre vírgulas, usamos 'which' para coisas e lugares — nunca 'that' com vírgulas. Neste caso, Veneza já é específica e as vírgulas indicam que a informação é um comentário adicional, não uma definição. Portanto, a resposta correta é WHICH."
+      },
+      {
+        "id": "iff19",
+        "topic": "Emphatic Structures",
+        "question": "Only after leaving school _____ how little I knew.",
+        "options": ["I realized", "did I realize", "I did realize", "had I realized"],
+        "correct": 1,
+        "explanation": "Quando queremos dar ênfase usando expressões como 'only after' ou 'only when' no início da frase, a ordem muda: o verbo de apoio vem antes da pessoa. Neste caso, 'only after leaving school' inicia a frase, então a ordem se inverte para 'did I realize'. Portanto, a resposta correta é DID I REALIZE."
+      },
+      {
+        "id": "iff20",
+        "topic": "Passive Voice – Continuous",
+        "question": "The patient _____ by the doctor right now.",
+        "options": ["is examining", "is being examined", "has been examining", "was examined"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo está sendo feito neste exato momento, usamos 'is/are being' com a forma passada do verbo. Neste caso, o médico está examinando o paciente agora — e o foco está no paciente, que está sendo examinado. Portanto, a resposta correta é IS BEING EXAMINED."
+      },
+      {
+        "id": "iff21",
+        "topic": "Gerunds – Prepositions",
+        "question": "She is looking forward to _____ you again.",
+        "options": ["see", "seen", "seeing", "having seen"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que alguém está animado para encontrar outra pessoa, usamos 'look forward to' com o verbo com -ing — porque o 'to' aqui é uma preposição, não parte do infinitivo, e depois de preposição o verbo sempre fica com -ing. Neste caso, ela está ansiosa para encontrar a pessoa novamente. Portanto, a resposta correta é SEEING."
+      },
+      {
+        "id": "iff22",
+        "topic": "Cleft Sentences",
+        "question": "What really surprised me _____ the ending of the novel.",
+        "options": ["is", "are", "was", "were"],
+        "correct": 2,
+        "explanation": "Quando usamos a estrutura 'what... is/was' para destacar algo, o verbo concorda com a coisa que estamos destacando. Neste caso, 'the ending' é singular e a frase está no passado, então usamos 'was'. Portanto, a resposta correta é WAS."
+      }
+    ]
+  }
+}

@@ -1,0 +1,369 @@
+{
+  "book": "fluency2",
+  "bookName": "Fluency 2",
+  "level": "advanced",
+  "midterm": {
+    "label": "Prova do Meio do Livro",
+    "topics": "Reviews 1–12: One/A/An, Reporting Verbs + Time Changes, Reported Questions, Past Perfect Continuous, So/Neither, Wish + Past Perfect, Verbs with Two Objects, Indirect Questions, Possessive Before -ing",
+    "questions": [
+      {
+        "id": "f2m01",
+        "topic": "One / A / An",
+        "question": "Do you have a pen? — Yes, I have _____.",
+        "options": ["a", "one", "an", "the"],
+        "correct": 1,
+        "explanation": "Quando alguém já mencionou um objeto e não queremos repetir o nome dele, usamos ONE no lugar. Neste caso, a pessoa perguntou sobre 'a pen' e a resposta diz 'sim, tenho um' sem precisar repetir 'a pen' — ONE substitui o objeto já mencionado. Portanto, a resposta correta é ONE."
+      },
+      {
+        "id": "f2m02",
+        "topic": "One / A / An",
+        "question": "I prefer _____ window seat when I travel by plane.",
+        "options": ["one", "an", "a", "the"],
+        "correct": 2,
+        "explanation": "Quando queremos mencionar algo pela primeira vez, sem estar falando de um específico, usamos A (antes de som de consoante) ou AN (antes de som de vogal). Neste caso, estamos mencionando um assento na janela em geral e 'window' começa com som de consoante. Portanto, a resposta correta é A window seat."
+      },
+      {
+        "id": "f2m03",
+        "topic": "Reporting Verbs – Time Changes",
+        "question": "She said, 'I will call you tomorrow.' → She told me she _____ call me the next day.",
+        "options": ["will", "would", "was going to", "Both B and C"],
+        "correct": 3,
+        "explanation": "Quando queremos contar o que alguém disse, o 'will' do futuro muda para 'would' ou 'was going to' — os dois estão certos. Neste caso, ela disse que ia ligar amanhã, e ao contar isso, 'tomorrow' vira 'the next day' e o 'will' pode virar 'would' ou 'was going to'. Portanto, a resposta correta é BOTH B AND C (would / was going to)."
+      },
+      {
+        "id": "f2m04",
+        "topic": "Reporting Verbs – Time Changes",
+        "question": "He said, 'I saw her yesterday.' → He said he had seen her _____.",
+        "options": ["yesterday", "the day before", "the previous day", "Both B and C"],
+        "correct": 3,
+        "explanation": "Quando queremos contar o que alguém disse, as palavras de tempo também mudam. Neste caso, 'yesterday' (ontem) vira 'the day before' ou 'the previous day' ao reportar a fala — as duas formas são igualmente corretas. Portanto, a resposta correta é BOTH B AND C (the day before / the previous day)."
+      },
+      {
+        "id": "f2m05",
+        "topic": "Reported Questions – Yes/No",
+        "question": "She asked, 'Do you live alone?' → She asked _____ I lived alone.",
+        "options": ["if", "that", "whether", "Both A and C"],
+        "correct": 3,
+        "explanation": "Quando queremos contar uma pergunta de sim ou não indiretamente, usamos 'if' ou 'whether' para introduzi-la — os dois significam a mesma coisa aqui. Neste caso, ela perguntou se eu morava sozinho, e a ordem do verbo fica normal: 'she asked if/whether I lived alone'. Portanto, a resposta correta é BOTH A AND C (if / whether)."
+      },
+      {
+        "id": "f2m06",
+        "topic": "Reported Questions – Wh-",
+        "question": "The student asked, 'Where do you live?' → The student asked where _____ lived.",
+        "options": ["did I", "I did", "I", "do I"],
+        "correct": 2,
+        "explanation": "Quando queremos contar uma pergunta indiretamente, a ordem vira normal — sujeito e depois verbo, sem o 'do' ou 'did'. Neste caso, a pergunta era 'Where do you live?' e ao contar, vira 'where I lived' — o 'do' some e o verbo recua um tempo. Portanto, a resposta correta é where I LIVED."
+      },
+      {
+        "id": "f2m07",
+        "topic": "Past Perfect Continuous",
+        "question": "She was tired because she _____ for hours.",
+        "options": ["had been walking", "has been walking", "was walking", "walked"],
+        "correct": 0,
+        "explanation": "Quando queremos explicar a causa de um resultado no passado mostrando que alguém ficou fazendo algo por um tempo antes, usamos 'had been' mais o verbo com -ing. Neste caso, o cansaço dela tinha uma razão: ela ficou caminhando por horas antes de ficar cansada. Portanto, a resposta correta é HAD BEEN WALKING."
+      },
+      {
+        "id": "f2m08",
+        "topic": "Past Perfect Continuous",
+        "question": "When he arrived, his eyes were red. He _____ (cry).",
+        "options": ["was crying", "cried", "had been crying", "had cried"],
+        "correct": 2,
+        "explanation": "Quando queremos explicar um resultado visível no passado mostrando que alguém esteve fazendo algo por um tempo antes, usamos 'had been' mais o verbo com -ing. Neste caso, os olhos vermelhos mostravam que ele ficou chorando antes de chegar — a atividade durou um tempo e deixou aquela marca. Portanto, a resposta correta é HAD BEEN CRYING."
+      },
+      {
+        "id": "f2m09",
+        "topic": "So / Neither",
+        "question": "I'm not hungry. — _____ am I. (agreement with negative)",
+        "options": ["So", "Neither", "Nor", "Both B and C"],
+        "correct": 3,
+        "explanation": "Quando queremos dizer 'eu também não' — concordar com algo negativo — usamos 'neither' ou 'nor' mais o verbo e o sujeito. Neste caso, a pessoa disse que não estava com fome e a resposta concorda: 'Neither am I' ou 'Nor am I' — os dois significam a mesma coisa. Portanto, a resposta correta é BOTH B AND C (Neither / Nor)."
+      },
+      {
+        "id": "f2m10",
+        "topic": "So / Neither",
+        "question": "I enjoyed the party. — _____ did I. (agreement with positive)",
+        "options": ["Neither", "So", "Nor", "Neither did"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer 'eu também' — concordar com algo positivo — usamos 'so' mais o verbo e o sujeito. Neste caso, a pessoa curtiu a festa e a resposta concorda: a estrutura é 'So + verbo + sujeito', ou seja, 'So did I'. Portanto, a resposta correta é SO did I."
+      },
+      {
+        "id": "f2m11",
+        "topic": "Wish + Past Perfect",
+        "question": "I didn't study. Now I failed. — I wish I _____ harder.",
+        "options": ["studied", "had studied", "would have studied", "study"],
+        "correct": 1,
+        "explanation": "Quando queremos expressar arrependimento sobre algo que aconteceu no passado — algo que não podemos mais mudar — usamos 'wish' seguido de 'had' mais a forma passada do verbo. Neste caso, a pessoa não estudou e se arrepende: 'I wish I had studied harder' — queria ter estudado mais, mas não estudou. Portanto, a resposta correta é HAD STUDIED."
+      },
+      {
+        "id": "f2m12",
+        "topic": "Wish + Past Perfect",
+        "question": "She didn't call me. I was sad. — She wishes she _____ me.",
+        "options": ["called", "had called", "would call", "calls"],
+        "correct": 1,
+        "explanation": "Quando queremos expressar arrependimento sobre algo que não fizemos no passado, usamos 'wish' mais 'had' e a forma passada do verbo. Neste caso, ela não ligou e agora se arrepende: 'She wishes she had called me' — queria ter ligado, mas não ligou. Portanto, a resposta correta é HAD CALLED."
+      },
+      {
+        "id": "f2m13",
+        "topic": "Verbs with Two Objects",
+        "question": "Please give _____ (me / this book).",
+        "options": ["me this book", "to me this book", "this book me", "to this book me"],
+        "correct": 0,
+        "explanation": "Quando queremos usar verbos como 'give', 'send' ou 'lend' com duas coisas — quem recebe e o que é dado — a ordem mais comum é: verbo + pessoa + objeto. Neste caso, a sequência é 'give ME this book' — a pessoa que recebe vem antes da coisa que é dada. Portanto, a resposta correta é ME THIS BOOK."
+      },
+      {
+        "id": "f2m14",
+        "topic": "Verbs with Two Objects",
+        "question": "Can you lend _____ your pen?",
+        "options": ["me to", "to me", "me", "I"],
+        "correct": 2,
+        "explanation": "Quando queremos pedir algo emprestado com 'lend', a estrutura mais comum é: verbo + pessoa + objeto. Neste caso, pedimos 'Can you lend me your pen?' — 'me' vem logo depois do verbo, antes da caneta. Portanto, a resposta correta é ME."
+      },
+      {
+        "id": "f2m15",
+        "topic": "Possessive Before -ing",
+        "question": "I can't stand _____ being so selfish.",
+        "options": ["him", "his", "he", "himself"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que o comportamento de alguém nos incomoda, na forma mais cuidada usamos a forma possessiva antes do verbo com -ing. Neste caso, o que incomoda é o jeito egoísta dele, então dizemos 'I can't stand HIS being so selfish' — 'his' mostra de quem é o comportamento. Portanto, a resposta correta é HIS."
+      },
+      {
+        "id": "f2m16",
+        "topic": "Indirect Questions",
+        "question": "Can you tell me where _____ the nearest bank?",
+        "options": ["is", "there is", "it is", "is there"],
+        "correct": 2,
+        "explanation": "Quando queremos fazer uma pergunta de forma mais educada, usando expressões como 'Can you tell me...?' ou 'Do you know...?', a ordem interna vira normal — sujeito e depois verbo. Neste caso, a pergunta educada é 'Can you tell me where IT IS?' — não 'where is it'. Portanto, a resposta correta é IT IS."
+      },
+      {
+        "id": "f2m17",
+        "topic": "Reported Questions",
+        "question": "He asked me, 'Have you read this book?' → He asked me _____ that book.",
+        "options": ["if I read", "whether I had read", "if I have read", "whether had I read"],
+        "correct": 1,
+        "explanation": "Quando queremos contar uma pergunta de sim ou não em que o original usou 'have', o tempo recua para 'had'. Neste caso, ele perguntou 'Have you read?' e ao contar usamos 'whether I had read' — 'whether' para a pergunta de sim/não e 'had read' porque o tempo recuou. Portanto, a resposta correta é WHETHER I HAD READ."
+      },
+      {
+        "id": "f2m18",
+        "topic": "Past Perfect Continuous",
+        "question": "The grass was wet. It _____ (rain).",
+        "options": ["rained", "was raining", "had rained", "had been raining"],
+        "correct": 3,
+        "explanation": "Quando queremos explicar a causa de um resultado no passado mostrando que algo aconteceu por um tempo antes, usamos 'had been' mais o verbo com -ing. Neste caso, a grama molhada mostrava que ficou chovendo por algum tempo — a chuva durou e deixou aquele resultado visível. Portanto, a resposta correta é HAD BEEN RAINING."
+      },
+      {
+        "id": "f2m19",
+        "topic": "So / Neither – Disagreement",
+        "question": "I don't like carrots. — Really? I _____!",
+        "options": ["do", "don't", "neither do", "so do"],
+        "correct": 0,
+        "explanation": "Quando queremos discordar de algo negativo — dizer que você gosta de algo que a outra pessoa não gosta — usamos o verbo positivo com ênfase. Neste caso, a pessoa disse que não gosta de cenouras e a outra discorda: 'Really? I DO!' — o 'do' com ênfase mostra que sim, gosta. Portanto, a resposta correta é DO."
+      },
+      {
+        "id": "f2m20",
+        "topic": "Reporting Verbs",
+        "question": "He said, 'I'm working late today.' → He said he _____ working late that day.",
+        "options": ["is", "was", "has been", "will be"],
+        "correct": 1,
+        "explanation": "Quando queremos contar o que alguém disse, o 'am/is/are' muda para 'was/were'. Neste caso, ele disse que estava trabalhando até tarde 'today', e ao contar isso, usamos 'was working' e 'today' vira 'that day'. Portanto, a resposta correta é WAS."
+      },
+      {
+        "id": "f2m21",
+        "topic": "Verbs with Two Objects",
+        "question": "She bought _____ a present.",
+        "options": ["to him", "for him", "him", "he"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que alguém comprou algo para outra pessoa, a estrutura mais comum é: verbo + pessoa + objeto. Neste caso, ela comprou um presente para ele: 'She bought HIM a present' — 'him' vem logo depois do verbo. Portanto, a resposta correta é HIM."
+      },
+      {
+        "id": "f2m22",
+        "topic": "Indirect Questions",
+        "question": "Do you know what time _____ now?",
+        "options": ["is it", "it is", "it was", "is"],
+        "correct": 1,
+        "explanation": "Quando queremos perguntar algo de forma indireta, com expressões como 'Do you know...?', a ordem interna fica normal — sujeito e depois verbo. Neste caso, a pergunta indireta é 'Do you know what time IT IS now?' — não 'what time is it'. Portanto, a resposta correta é IT IS."
+      }
+    ]
+  },
+  "final": {
+    "label": "Prova do Final do Livro",
+    "topics": "Reviews 1–25: Todo o conteúdo + Wish + Would, So/Such, Future Perfect, Whose, Defining/Non-Defining Clauses, Verbs of Opinion, Order of Adverbs, See/Hear + Verb or -ing, Be/Get Used To, Uncountable Nouns, Whatever/Whenever",
+    "questions": [
+      {
+        "id": "f2f01",
+        "topic": "Wish + Would",
+        "question": "It's always raining here! I wish it _____ raining so much.",
+        "options": ["doesn't stop", "didn't stop", "would stop", "stopped"],
+        "correct": 2,
+        "explanation": "Quando queremos expressar que desejamos que algo ou alguém mude de comportamento — algo que nos irrita e continua acontecendo — usamos 'wish' seguido de 'would' e o verbo. Neste caso, a chuva constante está incomodando e a pessoa deseja que pare: 'I wish it WOULD STOP raining'. Portanto, a resposta correta é WOULD STOP."
+      },
+      {
+        "id": "f2f02",
+        "topic": "Wish + Would",
+        "question": "He never listens! I wish he _____ more attention.",
+        "options": ["pays", "paid", "would pay", "had paid"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que gostaríamos que alguém mudasse um comportamento que nos frustra, usamos 'wish' seguido de 'would' e o verbo. Neste caso, ele nunca presta atenção e a pessoa deseja que isso mude: 'I wish he WOULD PAY more attention'. Portanto, a resposta correta é WOULD PAY."
+      },
+      {
+        "id": "f2f03",
+        "topic": "So / Such",
+        "question": "She is _____ beautiful woman that everyone looks at her.",
+        "options": ["so", "such", "such a", "so a"],
+        "correct": 2,
+        "explanation": "Quando queremos intensificar a descrição de uma pessoa ou coisa usando um adjetivo mais um substantivo singular, usamos 'such a'. Neste caso, estamos descrevendo uma mulher bonita — substantivo singular — então a estrutura é 'She is SUCH A beautiful woman'. Portanto, a resposta correta é SUCH A."
+      },
+      {
+        "id": "f2f04",
+        "topic": "So / Such",
+        "question": "It's _____ cold weather that I don't want to go out.",
+        "options": ["such a", "so", "so a", "such"],
+        "correct": 3,
+        "explanation": "Quando queremos intensificar a descrição de algo que não pode ser contado — como 'weather' (tempo/clima) — usamos 'such' sem artigo. Neste caso, 'weather' não tem singular nem plural contável, então não usamos 'a': 'It's SUCH cold weather'. Portanto, a resposta correta é SUCH."
+      },
+      {
+        "id": "f2f05",
+        "topic": "Future Perfect",
+        "question": "By next month, I _____ the course.",
+        "options": ["will finish", "am finishing", "will have finished", "will be finishing"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo vai estar completo antes de um momento no futuro, usamos 'will have' mais a forma passada do verbo. Neste caso, o curso vai terminar antes do próximo mês: 'By next month, I WILL HAVE FINISHED the course'. Portanto, a resposta correta é WILL HAVE FINISHED."
+      },
+      {
+        "id": "f2f06",
+        "topic": "Future Perfect",
+        "question": "By the time you arrive, we _____ dinner.",
+        "options": ["will have had", "will have", "are having", "will had"],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que algo vai estar concluído antes de um momento futuro, usamos 'will have' mais a forma passada do verbo. Neste caso, o jantar vai estar pronto antes de você chegar: 'We WILL HAVE HAD dinner' — 'have' vira 'had' porque é irregular. Portanto, a resposta correta é WILL HAVE HAD."
+      },
+      {
+        "id": "f2f07",
+        "topic": "Whose (Relative)",
+        "question": "She is the architect _____ design won the award.",
+        "options": ["who", "which", "that", "whose"],
+        "correct": 3,
+        "explanation": "Quando queremos conectar duas frases mostrando que algo pertence a alguém — o equivalente a 'cujo' ou 'cuja' em português — usamos 'whose'. Neste caso, queremos dizer que o design pertence à arquiteta: 'She is the architect WHOSE design won the award'. Portanto, a resposta correta é WHOSE."
+      },
+      {
+        "id": "f2f08",
+        "topic": "Defining vs Non-Defining Clauses",
+        "question": "My sister, _____ lives in London, is a doctor.",
+        "options": ["which", "that", "who", "whose"],
+        "correct": 2,
+        "explanation": "Quando queremos adicionar uma informação extra sobre alguém específico — não para identificar quem é, mas para acrescentar um detalhe — colocamos essa informação entre vírgulas e usamos 'who' para pessoas. Neste caso, 'my sister' já é específica, então a parte entre vírgulas é um detalhe extra — e 'that' nunca pode ser usado entre vírgulas. Portanto, a resposta correta é WHO."
+      },
+      {
+        "id": "f2f09",
+        "topic": "Defining vs Non-Defining Clauses",
+        "question": "The film _____ won the Oscar was disappointing.",
+        "options": ["which / that", "which", "that", "All of the above"],
+        "correct": 3,
+        "explanation": "Quando queremos identificar de qual coisa estamos falando — escolher um de vários — usamos 'which' ou 'that' sem vírgulas. Neste caso, estamos dizendo qual filme: 'The film WHICH/THAT won the Oscar' — os dois funcionam igualmente. Portanto, a resposta correta é ALL OF THE ABOVE (which / that)."
+      },
+      {
+        "id": "f2f10",
+        "topic": "Verbs of Opinion",
+        "question": "What do you think _____ their new house?",
+        "options": ["of", "about", "for", "Both A and B"],
+        "correct": 3,
+        "explanation": "Quando queremos pedir a opinião de alguém sobre algo, usamos 'think of' ou 'think about' — os dois funcionam para esse fim. Neste caso, estamos perguntando o que a pessoa acha da casa nova, e tanto 'of' quanto 'about' são aceitos. Portanto, a resposta correta é BOTH A AND B (of / about)."
+      },
+      {
+        "id": "f2f11",
+        "topic": "Order of Adverbs",
+        "question": "We hardly ever see them these days.",
+        "options": ["The sentence is correct.", "These days we hardly ever see them.", "We ever hardly see them these days.", "We see them hardly ever these days."],
+        "correct": 0,
+        "explanation": "Quando queremos dizer com que frequência algo acontece, palavras como 'hardly ever', 'never', 'always' e 'often' ficam antes do verbo principal. Neste caso, 'hardly ever' está exatamente no lugar certo — antes de 'see' — e a frase está completamente correta como está. Portanto, a resposta correta é THE SENTENCE IS CORRECT."
+      },
+      {
+        "id": "f2f12",
+        "topic": "See/Hear + Verb or -ing",
+        "question": "I saw her _____ the bank. (complete action)",
+        "options": ["rob", "robbed", "robbing", "to rob"],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que vimos ou ouvimos uma ação inteira — do começo ao fim — usamos o verbo na forma simples depois de 'see', 'watch' ou 'hear'. Neste caso, a ação foi completa, vi ela assaltar o banco inteiro: 'I saw her ROB the bank'. Portanto, a resposta correta é ROB."
+      },
+      {
+        "id": "f2f13",
+        "topic": "See/Hear + Verb or -ing",
+        "question": "I heard someone _____ outside. (action in progress)",
+        "options": ["cry", "to cry", "crying", "cried"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que percebemos algo que estava acontecendo naquele momento — uma ação em andamento — usamos o verbo com -ing depois de 'see', 'watch' ou 'hear'. Neste caso, ouvi alguém no meio do choro, não a ação completa: 'I heard someone CRYING outside'. Portanto, a resposta correta é CRYING."
+      },
+      {
+        "id": "f2f14",
+        "topic": "Be / Get Used To",
+        "question": "I'm _____ driving on the left. (accustomed to it now)",
+        "options": ["used to", "get used to", "use to", "used of"],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que já estamos acostumados a algo — que não é mais difícil ou estranho — usamos 'be used to' seguido do verbo com -ing. Neste caso, a pessoa já se adaptou a dirigir pelo lado esquerdo: 'I'm USED TO driving on the left'. Portanto, a resposta correta é USED TO."
+      },
+      {
+        "id": "f2f15",
+        "topic": "Be / Get Used To",
+        "question": "It took time, but now she _____ living abroad.",
+        "options": ["is used to", "used to", "gets used to", "is used of"],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que alguém chegou ao ponto de estar acostumado a algo — depois de um processo de adaptação — usamos 'is used to' seguido do verbo com -ing. Neste caso, levou tempo mas ela já está completamente adaptada a viver fora: 'now she IS USED TO living abroad'. Portanto, a resposta correta é IS USED TO."
+      },
+      {
+        "id": "f2f16",
+        "topic": "Whatever / Whenever / However",
+        "question": "_____ you go, I'll follow you.",
+        "options": ["Whatever", "Whenever", "Wherever", "However"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer 'para qualquer lugar que' — indicando que o destino não importa — usamos 'wherever'. Neste caso, a frase significa que vou seguir você para qualquer lugar que você for: 'WHEREVER you go, I'll follow'. Portanto, a resposta correta é WHEREVER."
+      },
+      {
+        "id": "f2f17",
+        "topic": "Whatever / Whenever / However",
+        "question": "_____ hard I try, I can't understand this.",
+        "options": ["Whatever", "Whenever", "Wherever", "However"],
+        "correct": 3,
+        "explanation": "Quando queremos dizer que mesmo fazendo o máximo possível o resultado continua o mesmo, usamos 'however' antes de um adjetivo ou advérbio. Neste caso, não importa o quanto a pessoa se esforce: 'HOWEVER hard I try, I can't understand'. Portanto, a resposta correta é HOWEVER."
+      },
+      {
+        "id": "f2f18",
+        "topic": "Uncountable Nouns",
+        "question": "I need some _____ to fix this shelf.",
+        "options": ["equipments", "an equipment", "equipment", "equipments"],
+        "correct": 2,
+        "explanation": "Quando queremos falar de 'equipment' (equipamento) em inglês, essa palavra não tem plural e não aceita 'a/an' — 'equipments' e 'an equipment' não existem. Neste caso, usamos simplesmente 'equipment' com 'some': 'I need some EQUIPMENT'. Portanto, a resposta correta é EQUIPMENT."
+      },
+      {
+        "id": "f2f19",
+        "topic": "Uncountable Nouns",
+        "question": "She gave me a very useful _____. (advice)",
+        "options": ["advice", "advices", "an advice", "piece of advice"],
+        "correct": 3,
+        "explanation": "Quando queremos falar de um único conselho em inglês, não podemos dizer 'an advice' ou 'advices' — essa palavra não tem plural nem aceita 'a/an'. Neste caso, para dizer que ela deu um conselho específico, usamos 'a PIECE OF ADVICE'. Portanto, a resposta correta é PIECE OF ADVICE."
+      },
+      {
+        "id": "f2f20",
+        "topic": "Future Perfect",
+        "question": "By 2030, scientists _____ a cure for cancer.",
+        "options": ["will find", "find", "will have found", "will be finding"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo vai estar completo antes de um ponto no futuro, usamos 'will have' mais a forma passada do verbo. Neste caso, até 2030 a descoberta já vai ter acontecido: 'scientists WILL HAVE FOUND a cure'. Portanto, a resposta correta é WILL HAVE FOUND."
+      },
+      {
+        "id": "f2f21",
+        "topic": "Defining vs Non-Defining Clauses",
+        "question": "My best friend, _____ I've known for 20 years, is getting married.",
+        "options": ["that", "who", "which", "whose"],
+        "correct": 1,
+        "explanation": "Quando queremos adicionar uma informação extra sobre alguém específico entre vírgulas, usamos 'who' para pessoas — e 'that' nunca pode ser usado entre vírgulas. Neste caso, 'my best friend' já é específico, então a informação entre vírgulas é um detalhe a mais: 'My best friend, WHO I've known for 20 years'. Portanto, a resposta correta é WHO."
+      },
+      {
+        "id": "f2f22",
+        "topic": "Wish + Would",
+        "question": "The neighbors are so noisy. I wish they _____ quiet at night.",
+        "options": ["are", "were", "would be", "had been"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que gostaríamos que alguém mudasse um comportamento que depende da vontade dessa pessoa, usamos 'wish' seguido de 'would' e o verbo. Neste caso, os vizinhos poderiam ser mais quietos mas escolhem não ser, e a pessoa deseja que mudem: 'I wish they WOULD BE quiet'. Portanto, a resposta correta é WOULD BE."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1123 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulador de Provas — Fisk</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23161414'/%3E%3Ctext x='16' y='23' font-family='Arial' font-size='19' font-weight='800' fill='%23d81f26' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
+  <meta name="theme-color" content="#161414">
+  <style>
+    /* ── Design Tokens ── */
+    :root {
+      --red:       #d81f26;
+      --red-dark:  #a5151a;
+      --black:     #161414;
+      --white:     #ffffff;
+      --gray:      #6f6a6a;
+      --gray-lt:   #ececec;
+      --green:     #32a889;
+      --green-dk:  #27866e;
+      --gold:      #c9922e;
+      --font-h:    'Poppins', system-ui, sans-serif;
+      --font-b:    'Nunito', system-ui, sans-serif;
+      --radius:    16px;
+      --shadow:    0 4px 14px rgba(22,20,20,.07);
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: var(--font-b);
+      background: var(--white);
+      color: var(--black);
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      -webkit-tap-highlight-color: transparent;
+    }
+
+    h1, h2, h3 { font-family: var(--font-h); }
+
+    /* ── Hero ── */
+    .hero {
+      position: relative;
+      background: var(--black);
+      color: var(--white);
+      text-align: center;
+      padding: 3rem 1.5rem 2.5rem;
+      border-bottom: 6px solid var(--red);
+    }
+    .hero-logo { height: 46px; margin-bottom: 1rem; }
+    .hero h1 { font-size: clamp(1.7rem, 4vw, 2.5rem); font-weight: 800; }
+    .hero p { margin-top: .45rem; color: #d8d5d5; font-size: .98rem; }
+
+    /* ── Mini header (non-hero screens) ── */
+    .page-header {
+      background: var(--black);
+      color: var(--white);
+      border-bottom: 4px solid var(--red);
+      padding: .9rem 1.25rem;
+      display: flex; align-items: center; gap: .8rem;
+      position: sticky; top: 0; z-index: 20;
+    }
+    .page-header-text .book-name  { font-family: var(--font-h); font-weight: 800; font-size: 1rem; }
+    .page-header-text .exam-name  { font-size: .78rem; color: #aaa; }
+
+    /* ── Dark mode toggle ── */
+    .theme-toggle {
+      position: absolute; top: 1.2rem; right: 1.4rem;
+      width: 2.5rem; height: 2.5rem;
+      display: inline-flex; align-items: center; justify-content: center;
+      font-size: 1.15rem;
+      border: 1.5px solid rgba(255,255,255,.32);
+      border-radius: 999px;
+      background: transparent; cursor: pointer;
+      transition: border-color .12s, transform .12s;
+    }
+    .theme-toggle:hover { border-color: #fff; transform: translateY(-1px); }
+
+    /* ── Back button ── */
+    .back-btn {
+      background: transparent; border: none;
+      color: #d8d5d5; cursor: pointer;
+      font-family: var(--font-b); font-size: .88rem; font-weight: 700;
+      padding: .3rem .4rem; border-radius: 8px;
+      white-space: nowrap; transition: color .12s;
+      flex-shrink: 0;
+    }
+    .back-btn:hover { color: #fff; }
+
+    /* ── Screens ── */
+    .screen { display: none; flex-direction: column; flex: 1; }
+    .screen.active { display: flex; animation: fadeUp .18s ease; }
+    @keyframes fadeUp { from { opacity:0; transform:translateY(6px); } to { opacity:1; transform:none; } }
+
+    /* ── Container ── */
+    .container { max-width: 860px; width: 100%; margin: 0 auto; padding: 0 1.25rem; }
+
+    /* ── Sticky action bar ── */
+    .action-bar {
+      position: sticky; bottom: 0;
+      background: var(--white);
+      border-top: 1px solid var(--gray-lt);
+      padding: .9rem 1.25rem;
+      box-shadow: 0 -4px 14px rgba(0,0,0,.06);
+      z-index: 10;
+    }
+    .action-bar .container { max-width: 860px; }
+
+    /* ── Buttons ── */
+    .btn {
+      display: inline-flex; align-items: center; justify-content: center; gap: .45rem;
+      border: none; border-radius: 999px;
+      padding: .85rem 1.8rem;
+      font-family: var(--font-h); font-size: 1rem; font-weight: 800;
+      cursor: pointer; width: 100%;
+      transition: transform .12s, box-shadow .12s, background .12s, border-color .12s;
+    }
+    .btn-primary {
+      background: var(--green); color: #fff;
+      box-shadow: 0 3px 0 var(--green-dk);
+    }
+    .btn-primary:hover:not(:disabled) { transform: translateY(-2px); }
+    .btn-primary:active:not(:disabled) { transform: translateY(0); box-shadow: 0 1px 0 var(--green-dk); }
+    .btn-primary:disabled { background: var(--gray-lt); color: var(--gray); box-shadow: none; cursor: not-allowed; }
+
+    .btn-ghost {
+      background: transparent; color: var(--black);
+      border: 2px solid var(--gray-lt);
+    }
+    .btn-ghost:hover { border-color: var(--red); color: var(--red-dark); }
+
+    /* ── Section labels ── */
+    .section-label {
+      font-size: .7rem; font-weight: 800; letter-spacing: .09em;
+      text-transform: uppercase; color: var(--gray);
+      margin: 1.75rem 0 .7rem;
+    }
+
+    /* ── Book cards ── */
+    .books-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: .9rem; margin-bottom: .25rem;
+    }
+
+    .book-card {
+      display: flex; flex-direction: column; align-items: flex-start; gap: .65rem;
+      background: var(--white);
+      border: 1.5px solid var(--gray-lt);
+      border-radius: var(--radius);
+      padding: 1.4rem 1.4rem 1.3rem;
+      cursor: pointer;
+      transition: transform .15s, box-shadow .15s, border-color .15s;
+      box-shadow: var(--shadow);
+      user-select: none;
+    }
+    .book-card:hover { transform: translateY(-3px); border-color: var(--accent, var(--red)); box-shadow: 0 8px 20px rgba(0,0,0,.1); }
+    .book-card.selected { border-color: var(--accent, var(--red)); border-width: 2px; box-shadow: 0 0 0 4px rgba(var(--accent-rgb, 216,31,38),.12); }
+
+    .book-icon {
+      width: 46px; height: 46px; border-radius: 12px;
+      background: var(--accent, var(--black));
+      color: #fff;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .book-icon svg { width: 24px; height: 24px; }
+
+    .book-card h3 { font-size: 1.05rem; font-weight: 800; }
+    .book-card p  { font-size: .8rem; color: var(--gray); line-height: 1.4; }
+
+    .basic-1   { --accent: #d81f26; }
+    .basic-2   { --accent: #C05621; }
+    .inter-1   { --accent: #2563EB; }
+    .inter-2   { --accent: #1D4ED8; }
+    .adv-1     { --accent: #15803D; }
+    .adv-2     { --accent: #166534; }
+    .adv-3     { --accent: #7C3AED; }
+
+    /* ── Exam cards ── */
+    .exam-grid {
+      display: grid; grid-template-columns: 1fr 1fr;
+      gap: 1rem; padding: 1.75rem 0 .5rem;
+    }
+
+    .exam-card {
+      background: var(--white);
+      border: 2px solid var(--gray-lt);
+      border-radius: var(--radius);
+      padding: 1.6rem 1.4rem;
+      cursor: pointer;
+      transition: border-color .15s, box-shadow .15s, transform .15s;
+      box-shadow: var(--shadow);
+      text-align: left;
+    }
+    .exam-card:hover { border-color: var(--red); transform: translateY(-2px); }
+    .exam-card.selected { border-color: var(--red); border-width: 2.5px; box-shadow: 0 0 0 4px rgba(216,31,38,.1); }
+
+    .exam-emoji { font-size: 2rem; margin-bottom: .65rem; }
+    .exam-card h3 { font-size: 1.05rem; font-weight: 800; margin-bottom: .35rem; font-family: var(--font-h); }
+    .exam-card p  { font-size: .8rem; color: var(--gray); line-height: 1.4; }
+
+    /* ── Quiz header ── */
+    .quiz-header {
+      background: var(--white);
+      border-bottom: 1px solid var(--gray-lt);
+      padding: .8rem 1.25rem;
+      display: flex; justify-content: space-between; align-items: center;
+      position: sticky; top: 0; z-index: 10;
+      gap: .75rem;
+    }
+    .quiz-header .back-btn { color: var(--gray); }
+    .quiz-header .back-btn:hover { color: var(--black); }
+    .quiz-ctx { font-size: .8rem; color: var(--gray); line-height: 1.4; flex: 1; }
+    .quiz-ctx strong { color: var(--black); font-weight: 800; display: block; font-family: var(--font-h); }
+    .quiz-counter {
+      font-family: var(--font-h); font-size: .85rem; font-weight: 800;
+      color: var(--gray); white-space: nowrap;
+      transition: color .2s;
+    }
+    .quiz-counter.done { color: var(--green); }
+
+    /* ── Question cards ── */
+    .questions-list { padding: 1.25rem 0 .5rem; }
+
+    .q-card {
+      background: var(--white);
+      border: 1.5px solid var(--gray-lt);
+      border-radius: var(--radius);
+      padding: 1.3rem 1.35rem 1.15rem;
+      margin-bottom: .9rem;
+      box-shadow: var(--shadow);
+      transition: border-color .2s;
+    }
+    .q-card.has-answer { border-color: #b8e8da; }
+
+    .q-num  { font-size: .68rem; font-weight: 800; letter-spacing: .07em; text-transform: uppercase; color: var(--gray); margin-bottom: .4rem; }
+    .q-text { font-size: .98rem; font-weight: 700; line-height: 1.45; margin-bottom: .9rem; font-family: var(--font-h); }
+
+    .opts-grid { display: grid; grid-template-columns: 1fr 1fr; gap: .45rem; }
+
+    .opt-btn {
+      display: flex; align-items: center; gap: .55rem;
+      background: #ffffff;
+      border: 1.5px solid var(--gray-lt);
+      border-radius: 10px;
+      padding: .65rem .85rem;
+      cursor: pointer; text-align: left;
+      font-family: var(--font-b); font-size: .88rem; font-weight: 600;
+      color: #161414;
+      transition: border-color .12s, background .12s;
+      width: 100%; line-height: 1.35;
+    }
+    .opt-btn:hover:not(.chosen) { border-color: #161414; }
+    .opt-btn.chosen { border-color: #161414; border-width: 2px; background: rgba(22,20,20,.05); }
+
+    .opt-letter {
+      width: 22px; height: 22px; border-radius: 50%;
+      background: var(--gray-lt);
+      display: flex; align-items: center; justify-content: center;
+      font-size: .68rem; font-weight: 800; flex-shrink: 0;
+      transition: background .12s, color .12s;
+    }
+    .opt-btn.chosen .opt-letter { background: #161414; color: #ffffff; }
+
+    /* ── Results ── */
+    .score-wrap {
+      text-align: center; padding: 2.25rem 1.25rem 1.75rem;
+    }
+
+    .score-ring {
+      width: 126px; height: 126px; border-radius: 50%;
+      border: 6px solid;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      margin: 0 auto 1.1rem;
+    }
+    .score-ring .pct  { font-size: 2.1rem; font-weight: 800; line-height: 1; font-family: var(--font-h); }
+    .score-ring .frac { font-size: .8rem; color: var(--gray); font-weight: 600; margin-top: 2px; }
+
+    .score-msg { font-size: 1.2rem; font-weight: 800; font-family: var(--font-h); }
+    .score-sub { font-size: .88rem; color: var(--gray); margin-top: .25rem; }
+
+    .great { border-color: var(--green); color: var(--green); }
+    .ok    { border-color: var(--gold);  color: var(--gold); }
+    .low   { border-color: var(--red);   color: var(--red); }
+
+    .review-label {
+      font-size: .7rem; font-weight: 800; letter-spacing: .08em;
+      text-transform: uppercase; color: var(--gray);
+      margin-bottom: .7rem;
+    }
+
+    .r-card {
+      background: var(--white);
+      border: 1.5px solid var(--gray-lt);
+      border-radius: var(--radius);
+      padding: 1.2rem 1.35rem;
+      margin-bottom: .75rem;
+      box-shadow: var(--shadow);
+    }
+    .r-card.r-correct { border-color: #a7f3d0; }
+    .r-card.r-wrong   { border-color: #fca5a5; }
+
+    .r-head { display: flex; align-items: flex-start; gap: .7rem; margin-bottom: .75rem; }
+    .r-badge {
+      width: 26px; height: 26px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .78rem; font-weight: 800; flex-shrink: 0; margin-top: 1px;
+    }
+    .r-badge.ok  { background: #d1fae5; color: #065f46; }
+    .r-badge.err { background: #fee2e2; color: #991b1b; }
+
+    .r-meta { }
+    .r-qnum { font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; color: var(--gray); margin-bottom: .2rem; }
+    .r-qtxt { font-size: .95rem; font-weight: 700; line-height: 1.4; font-family: var(--font-h); }
+
+    .r-opts { display: flex; flex-direction: column; gap: .3rem; }
+
+    .r-opt {
+      display: flex; align-items: center; gap: .5rem;
+      font-size: .86rem; font-weight: 600;
+      padding: .42rem .75rem; border-radius: 8px;
+      color: #161414;
+    }
+    .r-opt-letter {
+      width: 20px; height: 20px; border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: .65rem; font-weight: 800; flex-shrink: 0;
+    }
+    .r-opt.r-chosen-correct { background: #d1fae5; color: #065f46; }
+    .r-opt.r-chosen-correct .r-opt-letter { background: #065f46; color: #fff; }
+    .r-opt.r-chosen-wrong   { background: #fee2e2; color: #991b1b; text-decoration: line-through; }
+    .r-opt.r-chosen-wrong .r-opt-letter   { background: #991b1b; color: #fff; }
+    .r-opt.r-correct-ans    { background: #d1fae5; color: #065f46; }
+    .r-opt.r-correct-ans .r-opt-letter    { background: #065f46; color: #fff; }
+    .r-opt.r-neutral        { color: #444; }
+    .r-opt.r-neutral .r-opt-letter { background: #e4e0e0; color: #444; }
+
+    .hint-box {
+      background: #fffbeb;
+      border: 1.5px solid #fcd34d;
+      border-radius: 10px;
+      padding: .8rem 1rem;
+      margin-top: .75rem;
+      font-size: .86rem; line-height: 1.55;
+      color: #78350f;
+    }
+
+    /* ── Results actions ── */
+    .results-btns {
+      display: flex; flex-direction: column; gap: .7rem;
+      padding: .75rem 0 2.25rem;
+    }
+
+    /* ── Footer ── */
+    footer {
+      text-align: center; padding: 1.25rem;
+      color: var(--gray); font-size: .78rem;
+    }
+
+    /* ── Translator ── */
+    #translator-btn {
+      position: fixed; bottom: 5.5rem; right: 1rem;
+      width: 3rem; height: 3rem; border-radius: 50%;
+      background: var(--red); color: #fff;
+      border: none; cursor: pointer; font-size: 1.3rem;
+      box-shadow: 0 3px 12px rgba(216,31,38,.4);
+      display: none; align-items: center; justify-content: center;
+      z-index: 100; transition: transform .15s, box-shadow .15s;
+    }
+    #translator-btn.show { display: flex; }
+    #translator-btn:hover { transform: scale(1.08); box-shadow: 0 5px 18px rgba(216,31,38,.5); }
+
+    #translator-panel {
+      position: fixed; bottom: 9.5rem; right: 1rem;
+      width: 290px; max-height: 380px;
+      background: #fff; border-radius: 16px;
+      box-shadow: 0 8px 32px rgba(0,0,0,.18);
+      border: 1.5px solid #e0dada;
+      flex-direction: column;
+      z-index: 99; overflow: hidden;
+      display: none;
+    }
+    #translator-panel.open { display: flex; }
+
+    .tr-header {
+      padding: .75rem 1rem; background: #161414; color: #fff;
+      font-family: var(--font-h); font-size: .88rem; font-weight: 800;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .tr-close {
+      background: none; border: none; color: #aaa; cursor: pointer;
+      font-size: 1.1rem; line-height: 1; padding: 0;
+    }
+    .tr-close:hover { color: #fff; }
+
+    .tr-search {
+      margin: .6rem .75rem .35rem;
+      padding: .5rem .75rem;
+      border: 1.5px solid #e0dada; border-radius: 8px;
+      font-family: var(--font-b); font-size: .88rem;
+      background: #fff; color: #161414;
+      outline: none; width: calc(100% - 1.5rem);
+    }
+    .tr-search:focus { border-color: #d81f26; }
+
+    .tr-dir-toggle {
+      display: flex; align-items: center; gap: .5rem;
+      padding: 0 .75rem .35rem;
+      font-size: .76rem; color: #6f6a6a;
+    }
+    .tr-dir-toggle button {
+      background: none; border: 1px solid #e0dada; border-radius: 6px;
+      padding: .2rem .55rem; font-size: .75rem; font-weight: 700;
+      color: #444; cursor: pointer; font-family: var(--font-b);
+    }
+    .tr-dir-toggle button.active { background: #d81f26; border-color: #d81f26; color: #fff; }
+
+    .tr-list {
+      overflow-y: auto; flex: 1;
+      padding: 0 .75rem .75rem;
+    }
+    .tr-item {
+      display: flex; justify-content: space-between; align-items: baseline;
+      padding: .38rem .4rem; border-radius: 6px;
+      font-size: .84rem; line-height: 1.3;
+      border-bottom: 1px solid #f0eeee;
+    }
+    .tr-item:last-child { border-bottom: none; }
+    .tr-item:hover { background: #fdf5f5; }
+    .tr-key { font-weight: 700; color: #161414; }
+    .tr-val { color: #6f6a6a; font-size: .78rem; text-align: right; max-width: 55%; }
+
+    /* ── Dark mode ── */
+    body.theme-dark {
+      --white: #201d1d; --black: #f2efef;
+      --gray: #b0aaaa; --gray-lt: #3a3535;
+      background: #171414;
+    }
+    body.theme-dark .hero        { background: #0d0b0b; }
+    body.theme-dark .page-header { background: #0d0b0b; }
+    body.theme-dark .action-bar  { background: #201d1d; box-shadow: 0 -4px 14px rgba(0,0,0,.3); }
+    body.theme-dark .quiz-header { background: #201d1d; }
+    body.theme-dark .opt-btn     { background: #ece9e9; color: #161414; }
+    body.theme-dark .opt-btn.chosen { background: #d6d1d1; }
+    body.theme-dark .hint-box { background: #3b2e00; border-color: #92400e; color: #fde68a; }
+    body.theme-dark .r-card.r-correct { border-color: #065f46; }
+    body.theme-dark .r-card.r-wrong   { border-color: #991b1b; }
+    body.theme-dark #translator-panel { background: #201d1d; border-color: #3a3535; }
+    body.theme-dark .tr-search { background: #2a2727; border-color: #3a3535; color: #f2efef; }
+    body.theme-dark .tr-item:hover { background: #2a2525; }
+    body.theme-dark .tr-key { color: #f2efef; }
+    body.theme-dark .tr-dir-toggle button { color: #ccc; border-color: #3a3535; }
+
+    /* ── Responsive ── */
+    @media (max-width: 560px) {
+      .exam-grid  { grid-template-columns: 1fr; }
+      .opts-grid  { grid-template-columns: 1fr; }
+      .books-grid { grid-template-columns: 1fr; }
+      .hero { padding: 2.25rem 1.25rem 2rem; }
+      #translator-panel { right: .5rem; width: calc(100vw - 1rem); }
+    }
+  </style>
+</head>
+<body>
+<script>try{if(localStorage.getItem('fisk_theme')==='dark')document.body.classList.add('theme-dark');}catch(e){}</script>
+
+<!-- ══════════════════════════════════════
+     Screen 1 — Escolha o livro
+══════════════════════════════════════ -->
+<div id="screen-books" class="screen active">
+  <header class="hero">
+    <button class="theme-toggle" id="themeToggleBooks" aria-label="Alternar modo escuro">🌙</button>
+    <img class="hero-logo"
+         src="https://raw.githubusercontent.com/Pedro-Fisk/fisk-hub/main/assets/fisk-logo.png"
+         alt="FISK Taubaté · Caçapava"
+         onerror="this.style.display='none';this.insertAdjacentHTML('afterend','<div style=\'font-family:var(--font-h);font-size:1.8rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.9rem;\'>FISK</div>')">
+    <h1>Simulador de Provas</h1>
+    <p>Escolha o livro que você está estudando</p>
+  </header>
+
+  <div style="flex:1; overflow-y:auto;">
+    <div class="container">
+
+      <div class="section-label">Básico</div>
+      <div class="books-grid">
+        <div class="book-card basic-1" data-book="essentials1" onclick="selectBook(this)">
+          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7h6M9 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <h3>Essentials 1</h3>
+          <p>A/An, To Be, Do/Does, Going to, Past Simple</p>
+        </div>
+        <div class="book-card basic-2" data-book="essentials2" onclick="selectBook(this)">
+          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7h6M9 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <h3>Essentials 2</h3>
+          <p>Was/Were, Past Continuous, Can/Could, Will</p>
+        </div>
+      </div>
+
+      <div class="section-label">Intermediário</div>
+      <div class="books-grid">
+        <div class="book-card inter-1" data-book="transitions1" onclick="selectBook(this)">
+          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Transitions 1</h3>
+          <p>Tag Questions, Condicionais, Present Perfect</p>
+        </div>
+        <div class="book-card inter-2" data-book="transitions2" onclick="selectBook(this)">
+          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+          <h3>Transitions 2</h3>
+          <p>Superlativos, Phrasal Verbs, 2nd Conditional</p>
+        </div>
+      </div>
+
+      <div class="section-label">Avançado</div>
+      <div class="books-grid">
+        <div class="book-card adv-1" data-book="fluency1" onclick="selectBook(this)">
+          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+          <h3>Fluency 1</h3>
+          <p>Past Perfect, 3rd Conditional, Wish, Reported Speech</p>
+        </div>
+        <div class="book-card adv-2" data-book="fluency2" onclick="selectBook(this)">
+          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+          <h3>Fluency 2</h3>
+          <p>Future Perfect, Cláusulas Relativas, So/Neither</p>
+        </div>
+        <div class="book-card adv-3" data-book="infocus" onclick="selectBook(this)">
+          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+          <h3>In Focus</h3>
+          <p>Inversão, Subjuntivo, Passiva, Condicionais Mistos</p>
+        </div>
+      </div>
+
+      <div style="height:1rem;"></div>
+    </div>
+  </div>
+
+  <div class="action-bar">
+    <div class="container">
+      <button class="btn btn-primary" id="btn-to-exam" disabled onclick="goToExam()">Continuar →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     Screen 2 — Escolha a prova
+══════════════════════════════════════ -->
+<div id="screen-exam" class="screen">
+  <div class="page-header">
+    <button class="back-btn" onclick="showScreen('books')">← Voltar</button>
+    <div class="page-header-text">
+      <div class="book-name" id="exam-book-name"></div>
+      <div class="exam-name">Escolha a prova</div>
+    </div>
+    <button class="theme-toggle" id="themeToggleExam" style="position:absolute;right:1.25rem;top:50%;transform:translateY(-50%);">🌙</button>
+  </div>
+
+  <div style="flex:1; overflow-y:auto;">
+    <div class="container">
+      <div class="exam-grid">
+        <div class="exam-card" data-exam="midterm" onclick="selectExam(this)">
+          <div class="exam-emoji">📖</div>
+          <h3>Prova do Meio do Livro</h3>
+          <p id="midterm-desc">Lessons 1 a 5</p>
+        </div>
+        <div class="exam-card" data-exam="final" onclick="selectExam(this)">
+          <div class="exam-emoji">🎓</div>
+          <h3>Prova do Final do Livro</h3>
+          <p id="final-desc">Lessons 6 a 10</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="action-bar">
+    <div class="container">
+      <button class="btn btn-primary" id="btn-start" disabled onclick="startQuiz()">Começar Simulado →</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     Screen 3 — Questões
+══════════════════════════════════════ -->
+<div id="screen-quiz" class="screen">
+  <div class="quiz-header">
+    <button class="back-btn" onclick="showScreen('exam')">← Voltar</button>
+    <div class="quiz-ctx">
+      <strong id="quiz-title"></strong>
+      10 questões · responda todas e envie
+    </div>
+    <div class="quiz-counter" id="quiz-counter">0 de 10</div>
+  </div>
+
+  <div style="flex:1; overflow-y:auto;">
+    <div class="container">
+      <div class="questions-list" id="questions-list"></div>
+    </div>
+  </div>
+
+  <div class="action-bar">
+    <div class="container">
+      <button class="btn btn-primary" id="btn-submit" disabled onclick="submitQuiz()">Enviar Simulado</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     Screen 4 — Resultado
+══════════════════════════════════════ -->
+<div id="screen-results" class="screen">
+  <div class="page-header">
+    <button class="back-btn" onclick="showScreen('exam')">← Voltar</button>
+    <div class="page-header-text">
+      <div class="book-name" id="results-title"></div>
+      <div class="exam-name" id="results-subtitle"></div>
+    </div>
+    <button class="theme-toggle" id="themeToggleResults" style="position:absolute;right:1.25rem;top:50%;transform:translateY(-50%);">🌙</button>
+  </div>
+
+  <div style="flex:1; overflow-y:auto;">
+    <div class="container">
+      <div class="review-label" style="margin-top:1.5rem;">Correção das questões</div>
+      <div id="review-list"></div>
+    </div>
+
+    <div class="score-wrap" id="score-wrap"></div>
+
+    <div class="container">
+      <div class="results-btns">
+        <button class="btn btn-primary" onclick="retryQuiz()">Refazer Simulado</button>
+        <button class="btn btn-ghost"   onclick="showScreen('books')">Escolher outro livro</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════
+     Translator (Essentials 1 only)
+══════════════════════════════════════ -->
+<button id="translator-btn" onclick="toggleTranslator()" title="Abrir tradutor">
+  📖
+</button>
+
+<div id="translator-panel">
+  <div class="tr-header">
+    <span>🔤 Dicionário EN ↔ PT</span>
+    <button class="tr-close" onclick="toggleTranslator()">✕</button>
+  </div>
+  <input class="tr-search" id="tr-search" type="text" placeholder="Buscar palavra..." oninput="filterVocab()">
+  <div class="tr-dir-toggle">
+    <button id="tr-btn-en" class="active" onclick="setDir('en')">EN → PT</button>
+    <button id="tr-btn-pt" onclick="setDir('pt')">PT → EN</button>
+  </div>
+  <div class="tr-list" id="tr-list"></div>
+</div>
+
+<footer>
+  <p>Simulador de Provas · Fisk Taubaté &amp; Caçapava · Uso exclusivo dos alunos</p>
+</footer>
+
+<script>
+/* ══════════════════════════════════════════════
+   Estado global
+══════════════════════════════════════════════ */
+const state = {
+  book:      null,
+  exam:      null,
+  cache:     {},
+  questions: [],
+  answers:   {},
+};
+
+const BOOKS = {
+  essentials1:  { name: 'Essentials 1',  file: 'questions/essentials1.json'  },
+  essentials2:  { name: 'Essentials 2',  file: 'questions/essentials2.json'  },
+  transitions1: { name: 'Transitions 1', file: 'questions/transitions1.json' },
+  transitions2: { name: 'Transitions 2', file: 'questions/transitions2.json' },
+  fluency1:     { name: 'Fluency 1',     file: 'questions/fluency1.json'     },
+  fluency2:     { name: 'Fluency 2',     file: 'questions/fluency2.json'     },
+  infocus:      { name: 'In Focus',      file: 'questions/infocus.json'      },
+};
+
+/* ── Utilidades ── */
+function shuffle(arr) {
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+const LETTERS = ['A','B','C','D'];
+
+/* ── Navegação ── */
+function showScreen(id) {
+  document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
+  document.getElementById('screen-' + id).classList.add('active');
+  window.scrollTo(0, 0);
+  // Hide translator when leaving quiz
+  if (id !== 'quiz') {
+    closeTranslator();
+    document.getElementById('translator-btn').classList.remove('show');
+  }
+}
+
+/* ── Seleção de livro ── */
+function selectBook(card) {
+  document.querySelectorAll('.book-card').forEach(c => c.classList.remove('selected'));
+  card.classList.add('selected');
+  state.book = card.dataset.book;
+  document.getElementById('btn-to-exam').disabled = false;
+}
+
+/* ── Ir para seleção de prova ── */
+async function goToExam() {
+  const info = BOOKS[state.book];
+  if (!info) return;
+
+  if (!state.cache[state.book]) {
+    try {
+      const r = await fetch(info.file);
+      state.cache[state.book] = await r.json();
+    } catch {
+      alert('Não foi possível carregar as questões. Verifique sua conexão.');
+      return;
+    }
+  }
+
+  const data = state.cache[state.book];
+  document.getElementById('exam-book-name').textContent = info.name;
+  document.getElementById('midterm-desc').textContent = data.midterm.topics || 'Lessons 1 a 5';
+  document.getElementById('final-desc').textContent   = data.final.topics   || 'Lessons 6 a 10';
+
+  document.querySelectorAll('.exam-card').forEach(c => c.classList.remove('selected'));
+  state.exam = null;
+  document.getElementById('btn-start').disabled = true;
+
+  showScreen('exam');
+}
+
+/* ── Seleção de prova ── */
+function selectExam(card) {
+  document.querySelectorAll('.exam-card').forEach(c => c.classList.remove('selected'));
+  card.classList.add('selected');
+  state.exam = card.dataset.exam;
+  document.getElementById('btn-start').disabled = false;
+}
+
+/* ── Preparar e iniciar quiz ── */
+function startQuiz() {
+  const data = state.cache[state.book];
+  if (!data) return;
+
+  const pool = data[state.exam].questions;
+  const picked = shuffle([...pool]).slice(0, 10);
+
+  state.questions = picked.map(q => {
+    const indexed = q.options.map((txt, i) => ({ txt, orig: i }));
+    const shuffled = shuffle(indexed);
+    return {
+      ...q,
+      _opts: shuffled.map(o => o.txt),
+      _correct: shuffled.findIndex(o => o.orig === q.correct),
+    };
+  });
+
+  state.answers = {};
+
+  const bookName = BOOKS[state.book].name;
+  const examLabel = state.exam === 'midterm' ? 'Prova do Meio do Livro' : 'Prova do Final do Livro';
+  document.getElementById('quiz-title').textContent = bookName + ' · ' + examLabel;
+
+  renderQuiz();
+  updateCounter();
+  document.getElementById('btn-submit').disabled = true;
+
+  // Show translator button only for Essentials 1
+  const btn = document.getElementById('translator-btn');
+  if (state.book === 'essentials1') {
+    btn.classList.add('show');
+    renderVocab();
+  } else {
+    btn.classList.remove('show');
+    closeTranslator();
+  }
+
+  showScreen('quiz');
+}
+
+/* ── Renderizar todas as questões ── */
+function renderQuiz() {
+  const list = document.getElementById('questions-list');
+  list.innerHTML = state.questions.map((q, i) => `
+    <div class="q-card" id="qcard-${i}">
+      <div class="q-num">Questão ${i + 1} · <span style="text-transform:none;letter-spacing:0;font-weight:700;color:var(--black);">${q.topic}</span></div>
+      <div class="q-text">${q.question}</div>
+      <div class="opts-grid">
+        ${q._opts.map((opt, j) => `
+          <button class="opt-btn" id="opt-${i}-${j}" onclick="selectOption(${i}, ${j})">
+            <span class="opt-letter">${LETTERS[j]}</span>
+            <span>${opt}</span>
+          </button>
+        `).join('')}
+      </div>
+    </div>
+  `).join('');
+}
+
+/* ── Selecionar opção ── */
+function selectOption(qIdx, optIdx) {
+  const prev = state.answers[qIdx];
+  if (prev !== undefined) {
+    document.getElementById(`opt-${qIdx}-${prev}`).classList.remove('chosen');
+  }
+
+  state.answers[qIdx] = optIdx;
+  document.getElementById(`opt-${qIdx}-${optIdx}`).classList.add('chosen');
+  document.getElementById(`qcard-${qIdx}`).classList.add('has-answer');
+
+  updateCounter();
+}
+
+/* ── Atualizar contador ── */
+function updateCounter() {
+  const n = Object.keys(state.answers).length;
+  const el = document.getElementById('quiz-counter');
+  el.textContent = `${n} de 10`;
+  el.classList.toggle('done', n === 10);
+  document.getElementById('btn-submit').disabled = n < 10;
+}
+
+/* ── Enviar simulado ── */
+function submitQuiz() {
+  let score = 0;
+  state.questions.forEach((q, i) => {
+    if (state.answers[i] === q._correct) score++;
+  });
+
+  // Hide translator on results screen
+  closeTranslator();
+  document.getElementById('translator-btn').classList.remove('show');
+
+  renderResults(score);
+  showScreen('results');
+}
+
+/* ── Renderizar resultado ── */
+function renderResults(score) {
+  const pct = Math.round((score / 10) * 100);
+  const bookName  = BOOKS[state.book].name;
+  const examLabel = state.exam === 'midterm' ? 'Prova do Meio do Livro' : 'Prova do Final do Livro';
+
+  document.getElementById('results-title').textContent    = bookName;
+  document.getElementById('results-subtitle').textContent = examLabel;
+
+  let cls, msg, sub;
+  if (pct >= 70) {
+    cls = 'great'; msg = 'Ótimo trabalho!';
+    sub = score === 10 ? 'Você acertou tudo! Excelente!' : 'Você está bem preparado para a prova.';
+  } else if (pct >= 50) {
+    cls = 'ok'; msg = 'Continue praticando!';
+    sub = 'Você está quase lá — mais um treino e você passa!';
+  } else {
+    cls = 'low'; msg = 'Precisa revisar mais.';
+    sub = 'Releia as dicas abaixo e tente de novo — você consegue!';
+  }
+
+  document.getElementById('score-wrap').innerHTML = `
+    <div class="score-ring ${cls}">
+      <span class="pct">${pct}%</span>
+      <span class="frac">${score} de 10</span>
+    </div>
+    <div class="score-msg">${msg}</div>
+    <div class="score-sub">${sub}</div>
+  `;
+
+  const list = document.getElementById('review-list');
+  list.innerHTML = state.questions.map((q, i) => {
+    const chosen    = state.answers[i];
+    const isCorrect = chosen === q._correct;
+    const badge     = isCorrect
+      ? '<div class="r-badge ok">✓</div>'
+      : '<div class="r-badge err">✗</div>';
+    const cardCls   = isCorrect ? 'r-correct' : 'r-wrong';
+
+    const opts = q._opts.map((opt, j) => {
+      let cls = 'r-opt r-neutral';
+      if (j === q._correct && j === chosen)  cls = 'r-opt r-chosen-correct';
+      else if (j === chosen && j !== q._correct) cls = 'r-opt r-chosen-wrong';
+      else if (j === q._correct && !isCorrect)   cls = 'r-opt r-correct-ans';
+
+      return `
+        <div class="${cls}">
+          <span class="r-opt-letter">${LETTERS[j]}</span>
+          <span>${opt}</span>
+        </div>`;
+    }).join('');
+
+    const hint = !isCorrect
+      ? `<div class="hint-box">💡 ${q.explanation}</div>`
+      : '';
+
+    return `
+      <div class="r-card ${cardCls}">
+        <div class="r-head">
+          ${badge}
+          <div class="r-meta">
+            <div class="r-qnum">Questão ${i + 1} · ${q.topic}</div>
+            <div class="r-qtxt">${q.question}</div>
+          </div>
+        </div>
+        <div class="r-opts">${opts}</div>
+        ${hint}
+      </div>`;
+  }).join('');
+}
+
+/* ── Refazer simulado ── */
+function retryQuiz() {
+  startQuiz();
+}
+
+/* ══════════════════════════════════════════════
+   Translator (Essentials 1)
+══════════════════════════════════════════════ */
+const VOCAB = [
+  {en:'a lot',       pt:'muito / muitos'},
+  {en:'after',       pt:'depois'},
+  {en:'afternoon',   pt:'tarde'},
+  {en:'ago',         pt:'atrás (tempo)'},
+  {en:'always',      pt:'sempre'},
+  {en:'apple',       pt:'maçã'},
+  {en:'arrive',      pt:'chegar'},
+  {en:'ask',         pt:'perguntar / pedir'},
+  {en:'bag',         pt:'bolsa / sacola'},
+  {en:'ball',        pt:'bola'},
+  {en:'banana',      pt:'banana'},
+  {en:'bathroom',    pt:'banheiro'},
+  {en:'bedroom',     pt:'quarto'},
+  {en:'before',      pt:'antes'},
+  {en:'behind',      pt:'atrás de'},
+  {en:'between',     pt:'entre'},
+  {en:'book',        pt:'livro'},
+  {en:'bread',       pt:'pão'},
+  {en:'breakfast',   pt:'café da manhã'},
+  {en:'brother',     pt:'irmão'},
+  {en:'bus',         pt:'ônibus'},
+  {en:'buy',         pt:'comprar'},
+  {en:'cap',         pt:'boné'},
+  {en:'car',         pt:'carro'},
+  {en:'cat',         pt:'gato'},
+  {en:'chair',       pt:'cadeira'},
+  {en:'class',       pt:'aula / turma'},
+  {en:'close',       pt:'fechar / perto'},
+  {en:'clothes',     pt:'roupas'},
+  {en:'cold',        pt:'frio / resfriado'},
+  {en:'cook',        pt:'cozinhar'},
+  {en:'day',         pt:'dia'},
+  {en:'desk',        pt:'mesa / escrivaninha'},
+  {en:'dinner',      pt:'jantar'},
+  {en:'dog',         pt:'cachorro'},
+  {en:'drink',       pt:'beber / bebida'},
+  {en:'drive',       pt:'dirigir'},
+  {en:'driver',      pt:'motorista'},
+  {en:'eat',         pt:'comer'},
+  {en:'egg',         pt:'ovo'},
+  {en:'engineer',    pt:'engenheiro'},
+  {en:'evening',     pt:'início da noite'},
+  {en:'every day',   pt:'todo dia'},
+  {en:'exercise',    pt:'exercício / praticar'},
+  {en:'family',      pt:'família'},
+  {en:'far',         pt:'longe'},
+  {en:'father',      pt:'pai'},
+  {en:'friend',      pt:'amigo'},
+  {en:'give',        pt:'dar'},
+  {en:'go',          pt:'ir'},
+  {en:'good',        pt:'bom / boa'},
+  {en:'happy',       pt:'feliz'},
+  {en:'hat',         pt:'chapéu'},
+  {en:'have',        pt:'ter'},
+  {en:'here',        pt:'aqui'},
+  {en:'home',        pt:'casa / lar'},
+  {en:'hot',         pt:'quente'},
+  {en:'house',       pt:'casa'},
+  {en:'husband',     pt:'marido'},
+  {en:'in front of', pt:'na frente de'},
+  {en:'juice',       pt:'suco'},
+  {en:'keys',        pt:'chaves'},
+  {en:'kitchen',     pt:'cozinha'},
+  {en:'late',        pt:'atrasado / tarde'},
+  {en:'letter',      pt:'carta / letra'},
+  {en:'live',        pt:'morar / viver'},
+  {en:'lunch',       pt:'almoço'},
+  {en:'milk',        pt:'leite'},
+  {en:'morning',     pt:'manhã'},
+  {en:'mother',      pt:'mãe'},
+  {en:'movie',       pt:'filme'},
+  {en:'near',        pt:'perto de'},
+  {en:'next to',     pt:'ao lado de'},
+  {en:'night',       pt:'noite'},
+  {en:'old',         pt:'velho / antigo'},
+  {en:'open',        pt:'abrir / aberto'},
+  {en:'pencil',      pt:'lápis'},
+  {en:'phone',       pt:'telefone'},
+  {en:'play',        pt:'jogar / brincar / tocar'},
+  {en:'read',        pt:'ler'},
+  {en:'restaurant',  pt:'restaurante'},
+  {en:'run',         pt:'correr'},
+  {en:'school',      pt:'escola'},
+  {en:'singer',      pt:'cantor / cantora'},
+  {en:'sister',      pt:'irmã'},
+  {en:'sleep',       pt:'dormir'},
+  {en:'small',       pt:'pequeno / pequena'},
+  {en:'smile',       pt:'sorrir / sorriso'},
+  {en:'study',       pt:'estudar'},
+  {en:'subway',      pt:'metrô'},
+  {en:'supermarket', pt:'supermercado'},
+  {en:'table',       pt:'mesa'},
+  {en:'tall',        pt:'alto / alta'},
+  {en:'teacher',     pt:'professor / professora'},
+  {en:'there',       pt:'lá / ali'},
+  {en:'tickets',     pt:'ingressos / passagens'},
+  {en:'today',       pt:'hoje'},
+  {en:'tomorrow',    pt:'amanhã'},
+  {en:'umbrella',    pt:'guarda-chuva'},
+  {en:'under',       pt:'embaixo de'},
+  {en:'walk',        pt:'caminhar / andar'},
+  {en:'watch',       pt:'assistir / relógio'},
+  {en:'water',       pt:'água'},
+  {en:'weekend',     pt:'fim de semana'},
+  {en:'wife',        pt:'esposa'},
+  {en:'window',      pt:'janela'},
+  {en:'work',        pt:'trabalhar / trabalho'},
+  {en:'write',       pt:'escrever'},
+  {en:'yesterday',   pt:'ontem'},
+  {en:'young',       pt:'jovem'},
+];
+
+let trDir = 'en'; // 'en' = EN→PT, 'pt' = PT→EN
+let trOpen = false;
+
+function toggleTranslator() {
+  trOpen = !trOpen;
+  const panel = document.getElementById('translator-panel');
+  if (trOpen) {
+    panel.classList.add('open');
+    document.getElementById('tr-search').value = '';
+    filterVocab();
+    document.getElementById('tr-search').focus();
+  } else {
+    closeTranslator();
+  }
+}
+
+function closeTranslator() {
+  trOpen = false;
+  document.getElementById('translator-panel').classList.remove('open');
+}
+
+function setDir(dir) {
+  trDir = dir;
+  document.getElementById('tr-btn-en').classList.toggle('active', dir === 'en');
+  document.getElementById('tr-btn-pt').classList.toggle('active', dir === 'pt');
+  filterVocab();
+}
+
+function renderVocab() {
+  filterVocab();
+}
+
+function filterVocab() {
+  const q = (document.getElementById('tr-search').value || '').toLowerCase().trim();
+  const items = VOCAB.filter(v => {
+    if (!q) return true;
+    return v.en.includes(q) || v.pt.toLowerCase().includes(q);
+  });
+
+  const sorted = trDir === 'en'
+    ? [...items].sort((a, b) => a.en.localeCompare(b.en))
+    : [...items].sort((a, b) => a.pt.localeCompare(b.pt));
+
+  document.getElementById('tr-list').innerHTML = sorted.map(v => {
+    const key = trDir === 'en' ? v.en : v.pt;
+    const val = trDir === 'en' ? v.pt : v.en;
+    return `<div class="tr-item"><span class="tr-key">${key}</span><span class="tr-val">${val}</span></div>`;
+  }).join('') || '<div style="padding:.5rem .4rem;color:#aaa;font-size:.82rem;">Nenhuma palavra encontrada.</div>';
+}
+
+/* ══════════════════════════════════════════════
+   Dark mode — sincroniza todos os toggles
+══════════════════════════════════════════════ */
+const TOGGLE_IDS = ['themeToggleBooks','themeToggleExam','themeToggleResults'];
+
+function applyTheme(dark) {
+  document.body.classList.toggle('theme-dark', dark);
+  const icon = dark ? '☀️' : '🌙';
+  TOGGLE_IDS.forEach(id => {
+    const el = document.getElementById(id);
+    if (el) el.textContent = icon;
+  });
+}
+
+function initTheme() {
+  let dark = false;
+  try { dark = localStorage.getItem('fisk_theme') === 'dark'; } catch {}
+  applyTheme(dark);
+
+  TOGGLE_IDS.forEach(id => {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.addEventListener('click', () => {
+      const next = !document.body.classList.contains('theme-dark');
+      applyTheme(next);
+      try { localStorage.setItem('fisk_theme', next ? 'dark' : 'light'); } catch {}
+    });
+  });
+}
+
+initTheme();
+</script>
+</body>
+</html>

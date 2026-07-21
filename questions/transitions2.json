@@ -1,0 +1,369 @@
+{
+  "book": "transitions2",
+  "bookName": "Transitions 2",
+  "level": "intermediate",
+  "midterm": {
+    "label": "Prova do Meio do Livro",
+    "topics": "Reviews 1–10: Superlatives, Phrasal Verbs (Up/Down/On/Off), Present Perfect Just, Relative Pronouns, First Conditional, Be Supposed To",
+    "questions": [
+      {
+        "id": "t2m01",
+        "topic": "Superlatives",
+        "question": "My mum is _____ cook in the world.",
+        "options": ["the most good", "the better", "the best", "the gooder"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo é o número um, o melhor de todos, usamos o superlativo. A palavra 'good' tem uma forma especial e não segue a regra normal — ela vira 'the best'. Neste caso, estamos dizendo que a mãe é a melhor cozinheira do mundo. Portanto, a resposta correta é THE BEST."
+      },
+      {
+        "id": "t2m02",
+        "topic": "Superlatives",
+        "question": "December is _____ month of the year in Canada.",
+        "options": ["the most cold", "the coldest", "cold than", "the more cold"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo é o mais intenso de todos em uma característica, usamos o superlativo. Para palavras curtas como 'cold', a estrutura é 'the' + a palavra + '-est'. Neste caso, estamos dizendo que dezembro é o mês mais frio do ano no Canadá. Portanto, a resposta correta é THE COLDEST."
+      },
+      {
+        "id": "t2m03",
+        "topic": "Superlatives",
+        "question": "Africa is _____ continent in the world.",
+        "options": ["most wonderful", "the most wonderful", "the wonderfullest", "more wonderful"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo é o mais incrível de todos, usamos o superlativo. Para palavras longas como 'wonderful', a estrutura é 'the most' + a palavra. Neste caso, estamos dizendo que a África é o continente mais maravilhoso do mundo. Portanto, a resposta correta é THE MOST WONDERFUL."
+      },
+      {
+        "id": "t2m04",
+        "topic": "Present Perfect – Just",
+        "question": "Kate _____ her friend. (She just met her a moment ago.)",
+        "options": ["has just meet", "just met", "has just met", "just has met"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo aconteceu há pouquíssimo tempo, usamos 'has/have just' + a forma passada do verbo. Neste caso, Kate encontrou a amiga dela agora há pouco — a ação acabou de acontecer. Portanto, a resposta correta é HAS JUST MET."
+      },
+      {
+        "id": "t2m05",
+        "topic": "Present Perfect – Just",
+        "question": "They _____ their English test.",
+        "options": ["just finished", "have just finished", "have just finish", "has just finished"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo acabou de acontecer agora há pouco, usamos 'have/has just' + a forma passada do verbo. Neste caso, 'they' usa 'have', e estamos dizendo que eles acabaram de terminar a prova de inglês. Portanto, a resposta correta é HAVE JUST FINISHED."
+      },
+      {
+        "id": "t2m06",
+        "topic": "Relative Pronouns – Who/Which",
+        "question": "This is the bank _____ was robbed.",
+        "options": ["who", "where", "which", "whose"],
+        "correct": 2,
+        "explanation": "Quando queremos dar mais informações sobre uma coisa, usamos 'which' para conectar as duas frases. Quando é uma pessoa, usamos 'who'. Neste caso, estamos falando do banco — uma coisa, não uma pessoa. Portanto, a resposta correta é WHICH."
+      },
+      {
+        "id": "t2m07",
+        "topic": "Relative Pronouns – Who/Which",
+        "question": "A vegetarian is someone _____ doesn't eat meat.",
+        "options": ["which", "whose", "where", "who"],
+        "correct": 3,
+        "explanation": "Quando queremos dar mais informações sobre uma pessoa, usamos 'who' para conectar as duas frases. Neste caso, estamos falando sobre uma pessoa — um vegetariano — e explicando o que ela não come. Portanto, a resposta correta é WHO."
+      },
+      {
+        "id": "t2m08",
+        "topic": "First Conditional",
+        "question": "If you _____ greasy food, you will become fat.",
+        "options": ["will eat", "eating", "eat", "ate"],
+        "correct": 2,
+        "explanation": "Quando queremos falar de algo que pode acontecer no futuro com uma consequência real, a estrutura é 'if' + presente + 'will'. Depois do 'if', o verbo fica no presente simples — nunca com 'will'. Neste caso, estamos dizendo que se você comer comida gordurosa, vai engordar. Portanto, a resposta correta é EAT."
+      },
+      {
+        "id": "t2m09",
+        "topic": "First Conditional",
+        "question": "If it rains, I _____ go by car.",
+        "options": ["will", "would", "am going to", "Both A and C are correct"],
+        "correct": 3,
+        "explanation": "Quando queremos falar de um resultado possível no futuro, podemos usar 'will' ou 'going to' — as duas formas funcionam. Neste caso, se chover, a pessoa vai de carro, e tanto 'will go' quanto 'am going to go' expressam a mesma ideia. Portanto, a resposta correta é BOTH A AND C ARE CORRECT — as duas opções estão certas."
+      },
+      {
+        "id": "t2m10",
+        "topic": "Be Supposed To",
+        "question": "You _____ have number plates on your car. (expectation/rule)",
+        "options": ["are suppose to", "are supposed to", "were supposed", "is supposed to"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo é esperado ou é uma regra — não uma ordem direta, mas o que se espera das pessoas — usamos 'are/is supposed to'. Neste caso, estamos dizendo que ter placas no carro é uma regra, algo que todo motorista deve ter. Portanto, a resposta correta é ARE SUPPOSED TO."
+      },
+      {
+        "id": "t2m11",
+        "topic": "Be Supposed To",
+        "question": "You're not _____ talk in this library.",
+        "options": ["suppose to", "supposed to", "supposing to", "to suppose"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo não é permitido ou não é o que se espera, usamos 'not supposed to'. Neste caso, falar na biblioteca não é permitido — é a regra do lugar. Portanto, a resposta correta é SUPPOSED TO, formando 'you're not supposed to talk'."
+      },
+      {
+        "id": "t2m12",
+        "topic": "Present Perfect vs Simple Past",
+        "question": "Last year we _____ to Italy.",
+        "options": ["have gone", "went", "go", "had gone"],
+        "correct": 1,
+        "explanation": "Quando dizemos exatamente quando algo aconteceu, usamos a forma passada do verbo — o passado simples. Neste caso, 'last year' é um momento específico no passado, então não usamos o presente perfeito. Portanto, a resposta correta é WENT."
+      },
+      {
+        "id": "t2m13",
+        "topic": "Present Perfect vs Simple Past",
+        "question": "John and Peggy _____ the book. Now they can watch the film.",
+        "options": ["just have read", "read", "have just read", "had read"],
+        "correct": 2,
+        "explanation": "Quando queremos falar de algo que acabou de acontecer, usamos 'have just' + a forma passada do verbo. Neste caso, as frases são 'John e Peggy acabaram de ler o livro — agora eles podem assistir ao filme'. Portanto, a resposta correta seria HAVE JUST READ."
+      },
+      {
+        "id": "t2m14",
+        "topic": "Phrasal Verbs – Up/Down",
+        "question": "Please _____ the radio. I'm trying to study. (reduce volume)",
+        "options": ["turn up", "turn down", "go down", "speed up"],
+        "correct": 1,
+        "explanation": "Quando queremos pedir para alguém diminuir o volume de algo, usamos 'turn down'. Neste caso, a pessoa está tentando estudar e quer que o rádio fique mais baixo. 'Turn up' seria o contrário — aumentar. Portanto, a resposta correta é TURN DOWN."
+      },
+      {
+        "id": "t2m15",
+        "topic": "Phrasal Verbs – On/Off",
+        "question": "Always forget to _____ the light before going out.",
+        "options": ["turn on", "turn off", "put on", "take off"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que alguém desliga algo — como uma luz ou aparelho — usamos 'turn off'. Neste caso, a pessoa esquece de desligar a luz antes de sair de casa. 'Turn on' seria ligar. Portanto, a resposta correta é TURN OFF."
+      },
+      {
+        "id": "t2m16",
+        "topic": "Reflexive Pronouns",
+        "question": "I caught sight of _____ in the mirror.",
+        "options": ["me", "mine", "myself", "my"],
+        "correct": 2,
+        "explanation": "Quando quem faz a ação e quem recebe a ação é a mesma pessoa, usamos palavras como 'myself', 'yourself', 'herself'. Neste caso, a pessoa se viu no espelho — ela mesma é quem está fazendo e recebendo a ação ao mesmo tempo. Portanto, a resposta correta é MYSELF."
+      },
+      {
+        "id": "t2m17",
+        "topic": "Reflexive Pronouns",
+        "question": "She often talks to _____ when she is upset.",
+        "options": ["her", "hers", "herself", "she"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que alguém faz algo consigo mesmo, sem outra pessoa envolvida, usamos a forma reflexiva. Para 'she', essa forma é 'herself'. Neste caso, ela fala sozinha quando está chateada — sem estar falando com ninguém. Portanto, a resposta correta é HERSELF."
+      },
+      {
+        "id": "t2m18",
+        "topic": "Present Perfect Continuous",
+        "question": "She _____ here for five years.",
+        "options": ["has been working", "have been working", "is working", "worked"],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que uma atividade começou no passado e ainda continua até agora, usamos 'has/have been' + o verbo com -ing. Neste caso, ela começou a trabalhar aqui há cinco anos e ainda trabalha. Portanto, a resposta correta é HAS BEEN WORKING."
+      },
+      {
+        "id": "t2m19",
+        "topic": "Present Perfect Continuous",
+        "question": "You _____ a lot recently.",
+        "options": ["have been eaten", "have been eating", "has been eating", "were eating"],
+        "correct": 1,
+        "explanation": "Quando queremos falar de uma atividade que está acontecendo com frequência ultimamente, usamos 'have/has been' + o verbo com -ing. Neste caso, 'recently' indica que a pessoa tem comido muito nos últimos tempos — e 'you' usa 'have', não 'has'. Portanto, a resposta correta é HAVE BEEN EATING."
+      },
+      {
+        "id": "t2m20",
+        "topic": "Ever + Other Tenses",
+        "question": "Do you _____ get tired of talking about that?",
+        "options": ["sometimes", "ever", "already", "yet"],
+        "correct": 1,
+        "explanation": "Quando queremos perguntar se algo acontece às vezes, em algum momento, usamos 'ever' em perguntas com o presente simples. Neste caso, estamos perguntando se a pessoa alguma vez se cansa de falar sobre aquilo. Portanto, a resposta correta é EVER."
+      },
+      {
+        "id": "t2m21",
+        "topic": "Verbal Combinations – Away",
+        "question": "I feel like _____ my old clothes. (throw away)",
+        "options": ["give away", "throw away", "run away", "fly away"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que alguém vai jogar algo fora, descartar, a expressão é 'throw away'. Neste caso, a pessoa quer se livrar das roupas velhas, jogá-las fora. 'Give away' seria dar de presente. Portanto, a resposta correta é THROW AWAY."
+      },
+      {
+        "id": "t2m22",
+        "topic": "Second Conditional",
+        "question": "What would you do if you _____ half a million dollars?",
+        "options": ["win", "would win", "won", "will win"],
+        "correct": 2,
+        "explanation": "Quando queremos imaginar uma situação hipotética — algo improvável ou que não é real agora — usamos 'if' + a forma passada do verbo. Neste caso, estamos imaginando o que a pessoa faria se ganhasse meio milhão de dólares. Portanto, a resposta correta é WON."
+      }
+    ]
+  },
+  "final": {
+    "label": "Prova do Final do Livro",
+    "topics": "Reviews 1–20: Todo o conteúdo + Second Conditional, Present Perfect Continuous, Reflexive Pronouns, Anymore/Any Longer",
+    "questions": [
+      {
+        "id": "t2f01",
+        "topic": "Second Conditional",
+        "question": "If I _____ you, I wouldn't worry about it.",
+        "options": ["was", "am", "were", "be"],
+        "correct": 2,
+        "explanation": "Quando queremos dar um conselho imaginando que estamos no lugar de outra pessoa, usamos a expressão 'if I were you'. Neste caso, a pessoa está dando um conselho — 'se eu fosse você, não me preocuparia com isso'. Portanto, a resposta correta é WERE."
+      },
+      {
+        "id": "t2f02",
+        "topic": "Second Conditional",
+        "question": "If we _____ more time, I could tell you more about it.",
+        "options": ["have", "had", "would have", "will have"],
+        "correct": 1,
+        "explanation": "Quando queremos imaginar uma situação que não é real agora — uma hipótese — usamos 'if' + a forma passada do verbo. Neste caso, estamos imaginando que teríamos mais tempo, mas na verdade não temos. Portanto, a resposta correta é HAD."
+      },
+      {
+        "id": "t2f03",
+        "topic": "Present Perfect – Lately/Recently",
+        "question": "Sam _____ lately. (He hasn't been taking showers.)",
+        "options": ["didn't take a shower", "hasn't taken a shower", "doesn't take a shower", "wasn't taking a shower"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo não aconteceu ultimamente, sem dizer exatamente quando, usamos o presente perfeito negativo. A palavra 'lately' — ultimamente — é a pista para isso. Neste caso, Sam não tomou banho ultimamente. Portanto, a resposta correta é HASN'T TAKEN A SHOWER."
+      },
+      {
+        "id": "t2f04",
+        "topic": "Present Perfect vs Simple Past",
+        "question": "I'm sorry, but I _____ my homework.",
+        "options": ["forgot", "have forgotten", "was forgetting", "forget"],
+        "correct": 1,
+        "explanation": "Quando queremos falar de algo que aconteceu no passado e ainda tem consequência agora, usamos o presente perfeito. Neste caso, a pessoa esqueceu o dever de casa — e a consequência é que ela está sem ele neste momento. Portanto, a resposta correta é HAVE FORGOTTEN."
+      },
+      {
+        "id": "t2f05",
+        "topic": "Relative Pronouns",
+        "question": "He came with a friend _____ waited outside in the car.",
+        "options": ["which", "whose", "where", "who"],
+        "correct": 3,
+        "explanation": "Quando queremos dar mais informações sobre uma pessoa, usamos 'who' para conectar as duas frases. Neste caso, estamos falando de um amigo — uma pessoa — que ficou esperando do lado de fora no carro. Portanto, a resposta correta é WHO."
+      },
+      {
+        "id": "t2f06",
+        "topic": "Relative Pronouns",
+        "question": "He didn't wait at the traffic lights _____ were red.",
+        "options": ["who", "whose", "which", "where"],
+        "correct": 2,
+        "explanation": "Quando queremos dar mais informações sobre uma coisa, usamos 'which' para conectar as duas frases. Neste caso, estamos falando dos semáforos — coisas, não pessoas — que estavam no vermelho. Portanto, a resposta correta é WHICH."
+      },
+      {
+        "id": "t2f07",
+        "topic": "Present Perfect – Just",
+        "question": "I _____ a new laptop computer.",
+        "options": ["just bought", "have bought just", "have just bought", "just have bought"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo aconteceu agora há pouco, usamos 'have/has just' + a forma passada do verbo — e o 'just' sempre fica no meio. Neste caso, a pessoa acabou de comprar um laptop novo. Portanto, a resposta correta é HAVE JUST BOUGHT."
+      },
+      {
+        "id": "t2f08",
+        "topic": "Phrasal Verbs – Along",
+        "question": "Do you want to _____ with me to the gym?",
+        "options": ["walk along", "come along", "bring along", "take along"],
+        "correct": 1,
+        "explanation": "Quando queremos convidar alguém para vir junto, para nos acompanhar a algum lugar, usamos 'come along'. Neste caso, a pessoa está convidando alguém para ir com ela à academia. Portanto, a resposta correta é COME ALONG."
+      },
+      {
+        "id": "t2f09",
+        "topic": "Reflexive Pronouns – By",
+        "question": "Mary lives _____ in a big apartment.",
+        "options": ["by her", "by herself", "for herself", "by hers"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que alguém faz algo completamente sozinho, sem nenhuma companhia, usamos 'by' + a forma reflexiva. Neste caso, Mary mora sozinha em um apartamento grande, sem ninguém. Portanto, a resposta correta é BY HERSELF."
+      },
+      {
+        "id": "t2f10",
+        "topic": "Superlatives",
+        "question": "Ethan is _____ boy that I know.",
+        "options": ["the most happy", "happiest", "the happiest", "the more happy"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que alguém é o mais feliz de todos, usamos o superlativo. Para a palavra 'happy', que termina em Y, trocamos o Y por I e adicionamos -est. Neste caso, Ethan é o menino mais feliz que a pessoa conhece. Portanto, a resposta correta é THE HAPPIEST."
+      },
+      {
+        "id": "t2f11",
+        "topic": "Present Perfect Continuous",
+        "question": "They _____ English for two years.",
+        "options": ["have been learn", "have been learning", "has been learning", "are learning"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que uma atividade começou no passado e ainda continua até agora, usamos 'have/has been' + o verbo com -ing. Neste caso, eles começaram a aprender inglês há dois anos e ainda estão aprendendo. Portanto, a resposta correta é HAVE BEEN LEARNING."
+      },
+      {
+        "id": "t2f12",
+        "topic": "Anymore / Any Longer",
+        "question": "Do you still drink a lot of soda? — No, I don't drink a lot of soda _____.",
+        "options": ["still", "yet", "anymore", "already"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo que acontecia antes não acontece mais, usamos 'anymore' no final de uma frase negativa. Neste caso, a pessoa parou de tomar refrigerante — antes tomava, agora não toma mais. Portanto, a resposta correta é ANYMORE."
+      },
+      {
+        "id": "t2f13",
+        "topic": "Anymore / Any Longer",
+        "question": "I used to smoke, but I don't _____ anymore.",
+        "options": ["smoke", "smoking", "smoked", "to smoke"],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que paramos de fazer algo que fazíamos antes, a estrutura é 'don't/doesn't' + o verbo na forma simples + 'anymore'. Neste caso, a pessoa fumava antes e parou — o verbo fica simples depois do 'don't'. Portanto, a resposta correta é SMOKE."
+      },
+      {
+        "id": "t2f14",
+        "topic": "Phrasal Verbs – Back",
+        "question": "Bob goes to school at 7 and he _____ home at noon.",
+        "options": ["comes along", "goes away", "comes back", "turns back"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que alguém retorna ao lugar de onde partiu, usamos 'come back'. Neste caso, Bob vai para a escola de manhã e volta para casa ao meio-dia. Portanto, a resposta correta é COMES BACK."
+      },
+      {
+        "id": "t2f15",
+        "topic": "First Conditional",
+        "question": "You will be fined if you _____ your car there.",
+        "options": ["will park", "would park", "park", "parked"],
+        "correct": 2,
+        "explanation": "Quando queremos falar de uma consequência real que vai acontecer em uma situação possível, usamos 'if' + presente simples + 'will'. Depois do 'if', o verbo fica no presente — nunca com 'will'. Neste caso, se você estacionar o carro ali, vai levar uma multa. Portanto, a resposta correta é PARK."
+      },
+      {
+        "id": "t2f16",
+        "topic": "Phrasal Verbs – Over",
+        "question": "There is a helicopter flying _____ the city.",
+        "options": ["away", "along", "over", "back"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo está se movendo por cima de um lugar, passando de um lado ao outro, usamos 'over'. Neste caso, o helicóptero está voando por cima da cidade. Portanto, a resposta correta é OVER."
+      },
+      {
+        "id": "t2f17",
+        "topic": "Present Perfect – Just/Recently/Lately",
+        "question": "Carol _____ weight recently.",
+        "options": ["has lost", "lost", "is losing", "lose"],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que algo aconteceu nos últimos tempos, sem dizer exatamente quando, usamos o presente perfeito. A palavra 'recently' — recentemente — é a pista. Neste caso, Carol perdeu peso recentemente e o resultado está visível agora. Portanto, a resposta correta é HAS LOST."
+      },
+      {
+        "id": "t2f18",
+        "topic": "Verbal Combinations – Around",
+        "question": "The tourists are walking _____ the town.",
+        "options": ["away", "over", "along", "around"],
+        "correct": 3,
+        "explanation": "Quando queremos dizer que alguém está se movendo por vários lugares de uma área, sem um destino fixo, usamos 'around'. Neste caso, os turistas estão circulando pela cidade, passando por diferentes lugares sem rumo definido. Portanto, a resposta correta é AROUND."
+      },
+      {
+        "id": "t2f19",
+        "topic": "Second Conditional",
+        "question": "If I _____ you, I'd consider changing jobs.",
+        "options": ["am", "was", "were", "be"],
+        "correct": 2,
+        "explanation": "Quando queremos dar um conselho imaginando que estamos no lugar de outra pessoa, usamos a expressão 'if I were you'. Neste caso, a pessoa está dando um conselho — 'se eu fosse você, eu pensaria em mudar de emprego'. Portanto, a resposta correta é WERE."
+      },
+      {
+        "id": "t2f20",
+        "topic": "Superlatives",
+        "question": "Winter was _____ time for us.",
+        "options": ["the most bad", "the worse", "the worst", "more bad"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo foi o pior de todos, usamos o superlativo de 'bad'. A palavra 'bad' tem uma forma especial e vira 'the worst'. Neste caso, o inverno foi o período mais difícil para eles. Portanto, a resposta correta é THE WORST."
+      },
+      {
+        "id": "t2f21",
+        "topic": "Relative Pronouns – Whose",
+        "question": "The man _____ son won a trip to Canada works at the hospital.",
+        "options": ["who", "which", "that", "whose"],
+        "correct": 3,
+        "explanation": "Quando queremos dizer que algo pertence a alguém — como o filho de uma pessoa — usamos 'whose' para fazer essa conexão. Neste caso, estamos falando do homem cujo filho ganhou uma viagem ao Canadá. Portanto, a resposta correta é WHOSE."
+      },
+      {
+        "id": "t2f22",
+        "topic": "Present Perfect Continuous",
+        "question": "I _____ all day. (I'm exhausted now.)",
+        "options": ["was studying", "have been studying", "studied", "am studying"],
+        "correct": 1,
+        "explanation": "Quando queremos explicar por que alguém está cansado agora, usando uma atividade que durou o dia todo, usamos 'have/has been' + o verbo com -ing. Neste caso, a pessoa estudou o dia inteiro e agora está exausta — a atividade contínua explica o cansaço. Portanto, a resposta correta é HAVE BEEN STUDYING."
+      }
+    ]
+  }
+}

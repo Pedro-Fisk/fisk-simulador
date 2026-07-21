@@ -1,0 +1,385 @@
+{
+  "book": "transitions1",
+  "bookName": "Transitions 1",
+  "level": "intermediate",
+  "midterm": {
+    "label": "Prova do Meio do Livro",
+    "topics": "Reviews 1–10: Tag Questions, Future Arrangements, Zero Conditional, Comparatives, Used To, Prepositions + -ing, Should/Had Better",
+    "questions": [
+      {
+        "id": "t1m01",
+        "topic": "Tag Questions",
+        "question": "Mr. McGuiness is from Ireland, _____?",
+        "options": ["is he", "does he", "isn't he", "doesn't he"],
+        "correct": 2,
+        "explanation": "Quando queremos confirmar se algo é verdade, colocamos um finalzinho de pergunta no fim da frase. Se a frase é positiva, o finalzinho é negativo — e usamos o mesmo verbo da frase. Neste caso, a frase diz que o Sr. McGuiness É da Irlanda — frase positiva com IS, então o finalzinho é negativo. Portanto, a resposta correta é 'ISN'T HE?'"
+      },
+      {
+        "id": "t1m02",
+        "topic": "Tag Questions",
+        "question": "He didn't recognize me, _____?",
+        "options": ["did he", "didn't he", "does he", "was he"],
+        "correct": 0,
+        "explanation": "Quando queremos confirmar uma informação negativa, o finalzinho de pergunta é positivo. Neste caso, a frase diz que ele NÃO me reconheceu — é negativa com DIDN'T, então o finalzinho é positivo, com o mesmo verbo da frase. Portanto, a resposta correta é 'DID HE?'"
+      },
+      {
+        "id": "t1m03",
+        "topic": "Tag Questions",
+        "question": "It'll rain tomorrow, _____?",
+        "options": ["will it", "won't it", "is it", "isn't it"],
+        "correct": 1,
+        "explanation": "Quando queremos confirmar uma previsão positiva com WILL, o finalzinho de pergunta é negativo, com o mesmo verbo. Neste caso, a frase diz que VAI chover amanhã — positiva com WILL, então o finalzinho é negativo. Portanto, a resposta correta é 'WON'T IT?'"
+      },
+      {
+        "id": "t1m04",
+        "topic": "Future Arrangements (Be + -ing)",
+        "question": "I _____ to the supermarket tomorrow. (arrangement already made)",
+        "options": ["go", "will go", "am going", "goes"],
+        "correct": 2,
+        "explanation": "Quando queremos falar de um plano que já está decidido e combinado com antecedência, usamos o verbo com -ing no presente. Neste caso, a pessoa já sabe que vai ao supermercado amanhã — não é uma decisão tomada na hora. Portanto, a resposta correta é 'AM GOING'."
+      },
+      {
+        "id": "t1m05",
+        "topic": "Zero Conditional",
+        "question": "If you _____ ice, it _____. (general truth)",
+        "options": ["heat / melt", "heat / melts", "heated / melts", "will heat / melts"],
+        "correct": 1,
+        "explanation": "Quando queremos falar de algo que é sempre verdadeiro, como um fato da natureza, usamos dois verbos no presente. Neste caso, a frase descreve o que acontece com gelo quando é aquecido — é sempre assim, toda vez, não é uma previsão. Portanto, a resposta correta é 'HEAT / MELTS'."
+      },
+      {
+        "id": "t1m06",
+        "topic": "Zero Conditional (If + Imperative)",
+        "question": "If you go to the supermarket, _____ some milk.",
+        "options": ["you bring", "bring", "you'll bring", "bringing"],
+        "correct": 1,
+        "explanation": "Quando queremos dar uma instrução ou fazer um pedido para alguém caso uma condição aconteça, usamos o verbo diretamente, sem sujeito. Neste caso, a pessoa está pedindo que comprem leite se forem ao supermercado — é um pedido direto. Portanto, a resposta correta é 'BRING'."
+      },
+      {
+        "id": "t1m07",
+        "topic": "Comparatives (as...as)",
+        "question": "Joe is _____ Rick. (same age)",
+        "options": ["as old than", "older than", "as old as", "old as"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que duas pessoas ou coisas são iguais em alguma característica, usamos a estrutura 'as + adjetivo + as'. Neste caso, Joe e Rick têm a mesma idade — não há diferença entre eles. Portanto, a resposta correta é 'AS OLD AS'."
+      },
+      {
+        "id": "t1m08",
+        "topic": "Comparatives (-er + than)",
+        "question": "A whale is _____ a cat.",
+        "options": ["more long than", "longest than", "longer than", "as long as"],
+        "correct": 2,
+        "explanation": "Quando queremos mostrar que uma coisa tem mais de alguma qualidade do que outra, adicionamos -ER ao adjetivo curto e usamos THAN. Neste caso, uma baleia e um gato estão sendo comparados pelo comprimento — a baleia é muito maior. Portanto, a resposta correta é 'LONGER THAN'."
+      },
+      {
+        "id": "t1m09",
+        "topic": "Comparatives (more/less + than)",
+        "question": "Text messages are _____ phone calls.",
+        "options": ["more practical than", "practicaller than", "most practical than", "practical than"],
+        "correct": 0,
+        "explanation": "Quando queremos comparar duas coisas usando um adjetivo longo, colocamos MORE antes do adjetivo e THAN depois. Neste caso, mensagens de texto estão sendo comparadas a ligações usando 'practical' — que é um adjetivo longo, então precisa de MORE. Portanto, a resposta correta é 'MORE PRACTICAL THAN'."
+      },
+      {
+        "id": "t1m10",
+        "topic": "Comparatives (-er/-ier)",
+        "question": "An elephant is _____ a bear.",
+        "options": ["more big than", "bigger than", "biggest than", "bigest than"],
+        "correct": 1,
+        "explanation": "Quando queremos comparar com o adjetivo 'big', dobramos a última letra antes de adicionar -ER, porque ele termina em consoante-vogal-consoante. Neste caso, um elefante e um urso estão sendo comparados pelo tamanho — 'big' vira 'bigger'. Portanto, a resposta correta é 'BIGGER THAN'."
+      },
+      {
+        "id": "t1m11",
+        "topic": "Used To",
+        "question": "I _____ smoke, but I stopped two years ago.",
+        "options": ["am used to", "use to", "used to", "was used to"],
+        "correct": 2,
+        "explanation": "Quando queremos falar de algo que fazíamos no passado mas que não fazemos mais, usamos USED TO antes do verbo. Neste caso, a pessoa fumava antes, mas parou há dois anos — era um hábito do passado que acabou. Portanto, a resposta correta é 'USED TO'."
+      },
+      {
+        "id": "t1m12",
+        "topic": "Used To",
+        "question": "Did you _____ play tennis when you were at school?",
+        "options": ["used to", "use to", "used", "using"],
+        "correct": 1,
+        "explanation": "Quando queremos perguntar sobre um hábito do passado, usamos DID no começo da pergunta e o verbo fica na forma básica, sem o 'D' no final. Neste caso, a pergunta é se a pessoa tinha o costume de jogar tênis na escola — com DID, escrevemos 'use to', não 'used to'. Portanto, a resposta correta é 'USE TO'."
+      },
+      {
+        "id": "t1m13",
+        "topic": "Prepositions + V-ing",
+        "question": "I take a shower _____ going to school.",
+        "options": ["before to go", "before go", "before going", "before to going"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que uma ação acontece antes de outra, usamos 'before' seguido do verbo com -ing. Neste caso, a pessoa toma banho antes de ir à escola — a ação depois de 'before' sempre fica com -ing. Portanto, a resposta correta é 'BEFORE GOING'."
+      },
+      {
+        "id": "t1m14",
+        "topic": "Prepositions + V-ing",
+        "question": "She is afraid _____ speaking in public.",
+        "options": ["to", "for", "of", "with"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que alguém tem medo de fazer algo, usamos 'afraid OF' seguido do verbo com -ing. Neste caso, ela tem medo de falar em público — a preposição que sempre vem depois de 'afraid' é OF. Portanto, a resposta correta é 'OF'."
+      },
+      {
+        "id": "t1m15",
+        "topic": "Should / Had Better",
+        "question": "My mother isn't feeling well. She _____ see a doctor.",
+        "options": ["had better not", "should", "shouldn't", "had better"],
+        "correct": 3,
+        "explanation": "Quando queremos dar um conselho com urgência, onde a situação exige ação imediata, usamos HAD BETTER. Neste caso, a mãe não está se sentindo bem e é importante que ela consulte um médico logo — a situação é séria e urgente. Portanto, a resposta correta é 'HAD BETTER'."
+      },
+      {
+        "id": "t1m16",
+        "topic": "Should / Had Better",
+        "question": "_____ we tell the truth?",
+        "options": ["Had better", "Better", "Should", "Ought"],
+        "correct": 2,
+        "explanation": "Quando queremos perguntar se algo é a coisa certa ou recomendada a fazer, usamos SHOULD no começo da pergunta. Neste caso, as pessoas estão em dúvida se deveriam dizer a verdade — é uma pergunta sobre o que é correto. Portanto, a resposta correta é 'SHOULD'."
+      },
+      {
+        "id": "t1m17",
+        "topic": "Was/Were Going To (Past Plans)",
+        "question": "I _____ study, but I had a headache.",
+        "options": ["was going to", "am going to", "will", "went to"],
+        "correct": 0,
+        "explanation": "Quando queremos falar de um plano que tínhamos no passado mas que não aconteceu por algum motivo, usamos WAS/WERE GOING TO. Neste caso, a pessoa planejava estudar, mas não pôde por causa de uma dor de cabeça. Portanto, a resposta correta é 'WAS GOING TO'."
+      },
+      {
+        "id": "t1m18",
+        "topic": "Was/Were Going To (Past Plans)",
+        "question": "Dave _____ come to our party, but he couldn't find a babysitter.",
+        "options": ["was going", "were going to", "was going to", "is going to"],
+        "correct": 2,
+        "explanation": "Quando queremos falar de um plano que alguém tinha no passado mas que não deu certo, usamos WAS ou WERE GOING TO. Neste caso, Dave ia vir à festa mas não pôde porque não encontrou babá — como Dave é 'he', a forma certa é WAS. Portanto, a resposta correta é 'WAS GOING TO'."
+      },
+      {
+        "id": "t1m19",
+        "topic": "Gerund as Subject",
+        "question": "_____ is a good exercise.",
+        "options": ["Swim", "To swimming", "Swimming", "Swims"],
+        "correct": 2,
+        "explanation": "Quando queremos usar uma ação como o assunto principal da frase em inglês, colocamos o verbo com -ing. Neste caso, estamos dizendo que nadar é um bom exercício — 'nadar' é o assunto, então em inglês vai com -ing. Portanto, a resposta correta é 'SWIMMING'."
+      },
+      {
+        "id": "t1m20",
+        "topic": "Gerund as Subject",
+        "question": "_____ lies can get you into trouble.",
+        "options": ["Tell", "To tell", "Telling", "Tells"],
+        "correct": 2,
+        "explanation": "Quando queremos usar uma ação como o assunto principal da frase, colocamos o verbo com -ing. Neste caso, 'contar mentiras' é o assunto da frase — é isso que pode te meter em encrenca. Portanto, a resposta correta é 'TELLING'."
+      },
+      {
+        "id": "t1m21",
+        "topic": "Some / Any / No",
+        "question": "We need _____ bananas.",
+        "options": ["any", "no", "some", "much"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que precisamos de uma quantidade de algo em uma frase positiva, usamos SOME. Neste caso, a frase afirma que precisamos de bananas — é uma frase positiva, então a palavra certa é SOME. Portanto, a resposta correta é 'SOME'."
+      },
+      {
+        "id": "t1m22",
+        "topic": "Some / Any / No",
+        "question": "You can't buy _____ posters in this shop.",
+        "options": ["some", "no", "any", "much"],
+        "correct": 2,
+        "explanation": "Quando temos uma frase negativa ou com uma palavra de negação como 'can't', usamos ANY no lugar de SOME. Neste caso, a frase diz que não é possível comprar cartazes nessa loja — é negativa com 'can't'. Portanto, a resposta correta é 'ANY'."
+      }
+    ]
+  },
+  "final": {
+    "label": "Prova do Final do Livro",
+    "topics": "Reviews 1–20: Todo o conteúdo + Must/Have To, Present Perfect, Have Got, Be Able To, Do/Make",
+    "questions": [
+      {
+        "id": "t1f01",
+        "topic": "Must / Have To / Mustn't",
+        "question": "You _____ drive without a license.",
+        "options": ["must", "have to", "mustn't", "don't have to"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo é completamente proibido e não pode acontecer de jeito nenhum, usamos MUSTN'T. Neste caso, dirigir sem carteira de motorista é proibido por lei — não é uma questão de preferência, é uma proibição absoluta. Portanto, a resposta correta é 'MUSTN'T'."
+      },
+      {
+        "id": "t1f02",
+        "topic": "Must / Have To / Mustn't",
+        "question": "I _____ study more if I want to pass the test. (obligation)",
+        "options": ["mustn't", "don't have to", "have to", "shouldn't"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo é necessário ou obrigatório, usamos HAVE TO. Neste caso, a pessoa precisa estudar mais para conseguir passar na prova — é uma obrigação que ela mesma reconhece. Portanto, a resposta correta é 'HAVE TO'."
+      },
+      {
+        "id": "t1f03",
+        "topic": "Must / Have To / Mustn't",
+        "question": "He _____ go to school on Saturdays. (not necessary)",
+        "options": ["must", "mustn't", "doesn't have to", "can't"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo não é necessário, mas também não é proibido, usamos DOESN'T HAVE TO. Neste caso, ele não precisa ir à escola aos sábados — não há aula, mas ir seria uma opção dele. Portanto, a resposta correta é 'DOESN'T HAVE TO'."
+      },
+      {
+        "id": "t1f04",
+        "topic": "Have / Has Got",
+        "question": "Have you got a smartphone? — Yes, _______________.",
+        "options": ["Yes, I've got.", "Yes, I have got a smartphone.", "Yes, I do.", "Yes, I've got a smartphone."],
+        "correct": 3,
+        "explanation": "Quando queremos responder de forma completa a uma pergunta com 'have got', repetimos o objeto na resposta de maneira natural. Neste caso, a pergunta é se a pessoa tem um smartphone — a resposta mais natural inclui o objeto 'a smartphone'. Portanto, a resposta correta é 'YES, I'VE GOT a smartphone'."
+      },
+      {
+        "id": "t1f05",
+        "topic": "Have / Has Got",
+        "question": "She _____ to go. It's urgent. (she has to = have got to)",
+        "options": ["has got", "has to got", "has got to", "have got to"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que alguém tem a obrigação de fazer algo, podemos usar HAS GOT TO seguido do verbo — tem o mesmo sentido de HAS TO. Neste caso, ela precisa ir embora com urgência — é uma necessidade clara. Portanto, a resposta correta é 'HAS GOT TO'."
+      },
+      {
+        "id": "t1f06",
+        "topic": "Be Able To",
+        "question": "I _____ speak English now, but I couldn't five years ago.",
+        "options": ["could", "can / am able to", "will able to", "am able to"],
+        "correct": 3,
+        "explanation": "Quando queremos falar de algo que somos capazes de fazer no presente, podemos usar AM ABLE TO como alternativa a CAN. Neste caso, a pessoa consegue falar inglês agora — a frase descreve uma capacidade atual, no presente. Portanto, a resposta correta é 'AM ABLE TO'."
+      },
+      {
+        "id": "t1f07",
+        "topic": "Present Perfect (Ever/Never)",
+        "question": "Have you ever traveled to the USA? — No, I _____ traveled there.",
+        "options": ["haven't ever", "have never", "never have", "never had"],
+        "correct": 1,
+        "explanation": "Quando queremos responder de forma negativa a uma pergunta com 'ever', usamos NEVER — as duas palavras juntas na mesma frase ficam redundantes. Neste caso, a resposta é negativa — a pessoa nunca foi aos EUA — então NEVER vai entre 'have' e o verbo. Portanto, a resposta correta é 'HAVE NEVER'."
+      },
+      {
+        "id": "t1f08",
+        "topic": "Present Perfect (Already/Yet)",
+        "question": "Has the teacher corrected the test? — Yes, she's _____ corrected it.",
+        "options": ["yet", "never", "already", "still"],
+        "correct": 2,
+        "explanation": "Quando queremos confirmar que algo já foi feito, usamos ALREADY na resposta positiva. Neste caso, a professora já corrigiu a prova — é uma confirmação de que a ação foi concluída. Portanto, a resposta correta é 'ALREADY'."
+      },
+      {
+        "id": "t1f09",
+        "topic": "Present Perfect (For/Since)",
+        "question": "I've known my best friend _____ 15 years.",
+        "options": ["since", "for", "ago", "in"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer por quanto tempo algo já dura, usamos FOR seguido de um período de tempo. Neste caso, a pessoa conhece o melhor amigo há 15 anos — '15 years' é uma duração, não um momento específico. Portanto, a resposta correta é 'FOR'."
+      },
+      {
+        "id": "t1f10",
+        "topic": "Present Perfect (For/Since)",
+        "question": "I haven't seen her _____ last year.",
+        "options": ["for", "ago", "since", "in"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer desde quando algo não acontece, usamos SINCE seguido de um momento específico no passado. Neste caso, a pessoa não vê ela desde o ano passado — 'last year' é um ponto específico no tempo, não uma duração. Portanto, a resposta correta é 'SINCE'."
+      },
+      {
+        "id": "t1f11",
+        "topic": "Do or Make",
+        "question": "She didn't _____ breakfast for them this morning.",
+        "options": ["do", "make", "have", "cook"],
+        "correct": 1,
+        "explanation": "Quando queremos falar de preparar ou criar algo, usamos MAKE. Neste caso, a frase é sobre fazer o café da manhã para as pessoas — 'breakfast' é algo que se prepara, e a combinação certa é sempre MAKE com 'breakfast'. Portanto, a resposta correta é 'MAKE'."
+      },
+      {
+        "id": "t1f12",
+        "topic": "Do or Make",
+        "question": "He has to _____ the housework before he can go.",
+        "options": ["make", "do", "get", "have"],
+        "correct": 1,
+        "explanation": "Quando queremos falar de tarefas e atividades de casa, usamos DO. Neste caso, ele precisa fazer as tarefas domésticas antes de sair — 'housework' é uma tarefa, não algo que se cria, então a combinação certa é DO. Portanto, a resposta correta é 'DO'."
+      },
+      {
+        "id": "t1f13",
+        "topic": "Comparatives (Irregular)",
+        "question": "This laptop is _____ the tablet.",
+        "options": ["more good than", "best than", "better than", "gooder than"],
+        "correct": 2,
+        "explanation": "Quando queremos comparar usando o adjetivo 'good', a forma de comparação é especial — não segue a regra normal. Neste caso, o laptop está sendo comparado ao tablet e é considerado superior — 'good' tem uma forma própria de comparação. Portanto, a resposta correta é 'BETTER THAN'."
+      },
+      {
+        "id": "t1f14",
+        "topic": "Tag Questions",
+        "question": "Cars pollute the environment, _____?",
+        "options": ["do they", "aren't they", "don't they", "isn't it"],
+        "correct": 2,
+        "explanation": "Quando queremos confirmar uma informação positiva com um finalzinho de pergunta, o finalzinho é negativo e usa o mesmo verbo da frase. Neste caso, a frase diz que carros poluem — é positiva no presente com 'cars' (= they), então o finalzinho é negativo. Portanto, a resposta correta é 'DON'T THEY?'"
+      },
+      {
+        "id": "t1f15",
+        "topic": "Must / Have To",
+        "question": "What _____ you do before lunch? — I must wash my hands.",
+        "options": ["do must", "must", "are you must", "should do"],
+        "correct": 1,
+        "explanation": "Quando queremos fazer uma pergunta com MUST, colocamos MUST diretamente antes da pessoa — sem precisar de 'do'. Neste caso, a pergunta é sobre o que a pessoa deve fazer antes do almoço — MUST já forma a pergunta sozinho. Portanto, a resposta correta é 'MUST'."
+      },
+      {
+        "id": "t1f16",
+        "topic": "Present Perfect (Ever/Already/Never/Yet)",
+        "question": "Have you bought the tickets _____ ? (asking if it's done)",
+        "options": ["already", "never", "still", "yet"],
+        "correct": 3,
+        "explanation": "Quando queremos perguntar se algo já foi feito ou ainda não aconteceu, usamos YET no final da pergunta. Neste caso, a pergunta é sobre se os ingressos já foram comprados — ainda não sabemos se foi feito, e YET expressa exatamente essa dúvida. Portanto, a resposta correta é 'YET'."
+      },
+      {
+        "id": "t1f17",
+        "topic": "As...As (Equal Comparisons)",
+        "question": "Spanish is _____ Portuguese. (same difficulty)",
+        "options": ["as difficult than", "as more difficult as", "as difficult as", "difficult as"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que duas coisas têm o mesmo nível de alguma característica, usamos a estrutura 'as + adjetivo + as'. Neste caso, espanhol e português são apresentados como igualmente difíceis — não há diferença entre eles. Portanto, a resposta correta é 'AS DIFFICULT AS'."
+      },
+      {
+        "id": "t1f18",
+        "topic": "Be Able To – Future/Conditional",
+        "question": "When _____ you cook dinner for 6 people?",
+        "options": ["will you be able", "you will able to", "will you be able to", "can you will"],
+        "correct": 2,
+        "explanation": "Quando queremos perguntar sobre algo que alguém vai conseguir fazer no futuro, usamos WILL BE ABLE TO — porque não existe 'will can'. Neste caso, a pergunta é sobre quando a pessoa vai conseguir preparar um jantar para seis pessoas — é uma capacidade futura. Portanto, a resposta correta é 'WILL YOU BE ABLE TO'."
+      },
+      {
+        "id": "t1f19",
+        "topic": "Prepositions + V-ing (Interest/Opinion)",
+        "question": "I am interested _____ studying history.",
+        "options": ["to study", "in to study", "in studying", "for studying"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que temos interesse em fazer algo, usamos 'interested IN' seguido do verbo com -ing. Neste caso, a pessoa tem interesse em estudar história — a preposição que sempre vem depois de 'interested' é IN. Portanto, a resposta correta é 'IN STUDYING'."
+      },
+      {
+        "id": "t1f20",
+        "topic": "Should – Advice",
+        "question": "I'm so hot. You _____ take off your coat!",
+        "options": ["shouldn't", "had better not", "should", "had better"],
+        "correct": 2,
+        "explanation": "Quando queremos dar uma sugestão ou conselho simples e tranquilo, usamos SHOULD. Neste caso, a pessoa está com calor e a sugestão é que ela tire o casaco — é um conselho simples, sem urgência nem consequência grave. Portanto, a resposta correta é 'SHOULD'."
+      },
+      {
+        "id": "t1f21",
+        "topic": "Verb + V-ing (Avoid/Enjoy/Consider/Finish)",
+        "question": "I usually avoid _____ soda.",
+        "options": ["to drink", "drink", "drinking", "drank"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que evitamos fazer algo, o verbo 'avoid' é sempre seguido do verbo com -ing. Neste caso, a pessoa habitualmente evita beber refrigerante — depois de 'avoid', o verbo sempre fica com -ing. Portanto, a resposta correta é 'DRINKING'."
+      },
+      {
+        "id": "t1f22",
+        "topic": "Zero Conditional",
+        "question": "If I travel by plane, I always _____ sick.",
+        "options": ["get", "will get", "got", "getting"],
+        "correct": 0,
+        "explanation": "Quando queremos falar de algo que sempre acontece como consequência de uma situação, usamos dois verbos no presente. Neste caso, toda vez que a pessoa viaja de avião ela fica doente — é algo constante e previsível, não uma previsão futura. Portanto, a resposta correta é 'GET'."
+      },
+      {
+        "id": "t1f23",
+        "topic": "Gerund as Subject",
+        "question": "_____ fast may lead to an accident.",
+        "options": ["Drive", "To drive", "Drives", "Driving"],
+        "correct": 3,
+        "explanation": "Quando queremos usar uma ação como o assunto principal da frase em inglês, colocamos o verbo com -ing. Neste caso, 'dirigir rápido' é o assunto — é isso que pode causar um acidente. Portanto, a resposta correta é 'DRIVING'."
+      },
+      {
+        "id": "t1f24",
+        "topic": "Future Arrangements",
+        "question": "We _____ a barbecue on Sunday. (already planned)",
+        "options": ["will have", "are having", "have", "going to have"],
+        "correct": 1,
+        "explanation": "Quando queremos falar de um plano que já está combinado e organizado com antecedência, usamos o verbo com -ing no presente. Neste caso, o churrasco no domingo já está marcado e confirmado — não é uma ideia que surgiu agora. Portanto, a resposta correta é 'ARE HAVING'."
+      }
+    ]
+  }
+}

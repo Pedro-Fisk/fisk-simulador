@@ -1,0 +1,385 @@
+{
+  "book": "essentials1",
+  "bookName": "Essentials 1",
+  "level": "basic",
+  "midterm": {
+    "label": "Prova do Meio do Livro",
+    "topics": "Reviews 1–11: Alphabet, This/That, Do/Does, To Be, Can, Prepositions of Place, Going To",
+    "questions": [
+      {
+        "id": "e1m01",
+        "topic": "Articles: A / AN",
+        "question": "Choose the correct article: '_____ umbrella'",
+        "options": ["a", "an", "the", "–"],
+        "correct": 1,
+        "explanation": "Quando queremos usar o artigo indefinido em inglês, a escolha entre 'a' e 'an' depende do som da palavra seguinte: se começa com som de vogal, usamos 'an'. Neste caso, 'umbrella' começa com o som 'u', que é um som de vogal. Portanto, a resposta correta é 'AN umbrella'."
+      },
+      {
+        "id": "e1m02",
+        "topic": "Articles: A / AN",
+        "question": "Choose the correct article: '_____ blue cap'",
+        "options": ["an", "an a", "a", "the"],
+        "correct": 2,
+        "explanation": "Quando queremos usar o artigo indefinido, escolhemos 'a' se a palavra seguinte começa com som de consoante. Neste caso, 'blue' começa com 'b', que é som de consoante. Portanto, a resposta correta é 'A blue cap'."
+      },
+      {
+        "id": "e1m03",
+        "topic": "This / That / These / Those",
+        "question": "You are pointing to a book that is FAR from you (singular). You say:",
+        "options": ["This book", "These books", "That book", "Those books"],
+        "correct": 2,
+        "explanation": "Quando queremos apontar para algo que está LONGE de nós e é uma coisa só, usamos 'that'. Neste caso, o livro está distante de quem fala, e é apenas um livro. Portanto, a resposta correta é 'THAT book'."
+      },
+      {
+        "id": "e1m04",
+        "topic": "This / That / These / Those",
+        "question": "You are pointing to some pencils that are NEAR you (plural). You say:",
+        "options": ["Those pencils", "That pencil", "This pencil", "These pencils"],
+        "correct": 3,
+        "explanation": "Quando queremos falar de várias coisas que estão PERTO de nós, usamos 'these'. Neste caso, os lápis estão perto de quem fala e são mais de um. Portanto, a resposta correta é 'THESE pencils'."
+      },
+      {
+        "id": "e1m05",
+        "topic": "Do / Does – Questions",
+        "question": "_____ she have breakfast every day?",
+        "options": ["Do", "Does", "Is", "Are"],
+        "correct": 1,
+        "explanation": "Quando queremos fazer uma pergunta sobre o que alguém faz no dia a dia, usamos 'do' ou 'does'. Para 'she', 'he' e 'it', sempre usamos 'does'. Neste caso, a pergunta é sobre ela (she). Portanto, a resposta correta é 'DOES she have breakfast every day?'"
+      },
+      {
+        "id": "e1m06",
+        "topic": "Do / Does – Questions",
+        "question": "_____ they study Spanish?",
+        "options": ["Does", "Is", "Do", "Are"],
+        "correct": 2,
+        "explanation": "Quando queremos fazer uma pergunta sobre hábitos de 'they', 'you' ou 'we', usamos 'do'. Neste caso, a pergunta é sobre eles (they). Portanto, a resposta correta é 'DO they study Spanish?'"
+      },
+      {
+        "id": "e1m07",
+        "topic": "Do / Does – Short Answers",
+        "question": "Does he live in Paris? — ___________",
+        "options": ["Yes, he does.", "Yes, he do.", "Yes, he is.", "Yes, he lives."],
+        "correct": 0,
+        "explanation": "Quando queremos dar uma resposta curta a uma pergunta feita com 'does', simplesmente repetimos o 'does' na resposta. Neste caso, a pergunta foi feita com 'does he'. Portanto, a resposta correta é 'Yes, he DOES'."
+      },
+      {
+        "id": "e1m08",
+        "topic": "To Be – Am / Is / Are",
+        "question": "_____ they Brazilian?",
+        "options": ["Am", "Is", "Do", "Are"],
+        "correct": 3,
+        "explanation": "Quando queremos fazer uma pergunta com o verbo 'to be' sobre um grupo de pessoas (they), usamos 'are'. Neste caso, a pergunta é sobre eles (they). Portanto, a resposta correta é 'ARE they Brazilian?'"
+      },
+      {
+        "id": "e1m09",
+        "topic": "To Be – Am / Is / Are",
+        "question": "_____ I late?",
+        "options": ["Are", "Is", "Am", "Do"],
+        "correct": 2,
+        "explanation": "Quando queremos fazer uma pergunta com o verbo 'to be' usando 'I', a única opção é 'am'. Neste caso, quem está perguntando é a própria pessoa (I). Portanto, a resposta correta é 'AM I late?'"
+      },
+      {
+        "id": "e1m10",
+        "topic": "Present Continuous (Be + -ing)",
+        "question": "Look! He _____ soccer right now.",
+        "options": ["plays", "is playing", "play", "playing"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo está acontecendo agora, neste momento, usamos o verbo 'to be' + o verbo com -ing. Neste caso, 'right now' e 'Look!' mostram que a ação está acontecendo agora. Portanto, a resposta correta é 'He IS PLAYING soccer right now'."
+      },
+      {
+        "id": "e1m11",
+        "topic": "Present Continuous (Be + -ing)",
+        "question": "Are they _____ at the party?",
+        "options": ["dance", "dances", "dancing", "danced"],
+        "correct": 2,
+        "explanation": "Quando queremos falar de algo que está acontecendo agora com a estrutura 'are they...?', precisamos do verbo com -ing. Neste caso, o verbo é 'dance' e, quando termina em 'e' mudo, tiramos o 'e' antes de colocar -ing. Portanto, a resposta correta é 'Are they DANCING at the party?'"
+      },
+      {
+        "id": "e1m12",
+        "topic": "Question Words",
+        "question": "_____ is your best friend? (asking about a person)",
+        "options": ["What", "Where", "When", "Who"],
+        "correct": 3,
+        "explanation": "Quando queremos perguntar sobre uma PESSOA — quem é alguém —, usamos 'who'. Neste caso, a pergunta é sobre quem é o melhor amigo. Portanto, a resposta correta é 'WHO is your best friend?'"
+      },
+      {
+        "id": "e1m13",
+        "topic": "Question Words",
+        "question": "_____ is she from? (asking about a place)",
+        "options": ["Who", "What", "Where", "When"],
+        "correct": 2,
+        "explanation": "Quando queremos perguntar sobre um LUGAR ou de onde alguém é, usamos 'where'. Neste caso, a pergunta é sobre a origem de alguém. Portanto, a resposta correta é 'WHERE is she from?'"
+      },
+      {
+        "id": "e1m14",
+        "topic": "Ordinal Numbers",
+        "question": "Christmas is on the _____ of December.",
+        "options": ["twenty-fiveth", "twenty-fifth", "twenty-five", "25nd"],
+        "correct": 1,
+        "explanation": "Quando queremos falar de datas em inglês, usamos os números em ordem (1st, 2nd, 3rd, 4th...). Neste caso, o 25 de dezembro vira 'twenty-fifth' — a palavra 'five' muda para 'fifth'. Portanto, a resposta correta é 'the TWENTY-FIFTH of December'."
+      },
+      {
+        "id": "e1m15",
+        "topic": "Possessive Adjectives",
+        "question": "I love _____ songs and _____ concerts. (referring to a male singer and a band)",
+        "options": ["his / their", "her / their", "him / them", "his / them"],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que algo pertence a alguém, usamos 'his' para o que é dele e 'their' para o que é deles. Neste caso, as músicas pertencem ao cantor (ele = his) e os shows pertencem à banda (eles = their). Portanto, a resposta correta é 'HIS songs and THEIR concerts'."
+      },
+      {
+        "id": "e1m16",
+        "topic": "Objective Pronouns",
+        "question": "The receptionist smiled at _____. (I → ?)",
+        "options": ["I", "my", "me", "mine"],
+        "correct": 2,
+        "explanation": "Quando queremos usar um pronome depois de uma preposição como 'at', 'for' ou 'to', o pronome 'I' muda para 'me'. Neste caso, a frase tem 'at' antes do pronome. Portanto, a resposta correta é 'The receptionist smiled at ME'."
+      },
+      {
+        "id": "e1m17",
+        "topic": "Do/Does – Long Answers",
+        "question": "Do you like chicken? (affirmative, long answer)",
+        "options": ["Yes, I do like.", "Yes, I like chicken.", "Yes, I do chicken.", "Yes, like chicken."],
+        "correct": 1,
+        "explanation": "Quando queremos dar uma resposta completa afirmativa a uma pergunta com 'do', simplesmente repetimos a frase de forma positiva com o verbo. Neste caso, a pergunta é 'Do you like chicken?' e a resposta completa repete a ideia. Portanto, a resposta correta é 'Yes, I LIKE chicken'."
+      },
+      {
+        "id": "e1m18",
+        "topic": "The Time",
+        "question": "It's 7:15. How do you say it in English?",
+        "options": ["seven fifteen", "a quarter to seven", "a quarter after seven", "seven and a quarter"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que são quinze minutos depois da hora, podemos usar 'a quarter after' + a hora. Neste caso, são 7:15, ou seja, quinze minutos depois das sete. Portanto, a resposta correta é 'A QUARTER AFTER seven'."
+      },
+      {
+        "id": "e1m19",
+        "topic": "Nationality / To Be",
+        "question": "Is Laura Japanese? — No, ___________",
+        "options": ["she isn't.", "she doesn't.", "she isn't Japanese.", "Both A and C are correct."],
+        "correct": 3,
+        "explanation": "Quando queremos responder 'não' a uma pergunta com o verbo 'to be', podemos usar a resposta curta ou a resposta completa — as duas estão certas. Neste caso, 'she isn't' e 'she isn't Japanese' são as duas formas corretas. Portanto, a resposta correta é 'BOTH A AND C are correct'."
+      },
+      {
+        "id": "e1m20",
+        "topic": "Useful Expressions",
+        "question": "Your teacher asks you to open your book to a certain page. She says:",
+        "options": ["Close your books.", "Open your books to page 10.", "Any questions?", "Look at the board."],
+        "correct": 1,
+        "explanation": "Quando queremos pedir que alguém abra o livro em uma página específica, dizemos 'Open your books to page...'. Neste caso, a professora quer que os alunos vão para uma página determinada. Portanto, a resposta correta é 'OPEN your books to page 10'."
+      },
+      {
+        "id": "e1m21",
+        "topic": "Alphabet / Spelling",
+        "question": "How do you spell the word 'BOOK' in English?",
+        "options": ["B-double O-K", "B-O-O-K", "B-U-C-K", "B-two O-K"],
+        "correct": 1,
+        "explanation": "Quando queremos soletrar uma palavra em inglês, dizemos cada letra separada, uma por uma. Neste caso, a palavra 'book' tem quatro letras: B, O, O, K. Portanto, a resposta correta é 'B-O-O-K'."
+      },
+      {
+        "id": "e1m22",
+        "topic": "Do – We/You/They",
+        "question": "_____ you (plural) live in São Paulo?",
+        "options": ["Does", "Is", "Do", "Are"],
+        "correct": 2,
+        "explanation": "Quando queremos fazer uma pergunta sobre o que 'you', 'we' ou 'they' fazem, usamos 'do'. Neste caso, a pergunta é sobre vocês (you plural). Portanto, a resposta correta é 'DO you live in São Paulo?'"
+      }
+    ]
+  },
+  "final": {
+    "label": "Prova do Final do Livro",
+    "topics": "Reviews 1–22: Todo o conteúdo + Past Simple (Did), Time Expressions, Prepositions, Going To",
+    "questions": [
+      {
+        "id": "e1f01",
+        "topic": "Past Simple – Did (Regular Verbs)",
+        "question": "Did you watch a comedy last night? — Yes, ___________",
+        "options": ["Yes, I watched.", "Yes, I did watch.", "Yes, I watch.", "Yes, I watched a comedy last night."],
+        "correct": 3,
+        "explanation": "Quando queremos dar uma resposta completa e afirmativa no passado, usamos o verbo com -ed e repetimos a situação toda. Neste caso, a pergunta é sobre ter assistido a uma comédia ontem à noite. Portanto, a resposta correta é 'Yes, I WATCHED a comedy last night'."
+      },
+      {
+        "id": "e1f02",
+        "topic": "Past Simple – Did (Regular Verbs)",
+        "question": "Did she cry during the drama? — No, ___________",
+        "options": ["No, she didn't cry during the drama.", "No, she cried.", "No, she don't cry.", "No, she wasn't cry."],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que não fizemos algo no passado, usamos 'didn't' + o verbo na forma simples, sem -ed. Neste caso, a resposta é negativa sobre chorar durante o drama. Portanto, a resposta correta é 'No, she DIDN'T CRY during the drama'."
+      },
+      {
+        "id": "e1f03",
+        "topic": "Past Simple – Did (Irregular Verbs)",
+        "question": "Did Mike _____ a movie last Saturday?",
+        "options": ["watched", "watches", "watch", "watching"],
+        "correct": 2,
+        "explanation": "Quando queremos fazer uma pergunta no passado com 'did', o verbo que vem depois fica na forma simples, sem -ed. Neste caso, a pergunta já tem 'did' e precisa do verbo na forma básica. Portanto, a resposta correta é 'Did Mike WATCH a movie last Saturday?'"
+      },
+      {
+        "id": "e1f04",
+        "topic": "Past Simple – Irregular Verbs",
+        "question": "Did Sara _____ new clothes last weekend? — Yes, she _____ new clothes.",
+        "options": ["buy / buyed", "buy / bought", "buyed / bought", "bought / bought"],
+        "correct": 1,
+        "explanation": "Quando queremos perguntar sobre uma ação passada com 'did', o verbo fica na forma simples; na resposta positiva, usamos a forma passada. Neste caso, 'buy' não segue a regra do -ed — o passado de 'buy' é 'bought'. Portanto, a resposta correta é 'Did she BUY? / Yes, she BOUGHT'."
+      },
+      {
+        "id": "e1f05",
+        "topic": "Time Expressions (Past)",
+        "question": "I bought this CD _____. (ontem)",
+        "options": ["last night", "yesterday", "an hour ago", "last month"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo aconteceu ontem, usamos a palavra 'yesterday'. Neste caso, a tradução em português é exatamente 'ontem'. Portanto, a resposta correta é 'I bought this CD YESTERDAY'."
+      },
+      {
+        "id": "e1f06",
+        "topic": "Time Expressions (Past)",
+        "question": "She learned to play guitar _____. (há três dias)",
+        "options": ["last three days", "three days ago", "three days before", "in three days"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer 'há quanto tempo' algo aconteceu, usamos o número + a unidade de tempo + 'ago'. Neste caso, precisamos dizer 'há três dias'. Portanto, a resposta correta é 'THREE DAYS AGO'."
+      },
+      {
+        "id": "e1f07",
+        "topic": "Be Going To",
+        "question": "Is she _____ work in the USA?",
+        "options": ["going to", "goes to", "going", "go to"],
+        "correct": 0,
+        "explanation": "Quando queremos falar de um plano ou intenção futura, usamos 'is/am/are + going to + verbo'. Neste caso, a pergunta já tem 'is she' e precisa de 'going to' para completar a estrutura. Portanto, a resposta correta é 'Is she GOING TO work in the USA?'"
+      },
+      {
+        "id": "e1f08",
+        "topic": "Be Going To",
+        "question": "I'm _____ travel next summer.",
+        "options": ["going travel", "go to travel", "going to travel", "goes to travel"],
+        "correct": 2,
+        "explanation": "Quando queremos expressar um plano futuro com 'I'm', completamos com 'going to' + o verbo na forma simples. Neste caso, a frase começa com 'I'm' e precisa de 'going to' antes de 'travel'. Portanto, a resposta correta é 'I'm GOING TO TRAVEL next summer'."
+      },
+      {
+        "id": "e1f09",
+        "topic": "Prepositions of Place",
+        "question": "The keys are _____ the table. (em cima da mesa)",
+        "options": ["in", "under", "on", "behind"],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo está em cima de uma superfície, usamos 'on'. Neste caso, as chaves estão sobre a mesa. Portanto, a resposta correta é 'The keys are ON the table'."
+      },
+      {
+        "id": "e1f10",
+        "topic": "Prepositions of Place",
+        "question": "The cat is _____ the box. (dentro da caixa)",
+        "options": ["on", "between", "behind", "in"],
+        "correct": 3,
+        "explanation": "Quando queremos dizer que algo está dentro de um lugar ou objeto, usamos 'in'. Neste caso, o gato está dentro da caixa. Portanto, a resposta correta é 'The cat is IN the box'."
+      },
+      {
+        "id": "e1f11",
+        "topic": "There Is / There Are",
+        "question": "_____ a subway station on this street?",
+        "options": ["Is there", "Are there", "There is", "There are"],
+        "correct": 0,
+        "explanation": "Quando queremos perguntar se UMA coisa existe em algum lugar, usamos 'is there'. Neste caso, a pergunta é sobre uma estação de metrô — uma coisa só. Portanto, a resposta correta é 'IS THERE a subway station on this street?'"
+      },
+      {
+        "id": "e1f12",
+        "topic": "There Is / There Are",
+        "question": "_____ good restaurants around here?",
+        "options": ["Is there", "There are", "Are there", "There is"],
+        "correct": 2,
+        "explanation": "Quando queremos perguntar se VÁRIAS coisas existem em algum lugar, usamos 'are there'. Neste caso, 'restaurants' é mais de um. Portanto, a resposta correta é 'ARE THERE good restaurants around here?'"
+      },
+      {
+        "id": "e1f13",
+        "topic": "Objective Pronouns",
+        "question": "Can you give _____ the tickets? (they → ?)",
+        "options": ["they", "their", "them", "theirs"],
+        "correct": 2,
+        "explanation": "Quando queremos usar 'they' depois de um verbo, o pronome muda para 'them'. Neste caso, queremos dar os ingressos para eles. Portanto, a resposta correta é 'Can you give THEM the tickets?'"
+      },
+      {
+        "id": "e1f14",
+        "topic": "Imperative",
+        "question": "What is the correct imperative? (to close the door)",
+        "options": ["You close the door!", "Closing the door!", "Close the door!", "Does close the door!"],
+        "correct": 2,
+        "explanation": "Quando queremos dar uma ordem ou instrução em inglês, começamos direto com o verbo, sem 'you' na frente. Neste caso, a instrução é para fechar a porta. Portanto, a resposta correta é 'CLOSE the door!'"
+      },
+      {
+        "id": "e1f15",
+        "topic": "Why / Because",
+        "question": "Why do you go to the gym? _____ I want to stay fit.",
+        "options": ["Because", "So", "Why", "For"],
+        "correct": 0,
+        "explanation": "Quando queremos responder a uma pergunta com 'why' (por que), usamos 'because' (porque) para explicar o motivo. Neste caso, a pergunta pede o motivo de ir à academia. Portanto, a resposta correta é 'BECAUSE I want to stay fit'."
+      },
+      {
+        "id": "e1f16",
+        "topic": "Can – Ability",
+        "question": "Can your mom run 10 kilometers? — Yes, ___________",
+        "options": ["Yes, she can run.", "Yes, she can.", "Yes, she cans.", "Yes, she does."],
+        "correct": 1,
+        "explanation": "Quando queremos dar uma resposta curta a uma pergunta com 'can', simplesmente repetimos o 'can'. Neste caso, a pergunta foi feita com 'can' sobre a mãe dela (she). Portanto, a resposta correta é 'Yes, she CAN'."
+      },
+      {
+        "id": "e1f17",
+        "topic": "Can – Ability",
+        "question": "_____ you play soccer?",
+        "options": ["Do", "Does", "Can", "Are"],
+        "correct": 2,
+        "explanation": "Quando queremos perguntar se alguém tem a habilidade de fazer algo, usamos 'can'. Neste caso, a pergunta é sobre saber jogar futebol. Portanto, a resposta correta é 'CAN you play soccer?'"
+      },
+      {
+        "id": "e1f18",
+        "topic": "Question Words",
+        "question": "_____ is the party? — It's on Friday. (asking about TIME)",
+        "options": ["Where", "Who", "When", "What"],
+        "correct": 2,
+        "explanation": "Quando queremos perguntar em que momento algo vai acontecer — o dia ou a hora —, usamos 'when'. Neste caso, a resposta 'It's on Friday' mostra que a pergunta é sobre quando a festa acontece. Portanto, a resposta correta é 'WHEN is the party?'"
+      },
+      {
+        "id": "e1f19",
+        "topic": "Question Words",
+        "question": "_____ do you get up on weekends? — At 9 o'clock. (asking about TIME of day)",
+        "options": ["When", "What time", "Where", "How"],
+        "correct": 1,
+        "explanation": "Quando queremos perguntar as horas exatas em que algo acontece, usamos 'what time'. Neste caso, a resposta 'At 9 o'clock' mostra que a pergunta é sobre a hora exata de acordar. Portanto, a resposta correta é 'WHAT TIME do you get up on weekends?'"
+      },
+      {
+        "id": "e1f20",
+        "topic": "Plural Forms",
+        "question": "What is the plural of 'city'?",
+        "options": ["citys", "cities", "cityes", "citeis"],
+        "correct": 1,
+        "explanation": "Quando queremos formar o plural de uma palavra que termina em consoante + 'y', mudamos o 'y' para 'ies'. Neste caso, 'city' termina em 'ty', então o plural é 'cities'. Portanto, a resposta correta é 'CITIES'."
+      },
+      {
+        "id": "e1f21",
+        "topic": "Numbers (100-999)",
+        "question": "How do you write 325 in words?",
+        "options": ["three hundred twenty-five", "three hundred and twenty-five", "three hundred two five", "Both A and B are correct"],
+        "correct": 3,
+        "explanation": "Quando queremos dizer números de 100 em diante, podemos usar ou não a palavra 'and' depois de 'hundred' — as duas formas são aceitas em inglês. Neste caso, 325 pode ser 'three hundred twenty-five' ou 'three hundred AND twenty-five'. Portanto, a resposta correta é 'BOTH A AND B are correct'."
+      },
+      {
+        "id": "e1f22",
+        "topic": "Past Simple – To Be",
+        "question": "What is the past of 'He IS tired'?",
+        "options": ["He were tired.", "He was tired.", "He did tired.", "He be tired."],
+        "correct": 1,
+        "explanation": "Quando queremos falar no passado com o verbo 'to be', 'is' e 'am' viram 'was', e 'are' vira 'were'. Neste caso, a frase tem 'he is' e no passado isso vira 'he was'. Portanto, a resposta correta é 'He WAS tired'."
+      },
+      {
+        "id": "e1f23",
+        "topic": "Prepositions of Place",
+        "question": "The book is _____ the chair and the armchair.",
+        "options": ["among", "between", "behind", "in front of"],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que algo está no meio de dois objetos, usamos 'between'. Neste caso, o livro está entre a cadeira e a poltrona — dois móveis. Portanto, a resposta correta é 'The book is BETWEEN the chair and the armchair'."
+      },
+      {
+        "id": "e1f24",
+        "topic": "Present Continuous vs Simple Present",
+        "question": "She _____ English every day. (habit)",
+        "options": ["is studying", "studies", "study", "are studying"],
+        "correct": 1,
+        "explanation": "Quando queremos falar de um hábito ou rotina, usamos o verbo na forma simples, sem -ing. Neste caso, 'every day' mostra que é uma rotina, e com 'she' o verbo 'study' ganha -ies no final. Portanto, a resposta correta é 'She STUDIES English every day'."
+      }
+    ]
+  }
+}
