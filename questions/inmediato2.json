@@ -610,6 +610,66 @@
         ],
         "correct": 1,
         "explanation": "CI para 'nosotros' = 'nos'. 'Cocinar' é infinitivo → verbo no singular 'toca'. Correto: 'Esta semana nos toca cocinar'. Não se usa 'se' neste contexto (seria SE reflexivo/impessoal)."
+      },
+      {
+        "topic": "Pronombres CD e CI",
+        "question": "Sustituye el complemento directo en: 'Él escribió la carta.'",
+        "options": [
+          "Él le escribió.",
+          "Él la escribió.",
+          "Él lo escribió.",
+          "Él las escribió."
+        ],
+        "correct": 1,
+        "explanation": "'La carta' é feminino singular. O pronome de CD correspondente é 'la'. Portanto: 'Él la escribió'. Lembre: CD concorda em gênero e número com o substantivo substituído — la (fem. sing.), lo (masc. sing.), las (fem. pl.), los (masc. pl.)."
+      },
+      {
+        "topic": "Contraste Pretérito Perfecto Simple y Compuesto",
+        "question": "Completa con el tiempo correcto: 'Esta semana _____ (trabajar/yo) mucho.'",
+        "options": [
+          "trabajé",
+          "he trabajado",
+          "trabajaba",
+          "trabajo"
+        ],
+        "correct": 1,
+        "explanation": "'Esta semana' indica um período de tempo que ainda não terminou (a semana atual). No espanhol peninsular, isso pede o Pretérito Perfecto Compuesto: 'he trabajado'. Marcadores como 'hoy', 'esta semana', 'este mes' e 'este año' ligam a ação ao presente e pedem o Compuesto."
+      },
+      {
+        "topic": "Verbo Doler",
+        "question": "Completa: 'Después del partido, _____ los brazos y las piernas (a mí).'",
+        "options": [
+          "me duele",
+          "me duelen",
+          "se me duele",
+          "me duelo"
+        ],
+        "correct": 1,
+        "explanation": "'Los brazos y las piernas' é um sujeito plural (duas partes do corpo), então o verbo concorda no plural: 'duelen'. O CI para 'a mí' é 'me'. Forma correta: 'Me duelen los brazos y las piernas'. Compare com o singular: 'me duele el brazo'."
+      },
+      {
+        "topic": "Tener que / Hay que",
+        "question": "Completa con la forma correcta: 'Nosotros _____ llegar antes de las ocho.'",
+        "options": [
+          "tenemos que",
+          "tenéis que",
+          "hay que",
+          "tienen que"
+        ],
+        "correct": 0,
+        "explanation": "'Tener que' conjuga-se de acordo com o sujeito. Para 'nosotros': 'tenemos'. Estrutura: sujeito + tener (conjugado) + que + infinitivo = 'Nosotros tenemos que llegar'. 'Hay que' seria impessoal (sem sujeito específico) e não admite sujeito explícito."
+      },
+      {
+        "topic": "Verbo Tocar",
+        "question": "Completa: 'Esta noche _____ (tocar/a ellos) fregar los platos.'",
+        "options": [
+          "le toca",
+          "les toca",
+          "les tocan",
+          "se les toca"
+        ],
+        "correct": 1,
+        "explanation": "O CI para 'ellos' é 'les'. 'Fregar los platos' é um infinitivo (considerado singular como sujeito), então o verbo fica no singular: 'toca'. Forma correta: 'Esta noche les toca fregar los platos'. Se houvesse um sujeito plural nominal, o verbo concordaria: 'les tocan dos tareas'."
       }
     ]
   },
@@ -782,6 +842,18 @@
         ],
         "correct": 1,
         "explanation": "A conjunção 'o' (ou) muda para 'u' antes de palavras que começam com 'o' ou 'ho': 'siete u ocho', 'hombre u hormiga'. Isso evita a repetição do som /o/: 'o ocho' seria confuso."
+      },
+      {
+        "topic": "Conjunciones (y/e – o/u)",
+        "question": "¿En cuál de las siguientes oraciones el uso de la conjunción es INCORRECTO?",
+        "options": [
+          "Habla español e inglés muy bien.",
+          "¿Quieres café u otra bebida?",
+          "Tiene siete u ocho años.",
+          "Es inteligente y honesta."
+        ],
+        "correct": 3,
+        "explanation": "Em 'Es inteligente y honesta', o uso de 'y' está incorreto. 'Honesta' começa com 'ho-', e a regra diz que 'o' muda para 'u' antes de palavras que começam com 'o' ou 'ho'. O correto é 'Es inteligente u honesta'. As demais opções estão corretas: 'e inglés' (começa com i-), 'u otra' (começa com o-), 'u ocho' (começa com o-)."
       },
       {
         "topic": "Conjunciones (y/e – o/u)",

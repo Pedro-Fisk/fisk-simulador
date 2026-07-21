@@ -667,8 +667,17 @@
     }
 
     /* ── Professor / Classroom Mode ── */
-    #prof-badge { display: none; }
-    body.prof-mode #prof-badge { display: inline-flex; }
+    .prof-badge { display: none; }
+    body.prof-mode .prof-badge { display: inline-flex; }
+    .hub-back-link { display: none; }
+    body.prof-mode .hub-back-link {
+      display: inline-flex; align-items: center; gap: .3rem;
+      color: rgba(255,255,255,.75); text-decoration: none;
+      font-size: .8rem; font-weight: 600;
+      position: absolute; left: 1.25rem; top: 1rem;
+      transition: color .15s;
+    }
+    body.prof-mode .hub-back-link:hover { color: #fff; }
     .prof-badge {
       align-items: center;
       background: #7C3AED; color: #fff;
@@ -746,13 +755,15 @@
      Screen 1 — Choose your book
 ══════════════════════════════════════ -->
 <div id="screen-books" class="screen active">
-  <header class="hero">
+  <header class="hero" style="position:relative;">
+    <a href="https://pedro-fisk.github.io/fisk-hub/" class="hub-back-link">&#8592; Fisk Hub</a>
     <button class="theme-toggle" id="themeToggleBooks" aria-label="Toggle dark mode">🌙</button>
     <img class="hero-logo"
          src="https://raw.githubusercontent.com/Pedro-Fisk/fisk-hub/main/assets/fisk-logo.png"
          alt="FISK Taubaté · Caçapava"
          onerror="this.style.display='none';this.insertAdjacentHTML('afterend','<div style=\'font-family:var(--font-h);font-size:1.8rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.9rem;\'>FISK</div>')">
     <h1 id="main-title">Quick Practice</h1>
+    <span id="prof-badge-books" class="prof-badge">&#128250; Professor Mode</span>
     <p id="main-sub">Mini tests focused on the key grammar structures of each stage, so students can review and reinforce content before the exam</p>
     <div class="lang-toggle">
       <button id="lang-en" class="lang-btn active" onclick="selectLang('en')">English</button>
@@ -850,6 +861,7 @@
       <div class="book-name" id="exam-book-name"></div>
       <div class="exam-name" id="exam-subtitle">Choose your exam</div>
     </div>
+    <span id="prof-badge-exam" class="prof-badge" style="margin-top:0;">&#128250; Professor Mode</span>
     <button class="theme-toggle" id="themeToggleExam" style="position:absolute;right:1.25rem;top:50%;transform:translateY(-50%);">🌙</button>
   </div>
 
@@ -965,6 +977,7 @@
       <div class="book-name" id="results-title"></div>
       <div class="exam-name" id="results-subtitle"></div>
     </div>
+    <span id="prof-badge-results" class="prof-badge" style="margin-top:0;">&#128250; Professor Mode</span>
     <button class="theme-toggle" id="themeToggleResults" style="position:absolute;right:1.25rem;top:50%;transform:translateY(-50%);">🌙</button>
   </div>
 
@@ -1301,7 +1314,7 @@ function applyLang(lang) {
   set('review-label-text',  S.answerRev);
   set('btn-retake',     S.retakeBtn);
   set('btn-choose-book', S.chooseBook);
-  set('prof-badge',     S.profBadge);
+  ['prof-badge','prof-badge-books','prof-badge-exam','prof-badge-results'].forEach(id => set(id, S.profBadge));
   set('btn-revelar',    state.profRevealed ? S.revealedBtn : S.revealBtn);
   set('btn-prof-prev',  S.prevBtn);
   const nx = document.getElementById('btn-prof-next');

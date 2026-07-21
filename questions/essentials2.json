@@ -181,6 +181,430 @@
         "options": ["do", "does", "are", "is"],
         "correct": 3,
         "explanation": "Quando queremos perguntar a idade de alguém, usamos HOW OLD seguido de IS ou ARE. Neste caso, 'your best friend' é uma pessoa só, então usamos IS. Portanto, a resposta correta é IS."
+      },
+      {
+        "id": "e2m23",
+        "topic": "To Be – Past (Was/Were)",
+        "question": "The weather _____ beautiful yesterday.",
+        "options": ["is", "are", "was", "were"],
+        "correct": 2,
+        "explanation": "Quando queremos descrever como estava algo no passado, usamos WAS ou WERE. 'The weather' equivale a 'it' (singular), então usamos WAS. Portanto, a resposta correta é WAS."
+      },
+      {
+        "id": "e2m24",
+        "topic": "To Be – Past (Was/Were)",
+        "question": "_____ your parents at home last night?",
+        "options": ["Was", "Is", "Are", "Were"],
+        "correct": 3,
+        "explanation": "Para fazer perguntas no passado com 'to be', colocamos WAS ou WERE no início da frase. 'Your parents' equivale a 'they' (plural), então usamos WERE. Portanto, a resposta correta é WERE."
+      },
+      {
+        "id": "e2m25",
+        "topic": "To Be – Past (Was/Were)",
+        "question": "The concert _____ amazing! Everyone loved it.",
+        "options": ["were", "is", "are", "was"],
+        "correct": 3,
+        "explanation": "Quando queremos dizer como foi algo no passado, usamos WAS para sujeitos singulares. 'The concert' é singular — uma coisa só —, então usamos WAS. Portanto, a resposta correta é WAS."
+      },
+      {
+        "id": "e2m26",
+        "topic": "There Was / There Were",
+        "question": "_____ a big storm last night.",
+        "options": ["There were", "There is", "There are", "There was"],
+        "correct": 3,
+        "explanation": "Usamos THERE WAS no passado para dizer que algo existia ou aconteceu, quando falamos de uma coisa só. Neste caso, 'storm' (tempestade) é singular. Portanto, a resposta correta é THERE WAS."
+      },
+      {
+        "id": "e2m27",
+        "topic": "There Was / There Were",
+        "question": "_____ any problems with the computer yesterday?",
+        "options": ["Was there", "Were there", "There was", "There were"],
+        "correct": 1,
+        "explanation": "Quando fazemos perguntas com 'there was/were' no passado, invertemos a ordem: WAS THERE (singular) ou WERE THERE (plural). Neste caso, 'problems' é plural, então usamos WERE THERE. Portanto, a resposta correta é WERE THERE."
+      },
+      {
+        "id": "e2m28",
+        "topic": "There Was / There Were",
+        "question": "_____ about thirty students at the lecture yesterday.",
+        "options": ["There was", "There is", "There were", "There are"],
+        "correct": 2,
+        "explanation": "Usamos THERE WERE no passado quando queremos dizer que havia mais de uma coisa ou pessoa em algum lugar. Neste caso, trinta estudantes é plural. Portanto, a resposta correta é THERE WERE."
+      },
+      {
+        "id": "e2m29",
+        "topic": "Countable / Uncountable",
+        "question": "How _____ sugar do you put in your coffee?",
+        "options": ["many", "few", "much", "lot"],
+        "correct": 2,
+        "explanation": "Usamos HOW MUCH para perguntar a quantidade de algo que não dá para contar, como açúcar, água, leite ou dinheiro. Neste caso, açúcar não tem plural e não é contável. Portanto, a resposta correta é MUCH."
+      },
+      {
+        "id": "e2m30",
+        "topic": "Countable / Uncountable",
+        "question": "How _____ students are there in your class?",
+        "options": ["much", "little", "lot", "many"],
+        "correct": 3,
+        "explanation": "Usamos HOW MANY para perguntar a quantidade de algo que dá para contar, como estudantes, livros ou cadeiras. Neste caso, estudantes têm plural e são contáveis. Portanto, a resposta correta é MANY."
+      },
+      {
+        "id": "e2m31",
+        "topic": "Countable / Uncountable",
+        "question": "Which of these words is UNCOUNTABLE in English?",
+        "options": ["apple", "bread", "egg", "table"],
+        "correct": 1,
+        "explanation": "Palavras não contáveis em inglês são substâncias ou conceitos que não se contam individualmente: bread (pão), water, milk, money. Neste caso, apple, egg e table são contáveis e têm plural. Portanto, a resposta correta é BREAD."
+      },
+      {
+        "id": "e2m32",
+        "topic": "A lot of / Some / Many / Much",
+        "question": "She drinks _____ water every day. (great amount)",
+        "options": ["many", "a few", "a lot of", "a little"],
+        "correct": 2,
+        "explanation": "Usamos A LOT OF para dizer que há uma grande quantidade de algo, tanto contável quanto não contável, em frases positivas. Neste caso, água é não contável e a frase é positiva. Portanto, a resposta correta é A LOT OF."
+      },
+      {
+        "id": "e2m33",
+        "topic": "A lot of / Some / Many / Much",
+        "question": "There aren't _____ tickets left. Hurry up!",
+        "options": ["much", "many", "a lot", "some"],
+        "correct": 1,
+        "explanation": "Usamos MANY em frases negativas para falar de coisas contáveis. Neste caso, 'tickets' são contáveis e a frase é negativa ('aren't'). Portanto, a resposta correta é MANY."
+      },
+      {
+        "id": "e2m34",
+        "topic": "A lot of / Some / Many / Much",
+        "question": "Would you like _____ more cake? (offer)",
+        "options": ["many", "much", "any", "some"],
+        "correct": 3,
+        "explanation": "Usamos SOME em ofertas e pedidos, mesmo em frases interrogativas, porque esperamos uma resposta positiva. Neste caso, estamos oferecendo bolo para alguém. Portanto, a resposta correta é SOME."
+      },
+      {
+        "id": "e2m35",
+        "topic": "Too Many / Too Much",
+        "question": "I'm very tired. I had _____ work this week.",
+        "options": ["too many", "very much", "too much", "a lot"],
+        "correct": 2,
+        "explanation": "Usamos TOO MUCH para dizer que algo não contável está em excesso — mais do que deveria. Neste caso, 'work' não é contável, e a pessoa está cansada por excesso de trabalho. Portanto, a resposta correta é TOO MUCH."
+      },
+      {
+        "id": "e2m36",
+        "topic": "Too Many / Too Much",
+        "question": "She can't carry that bag. There are _____ things in it.",
+        "options": ["too much", "very many", "so much", "too many"],
+        "correct": 3,
+        "explanation": "Usamos TOO MANY para dizer que há coisas contáveis em excesso. Neste caso, 'things' é contável e há mais do que a pessoa consegue carregar. Portanto, a resposta correta é TOO MANY."
+      },
+      {
+        "id": "e2m37",
+        "topic": "Too Many / Too Much",
+        "question": "The soup is terrible. They put _____ salt in it.",
+        "options": ["too many", "too much", "a lot", "many"],
+        "correct": 1,
+        "explanation": "Usamos TOO MUCH para indicar excesso de algo que não dá para contar, como sal, açúcar ou óleo. Neste caso, 'salt' não é contável e há mais do que deveria. Portanto, a resposta correta é TOO MUCH."
+      },
+      {
+        "id": "e2m38",
+        "topic": "Past Continuous (Was/Were + -ing)",
+        "question": "She _____ TV when I arrived.",
+        "options": ["watch", "watches", "was watching", "is watching"],
+        "correct": 2,
+        "explanation": "Usamos o Past Continuous (WAS/WERE + verbo com -ing) para descrever uma ação que estava em andamento quando outra aconteceu. Neste caso, ela estava assistindo TV quando eu cheguei. Portanto, a resposta correta é WAS WATCHING."
+      },
+      {
+        "id": "e2m39",
+        "topic": "Past Continuous (Was/Were + -ing)",
+        "question": "The kids _____ in the garden all morning.",
+        "options": ["played", "are playing", "were playing", "was playing"],
+        "correct": 2,
+        "explanation": "Usamos WERE + verbo com -ing para sujeitos plurais no passado contínuo. Neste caso, 'the kids' é plural e estavam brincando por um período de tempo. Portanto, a resposta correta é WERE PLAYING."
+      },
+      {
+        "id": "e2m40",
+        "topic": "Past Continuous (Was/Were + -ing)",
+        "question": "_____ you listening when the teacher explained the rule?",
+        "options": ["Did", "Do", "Was", "Were"],
+        "correct": 3,
+        "explanation": "Para fazer perguntas no Past Continuous, colocamos WAS ou WERE no início da frase. Neste caso, 'you' usa WERE no passado. Portanto, a resposta correta é WERE."
+      },
+      {
+        "id": "e2m41",
+        "topic": "When / While",
+        "question": "He hurt his leg _____ he was playing football.",
+        "options": ["during", "after", "while", "then"],
+        "correct": 2,
+        "explanation": "Usamos WHILE para dizer que algo aconteceu durante uma ação que estava em andamento no passado. Neste caso, ele se machucou enquanto estava jogando futebol — WHILE conecta os dois eventos. Portanto, a resposta correta é WHILE."
+      },
+      {
+        "id": "e2m42",
+        "topic": "When / While",
+        "question": "_____ she was sleeping, her phone rang three times.",
+        "options": ["During", "Before", "While", "After"],
+        "correct": 2,
+        "explanation": "Usamos WHILE (ou WHEN) para dizer que uma ação aconteceu durante outra que estava em andamento no passado. Neste caso, o telefone tocou enquanto ela estava dormindo. Portanto, a resposta correta é WHILE."
+      },
+      {
+        "id": "e2m43",
+        "topic": "When / While",
+        "question": "The lights went out _____ we were watching the movie.",
+        "options": ["during", "while", "at the moment", "then"],
+        "correct": 1,
+        "explanation": "WHILE é usado antes de uma oração com sujeito e verbo, enquanto DURING é seguido apenas de um substantivo. Neste caso, a frase tem 'we were watching' (sujeito + verbo), então precisamos de WHILE. Portanto, a resposta correta é WHILE."
+      },
+      {
+        "id": "e2m44",
+        "topic": "How – Questions",
+        "question": "_____ tall is the Eiffel Tower? — About 330 meters.",
+        "options": ["How", "What", "How much", "Which"],
+        "correct": 0,
+        "explanation": "Quando queremos perguntar sobre medidas ou características físicas, usamos HOW seguido de um adjetivo: HOW TALL (qual a altura), HOW LONG (qual o comprimento), HOW FAR (qual a distância). Portanto, a resposta correta é HOW."
+      },
+      {
+        "id": "e2m45",
+        "topic": "How – Questions",
+        "question": "_____ long is the Amazon River? — About 6,400 km.",
+        "options": ["How much", "What", "How", "Which"],
+        "correct": 2,
+        "explanation": "Usamos HOW + adjetivo para perguntar sobre medidas e dimensões: HOW LONG (qual o comprimento/duração), HOW TALL (qual a altura). Neste caso, perguntamos o comprimento do rio. Portanto, a resposta correta é HOW."
+      },
+      {
+        "id": "e2m46",
+        "topic": "How – Questions",
+        "question": "_____ is the movie? — It's two hours long.",
+        "options": ["How long", "How tall", "How much", "How often"],
+        "correct": 0,
+        "explanation": "Usamos HOW LONG para perguntar sobre a duração de algo — um filme, uma aula, uma viagem. Neste caso, a resposta 'two hours long' indica duração. Portanto, a resposta correta é HOW LONG."
+      },
+      {
+        "id": "e2m47",
+        "topic": "How – Questions",
+        "question": "_____ is it from here to the airport? — About 20 km.",
+        "options": ["How much", "How long", "How far", "How many"],
+        "correct": 2,
+        "explanation": "Usamos HOW FAR para perguntar sobre a distância entre dois lugares. Neste caso, a resposta '20 km' indica distância, não tempo nem tamanho. Portanto, a resposta correta é HOW FAR."
+      },
+      {
+        "id": "e2m48",
+        "topic": "How – Transport",
+        "question": "My sister goes to work _____ subway every day.",
+        "options": ["on", "in", "with", "by"],
+        "correct": 3,
+        "explanation": "Usamos BY antes de qualquer meio de transporte para dizer como alguém vai a algum lugar: by subway, by car, by bus, by train. Neste caso, a pessoa usa o metrô para ir ao trabalho. Portanto, a resposta correta é BY."
+      },
+      {
+        "id": "e2m49",
+        "topic": "How – Transport",
+        "question": "They usually travel _____ plane when they go abroad.",
+        "options": ["by", "in", "on", "with"],
+        "correct": 0,
+        "explanation": "Usamos BY antes de meios de transporte para indicar o modo de locomoção. BY PLANE significa 'de avião'. Neste caso, a família viaja de avião para o exterior. Portanto, a resposta correta é BY."
+      },
+      {
+        "id": "e2m50",
+        "topic": "How – Transport",
+        "question": "How do they get to school? — They walk. They go _____ foot.",
+        "options": ["by", "with", "in", "on"],
+        "correct": 3,
+        "explanation": "A expressão 'ir a pé' em inglês é ON FOOT — uma exceção à regra do BY + transporte. Quando alguém caminha até o destino, dizemos 'go on foot'. Portanto, a resposta correta é ON."
+      },
+      {
+        "id": "e2m51",
+        "topic": "How – Transport",
+        "question": "She goes to the office _____ bike.",
+        "options": ["in", "with", "by", "on"],
+        "correct": 2,
+        "explanation": "Usamos BY antes de meios de transporte: by bike (de bicicleta), by car (de carro), by bus (de ônibus). Neste caso, ela usa a bicicleta para ir ao escritório. Portanto, a resposta correta é BY."
+      },
+      {
+        "id": "e2m52",
+        "topic": "How Often / Adverbs of Frequency",
+        "question": "_____ do you exercise? — Three times a week.",
+        "options": ["How many", "How much", "How far", "How often"],
+        "correct": 3,
+        "explanation": "HOW OFTEN é a pergunta que usamos para saber com que frequência alguém faz algo. A resposta típica usa expressões como 'once a week', 'twice a month' ou 'three times a week'. Portanto, a resposta correta é HOW OFTEN."
+      },
+      {
+        "id": "e2m53",
+        "topic": "How Often / Adverbs of Frequency",
+        "question": "I go to the cinema _____ a month. (two times)",
+        "options": ["two times", "twice", "two", "second"],
+        "correct": 1,
+        "explanation": "Em inglês, usamos ONCE (uma vez) e TWICE (duas vezes) para as primeiras frequências, e depois THREE TIMES, FOUR TIMES etc. Neste caso, 'two times a month' está correto, mas TWICE é a forma mais natural e preferida. Portanto, a resposta correta é TWICE."
+      },
+      {
+        "id": "e2m54",
+        "topic": "How Often / Adverbs of Frequency",
+        "question": "He takes English classes _____ a week. (three times per week)",
+        "options": ["once", "twice", "three times", "third time"],
+        "correct": 2,
+        "explanation": "A partir de três vezes, usamos o número + TIMES para indicar frequência: three times, four times, five times etc. Neste caso, são três aulas por semana. Portanto, a resposta correta é THREE TIMES."
+      },
+      {
+        "id": "e2m55",
+        "topic": "How Often / Adverbs of Frequency",
+        "question": "She is _____ at home. She goes out all the time.",
+        "options": ["always", "usually", "often", "rarely"],
+        "correct": 3,
+        "explanation": "Advérbios de frequência vão do mais ao menos frequente: always (sempre), usually (geralmente), often (frequentemente), sometimes (às vezes), rarely (raramente), never (nunca). A frase diz que ela sai o tempo todo, então ela raramente fica em casa. Portanto, a resposta correta é RARELY."
+      },
+      {
+        "id": "e2m56",
+        "topic": "Numbers / Years",
+        "question": "How do you say the year '1776'?",
+        "options": ["one thousand seven hundred seventy-six", "seventeen seventy-six", "seventeen hundred and seventy-six", "Both B and C are correct"],
+        "correct": 3,
+        "explanation": "Para anos a partir de 1100, podemos ler em dois blocos de dois dígitos ('seventeen seventy-six') ou como 'seventeen hundred (and) seventy-six'. As duas formas estão corretas. Portanto, a resposta correta é BOTH B AND C ARE CORRECT."
+      },
+      {
+        "id": "e2m57",
+        "topic": "Numbers / Years",
+        "question": "How do you say the year '2005'?",
+        "options": ["twenty oh-five", "two thousand and five", "twenty hundred five", "Both A and B are correct"],
+        "correct": 3,
+        "explanation": "Para anos entre 2001 e 2009, usamos principalmente 'two thousand and five', mas a forma 'twenty oh-five' também é usada e aceita. As duas formas são corretas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+      },
+      {
+        "id": "e2m58",
+        "topic": "Numbers / Years",
+        "question": "How do you say the year '1900'?",
+        "options": ["one thousand nine hundred", "nineteen hundred", "nineteen zero zero", "Both A and B are correct"],
+        "correct": 3,
+        "explanation": "O ano 1900 pode ser dito de duas formas: 'one thousand nine hundred' ou, de forma mais natural, 'nineteen hundred'. As duas expressões estão corretas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+      },
+      {
+        "id": "e2m59",
+        "topic": "Numbers / Years",
+        "question": "How do you say the year '2016'?",
+        "options": ["two thousand sixteen", "twenty sixteen", "twenty hundred sixteen", "Both A and B are correct"],
+        "correct": 3,
+        "explanation": "Para anos do século XXI a partir de 2010, podemos dizer 'two thousand sixteen' ou, de forma mais curta e moderna, 'twenty sixteen'. As duas formas são corretas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+      },
+      {
+        "id": "e2m60",
+        "topic": "Numbers",
+        "question": "How do you say the number '1,000,000'?",
+        "options": ["one thousand thousands", "one million", "ten hundred thousands", "a thousand thousands"],
+        "correct": 1,
+        "explanation": "O número 1.000.000 em inglês é ONE MILLION. Em inglês, não se diz 'a thousand thousands' — a palavra MILLION é usada para esse valor. Portanto, a resposta correta é ONE MILLION."
+      },
+      {
+        "id": "e2m61",
+        "topic": "Numbers",
+        "question": "How do you say '325'?",
+        "options": ["three hundred twenty-five", "three hundred and twenty-five", "three twenty-five", "Both A and B are correct"],
+        "correct": 3,
+        "explanation": "O número 325 pode ser dito como 'three hundred twenty-five' (mais comum no inglês americano) ou 'three hundred and twenty-five' (mais comum no inglês britânico). As duas formas são corretas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+      },
+      {
+        "id": "e2m62",
+        "topic": "Numbers",
+        "question": "How do you say '15' in English?",
+        "options": ["fifty", "fiveteen", "fifteen", "one five"],
+        "correct": 2,
+        "explanation": "Os números de 13 a 19 são formados com o sufixo -TEEN: thirteen (13), fourteen (14), fifteen (15) etc. Note que '15' é FIFTEEN — a palavra 'five' muda para 'fif' nessa forma. Portanto, a resposta correta é FIFTEEN."
+      },
+      {
+        "id": "e2m63",
+        "topic": "Numbers",
+        "question": "Which number is spelled correctly?",
+        "options": ["fourty", "fifty", "ninty", "thirdy"],
+        "correct": 1,
+        "explanation": "As dezenas em inglês têm grafias específicas: twenty, thirty, forty (sem U!), fifty, sixty, seventy, eighty, ninety (com E). Neste caso, 'forty' não tem U, 'ninety' tem E, e 'thirty' não tem D. Portanto, a resposta correta é FIFTY."
+      },
+      {
+        "id": "e2m64",
+        "topic": "Adverbs of Frequency",
+        "question": "He _____ arrives on time. He is never late. (100%)",
+        "options": ["usually", "often", "sometimes", "always"],
+        "correct": 3,
+        "explanation": "ALWAYS significa 'sempre' e representa 100% das vezes. Neste caso, a frase diz que ele nunca se atrasa — chega no horário em todas as ocasiões. Portanto, a resposta correta é ALWAYS."
+      },
+      {
+        "id": "e2m65",
+        "topic": "Adverbs of Frequency",
+        "question": "I _____ eat fast food. Maybe once a month. (about 20%)",
+        "options": ["always", "usually", "rarely", "often"],
+        "correct": 2,
+        "explanation": "RARELY (raramente) indica que algo acontece com muito pouca frequência — cerca de 10 a 20% das vezes. Neste caso, comer fast food uma vez por mês é algo muito ocasional. Portanto, a resposta correta é RARELY."
+      },
+      {
+        "id": "e2m66",
+        "topic": "Adverbs of Frequency",
+        "question": "She _____ watches the news before going to bed. (about 75%)",
+        "options": ["never", "rarely", "sometimes", "usually"],
+        "correct": 3,
+        "explanation": "USUALLY (geralmente) indica que algo acontece com frequência, mas não sempre — cerca de 70 a 80% das vezes. Neste caso, a pessoa assiste ao noticiário na maioria das noites. Portanto, a resposta correta é USUALLY."
+      },
+      {
+        "id": "e2m67",
+        "topic": "Adverbs of Frequency",
+        "question": "Where does an adverb of frequency go in a sentence with a main verb?",
+        "options": ["at the end of the sentence", "before the subject", "between the subject and the main verb", "after the object"],
+        "correct": 2,
+        "explanation": "Advérbios de frequência como always, usually, often, sometimes e never ficam entre o sujeito e o verbo principal na frase. Exemplos: 'She always studies', 'They never eat meat'. Portanto, a resposta correta é BETWEEN THE SUBJECT AND THE MAIN VERB."
+      },
+      {
+        "id": "e2m68",
+        "topic": "Can / Could – Ability",
+        "question": "She _____ play the violin when she was eight years old.",
+        "options": ["can", "could", "is able to", "must"],
+        "correct": 1,
+        "explanation": "Usamos COULD para falar de habilidades que alguém tinha no passado. Neste caso, ela sabia tocar violino quando era criança. CAN é para o presente e COULD é para o passado. Portanto, a resposta correta é COULD."
+      },
+      {
+        "id": "e2m69",
+        "topic": "Can / Could – Ability",
+        "question": "I _____ swim, but I want to learn.",
+        "options": ["couldn't", "can't", "mustn't", "won't"],
+        "correct": 1,
+        "explanation": "Usamos CAN'T (cannot) para dizer que alguém não é capaz de fazer algo no presente. Neste caso, a pessoa não sabe nadar no momento atual, mas quer aprender. Portanto, a resposta correta é CAN'T."
+      },
+      {
+        "id": "e2m70",
+        "topic": "Can / Could – Ability",
+        "question": "_____ you ride a bike when you were five?",
+        "options": ["Were", "Did", "Could", "Would"],
+        "correct": 2,
+        "explanation": "Para perguntar sobre habilidades no passado, usamos COULD no início da pergunta, assim como usamos CAN para o presente. Neste caso, perguntamos se a pessoa sabia andar de bicicleta quando era criança. Portanto, a resposta correta é COULD."
+      },
+      {
+        "id": "e2m71",
+        "topic": "Can / Could – Ability",
+        "question": "When he was young, he _____ speak four languages.",
+        "options": ["can", "is able to", "could", "should"],
+        "correct": 2,
+        "explanation": "COULD é usado para indicar habilidades que existiam no passado. Neste caso, ele falava quatro idiomas quando era jovem — uma habilidade passada. Portanto, a resposta correta é COULD."
+      },
+      {
+        "id": "e2m72",
+        "topic": "How Old",
+        "question": "How old _____ your parents?",
+        "options": ["is", "do", "was", "are"],
+        "correct": 3,
+        "explanation": "Usamos ARE com sujeitos plurais no presente. 'Your parents' equivale a 'they', então a pergunta é 'How old ARE they?' Portanto, a resposta correta é ARE."
+      },
+      {
+        "id": "e2m73",
+        "topic": "How Old",
+        "question": "How old _____ you when you started school?",
+        "options": ["are", "is", "were", "was"],
+        "correct": 2,
+        "explanation": "Quando perguntamos a idade no passado, usamos WAS ou WERE. 'You' usa WERE no passado. Portanto, a resposta correta é WERE."
+      },
+      {
+        "id": "e2m74",
+        "topic": "How Old",
+        "question": "A: How old is your dog? B: It _____ three years old.",
+        "options": ["are", "were", "have", "is"],
+        "correct": 3,
+        "explanation": "Para responder sobre a idade de alguém ou algo, usamos IS (singular) ou ARE (plural). Neste caso, 'it' é singular, então usamos IS. A estrutura completa é 'It IS three years old'. Portanto, a resposta correta é IS."
+      },
+      {
+        "id": "e2m75",
+        "topic": "How Old",
+        "question": "What is the correct question to ask about someone's age?",
+        "options": ["How years do you have?", "What is your age number?", "How old are you?", "How many years are you?"],
+        "correct": 2,
+        "explanation": "Em inglês, a forma correta de perguntar a idade é HOW OLD ARE YOU? — não traduções literais do português como 'How many years do you have?'. Portanto, a resposta correta é HOW OLD ARE YOU?"
       }
     ]
   },
@@ -379,6 +803,574 @@
         "options": ["with", "in", "on", "by"],
         "correct": 3,
         "explanation": "Quando queremos dizer qual é o meio de transporte, usamos BY: by bus, by car, by train, by plane. Neste caso, a pessoa está explicando como chegar à cidade de ônibus. Portanto, a resposta correta é BY."
+      },
+      {
+        "id": "e2f25",
+        "topic": "Possessive Pronouns",
+        "question": "Is this coat yours? — No, _____ is the black one over there.",
+        "options": ["my", "me", "mine", "I"],
+        "correct": 2,
+        "explanation": "Os pronomes possessivos ficam sozinhos na frase, sem o nome do objeto: mine (o meu/a minha), yours (o seu/a sua), his (o dele), hers (o dela). Neste caso, estamos dizendo que o casaco pertence a nós, então usamos MINE. Portanto, a resposta correta é MINE."
+      },
+      {
+        "id": "e2f26",
+        "topic": "Possessive Pronouns",
+        "question": "That's not our car. _____ is the white one.",
+        "options": ["Our", "Ours", "Us", "We"],
+        "correct": 1,
+        "explanation": "O pronome possessivo de 'we/our' é OURS — fica sozinho sem precisar do nome do objeto. Neste caso, nosso carro é o branco, e OURS substitui 'our car'. Portanto, a resposta correta é OURS."
+      },
+      {
+        "id": "e2f27",
+        "topic": "Possessive Pronouns",
+        "question": "She has her umbrella. Where is _____? (his umbrella → pronoun only)",
+        "options": ["him", "his", "he", "himself"],
+        "correct": 1,
+        "explanation": "O pronome possessivo de 'he/his' é HIS — a mesma forma que o adjetivo possessivo, mas aqui fica sozinho sem o nome do objeto. Neste caso, 'his umbrella' vira só HIS para não repetir 'umbrella'. Portanto, a resposta correta é HIS."
+      },
+      {
+        "id": "e2f28",
+        "topic": "Plural of Nouns",
+        "question": "What is the plural of 'man'?",
+        "options": ["mans", "manes", "men", "man's"],
+        "correct": 2,
+        "explanation": "A palavra 'man' tem plural irregular que precisa ser memorizado: MAN → MEN. Da mesma forma, woman → women e foot → feet. Não seguimos a regra do -S para essas palavras. Portanto, a resposta correta é MEN."
+      },
+      {
+        "id": "e2f29",
+        "topic": "Plural of Nouns",
+        "question": "What is the plural of 'box'?",
+        "options": ["boxs", "boxies", "boxes", "box's"],
+        "correct": 2,
+        "explanation": "Palavras que terminam em -X, -S, -SH ou -CH recebem -ES no plural. Neste caso, 'box' termina em -X, então o plural é BOXES. Portanto, a resposta correta é BOXES."
+      },
+      {
+        "id": "e2f30",
+        "topic": "Plural of Nouns",
+        "question": "What is the plural of 'city'?",
+        "options": ["citys", "cities", "cityes", "city's"],
+        "correct": 1,
+        "explanation": "Palavras que terminam em consoante + Y trocam o Y por -IES no plural: city → CITIES, country → countries, baby → babies. Portanto, a resposta correta é CITIES."
+      },
+      {
+        "id": "e2f31",
+        "topic": "Will – Predictions",
+        "question": "Look at those clouds! It _____ rain this afternoon.",
+        "options": ["rains", "rained", "will rain", "is raining"],
+        "correct": 2,
+        "explanation": "Usamos WILL para fazer previsões com base no que vemos ou acreditamos. Neste caso, as nuvens indicam que vai chover — é uma previsão para o futuro. Portanto, a resposta correta é WILL RAIN."
+      },
+      {
+        "id": "e2f32",
+        "topic": "Will – Predictions",
+        "question": "I think electric cars _____ very common in the future.",
+        "options": ["become", "became", "are becoming", "will become"],
+        "correct": 3,
+        "explanation": "Usamos WILL para expressar previsões ou opiniões sobre o que vai acontecer. A expressão 'I think' é uma pista comum de que a frase é uma previsão. Portanto, a resposta correta é WILL BECOME."
+      },
+      {
+        "id": "e2f33",
+        "topic": "Will – Predictions",
+        "question": "People _____ live on Mars one day, according to some scientists.",
+        "options": ["would", "will", "are", "were going to"],
+        "correct": 1,
+        "explanation": "WILL é usado para previsões e expectativas sobre o futuro. Neste caso, cientistas preveem que haverá vida humana em Marte. Portanto, a resposta correta é WILL."
+      },
+      {
+        "id": "e2f34",
+        "topic": "Which vs What",
+        "question": "_____ is your favorite color?",
+        "options": ["Which", "Who", "What", "Where"],
+        "correct": 2,
+        "explanation": "Usamos WHAT quando não há opções específicas e limitadas — a pergunta é aberta. Neste caso, a cor favorita pode ser qualquer uma das centenas de cores existentes, sem opções predefinidas. Portanto, a resposta correta é WHAT."
+      },
+      {
+        "id": "e2f35",
+        "topic": "Which vs What",
+        "question": "_____ shirt do you prefer — the red one or the blue one?",
+        "options": ["What", "Who", "Where", "Which"],
+        "correct": 3,
+        "explanation": "Usamos WHICH quando há um número limitado de opções para escolher. Neste caso, há apenas duas opções: a camisa vermelha ou a azul. Portanto, a resposta correta é WHICH."
+      },
+      {
+        "id": "e2f36",
+        "topic": "Which vs What",
+        "question": "_____ sport do you play at school?",
+        "options": ["Which", "Who", "What", "Where"],
+        "correct": 2,
+        "explanation": "Usamos WHAT quando a pergunta é aberta, sem opções específicas dadas. Neste caso, não sabemos quais esportes estão disponíveis — a resposta pode ser qualquer esporte. Portanto, a resposta correta é WHAT."
+      },
+      {
+        "id": "e2f37",
+        "topic": "Some / Any",
+        "question": "Is there _____ milk in the fridge?",
+        "options": ["some", "no", "much", "any"],
+        "correct": 3,
+        "explanation": "Em perguntas neutras, usamos ANY para perguntar se algo existe ou está disponível. Neste caso, estamos perguntando se há leite na geladeira. Portanto, a resposta correta é ANY."
+      },
+      {
+        "id": "e2f38",
+        "topic": "Some / Any",
+        "question": "Would you like _____ more coffee? (offer)",
+        "options": ["any", "no", "some", "many"],
+        "correct": 2,
+        "explanation": "Em ofertas, mesmo em frases interrogativas, usamos SOME porque esperamos uma resposta positiva. Neste caso, estamos oferecendo café para alguém. Portanto, a resposta correta é SOME."
+      },
+      {
+        "id": "e2f39",
+        "topic": "Some / Any",
+        "question": "I didn't buy _____ bread at the bakery.",
+        "options": ["some", "many", "few", "any"],
+        "correct": 3,
+        "explanation": "Em frases negativas, usamos ANY no lugar de SOME. Neste caso, a frase é negativa ('didn't buy'), então usamos ANY. Portanto, a resposta correta é ANY."
+      },
+      {
+        "id": "e2f40",
+        "topic": "Can / Could / May – Permission",
+        "question": "A student wants to speak to the teacher after class. Which options are polite?",
+        "options": ["Can I talk to you?", "Could I talk to you?", "May I talk to you?", "Both B and C are correct"],
+        "correct": 3,
+        "explanation": "Para pedir permissão de forma educada, usamos COULD (semi-formal) ou MAY (muito formal). As duas formas são corretas em contextos formais como uma escola. CAN também funciona, mas é menos educado. Portanto, a resposta correta é BOTH B AND C ARE CORRECT."
+      },
+      {
+        "id": "e2f41",
+        "topic": "Can / Could / May – Permission",
+        "question": "Which modal is the MOST polite to ask for permission?",
+        "options": ["Can", "Will", "May", "Could"],
+        "correct": 2,
+        "explanation": "A escala de formalidade para pedir permissão vai do mais formal ao menos formal: MAY → COULD → CAN. MAY é a forma mais educada e formal, usada em situações mais sérias. Portanto, a resposta correta é MAY."
+      },
+      {
+        "id": "e2f42",
+        "topic": "Can / Could / May – Permission",
+        "question": "_____ I use your dictionary for a moment?",
+        "options": ["Will", "Should", "Must", "Could"],
+        "correct": 3,
+        "explanation": "COULD é uma forma educada de pedir permissão, mais formal que CAN mas menos formal que MAY. É muito comum em situações cotidianas quando queremos ser polidos. Portanto, a resposta correta é COULD."
+      },
+      {
+        "id": "e2f43",
+        "topic": "Can / Could / May – Permission",
+        "question": "Your friend asks to borrow your pen. She says: '_____'",
+        "options": ["You can give me your pen.", "Can I borrow your pen?", "Give me your pen, please.", "Should I borrow your pen?"],
+        "correct": 1,
+        "explanation": "Para pedir algo emprestado de forma educada, usamos CAN I, COULD I ou MAY I. Neste caso, 'Can I borrow your pen?' é a forma natural e educada de fazer esse pedido em inglês. Portanto, a resposta correta é CAN I BORROW YOUR PEN?"
+      },
+      {
+        "id": "e2f44",
+        "topic": "Genitive Case ('s)",
+        "question": "The dog belongs to Mark. It's _____.",
+        "options": ["Marks dog", "Mark dog", "Mark's dog", "the dog of Mark"],
+        "correct": 2,
+        "explanation": "Em inglês, usamos 's para indicar posse: nome do dono + 's + objeto. Neste caso, o cachorro pertence a Mark, então dizemos MARK'S DOG — diferente do português 'o cachorro do Mark'. Portanto, a resposta correta é MARK'S DOG."
+      },
+      {
+        "id": "e2f45",
+        "topic": "Genitive Case ('s)",
+        "question": "Whose book is this? — It's _____.",
+        "options": ["Sara book", "the book of Sara", "Sara's", "Saras"],
+        "correct": 2,
+        "explanation": "Para responder 'de quem é?' em inglês, usamos nome + 's. Neste caso, o livro pertence a Sara, então a resposta é SARA'S (sem precisar repetir a palavra 'book'). Portanto, a resposta correta é SARA'S."
+      },
+      {
+        "id": "e2f46",
+        "topic": "Genitive Case ('s)",
+        "question": "How do you say 'o quarto do bebê' in English?",
+        "options": ["the room of baby", "the baby room", "the baby's room", "baby room's"],
+        "correct": 2,
+        "explanation": "Para expressar posse em inglês, colocamos 's depois do dono: BABY'S ROOM. Isso é diferente do português, onde dizemos 'o quarto do bebê' com a preposição 'do'. Portanto, a resposta correta é THE BABY'S ROOM."
+      },
+      {
+        "id": "e2f47",
+        "topic": "Genitive Case ('s)",
+        "question": "My _____ name is Maria. (the name of my teacher)",
+        "options": ["teacher name", "teachers's", "teacher's", "teachers'"],
+        "correct": 2,
+        "explanation": "Para indicar que algo pertence a uma pessoa, usamos 's: TEACHER'S NAME (o nome do professor/a). O apóstrofo mais 's é o marcador de posse no singular. Portanto, a resposta correta é TEACHER'S."
+      },
+      {
+        "id": "e2f48",
+        "topic": "Verb + To + Verb / Verb + V-ing",
+        "question": "I want _____ a new bike.",
+        "options": ["buying", "buy", "to buy", "bought"],
+        "correct": 2,
+        "explanation": "O verbo WANT é sempre seguido de TO + verbo (infinitivo). Neste caso, 'I want to buy' é a estrutura correta — nunca 'I want buying'. Portanto, a resposta correta é TO BUY."
+      },
+      {
+        "id": "e2f49",
+        "topic": "Verb + To + Verb / Verb + V-ing",
+        "question": "She decided _____ medicine at university.",
+        "options": ["study", "studying", "to study", "studied"],
+        "correct": 2,
+        "explanation": "O verbo DECIDE é seguido de TO + infinitivo. Outros verbos com a mesma estrutura são: want, hope, plan, need, prefer. Portanto, a resposta correta é TO STUDY."
+      },
+      {
+        "id": "e2f50",
+        "topic": "Verb + To + Verb / Verb + V-ing",
+        "question": "They enjoy _____ new places on weekends.",
+        "options": ["visit", "to visit", "visited", "visiting"],
+        "correct": 3,
+        "explanation": "O verbo ENJOY é sempre seguido de verbo + -ing. Outros verbos com a mesma estrutura são: avoid, finish, stop, mind. Portanto, a resposta correta é VISITING."
+      },
+      {
+        "id": "e2f51",
+        "topic": "Verb + To + Verb / Verb + V-ing",
+        "question": "He hopes _____ a doctor in the future.",
+        "options": ["becoming", "become", "became", "to become"],
+        "correct": 3,
+        "explanation": "O verbo HOPE é seguido de TO + infinitivo, não de -ing. Neste caso, 'he hopes to become a doctor'. Portanto, a resposta correta é TO BECOME."
+      },
+      {
+        "id": "e2f52",
+        "topic": "Past Continuous – When/While",
+        "question": "They _____ football when it started raining.",
+        "options": ["played", "play", "were playing", "was playing"],
+        "correct": 2,
+        "explanation": "Usamos o Past Continuous (WAS/WERE + -ing) para a ação mais longa que estava em andamento quando outra ação interrompeu. Neste caso, eles estavam jogando futebol (ação contínua) quando a chuva começou (ação súbita). Portanto, a resposta correta é WERE PLAYING."
+      },
+      {
+        "id": "e2f53",
+        "topic": "Past Continuous – When/While",
+        "question": "He fell asleep while he _____ TV.",
+        "options": ["watched", "was watching", "watches", "is watching"],
+        "correct": 1,
+        "explanation": "Depois de WHILE, usamos o Past Continuous para indicar a ação que estava em andamento. Neste caso, ele estava assistindo TV (ação contínua) quando adormeceu. Portanto, a resposta correta é WAS WATCHING."
+      },
+      {
+        "id": "e2f54",
+        "topic": "Past Continuous – When/While",
+        "question": "What were you doing when I called? — I _____ in the garden.",
+        "options": ["worked", "works", "am working", "was working"],
+        "correct": 3,
+        "explanation": "Para descrever o que estava acontecendo em um momento específico do passado, usamos WAS/WERE + verbo com -ing. Neste caso, a pessoa estava trabalhando no jardim quando o telefone tocou. Portanto, a resposta correta é WAS WORKING."
+      },
+      {
+        "id": "e2f55",
+        "topic": "Past Continuous – When/While",
+        "question": "_____ the children playing when you arrived?",
+        "options": ["Did", "Was", "Do", "Were"],
+        "correct": 3,
+        "explanation": "Para fazer perguntas no Past Continuous, colocamos WAS ou WERE antes do sujeito. Neste caso, 'the children' é plural, então usamos WERE. Portanto, a resposta correta é WERE."
+      },
+      {
+        "id": "e2f56",
+        "topic": "Can / Could – Request",
+        "question": "_____ you pass me the salt, please?",
+        "options": ["Will", "Should", "May", "Can"],
+        "correct": 3,
+        "explanation": "Para fazer pedidos informais do dia a dia, usamos CAN YOU...? Neste caso, é um pedido simples e casual à mesa. Portanto, a resposta correta é CAN."
+      },
+      {
+        "id": "e2f57",
+        "topic": "Can / Could – Request",
+        "question": "_____ you speak more slowly, please? I'm a beginner.",
+        "options": ["Could", "Should", "Must", "Will"],
+        "correct": 0,
+        "explanation": "Usamos COULD YOU...? para fazer pedidos mais educados do que CAN YOU. Neste caso, o estudante está pedindo algo em um contexto que requer mais polidez. Portanto, a resposta correta é COULD."
+      },
+      {
+        "id": "e2f58",
+        "topic": "Can / Could – Request",
+        "question": "Which sentence is MORE polite?",
+        "options": ["Can you help me?", "Could you help me?", "Help me!", "You must help me."],
+        "correct": 1,
+        "explanation": "COULD YOU é mais educado que CAN YOU para fazer pedidos. CAN é informal, COULD é mais formal. Uma ordem direta como 'Help me!' é rude, e 'You must' soa como obrigação. Portanto, a resposta correta é COULD YOU HELP ME?"
+      },
+      {
+        "id": "e2f59",
+        "topic": "Can / Could – Request",
+        "question": "_____ you repeat that, please? I didn't catch it.",
+        "options": ["Should", "Must", "Could", "Would like"],
+        "correct": 2,
+        "explanation": "COULD YOU é a forma mais comum e educada de pedir que alguém repita o que disse. Neste caso, o falante não entendeu e está pedindo educadamente para a pessoa repetir. Portanto, a resposta correta é COULD."
+      },
+      {
+        "id": "e2f60",
+        "topic": "Too Many / Too Much",
+        "question": "She has _____ stress at work. She really needs a vacation.",
+        "options": ["too many", "a lot", "too much", "very many"],
+        "correct": 2,
+        "explanation": "Usamos TOO MUCH com substantivos que não dão para contar. 'Stress' não é contável, e a frase indica que o nível de estresse é excessivo. Portanto, a resposta correta é TOO MUCH."
+      },
+      {
+        "id": "e2f61",
+        "topic": "Too Many / Too Much",
+        "question": "He has _____ problems right now. He doesn't know how to handle them.",
+        "options": ["too much", "very much", "too many", "so much"],
+        "correct": 2,
+        "explanation": "Usamos TOO MANY com substantivos contáveis no plural. 'Problems' dá para contar e está no plural, e a situação é de excesso. Portanto, a resposta correta é TOO MANY."
+      },
+      {
+        "id": "e2f62",
+        "topic": "Too Many / Too Much",
+        "question": "I can't sleep. I drank _____ coffee today.",
+        "options": ["too many", "so many", "very much", "too much"],
+        "correct": 3,
+        "explanation": "'Coffee' é um substantivo não contável, e a situação descreve um excesso que causou um problema. Usamos TOO MUCH neste caso. Portanto, a resposta correta é TOO MUCH."
+      },
+      {
+        "id": "e2f63",
+        "topic": "Too Many / Too Much",
+        "question": "There are _____ cars in this city. Traffic is a nightmare.",
+        "options": ["too much", "so much", "too many", "very many"],
+        "correct": 2,
+        "explanation": "'Cars' é contável e está no plural. A cidade tem mais carros do que o ideal, causando engarrafamentos. Usamos TOO MANY para excessos com palavras contáveis. Portanto, a resposta correta é TOO MANY."
+      },
+      {
+        "id": "e2f64",
+        "topic": "How Often",
+        "question": "How often do you see your grandparents? — _____ a month. (2 times)",
+        "options": ["One time", "Second time", "Twice", "Double"],
+        "correct": 2,
+        "explanation": "Em inglês, usamos ONCE (uma vez) e TWICE (duas vezes) para as primeiras frequências. A partir de três, usamos o número + TIMES (three times, four times). Neste caso, duas vezes por mês = TWICE a month. Portanto, a resposta correta é TWICE."
+      },
+      {
+        "id": "e2f65",
+        "topic": "How Often",
+        "question": "She visits her parents _____ times a week. (3 times)",
+        "options": ["triple", "three", "thrice", "tripling"],
+        "correct": 1,
+        "explanation": "Para três vezes ou mais, usamos o número + TIMES: three times, four times, five times a week/month/year etc. Neste caso, são três visitas por semana. Portanto, a resposta correta é THREE (times a week)."
+      },
+      {
+        "id": "e2f66",
+        "topic": "How Often",
+        "question": "How often do you clean your room? — _____ a week. (1 time)",
+        "options": ["Twice", "Once", "One time", "First"],
+        "correct": 1,
+        "explanation": "ONCE é a forma usada para indicar 'uma vez'. TWICE é para duas vezes e THREE TIMES para três vezes. ONE TIME também existe, mas ONCE é a forma mais natural e preferida em inglês. Portanto, a resposta correta é ONCE."
+      },
+      {
+        "id": "e2f67",
+        "topic": "How Often",
+        "question": "What question do you use to ask about frequency?",
+        "options": ["How long...?", "How much...?", "How often...?", "How many...?"],
+        "correct": 2,
+        "explanation": "HOW OFTEN é a expressão usada para perguntar com que frequência algo acontece. A resposta típica inclui advérbios como always, sometimes, rarely, ou expressões como 'once a week'. Portanto, a resposta correta é HOW OFTEN."
+      },
+      {
+        "id": "e2f68",
+        "topic": "To Be Past – Short Answers",
+        "question": "Were they at the party last night? — No, _____.",
+        "options": ["they weren't", "they wasn't", "they not were", "they not"],
+        "correct": 0,
+        "explanation": "Para responder negativamente a uma pergunta com WERE, usamos WEREN'T (were not). Neste caso, a resposta curta negativa é 'No, they weren't'. Portanto, a resposta correta é THEY WEREN'T."
+      },
+      {
+        "id": "e2f69",
+        "topic": "To Be Past – Short Answers",
+        "question": "Was she happy with the result? — Yes, _____.",
+        "options": ["she were", "yes she is", "she was", "she did"],
+        "correct": 2,
+        "explanation": "Para responder afirmativamente a uma pergunta com WAS, usamos WAS na resposta curta: 'Yes, she was'. Neste caso, a pergunta é sobre ela (she), singular, no passado. Portanto, a resposta correta é SHE WAS."
+      },
+      {
+        "id": "e2f70",
+        "topic": "To Be Past – Short Answers",
+        "question": "Were you tired after the trip? — Yes, _____.",
+        "options": ["I were", "I was", "I am", "I did"],
+        "correct": 1,
+        "explanation": "Quando respondemos a uma pergunta com WERE YOU, usamos 'Yes, I was' — não 'I were', que é um erro comum. Portanto, a resposta correta é I WAS."
+      },
+      {
+        "id": "e2f71",
+        "topic": "To Be Past – Short Answers",
+        "question": "Was the food at the restaurant good? — No, _____.",
+        "options": ["it weren't", "it wasn't", "it didn't", "it not was"],
+        "correct": 1,
+        "explanation": "Para dar uma resposta negativa com WAS para coisas (it), usamos WASN'T (was not): 'No, it wasn't'. Portanto, a resposta correta é IT WASN'T."
+      },
+      {
+        "id": "e2f72",
+        "topic": "A Little / A Few",
+        "question": "I have _____ friends in this neighborhood. (small number, countable)",
+        "options": ["a little", "much", "a few", "little"],
+        "correct": 2,
+        "explanation": "Usamos A FEW com substantivos contáveis (que têm plural) para dizer que há uma pequena quantidade. Neste caso, 'friends' é contável. Portanto, a resposta correta é A FEW."
+      },
+      {
+        "id": "e2f73",
+        "topic": "A Little / A Few",
+        "question": "Can I have _____ sugar in my coffee? (small amount, uncountable)",
+        "options": ["a few", "any", "a little", "many"],
+        "correct": 2,
+        "explanation": "Usamos A LITTLE com substantivos não contáveis para dizer que há uma pequena quantidade. 'Sugar' não é contável e não tem plural. Portanto, a resposta correta é A LITTLE."
+      },
+      {
+        "id": "e2f74",
+        "topic": "A Little / A Few",
+        "question": "She speaks _____ French. She can say 'bonjour' and 'merci'.",
+        "options": ["a few", "many", "much", "a little"],
+        "correct": 3,
+        "explanation": "Usamos A LITTLE para indicar uma pequena quantidade de algo não contável. Falar um idioma é tratado como algo não contável em inglês: 'a little French', 'a little Spanish'. Portanto, a resposta correta é A LITTLE."
+      },
+      {
+        "id": "e2f75",
+        "topic": "A Little / A Few",
+        "question": "There are _____ mistakes in your essay. Please correct them.",
+        "options": ["a little", "much", "a few", "little"],
+        "correct": 2,
+        "explanation": "Usamos A FEW com substantivos contáveis no plural para indicar um pequeno número. 'Mistakes' dá para contar, e há algumas (poucas). Portanto, a resposta correta é A FEW."
+      },
+      {
+        "id": "e2f76",
+        "topic": "Will – Future",
+        "question": "A: It's raining! B: Don't worry. I _____ get you an umbrella.",
+        "options": ["am going to", "going to", "was going to", "will"],
+        "correct": 3,
+        "explanation": "Usamos WILL para decisões tomadas no momento da fala. Neste caso, a pessoa vê que está chovendo e decide na hora buscar o guarda-chuva — uma decisão espontânea. Portanto, a resposta correta é WILL."
+      },
+      {
+        "id": "e2f77",
+        "topic": "Will – Future",
+        "question": "I promise I _____ call you tonight.",
+        "options": ["am going to", "go to", "will", "am call"],
+        "correct": 2,
+        "explanation": "Usamos WILL para promessas e compromissos feitos no momento da fala. Neste caso, a pessoa está prometendo fazer uma ligação. Portanto, a resposta correta é WILL."
+      },
+      {
+        "id": "e2f78",
+        "topic": "Will – Future",
+        "question": "A: I'm hungry. B: Wait — I _____ make you a sandwich.",
+        "options": ["am going to", "going", "will", "am making"],
+        "correct": 2,
+        "explanation": "Quando alguém decide fazer algo para outra pessoa na hora — uma oferta espontânea —, usamos WILL. Neste caso, a pessoa ouve que o amigo está com fome e decide na hora fazer um sanduíche. Portanto, a resposta correta é WILL."
+      },
+      {
+        "id": "e2f79",
+        "topic": "Will – Future",
+        "question": "The negative form of 'she will go' is:",
+        "options": ["she no will go", "she will not go", "she won't go", "Both B and C are correct"],
+        "correct": 3,
+        "explanation": "A forma negativa de WILL pode ser WILL NOT (formal) ou WON'T (contração informal). As duas formas estão corretas: 'she will not go' e 'she won't go'. Portanto, a resposta correta é BOTH B AND C ARE CORRECT."
+      },
+      {
+        "id": "e2f80",
+        "topic": "Numbers – Years",
+        "question": "How do you say the year '1066'?",
+        "options": ["one thousand and sixty-six", "ten sixty-six", "one zero six six", "Both A and B are correct"],
+        "correct": 3,
+        "explanation": "O ano 1066 pode ser dito de duas formas: 'one thousand and sixty-six' ou, mais comumente, 'ten sixty-six' (dois blocos de dois dígitos). As duas formas são corretas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+      },
+      {
+        "id": "e2f81",
+        "topic": "Numbers – Years",
+        "question": "How do you say the year '1492'?",
+        "options": ["fourteen ninety-two", "one thousand four hundred ninety-two", "fourteen hundred and ninety-two", "Both A and C are correct"],
+        "correct": 3,
+        "explanation": "O ano 1492 pode ser dito como 'fourteen ninety-two' (dois blocos) ou 'fourteen hundred and ninety-two'. As duas formas são corretas e naturais em inglês. Portanto, a resposta correta é BOTH A AND C ARE CORRECT."
+      },
+      {
+        "id": "e2f82",
+        "topic": "Numbers – Years",
+        "question": "How do you say the year '2000'?",
+        "options": ["twenty hundred", "two thousand", "twenty zero zero", "two zero zero zero"],
+        "correct": 1,
+        "explanation": "O ano 2000 é dito como TWO THOUSAND em inglês. A forma 'twenty hundred' não é usada para o ano 2000 especificamente. Portanto, a resposta correta é TWO THOUSAND."
+      },
+      {
+        "id": "e2f83",
+        "topic": "Numbers – Years",
+        "question": "How do you say the year '1910'?",
+        "options": ["one thousand nine hundred ten", "nineteen ten", "nineteen hundred ten", "Both A and B are correct"],
+        "correct": 3,
+        "explanation": "O ano 1910 pode ser dito como 'nineteen ten' (dois blocos de dois dígitos) ou 'one thousand nine hundred ten'. A forma mais natural é 'nineteen ten'. As duas formas são aceitas. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+      },
+      {
+        "id": "e2f84",
+        "topic": "Verb + V-ing",
+        "question": "I can't help _____ when I watch this comedy.",
+        "options": ["laugh", "to laugh", "laughing", "laughed"],
+        "correct": 2,
+        "explanation": "A expressão CAN'T HELP é seguida sempre pelo verbo com -ing. Significa 'não conseguir evitar de fazer algo'. Neste caso, a pessoa não consegue evitar de rir. Portanto, a resposta correta é LAUGHING."
+      },
+      {
+        "id": "e2f85",
+        "topic": "Verb + V-ing",
+        "question": "She doesn't mind _____ overtime.",
+        "options": ["work", "to work", "worked", "working"],
+        "correct": 3,
+        "explanation": "O verbo MIND (se importar com) é sempre seguido de verbo com -ing. Neste caso, ela não se importa de fazer hora extra. Portanto, a resposta correta é WORKING."
+      },
+      {
+        "id": "e2f86",
+        "topic": "Verb + V-ing",
+        "question": "He finished _____ the report this morning.",
+        "options": ["write", "to write", "writing", "wrote"],
+        "correct": 2,
+        "explanation": "O verbo FINISH é sempre seguido de verbo com -ing. Outros verbos com a mesma regra: enjoy, avoid, mind, stop, keep. Portanto, a resposta correta é WRITING."
+      },
+      {
+        "id": "e2f87",
+        "topic": "Verb + V-ing",
+        "question": "They stopped _____ meat two years ago.",
+        "options": ["eat", "to eat", "ate", "eating"],
+        "correct": 3,
+        "explanation": "O verbo STOP é seguido de -ing quando queremos dizer que alguém parou de fazer algo. Neste caso, eles pararam de comer carne há dois anos. Portanto, a resposta correta é EATING."
+      },
+      {
+        "id": "e2f88",
+        "topic": "Genitive Case",
+        "question": "How do you say 'a casa dos meus pais' in English?",
+        "options": ["the house of my parents", "my parent's house", "my parents' house", "my parents house"],
+        "correct": 2,
+        "explanation": "Quando o dono é plural e já termina em -S, colocamos apenas o apóstrofo, sem o 's extra: PARENTS' HOUSE. Se fosse singular (my parent), seria parent's house. Portanto, a resposta correta é MY PARENTS' HOUSE."
+      },
+      {
+        "id": "e2f89",
+        "topic": "Genitive Case",
+        "question": "It's the cat's toy. The toy belongs to _____.",
+        "options": ["the cats", "the cat", "the cats'", "cat"],
+        "correct": 1,
+        "explanation": "O 's depois de 'cat' indica que algo pertence ao gato. 'The cat's toy' significa que o brinquedo é do gato. Portanto, a resposta correta é THE CAT."
+      },
+      {
+        "id": "e2f90",
+        "topic": "Genitive Case",
+        "question": "This is my _____ car. (the car of my boss)",
+        "options": ["boss's", "bosses", "boss'", "boss car"],
+        "correct": 0,
+        "explanation": "Para indicar posse com nomes singulares que terminam em -S, adicionamos 's normalmente: BOSS'S. Neste caso, o carro pertence ao chefe, então dizemos 'my boss's car'. Portanto, a resposta correta é BOSS'S."
+      },
+      {
+        "id": "e2f91",
+        "topic": "Genitive Case",
+        "question": "How do you say 'o final do livro' in English?",
+        "options": ["the end of the book", "the book's end", "Both A and B are correct", "the book end"],
+        "correct": 2,
+        "explanation": "Em inglês, a posse pode ser expressa de duas formas: com o genitivo (BOOK'S END) ou com a preposição of (END OF THE BOOK). As duas formas são corretas em inglês. Portanto, a resposta correta é BOTH A AND B ARE CORRECT."
+      },
+      {
+        "id": "e2f92",
+        "topic": "How – Manner",
+        "question": "How does she sing? — She sings _____.",
+        "options": ["beautiful", "beauty", "beautifully", "more beautiful"],
+        "correct": 2,
+        "explanation": "Quando queremos descrever COMO alguém faz algo, usamos um advérbio de modo, que em inglês geralmente termina em -LY: beautiful → BEAUTIFULLY. Advérbios modificam verbos, não substantivos. Portanto, a resposta correta é BEAUTIFULLY."
+      },
+      {
+        "id": "e2f93",
+        "topic": "How – Manner",
+        "question": "He drives very _____. He has never had an accident.",
+        "options": ["careful", "care", "carefully", "more careful"],
+        "correct": 2,
+        "explanation": "Usamos advérbios de modo para dizer como alguém realiza uma ação. O adjetivo 'careful' vira o advérbio CAREFULLY ao adicionar -LY. Portanto, a resposta correta é CAREFULLY."
+      },
+      {
+        "id": "e2f94",
+        "topic": "How – Manner",
+        "question": "_____ do you go to work? — I go by train.",
+        "options": ["Where", "What", "How", "When"],
+        "correct": 2,
+        "explanation": "HOW é usado para perguntar de que maneira alguém faz algo, incluindo o meio de transporte. Neste caso, a resposta 'by train' descreve o modo de locomoção. Portanto, a resposta correta é HOW."
+      },
+      {
+        "id": "e2f95",
+        "topic": "How – Manner",
+        "question": "She speaks very _____ in class. The teacher can't hear her.",
+        "options": ["quiet", "quite", "quietly", "quietness"],
+        "correct": 2,
+        "explanation": "Usamos advérbios de modo (-LY) para descrever como alguém realiza uma ação. O adjetivo 'quiet' vira o advérbio QUIETLY para modificar o verbo 'speaks'. Portanto, a resposta correta é QUIETLY."
       }
     ]
   }
