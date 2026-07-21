@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Simulador de Provas — Fisk</title>
+  <title>Quick Practice - Fisk</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
   <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%23161414'/%3E%3Ctext x='16' y='23' font-family='Arial' font-size='19' font-weight='800' fill='%23d81f26' text-anchor='middle'%3EF%3C/text%3E%3C/svg%3E">
@@ -76,6 +76,11 @@
       transition: border-color .12s, transform .12s;
     }
     .theme-toggle:hover { border-color: #fff; transform: translateY(-1px); }
+    .quiz-header .theme-toggle {
+      position: relative; top: auto; right: auto; flex-shrink: 0;
+      border-color: var(--gray-lt); color: var(--black);
+    }
+    .quiz-header .theme-toggle:hover { border-color: var(--gray); transform: translateY(-1px); }
 
     /* ── Back button ── */
     .back-btn {
@@ -130,6 +135,13 @@
     }
     .btn-ghost:hover { border-color: var(--red); color: var(--red-dark); }
 
+    .btn-accent {
+      background: var(--red); color: #fff;
+      box-shadow: 0 3px 0 var(--red-dark);
+    }
+    .btn-accent:hover { transform: translateY(-2px); }
+    .btn-accent:active { transform: translateY(0); box-shadow: 0 1px 0 var(--red-dark); }
+
     /* ── Section labels ── */
     .section-label {
       font-size: .7rem; font-weight: 800; letter-spacing: .09em;
@@ -177,6 +189,40 @@
     .adv-2     { --accent: #166534; }
     .adv-3     { --accent: #7C3AED; }
 
+    /* ── Student name field ── */
+    .name-field-wrap {
+      padding: 1.5rem 0 .25rem;
+    }
+    .name-field-label {
+      display: block;
+      font-size: .72rem; font-weight: 800; letter-spacing: .07em;
+      text-transform: uppercase; color: var(--gray);
+      margin-bottom: .5rem;
+    }
+    .name-field-row {
+      display: flex; align-items: center; gap: .6rem;
+    }
+    .name-field-input {
+      flex: 1;
+      background: var(--white);
+      border: 2px solid var(--gray-lt);
+      border-radius: var(--radius);
+      padding: .75rem 1rem;
+      font-family: var(--font-h); font-size: 1rem; font-weight: 700;
+      color: var(--black);
+      outline: none;
+      transition: border-color .15s;
+    }
+    .name-field-input::placeholder { color: var(--gray); font-weight: 400; }
+    .name-field-input:focus { border-color: var(--red); }
+    .name-field-required {
+      font-size: .72rem; color: var(--red); font-weight: 700;
+      white-space: nowrap;
+    }
+    body.theme-dark .name-field-input {
+      background: #2a2727; border-color: #3a3535; color: #f2efef;
+    }
+
     /* ── Exam cards ── */
     .exam-grid {
       display: grid; grid-template-columns: 1fr 1fr;
@@ -200,6 +246,51 @@
     .exam-card h3 { font-size: 1.05rem; font-weight: 800; margin-bottom: .35rem; font-family: var(--font-h); }
     .exam-card p  { font-size: .8rem; color: var(--gray); line-height: 1.4; }
 
+    /* ── Custom Practice card (full-width) ── */
+    .exam-card.custom-card { grid-column: 1 / -1; }
+
+    /* ── Topic picker panel ── */
+    #topic-picker {
+      display: none;
+      margin-top: .75rem;
+      background: var(--white);
+      border: 1.5px solid var(--gray-lt);
+      border-radius: var(--radius);
+      padding: 1.2rem 1.3rem;
+      box-shadow: var(--shadow);
+    }
+    #topic-picker.open { display: block; }
+
+    .topic-counter {
+      font-size: .82rem; font-weight: 700; color: var(--gray);
+      margin-bottom: 1rem;
+    }
+    .topic-counter strong { color: var(--black); }
+
+    .topic-group-title {
+      font-size: .68rem; font-weight: 800; letter-spacing: .07em;
+      text-transform: uppercase; color: var(--gray);
+      margin: .9rem 0 .45rem;
+      padding-bottom: .3rem;
+      border-bottom: 1px solid var(--gray-lt);
+    }
+    .topic-group-title:first-child { margin-top: 0; }
+
+    .topic-item {
+      display: flex; align-items: center; gap: .55rem;
+      padding: .35rem .2rem;
+      cursor: pointer;
+      border-radius: 6px;
+      transition: background .1s;
+    }
+    .topic-item:hover { background: var(--gray-lt); }
+    .topic-item input[type="checkbox"] {
+      width: 16px; height: 16px; accent-color: var(--red);
+      cursor: pointer; flex-shrink: 0;
+    }
+    .topic-label { font-size: .88rem; font-weight: 600; line-height: 1.3; }
+    .topic-qcount { font-size: .74rem; color: var(--gray); margin-left: auto; white-space: nowrap; }
+
     /* ── Quiz header ── */
     .quiz-header {
       background: var(--white);
@@ -219,6 +310,31 @@
       transition: color .2s;
     }
     .quiz-counter.done { color: var(--green); }
+
+    /* ── Timer ── */
+    .timer-display {
+      font-family: var(--font-h); font-size: .82rem; font-weight: 800;
+      color: var(--gray); white-space: nowrap; text-align: right;
+      transition: color .4s;
+    }
+    .timer-display.warn   { color: var(--gold); }
+    .timer-display.danger { color: var(--red);  animation: pulse .8s ease-in-out infinite alternate; }
+
+    @keyframes pulse { from { opacity:1; } to { opacity:.45; } }
+
+    .timer-bar-wrap {
+      height: 4px;
+      background: var(--gray-lt);
+      position: sticky; top: 57px; z-index: 9;
+    }
+    .timer-bar {
+      height: 100%;
+      background: var(--green);
+      transition: width 1s linear, background .5s;
+      max-width: 100%;
+    }
+    .timer-bar.warn   { background: var(--gold); }
+    .timer-bar.danger { background: var(--red); }
 
     /* ── Question cards ── */
     .questions-list { padding: 1.25rem 0 .5rem; }
@@ -284,6 +400,70 @@
     .great { border-color: var(--green); color: var(--green); }
     .ok    { border-color: var(--gold);  color: var(--gold); }
     .low   { border-color: var(--red);   color: var(--red); }
+
+    /* ── Feedback box (Portuguese) ── */
+    .feedback-box {
+      background: #f0f9ff;
+      border: 1.5px solid #bae6fd;
+      border-radius: var(--radius);
+      padding: 1.1rem 1.3rem;
+      margin: 0 1.25rem 1.5rem;
+      font-size: .9rem; line-height: 1.6;
+      color: #0c4a6e;
+      max-width: 860px;
+      width: calc(100% - 2.5rem);
+      margin-left: auto; margin-right: auto;
+    }
+    .feedback-box p { margin-bottom: .6rem; }
+    .feedback-box p:last-child { margin-bottom: 0; }
+
+    .feedback-section {
+      border-radius: 8px;
+      padding: .75rem 1rem;
+      margin-top: .7rem;
+    }
+    .feedback-strengths {
+      background: #f0fdf4; border: 1.5px solid #86efac;
+    }
+    .feedback-improve {
+      background: #fff7ed; border: 1.5px solid #fdba74;
+    }
+    .feedback-section-title {
+      font-weight: 800; font-size: .82rem; margin-bottom: .3rem;
+      font-family: var(--font-h);
+    }
+    .feedback-strengths .feedback-section-title { color: #15803d; }
+    .feedback-improve  .feedback-section-title  { color: #c2410c; }
+    .feedback-section-intro {
+      font-size: .83rem; color: inherit; margin-bottom: .4rem; opacity: .85;
+    }
+    .feedback-lessons {
+      display: flex; flex-direction: column; gap: .3rem;
+      font-size: .86rem;
+    }
+    .feedback-lessons .lesson-line { padding: .2rem 0; }
+
+    .feedback-cta {
+      margin-top: .75rem;
+      background: #fefce8; border: 1.5px solid #fde047;
+      border-radius: 8px; padding: .65rem 1rem;
+      font-size: .84rem; color: #713f12; line-height: 1.5;
+    }
+
+    body.theme-dark .feedback-box {
+      background: #0c2a3a; border-color: #1e5f7a; color: #bae6fd;
+    }
+    body.theme-dark .feedback-strengths {
+      background: #052e16; border-color: #166534; color: #bbf7d0;
+    }
+    body.theme-dark .feedback-strengths .feedback-section-title { color: #4ade80; }
+    body.theme-dark .feedback-improve {
+      background: #2c1000; border-color: #9a3412; color: #fed7aa;
+    }
+    body.theme-dark .feedback-improve .feedback-section-title { color: #fb923c; }
+    body.theme-dark .feedback-cta {
+      background: #1c1800; border-color: #854d0e; color: #fef08a;
+    }
 
     .review-label {
       font-size: .7rem; font-weight: 800; letter-spacing: .08em;
@@ -352,6 +532,30 @@
       display: flex; flex-direction: column; gap: .7rem;
       padding: .75rem 0 2.25rem;
     }
+
+    /* ── Language toggle ── */
+    .lang-toggle {
+      display: inline-flex;
+      background: rgba(255,255,255,.13);
+      border-radius: 999px;
+      padding: 3px;
+      margin-top: 1.1rem;
+      gap: 2px;
+    }
+    .lang-btn {
+      border: none; background: transparent;
+      color: rgba(255,255,255,.65);
+      padding: .42rem 1.25rem;
+      border-radius: 999px;
+      font-family: var(--font-h); font-size: .85rem; font-weight: 800;
+      cursor: pointer;
+      transition: background .14s, color .14s;
+      letter-spacing: .02em;
+    }
+    .lang-btn.active { background: #fff; color: var(--black); }
+    .sp-1 { --accent: #C0392B; --accent-rgb: 192,57,43; }
+    .sp-2 { --accent: #D35400; --accent-rgb: 211,84,0; }
+    .sp-3 { --accent: #B7950B; --accent-rgb: 183,149,11; }
 
     /* ── Footer ── */
     footer {
@@ -461,134 +665,265 @@
       .hero { padding: 2.25rem 1.25rem 2rem; }
       #translator-panel { right: .5rem; width: calc(100vw - 1rem); }
     }
+
+    /* ── Professor / Classroom Mode ── */
+    #prof-badge { display: none; }
+    body.prof-mode #prof-badge { display: inline-flex; }
+    .prof-badge {
+      align-items: center;
+      background: #7C3AED; color: #fff;
+      border-radius: 999px; padding: .22rem .8rem;
+      font-size: .7rem; font-weight: 700;
+      font-family: var(--font-h); letter-spacing: .04em;
+      margin-top: .25rem; white-space: nowrap;
+    }
+    body.prof-mode #submit-row,
+    body.prof-mode #submit-confirm,
+    body.prof-mode .timer-bar-wrap,
+    body.prof-mode .timer-display,
+    body.prof-mode #quiz-counter,
+    body.prof-mode .name-field-wrap { display: none !important; }
+
+    body.prof-mode .q-text {
+      font-size: clamp(1.3rem, 3.5vw, 2rem) !important;
+      line-height: 1.55 !important;
+    }
+    body.prof-mode .opt-btn {
+      font-size: clamp(1rem, 2.3vw, 1.3rem) !important;
+      padding: 1rem 1.2rem !important;
+      min-height: 3.5rem !important;
+    }
+    #prof-nav { display: none; }
+    body.prof-mode #prof-nav {
+      display: flex; align-items: center;
+      gap: .65rem; padding-top: .75rem;
+    }
+    #btn-revelar {
+      flex: 1; background: #7C3AED; color: #fff;
+      border: none; border-radius: var(--radius);
+      padding: .9rem 1.1rem; font-family: var(--font-h);
+      font-size: .94rem; font-weight: 700; cursor: pointer;
+      transition: background .15s;
+    }
+    #btn-revelar:hover:not(:disabled) { background: #6D28D9; }
+    #btn-revelar:disabled { background: var(--green); cursor: default; }
+    .prof-step-btn {
+      background: var(--white); border: 1.5px solid var(--gray-lt);
+      border-radius: var(--radius); padding: .9rem 1.1rem;
+      font-family: var(--font-h); font-size: .84rem; font-weight: 700;
+      cursor: pointer; color: var(--black);
+      transition: border-color .12s, opacity .12s; white-space: nowrap;
+    }
+    .prof-step-btn:hover:not(:disabled) { border-color: var(--black); }
+    .prof-step-btn:disabled { opacity: .35; cursor: default; }
+    .prof-prog {
+      font-family: var(--font-h); font-size: .85rem; font-weight: 700;
+      color: var(--gray); white-space: nowrap; text-align: center; min-width: 56px;
+    }
+    .opt-btn.prof-correct {
+      background: #dcfce7 !important; border-color: #16a34a !important;
+      color: #15803d !important; font-weight: 800;
+    }
+    body.theme-dark .opt-btn.prof-correct {
+      background: rgba(20,83,45,.3) !important;
+      border-color: #22c55e !important; color: #86efac !important;
+    }
+    .prof-explanation {
+      background: #f0fdf4; border: 1.5px solid #86efac;
+      border-radius: 12px; padding: .85rem 1.1rem;
+      margin-top: .85rem; font-size: .97rem;
+      color: var(--black); line-height: 1.55;
+    }
+    body.theme-dark .prof-explanation {
+      background: rgba(20,83,45,.18); border-color: rgba(22,163,74,.4);
+    }
   </style>
 </head>
 <body>
 <script>try{if(localStorage.getItem('fisk_theme')==='dark')document.body.classList.add('theme-dark');}catch(e){}</script>
 
 <!-- ══════════════════════════════════════
-     Screen 1 — Escolha o livro
+     Screen 1 — Choose your book
 ══════════════════════════════════════ -->
 <div id="screen-books" class="screen active">
   <header class="hero">
-    <button class="theme-toggle" id="themeToggleBooks" aria-label="Alternar modo escuro">🌙</button>
+    <button class="theme-toggle" id="themeToggleBooks" aria-label="Toggle dark mode">🌙</button>
     <img class="hero-logo"
          src="https://raw.githubusercontent.com/Pedro-Fisk/fisk-hub/main/assets/fisk-logo.png"
          alt="FISK Taubaté · Caçapava"
          onerror="this.style.display='none';this.insertAdjacentHTML('afterend','<div style=\'font-family:var(--font-h);font-size:1.8rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.9rem;\'>FISK</div>')">
-    <h1>Simulador de Provas</h1>
-    <p>Escolha o livro que você está estudando</p>
+    <h1 id="main-title">Quick Practice</h1>
+    <p id="main-sub">Mini tests focused on the key grammar structures of each stage, so students can review and reinforce content before the exam</p>
+    <div class="lang-toggle">
+      <button id="lang-en" class="lang-btn active" onclick="selectLang('en')">English</button>
+      <button id="lang-es" class="lang-btn" onclick="selectLang('es')">Espa&#241;ol</button>
+    </div>
   </header>
 
   <div style="flex:1; overflow-y:auto;">
     <div class="container">
 
-      <div class="section-label">Básico</div>
-      <div class="books-grid">
-        <div class="book-card basic-1" data-book="essentials1" onclick="selectBook(this)">
-          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7h6M9 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-          <h3>Essentials 1</h3>
-          <p>A/An, To Be, Do/Does, Going to, Past Simple</p>
+      <!-- English books -->
+      <div id="english-books">
+        <div class="section-label">Beginner</div>
+        <div class="books-grid">
+          <div class="book-card basic-1" data-book="essentials1" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7h6M9 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <h3>Essentials 1</h3>
+            <p>A/An, To Be, Do/Does, Going To, Past Simple</p>
+          </div>
+          <div class="book-card basic-2" data-book="essentials2" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7h6M9 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <h3>Essentials 2</h3>
+            <p>Was/Were, Past Continuous, Can/Could, Will</p>
+          </div>
         </div>
-        <div class="book-card basic-2" data-book="essentials2" onclick="selectBook(this)">
-          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7h6M9 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-          <h3>Essentials 2</h3>
-          <p>Was/Were, Past Continuous, Can/Could, Will</p>
-        </div>
-      </div>
 
-      <div class="section-label">Intermediário</div>
-      <div class="books-grid">
-        <div class="book-card inter-1" data-book="transitions1" onclick="selectBook(this)">
-          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-          <h3>Transitions 1</h3>
-          <p>Tag Questions, Condicionais, Present Perfect</p>
+        <div class="section-label">Intermediate</div>
+        <div class="books-grid">
+          <div class="book-card inter-1" data-book="transitions1" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <h3>Transitions 1</h3>
+            <p>Tag Questions, Conditionals, Present Perfect</p>
+          </div>
+          <div class="book-card inter-2" data-book="transitions2" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
+            <h3>Transitions 2</h3>
+            <p>Superlatives, Phrasal Verbs, 2nd Conditional</p>
+          </div>
         </div>
-        <div class="book-card inter-2" data-book="transitions2" onclick="selectBook(this)">
-          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></div>
-          <h3>Transitions 2</h3>
-          <p>Superlativos, Phrasal Verbs, 2nd Conditional</p>
-        </div>
-      </div>
 
-      <div class="section-label">Avançado</div>
-      <div class="books-grid">
-        <div class="book-card adv-1" data-book="fluency1" onclick="selectBook(this)">
-          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
-          <h3>Fluency 1</h3>
-          <p>Past Perfect, 3rd Conditional, Wish, Reported Speech</p>
+        <div class="section-label">Advanced</div>
+        <div class="books-grid">
+          <div class="book-card adv-1" data-book="fluency1" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+            <h3>Fluency 1</h3>
+            <p>Past Perfect, 3rd Conditional, Wish, Reported Speech</p>
+          </div>
+          <div class="book-card adv-2" data-book="fluency2" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
+            <h3>Fluency 2</h3>
+            <p>Future Perfect, Relative Clauses, So/Neither</p>
+          </div>
+          <div class="book-card adv-3" data-book="infocus" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <h3>In Focus</h3>
+            <p>Inversion, Subjunctive, Passive Voice, Mixed Conditionals</p>
+          </div>
         </div>
-        <div class="book-card adv-2" data-book="fluency2" onclick="selectBook(this)">
-          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></div>
-          <h3>Fluency 2</h3>
-          <p>Future Perfect, Cláusulas Relativas, So/Neither</p>
-        </div>
-        <div class="book-card adv-3" data-book="infocus" onclick="selectBook(this)">
-          <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><circle cx="12" cy="12" r="3.5" stroke="currentColor" stroke-width="1.6"/><path d="M12 2.5v2M12 19.5v2M2.5 12h2M19.5 12h2" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
-          <h3>In Focus</h3>
-          <p>Inversão, Subjuntivo, Passiva, Condicionais Mistos</p>
-        </div>
-      </div>
+      </div><!-- /english-books -->
 
-      <div style="height:1rem;"></div>
-    </div>
-  </div>
+      <!-- Spanish books -->
+      <div id="spanish-books" style="display:none;">
+        <div class="section-label">Espa&#241;ol</div>
+        <div class="books-grid">
+          <div class="book-card sp-1" data-book="inmediato1" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7h6M9 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <h3>Inmediato 1</h3>
+            <p>Ser/Estar, Art&#237;culos, Presente, Verbos regulares</p>
+          </div>
+          <div class="book-card sp-2" data-book="inmediato2" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7h6M9 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <h3>Inmediato 2</h3>
+            <p>Pret&#233;rito, Pronombres, Imperativo, Reflexivos</p>
+          </div>
+          <div class="book-card sp-3" data-book="inmediato3" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7h6M9 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <h3>Inmediato 3</h3>
+            <p>Subjuntivo, Futuro, Condicional, Verbos irregulares</p>
+          </div>
+        </div>
+      </div><!-- /spanish-books -->
 
-  <div class="action-bar">
-    <div class="container">
-      <button class="btn btn-primary" id="btn-to-exam" disabled onclick="goToExam()">Continuar →</button>
+      <div style="height:1.5rem;"></div>
     </div>
   </div>
 </div>
 
 <!-- ══════════════════════════════════════
-     Screen 2 — Escolha a prova
+     Screen 2 — Choose your exam
 ══════════════════════════════════════ -->
 <div id="screen-exam" class="screen">
   <div class="page-header">
-    <button class="back-btn" onclick="showScreen('books')">← Voltar</button>
+    <button class="back-btn" onclick="showScreen('books')">&larr; Back</button>
     <div class="page-header-text">
       <div class="book-name" id="exam-book-name"></div>
-      <div class="exam-name">Escolha a prova</div>
+      <div class="exam-name" id="exam-subtitle">Choose your exam</div>
     </div>
     <button class="theme-toggle" id="themeToggleExam" style="position:absolute;right:1.25rem;top:50%;transform:translateY(-50%);">🌙</button>
   </div>
 
   <div style="flex:1; overflow-y:auto;">
     <div class="container">
+
+      <div class="name-field-wrap">
+        <label class="name-field-label" for="student-name"><span id="name-field-label-text">Your name</span> <span class="name-field-required" id="name-field-required-text">* required</span></label>
+        <div class="name-field-row">
+          <input
+            class="name-field-input"
+            id="student-name"
+            type="text"
+            placeholder="Type your first name..."
+            autocomplete="given-name"
+            oninput="onNameInput(this.value)"
+            maxlength="40"
+          >
+        </div>
+      </div>
+
       <div class="exam-grid">
         <div class="exam-card" data-exam="midterm" onclick="selectExam(this)">
-          <div class="exam-emoji">📖</div>
-          <h3>Prova do Meio do Livro</h3>
-          <p id="midterm-desc">Lessons 1 a 5</p>
+          <div class="exam-emoji">&#128214;</div>
+          <h3 id="midterm-h3">Midterm Exam</h3>
+          <p id="midterm-desc">Lessons 1 to 5</p>
         </div>
         <div class="exam-card" data-exam="final" onclick="selectExam(this)">
-          <div class="exam-emoji">🎓</div>
-          <h3>Prova do Final do Livro</h3>
-          <p id="final-desc">Lessons 6 a 10</p>
+          <div class="exam-emoji">&#127891;</div>
+          <h3 id="final-h3">Final Exam</h3>
+          <p id="final-desc">Lessons 6 to 10</p>
         </div>
+        <div class="exam-card custom-card" data-exam="custom" onclick="selectExam(this)">
+          <div class="exam-emoji">&#128221;</div>
+          <h3 id="custom-h3">Custom Practice</h3>
+          <p id="custom-desc">Select specific grammar topics to practice</p>
+        </div>
+      </div>
+
+      <div id="topic-picker">
+        <div class="topic-counter" id="topic-counter">Choose at least one topic below</div>
+        <div id="topic-list"></div>
       </div>
     </div>
   </div>
 
   <div class="action-bar">
     <div class="container">
-      <button class="btn btn-primary" id="btn-start" disabled onclick="startQuiz()">Começar Simulado →</button>
+      <button class="btn btn-primary" id="btn-start" disabled onclick="startQuiz()">Start Quiz &rarr;</button>
     </div>
   </div>
 </div>
 
 <!-- ══════════════════════════════════════
-     Screen 3 — Questões
+     Screen 3 — Questions
 ══════════════════════════════════════ -->
 <div id="screen-quiz" class="screen">
   <div class="quiz-header">
-    <button class="back-btn" onclick="showScreen('exam')">← Voltar</button>
+    <button class="back-btn" onclick="showScreen('exam')">&larr; Back</button>
     <div class="quiz-ctx">
       <strong id="quiz-title"></strong>
-      10 questões · responda todas e envie
+      <span id="quiz-subtitle">10 questions &middot; answer all and submit</span>
+      <span id="prof-badge" class="prof-badge">&#128250; Professor Mode</span>
     </div>
-    <div class="quiz-counter" id="quiz-counter">0 de 10</div>
+    <div style="display:flex;align-items:center;gap:.6rem;">
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:2px;">
+        <div class="quiz-counter" id="quiz-counter">0 of 10</div>
+        <div class="timer-display" id="timer-display">10:00</div>
+      </div>
+      <button class="theme-toggle" id="themeToggleQuiz" style="position:relative;right:auto;top:auto;transform:none;flex-shrink:0;">&#127769;</button>
+    </div>
+  </div>
+  <div class="timer-bar-wrap">
+    <div class="timer-bar" id="timer-bar" style="width:100%;"></div>
   </div>
 
   <div style="flex:1; overflow-y:auto;">
@@ -599,17 +934,33 @@
 
   <div class="action-bar">
     <div class="container">
-      <button class="btn btn-primary" id="btn-submit" disabled onclick="submitQuiz()">Enviar Simulado</button>
+      <div id="submit-row" style="display:flex;gap:.55rem;margin-bottom:.55rem;">
+        <button class="btn btn-ghost" id="btn-clear" onclick="clearQuiz()" style="flex:0 0 auto;padding:.85rem 1.1rem;font-size:.84rem;">&#10006; Clear</button>
+        <button class="btn btn-primary" id="btn-submit" disabled onclick="askSubmit()" style="flex:1;">Submit Quiz</button>
+      </div>
+      <div id="submit-confirm" style="display:none;">
+        <p id="submit-now-msg" style="text-align:center;font-size:.84rem;color:var(--gray);margin-bottom:.65rem;">Submit now? You won't be able to change your answers.</p>
+        <div style="display:flex;gap:.65rem;">
+          <button class="btn btn-ghost" id="btn-cancel-submit" onclick="cancelSubmit()" style="flex:1;">Review</button>
+          <button class="btn btn-primary" id="btn-confirm-submit" onclick="submitQuiz()" style="flex:1;">Yes, submit</button>
+        </div>
+      </div>
+      <div id="prof-nav">
+        <button class="prof-step-btn" id="btn-prof-prev" onclick="profPrev()">&#8592; Previous</button>
+        <span class="prof-prog" id="prof-prog">1 / 10</span>
+        <button id="btn-revelar" onclick="profReveal()">Reveal Answer &#10003;</button>
+        <button class="prof-step-btn" id="btn-prof-next" onclick="profNext()">Next &#8594;</button>
+      </div>
     </div>
   </div>
 </div>
 
 <!-- ══════════════════════════════════════
-     Screen 4 — Resultado
+     Screen 4 — Results
 ══════════════════════════════════════ -->
 <div id="screen-results" class="screen">
   <div class="page-header">
-    <button class="back-btn" onclick="showScreen('exam')">← Voltar</button>
+    <button class="back-btn" onclick="showScreen('exam')">&larr; Back</button>
     <div class="page-header-text">
       <div class="book-name" id="results-title"></div>
       <div class="exam-name" id="results-subtitle"></div>
@@ -619,16 +970,19 @@
 
   <div style="flex:1; overflow-y:auto;">
     <div class="container">
-      <div class="review-label" style="margin-top:1.5rem;">Correção das questões</div>
+      <div class="review-label" id="review-label-text" style="margin-top:1.5rem;">Answer Review</div>
       <div id="review-list"></div>
     </div>
 
     <div class="score-wrap" id="score-wrap"></div>
 
+    <div id="feedback-wrap"></div>
+
     <div class="container">
       <div class="results-btns">
-        <button class="btn btn-primary" onclick="retryQuiz()">Refazer Simulado</button>
-        <button class="btn btn-ghost"   onclick="showScreen('books')">Escolher outro livro</button>
+        <button class="btn btn-primary" id="btn-retake" onclick="retryQuiz()">Retake Quiz</button>
+        <button class="btn btn-accent"  id="btn-practice-weak" onclick="practiceWeak()" style="display:none;">Practice Weak Points</button>
+        <button class="btn btn-ghost"   id="btn-choose-book" onclick="showScreen('books')">Choose another book</button>
       </div>
     </div>
   </div>
@@ -637,16 +991,16 @@
 <!-- ══════════════════════════════════════
      Translator (Essentials 1 only)
 ══════════════════════════════════════ -->
-<button id="translator-btn" onclick="toggleTranslator()" title="Abrir tradutor">
-  📖
+<button id="translator-btn" onclick="toggleTranslator()" title="Open dictionary">
+  &#128214;
 </button>
 
 <div id="translator-panel">
   <div class="tr-header">
-    <span>🔤 Dicionário EN ↔ PT</span>
+    <span>🔤 Dictionary EN ↔ PT</span>
     <button class="tr-close" onclick="toggleTranslator()">✕</button>
   </div>
-  <input class="tr-search" id="tr-search" type="text" placeholder="Buscar palavra..." oninput="filterVocab()">
+  <input class="tr-search" id="tr-search" type="text" placeholder="Search word..." oninput="filterVocab()">
   <div class="tr-dir-toggle">
     <button id="tr-btn-en" class="active" onclick="setDir('en')">EN → PT</button>
     <button id="tr-btn-pt" onclick="setDir('pt')">PT → EN</button>
@@ -655,32 +1009,179 @@
 </div>
 
 <footer>
-  <p>Simulador de Provas · Fisk Taubaté &amp; Caçapava · Uso exclusivo dos alunos</p>
+  <p>Quick Practice · Fisk Taubaté &amp; Caçapava</p>
 </footer>
 
 <script>
+/* ── Professor / Classroom mode flag ── */
+const PROF_MODE = new URLSearchParams(location.search).get('modo') === 'professor';
+if (PROF_MODE) document.body.classList.add('prof-mode');
+
 /* ══════════════════════════════════════════════
-   Estado global
+   Global state
 ══════════════════════════════════════════════ */
 const state = {
-  book:      null,
-  exam:      null,
-  cache:     {},
-  questions: [],
-  answers:   {},
+  book:         null,
+  exam:         null,
+  cache:        {},
+  questions:    [],
+  answers:      {},
+  studentName:  '',
 };
 
 const BOOKS = {
-  essentials1:  { name: 'Essentials 1',  file: 'questions/essentials1.json'  },
-  essentials2:  { name: 'Essentials 2',  file: 'questions/essentials2.json'  },
-  transitions1: { name: 'Transitions 1', file: 'questions/transitions1.json' },
-  transitions2: { name: 'Transitions 2', file: 'questions/transitions2.json' },
-  fluency1:     { name: 'Fluency 1',     file: 'questions/fluency1.json'     },
-  fluency2:     { name: 'Fluency 2',     file: 'questions/fluency2.json'     },
-  infocus:      { name: 'In Focus',      file: 'questions/infocus.json'      },
+  essentials1:  { name: 'Essentials 1',  file: 'questions/essentials1.json',  midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
+  essentials2:  { name: 'Essentials 2',  file: 'questions/essentials2.json',  midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
+  transitions1: { name: 'Transitions 1', file: 'questions/transitions1.json', midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
+  transitions2: { name: 'Transitions 2', file: 'questions/transitions2.json', midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
+  fluency1:     { name: 'Fluency 1',     file: 'questions/fluency1.json',     midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
+  fluency2:     { name: 'Fluency 2',     file: 'questions/fluency2.json',     midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
+  infocus:      { name: 'In Focus',      file: 'questions/infocus.json',      midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
+  inmediato1:   { name: 'Inmediato 1',   file: 'questions/inmediato1.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
+  inmediato2:   { name: 'Inmediato 2',   file: 'questions/inmediato2.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
+  inmediato3:   { name: 'Inmediato 3',   file: 'questions/inmediato3.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
 };
 
-/* ── Utilidades ── */
+/* ── Lesson maps: topic → lesson number per book ── */
+const LESSON_MAP = {
+  essentials1: {
+    /* Before You Start */ 'Articles: A / AN': 0, 'Alphabet / Spelling': 0, 'This / That / These / Those': 0,
+    /* Lesson 1 */ 'Do / Does – Questions': 1, 'Nationality / To Be': 1, 'Question Words': 1,
+    /* Lesson 2 */ 'Do / Does – Short Answers': 2, 'Do – We/You/They': 2,
+    /* Lesson 3 */ 'Do/Does – Long Answers': 3, 'The Time': 3,
+    /* Lesson 4 */ 'To Be – Am / Is / Are': 4, 'Useful Expressions': 4, 'Possessive Adjectives': 4,
+    /* Lesson 5 */ 'Present Continuous (Be + -ing)': 5, 'Present Continuous vs Simple Present': 5, 'Ordinal Numbers': 5,
+    /* Lesson 6 */ 'Can – Ability': 6, 'Why / Because': 6, 'Imperative': 6,
+    /* Lesson 7 */ 'There Is / There Are': 7, 'Plural Forms': 7, 'Numbers (100-999)': 7, 'Prepositions of Place': 7,
+    /* Lesson 8 */ 'Be Going To': 8, 'Objective Pronouns': 8,
+    /* Lesson 9 */ 'Past Simple – Did (Regular Verbs)': 9, 'Time Expressions (Past)': 9,
+    /* Lesson 10 */ 'Past Simple – Did (Irregular Verbs)': 10, 'Past Simple – Irregular Verbs': 10, 'Past Simple – To Be': 10,
+  },
+  essentials2: {
+    /* Lesson 1 */ 'To Be – Past (Was/Were)': 1, 'To Be Past – Short Answers': 1, 'How – Questions': 1, 'How – Manner': 1,
+    /* Lesson 2 */ 'There Was / There Were': 2, 'Numbers': 2, 'Numbers – Years': 2, 'Numbers / Years': 2,
+    /* Lesson 3 */ 'Countable / Uncountable': 3, 'Some / Any': 3, 'A lot of / Some / Many / Much': 3, 'A Little / A Few': 3,
+    /* Lesson 4 */ 'Adverbs of Frequency': 4, 'How Often': 4, 'How Often / Adverbs of Frequency': 4, 'How – Transport': 4, 'Too Many / Too Much': 4,
+    /* Lesson 5 */ 'Past Continuous (Was/Were + -ing)': 5, 'Past Continuous – When/While': 5, 'When / While': 5,
+    /* Lesson 6 */ 'Can / Could – Ability': 6, 'How Old': 6,
+    /* Lesson 7 */ 'Can / Could / May – Permission': 7, 'Can / Could – Request': 7,
+    /* Lesson 8 */ 'Possessive Pronouns': 8, 'Plural of Nouns': 8,
+    /* Lesson 9 */ 'Genitive Case': 9, "Genitive Case ('s)": 9, 'Verb + V-ing': 9, 'Verb + To + Verb / Verb + V-ing': 9,
+    /* Lesson 10 */ 'Will – Future': 10, 'Will – Predictions': 10, 'Which vs What': 10,
+  },
+  transitions1: {
+    /* Lesson 1 */ 'Tag Questions': 1,
+    /* Lesson 2 */ 'Future Arrangements (Be + -ing)': 2, 'Future Arrangements': 2, 'Zero Conditional': 2, 'Zero Conditional (If + Imperative)': 2,
+    /* Lesson 3 */ 'Comparatives (-er/-ier)': 3, 'Comparatives (-er + than)': 3, 'Comparatives (Irregular)': 3, 'Comparatives (as...as)': 3, 'As...As (Equal Comparisons)': 3,
+    /* Lesson 4 */ 'Comparatives (more/less + than)': 4, 'Used To': 4, 'Prepositions + V-ing': 4, 'Prepositions + V-ing (Interest/Opinion)': 4,
+    /* Lesson 5 */ 'Should – Advice': 5, 'Should / Had Better': 5,
+    /* Lesson 6 */ 'Was/Were Going To (Past Plans)': 6, 'Gerund as Subject': 6,
+    /* Lesson 7 */ 'Must / Have To': 7, "Must / Have To / Mustn't": 7, 'Have / Has Got': 7,
+    /* Lesson 8 */ 'Be Able To': 8, 'Be Able To – Future/Conditional': 8, 'Some / Any / No': 8,
+    /* Lesson 9 */ 'Present Perfect (Ever/Never)': 9, 'Present Perfect (Ever/Already/Never/Yet)': 9, 'Present Perfect (Already/Yet)': 9, 'Do or Make': 9,
+    /* Lesson 10 */ 'Present Perfect (For/Since)': 10, 'Verb + V-ing (Avoid/Enjoy/Consider/Finish)': 10,
+  },
+  transitions2: {
+    /* Lesson 1 */ 'Superlatives': 1, 'Phrasal Verbs – Up/Down': 1,
+    /* Lesson 2 */ 'Present Perfect – Just': 2, 'Phrasal Verbs – On/Off': 2,
+    /* Lesson 3 */ 'Relative Pronouns': 3, 'Relative Pronouns – Who/Which': 3, 'Relative Pronouns – Whose': 3, 'Verbal Combinations – Away': 3,
+    /* Lesson 4 */ 'First Conditional': 4, 'Phrasal Verbs – Along': 4,
+    /* Lesson 5 */ 'Be Supposed To': 5, 'Ever + Other Tenses': 5,
+    /* Lesson 6 */ 'Present Perfect – Lately/Recently': 6, 'Present Perfect – Just/Recently/Lately': 6, 'Phrasal Verbs – Back': 6,
+    /* Lesson 7 */ 'Reflexive Pronouns': 7, 'Reflexive Pronouns – By': 7, 'Phrasal Verbs – Over': 7,
+    /* Lesson 8 */ 'Present Perfect vs Simple Past': 8, 'Verbal Combinations – Around': 8,
+    /* Lesson 9 */ 'Present Perfect Continuous': 9, 'Anymore / Any Longer': 9,
+    /* Lesson 10 */ 'Second Conditional': 10,
+  },
+  fluency1: {
+    /* Lesson 1 */ 'A Friend of Mine': 1, 'Present Perfect vs Continuous': 1,
+    /* Lesson 2 */ 'Some/Any/No Words': 2, 'How Long Does It Take': 2,
+    /* Lesson 3 */ 'Superlative + Have Ever': 3, 'Past Perfect': 3,
+    /* Lesson 4 */ 'Third Conditional': 4, 'Tag Questions': 4,
+    /* Lesson 5 */ 'Quantifiers': 5, 'Adjective Order': 5,
+    /* Lesson 6 */ 'Subject Questions': 6, 'Should Have / Could Have': 6,
+    /* Lesson 7 */ 'Emphatic Do/Does/Did': 7, 'Wish + Simple Past': 7,
+    /* Lesson 8 */ 'Have/Get Something Done': 8, 'Verb + Object + Infinitive': 8,
+    /* Lesson 9 */ 'Intensifiers': 9, 'Double Comparatives': 9,
+    /* Lesson 10 */ 'Prefixes': 10, 'Reported Speech': 10, 'Passive Voice': 10, 'Connectors (Add/Contrast)': 10, 'Connectors (Pairs)': 10,
+  },
+  fluency2: {
+    /* Lesson 1 */ 'One / A / An': 1, 'Reporting Verbs – Time Changes': 1, 'Reporting Verbs': 1,
+    /* Lesson 2 */ 'Past Perfect Continuous': 2, 'Reported Questions – Wh-': 2, 'Reported Questions – Yes/No': 2, 'Reported Questions': 2,
+    /* Lesson 3 */ 'So / Neither': 3, 'So / Neither – Disagreement': 3, 'Wish + Past Perfect': 3,
+    /* Lesson 4 */ 'Verbs with Two Objects': 4, 'Indirect Questions': 4,
+    /* Lesson 5 */ 'Possessive Before -ing': 5, 'Wish + Would': 5,
+    /* Lesson 6 */ 'So / Such': 6, 'Future Perfect': 6,
+    /* Lesson 7 */ 'Whose (Relative)': 7, 'Defining vs Non-Defining Clauses': 7,
+    /* Lesson 8 */ 'Verbs of Opinion': 8, 'Order of Adverbs': 8,
+    /* Lesson 9 */ 'See/Hear + Verb or -ing': 9, 'Be / Get Used To': 9,
+    /* Lesson 10 */ 'Uncountable Nouns': 10, 'Whatever / Whenever / However': 10,
+  },
+  infocus: {
+    'Present Tenses': 'Present Tenses', 'Present Tenses – State Verbs': 'Present Tenses',
+    'Past Tenses': 'Past Tenses', 'Past Tenses – While/When': 'Past Tenses',
+    'Future Tenses': 'Future Tenses', 'Future Tenses – Future Perfect': 'Future Tenses',
+    'Subjunctive': 'Subjunctive',
+    'Conditionals': 'Conditionals', 'Conditionals – Mixed': 'Conditionals',
+    'Conditionals – Formal Inversion': 'Conditionals', 'Conditionals – Unless/As Long As': 'Conditionals',
+    'First Conditional': 'Conditionals', 'Second Conditional': 'Conditionals',
+    'Third Conditional': 'Conditionals', 'Mixed Conditionals': 'Conditionals',
+    'Passive Voice – All Tenses': 'Passive Voice', 'Passive Voice – Modal': 'Passive Voice',
+    'Passive Voice – Continuous': 'Passive Voice', 'Passive Voice – Reporting Verbs': 'Passive Voice',
+    'Gerunds vs Infinitives': 'Gerunds and Infinitives',
+    'Gerunds vs Infinitives – Meaning Change': 'Gerunds and Infinitives',
+    'Gerunds – Prepositions': 'Gerunds and Infinitives',
+    'Relative Pronouns – Advanced': 'Relative Clauses', 'Relative Pronouns – Non-Defining': 'Relative Clauses',
+    'Inversion': 'Inversion', 'Inversion – Negative Adverbials': 'Inversion', 'Inversion – So/Neither': 'Inversion',
+    'Comparatives/Superlatives – Advanced': 'Comparatives and Superlatives',
+    'Comparatives – Modification': 'Comparatives and Superlatives',
+    'Cleft Sentences': 'Emphatic Structures', 'Cleft Sentences – It Is...That': 'Emphatic Structures',
+    'Cleft Sentences – What': 'Emphatic Structures', 'Emphatic Structures': 'Emphatic Structures',
+  },
+  inmediato1: {
+    /* Lección 1 */ 'Artículos Determinados': 1, 'Masculino / Femenino': 1, 'Singular / Plural': 1,
+    'Interrogativos': 1, 'Presente de Indicativo (-ar)': 1, 'Presente de Indicativo (ser / llamarse)': 1,
+    /* Lección 2 */ 'Demostrativos': 2, 'Presente de Indicativo (-er / -ir)': 2, 'Verbos Irregulares (E>IE)': 2,
+    /* Lección 3 */ 'Expresiones de Tiempo y Frecuencia': 3, 'Contracciones (al / del)': 3, 'Verbos Reflexivos': 3,
+    'Verbos Irregulares (O>UE)': 3, 'Verbo Ir': 3,
+    /* Lección 4 */ 'Adjetivos': 4, 'Posesivos (mi, tu, su...)': 4, 'Comparación': 4, 'Verbos Irregulares (-ZCO)': 4,
+    /* Lección 5 */ 'Localizadores': 5, 'Posesivos (mío, tuyo, suyo...)': 5, 'Presente Continuo': 5,
+    /* Lección 6 */ 'Artículos Indeterminados': 6, 'Verbo Gustar': 6, 'Acuerdo y Desacuerdo': 6,
+    /* Lección 7 */ 'Preposiciones (desde, hasta, hacia)': 7, 'Hay / Tiene / Está': 7,
+    'Medios de Transporte': 7, 'Imperativo Afirmativo': 7,
+    /* Lección 8 */ 'Pronombres de Complemento Directo': 8, 'Verbo Quedar': 8,
+    'Pretérito Perfecto Compuesto': 8, 'Marcadores Temporales': 8,
+    /* Lección 9 */ 'Pretérito Perfecto Simple': 9, 'Ir a + Infinitivo': 9, 'Marcadores Temporales (pasado)': 9,
+    /* Lección 10 */ 'Pretérito Imperfecto de Indicativo': 10, 'Contraste entre Pretéritos': 10,
+  },
+  inmediato2: {
+    /* Lección 1 */ 'Pronombres de Complemento Indirecto': 1, 'Pretérito Perfecto Simple (irregulares)': 1, 'Verbos de Valoración': 1,
+    /* Lección 2 */ 'Indefinidos': 2, 'Pronombres CD e CI': 2, 'Contraste Pretérito Perfecto Simple y Compuesto': 2,
+    /* Lección 3 */ 'Combinación de Pronombres (CI + CD)': 3, 'Pretérito Pluscuamperfecto de Indicativo': 3,
+    /* Lección 4 */ 'Verbo Doler': 4, 'Tener que / Hay que': 4,
+    /* Lección 5 */ 'SE Impersonal': 5, 'Verbo Tocar': 5,
+    /* Lección 6 */ 'Futuro Simple': 6,
+    /* Lección 7 */ 'Condicional Simple': 7, 'Conjunciones (y/e – o/u)': 7,
+    /* Lección 8 */ 'Presente de Subjuntivo': 8, 'Introductores de Subjuntivo': 8,
+    /* Lección 9 */ 'Apócopes': 9, 'Imperativo Afirmativo (irregulares)': 9,
+    /* Lección 10 */ 'Imperativo Negativo': 10, 'Si + Presente de Indicativo': 10,
+  },
+  inmediato3: {
+    /* Lección 1 */ 'La Forma Impersonal "Uno"': 1, 'Indicativo vs Subjuntivo': 1,
+    'Aunque + Indicativo / Subjuntivo': 1, 'Perífrasis Verbales': 1,
+    /* Lección 2 */ 'El de... / El que...': 2, 'Pero / Sino (que)': 2, 'Superlativo': 2,
+    /* Lección 3 */ 'SE Impersonal (avanzado)': 3, 'Pretérito Imperfecto de Subjuntivo': 3,
+    /* Lección 4 */ 'Si + Pretérito Imperfecto de Subjuntivo + Condicional': 4, 'El Artículo Neutro "Lo"': 4, 'Oraciones Condicionales': 4,
+    /* Lección 5 */ 'Cuando + Subjuntivo': 5, 'Futuro Compuesto': 5, 'Demostrativos Neutros': 5,
+    /* Lección 6 */ 'Condicional Compuesto': 6, 'Pretérito Pluscuamperfecto de Subjuntivo': 6, 'Oraciones Condicionales (avanzado)': 6,
+    /* Lección 7 */ 'Verbos de Cambio': 7, 'Para que / A fin de que + Subjuntivo': 7, 'Hace + Presente / Gerundio': 7, 'Llevar + Gerundio': 7,
+    /* Lección 8 */ 'Estilo Indirecto: Dice que...': 8, 'Voz Pasiva (Ser + Participio)': 8,
+    /* Lección 9 */ 'El Imperativo y los Complementos': 9, 'Estilo Indirecto: Dijo que...': 9, 'Pronombres Relativos': 9,
+    /* Lección 10 */ 'El Voseo': 10, 'Oraciones Temporales': 10, 'El Diminutivo y el Aumentativo': 10,
+  },
+};
+
+/* ── Utilities ── */
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -692,27 +1193,233 @@ function shuffle(arr) {
 
 const LETTERS = ['A','B','C','D'];
 
-/* ── Navegação ── */
+/* ── Navigation ── */
+/* ── UI string tables (EN / ES) ── */
+const UI_STRINGS = {
+  en: {
+    mainTitle:   'Quick Practice',
+    mainSub:     'Mini tests focused on the key grammar structures of each stage, so students can review and reinforce content before the exam',
+    chooseExam:  'Choose your exam',
+    nameLabel:   'Your name',
+    nameReq:     '* required',
+    midterm:     'Midterm Exam',
+    final:       'Final Exam',
+    custom:      'Custom Practice',
+    customDesc:  'Select specific grammar topics to practice',
+    startBtn:    'Start Quiz →',
+    quizSub:     n => `${n} question${n!==1?'s':''} · answer all and submit`,
+    profSub:     n => `Professor Mode · ${n} question${n!==1?'s':''}`,
+    submitBtn:   'Submit Quiz',
+    clearBtn:    '✖ Clear',
+    submitNow:   "Submit now? You won’t be able to change your answers.",
+    reviewBtn:   'Review',
+    yesSubmit:   'Yes, submit',
+    clearConfirm:'Clear all answers and restart?',
+    loadErr:     'Could not load questions. Please check your connection.',
+    answerRev:   'Answer Review',
+    retakeBtn:   'Retake Quiz',
+    chooseBook:  'Choose another book',
+    weakBtn:     n => `Practice Weak Points (${n} topic${n!==1?'s':''})`,
+    profBadge:   '📺 Professor Mode',
+    revealBtn:   'Reveal Answer ✓',
+    revealedBtn: '✓ Revealed',
+    nextBtn:     'Next →',
+    prevBtn:     '← Previous',
+    finishBtn:   'Finish ✓',
+    questionLbl: 'Question',
+    ofLbl:       'of',
+    examSuffix:  { midterm:'Midterm Exam', final:'Final Exam', custom:'Custom Practice' },
+    scores: {
+      great: { msg:'Great job!',         sub: all => all?'You got them all! Excellent!':'You are well prepared for the exam.' },
+      ok:    { msg:'Keep practicing!',   sub: _   => "You’re almost there — one more round and you’ll pass!" },
+      low:   { msg:'Needs more review.', sub: _   => 'Read the tips below and try again — you can do it!' },
+    },
+  },
+  es: {
+    mainTitle:   'Práctica Rápida',
+    mainSub:     'Mini tests enfocados en las estructuras gramaticales principales de cada nivel, para que el alumno pueda repasar y fijar los contenidos antes del examen',
+    chooseExam:  'Elige tu examen',
+    nameLabel:   'Tu nombre',
+    nameReq:     '* requerido',
+    midterm:     'Examen Parcial',
+    final:       'Examen Final',
+    custom:      'Práctica Libre',
+    customDesc:  'Selecciona los temas gramaticales para practicar',
+    startBtn:    'Iniciar →',
+    quizSub:     n => `${n} pregunta${n!==1?'s':''} · responde todas y envía`,
+    profSub:     n => `Modo Profesor · ${n} pregunta${n!==1?'s':''}`,
+    submitBtn:   'Enviar',
+    clearBtn:    '✖ Limpiar',
+    submitNow:   '¿Enviar ahora? No podrás cambiar tus respuestas.',
+    reviewBtn:   'Revisar',
+    yesSubmit:   'Sí, enviar',
+    clearConfirm:'¿Limpiar todas las respuestas y volver a empezar?',
+    loadErr:     'No se pudieron cargar las preguntas. Verifica tu conexión.',
+    answerRev:   'Revisión de Respuestas',
+    retakeBtn:   'Repetir Examen',
+    chooseBook:  'Elegir otro libro',
+    weakBtn:     n => `Repasar puntos débiles (${n} tema${n!==1?'s':''})`,
+    profBadge:   '📺 Modo Profesor',
+    revealBtn:   'Revelar Respuesta ✓',
+    revealedBtn: '✓ Revelada',
+    nextBtn:     'Siguiente →',
+    prevBtn:     '← Anterior',
+    finishBtn:   'Finalizar ✓',
+    questionLbl: 'Pregunta',
+    ofLbl:       'de',
+    examSuffix:  { midterm:'Examen Parcial', final:'Examen Final', custom:'Práctica Libre' },
+    scores: {
+      great: { msg:'¡Muy bien!',          sub: all => all?'¡Respondiste todo! ¡Excelente!':'Estás muy bien preparado para el examen.' },
+      ok:    { msg:'¡Sigue practicando!', sub: _   => 'Casi lo logras — ¡una ronda más y lo consigues!' },
+      low:   { msg:'Necesita más repaso.', sub: _  => 'Lee los consejos abajo e inténtalo de nuevo — ¡tú puedes!' },
+    },
+  },
+};
+
+function bookLang(bookKey) {
+  return (bookKey && bookKey.startsWith('inmediato')) ? 'es' : 'en';
+}
+
+function applyLang(lang) {
+  const S = UI_STRINGS[lang] || UI_STRINGS.en;
+  function set(id, txt) { const el = document.getElementById(id); if (el) el.textContent = txt; }
+  set('main-title',             S.mainTitle);
+  set('main-sub',               S.mainSub);
+  set('exam-subtitle',          S.chooseExam);
+  set('name-field-label-text',  S.nameLabel);
+  set('name-field-required-text', S.nameReq);
+  set('midterm-h3',   S.midterm);
+  set('final-h3',     S.final);
+  set('custom-h3',    S.custom);
+  set('custom-desc',  S.customDesc);
+  set('btn-start',    S.startBtn);
+  set('btn-submit',   S.submitBtn);
+  set('btn-clear',    S.clearBtn);
+  set('submit-now-msg',     S.submitNow);
+  set('btn-cancel-submit',  S.reviewBtn);
+  set('btn-confirm-submit', S.yesSubmit);
+  set('review-label-text',  S.answerRev);
+  set('btn-retake',     S.retakeBtn);
+  set('btn-choose-book', S.chooseBook);
+  set('prof-badge',     S.profBadge);
+  set('btn-revelar',    state.profRevealed ? S.revealedBtn : S.revealBtn);
+  set('btn-prof-prev',  S.prevBtn);
+  const nx = document.getElementById('btn-prof-next');
+  if (nx) nx.textContent = (state.profIdx >= (state.questions.length - 1)) ? S.finishBtn : S.nextBtn;
+}
+
+/* ── Professor mode functions ── */
+function profStart() {
+  state.profIdx = 0;
+  state.profRevealed = false;
+  profRender();
+}
+
+function profRender() {
+  const i   = state.profIdx;
+  const q   = state.questions[i];
+  const total = state.questions.length;
+  const S   = UI_STRINGS[bookLang(state.book)];
+  state.profRevealed = false;
+
+  const list = document.getElementById('questions-list');
+  list.innerHTML = `
+    <div class="q-card" id="qcard-0">
+      <div class="q-num">${S.questionLbl} ${i + 1} &middot; <span style="text-transform:none;letter-spacing:0;font-weight:700;color:var(--black);">${q.topic}</span></div>
+      <div class="q-text">${q.question}</div>
+      <div class="opts-grid">
+        ${q._opts.map((opt, j) => `
+          <button class="opt-btn" id="prof-opt-${j}" style="pointer-events:none;">
+            <span class="opt-letter">${LETTERS[j]}</span>
+            <span>${opt}</span>
+          </button>`).join('')}
+      </div>
+      <div class="prof-explanation" id="prof-expl" style="display:none;"></div>
+    </div>`;
+
+  document.getElementById('prof-prog').textContent = `${i + 1} / ${total}`;
+
+  const revBtn = document.getElementById('btn-revelar');
+  revBtn.disabled = false;
+  revBtn.textContent = S.revealBtn;
+  revBtn.style.background = '';
+
+  const nxBtn = document.getElementById('btn-prof-next');
+  nxBtn.textContent = i === total - 1 ? S.finishBtn : S.nextBtn;
+  nxBtn.disabled = false;
+
+  document.getElementById('btn-prof-prev').disabled = i === 0;
+
+  const scrollEl = list.parentElement;
+  if (scrollEl) scrollEl.scrollTop = 0;
+}
+
+function profReveal() {
+  if (state.profRevealed) return;
+  state.profRevealed = true;
+  const q = state.questions[state.profIdx];
+  const S = UI_STRINGS[bookLang(state.book)];
+
+  const correctBtn = document.getElementById('prof-opt-' + q._correct);
+  if (correctBtn) correctBtn.classList.add('prof-correct');
+
+  const expl = document.getElementById('prof-expl');
+  if (expl && q.explanation) {
+    expl.textContent = '💡 ' + q.explanation;
+    expl.style.display = 'block';
+  }
+
+  const revBtn = document.getElementById('btn-revelar');
+  revBtn.disabled = true;
+  revBtn.textContent = S.revealedBtn;
+  revBtn.style.background = 'var(--green)';
+}
+
+function profPrev() {
+  if (state.profIdx > 0) { state.profIdx--; profRender(); }
+}
+
+function profNext() {
+  if (state.profIdx < state.questions.length - 1) {
+    state.profIdx++;
+    profRender();
+  } else {
+    showScreen('exam');
+  }
+}
+
 function showScreen(id) {
   document.querySelectorAll('.screen').forEach(s => s.classList.remove('active'));
   document.getElementById('screen-' + id).classList.add('active');
   window.scrollTo(0, 0);
-  // Hide translator when leaving quiz
   if (id !== 'quiz') {
+    stopTimer();
     closeTranslator();
     document.getElementById('translator-btn').classList.remove('show');
   }
 }
 
-/* ── Seleção de livro ── */
+/* ── Language toggle ── */
+function selectLang(lang) {
+  state.lang = lang;
+  document.getElementById('lang-en').classList.toggle('active', lang === 'en');
+  document.getElementById('lang-es').classList.toggle('active', lang === 'es');
+  document.getElementById('english-books').style.display = lang === 'en' ? '' : 'none';
+  document.getElementById('spanish-books').style.display = lang === 'es' ? '' : 'none';
+  document.querySelectorAll('.book-card').forEach(c => c.classList.remove('selected'));
+  state.book = null;
+  applyLang(lang);
+}
+
+/* ── Book selection — auto-advances to exam screen ── */
 function selectBook(card) {
   document.querySelectorAll('.book-card').forEach(c => c.classList.remove('selected'));
   card.classList.add('selected');
   state.book = card.dataset.book;
-  document.getElementById('btn-to-exam').disabled = false;
+  goToExam();
 }
 
-/* ── Ir para seleção de prova ── */
+/* ── Load data and show exam screen ── */
 async function goToExam() {
   const info = BOOKS[state.book];
   if (!info) return;
@@ -722,40 +1429,151 @@ async function goToExam() {
       const r = await fetch(info.file);
       state.cache[state.book] = await r.json();
     } catch {
-      alert('Não foi possível carregar as questões. Verifique sua conexão.');
+      alert(UI_STRINGS[bookLang(state.book)].loadErr);
       return;
     }
   }
 
-  const data = state.cache[state.book];
   document.getElementById('exam-book-name').textContent = info.name;
-  document.getElementById('midterm-desc').textContent = data.midterm.topics || 'Lessons 1 a 5';
-  document.getElementById('final-desc').textContent   = data.final.topics   || 'Lessons 6 a 10';
+  document.getElementById('midterm-desc').textContent = info.midtermLessons;
+  document.getElementById('final-desc').textContent   = info.finalLessons;
 
   document.querySelectorAll('.exam-card').forEach(c => c.classList.remove('selected'));
+  document.getElementById('topic-picker').classList.remove('open');
   state.exam = null;
-  document.getElementById('btn-start').disabled = true;
+  state.customTopics = [];
+
+  /* restore name if already entered this session */
+  const nameInput = document.getElementById('student-name');
+  if (nameInput) nameInput.value = state.studentName;
+  applyLang(bookLang(state.book));
+  updateStartBtn();
 
   showScreen('exam');
 }
 
-/* ── Seleção de prova ── */
+/* ── Name input ── */
+function onNameInput(value) {
+  state.studentName = value.trim();
+  updateStartBtn();
+}
+
+function updateStartBtn() {
+  const hasName = PROF_MODE || state.studentName.length > 0;
+  const hasExam = state.exam !== null;
+  let canStart = hasName && hasExam;
+  if (state.exam === 'custom') {
+    const data = state.cache[state.book];
+    const allQ = data ? [...(data.midterm ? data.midterm.questions : []), ...(data.final ? data.final.questions : [])] : [];
+    const available = allQ.filter(q => (state.customTopics || []).includes(q.topic)).length;
+    canStart = hasName && available > 0;
+  }
+  document.getElementById('btn-start').disabled = !canStart;
+}
+
+/* ── Exam selection ── */
 function selectExam(card) {
   document.querySelectorAll('.exam-card').forEach(c => c.classList.remove('selected'));
   card.classList.add('selected');
   state.exam = card.dataset.exam;
-  document.getElementById('btn-start').disabled = false;
+
+  const picker = document.getElementById('topic-picker');
+  if (state.exam === 'custom') {
+    picker.classList.add('open');
+    buildTopicPicker();
+    state.customTopics = [];
+    updateTopicCount();
+  } else {
+    picker.classList.remove('open');
+    state.customTopics = [];
+    updateStartBtn();
+  }
 }
 
-/* ── Preparar e iniciar quiz ── */
+/* ── Topic picker: build checkboxes from LESSON_MAP ── */
+function buildTopicPicker() {
+  const lessonMap = LESSON_MAP[state.book] || {};
+  const data = state.cache[state.book];
+  const allQ = data ? [...(data.midterm ? data.midterm.questions : []), ...(data.final ? data.final.questions : [])] : [];
+
+  /* count available questions per topic */
+  const qCount = {};
+  allQ.forEach(q => { qCount[q.topic] = (qCount[q.topic] || 0) + 1; });
+
+  /* group topics by lesson key */
+  const isInFocus = state.book === 'infocus';
+  const groups = {};
+  const order = [];
+  Object.entries(lessonMap).forEach(([topic, key]) => {
+    if (!groups[key]) { groups[key] = []; order.push(key); }
+    if (!groups[key].includes(topic)) groups[key].push(topic);
+  });
+
+  const sortedKeys = isInFocus
+    ? [...new Set(order)].sort()
+    : [...new Set(order)].map(Number).sort((a, b) => a - b);
+
+  let html = '';
+  sortedKeys.forEach(k => {
+    const label = isInFocus ? k : (k === 0 ? 'Before You Start' : 'Lesson ' + k);
+    html += `<div class="topic-group-title">${label}</div>`;
+    groups[k].forEach(topic => {
+      const n = qCount[topic] || 0;
+      if (n === 0) return;
+      html += `
+        <label class="topic-item">
+          <input type="checkbox" onchange="toggleTopic('${topic.replace(/'/g, "\\'")}', this.checked)">
+          <span class="topic-label">${topic}</span>
+          <span class="topic-qcount">${n} q</span>
+        </label>`;
+    });
+  });
+
+  document.getElementById('topic-list').innerHTML = html;
+}
+
+/* ── Toggle topic selection ── */
+function toggleTopic(topic, checked) {
+  if (!state.customTopics) state.customTopics = [];
+  if (checked) {
+    if (!state.customTopics.includes(topic)) state.customTopics.push(topic);
+  } else {
+    state.customTopics = state.customTopics.filter(t => t !== topic);
+  }
+  updateTopicCount();
+}
+
+/* ── Update the topic counter and Start button ── */
+function updateTopicCount() {
+  const data = state.cache[state.book];
+  const allQ = data ? [...(data.midterm ? data.midterm.questions : []), ...(data.final ? data.final.questions : [])] : [];
+  const selected = (state.customTopics || []);
+  const available = allQ.filter(q => selected.includes(q.topic)).length;
+  const n = selected.length;
+  const el = document.getElementById('topic-counter');
+  if (n === 0) {
+    el.innerHTML = 'Choose at least one topic below';
+  } else {
+    el.innerHTML = `<strong>${n} topic${n > 1 ? 's' : ''} selected &middot; ${available} question${available !== 1 ? 's' : ''} available</strong>`;
+  }
+  updateStartBtn();
+}
+
+/* ── Start quiz ── */
 function startQuiz() {
   const data = state.cache[state.book];
   if (!data) return;
 
-  const pool = data[state.exam].questions;
-  const picked = shuffle([...pool]).slice(0, 10);
+  let pool;
+  if (state.exam === 'custom') {
+    const allQ = [...(data.midterm ? data.midterm.questions : []), ...(data.final ? data.final.questions : [])];
+    pool = allQ.filter(q => (state.customTopics || []).includes(q.topic));
+  } else {
+    pool = data[state.exam].questions;
+    pool = shuffle([...pool]).slice(0, 10);
+  }
 
-  state.questions = picked.map(q => {
+  state.questions = pool.map(q => {
     const indexed = q.options.map((txt, i) => ({ txt, orig: i }));
     const shuffled = shuffle(indexed);
     return {
@@ -768,14 +1586,27 @@ function startQuiz() {
   state.answers = {};
 
   const bookName = BOOKS[state.book].name;
-  const examLabel = state.exam === 'midterm' ? 'Prova do Meio do Livro' : 'Prova do Final do Livro';
-  document.getElementById('quiz-title').textContent = bookName + ' · ' + examLabel;
+  const S = UI_STRINGS[bookLang(state.book)];
+  const examKey = state.exam === 'midterm' ? 'midterm' : state.exam === 'final' ? 'final' : 'custom';
+  document.getElementById('quiz-title').textContent = bookName + ' · ' + S.examSuffix[examKey];
+
+  const total = state.questions.length;
+
+  if (PROF_MODE) {
+    document.getElementById('quiz-subtitle').textContent = S.profSub(total);
+    showScreen('quiz');
+    profStart();
+    return;
+  }
+
+  document.getElementById('quiz-subtitle').textContent = S.quizSub(total);
+  document.getElementById('quiz-counter').textContent = '0 ' + S.ofLbl + ' ' + total;
 
   renderQuiz();
   updateCounter();
   document.getElementById('btn-submit').disabled = true;
+  startTimer(total * 60);
 
-  // Show translator button only for Essentials 1
   const btn = document.getElementById('translator-btn');
   if (state.book === 'essentials1') {
     btn.classList.add('show');
@@ -788,12 +1619,13 @@ function startQuiz() {
   showScreen('quiz');
 }
 
-/* ── Renderizar todas as questões ── */
+/* ── Render all questions ── */
 function renderQuiz() {
+  const S = UI_STRINGS[bookLang(state.book)];
   const list = document.getElementById('questions-list');
   list.innerHTML = state.questions.map((q, i) => `
     <div class="q-card" id="qcard-${i}">
-      <div class="q-num">Questão ${i + 1} · <span style="text-transform:none;letter-spacing:0;font-weight:700;color:var(--black);">${q.topic}</span></div>
+      <div class="q-num">${S.questionLbl} ${i + 1} &middot; <span style="text-transform:none;letter-spacing:0;font-weight:700;color:var(--black);">${q.topic}</span></div>
       <div class="q-text">${q.question}</div>
       <div class="opts-grid">
         ${q._opts.map((opt, j) => `
@@ -807,73 +1639,205 @@ function renderQuiz() {
   `).join('');
 }
 
-/* ── Selecionar opção ── */
+/* ── Select option ── */
 function selectOption(qIdx, optIdx) {
   const prev = state.answers[qIdx];
   if (prev !== undefined) {
     document.getElementById(`opt-${qIdx}-${prev}`).classList.remove('chosen');
   }
-
   state.answers[qIdx] = optIdx;
   document.getElementById(`opt-${qIdx}-${optIdx}`).classList.add('chosen');
   document.getElementById(`qcard-${qIdx}`).classList.add('has-answer');
-
   updateCounter();
 }
 
-/* ── Atualizar contador ── */
+/* ── Update counter ── */
 function updateCounter() {
   const n = Object.keys(state.answers).length;
+  const total = state.questions.length;
   const el = document.getElementById('quiz-counter');
-  el.textContent = `${n} de 10`;
-  el.classList.toggle('done', n === 10);
-  document.getElementById('btn-submit').disabled = n < 10;
+  const ofLbl = (UI_STRINGS[bookLang(state.book)] || UI_STRINGS.en).ofLbl;
+  el.textContent = `${n} ${ofLbl} ${total}`;
+  el.classList.toggle('done', n === total);
+  document.getElementById('btn-submit').disabled = n < total;
 }
 
-/* ── Enviar simulado ── */
+/* ── Submit quiz ── */
+function askSubmit() {
+  document.getElementById('submit-row').style.display = 'none';
+  document.getElementById('submit-confirm').style.display = '';
+}
+
+function cancelSubmit() {
+  document.getElementById('submit-row').style.display = 'flex';
+  document.getElementById('submit-confirm').style.display = 'none';
+}
+
 function submitQuiz() {
+  document.getElementById('submit-row').style.display = 'flex';
+  document.getElementById('submit-confirm').style.display = 'none';
+
   let score = 0;
   state.questions.forEach((q, i) => {
     if (state.answers[i] === q._correct) score++;
   });
 
-  // Hide translator on results screen
   closeTranslator();
   document.getElementById('translator-btn').classList.remove('show');
 
   renderResults(score);
   showScreen('results');
+  setTimeout(() => {
+    const el = document.getElementById('score-wrap');
+    if (el) el.scrollIntoView({ behavior: 'smooth' });
+  }, 120);
 }
 
-/* ── Renderizar resultado ── */
+/* ── Generate Portuguese feedback paragraph ── */
+function generateFeedback(score, wrongTopics, correctTopics) {
+  const total = state.questions.length;
+  const pct = Math.round((score / total) * 100);
+  const lessonMap = LESSON_MAP[state.book] || {};
+  const isInFocus = state.book === 'infocus';
+
+  function groupByLesson(topics) {
+    const g = {};
+    topics.forEach(topic => {
+      const key = lessonMap[topic];
+      if (key !== undefined && key !== null) {
+        if (!g[key]) g[key] = new Set();
+        g[key].add(topic);
+      }
+    });
+    return g;
+  }
+
+  function sortKeys(g) {
+    return isInFocus
+      ? Object.keys(g).sort()
+      : Object.keys(g).map(Number).sort((a, b) => a - b);
+  }
+
+  function buildLines(g, keys) {
+    return keys.map(k => {
+      if (isInFocus) {
+        return `<div class="lesson-line">• <strong>${k}</strong> (Study Guide)</div>`;
+      }
+      const topics = [...g[k]].join(', ');
+      const label = k === 0 ? 'Before You Start' : 'Lesson ' + k;
+      return `<div class="lesson-line">• <strong>${label}:</strong> ${topics}</div>`;
+    }).join('');
+  }
+
+  // First name only (first word, capitalised)
+  const rawName = (state.studentName || '').trim();
+  const firstName = rawName
+    ? rawName.split(/\s+/)[0].charAt(0).toUpperCase() + rawName.split(/\s+/)[0].slice(1)
+    : '';
+  const n = firstName ? `, ${firstName}` : '';   // e.g. ", Ana" or ""
+
+  // Praise
+  let praise;
+  if (pct === 100) {
+    praise = `Que resultado incrível${n}! Você acertou todas as questões! Continue assim, você está mais do que pronto para a prova!`;
+  } else if (pct >= 80) {
+    praise = `Parabéns${n}! Você teve um desempenho excelente e está muito bem preparado para a prova!`;
+  } else if (pct >= 70) {
+    praise = `Bom trabalho${n}! Você está no caminho certo e bem perto de garantir um ótimo resultado na prova!`;
+  } else if (pct >= 50) {
+    praise = firstName
+      ? `${firstName}, você está evoluindo! Com mais um pouco de prática você chega lá — não desanime!`
+      : 'Você está evoluindo! Com mais um pouco de prática você chega lá — não desanime!';
+  } else {
+    praise = `Não desanime${n}! Cada simulado é uma oportunidade de aprender mais. Você consegue!`;
+  }
+
+  let html = `<div class="feedback-box"><p>${praise}</p>`;
+
+  // Strengths section
+  const cGroups = groupByLesson(correctTopics || []);
+  const cKeys   = sortKeys(cGroups);
+  if (cKeys.length > 0) {
+    const intro = isInFocus
+      ? `Com base nas suas respostas${firstName ? ', ' + firstName : ''}, vemos que você já demonstra domínio nas seguintes seções:`
+      : `Com base nas suas respostas${firstName ? ', ' + firstName : ''}, vemos que você já domina os seguintes conteúdos:`;
+    html += `<div class="feedback-section feedback-strengths">
+      <div class="feedback-section-title">&#10003; O que você já sabe</div>
+      <p class="feedback-section-intro">${intro}</p>
+      <div class="feedback-lessons">${buildLines(cGroups, cKeys)}</div>
+    </div>`;
+  }
+
+  // Improvement section
+  const wGroups = groupByLesson(wrongTopics);
+  const wKeys   = sortKeys(wGroups);
+  if (wKeys.length > 0) {
+    const intro = isInFocus
+      ? `${firstName ? firstName + ', há' : 'Há'} oportunidade de reforçar as seguintes seções do seu Study Guide:`
+      : `${firstName ? firstName + ', há' : 'Há'} oportunidade de reforçar os seguintes conteúdos do livro:`;
+    html += `<div class="feedback-section feedback-improve">
+      <div class="feedback-section-title">&#128270; O que você pode reforçar</div>
+      <p class="feedback-section-intro">${intro}</p>
+      <div class="feedback-lessons">${buildLines(wGroups, wKeys)}</div>
+    </div>
+    <div class="feedback-cta">
+      &#128161; Clique em <strong>&ldquo;Practice Weak Points&rdquo;</strong> abaixo para fazer um simulado personalizado focado somente nos conteúdos que você precisa reforçar!
+    </div>`;
+  }
+
+  html += '</div>';
+  return html;
+}
+
+/* ── Render results ── */
 function renderResults(score) {
-  const pct = Math.round((score / 10) * 100);
-  const bookName  = BOOKS[state.book].name;
-  const examLabel = state.exam === 'midterm' ? 'Prova do Meio do Livro' : 'Prova do Final do Livro';
+  const total = state.questions.length;
+  const pct   = Math.round((score / total) * 100);
+  const S     = UI_STRINGS[bookLang(state.book)];
+  const bookName = BOOKS[state.book].name;
+  const examKey  = state.exam === 'midterm' ? 'midterm' : state.exam === 'final' ? 'final' : 'custom';
 
   document.getElementById('results-title').textContent    = bookName;
-  document.getElementById('results-subtitle').textContent = examLabel;
+  document.getElementById('results-subtitle').textContent = S.examSuffix[examKey];
+  const _set = (id, t) => { const el = document.getElementById(id); if (el) el.textContent = t; };
+  _set('review-label-text', S.answerRev);
+  _set('btn-retake',        S.retakeBtn);
+  _set('btn-choose-book',   S.chooseBook);
 
-  let cls, msg, sub;
-  if (pct >= 70) {
-    cls = 'great'; msg = 'Ótimo trabalho!';
-    sub = score === 10 ? 'Você acertou tudo! Excelente!' : 'Você está bem preparado para a prova.';
-  } else if (pct >= 50) {
-    cls = 'ok'; msg = 'Continue praticando!';
-    sub = 'Você está quase lá — mais um treino e você passa!';
-  } else {
-    cls = 'low'; msg = 'Precisa revisar mais.';
-    sub = 'Releia as dicas abaixo e tente de novo — você consegue!';
-  }
+  const key = pct >= 70 ? 'great' : pct >= 50 ? 'ok' : 'low';
+  const cls = key;
+  const { msg, sub } = S.scores[key];
 
   document.getElementById('score-wrap').innerHTML = `
     <div class="score-ring ${cls}">
       <span class="pct">${pct}%</span>
-      <span class="frac">${score} de 10</span>
+      <span class="frac">${score} ${S.ofLbl} ${total}</span>
     </div>
     <div class="score-msg">${msg}</div>
-    <div class="score-sub">${sub}</div>
+    <div class="score-sub">${sub(score === total)}</div>
   `;
+
+  // Collect correct and wrong topics for feedback
+  const wrongTopics   = [];
+  const correctTopics = [];
+  state.questions.forEach((q, i) => {
+    if (state.answers[i] !== q._correct) {
+      if (!wrongTopics.includes(q.topic))   wrongTopics.push(q.topic);
+    } else {
+      if (!correctTopics.includes(q.topic)) correctTopics.push(q.topic);
+    }
+  });
+  state.weakTopics = wrongTopics;
+
+  const weakBtn = document.getElementById('btn-practice-weak');
+  if (wrongTopics.length > 0 && score < total) {
+    weakBtn.textContent = S.weakBtn(wrongTopics.length);
+    weakBtn.style.display = '';
+  } else {
+    weakBtn.style.display = 'none';
+  }
+
+  document.getElementById('feedback-wrap').innerHTML = generateFeedback(score, wrongTopics, correctTopics);
 
   const list = document.getElementById('review-list');
   list.innerHTML = state.questions.map((q, i) => {
@@ -886,9 +1850,9 @@ function renderResults(score) {
 
     const opts = q._opts.map((opt, j) => {
       let cls = 'r-opt r-neutral';
-      if (j === q._correct && j === chosen)  cls = 'r-opt r-chosen-correct';
-      else if (j === chosen && j !== q._correct) cls = 'r-opt r-chosen-wrong';
-      else if (j === q._correct && !isCorrect)   cls = 'r-opt r-correct-ans';
+      if (j === q._correct && j === chosen)       cls = 'r-opt r-chosen-correct';
+      else if (j === chosen && j !== q._correct)  cls = 'r-opt r-chosen-wrong';
+      else if (j === q._correct && !isCorrect)    cls = 'r-opt r-correct-ans';
 
       return `
         <div class="${cls}">
@@ -906,7 +1870,7 @@ function renderResults(score) {
         <div class="r-head">
           ${badge}
           <div class="r-meta">
-            <div class="r-qnum">Questão ${i + 1} · ${q.topic}</div>
+            <div class="r-qnum">${S.questionLbl} ${i + 1} · ${q.topic}</div>
             <div class="r-qtxt">${q.question}</div>
           </div>
         </div>
@@ -916,8 +1880,66 @@ function renderResults(score) {
   }).join('');
 }
 
-/* ── Refazer simulado ── */
+/* ── Retry quiz ── */
+/* ── Timer ── */
+let _timerInterval = null;
+let _timerLeft = 0;
+let _timerTotal = 0;
+
+function startTimer(totalSeconds) {
+  clearInterval(_timerInterval);
+  _timerLeft = totalSeconds;
+  _timerTotal = totalSeconds;
+  _renderTimer();
+  _timerInterval = setInterval(() => {
+    if (_timerLeft > 0) {
+      _timerLeft--;
+      _renderTimer();
+    } else {
+      clearInterval(_timerInterval);
+    }
+  }, 1000);
+}
+
+function stopTimer() {
+  clearInterval(_timerInterval);
+}
+
+function _renderTimer() {
+  const m = Math.floor(_timerLeft / 60);
+  const s = _timerLeft % 60;
+  const pct = _timerTotal > 0 ? (_timerLeft / _timerTotal) * 100 : 100;
+  const display = document.getElementById('timer-display');
+  const bar     = document.getElementById('timer-bar');
+  if (!display || !bar) return;
+  display.textContent = m + ':' + (s < 10 ? '0' : '') + s;
+  bar.style.width = pct + '%';
+  const warn   = pct < 50 && pct > 20;
+  const danger = pct <= 20;
+  display.classList.toggle('warn',   warn);
+  display.classList.toggle('danger', danger);
+  bar.classList.toggle('warn',   warn);
+  bar.classList.toggle('danger', danger);
+}
+
+function clearQuiz() {
+  if (!confirm(UI_STRINGS[bookLang(state.book)].clearConfirm)) return;
+  state.answers = {};
+  document.querySelectorAll('.opt-btn.chosen').forEach(b => b.classList.remove('chosen'));
+  document.querySelectorAll('.q-card.has-answer').forEach(c => c.classList.remove('has-answer'));
+  document.getElementById('submit-row').style.display = 'flex';
+  document.getElementById('submit-confirm').style.display = 'none';
+  updateCounter();
+}
+
 function retryQuiz() {
+  startQuiz();
+}
+
+function practiceWeak() {
+  if (!state.weakTopics || state.weakTopics.length === 0) return;
+  state.exam = 'custom';
+  state.customTopics = [...state.weakTopics];
   startQuiz();
 }
 
@@ -1037,7 +2059,7 @@ const VOCAB = [
   {en:'young',       pt:'jovem'},
 ];
 
-let trDir = 'en'; // 'en' = EN→PT, 'pt' = PT→EN
+let trDir = 'en';
 let trOpen = false;
 
 function toggleTranslator() {
@@ -1084,20 +2106,20 @@ function filterVocab() {
     const key = trDir === 'en' ? v.en : v.pt;
     const val = trDir === 'en' ? v.pt : v.en;
     return `<div class="tr-item"><span class="tr-key">${key}</span><span class="tr-val">${val}</span></div>`;
-  }).join('') || '<div style="padding:.5rem .4rem;color:#aaa;font-size:.82rem;">Nenhuma palavra encontrada.</div>';
+  }).join('') || '<div style="padding:.5rem .4rem;color:#aaa;font-size:.82rem;">No words found.</div>';
 }
 
 /* ══════════════════════════════════════════════
-   Dark mode — sincroniza todos os toggles
+   Dark mode — sync all toggles
 ══════════════════════════════════════════════ */
-const TOGGLE_IDS = ['themeToggleBooks','themeToggleExam','themeToggleResults'];
+const TOGGLE_IDS = ['themeToggleBooks','themeToggleExam','themeToggleQuiz','themeToggleResults'];
 
 function applyTheme(dark) {
   document.body.classList.toggle('theme-dark', dark);
   const icon = dark ? '☀️' : '🌙';
   TOGGLE_IDS.forEach(id => {
     const el = document.getElementById(id);
-    if (el) el.textContent = icon;
+    if (el) el.innerHTML = icon;
   });
 }
 
