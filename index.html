@@ -1734,7 +1734,7 @@ function startQuiz() {
   startTimer(total * 60);
 
   const btn = document.getElementById('translator-btn');
-  if (state.book === 'essentials1') {
+  if (false && state.book === 'essentials1') {
     btn.classList.add('show');
     renderVocab();
   } else {
@@ -2190,7 +2190,7 @@ let trOpen = false;
 let balloonTimer = null;
 
 /* ── Word balloon: double-click on question stem ── */
-(function setupWordBalloon() {
+(function setupWordBalloon() { return; // disabled
   const balloon    = document.getElementById('word-balloon');
   const balloonTxt = document.getElementById('word-balloon-text');
 
