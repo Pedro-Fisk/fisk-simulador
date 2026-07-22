@@ -566,15 +566,45 @@
     /* ── Translator ── */
     #translator-btn {
       position: fixed; bottom: 5.5rem; right: 1rem;
-      width: 3rem; height: 3rem; border-radius: 50%;
+      height: auto; width: auto;
+      border-radius: 2rem;
+      padding: .55rem .95rem .55rem .75rem;
       background: var(--red); color: #fff;
-      border: none; cursor: pointer; font-size: 1.3rem;
+      border: none; cursor: pointer; font-size: 1.2rem;
       box-shadow: 0 3px 12px rgba(216,31,38,.4);
       display: none; align-items: center; justify-content: center;
+      gap: .5rem;
       z-index: 100; transition: transform .15s, box-shadow .15s;
     }
     #translator-btn.show { display: flex; }
-    #translator-btn:hover { transform: scale(1.08); box-shadow: 0 5px 18px rgba(216,31,38,.5); }
+    #translator-btn:hover { transform: scale(1.04); box-shadow: 0 5px 18px rgba(216,31,38,.5); }
+    .tr-btn-text {
+      display: flex; flex-direction: column; text-align: left; line-height: 1.2;
+      font-family: var(--font-h);
+    }
+    .tr-btn-label { font-size: .82rem; font-weight: 800; }
+    .tr-btn-hint  { font-size: .62rem; font-weight: 600; opacity: .78; }
+
+    /* ── Word balloon ── */
+    #word-balloon {
+      position: fixed; z-index: 300; pointer-events: none;
+      background: #161414; color: #fff;
+      border-radius: 10px; padding: .45rem .8rem;
+      font-size: .82rem; font-family: var(--font-h); font-weight: 700;
+      box-shadow: 0 4px 16px rgba(0,0,0,.32);
+      max-width: 240px; text-align: center; line-height: 1.35;
+      transform: translate(-50%, calc(-100% - 10px));
+      display: none; white-space: pre-wrap;
+    }
+    #word-balloon.visible { display: block; }
+    #word-balloon::after {
+      content: ''; position: absolute; bottom: -7px; left: 50%;
+      transform: translateX(-50%);
+      border: 7px solid transparent;
+      border-bottom: none; border-top-color: #161414;
+    }
+    body.theme-dark #word-balloon { background: #f2efef; color: #161414; }
+    body.theme-dark #word-balloon::after { border-top-color: #f2efef; }
 
     #translator-panel {
       position: fixed; bottom: 9.5rem; right: 1rem;
@@ -1068,7 +1098,13 @@
 ══════════════════════════════════════ -->
 <button id="translator-btn" onclick="toggleTranslator()" title="Open dictionary">
   &#128214;
+  <span class="tr-btn-text">
+    <span class="tr-btn-label">Dicionário</span>
+    <span class="tr-btn-hint">só o enunciado</span>
+  </span>
 </button>
+
+<div id="word-balloon"><span id="word-balloon-text"></span></div>
 
 <div id="translator-panel">
   <div class="tr-header">
@@ -2151,6 +2187,49 @@ const VOCAB = [
 
 let trDir = 'en';
 let trOpen = false;
+let balloonTimer = null;
+
+/* ── Word balloon: double-click on question stem ── */
+(function setupWordBalloon() {
+  const balloon    = document.getElementById('word-balloon');
+  const balloonTxt = document.getElementById('word-balloon-text');
+
+  function hideBalloon() {
+    clearTimeout(balloonTimer);
+    balloon.classList.remove('visible');
+  }
+
+  function lookupWord(raw) {
+    const word = raw.replace(/[^a-záàãâéêíóôõúüçñ'-]/gi, '').toLowerCase().trim();
+    if (!word) return null;
+    return VOCAB.find(v => v.en.toLowerCase() === word) || null;
+  }
+
+  document.getElementById('questions-list').addEventListener('dblclick', function(e) {
+    const qText = e.target.closest('.q-text');
+    if (!qText) return;
+
+    const sel  = window.getSelection();
+    const raw  = sel ? sel.toString().trim() : '';
+    if (!raw) return;
+
+    const entry = lookupWord(raw);
+    balloonTxt.textContent = entry
+      ? entry.en + ' → ' + entry.pt
+      : '"' + raw + '" — não encontrado no dicionário';
+
+    balloon.style.left = e.clientX + 'px';
+    balloon.style.top  = e.clientY + 'px';
+    balloon.classList.add('visible');
+
+    clearTimeout(balloonTimer);
+    balloonTimer = setTimeout(hideBalloon, 3500);
+  });
+
+  document.addEventListener('click', function(e) {
+    if (!e.target.closest('.q-text')) hideBalloon();
+  });
+})();
 
 function toggleTranslator() {
   trOpen = !trOpen;
