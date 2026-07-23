@@ -384,14 +384,14 @@
       },
       {
         "topic": "Comparación",
-        "question": "Pedro es ___ alto ___ Juan.",
+        "question": "Pedro mide 1,90 m y Juan mide 1,75 m. Pedro es ___ alto ___ Juan.",
         "options": ["tan...como", "más...de", "menos...que", "más...que"],
         "correct": 3,
         "explanation": "Para comparar desigualdade (mais... do que), usamos 'más + adjetivo + que'. 'Pedro es más alto que Juan' = Pedro é mais alto que Juan."
       },
       {
         "topic": "Comparación",
-        "question": "Esta película es ___ interesante ___ la otra.",
+        "question": "Los dos críticos coinciden: ambas películas merecen exactamente la misma puntuación. Esta película es ___ interesante ___ la otra.",
         "options": ["más...que", "tan...como", "menos...que", "más...de"],
         "correct": 1,
         "explanation": "Para comparar igualdade (tão... quanto), usamos 'tan + adjetivo + como'. 'Tan interesante como' = tão interessante quanto."
@@ -1028,7 +1028,7 @@
         "question": "Nosotros ___ en Roma en 2019. (vivir)",
         "options": ["hemos vivido", "vivíamos", "viviremos", "vivimos"],
         "correct": 3,
-        "explanation": "Com datas do passado (en 2019), usamos o pretérito indefinido. 'Vivimos' = nós moramos. Atenção: para verbos '-ir' e '-er', 'nosotros' no indefinido tem a mesma forma que no presente."
+        "explanation": "Com datas do passado (en 2019), usamos o pretérito indefinido. 'Vivimos' = nós moramos. Atenção: para verbos '-ir', 'nosotros' no indefinido tem a mesma forma que no presente ('vivimos' = presente e pretérito). Para verbos '-er', as formas são diferentes: 'comemos' (presente) ≠ 'comimos' (pretérito)."
       },
       {
         "topic": "Ir a + Infinitivo",

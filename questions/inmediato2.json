@@ -548,8 +548,8 @@
           "Se",
           "Es"
         ],
-        "correct": 2,
-        "explanation": "Com SE impessoal seguido de verbo no infinitivo, usa-se apenas 'Se': 'Se prohíbe fumar' ou 'Se prohibido fumar' não existe — o correto é 'Se prohíbe fumar' ou 'Está prohibido fumar'. Mas 'Se' + verbo conjugado = impessoal: 'Se prohíbe'."
+        "correct": 1,
+        "explanation": "O aviso padrão usa 'estar + participio' para expressar proibição permanente: 'Está prohibido fumar en este edificio'. A opção 'Se prohíbe fumar' (SE impessoal com verbo conjugado) também seria correta, mas não está entre as opções. 'Se' isolado seguido de participio ('Se prohibido') é agramatical em espanhol."
       },
       {
         "topic": "SE Impersonal",
@@ -706,10 +706,10 @@
           "viviremos",
           "viviramos",
           "vivimos",
-          "viviramos"
+          "viviríamos"
         ],
         "correct": 0,
-        "explanation": "'Vivir' é regular no futuro. Infinitivo + terminação para 'nosotros' (-emos): 'viviremos'. O marcador 'el próximo año' indica futuro, confirmando o uso do Futuro Simple."
+        "explanation": "'Vivir' é regular no futuro. Infinitivo + terminação para 'nosotros' (-emos): 'viviremos'. O marcador 'el próximo año' indica futuro, confirmando o uso do Futuro Simple. Atenção: 'viviríamos' (Condicional) e 'viviremos' (Futuro) são facilmente confundidos — o Condicional de 'nosotros' termina em '-íamos', não em '-emos'."
       },
       {
         "topic": "Futuro Simple",
@@ -850,10 +850,10 @@
           "Habla español e inglés muy bien.",
           "¿Quieres café u otra bebida?",
           "Tiene siete u ocho años.",
-          "Es inteligente y honesta."
+          "Habla italiano y inglés perfectamente."
         ],
         "correct": 3,
-        "explanation": "Em 'Es inteligente y honesta', o uso de 'y' está incorreto. 'Honesta' começa com 'ho-', e a regra diz que 'o' muda para 'u' antes de palavras que começam com 'o' ou 'ho'. O correto é 'Es inteligente u honesta'. As demais opções estão corretas: 'e inglés' (começa com i-), 'u otra' (começa com o-), 'u ocho' (começa com o-)."
+        "explanation": "Em 'Habla italiano y inglés perfectamente', o uso de 'y' está incorreto. 'Inglés' começa com 'i-' (som /i/), então 'y' deve mudar para 'e': 'Habla italiano e inglés perfectamente'. As demais opções estão corretas: 'e inglés' (A — começa com i-, correto), 'u otra' (B — começa com o-, correto), 'u ocho' (C — começa com o-, correto)."
       },
       {
         "topic": "Conjunciones (y/e – o/u)",
