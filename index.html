@@ -1153,6 +1153,50 @@ const BOOKS = {
   inmediato3:   { name: 'Inmediato 3',   file: 'questions/inmediato3.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
 };
 
+/* ══════════════════════════════════════════════
+   Integração com o Portal do Aluno (?raf=&nome=&book=)
+   - nome: preenche e trava o campo de nome
+   - book: o aluno só vê o QUICK PRACTICE DO PRÓPRIO LIVRO
+   - raf: anexado ao resultado enviado à nuvem (histórico do aluno)
+══════════════════════════════════════════════ */
+const _pq = new URLSearchParams(location.search);
+const PORTAL_RAF  = (_pq.get('raf')  || '').trim();
+const PORTAL_NOME = (_pq.get('nome') || '').trim();
+const PORTAL_BOOK = (_pq.get('book') || '').trim();
+const CLOUD = {
+  endpoint: 'https://script.google.com/macros/s/AKfycbw13tpIVD3Ji9XhWW1VwDSw8qAZOmtMGPV0FI1rlHpEQ7HABumVpi_aMWQXfo7dwkd1/exec',
+  appKey: 'fisk_0719bacbecc857f61d1e',
+  tool: 'qp'
+};
+// "Fluency 2" → "fluency2", "In Focus" → "infocus", "Inmediato 2" → "inmediato2"
+function bookKeyFromCard(nome) {
+  const k = String(nome || '').toLowerCase().normalize('NFD')
+    .replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
+  return BOOKS[k] ? k : null;
+}
+(function portalBoot() {
+  if (PORTAL_NOME) state.studentName = PORTAL_NOME;
+  if (!PORTAL_BOOK) return;
+  const k = bookKeyFromCard(PORTAL_BOOK);
+  if (k) {
+    document.querySelectorAll('.book-card').forEach(c => { if (c.dataset.book !== k) c.style.display = 'none'; });
+    if (/^inmediato/.test(k)) {
+      document.getElementById('english-books').style.display = 'none';
+      document.getElementById('spanish-books').style.display = '';
+    }
+    // esconde grupos que ficaram vazios e o toggle de idioma
+    document.querySelectorAll('.books-grid').forEach(g => {
+      const vis = [...g.querySelectorAll('.book-card')].some(c => c.style.display !== 'none');
+      if (!vis) { g.style.display = 'none'; const t = g.previousElementSibling; if (t && t.classList.contains('section-label')) t.style.display = 'none'; }
+    });
+    const lt = document.querySelector('#screen-books .lang-toggle'); if (lt) lt.style.display = 'none';
+  } else {
+    // livro sem Quick Practice: não expõe o conteúdo dos outros estágios
+    const cont = document.querySelector('#screen-books .container');
+    if (cont) cont.innerHTML = '<div style="max-width:520px;margin:2.5rem auto;text-align:center;font-size:1rem;line-height:1.6;">📚 O Quick Practice do seu livro <strong>(' + PORTAL_BOOK.replace(/</g, '&lt;') + ')</strong> ainda não está disponível.<br>Avise seu professor — em breve chega por aqui!</div>';
+  }
+})();
+
 /* ── Lesson maps: topic → lesson number per book ── */
 const LESSON_MAP = {
   essentials1: {
@@ -1572,6 +1616,7 @@ async function goToExam() {
   /* restore name if already entered this session */
   const nameInput = document.getElementById('student-name');
   if (nameInput) nameInput.value = state.studentName;
+  if (nameInput && PORTAL_NOME) nameInput.disabled = true; // veio logado do portal
   applyLang(bookLang(state.book));
   updateStartBtn();
 
@@ -1808,6 +1853,8 @@ function submitQuiz() {
     if (state.answers[i] === q._correct) score++;
   });
 
+  sendResultToCloud(score);
+
   closeTranslator();
   document.getElementById('translator-btn').classList.remove('show');
 
@@ -1817,6 +1864,26 @@ function submitQuiz() {
     const el = document.getElementById('score-wrap');
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   }, 120);
+}
+
+/* ── Envio do resultado à nuvem (histórico do aluno + painel do professor) ── */
+function sendResultToCloud(score) {
+  if (PROF_MODE) return; // demonstração do professor não entra nos dados
+  try {
+    const info = BOOKS[state.book] || {};
+    const examLbl = state.exam === 'midterm' ? 'Midterm' : state.exam === 'final' ? 'Final' : 'Practice';
+    const entry = {
+      t: Date.now(), n: state.studentName || '',
+      s: (info.name || state.book || '') + ' · ' + examLbl,
+      c: score, q: state.questions.length,
+      test: state.exam || 'custom', book: info.name || ''
+    };
+    if (PORTAL_RAF) entry.raf = PORTAL_RAF;
+    fetch(CLOUD.endpoint, {
+      method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+      body: JSON.stringify({ key: CLOUD.appKey, tool: CLOUD.tool, data: entry })
+    }).catch(function () {});
+  } catch (e) {}
 }
 
 /* ── Generate Portuguese feedback paragraph ── */
