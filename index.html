@@ -976,12 +976,19 @@
       </div>
 
       <div class="exam-grid">
-        <div class="exam-card" data-exam="midterm" onclick="selectExam(this)">
+        <!-- Estágio sem prova formal (In Focus): não existe Midterm nem Final,
+             então sobra um Practice sobre todo o conteúdo do Study Guide. -->
+        <div class="exam-card" data-exam="practice" id="card-practice" hidden onclick="selectExam(this)">
+          <div class="exam-emoji">&#127919;</div>
+          <h3 id="practice-h3">Practice</h3>
+          <p id="practice-desc">Exercises from the Study Guide content</p>
+        </div>
+        <div class="exam-card" data-exam="midterm" id="card-midterm" onclick="selectExam(this)">
           <div class="exam-emoji">&#128214;</div>
           <h3 id="midterm-h3">Midterm Exam</h3>
           <p id="midterm-desc">Lessons 1 to 5</p>
         </div>
-        <div class="exam-card" data-exam="final" onclick="selectExam(this)">
+        <div class="exam-card" data-exam="final" id="card-final" onclick="selectExam(this)">
           <div class="exam-emoji">&#127891;</div>
           <h3 id="final-h3">Final Exam</h3>
           <p id="final-desc">Lessons 6 to 10</p>
@@ -1147,7 +1154,8 @@ const BOOKS = {
   transitions2: { name: 'Transitions 2', file: 'questions/transitions2.json', midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
   fluency1:     { name: 'Fluency 1',     file: 'questions/fluency1.json',     midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
   fluency2:     { name: 'Fluency 2',     file: 'questions/fluency2.json',     midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
-  infocus:      { name: 'In Focus',      file: 'questions/infocus.json',      midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
+  // In Focus não tem prova formal (a avaliação é o simulado MET): só Practice + Custom
+  infocus:      { name: 'In Focus',      file: 'questions/infocus.json',      soPractice: true },
   inmediato1:   { name: 'Inmediato 1',   file: 'questions/inmediato1.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
   inmediato2:   { name: 'Inmediato 2',   file: 'questions/inmediato2.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
   inmediato3:   { name: 'Inmediato 3',   file: 'questions/inmediato3.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
@@ -1359,6 +1367,8 @@ const UI_STRINGS = {
     nameReq:     '* required',
     midterm:     'Midterm Exam',
     final:       'Final Exam',
+    practice:    'Practice',
+    practiceDesc:'Exercises from the Study Guide content',
     custom:      'Custom Practice',
     customDesc:  'Select specific grammar topics to practice',
     startBtn:    'Start Quiz →',
@@ -1383,7 +1393,7 @@ const UI_STRINGS = {
     finishBtn:   'Finish ✓',
     questionLbl: 'Question',
     ofLbl:       'of',
-    examSuffix:  { midterm:'Midterm Exam', final:'Final Exam', custom:'Custom Practice' },
+    examSuffix:  { midterm:'Midterm Exam', final:'Final Exam', practice:'Practice', custom:'Custom Practice' },
     scores: {
       great: { msg:'Great job!',         sub: all => all?'You got them all! Excellent!':'You are well prepared for the exam.' },
       ok:    { msg:'Keep practicing!',   sub: _   => "You’re almost there — one more round and you’ll pass!" },
@@ -1398,6 +1408,8 @@ const UI_STRINGS = {
     nameReq:     '* requerido',
     midterm:     'Examen Parcial',
     final:       'Examen Final',
+    practice:    'Práctica',
+    practiceDesc:'Ejercicios a partir del contenido del Study Guide',
     custom:      'Práctica Libre',
     customDesc:  'Selecciona los temas gramaticales para practicar',
     startBtn:    'Iniciar →',
@@ -1422,7 +1434,7 @@ const UI_STRINGS = {
     finishBtn:   'Finalizar ✓',
     questionLbl: 'Pregunta',
     ofLbl:       'de',
-    examSuffix:  { midterm:'Examen Parcial', final:'Examen Final', custom:'Práctica Libre' },
+    examSuffix:  { midterm:'Examen Parcial', final:'Examen Final', practice:'Práctica', custom:'Práctica Libre' },
     scores: {
       great: { msg:'¡Muy bien!',          sub: all => all?'¡Respondiste todo! ¡Excelente!':'Estás muy bien preparado para el examen.' },
       ok:    { msg:'¡Sigue practicando!', sub: _   => 'Casi lo logras — ¡una ronda más y lo consigues!' },
@@ -1445,6 +1457,8 @@ function applyLang(lang) {
   set('name-field-required-text', S.nameReq);
   set('midterm-h3',   S.midterm);
   set('final-h3',     S.final);
+  set('practice-h3',  S.practice);
+  set('practice-desc',S.practiceDesc);
   set('custom-h3',    S.custom);
   set('custom-desc',  S.customDesc);
   set('btn-start',    S.startBtn);
@@ -1605,8 +1619,14 @@ async function goToExam() {
   }
 
   document.getElementById('exam-book-name').textContent = info.name;
-  document.getElementById('midterm-desc').textContent = info.midtermLessons;
-  document.getElementById('final-desc').textContent   = info.finalLessons;
+  const soPractice = !!info.soPractice;
+  document.getElementById('card-practice').hidden = !soPractice;
+  document.getElementById('card-midterm').hidden  = soPractice;
+  document.getElementById('card-final').hidden    = soPractice;
+  if (!soPractice) {
+    document.getElementById('midterm-desc').textContent = info.midtermLessons;
+    document.getElementById('final-desc').textContent   = info.finalLessons;
+  }
 
   document.querySelectorAll('.exam-card').forEach(c => c.classList.remove('selected'));
   document.getElementById('topic-picker').classList.remove('open');
@@ -1739,6 +1759,10 @@ function startQuiz() {
   if (state.exam === 'custom') {
     const allQ = [...(data.midterm ? data.midterm.questions : []), ...(data.final ? data.final.questions : [])];
     pool = allQ.filter(q => (state.customTopics || []).includes(q.topic));
+  } else if (state.exam === 'practice') {
+    // sem divisão por prova: sorteia entre tudo que o livro tem
+    const allQ = [...(data.midterm ? data.midterm.questions : []), ...(data.final ? data.final.questions : [])];
+    pool = shuffle([...allQ]).slice(0, 10);
   } else {
     pool = data[state.exam].questions;
     pool = shuffle([...pool]).slice(0, 10);
@@ -1758,7 +1782,8 @@ function startQuiz() {
 
   const bookName = BOOKS[state.book].name;
   const S = UI_STRINGS[bookLang(state.book)];
-  const examKey = state.exam === 'midterm' ? 'midterm' : state.exam === 'final' ? 'final' : 'custom';
+  const examKey = state.exam === 'midterm' ? 'midterm' : state.exam === 'final' ? 'final'
+                : state.exam === 'practice' ? 'practice' : 'custom';
   document.getElementById('quiz-title').textContent = bookName + ' · ' + S.examSuffix[examKey];
 
   const total = state.questions.length;
@@ -1988,7 +2013,8 @@ function renderResults(score) {
   const pct   = Math.round((score / total) * 100);
   const S     = UI_STRINGS[bookLang(state.book)];
   const bookName = BOOKS[state.book].name;
-  const examKey  = state.exam === 'midterm' ? 'midterm' : state.exam === 'final' ? 'final' : 'custom';
+  const examKey  = state.exam === 'midterm' ? 'midterm' : state.exam === 'final' ? 'final'
+                 : state.exam === 'practice' ? 'practice' : 'custom';
 
   document.getElementById('results-title').textContent    = bookName;
   document.getElementById('results-subtitle').textContent = S.examSuffix[examKey];
