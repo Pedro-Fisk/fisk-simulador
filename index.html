@@ -1030,6 +1030,7 @@
         <div class="quiz-counter" id="quiz-counter">0 of 10</div>
         <div class="timer-display" id="timer-display">10:00</div>
       </div>
+      <button class="theme-toggle som-toggle" onclick="alternarSom()" style="position:relative;right:auto;top:auto;transform:none;flex-shrink:0;" title="Som de acerto">&#128266;</button>
       <button class="theme-toggle" id="themeToggleQuiz" style="position:relative;right:auto;top:auto;transform:none;flex-shrink:0;">&#127769;</button>
     </div>
   </div>
@@ -1541,6 +1542,7 @@ function profReveal() {
 
   const correctBtn = document.getElementById('prof-opt-' + q._correct);
   if (correctBtn) correctBtn.classList.add('prof-correct');
+  if (state.profChosen === q._correct) tocarAcerto();   // a turma acertou
 
   if (state.profChosen !== null && state.profChosen !== q._correct) {
     const wrongBtn = document.getElementById('prof-opt-' + state.profChosen);
@@ -1836,6 +1838,45 @@ function renderQuiz() {
 }
 
 /* ── Select option ── */
+
+/* ── Som discreto de acerto ────────────────────────────────────────────────
+   WebAudio puro: nenhum arquivo para baixar e nenhuma dependência nova. Fica
+   DESLIGÁVEL porque a ferramenta costuma rodar projetada na TV da sala — som
+   que não se cala vira incômodo. Volume baixo de propósito. */
+const SOM_KEY = 'fisk_som';
+function somLigado() { try { return localStorage.getItem(SOM_KEY) !== 'off'; } catch (e) { return true; } }
+function alternarSom() {
+  try { localStorage.setItem(SOM_KEY, somLigado() ? 'off' : 'on'); } catch (e) {}
+  pintarBotoesSom();
+  if (somLigado()) tocarAcerto();   // devolve uma amostra ao religar
+}
+function pintarBotoesSom() {
+  const on = somLigado();
+  document.querySelectorAll('.som-toggle').forEach(b => {
+    b.textContent = on ? '\u{1F50A}' : '\u{1F507}';
+    b.title = on ? 'Som de acerto ligado' : 'Som de acerto desligado';
+  });
+}
+function tocarAcerto() {
+  if (!somLigado()) return;
+  try {
+    const AC = window.AudioContext || window.webkitAudioContext; if (!AC) return;
+    const ctx = tocarAcerto._ctx || (tocarAcerto._ctx = new AC());
+    if (ctx.state === 'suspended') ctx.resume();
+    const t = ctx.currentTime;
+    // duas notas subindo: lê como "acertou" sem precisar de sample
+    [[880, 0], [1320, 0.085]].forEach(([hz, atraso]) => {
+      const osc = ctx.createOscillator(), g = ctx.createGain();
+      osc.type = 'sine'; osc.frequency.value = hz;
+      g.gain.setValueAtTime(0.0001, t + atraso);
+      g.gain.exponentialRampToValueAtTime(0.055, t + atraso + 0.02);
+      g.gain.exponentialRampToValueAtTime(0.0001, t + atraso + 0.17);
+      osc.connect(g); g.connect(ctx.destination);
+      osc.start(t + atraso); osc.stop(t + atraso + 0.19);
+    });
+  } catch (e) {}
+}
+
 function selectOption(qIdx, optIdx) {
   const prev = state.answers[qIdx];
   if (prev !== undefined) {
@@ -1885,6 +1926,8 @@ function submitQuiz() {
 
   renderResults(score);
   showScreen('results');
+  // no modo aluno as respostas só são conferidas no fim: o "acertou" é o placar
+  if (score / Math.max(state.questions.length, 1) >= 0.6) tocarAcerto();
   setTimeout(() => {
     const el = document.getElementById('score-wrap');
     if (el) el.scrollIntoView({ behavior: 'smooth' });
@@ -2375,6 +2418,7 @@ function filterVocab() {
    Dark mode — sync all toggles
 ══════════════════════════════════════════════ */
 const TOGGLE_IDS = ['themeToggleBooks','themeToggleExam','themeToggleQuiz','themeToggleResults'];
+pintarBotoesSom();
 
 function applyTheme(dark) {
   document.body.classList.toggle('theme-dark', dark);
