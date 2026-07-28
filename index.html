@@ -2484,5 +2484,30 @@ function fdToast(valor) {
   setTimeout(function () { el.remove(); }, 5800);
 }
 </script>
+<script src="assets/tour.js"></script>
+<script>
+/* Tour guiado de primeiro acesso do Quick Practice (PT). */
+(function(){
+  if(!window.FiskTour) return;
+  function firstVisible(sel){
+    var els=document.querySelectorAll(sel);
+    for(var i=0;i<els.length;i++){ if(els[i].offsetParent!==null) return els[i]; }
+    return null;
+  }
+  function visible(sel){ var el=document.querySelector(sel); return !!(el && el.offsetParent!==null); }
+  var steps=[
+    { el:null, title:'Bem-vindo ao Quick Practice! 📝',
+      html:'Aqui você pratica os exercícios do seu livro de forma independente, com correção automática na hora. Deixa eu te mostrar em 30 segundos.' },
+    { el: firstVisible('.book-card') || '#english-books', title:'Escolha o seu livro 📚',
+      html:'Toque no seu estágio para começar. Você vê o livro do seu nível — ao tocar, já vai para a escolha do tipo de exercício.' }
+  ];
+  if(visible('#screen-books .lang-toggle'))
+    steps.push({ el:'#screen-books .lang-toggle', title:'Inglês ou Espanhol 🌎',
+      html:'Estuda espanhol? Troque aqui entre <b>Inglês</b> e <b>Español</b> antes de escolher o livro.' });
+  steps.push({ el:null, title:'Como funciona 🎯',
+    html:'Depois de escolher o livro, você seleciona <b>Prova do Meio</b>, <b>Prova do Fim</b> ou <b>prática livre por tópico</b>. No fim, você vê a nota e a explicação de cada questão. Toque no <b>❓</b> para rever este tour.' });
+  FiskTour.mount(steps, { key:'qp_v1', delay:700 });
+})();
+</script>
 </body>
 </html>
