@@ -1950,6 +1950,9 @@ function sendResultToCloud(score) {
     fetch(CLOUD.endpoint, {
       method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify({ key: CLOUD.appKey, tool: CLOUD.tool, data: entry })
+    }).then(function (r) { return r.json(); }).then(function (res) {
+      // Fisk Dólares: o backend credita e devolve o ganho em res.fd
+      if (res && res.fd && res.fd.credito > 0) fdToast(res.fd.credito);
     }).catch(function () {});
   } catch (e) {}
 }
@@ -2446,6 +2449,20 @@ function initTheme() {
 }
 
 initTheme();
+</script>
+<script>
+/* Aviso de Fisk Dólares ganhos (aparece quando o backend da carteira responde) */
+function fdToast(valor) {
+  var el = document.createElement('div');
+  el.style.cssText = 'position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%);z-index:999;' +
+    'background:#161414;color:#f5c563;border:2px solid #c9922e;border-radius:999px;' +
+    'padding:.7rem 1.4rem;font-family:Poppins,sans-serif;font-weight:800;font-size:1rem;' +
+    'box-shadow:0 6px 20px rgba(0,0,0,.35);transition:opacity .4s';
+  el.textContent = '💵 +F$ ' + valor + ' na sua carteira!';
+  document.body.appendChild(el);
+  setTimeout(function () { el.style.opacity = '0'; }, 5200);
+  setTimeout(function () { el.remove(); }, 5800);
+}
 </script>
 </body>
 </html>
