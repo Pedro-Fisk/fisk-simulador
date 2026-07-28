@@ -2460,6 +2460,26 @@ function fdToast(valor) {
     'box-shadow:0 6px 20px rgba(0,0,0,.35);transition:opacity .4s';
   el.textContent = '💵 +F$ ' + valor + ' na sua carteira!';
   document.body.appendChild(el);
+  try { // barulhinho de moedas
+    var AC = window.AudioContext || window.webkitAudioContext;
+    if (AC) {
+      if (!fdToast.ctx) fdToast.ctx = new AC();
+      var ctx = fdToast.ctx; if (ctx.resume) ctx.resume();
+      var plins = valor >= 200 ? 3 : valor >= 80 ? 2 : 1;
+      for (var i = 0; i < plins; i++) {
+        var t0 = ctx.currentTime + i * 0.13;
+        var o = ctx.createOscillator(), g = ctx.createGain();
+        o.type = 'triangle';
+        o.frequency.setValueAtTime(987.77, t0);
+        o.frequency.setValueAtTime(1318.51, t0 + 0.08);
+        g.gain.setValueAtTime(0.0001, t0);
+        g.gain.exponentialRampToValueAtTime(0.2, t0 + 0.015);
+        g.gain.exponentialRampToValueAtTime(0.0001, t0 + 0.5);
+        o.connect(g); g.connect(ctx.destination);
+        o.start(t0); o.stop(t0 + 0.55);
+      }
+    }
+  } catch (e) {}
   setTimeout(function () { el.style.opacity = '0'; }, 5200);
   setTimeout(function () { el.remove(); }, 5800);
 }
