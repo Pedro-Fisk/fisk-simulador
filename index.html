@@ -1165,7 +1165,10 @@ const BOOKS = {
 /* ══════════════════════════════════════════════
    Integração com o Portal do Aluno (?raf=&nome=&book=)
    - nome: preenche e trava o campo de nome
-   - book: o aluno só vê o QUICK PRACTICE DO PRÓPRIO LIVRO
+   - book: o aluno vê o Quick Practice do PRÓPRIO estágio e dos ANTERIORES
+     da mesma trilha, nunca dos seguintes (decisão do Pedro, 30/07/2026: o QP
+     é revisão, então voltar atrás ajuda; é a mesma regra dos Explanation
+     Videos no portal)
    - raf: anexado ao resultado enviado à nuvem (histórico do aluno)
 ══════════════════════════════════════════════ */
 const _pq = new URLSearchParams(location.search);
@@ -1191,12 +1194,29 @@ function bookKeyFromCard(nome) {
     .replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
   return BOOKS[k] ? k : null;
 }
+/* Escada do curso, na ordem em que o aluno avança. Trilhas diferentes não se
+   comparam: quem está em Inmediato não alcança o conteúdo de inglês, e
+   vice-versa. Kids e teens não têm Quick Practice e caem na mensagem de
+   "ainda não está disponível", que é o comportamento seguro. */
+const ESCADA_QP = {
+  ingles:   ['essentials1', 'essentials2', 'transitions1', 'transitions2', 'fluency1', 'fluency2', 'infocus'],
+  espanhol: ['inmediato1', 'inmediato2', 'inmediato3']
+};
+/** Os livros que este aluno alcança: o dele e os anteriores da trilha dele. */
+function livrosAteOEstagio(k) {
+  for (const trilha of Object.keys(ESCADA_QP)) {
+    const i = ESCADA_QP[trilha].indexOf(k);
+    if (i >= 0) return ESCADA_QP[trilha].slice(0, i + 1);
+  }
+  return [k];   // livro fora da escada: só ele mesmo
+}
 (function portalBoot() {
   if (PORTAL_NOME) state.studentName = PORTAL_NOME;
   if (!PORTAL_BOOK) return;
   const k = bookKeyFromCard(PORTAL_BOOK);
   if (k) {
-    document.querySelectorAll('.book-card').forEach(c => { if (c.dataset.book !== k) c.style.display = 'none'; });
+    const alcanca = livrosAteOEstagio(k);
+    document.querySelectorAll('.book-card').forEach(c => { if (alcanca.indexOf(c.dataset.book) < 0) c.style.display = 'none'; });
     if (/^inmediato/.test(k)) {
       document.getElementById('english-books').style.display = 'none';
       document.getElementById('spanish-books').style.display = '';
