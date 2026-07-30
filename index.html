@@ -1172,6 +1172,14 @@ const _pq = new URLSearchParams(location.search);
 const PORTAL_RAF  = (_pq.get('raf')  || '').trim();
 const PORTAL_NOME = (_pq.get('nome') || '').trim();
 const PORTAL_BOOK = (_pq.get('book') || '').trim();
+/* Atalho dos Explanation Videos do Portal: o aluno acabou de assistir à
+   explicação de um ponto e clicou em "praticar este ponto".
+   - topicos: nomes do LESSON_MAP separados por "|", já marcados no Custom
+   - licao:   número da lição, usado só como reserva se nenhum tópico bater
+              (nome trocado aqui e o portal ainda não sabe) */
+const PORTAL_TOPICOS = (_pq.get('topicos') || '').split('|').map(s => s.trim()).filter(Boolean);
+const PORTAL_LICAO   = _pq.get('licao');
+const VEIO_DO_VIDEO  = PORTAL_TOPICOS.length > 0 || PORTAL_LICAO !== null;
 const CLOUD = {
   endpoint: 'https://script.google.com/macros/s/AKfycbw13tpIVD3Ji9XhWW1VwDSw8qAZOmtMGPV0FI1rlHpEQ7HABumVpi_aMWQXfo7dwkd1/exec',
   appKey: 'fisk_0719bacbecc857f61d1e',
@@ -2483,12 +2491,71 @@ function fdToast(valor) {
   setTimeout(function () { el.style.opacity = '0'; }, 5200);
   setTimeout(function () { el.remove(); }, 5800);
 }
+
+/* ══════════════════════════════════════════════
+   Atalho vindo dos Explanation Videos do Portal
+   (?book=…&topicos=Tag Questions|Zero Conditional&licao=2)
+
+   O aluno acabou de assistir à explicação e quer praticar AQUELE ponto.
+   Em vez de cair na escolha de livro e ter que achar os tópicos no meio da
+   lista, já abrimos o livro no Custom Practice com as caixas certas
+   marcadas — falta só apertar Começar.
+
+   Roda no fim do script de propósito: buildTopicPicker() lê LESSON_MAP, que
+   é `const` e ainda estaria na zona morta se chamássemos lá em cima.
+══════════════════════════════════════════════ */
+function marcarTopicos(querEste) {
+  const marcados = [];
+  document.querySelectorAll('#topic-list .topic-item').forEach(item => {
+    const nome = item.querySelector('.topic-label').textContent;
+    if (!querEste(nome)) return;
+    item.querySelector('input[type="checkbox"]').checked = true;
+    marcados.push(nome);
+  });
+  if (marcados.length) { state.customTopics = marcados; updateTopicCount(); }
+  return marcados.length;
+}
+
+async function portalPracticeBoot() {
+  if (!VEIO_DO_VIDEO) return;
+  const k = bookKeyFromCard(PORTAL_BOOK);
+  if (!k) return;                       // livro sem Quick Practice: portalBoot já avisa
+
+  state.book = k;
+  await goToExam();                     // baixa o banco e mostra a tela de exames
+
+  const card = document.querySelector('.exam-card[data-exam="custom"]');
+  if (!card) return;
+  selectExam(card);                     // seleciona o Custom e monta o picker
+
+  const querido = new Set(PORTAL_TOPICOS);
+  let n = marcarTopicos(t => querido.has(t));
+
+  /* Nenhum bateu (tópico renomeado aqui e o portal ainda com o nome antigo):
+     em vez de deixar o aluno com a lista vazia, marca a lição inteira. */
+  if (!n && PORTAL_LICAO !== null) {
+    const mapa = LESSON_MAP[k] || {};
+    n = marcarTopicos(t => String(mapa[t]) === String(PORTAL_LICAO));
+  }
+
+  /* Se ainda assim nada bateu, o picker fica aberto e o aluno escolhe — a
+     tela nunca fica num beco sem saída. */
+  if (n) {
+    const picker = document.getElementById('topic-picker');
+    if (picker) picker.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+}
+portalPracticeBoot();
 </script>
 <script src="assets/tour.js"></script>
 <script>
 /* Tour guiado de primeiro acesso do Quick Practice (PT). */
 (function(){
   if(!window.FiskTour) return;
+  /* Veio do botão "praticar este ponto" de um vídeo de explicação: o aluno
+     já pulou a escolha de livro e os tópicos estão marcados. O tour, que
+     começa apontando para a lista de livros, só atrapalharia. */
+  if(VEIO_DO_VIDEO) return;
   function firstVisible(sel){
     var els=document.querySelectorAll(sel);
     for(var i=0;i<els.length;i++){ if(els[i].offsetParent!==null) return els[i]; }
