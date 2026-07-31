@@ -10,55 +10,90 @@
         "id": "f1m01",
         "topic": "A Friend of Mine",
         "question": "Michael is one of my colleagues. Rewrite: He is _____.",
-        "options": ["a colleague of mine", "a my colleague", "my one colleague", "a colleague from mine"],
+        "options": [
+          "a colleague of mine",
+          "a my colleague",
+          "my one colleague",
+          "a colleague from mine"
+        ],
         "correct": 0,
-        "explanation": "Quando queremos dizer que alguém é nosso amigo, colega ou familiar, usamos 'a/an + pessoa + of + mine/yours/his/hers' — nunca 'a my colleague'. Neste caso, Michael é um colega nosso, então dizemos 'He is a colleague of mine'. Portanto, a resposta correta é 'a COLLEAGUE OF MINE'."
+        "explanation": "Quando queremos dizer que alguém é nosso amigo, colega ou familiar, usamos 'a/an + pessoa + of + mine/yours/his/hers', nunca 'a my colleague'. Neste caso, Michael é um colega nosso, então dizemos 'He is a colleague of mine'. Portanto, a resposta correta é 'a COLLEAGUE OF MINE'."
       },
       {
         "id": "f1m02",
         "topic": "A Friend of Mine",
         "question": "Ana is one of your cousins. Rewrite: She is _____.",
-        "options": ["a cousin of you", "a your cousin", "a cousin of yours", "one cousin of yours"],
+        "options": [
+          "a cousin of you",
+          "a your cousin",
+          "a cousin of yours",
+          "one cousin of yours"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que alguém é nosso parente ou conhecido, usamos 'a/an + pessoa + of + mine/yours/his/hers' — nunca 'a cousin of you'. Neste caso, Ana é uma prima sua, então dizemos 'She is a cousin of yours'. Portanto, a resposta correta é 'a COUSIN OF YOURS'."
+        "explanation": "Quando queremos dizer que alguém é nosso parente ou conhecido, usamos 'a/an + pessoa + of + mine/yours/his/hers', nunca 'a cousin of you'. Neste caso, Ana é uma prima sua, então dizemos 'She is a cousin of yours'. Portanto, a resposta correta é 'a COUSIN OF YOURS'."
       },
       {
         "id": "f1m03",
         "topic": "Present Perfect vs Continuous",
         "question": "I _____ all morning – I'm exhausted! (ongoing activity, not finished)",
-        "options": ["have cleaned", "have been cleaning", "cleaned", "was cleaning"],
+        "options": [
+          "have cleaned",
+          "have been cleaning",
+          "cleaned",
+          "was cleaning"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos falar de uma atividade que ficamos fazendo por um tempo e que nos deixou cansados, usamos 'have been' + o verbo com -ing. Neste caso, a pessoa ficou limpando a manhã toda e está exausta por causa disso — o foco é na atividade em si, não no resultado. Portanto, a resposta correta é 'HAVE BEEN CLEANING'."
+        "explanation": "Quando queremos falar de uma atividade que ficamos fazendo por um tempo e que nos deixou cansados, usamos 'have been' + o verbo com -ing. Neste caso, a pessoa ficou limpando a manhã toda e está exausta por causa disso. O foco é na atividade em si, não no resultado. Portanto, a resposta correta é 'HAVE BEEN CLEANING'."
       },
       {
         "id": "f1m04",
         "topic": "Present Perfect vs Continuous",
         "question": "Lucy _____ 5 km today. Look how happy she is! (result)",
-        "options": ["has been running", "has run", "ran", "was running"],
+        "options": [
+          "has been running",
+          "has run",
+          "ran",
+          "was running"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos falar do resultado de algo que aconteceu, usamos 'have/has' + a forma passada do verbo. Neste caso, o que importa é o que Lucy conseguiu: ela correu 5 km e por isso está tão feliz — o foco é no resultado, não na atividade. Portanto, a resposta correta é 'HAS RUN'."
+        "explanation": "Quando queremos falar do resultado de algo que aconteceu, usamos 'have/has' + a forma passada do verbo. Neste caso, o que importa é o que Lucy conseguiu: ela correu 5 km e por isso está tão feliz. O foco é no resultado, não na atividade. Portanto, a resposta correta é 'HAS RUN'."
       },
       {
         "id": "f1m05",
         "topic": "Some/Any/No Words",
         "question": "Is there _____ open this late? I'm starving.",
-        "options": ["somewhere", "something", "anywhere", "anywhere"],
+        "options": [
+          "somewhere",
+          "something",
+          "anywhere",
+          "anywhere"
+        ],
         "correct": 1,
-        "explanation": "Quando fazemos uma pergunta esperando encontrar alguma coisa — com uma expectativa positiva —, usamos 'something'. Neste caso, a pessoa está com fome e pergunta se tem algo aberto tão tarde assim, esperando uma resposta positiva. Portanto, a resposta correta é 'SOMETHING'."
+        "explanation": "Quando fazemos uma pergunta esperando encontrar alguma coisa (com uma expectativa positiva), usamos 'something'. Neste caso, a pessoa está com fome e pergunta se tem algo aberto tão tarde assim, esperando uma resposta positiva. Portanto, a resposta correta é 'SOMETHING'."
       },
       {
         "id": "f1m06",
         "topic": "Some/Any/No Words",
         "question": "There's _____ wrong with this dish – it tastes bad.",
-        "options": ["anywhere", "something", "nothing", "anything"],
+        "options": [
+          "anywhere",
+          "something",
+          "nothing",
+          "anything"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que tem alguma coisa errada numa situação, usamos 'something' em frases positivas. Neste caso, a pessoa percebe que o prato tem um problema — tem algo errado com ele. Portanto, a resposta correta é 'SOMETHING'."
+        "explanation": "Quando queremos dizer que tem alguma coisa errada numa situação, usamos 'something' em frases positivas. Neste caso, a pessoa percebe que o prato tem um problema. Tem algo errado com ele. Portanto, a resposta correta é 'SOMETHING'."
       },
       {
         "id": "f1m07",
         "topic": "How Long Does It Take",
         "question": "How long _____ you to get to work?",
-        "options": ["do it take", "does it take", "takes it", "is it take"],
+        "options": [
+          "do it take",
+          "does it take",
+          "takes it",
+          "is it take"
+        ],
         "correct": 1,
         "explanation": "Quando queremos perguntar quanto tempo alguém leva para fazer algo, usamos a estrutura 'How long does it take + pessoa + to + ação'. Neste caso, a pergunta é sobre quanto tempo a pessoa precisa para chegar ao trabalho. Portanto, a resposta correta é 'DOES IT TAKE'."
       },
@@ -66,7 +101,12 @@
         "id": "f1m08",
         "topic": "Superlative + Have Ever",
         "question": "It's _____ film I've ever seen.",
-        "options": ["the most good", "the best", "the better", "the more good"],
+        "options": [
+          "the most good",
+          "the best",
+          "the better",
+          "the more good"
+        ],
         "correct": 1,
         "explanation": "Quando queremos dizer que algo é o melhor (ou o pior) que já vimos na vida, usamos 'the + a forma mais forte do adjetivo + I've ever'. Neste caso, a pessoa está dizendo que esse é o melhor filme que já assistiu em toda a vida. Portanto, a resposta correta é 'THE BEST'."
       },
@@ -74,55 +114,90 @@
         "id": "f1m09",
         "topic": "Past Perfect",
         "question": "When I arrived, they _____ already _____.",
-        "options": ["had / eaten", "have / eaten", "did / eat", "were / eating"],
+        "options": [
+          "had / eaten",
+          "have / eaten",
+          "did / eat",
+          "were / eating"
+        ],
         "correct": 0,
-        "explanation": "Quando queremos falar de algo que aconteceu antes de outro evento passado, usamos 'had' + a forma passada do verbo. Neste caso, eles já tinham comido antes de eu chegar — a refeição aconteceu primeiro, e depois eu cheguei. Portanto, a resposta correta é 'HAD / EATEN'."
+        "explanation": "Quando queremos falar de algo que aconteceu antes de outro evento passado, usamos 'had' + a forma passada do verbo. Neste caso, eles já tinham comido antes de eu chegar, a refeição aconteceu primeiro, e depois eu cheguei. Portanto, a resposta correta é 'HAD / EATEN'."
       },
       {
         "id": "f1m10",
         "topic": "Past Perfect",
         "question": "I couldn't pay because I _____ my wallet at home.",
-        "options": ["left", "have left", "had left", "was leaving"],
+        "options": [
+          "left",
+          "have left",
+          "had left",
+          "was leaving"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos falar de algo que aconteceu antes de outra coisa no passado, usamos 'had' + a forma passada do verbo. Neste caso, a carteira foi esquecida em casa antes de tentar pagar — primeiro esqueceu, depois não conseguiu pagar. Portanto, a resposta correta é 'HAD LEFT'."
+        "explanation": "Quando queremos falar de algo que aconteceu antes de outra coisa no passado, usamos 'had' + a forma passada do verbo. Neste caso, a carteira foi esquecida em casa antes de tentar pagar, primeiro esqueceu, depois não conseguiu pagar. Portanto, a resposta correta é 'HAD LEFT'."
       },
       {
         "id": "f1m11",
         "topic": "Tag Questions",
         "question": "You love extreme sports, _____?",
-        "options": ["don't you", "do you", "aren't you", "won't you"],
+        "options": [
+          "don't you",
+          "do you",
+          "aren't you",
+          "won't you"
+        ],
         "correct": 0,
-        "explanation": "Quando fazemos uma afirmação e queremos que a outra pessoa confirme, adicionamos um finalzinho de confirmação que é o oposto da frase. Neste caso, a frase é positiva — 'you love' —, então o finalzinho precisa ser negativo: 'don't you?'. Portanto, a resposta correta é 'DON'T YOU'."
+        "explanation": "Quando fazemos uma afirmação e queremos que a outra pessoa confirme, adicionamos um finalzinho de confirmação que é o oposto da frase. Neste caso, a frase é positiva ('you love'), então o finalzinho precisa ser negativo: 'don't you?'. Portanto, a resposta correta é 'DON'T YOU'."
       },
       {
         "id": "f1m12",
         "topic": "Tag Questions",
         "question": "She can't swim, _____?",
-        "options": ["can she", "can't she", "could she", "does she"],
+        "options": [
+          "can she",
+          "can't she",
+          "could she",
+          "does she"
+        ],
         "correct": 0,
-        "explanation": "Quando fazemos uma afirmação negativa e queremos confirmar com a outra pessoa, o finalzinho de confirmação precisa ser positivo — o oposto da frase. Neste caso, a frase diz que ela não sabe nadar ('can't'), então o finalzinho é 'can she?'. Portanto, a resposta correta é 'CAN SHE'."
+        "explanation": "Quando fazemos uma afirmação negativa e queremos confirmar com a outra pessoa, o finalzinho de confirmação precisa ser positivo, o oposto da frase. Neste caso, a frase diz que ela não sabe nadar ('can't'), então o finalzinho é 'can she?'. Portanto, a resposta correta é 'CAN SHE'."
       },
       {
         "id": "f1m13",
         "topic": "Third Conditional",
         "question": "If I _____ (study), I would have passed the test.",
-        "options": ["studied", "had studied", "would have studied", "have studied"],
+        "options": [
+          "studied",
+          "had studied",
+          "would have studied",
+          "have studied"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos imaginar um passado diferente — algo que não aconteceu mas que poderia ter mudado tudo —, a condição usa 'had' + a forma passada do verbo. Neste caso, a pessoa não estudou e não passou na prova, mas está imaginando o que teria acontecido se tivesse estudado. Portanto, a resposta correta é 'HAD STUDIED'."
+        "explanation": "Quando queremos imaginar um passado diferente (algo que não aconteceu mas que poderia ter mudado tudo), a condição usa 'had' + a forma passada do verbo. Neste caso, a pessoa não estudou e não passou na prova, mas está imaginando o que teria acontecido se tivesse estudado. Portanto, a resposta correta é 'HAD STUDIED'."
       },
       {
         "id": "f1m14",
         "topic": "Third Conditional",
         "question": "If you had called me, I _____ (help) you.",
-        "options": ["would help", "helped", "would have helped", "had helped"],
+        "options": [
+          "would help",
+          "helped",
+          "would have helped",
+          "had helped"
+        ],
         "correct": 2,
-        "explanation": "Quando imaginamos o resultado de algo que não aconteceu no passado, usamos 'would/could have' + a forma passada do verbo. Neste caso, você não ligou, então eu não pude ajudar — mas estou imaginando o que teria acontecido se tivesse ligado. Portanto, a resposta correta é 'WOULD HAVE HELPED'."
+        "explanation": "Quando imaginamos o resultado de algo que não aconteceu no passado, usamos 'would/could have' + a forma passada do verbo. Neste caso, você não ligou, então eu não pude ajudar, mas estou imaginando o que teria acontecido se tivesse ligado. Portanto, a resposta correta é 'WOULD HAVE HELPED'."
       },
       {
         "id": "f1m15",
         "topic": "Adjective Order",
         "question": "He was wearing a _____ shirt. (old, dirty, flannel)",
-        "options": ["dirty old flannel", "old dirty flannel", "flannel dirty old", "dirty flannel old"],
+        "options": [
+          "dirty old flannel",
+          "old dirty flannel",
+          "flannel dirty old",
+          "dirty flannel old"
+        ],
         "correct": 0,
         "explanation": "Quando usamos vários adjetivos antes de uma palavra em inglês, existe uma ordem certa: opinião ou condição vem antes de idade, que vem antes do material. Neste caso, 'dirty' fala da condição da camisa, 'old' fala da idade dela, e 'flannel' fala do material. Portanto, a resposta correta é 'DIRTY OLD FLANNEL'."
       },
@@ -130,7 +205,12 @@
         "id": "f1m16",
         "topic": "Adjective Order",
         "question": "It's a _____ movie. (Italian, wonderful, new)",
-        "options": ["new wonderful Italian", "Italian wonderful new", "wonderful new Italian", "wonderful Italian new"],
+        "options": [
+          "new wonderful Italian",
+          "Italian wonderful new",
+          "wonderful new Italian",
+          "wonderful Italian new"
+        ],
         "correct": 2,
         "explanation": "Quando usamos vários adjetivos antes de uma palavra, a opinião vem primeiro, depois informações sobre o tempo, e por último a origem. Neste caso, 'wonderful' é a opinião, 'new' fala de quando foi feito, e 'Italian' fala de onde veio. Portanto, a resposta correta é 'WONDERFUL NEW ITALIAN'."
       },
@@ -138,47 +218,77 @@
         "id": "f1m17",
         "topic": "Subject Questions",
         "question": "Who _____ the Mona Lisa?",
-        "options": ["did paint", "painted", "does paint", "do painted"],
+        "options": [
+          "did paint",
+          "painted",
+          "does paint",
+          "do painted"
+        ],
         "correct": 1,
-        "explanation": "Quando perguntamos quem fez alguma coisa e 'who' é a própria pessoa que fez a ação, não precisamos de 'did' — o verbo vem direto depois de 'who'. Neste caso, queremos saber quem pintou a Mona Lisa, e 'who' é quem fez essa ação. Portanto, a resposta correta é 'PAINTED'."
+        "explanation": "Quando perguntamos quem fez alguma coisa e 'who' é a própria pessoa que fez a ação, não precisamos de 'did', o verbo vem direto depois de 'who'. Neste caso, queremos saber quem pintou a Mona Lisa, e 'who' é quem fez essa ação. Portanto, a resposta correta é 'PAINTED'."
       },
       {
         "id": "f1m18",
         "topic": "Subject Questions",
         "question": "What _____ at the party last night?",
-        "options": ["did happen", "happened", "does happen", "has happened"],
+        "options": [
+          "did happen",
+          "happened",
+          "does happen",
+          "has happened"
+        ],
         "correct": 1,
-        "explanation": "Quando perguntamos o que aconteceu e 'what' é o próprio sujeito que causou o evento, não precisamos de 'did' — o verbo vem direto depois de 'what'. Neste caso, queremos saber o que aconteceu na festa, e 'what' é o que causou tudo. Portanto, a resposta correta é 'HAPPENED'."
+        "explanation": "Quando perguntamos o que aconteceu e 'what' é o próprio sujeito que causou o evento, não precisamos de 'did', o verbo vem direto depois de 'what'. Neste caso, queremos saber o que aconteceu na festa, e 'what' é o que causou tudo. Portanto, a resposta correta é 'HAPPENED'."
       },
       {
         "id": "f1m19",
         "topic": "Should Have / Could Have",
         "question": "I _____ saving money years ago! (I regret not doing it.)",
-        "options": ["should have started", "could started", "should started", "should have start"],
+        "options": [
+          "should have started",
+          "could started",
+          "should started",
+          "should have start"
+        ],
         "correct": 0,
-        "explanation": "Quando queremos expressar arrependimento por algo que não fizemos no passado, usamos 'should have' + a forma passada do verbo. Neste caso, a pessoa não começou a poupar dinheiro antes e agora se arrepende disso — deveria ter começado. Portanto, a resposta correta é 'SHOULD HAVE STARTED'."
+        "explanation": "Quando queremos expressar arrependimento por algo que não fizemos no passado, usamos 'should have' + a forma passada do verbo. Neste caso, a pessoa não começou a poupar dinheiro antes e agora se arrepende disso, deveria ter começado. Portanto, a resposta correta é 'SHOULD HAVE STARTED'."
       },
       {
         "id": "f1m20",
         "topic": "Should Have / Could Have",
         "question": "You _____ so much cake. Now you feel sick. (it was a mistake)",
-        "options": ["should have eaten", "couldn't have eaten", "shouldn't have eaten", "could not eat"],
+        "options": [
+          "should have eaten",
+          "couldn't have eaten",
+          "shouldn't have eaten",
+          "could not eat"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que alguém fez algo que não deveria ter feito, usamos 'shouldn't have' + a forma passada do verbo. Neste caso, a pessoa comeu bolo demais e agora está passando mal — foi um erro que ela não deveria ter cometido. Portanto, a resposta correta é 'SHOULDN'T HAVE EATEN'."
+        "explanation": "Quando queremos dizer que alguém fez algo que não deveria ter feito, usamos 'shouldn't have' + a forma passada do verbo. Neste caso, a pessoa comeu bolo demais e agora está passando mal. Foi um erro que ela não deveria ter cometido. Portanto, a resposta correta é 'SHOULDN'T HAVE EATEN'."
       },
       {
         "id": "f1m21",
         "topic": "Quantifiers",
         "question": "I don't have _____ time to go shopping this week.",
-        "options": ["many", "few", "much", "little"],
+        "options": [
+          "many",
+          "few",
+          "much",
+          "little"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer 'muito' com palavras que não dá para contar — como tempo, dinheiro ou paciência —, usamos 'much' em frases negativas. Neste caso, 'time' é algo que não se conta, então precisamos de 'much', não de 'many'. Portanto, a resposta correta é 'MUCH'."
+        "explanation": "Quando queremos dizer 'muito' com palavras que não dá para contar (como tempo, dinheiro ou paciência), usamos 'much' em frases negativas. Neste caso, 'time' é algo que não se conta, então precisamos de 'much', não de 'many'. Portanto, a resposta correta é 'MUCH'."
       },
       {
         "id": "f1m22",
         "topic": "How Long Does It Take",
-        "question": "How long did it take you to finish the book? — It _____ me two hours.",
-        "options": ["takes", "take", "took", "has taken"],
+        "question": "How long did it take you to finish the book?, It _____ me two hours.",
+        "options": [
+          "takes",
+          "take",
+          "took",
+          "has taken"
+        ],
         "correct": 2,
         "explanation": "Quando respondemos uma pergunta sobre quanto tempo algo levou no passado, usamos a forma passada de 'take'. Neste caso, a pergunta foi feita no passado com 'did', então a resposta também precisa ser no passado. Portanto, a resposta correta é 'TOOK'."
       },
@@ -186,15 +296,25 @@
         "id": "f1m23",
         "topic": "A Friend of Mine",
         "question": "David is my neighbor. Rewrite: He is _____.",
-        "options": ["a neighbor of me", "a neighbor of mine", "my a neighbor", "one neighbor mine"],
+        "options": [
+          "a neighbor of me",
+          "a neighbor of mine",
+          "my a neighbor",
+          "one neighbor mine"
+        ],
         "correct": 1,
-        "explanation": "Para expressar que alguém pertence ao nosso círculo de convivência, usamos a estrutura 'a/an + substantivo + of + mine/yours/his/hers'. Note que nunca dizemos 'of me' — o correto é sempre 'of mine'. Portanto, a resposta correta é 'a NEIGHBOR OF MINE'."
+        "explanation": "Para expressar que alguém pertence ao nosso círculo de convivência, usamos a estrutura 'a/an + substantivo + of + mine/yours/his/hers'. Note que nunca dizemos 'of me'. O correto é sempre 'of mine'. Portanto, a resposta correta é 'a NEIGHBOR OF MINE'."
       },
       {
         "id": "f1m24",
         "topic": "A Friend of Mine",
         "question": "Those girls are Paul's friends. Rewrite: They are _____.",
-        "options": ["friends of his", "friends of him", "his friends of", "some friends his"],
+        "options": [
+          "friends of his",
+          "friends of him",
+          "his friends of",
+          "some friends his"
+        ],
         "correct": 0,
         "explanation": "Quando falamos de pessoas que fazem parte do grupo de alguém, usamos 'substantivo + of + mine/his/hers/yours'. Neste caso, as meninas são amigas de Paul (ele = his), então dizemos 'They are friends of his'. Portanto, a resposta correta é 'FRIENDS OF HIS'."
       },
@@ -202,7 +322,12 @@
         "id": "f1m25",
         "topic": "A Friend of Mine",
         "question": "That man is Helen's uncle. Rewrite: He is _____.",
-        "options": ["an uncle of hers", "an uncle of her", "a uncle of hers", "hers uncle"],
+        "options": [
+          "an uncle of hers",
+          "an uncle of her",
+          "a uncle of hers",
+          "hers uncle"
+        ],
         "correct": 0,
         "explanation": "Quando dizemos que alguém faz parte da família de outra pessoa, usamos 'a/an + parentesco + of + mine/his/hers'. Neste caso, o homem é tio de Helen (she = hers), então dizemos 'He is an uncle of hers'. Note também que 'uncle' começa com vogal, então o artigo é 'an'. Portanto, a resposta correta é 'AN UNCLE OF HERS'."
       },
@@ -210,63 +335,103 @@
         "id": "f1m26",
         "topic": "Present Perfect vs Continuous",
         "question": "He _____ three emails since 9 a.m. (focus on result, number of completions)",
-        "options": ["has been writing", "has written", "wrote", "was writing"],
+        "options": [
+          "has been writing",
+          "has written",
+          "wrote",
+          "was writing"
+        ],
         "correct": 1,
-        "explanation": "Quando o foco é na quantidade de vezes que algo foi completado — e não na duração da atividade —, usamos o present perfect simples: 'have/has' + particípio. Neste caso, o que importa é o número de emails terminados (três), não o tempo gasto escrevendo. Portanto, a resposta correta é 'HAS WRITTEN'."
+        "explanation": "Quando o foco é na quantidade de vezes que algo foi completado (e não na duração da atividade), usamos o present perfect simples: 'have/has' + particípio. Neste caso, o que importa é o número de emails terminados (três), não o tempo gasto escrevendo. Portanto, a resposta correta é 'HAS WRITTEN'."
       },
       {
         "id": "f1m27",
         "topic": "Present Perfect vs Continuous",
-        "question": "Why are your hands so dirty? — I _____ the bike.",
-        "options": ["fixed", "have fixed", "have been fixing", "was fixing"],
+        "question": "Why are your hands so dirty?, I _____ the bike.",
+        "options": [
+          "fixed",
+          "have fixed",
+          "have been fixing",
+          "was fixing"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos explicar um estado presente — como mãos sujas — por causa de uma atividade recente que ficamos fazendo, usamos 'have/has been' + verbo com -ing. Neste caso, as mãos sujas mostram que a pessoa estava consertando a bicicleta por um tempo. Portanto, a resposta correta é 'HAVE BEEN FIXING'."
+        "explanation": "Quando queremos explicar um estado presente (como mãos sujas) por causa de uma atividade recente que ficamos fazendo, usamos 'have/has been' + verbo com -ing. Neste caso, as mãos sujas mostram que a pessoa estava consertando a bicicleta por um tempo. Portanto, a resposta correta é 'HAVE BEEN FIXING'."
       },
       {
         "id": "f1m28",
         "topic": "Present Perfect vs Continuous",
         "question": "How many times _____ you _____ this movie? (counting completions)",
-        "options": ["have / been watching", "have / watched", "did / watched", "were / watching"],
+        "options": [
+          "have / been watching",
+          "have / watched",
+          "did / watched",
+          "were / watching"
+        ],
         "correct": 1,
-        "explanation": "Quando perguntamos quantas vezes alguém completou uma ação — sem foco em quanto tempo durou —, usamos o present perfect simples: 'have/has' + particípio. Neste caso, queremos saber o número total de vezes que a pessoa assistiu ao filme. Portanto, a resposta correta é 'HAVE / WATCHED'."
+        "explanation": "Quando perguntamos quantas vezes alguém completou uma ação (sem foco em quanto tempo durou), usamos o present perfect simples: 'have/has' + particípio. Neste caso, queremos saber o número total de vezes que a pessoa assistiu ao filme. Portanto, a resposta correta é 'HAVE / WATCHED'."
       },
       {
         "id": "f1m29",
         "topic": "Some/Any/No Words",
         "question": "I can't find my keys. They must be _____ in this room.",
-        "options": ["nowhere", "somewhere", "everywhere", "anywhere"],
+        "options": [
+          "nowhere",
+          "somewhere",
+          "everywhere",
+          "anywhere"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que algo está em algum lugar — mas não sabemos exatamente onde —, usamos 'somewhere' em frases afirmativas. Neste caso, a pessoa sabe que as chaves estão no quarto, mas não sabe em que parte. Portanto, a resposta correta é 'SOMEWHERE'."
+        "explanation": "Quando queremos dizer que algo está em algum lugar (mas não sabemos exatamente onde), usamos 'somewhere' em frases afirmativas. Neste caso, a pessoa sabe que as chaves estão no quarto, mas não sabe em que parte. Portanto, a resposta correta é 'SOMEWHERE'."
       },
       {
         "id": "f1m30",
         "topic": "Some/Any/No Words",
         "question": "Did _____ call while I was out? (open question, no expectation)",
-        "options": ["someone", "anyone", "no one", "everyone"],
+        "options": [
+          "someone",
+          "anyone",
+          "no one",
+          "everyone"
+        ],
         "correct": 1,
-        "explanation": "Em perguntas neutras — quando não temos expectativa de resposta positiva ou negativa —, usamos 'anyone' para pessoas. 'Someone' seria usado em perguntas com expectativa positiva. Neste caso, a pergunta é aberta sobre quem ligou. Portanto, a resposta correta é 'ANYONE'."
+        "explanation": "Em perguntas neutras (quando não temos expectativa de resposta positiva ou negativa), usamos 'anyone' para pessoas. 'Someone' seria usado em perguntas com expectativa positiva. Neste caso, a pergunta é aberta sobre quem ligou. Portanto, a resposta correta é 'ANYONE'."
       },
       {
         "id": "f1m31",
         "topic": "Some/Any/No Words",
         "question": "I'm so bored. There's _____ to do around here.",
-        "options": ["anything", "something", "everything", "nothing"],
+        "options": [
+          "anything",
+          "something",
+          "everything",
+          "nothing"
+        ],
         "correct": 3,
-        "explanation": "Quando queremos dizer que não existe nenhuma opção disponível, usamos 'nothing' em frases positivas — equivale a 'not anything'. Neste caso, a pessoa diz que não há nada para fazer no lugar. Portanto, a resposta correta é 'NOTHING'."
+        "explanation": "Quando queremos dizer que não existe nenhuma opção disponível, usamos 'nothing' em frases positivas, equivale a 'not anything'. Neste caso, a pessoa diz que não há nada para fazer no lugar. Portanto, a resposta correta é 'NOTHING'."
       },
       {
         "id": "f1m32",
         "topic": "How Long Does It Take",
         "question": "How long _____ it _____ to drive from here to downtown?",
-        "options": ["does / takes", "does / take", "do / take", "is / take"],
+        "options": [
+          "does / takes",
+          "does / take",
+          "do / take",
+          "is / take"
+        ],
         "correct": 1,
-        "explanation": "Quando perguntamos quanto tempo algo leva em geral — no presente —, usamos 'How long does it take + to + infinitivo'. O verbo 'take' não recebe -s porque vem depois de 'does'. Neste caso, queremos saber o tempo de viagem de carro até o centro. Portanto, a resposta correta é 'DOES / TAKE'."
+        "explanation": "Quando perguntamos quanto tempo algo leva em geral (no presente), usamos 'How long does it take + to + infinitivo'. O verbo 'take' não recebe -s porque vem depois de 'does'. Neste caso, queremos saber o tempo de viagem de carro até o centro. Portanto, a resposta correta é 'DOES / TAKE'."
       },
       {
         "id": "f1m33",
         "topic": "How Long Does It Take",
         "question": "It takes me about 20 minutes _____ ready in the morning.",
-        "options": ["get", "gets", "to get", "getting"],
+        "options": [
+          "get",
+          "gets",
+          "to get",
+          "getting"
+        ],
         "correct": 2,
         "explanation": "Na estrutura 'it takes + tempo + to + ação', usamos sempre o infinitivo com 'to' para indicar qual é a ação que leva esse tempo. Neste caso, a ação que leva 20 minutos é ficar pronto pela manhã. Portanto, a resposta correta é 'TO GET'."
       },
@@ -274,7 +439,12 @@
         "id": "f1m34",
         "topic": "How Long Does It Take",
         "question": "How long will it take them _____ the project?",
-        "options": ["finish", "finishing", "to finish", "finished"],
+        "options": [
+          "finish",
+          "finishing",
+          "to finish",
+          "finished"
+        ],
         "correct": 2,
         "explanation": "A estrutura 'it takes + pessoa + to + verbo' mantém o infinitivo com 'to' mesmo quando usamos 'will' para o futuro. Neste caso, queremos saber quanto tempo eles vão levar para terminar o projeto. Portanto, a resposta correta é 'TO FINISH'."
       },
@@ -282,15 +452,25 @@
         "id": "f1m35",
         "topic": "Past Perfect",
         "question": "She wasn't hungry because she _____ a big lunch.",
-        "options": ["had", "had eaten", "have eaten", "was eating"],
+        "options": [
+          "had",
+          "had eaten",
+          "have eaten",
+          "was eating"
+        ],
         "correct": 1,
-        "explanation": "Quando explicamos por que algo aconteceu no passado usando um evento que aconteceu ainda antes, usamos 'had' + particípio. Neste caso, ela não estava com fome porque já tinha almoçado muito — a refeição veio antes do estado de não ter fome. Portanto, a resposta correta é 'HAD EATEN'."
+        "explanation": "Quando explicamos por que algo aconteceu no passado usando um evento que aconteceu ainda antes, usamos 'had' + particípio. Neste caso, ela não estava com fome porque já tinha almoçado muito. A refeição veio antes do estado de não ter fome. Portanto, a resposta correta é 'HAD EATEN'."
       },
       {
         "id": "f1m36",
         "topic": "Past Perfect",
         "question": "By the time the train arrived, we _____ for over an hour.",
-        "options": ["waited", "have waited", "had been waiting", "were waiting"],
+        "options": [
+          "waited",
+          "have waited",
+          "had been waiting",
+          "were waiting"
+        ],
         "correct": 2,
         "explanation": "Quando queremos enfatizar a duração de algo que aconteceu antes de outro evento no passado, usamos 'had been' + verbo com -ing. Neste caso, a espera de mais de uma hora aconteceu antes da chegada do trem, e queremos destacar quanto tempo durou. Portanto, a resposta correta é 'HAD BEEN WAITING'."
       },
@@ -298,23 +478,38 @@
         "id": "f1m37",
         "topic": "Past Perfect",
         "question": "The lights went out because someone _____ to pay the electricity bill.",
-        "options": ["didn't remember", "doesn't remember", "hadn't remembered", "hasn't remembered"],
+        "options": [
+          "didn't remember",
+          "doesn't remember",
+          "hadn't remembered",
+          "hasn't remembered"
+        ],
         "correct": 2,
-        "explanation": "Quando uma consequência passada é explicada por algo que alguém não havia feito anteriormente, usamos 'hadn't' + particípio. Neste caso, alguém não tinha se lembrado de pagar a conta antes da luz acabar — o esquecimento veio antes do resultado. Portanto, a resposta correta é 'HADN'T REMEMBERED'."
+        "explanation": "Quando uma consequência passada é explicada por algo que alguém não havia feito anteriormente, usamos 'hadn't' + particípio. Neste caso, alguém não tinha se lembrado de pagar a conta antes da luz acabar, o esquecimento veio antes do resultado. Portanto, a resposta correta é 'HADN'T REMEMBERED'."
       },
       {
         "id": "f1m38",
         "topic": "Tag Questions",
         "question": "The test was easy, _____?",
-        "options": ["wasn't it", "was it", "isn't it", "weren't it"],
+        "options": [
+          "wasn't it",
+          "was it",
+          "isn't it",
+          "weren't it"
+        ],
         "correct": 0,
-        "explanation": "Quando a frase usa 'was' e queremos confirmar, o finalzinho de confirmação precisa ser o oposto — 'wasn't'. 'Weren't' seria para plural ('they were'), e 'isn't' é presente. Neste caso, a frase é positiva com 'was', então a tag é 'wasn't it?'. Portanto, a resposta correta é 'WASN'T IT'."
+        "explanation": "Quando a frase usa 'was' e queremos confirmar, o finalzinho de confirmação precisa ser o oposto, 'wasn't'. 'Weren't' seria para plural ('they were'), e 'isn't' é presente. Neste caso, a frase é positiva com 'was', então a tag é 'wasn't it?'. Portanto, a resposta correta é 'WASN'T IT'."
       },
       {
         "id": "f1m39",
         "topic": "Tag Questions",
         "question": "You haven't met my sister, _____?",
-        "options": ["have you", "haven't you", "did you", "don't you"],
+        "options": [
+          "have you",
+          "haven't you",
+          "did you",
+          "don't you"
+        ],
         "correct": 0,
         "explanation": "Quando a frase é negativa com 'haven't', o finalzinho de confirmação precisa ser positivo, usando o mesmo auxiliar. Neste caso, a frase usa 'haven't', então a tag é 'have you?'. Portanto, a resposta correta é 'HAVE YOU'."
       },
@@ -322,7 +517,12 @@
         "id": "f1m40",
         "topic": "Tag Questions",
         "question": "They will come to the party, _____?",
-        "options": ["will they", "won't they", "don't they", "aren't they"],
+        "options": [
+          "will they",
+          "won't they",
+          "don't they",
+          "aren't they"
+        ],
         "correct": 1,
         "explanation": "Quando a frase é positiva com 'will', o finalzinho de confirmação precisa ser negativo com 'won't'. Neste caso, a frase afirma que eles virão à festa, então confirmamos com 'won't they?'. Portanto, a resposta correta é 'WON'T THEY'."
       },
@@ -330,23 +530,38 @@
         "id": "f1m41",
         "topic": "Third Conditional",
         "question": "If she had told me the truth, I _____ so angry.",
-        "options": ["wouldn't be", "wouldn't have been", "hadn't been", "wouldn't had been"],
+        "options": [
+          "wouldn't be",
+          "wouldn't have been",
+          "hadn't been",
+          "wouldn't had been"
+        ],
         "correct": 1,
-        "explanation": "Na terceira condicional, o resultado imaginado usa 'would/could have' + particípio. Neste caso, ela não contou a verdade e eu fiquei com raiva — mas estamos imaginando o que teria acontecido se ela tivesse contado. Portanto, a resposta correta é 'WOULDN'T HAVE BEEN'."
+        "explanation": "Na terceira condicional, o resultado imaginado usa 'would/could have' + particípio. Neste caso, ela não contou a verdade e eu fiquei com raiva, mas estamos imaginando o que teria acontecido se ela tivesse contado. Portanto, a resposta correta é 'WOULDN'T HAVE BEEN'."
       },
       {
         "id": "f1m42",
         "topic": "Third Conditional",
         "question": "We _____ the bus if we hadn't run.",
-        "options": ["would miss", "had missed", "would have missed", "had have missed"],
+        "options": [
+          "would miss",
+          "had missed",
+          "would have missed",
+          "had have missed"
+        ],
         "correct": 2,
-        "explanation": "Na terceira condicional, quando a condição usa 'hadn't + particípio', o resultado usa 'would have + particípio'. Neste caso, corremos e não perdemos o ônibus — mas imaginamos o que teria acontecido se não tivéssemos corrido. Portanto, a resposta correta é 'WOULD HAVE MISSED'."
+        "explanation": "Na terceira condicional, quando a condição usa 'hadn't + particípio', o resultado usa 'would have + particípio'. Neste caso, corremos e não perdemos o ônibus, mas imaginamos o que teria acontecido se não tivéssemos corrido. Portanto, a resposta correta é 'WOULD HAVE MISSED'."
       },
       {
         "id": "f1m43",
         "topic": "Third Conditional",
         "question": "What would you have done if you _____ the accident?",
-        "options": ["saw", "seen", "had seen", "would see"],
+        "options": [
+          "saw",
+          "seen",
+          "had seen",
+          "would see"
+        ],
         "correct": 2,
         "explanation": "Na terceira condicional, a parte com 'if' usa sempre 'had' + particípio para imaginar um passado diferente. Neste caso, a pergunta quer saber o que a pessoa teria feito se tivesse testemunhado o acidente. Portanto, a resposta correta é 'HAD SEEN'."
       },
@@ -354,7 +569,12 @@
         "id": "f1m44",
         "topic": "Adjective Order",
         "question": "She bought a _____ lamp. (beautiful, antique, French)",
-        "options": ["French beautiful antique", "beautiful antique French", "antique French beautiful", "beautiful French antique"],
+        "options": [
+          "French beautiful antique",
+          "beautiful antique French",
+          "antique French beautiful",
+          "beautiful French antique"
+        ],
         "correct": 1,
         "explanation": "A ordem dos adjetivos em inglês segue o padrão: opinião, depois idade/condição, depois origem. Neste caso, 'beautiful' é opinião, 'antique' fala da época, e 'French' fala da origem. Portanto, a resposta correta é 'BEAUTIFUL ANTIQUE FRENCH'."
       },
@@ -362,7 +582,12 @@
         "id": "f1m45",
         "topic": "Adjective Order",
         "question": "He drives a _____ car. (small, black, Japanese)",
-        "options": ["Japanese small black", "small black Japanese", "black Japanese small", "small Japanese black"],
+        "options": [
+          "Japanese small black",
+          "small black Japanese",
+          "black Japanese small",
+          "small Japanese black"
+        ],
         "correct": 1,
         "explanation": "A ordem dos adjetivos segue: tamanho, depois cor, depois origem. Neste caso, 'small' fala do tamanho, 'black' fala da cor, e 'Japanese' fala de onde o carro é. Portanto, a resposta correta é 'SMALL BLACK JAPANESE'."
       },
@@ -370,7 +595,12 @@
         "id": "f1m46",
         "topic": "Adjective Order",
         "question": "My grandmother left me a _____ vase. (old, round, porcelain)",
-        "options": ["old round porcelain", "round old porcelain", "porcelain old round", "round porcelain old"],
+        "options": [
+          "old round porcelain",
+          "round old porcelain",
+          "porcelain old round",
+          "round porcelain old"
+        ],
         "correct": 0,
         "explanation": "Quando usamos três adjetivos, a ordem é: idade, forma e depois material. Neste caso, 'old' fala da idade, 'round' fala da forma, e 'porcelain' fala do material do vaso. Portanto, a resposta correta é 'OLD ROUND PORCELAIN'."
       },
@@ -378,71 +608,116 @@
         "id": "f1m47",
         "topic": "Subject Questions",
         "question": "Who _____ the first person to walk on the moon?",
-        "options": ["was", "did be", "is", "were"],
+        "options": [
+          "was",
+          "did be",
+          "is",
+          "were"
+        ],
         "correct": 0,
-        "explanation": "Quando 'who' é o sujeito da pergunta, não usamos 'did' — o verbo vem direto depois de 'who'. Como a pergunta é sobre um fato histórico passado e o sujeito é singular ('the first person'), usamos 'was'. Portanto, a resposta correta é 'WAS'."
+        "explanation": "Quando 'who' é o sujeito da pergunta, não usamos 'did', o verbo vem direto depois de 'who'. Como a pergunta é sobre um fato histórico passado e o sujeito é singular ('the first person'), usamos 'was'. Portanto, a resposta correta é 'WAS'."
       },
       {
         "id": "f1m48",
         "topic": "Subject Questions",
         "question": "Who _____ you this book? (somebody gave it to you)",
-        "options": ["did gave", "gave", "does give", "has give"],
+        "options": [
+          "did gave",
+          "gave",
+          "does give",
+          "has give"
+        ],
         "correct": 1,
-        "explanation": "Quando 'who' é o sujeito da pergunta — ou seja, é quem praticou a ação —, não usamos 'did': o verbo vem direto na forma passada. Neste caso, queremos saber quem deu o livro, e 'who' é quem fez isso. Portanto, a resposta correta é 'GAVE'."
+        "explanation": "Quando 'who' é o sujeito da pergunta (ou seja, é quem praticou a ação), não usamos 'did': o verbo vem direto na forma passada. Neste caso, queremos saber quem deu o livro, e 'who' é quem fez isso. Portanto, a resposta correta é 'GAVE'."
       },
       {
         "id": "f1m49",
         "topic": "Subject Questions",
         "question": "What _____ your attention to the news story?",
-        "options": ["drew", "did draw", "does draw", "do draw"],
+        "options": [
+          "drew",
+          "did draw",
+          "does draw",
+          "do draw"
+        ],
         "correct": 0,
-        "explanation": "Quando 'what' é o sujeito da pergunta — ou seja, o que causou a ação —, não usamos 'did': o verbo vem direto na forma passada. Neste caso, queremos saber o que chamou atenção para a notícia. Portanto, a resposta correta é 'DREW'."
+        "explanation": "Quando 'what' é o sujeito da pergunta (ou seja, o que causou a ação), não usamos 'did': o verbo vem direto na forma passada. Neste caso, queremos saber o que chamou atenção para a notícia. Portanto, a resposta correta é 'DREW'."
       },
       {
         "id": "f1m50",
         "topic": "Should Have / Could Have",
         "question": "I missed the meeting. I _____ an alarm! (I had the ability but didn't use it)",
-        "options": ["could have set", "could set", "could have been setting", "can have set"],
+        "options": [
+          "could have set",
+          "could set",
+          "could have been setting",
+          "can have set"
+        ],
         "correct": 0,
         "explanation": "Quando queremos dizer que havia a possibilidade de fazer algo que não foi feito, usamos 'could have' + particípio. Neste caso, a pessoa tinha como colocar um alarme mas não o fez, e por isso perdeu a reunião. Portanto, a resposta correta é 'COULD HAVE SET'."
       },
       {
         "id": "f1m51",
         "topic": "Should Have / Could Have",
-        "question": "My sister _____ me about the party — now I missed it! (blame/regret)",
-        "options": ["should tell", "should have told", "could told", "should told"],
+        "question": "My sister _____ me about the party, now I missed it! (blame/regret)",
+        "options": [
+          "should tell",
+          "should have told",
+          "could told",
+          "should told"
+        ],
         "correct": 1,
-        "explanation": "Quando expressamos que alguém tinha a obrigação de fazer algo mas não fez, usamos 'should have' + particípio. Neste caso, a irmã não avisou sobre a festa — ela deveria ter avisado, mas não o fez. Portanto, a resposta correta é 'SHOULD HAVE TOLD'."
+        "explanation": "Quando expressamos que alguém tinha a obrigação de fazer algo mas não fez, usamos 'should have' + particípio. Neste caso, a irmã não avisou sobre a festa, ela deveria ter avisado, mas não o fez. Portanto, a resposta correta é 'SHOULD HAVE TOLD'."
       },
       {
         "id": "f1m52",
         "topic": "Should Have / Could Have",
-        "question": "You _____ the dog outside all night — it was freezing! (it was wrong)",
-        "options": ["shouldn't leave", "shouldn't have left", "couldn't have left", "should have left"],
+        "question": "You _____ the dog outside all night, it was freezing! (it was wrong)",
+        "options": [
+          "shouldn't leave",
+          "shouldn't have left",
+          "couldn't have left",
+          "should have left"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que alguém errou ao fazer algo — que não deveria ter feito —, usamos 'shouldn't have' + particípio. Neste caso, deixar o cachorro do lado de fora numa noite fria foi um erro cometido no passado. Portanto, a resposta correta é 'SHOULDN'T HAVE LEFT'."
+        "explanation": "Quando queremos dizer que alguém errou ao fazer algo (que não deveria ter feito), usamos 'shouldn't have' + particípio. Neste caso, deixar o cachorro do lado de fora numa noite fria foi um erro cometido no passado. Portanto, a resposta correta é 'SHOULDN'T HAVE LEFT'."
       },
       {
         "id": "f1m53",
         "topic": "Superlative + Have Ever",
         "question": "This is the _____ meal I've ever tasted. (delicious)",
-        "options": ["most delicious", "more delicious", "most deliciously", "deliciousest"],
+        "options": [
+          "most delicious",
+          "more delicious",
+          "most deliciously",
+          "deliciousest"
+        ],
         "correct": 0,
-        "explanation": "Para adjetivos longos (com mais de duas sílabas), formamos o superlativo com 'the most' antes do adjetivo — nunca adicionamos '-est'. Neste caso, 'delicious' tem quatro sílabas, então o superlativo é 'the most delicious'. Portanto, a resposta correta é 'MOST DELICIOUS'."
+        "explanation": "Para adjetivos longos (com mais de duas sílabas), formamos o superlativo com 'the most' antes do adjetivo, nunca adicionamos '-est'. Neste caso, 'delicious' tem quatro sílabas, então o superlativo é 'the most delicious'. Portanto, a resposta correta é 'MOST DELICIOUS'."
       },
       {
         "id": "f1m54",
         "topic": "Superlative + Have Ever",
         "question": "That was the _____ experience of my life! (bad – irregular form)",
-        "options": ["baddest", "most bad", "worse", "worst"],
+        "options": [
+          "baddest",
+          "most bad",
+          "worse",
+          "worst"
+        ],
         "correct": 3,
-        "explanation": "'Bad' é um adjetivo irregular cujo superlativo é 'worst' — nunca 'baddest' nem 'most bad'. 'Worse' é o comparativo (bad → worse → worst). Neste caso, a pessoa está dizendo que aquela foi a pior experiência de sua vida. Portanto, a resposta correta é 'WORST'."
+        "explanation": "'Bad' é um adjetivo irregular cujo superlativo é 'worst', nunca 'baddest' nem 'most bad'. 'Worse' é o comparativo (bad → worse → worst). Neste caso, a pessoa está dizendo que aquela foi a pior experiência de sua vida. Portanto, a resposta correta é 'WORST'."
       },
       {
         "id": "f1m55",
         "topic": "Superlative + Have Ever",
         "question": "Is this the biggest city _____ been to?",
-        "options": ["you have ever", "you had ever", "you ever have", "have you ever"],
+        "options": [
+          "you have ever",
+          "you had ever",
+          "you ever have",
+          "have you ever"
+        ],
         "correct": 0,
         "explanation": "Na estrutura superlativa com experiência, usamos 'the + superlativo + sujeito + have ever + particípio'. A ordem correta é 'you have ever', não 'you ever have' nem 'have you ever'. Portanto, a resposta correta é 'YOU HAVE EVER'."
       },
@@ -450,31 +725,51 @@
         "id": "f1m56",
         "topic": "Superlative + Have Ever",
         "question": "She's the most talented singer _____ heard.",
-        "options": ["I never have", "I have never", "I've ever", "I ever have"],
+        "options": [
+          "I never have",
+          "I have never",
+          "I've ever",
+          "I ever have"
+        ],
         "correct": 2,
         "explanation": "Na estrutura 'the + superlativo + I've ever + particípio', 'ever' vem depois de 'I've' e antes do particípio. Neste caso, estamos dizendo que ela é a cantora mais talentosa que já ouvimos na vida. Portanto, a resposta correta é 'I'VE EVER'."
       },
       {
         "id": "f1m57",
         "topic": "Quantifiers",
-        "question": "There are _____ students in the class — only 5. (almost none, negative connotation)",
-        "options": ["many", "a few", "few", "a little"],
+        "question": "There are _____ students in the class, only 5. (almost none, negative connotation)",
+        "options": [
+          "many",
+          "a few",
+          "few",
+          "a little"
+        ],
         "correct": 2,
-        "explanation": "'Few' (sem artigo 'a') indica quantidade insuficiente de algo contável — quase nenhum. Já 'a few' sugere que há pelo menos um pouco. Neste caso, ter apenas 5 alunos é considerado muito pouco, então usamos 'few'. Portanto, a resposta correta é 'FEW'."
+        "explanation": "'Few' (sem artigo 'a') indica quantidade insuficiente de algo contável, quase nenhum. Já 'a few' sugere que há pelo menos um pouco. Neste caso, ter apenas 5 alunos é considerado muito pouco, então usamos 'few'. Portanto, a resposta correta é 'FEW'."
       },
       {
         "id": "f1m58",
         "topic": "Quantifiers",
-        "question": "She speaks _____ Spanish — enough for basic conversation.",
-        "options": ["a few", "few", "little", "a little"],
+        "question": "She speaks _____ Spanish, enough for basic conversation.",
+        "options": [
+          "a few",
+          "few",
+          "little",
+          "a little"
+        ],
         "correct": 3,
-        "explanation": "Para coisas incontáveis como idioma, usamos 'a little' quando temos uma quantidade pequena mas suficiente. 'Little' (sem 'a') indicaria quase nada — negativo. Neste caso, ela fala um pouco de espanhol e isso é suficiente. Portanto, a resposta correta é 'A LITTLE'."
+        "explanation": "Para coisas incontáveis como idioma, usamos 'a little' quando temos uma quantidade pequena mas suficiente. 'Little' (sem 'a') indicaria quase nada, negativo. Neste caso, ela fala um pouco de espanhol e isso é suficiente. Portanto, a resposta correta é 'A LITTLE'."
       },
       {
         "id": "f1m59",
         "topic": "Quantifiers",
         "question": "We don't have _____ money left. Let's go home.",
-        "options": ["many", "a lot", "much", "few"],
+        "options": [
+          "many",
+          "a lot",
+          "much",
+          "few"
+        ],
         "correct": 2,
         "explanation": "Para coisas incontáveis como dinheiro, usamos 'much' em frases negativas. 'Many' e 'few' são para coisas contáveis. Neste caso, 'money' não se conta individualmente, então a escolha correta é 'much'. Portanto, a resposta correta é 'MUCH'."
       },
@@ -482,9 +777,14 @@
         "id": "f1m60",
         "topic": "Quantifiers",
         "question": "_____ people like waking up at 5 a.m., but some do.",
-        "options": ["A few", "Much", "Few", "A little"],
+        "options": [
+          "A few",
+          "Much",
+          "Few",
+          "A little"
+        ],
         "correct": 2,
-        "explanation": "'Few' (sem artigo 'a') com substantivos contáveis no plural indica que quase nenhuma pessoa faz algo. Neste caso, é raro encontrar quem goste de acordar às 5h — é quase ninguém. Portanto, a resposta correta é 'FEW'."
+        "explanation": "'Few' (sem artigo 'a') com substantivos contáveis no plural indica que quase nenhuma pessoa faz algo. Neste caso, é raro encontrar quem goste de acordar às 5h. É quase ninguém. Portanto, a resposta correta é 'FEW'."
       }
     ]
   },
@@ -495,16 +795,26 @@
       {
         "id": "f1f01",
         "topic": "Emphatic Do/Does/Did",
-        "question": "Does your teacher wear formal clothes? — Yes, she _____!",
-        "options": ["does wear", "does", "wears", "do"],
+        "question": "Does your teacher wear formal clothes?, Yes, she _____!",
+        "options": [
+          "does wear",
+          "does",
+          "wears",
+          "do"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos confirmar algo com ênfase — dizer que sim com convicção —, usamos o 'does/do/did' sozinho na resposta. Neste caso, alguém pergunta se a professora usa roupas formais, e a resposta afirma com força: 'Yes, she does!'. Portanto, a resposta correta é 'DOES'."
+        "explanation": "Quando queremos confirmar algo com ênfase (dizer que sim com convicção), usamos o 'does/do/did' sozinho na resposta. Neste caso, alguém pergunta se a professora usa roupas formais, e a resposta afirma com força: 'Yes, she does!'. Portanto, a resposta correta é 'DOES'."
       },
       {
         "id": "f1f02",
         "topic": "Emphatic Do/Does/Did",
         "question": "I _____ like this song! (emphatic, correcting someone who said you don't)",
-        "options": ["does", "do", "did", "am"],
+        "options": [
+          "does",
+          "do",
+          "did",
+          "am"
+        ],
         "correct": 1,
         "explanation": "Quando queremos contradizer alguém ou afirmar algo com muita força numa frase positiva, colocamos 'do/does/did' antes do verbo. Neste caso, alguém disse que você não gosta dessa música, e você quer corrigir isso com ênfase: 'I DO like this song!'. Portanto, a resposta correta é 'DO'."
       },
@@ -512,55 +822,90 @@
         "id": "f1f03",
         "topic": "Wish + Simple Past",
         "question": "We don't have a car. Express a wish about the present:",
-        "options": ["I wish we have a car.", "I wish we had a car.", "I wish we would have a car.", "I wish we will have a car."],
+        "options": [
+          "I wish we have a car.",
+          "I wish we had a car.",
+          "I wish we would have a car.",
+          "I wish we will have a car."
+        ],
         "correct": 1,
-        "explanation": "Quando queremos expressar um desejo sobre algo que não temos agora, usamos 'wish' + a forma passada do verbo — mesmo que seja um desejo sobre o presente. Neste caso, a pessoa não tem carro e gostaria de ter, então diz 'I wish we had a car'. Portanto, a resposta correta é 'I wish we HAD a car'."
+        "explanation": "Quando queremos expressar um desejo sobre algo que não temos agora, usamos 'wish' + a forma passada do verbo, mesmo que seja um desejo sobre o presente. Neste caso, a pessoa não tem carro e gostaria de ter, então diz 'I wish we had a car'. Portanto, a resposta correta é 'I wish we HAD a car'."
       },
       {
         "id": "f1f04",
         "topic": "Wish + Simple Past",
         "question": "I can't play the piano. Express regret using 'wish':",
-        "options": ["I wish I can play the piano.", "I wish I could play the piano.", "I wish I will play the piano.", "I wish I play the piano."],
+        "options": [
+          "I wish I can play the piano.",
+          "I wish I could play the piano.",
+          "I wish I will play the piano.",
+          "I wish I play the piano."
+        ],
         "correct": 1,
-        "explanation": "Quando queremos expressar que gostaríamos de ter uma habilidade que não temos, usamos 'wish + could'. Neste caso, a pessoa não sabe tocar piano e lamenta isso — é um desejo sobre uma capacidade que ela não tem agora. Portanto, a resposta correta é 'I wish I COULD play the piano'."
+        "explanation": "Quando queremos expressar que gostaríamos de ter uma habilidade que não temos, usamos 'wish + could'. Neste caso, a pessoa não sabe tocar piano e lamenta isso. É um desejo sobre uma capacidade que ela não tem agora. Portanto, a resposta correta é 'I wish I COULD play the piano'."
       },
       {
         "id": "f1f05",
         "topic": "Have/Get Something Done",
-        "question": "I washed my car. (Rewrite: someone did it for me) — I _____ my car washed.",
-        "options": ["got", "have", "made", "let"],
+        "question": "I washed my car. (Rewrite: someone did it for me), I _____ my car washed.",
+        "options": [
+          "got",
+          "have",
+          "made",
+          "let"
+        ],
         "correct": 0,
-        "explanation": "Quando queremos dizer que mandamos alguém fazer algo por nós em vez de fazer nós mesmos, usamos 'get/have + o objeto + a forma passada do verbo'. Neste caso, a pessoa não lavou o carro ela mesma — outra pessoa fez isso para ela. Portanto, a resposta correta é 'GOT'."
+        "explanation": "Quando queremos dizer que mandamos alguém fazer algo por nós em vez de fazer nós mesmos, usamos 'get/have + o objeto + a forma passada do verbo'. Neste caso, a pessoa não lavou o carro ela mesma, outra pessoa fez isso para ela. Portanto, a resposta correta é 'GOT'."
       },
       {
         "id": "f1f06",
         "topic": "Have/Get Something Done",
-        "question": "She cut her hair. (Rewrite: at a salon) — She _____ her hair cut.",
-        "options": ["made", "did", "got", "let"],
+        "question": "She cut her hair. (Rewrite: at a salon), She _____ her hair cut.",
+        "options": [
+          "made",
+          "did",
+          "got",
+          "let"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que alguém mandou outro fazer algo por ela, usamos 'get/have + o objeto + a forma passada do verbo'. Neste caso, ela foi ao salão e outra pessoa cortou o cabelo dela — não foi ela mesma que cortou. Portanto, a resposta correta é 'GOT'."
+        "explanation": "Quando queremos dizer que alguém mandou outro fazer algo por ela, usamos 'get/have + o objeto + a forma passada do verbo'. Neste caso, ela foi ao salão e outra pessoa cortou o cabelo dela. Não foi ela mesma que cortou. Portanto, a resposta correta é 'GOT'."
       },
       {
         "id": "f1f07",
         "topic": "Verb + Object + Infinitive",
         "question": "The boss wants us _____ the report today.",
-        "options": ["finish", "finishing", "to finish", "finished"],
+        "options": [
+          "finish",
+          "finishing",
+          "to finish",
+          "finished"
+        ],
         "correct": 2,
-        "explanation": "Quando usamos verbos como 'want', 'ask' ou 'tell' para dizer o que alguém deve fazer, a estrutura é 'verbo + pessoa + to + ação'. Neste caso, o chefe quer que a equipe termine o relatório hoje — ele quer algo de alguém. Portanto, a resposta correta é 'TO FINISH'."
+        "explanation": "Quando usamos verbos como 'want', 'ask' ou 'tell' para dizer o que alguém deve fazer, a estrutura é 'verbo + pessoa + to + ação'. Neste caso, o chefe quer que a equipe termine o relatório hoje. Ele quer algo de alguém. Portanto, a resposta correta é 'TO FINISH'."
       },
       {
         "id": "f1f08",
         "topic": "Verb + Object + Infinitive",
         "question": "My parents always advise me _____ money.",
-        "options": ["save", "saving", "to save", "that I save"],
+        "options": [
+          "save",
+          "saving",
+          "to save",
+          "that I save"
+        ],
         "correct": 2,
-        "explanation": "Quando usamos 'advise', 'tell' ou 'ask' para dizer o que alguém deve fazer, a estrutura é 'verbo + pessoa + to + ação'. Neste caso, os pais aconselham a pessoa a economizar dinheiro — eles estão orientando alguém a fazer algo. Portanto, a resposta correta é 'TO SAVE'."
+        "explanation": "Quando usamos 'advise', 'tell' ou 'ask' para dizer o que alguém deve fazer, a estrutura é 'verbo + pessoa + to + ação'. Neste caso, os pais aconselham a pessoa a economizar dinheiro. Eles estão orientando alguém a fazer algo. Portanto, a resposta correta é 'TO SAVE'."
       },
       {
         "id": "f1f09",
         "topic": "Intensifiers",
         "question": "This commercial is _____ annoying – I've seen it 100 times.",
-        "options": ["absolutely", "a bit", "slightly", "really"],
+        "options": [
+          "absolutely",
+          "a bit",
+          "slightly",
+          "really"
+        ],
         "correct": 3,
         "explanation": "Quando queremos reforçar um adjetivo comum para dizer que algo é muito daquele jeito, usamos 'really' ou 'very'. Neste caso, 'annoying' é um adjetivo comum e a pessoa está muito irritada com esse comercial. Portanto, a resposta correta é 'REALLY'."
       },
@@ -568,31 +913,51 @@
         "id": "f1f10",
         "topic": "Intensifiers",
         "question": "That movie was _____ amazing! (use extreme intensifier)",
-        "options": ["very", "really", "absolutely", "extremely"],
+        "options": [
+          "very",
+          "really",
+          "absolutely",
+          "extremely"
+        ],
         "correct": 2,
-        "explanation": "Quando usamos adjetivos que já têm um sentido muito forte por si mesmos, como 'amazing' ou 'terrible', o intensificador certo é 'absolutely' — não 'very'. Neste caso, 'amazing' já expressa algo extraordinário, então usamos 'absolutely' para reforçar. Portanto, a resposta correta é 'ABSOLUTELY'."
+        "explanation": "Quando usamos adjetivos que já têm um sentido muito forte por si mesmos, como 'amazing' ou 'terrible', o intensificador certo é 'absolutely', não 'very'. Neste caso, 'amazing' já expressa algo extraordinário, então usamos 'absolutely' para reforçar. Portanto, a resposta correta é 'ABSOLUTELY'."
       },
       {
         "id": "f1f11",
         "topic": "Double Comparatives",
         "question": "Food is getting _____ (expensive) these days.",
-        "options": ["more expensive", "the more expensive", "more and more expensive", "expensive and expensive"],
+        "options": [
+          "more expensive",
+          "the more expensive",
+          "more and more expensive",
+          "expensive and expensive"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que algo está mudando gradualmente — ficando cada vez mais de um jeito com o tempo —, usamos 'more and more + adjetivo'. Neste caso, a comida está ficando cada vez mais cara. Portanto, a resposta correta é 'MORE AND MORE EXPENSIVE'."
+        "explanation": "Quando queremos dizer que algo está mudando gradualmente (ficando cada vez mais de um jeito com o tempo), usamos 'more and more + adjetivo'. Neste caso, a comida está ficando cada vez mais cara. Portanto, a resposta correta é 'MORE AND MORE EXPENSIVE'."
       },
       {
         "id": "f1f12",
         "topic": "Double Comparatives",
         "question": "_____ you study, _____ you learn.",
-        "options": ["More / more", "The more / the more", "Most / most", "The most / the most"],
+        "options": [
+          "More / more",
+          "The more / the more",
+          "Most / most",
+          "The most / the most"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que duas coisas crescem juntas — quanto mais de uma, mais da outra —, usamos 'the + comparativo + the + comparativo'. Neste caso, quanto mais você estuda, mais você aprende — as duas coisas andam juntas. Portanto, a resposta correta é 'THE MORE / THE MORE'."
+        "explanation": "Quando queremos dizer que duas coisas crescem juntas (quanto mais de uma, mais da outra), usamos 'the + comparativo + the + comparativo'. Neste caso, quanto mais você estuda, mais você aprende, as duas coisas andam juntas. Portanto, a resposta correta é 'THE MORE / THE MORE'."
       },
       {
         "id": "f1f13",
         "topic": "Prefixes",
         "question": "It's _____ possible to win without practicing. (negative prefix)",
-        "options": ["un-", "in-", "dis-", "im-"],
+        "options": [
+          "un-",
+          "in-",
+          "dis-",
+          "im-"
+        ],
         "correct": 3,
         "explanation": "Quando queremos dizer o contrário de uma palavra que começa com P ou M, usamos o prefixo 'im-'. Neste caso, 'possible' começa com P, então o contrário é 'impossible'. Portanto, a resposta correta é 'IM-possible'."
       },
@@ -600,7 +965,12 @@
         "id": "f1f14",
         "topic": "Prefixes",
         "question": "Their behavior was very _____ responsible.",
-        "options": ["un", "im", "in", "ir"],
+        "options": [
+          "un",
+          "im",
+          "in",
+          "ir"
+        ],
         "correct": 3,
         "explanation": "Quando queremos dizer o contrário de uma palavra que começa com R, usamos o prefixo 'ir-'. Neste caso, 'responsible' começa com R, então o contrário é 'irresponsible'. Portanto, a resposta correta é 'IR-responsible'."
       },
@@ -608,7 +978,12 @@
         "id": "f1f15",
         "topic": "Reported Speech",
         "question": "Julia said, 'I have a rigid routine.' → Julia said she _____ a rigid routine.",
-        "options": ["has", "have had", "had", "would have"],
+        "options": [
+          "has",
+          "have had",
+          "had",
+          "would have"
+        ],
         "correct": 2,
         "explanation": "Quando contamos o que alguém disse sem repetir as palavras exatas, os verbos voltam um passo no tempo. Neste caso, Julia disse 'I have' (tenho), e ao contar isso para outra pessoa, 'have' vira 'had'. Portanto, a resposta correta é 'HAD'."
       },
@@ -616,63 +991,103 @@
         "id": "f1f16",
         "topic": "Passive Voice",
         "question": "Companies send thousands of spam emails every day. (Passive):",
-        "options": ["Thousands of spam emails send by companies.", "Thousands of spam emails are sent by companies.", "Thousands of spam emails were sent by companies.", "Thousands of spam emails be sent by companies."],
+        "options": [
+          "Thousands of spam emails send by companies.",
+          "Thousands of spam emails are sent by companies.",
+          "Thousands of spam emails were sent by companies.",
+          "Thousands of spam emails be sent by companies."
+        ],
         "correct": 1,
-        "explanation": "Quando queremos falar de algo que acontece com uma coisa, colocando ela em destaque em vez de quem faz, a estrutura é 'are/is' + a forma passada do verbo. Neste caso, o foco são os emails de spam — eles é que estão sendo enviados. Portanto, a resposta correta é 'Thousands of spam emails ARE SENT by companies'."
+        "explanation": "Quando queremos falar de algo que acontece com uma coisa, colocando ela em destaque em vez de quem faz, a estrutura é 'are/is' + a forma passada do verbo. Neste caso, o foco são os emails de spam. Eles é que estão sendo enviados. Portanto, a resposta correta é 'Thousands of spam emails ARE SENT by companies'."
       },
       {
         "id": "f1f17",
         "topic": "Passive Voice",
         "question": "Someone has hacked into my account. (Passive):",
-        "options": ["My account has been hacked.", "My account is hacked.", "My account was hacked.", "My account had been hacked."],
+        "options": [
+          "My account has been hacked.",
+          "My account is hacked.",
+          "My account was hacked.",
+          "My account had been hacked."
+        ],
         "correct": 0,
-        "explanation": "Quando queremos falar de algo que aconteceu com alguma coisa e colocá-la em destaque, usamos 'has/have been' + a forma passada do verbo. Neste caso, o foco é a conta — ela é que foi invadida, e não sabemos quem fez isso. Portanto, a resposta correta é 'My account HAS BEEN HACKED'."
+        "explanation": "Quando queremos falar de algo que aconteceu com alguma coisa e colocá-la em destaque, usamos 'has/have been' + a forma passada do verbo. Neste caso, o foco é a conta. Ela é que foi invadida, e não sabemos quem fez isso. Portanto, a resposta correta é 'My account HAS BEEN HACKED'."
       },
       {
         "id": "f1f18",
         "topic": "Connectors (Add/Contrast)",
         "question": "I don't like the gym, _____ I work out three times a week.",
-        "options": ["in addition", "also", "even so", "furthermore"],
+        "options": [
+          "in addition",
+          "also",
+          "even so",
+          "furthermore"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos apresentar uma situação surpreendente — algo que acontece mesmo contra o esperado —, usamos 'even so'. Neste caso, a pessoa não gosta de academia, mas mesmo assim se exercita três vezes por semana. Portanto, a resposta correta é 'EVEN SO'."
+        "explanation": "Quando queremos apresentar uma situação surpreendente (algo que acontece mesmo contra o esperado), usamos 'even so'. Neste caso, a pessoa não gosta de academia, mas mesmo assim se exercita três vezes por semana. Portanto, a resposta correta é 'EVEN SO'."
       },
       {
         "id": "f1f19",
         "topic": "Some/Any/No Words",
         "question": "_____ left the milk out again! (some unknown person did it)",
-        "options": ["Anything", "Anyone", "Someone", "Nobody"],
+        "options": [
+          "Anything",
+          "Anyone",
+          "Someone",
+          "Nobody"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos falar de uma pessoa desconhecida que fez algo, usamos 'someone' em frases positivas. Neste caso, alguma pessoa deixou o leite fora da geladeira — não sabemos quem foi, mas alguém fez isso. Portanto, a resposta correta é 'SOMEONE'."
+        "explanation": "Quando queremos falar de uma pessoa desconhecida que fez algo, usamos 'someone' em frases positivas. Neste caso, alguma pessoa deixou o leite fora da geladeira. Não sabemos quem foi, mas alguém fez isso. Portanto, a resposta correta é 'SOMEONE'."
       },
       {
         "id": "f1f20",
         "topic": "Connectors (Pairs)",
         "question": "Tony is rich. He is famous too. (Rewrite with pair connector):",
-        "options": ["Tony is both rich but also famous.", "Tony is not only rich but also famous.", "Tony is either rich or famous.", "Tony is neither rich nor famous."],
+        "options": [
+          "Tony is both rich but also famous.",
+          "Tony is not only rich but also famous.",
+          "Tony is either rich or famous.",
+          "Tony is neither rich nor famous."
+        ],
         "correct": 1,
-        "explanation": "Quando queremos juntar duas qualidades de uma pessoa dizendo que ela tem as duas ao mesmo tempo, podemos usar 'not only... but also'. Neste caso, Tony é rico e também famoso — tem as duas características. Portanto, a resposta correta é 'NOT ONLY rich BUT ALSO famous'."
+        "explanation": "Quando queremos juntar duas qualidades de uma pessoa dizendo que ela tem as duas ao mesmo tempo, podemos usar 'not only... but also'. Neste caso, Tony é rico e também famoso. Tem as duas características. Portanto, a resposta correta é 'NOT ONLY rich BUT ALSO famous'."
       },
       {
         "id": "f1f21",
         "topic": "Past Perfect",
         "question": "We were hungry because we _____ eat all day.",
-        "options": ["didn't", "hadn't", "weren't", "couldn't"],
+        "options": [
+          "didn't",
+          "hadn't",
+          "weren't",
+          "couldn't"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que algo não havia acontecido antes de outro evento passado, usamos 'hadn't' + a forma passada do verbo. Neste caso, eles estavam com fome porque não tinham comido nada o dia todo — primeiro ficaram sem comer, depois ficaram com fome. Portanto, a resposta correta é 'HADN'T'."
+        "explanation": "Quando queremos dizer que algo não havia acontecido antes de outro evento passado, usamos 'hadn't' + a forma passada do verbo. Neste caso, eles estavam com fome porque não tinham comido nada o dia todo, primeiro ficaram sem comer, depois ficaram com fome. Portanto, a resposta correta é 'HADN'T'."
       },
       {
         "id": "f1f22",
         "topic": "Third Conditional",
         "question": "They could have won if they _____ harder.",
-        "options": ["trained", "had trained", "would train", "have trained"],
+        "options": [
+          "trained",
+          "had trained",
+          "would train",
+          "have trained"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos imaginar um passado diferente do que realmente aconteceu, a condição usa 'had' + a forma passada do verbo. Neste caso, eles não treinaram o suficiente e não ganharam — mas estamos imaginando o que teria acontecido se tivessem treinado mais. Portanto, a resposta correta é 'HAD TRAINED'."
+        "explanation": "Quando queremos imaginar um passado diferente do que realmente aconteceu, a condição usa 'had' + a forma passada do verbo. Neste caso, eles não treinaram o suficiente e não ganharam, mas estamos imaginando o que teria acontecido se tivessem treinado mais. Portanto, a resposta correta é 'HAD TRAINED'."
       },
       {
         "id": "f1f23",
         "topic": "Emphatic Do/Does/Did",
         "question": "He _____ study, but he prefers to learn by experience. (emphatic, contrasting)",
-        "options": ["does", "do", "did", "is"],
+        "options": [
+          "does",
+          "do",
+          "did",
+          "is"
+        ],
         "correct": 0,
         "explanation": "Quando queremos reconhecer um fato mas ao mesmo tempo contrastar com outra informação, colocamos 'do/does/did' antes do verbo para dar ênfase. Neste caso, a frase é no presente e o sujeito é 'he', então usamos 'does' antes de 'study'. Portanto, a resposta correta é 'DOES'."
       },
@@ -680,79 +1095,129 @@
         "id": "f1f24",
         "topic": "Emphatic Do/Does/Did",
         "question": "I know you think I forgot, but I _____ send you the email! (emphatic past)",
-        "options": ["did", "do", "does", "have"],
+        "options": [
+          "did",
+          "do",
+          "does",
+          "have"
+        ],
         "correct": 0,
-        "explanation": "Para enfatizar que algo realmente aconteceu no passado — especialmente quando alguém duvida —, usamos 'did' antes do verbo principal. Neste caso, a pessoa insiste que realmente enviou o email e usa 'did' para deixar isso claro. Portanto, a resposta correta é 'DID'."
+        "explanation": "Para enfatizar que algo realmente aconteceu no passado (especialmente quando alguém duvida), usamos 'did' antes do verbo principal. Neste caso, a pessoa insiste que realmente enviou o email e usa 'did' para deixar isso claro. Portanto, a resposta correta é 'DID'."
       },
       {
         "id": "f1f25",
         "topic": "Emphatic Do/Does/Did",
-        "question": "The teacher _____ explain it clearly — you just weren't paying attention.",
-        "options": ["do", "did", "does", "was"],
+        "question": "The teacher _____ explain it clearly, you just weren't paying attention.",
+        "options": [
+          "do",
+          "did",
+          "does",
+          "was"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos afirmar com força que algo aconteceu no passado — contradizendo quem diz o contrário —, usamos 'did' antes do verbo. Neste caso, o professor explicou sim, e isso está sendo enfatizado em resposta a uma reclamação. Portanto, a resposta correta é 'DID'."
+        "explanation": "Quando queremos afirmar com força que algo aconteceu no passado (contradizendo quem diz o contrário), usamos 'did' antes do verbo. Neste caso, o professor explicou sim, e isso está sendo enfatizado em resposta a uma reclamação. Portanto, a resposta correta é 'DID'."
       },
       {
         "id": "f1f26",
         "topic": "Wish + Simple Past",
         "question": "My neighbor plays loud music all night. Complete: I wish my neighbor _____ so loud.",
-        "options": ["isn't", "won't be", "weren't", "isn't being"],
+        "options": [
+          "isn't",
+          "won't be",
+          "weren't",
+          "isn't being"
+        ],
         "correct": 2,
-        "explanation": "Para expressar desejo sobre o presente com o verbo 'to be', usamos 'wish' + 'were/weren't' — não 'isn't' nem 'won't be'. Neste caso, a pessoa deseja que a situação atual fosse diferente: que o vizinho não fizesse tanto barulho. Portanto, a resposta correta é 'WEREN'T'."
+        "explanation": "Para expressar desejo sobre o presente com o verbo 'to be', usamos 'wish' + 'were/weren't', não 'isn't' nem 'won't be'. Neste caso, a pessoa deseja que a situação atual fosse diferente: que o vizinho não fizesse tanto barulho. Portanto, a resposta correta é 'WEREN'T'."
       },
       {
         "id": "f1f27",
         "topic": "Wish + Simple Past",
         "question": "I have to wake up at 5 a.m. every day. Express a wish:",
-        "options": ["I wish I don't have to wake up so early.", "I wish I didn't have to wake up so early.", "I wish I won't have to wake up so early.", "I wish I hadn't to wake up so early."],
+        "options": [
+          "I wish I don't have to wake up so early.",
+          "I wish I didn't have to wake up so early.",
+          "I wish I won't have to wake up so early.",
+          "I wish I hadn't to wake up so early."
+        ],
         "correct": 1,
-        "explanation": "Para expressar desejo sobre o presente com verbos diferentes de 'to be', usamos 'wish' + passado simples do verbo auxiliar. Neste caso, a pessoa acorda cedo todo dia e gostaria que isso fosse diferente — 'didn't have to' é o passado de 'don't have to'. Portanto, a resposta correta é 'I wish I DIDN'T HAVE TO wake up so early'."
+        "explanation": "Para expressar desejo sobre o presente com verbos diferentes de 'to be', usamos 'wish' + passado simples do verbo auxiliar. Neste caso, a pessoa acorda cedo todo dia e gostaria que isso fosse diferente. 'Didn't have to' é o passado de 'don't have to'. Portanto, a resposta correta é 'I wish I DIDN'T HAVE TO wake up so early'."
       },
       {
         "id": "f1f28",
         "topic": "Wish + Simple Past",
         "question": "My job is so boring. I wish I _____ a more exciting career.",
-        "options": ["have", "will have", "had", "would have"],
+        "options": [
+          "have",
+          "will have",
+          "had",
+          "would have"
+        ],
         "correct": 2,
-        "explanation": "Para desejos sobre o presente — algo que gostaríamos de ter mas não temos —, usamos 'wish' + passado simples. Neste caso, a pessoa não tem uma carreira empolgante agora e gostaria de ter. Portanto, a resposta correta é 'HAD'."
+        "explanation": "Para desejos sobre o presente (algo que gostaríamos de ter mas não temos), usamos 'wish' + passado simples. Neste caso, a pessoa não tem uma carreira empolgante agora e gostaria de ter. Portanto, a resposta correta é 'HAD'."
       },
       {
         "id": "f1f29",
         "topic": "Have/Get Something Done",
         "question": "Mark is going to _____ his apartment painted next week. (someone will do it for him)",
-        "options": ["have", "make", "do", "let"],
+        "options": [
+          "have",
+          "make",
+          "do",
+          "let"
+        ],
         "correct": 0,
-        "explanation": "Quando dizemos que alguém vai contratar outra pessoa para fazer algo, usamos 'have/get + objeto + particípio'. Neste caso, Mark vai contratar alguém para pintar o apartamento dele — ele não vai fazer sozinho. Portanto, a resposta correta é 'HAVE'."
+        "explanation": "Quando dizemos que alguém vai contratar outra pessoa para fazer algo, usamos 'have/get + objeto + particípio'. Neste caso, Mark vai contratar alguém para pintar o apartamento dele. Ele não vai fazer sozinho. Portanto, a resposta correta é 'HAVE'."
       },
       {
         "id": "f1f30",
         "topic": "Have/Get Something Done",
         "question": "I need to _____ my eyes tested. (at the optician's)",
-        "options": ["make", "get", "do", "let"],
+        "options": [
+          "make",
+          "get",
+          "do",
+          "let"
+        ],
         "correct": 1,
-        "explanation": "Quando vamos a um profissional para que ele faça algo para nós, usamos 'get/have + objeto + particípio'. Neste caso, a pessoa vai ao oftalmologista para que ele examine seus olhos — um especialista fará o serviço. Portanto, a resposta correta é 'GET'."
+        "explanation": "Quando vamos a um profissional para que ele faça algo para nós, usamos 'get/have + objeto + particípio'. Neste caso, a pessoa vai ao oftalmologista para que ele examine seus olhos, um especialista fará o serviço. Portanto, a resposta correta é 'GET'."
       },
       {
         "id": "f1f31",
         "topic": "Have/Get Something Done",
         "question": "We should _____ the roof repaired before the rainy season. (hire someone)",
-        "options": ["do", "make", "have", "let"],
+        "options": [
+          "do",
+          "make",
+          "have",
+          "let"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que vamos contratar alguém para fazer um serviço, usamos 'have/get + objeto + particípio'. Neste caso, a família precisa contratar alguém para consertar o telhado — eles não farão o serviço sozinhos. Portanto, a resposta correta é 'HAVE'."
+        "explanation": "Quando queremos dizer que vamos contratar alguém para fazer um serviço, usamos 'have/get + objeto + particípio'. Neste caso, a família precisa contratar alguém para consertar o telhado, eles não farão o serviço sozinhos. Portanto, a resposta correta é 'HAVE'."
       },
       {
         "id": "f1f32",
         "topic": "Verb + Object + Infinitive",
         "question": "Our coach expects us _____ every training session.",
-        "options": ["attend", "attending", "to attend", "that attend"],
+        "options": [
+          "attend",
+          "attending",
+          "to attend",
+          "that attend"
+        ],
         "correct": 2,
-        "explanation": "Verbos como 'expect', 'want' e 'tell' seguem a estrutura 'verbo + pessoa + to + infinitivo'. Neste caso, o técnico espera que a equipe compareça a todos os treinos — a estrutura exige 'to' antes do verbo. Portanto, a resposta correta é 'TO ATTEND'."
+        "explanation": "Verbos como 'expect', 'want' e 'tell' seguem a estrutura 'verbo + pessoa + to + infinitivo'. Neste caso, o técnico espera que a equipe compareça a todos os treinos, a estrutura exige 'to' antes do verbo. Portanto, a resposta correta é 'TO ATTEND'."
       },
       {
         "id": "f1f33",
         "topic": "Verb + Object + Infinitive",
         "question": "The doctor told him _____ smoking immediately.",
-        "options": ["stop", "to stop", "stopping", "stopped"],
+        "options": [
+          "stop",
+          "to stop",
+          "stopping",
+          "stopped"
+        ],
         "correct": 1,
         "explanation": "O verbo 'tell' exige a estrutura 'tell + pessoa + to + infinitivo' para dar ordens ou orientações. Neste caso, o médico ordenou ao paciente que parasse de fumar imediatamente. Portanto, a resposta correta é 'TO STOP'."
       },
@@ -760,15 +1225,25 @@
         "id": "f1f34",
         "topic": "Verb + Object + Infinitive",
         "question": "She asked her assistant _____ the meeting.",
-        "options": ["cancel", "cancelling", "to cancel", "cancelled"],
+        "options": [
+          "cancel",
+          "cancelling",
+          "to cancel",
+          "cancelled"
+        ],
         "correct": 2,
-        "explanation": "O verbo 'ask' segue a estrutura 'ask + pessoa + to + infinitivo' para pedidos. Neste caso, ela pediu à assistente que cancelasse a reunião — a estrutura exige 'to' antes do verbo. Portanto, a resposta correta é 'TO CANCEL'."
+        "explanation": "O verbo 'ask' segue a estrutura 'ask + pessoa + to + infinitivo' para pedidos. Neste caso, ela pediu à assistente que cancelasse a reunião, a estrutura exige 'to' antes do verbo. Portanto, a resposta correta é 'TO CANCEL'."
       },
       {
         "id": "f1f35",
         "topic": "Intensifiers",
-        "question": "The exam was _____ difficult — I think I'll fail. (gradable adjective, strong emphasis)",
-        "options": ["absolutely", "extremely", "completely", "utterly"],
+        "question": "The exam was _____ difficult, I think I'll fail. (gradable adjective, strong emphasis)",
+        "options": [
+          "absolutely",
+          "extremely",
+          "completely",
+          "utterly"
+        ],
         "correct": 1,
         "explanation": "Com adjetivos comuns (graduáveis) como 'difficult', usamos intensificadores como 'very', 'extremely' ou 'incredibly'. 'Absolutely' e 'utterly' são reservados para adjetivos extremos. Neste caso, 'extremely' enfatiza bem que a prova foi muito difícil. Portanto, a resposta correta é 'EXTREMELY'."
       },
@@ -776,31 +1251,51 @@
         "id": "f1f36",
         "topic": "Intensifiers",
         "question": "The food at that restaurant was _____ disgusting. (extreme adjective)",
-        "options": ["very", "extremely", "absolutely", "slightly"],
+        "options": [
+          "very",
+          "extremely",
+          "absolutely",
+          "slightly"
+        ],
         "correct": 2,
-        "explanation": "Com adjetivos extremos — que já têm sentido máximo, como 'disgusting', 'freezing' ou 'brilliant' —, usamos 'absolutely' em vez de 'very' ou 'extremely'. Neste caso, 'disgusting' é um adjetivo extremo e o intensificador correto é 'absolutely'. Portanto, a resposta correta é 'ABSOLUTELY'."
+        "explanation": "Com adjetivos extremos (que já têm sentido máximo, como 'disgusting', 'freezing' ou 'brilliant'), usamos 'absolutely' em vez de 'very' ou 'extremely'. Neste caso, 'disgusting' é um adjetivo extremo e o intensificador correto é 'absolutely'. Portanto, a resposta correta é 'ABSOLUTELY'."
       },
       {
         "id": "f1f37",
         "topic": "Intensifiers",
-        "question": "The traffic was _____ bad today — not terrible, but annoying.",
-        "options": ["absolutely", "utterly", "a bit", "completely"],
+        "question": "The traffic was _____ bad today, not terrible, but annoying.",
+        "options": [
+          "absolutely",
+          "utterly",
+          "a bit",
+          "completely"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos suavizar um adjetivo — dizer que algo foi levemente daquela forma, mas não muito —, usamos 'a bit' ou 'a little'. Neste caso, o trânsito foi um pouco ruim, mas não horrível. Portanto, a resposta correta é 'A BIT'."
+        "explanation": "Quando queremos suavizar um adjetivo (dizer que algo foi levemente daquela forma, mas não muito), usamos 'a bit' ou 'a little'. Neste caso, o trânsito foi um pouco ruim, mas não horrível. Portanto, a resposta correta é 'A BIT'."
       },
       {
         "id": "f1f38",
         "topic": "Double Comparatives",
         "question": "She's been practicing every day, so she's getting _____ at the piano.",
-        "options": ["better and better", "the better and better", "more better", "gooder and gooder"],
+        "options": [
+          "better and better",
+          "the better and better",
+          "more better",
+          "gooder and gooder"
+        ],
         "correct": 0,
-        "explanation": "Para dizer que algo melhora gradualmente com o tempo, usamos 'comparativo + and + comparativo'. 'Better' é o comparativo irregular de 'good' — nunca 'more better' nem 'gooder'. Neste caso, ela está ficando cada vez melhor no piano. Portanto, a resposta correta é 'BETTER AND BETTER'."
+        "explanation": "Para dizer que algo melhora gradualmente com o tempo, usamos 'comparativo + and + comparativo'. 'Better' é o comparativo irregular de 'good', nunca 'more better' nem 'gooder'. Neste caso, ela está ficando cada vez melhor no piano. Portanto, a resposta correta é 'BETTER AND BETTER'."
       },
       {
         "id": "f1f39",
         "topic": "Double Comparatives",
         "question": "_____ you wait, _____ the situation will become.",
-        "options": ["The longer / the worse", "More / more worse", "The longest / the worst", "More longer / worst"],
+        "options": [
+          "The longer / the worse",
+          "More / more worse",
+          "The longest / the worst",
+          "More longer / worst"
+        ],
         "correct": 0,
         "explanation": "Na estrutura 'the + comparativo + the + comparativo', expressamos que duas coisas mudam juntas. 'Longer' é o comparativo de 'long', e 'worse' é o comparativo irregular de 'bad'. Neste caso, quanto mais você espera, pior a situação fica. Portanto, a resposta correta é 'THE LONGER / THE WORSE'."
       },
@@ -808,7 +1303,12 @@
         "id": "f1f40",
         "topic": "Double Comparatives",
         "question": "Trains are becoming _____ popular as fuel prices rise.",
-        "options": ["more and more", "the more the more", "most and most", "the most"],
+        "options": [
+          "more and more",
+          "the more the more",
+          "most and most",
+          "the most"
+        ],
         "correct": 0,
         "explanation": "Para dizer que algo está aumentando progressivamente com o tempo, usamos 'more and more + adjetivo'. Neste caso, os trens estão se tornando cada vez mais populares por causa do aumento do preço do combustível. Portanto, a resposta correta é 'MORE AND MORE'."
       },
@@ -816,23 +1316,38 @@
         "id": "f1f41",
         "topic": "Prefixes",
         "question": "The contractor _____ calculated the budget, causing huge losses. (did it incorrectly)",
-        "options": ["over", "un", "mis", "dis"],
+        "options": [
+          "over",
+          "un",
+          "mis",
+          "dis"
+        ],
         "correct": 2,
-        "explanation": "O prefixo 'mis-' indica que algo foi feito de maneira errada ou incorreta. Neste caso, o empreiteiro calculou o orçamento incorretamente — 'miscalculated'. Outros exemplos: misunderstand, misspell. Portanto, a resposta correta é 'MIS'."
+        "explanation": "O prefixo 'mis-' indica que algo foi feito de maneira errada ou incorreta. Neste caso, o empreiteiro calculou o orçamento incorretamente, 'miscalculated'. Outros exemplos: misunderstand, misspell. Portanto, a resposta correta é 'MIS'."
       },
       {
         "id": "f1f42",
         "topic": "Prefixes",
         "question": "I think what they did was completely _____ legal.",
-        "options": ["im", "un", "in", "il"],
+        "options": [
+          "im",
+          "un",
+          "in",
+          "il"
+        ],
         "correct": 3,
         "explanation": "Quando a palavra começa com a letra L, usamos o prefixo 'il-' para formar o antônimo. Neste caso, 'legal' começa com L, então o contrário é 'illegal'. O mesmo padrão ocorre com 'illogical' e 'illiterate'. Portanto, a resposta correta é 'IL'."
       },
       {
         "id": "f1f43",
         "topic": "Prefixes",
-        "question": "The instructions were very _____ clear — nobody understood them.",
-        "options": ["dis", "un", "mis", "non"],
+        "question": "The instructions were very _____ clear, nobody understood them.",
+        "options": [
+          "dis",
+          "un",
+          "mis",
+          "non"
+        ],
         "correct": 1,
         "explanation": "Para adjetivos de origem germânica que não começam com letras especiais (p, m, r, l), o prefixo de negação mais comum é 'un-'. Neste caso, 'unclear' significa confuso ou difícil de entender. Outros exemplos: unhappy, unfair, unkind. Portanto, a resposta correta é 'UN'."
       },
@@ -840,15 +1355,25 @@
         "id": "f1f44",
         "topic": "Passive Voice",
         "question": "Someone stole my bicycle last night. (Passive):",
-        "options": ["My bicycle stole last night.", "My bicycle was stolen last night.", "My bicycle is stolen last night.", "My bicycle had stolen last night."],
+        "options": [
+          "My bicycle stole last night.",
+          "My bicycle was stolen last night.",
+          "My bicycle is stolen last night.",
+          "My bicycle had stolen last night."
+        ],
         "correct": 1,
-        "explanation": "No passado simples, a voz passiva usa 'was/were' + particípio passado. Neste caso, a bicicleta é o sujeito que sofreu a ação, e não sabemos quem a roubou — o foco está no objeto, não no agente. Portanto, a resposta correta é 'My bicycle WAS STOLEN last night'."
+        "explanation": "No passado simples, a voz passiva usa 'was/were' + particípio passado. Neste caso, a bicicleta é o sujeito que sofreu a ação, e não sabemos quem a roubou. O foco está no objeto, não no agente. Portanto, a resposta correta é 'My bicycle WAS STOLEN last night'."
       },
       {
         "id": "f1f45",
         "topic": "Passive Voice",
         "question": "They are building a new hospital in our neighborhood. (Passive):",
-        "options": ["A new hospital is building in our neighborhood.", "A new hospital is being built in our neighborhood.", "A new hospital has been built in our neighborhood.", "A new hospital was being built in our neighborhood."],
+        "options": [
+          "A new hospital is building in our neighborhood.",
+          "A new hospital is being built in our neighborhood.",
+          "A new hospital has been built in our neighborhood.",
+          "A new hospital was being built in our neighborhood."
+        ],
         "correct": 1,
         "explanation": "Para o presente contínuo na voz passiva, usamos 'is/are being' + particípio. Neste caso, a construção ainda está em andamento agora, então usamos 'is being built'. Portanto, a resposta correta é 'A new hospital IS BEING BUILT in our neighborhood'."
       },
@@ -856,15 +1381,25 @@
         "id": "f1f46",
         "topic": "Passive Voice",
         "question": "The manager will review all applications. (Passive):",
-        "options": ["All applications will reviewed by the manager.", "All applications will be reviewed by the manager.", "All applications will being reviewed by the manager.", "All applications are reviewed by the manager."],
+        "options": [
+          "All applications will reviewed by the manager.",
+          "All applications will be reviewed by the manager.",
+          "All applications will being reviewed by the manager.",
+          "All applications are reviewed by the manager."
+        ],
         "correct": 1,
-        "explanation": "Para o futuro na voz passiva, usamos 'will be' + particípio. Neste caso, as inscrições serão analisadas no futuro — elas são o foco, não quem vai analisá-las. Portanto, a resposta correta é 'All applications WILL BE REVIEWED by the manager'."
+        "explanation": "Para o futuro na voz passiva, usamos 'will be' + particípio. Neste caso, as inscrições serão analisadas no futuro. Elas são o foco, não quem vai analisá-las. Portanto, a resposta correta é 'All applications WILL BE REVIEWED by the manager'."
       },
       {
         "id": "f1f47",
         "topic": "Reported Speech",
         "question": "Tom said, 'I'm working late tonight.' → Tom said he _____ late that night.",
-        "options": ["is working", "was working", "worked", "has worked"],
+        "options": [
+          "is working",
+          "was working",
+          "worked",
+          "has worked"
+        ],
         "correct": 1,
         "explanation": "No discurso indireto, os verbos recuam um tempo. O presente contínuo ('am/is working') vira passado contínuo ('was working'). Também mudamos as expressões de tempo: 'tonight' vira 'that night'. Portanto, a resposta correta é 'WAS WORKING'."
       },
@@ -872,7 +1407,12 @@
         "id": "f1f48",
         "topic": "Reported Speech",
         "question": "She said, 'I will call you tomorrow.' → She said she _____ me the next day.",
-        "options": ["will call", "would call", "called", "is going to call"],
+        "options": [
+          "will call",
+          "would call",
+          "called",
+          "is going to call"
+        ],
         "correct": 1,
         "explanation": "No discurso indireto, 'will' vira 'would'. Também mudamos as expressões de tempo: 'tomorrow' vira 'the next day'. Neste caso, ela prometeu ligar, e ao reportar isso, 'will call' vira 'would call'. Portanto, a resposta correta é 'WOULD CALL'."
       },
@@ -880,15 +1420,25 @@
         "id": "f1f49",
         "topic": "Reported Speech",
         "question": "He asked me, 'Can you help me?' → He asked me if I _____ help him.",
-        "options": ["can", "could", "would", "might"],
+        "options": [
+          "can",
+          "could",
+          "would",
+          "might"
+        ],
         "correct": 1,
-        "explanation": "No discurso indireto, 'can' vira 'could'. Também mudamos a estrutura da pergunta: retiramos a inversão e adicionamos 'if' ou 'whether'. Neste caso, ele perguntou se eu poderia ajudá-lo — 'can' recua e vira 'could'. Portanto, a resposta correta é 'COULD'."
+        "explanation": "No discurso indireto, 'can' vira 'could'. Também mudamos a estrutura da pergunta: retiramos a inversão e adicionamos 'if' ou 'whether'. Neste caso, ele perguntou se eu poderia ajudá-lo. 'Can' recua e vira 'could'. Portanto, a resposta correta é 'COULD'."
       },
       {
         "id": "f1f50",
         "topic": "Reported Speech",
         "question": "They said, 'We have already finished the project.' → They said they _____ already _____ the project.",
-        "options": ["had / finished", "have / finished", "were / finishing", "did / finish"],
+        "options": [
+          "had / finished",
+          "have / finished",
+          "were / finishing",
+          "did / finish"
+        ],
         "correct": 0,
         "explanation": "No discurso indireto, o present perfect ('have finished') recua um passo e vira past perfect ('had finished'). Neste caso, eles disseram que já tinham terminado o projeto, e ao reportar, 'have finished' vira 'had finished'. Portanto, a resposta correta é 'HAD / FINISHED'."
       },
@@ -896,47 +1446,77 @@
         "id": "f1f51",
         "topic": "Connectors (Add/Contrast)",
         "question": "She's very talented. _____, she works incredibly hard.",
-        "options": ["However", "Despite", "In addition", "Although"],
+        "options": [
+          "However",
+          "Despite",
+          "In addition",
+          "Although"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos adicionar uma informação complementar na mesma direção, usamos 'in addition' (além disso). 'However' seria para contraste. Neste caso, estamos acrescentando outra qualidade positiva — além de talentosa, ela também trabalha muito. Portanto, a resposta correta é 'IN ADDITION'."
+        "explanation": "Quando queremos adicionar uma informação complementar na mesma direção, usamos 'in addition' (além disso). 'However' seria para contraste. Neste caso, estamos acrescentando outra qualidade positiva, além de talentosa, ela também trabalha muito. Portanto, a resposta correta é 'IN ADDITION'."
       },
       {
         "id": "f1f52",
         "topic": "Connectors (Add/Contrast)",
         "question": "_____ living far away, he always arrives on time.",
-        "options": ["Although", "Despite", "However", "Even so"],
+        "options": [
+          "Although",
+          "Despite",
+          "However",
+          "Even so"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos expressar contraste usando um substantivo ou gerúndio — não uma frase completa com sujeito e verbo —, usamos 'despite' ou 'in spite of'. Neste caso, 'living far away' é um gerúndio, então 'despite' é o conector correto. Portanto, a resposta correta é 'DESPITE'."
+        "explanation": "Quando queremos expressar contraste usando um substantivo ou gerúndio (não uma frase completa com sujeito e verbo), usamos 'despite' ou 'in spite of'. Neste caso, 'living far away' é um gerúndio, então 'despite' é o conector correto. Portanto, a resposta correta é 'DESPITE'."
       },
       {
         "id": "f1f53",
         "topic": "Connectors (Add/Contrast)",
         "question": "I studied all weekend. _____, I still failed the exam.",
-        "options": ["Furthermore", "In addition", "However", "Also"],
+        "options": [
+          "Furthermore",
+          "In addition",
+          "However",
+          "Also"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos apresentar algo inesperado — uma situação que contradiz o que acabou de ser dito —, usamos 'however' (no entanto). Neste caso, estudar o fim de semana todo deveria garantir aprovação, mas não garantiu. Portanto, a resposta correta é 'HOWEVER'."
+        "explanation": "Quando queremos apresentar algo inesperado (uma situação que contradiz o que acabou de ser dito), usamos 'however' (no entanto). Neste caso, estudar o fim de semana todo deveria garantir aprovação, mas não garantiu. Portanto, a resposta correta é 'HOWEVER'."
       },
       {
         "id": "f1f54",
         "topic": "Connectors (Add/Contrast)",
         "question": "He doesn't speak French. _____, he doesn't speak Spanish.",
-        "options": ["However", "Although", "Furthermore", "Despite"],
+        "options": [
+          "However",
+          "Although",
+          "Furthermore",
+          "Despite"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos acrescentar mais informações na mesma direção do que foi dito — algo a mais, não um contraste —, usamos 'furthermore' ou 'in addition'. Neste caso, estamos adicionando mais uma língua que ele não fala. Portanto, a resposta correta é 'FURTHERMORE'."
+        "explanation": "Quando queremos acrescentar mais informações na mesma direção do que foi dito (algo a mais, não um contraste), usamos 'furthermore' ou 'in addition'. Neste caso, estamos adicionando mais uma língua que ele não fala. Portanto, a resposta correta é 'FURTHERMORE'."
       },
       {
         "id": "f1f55",
         "topic": "Some/Any/No Words",
         "question": "The room was completely silent. There was _____ in it.",
-        "options": ["someone", "no one", "anyone", "everyone"],
+        "options": [
+          "someone",
+          "no one",
+          "anyone",
+          "everyone"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que não havia absolutamente ninguém num lugar, usamos 'no one' ou 'nobody' em frases positivas — equivale a 'not anyone'. Neste caso, a sala estava vazia e silenciosa. Portanto, a resposta correta é 'NO ONE'."
+        "explanation": "Quando queremos dizer que não havia absolutamente ninguém num lugar, usamos 'no one' ou 'nobody' em frases positivas, equivale a 'not anyone'. Neste caso, a sala estava vazia e silenciosa. Portanto, a resposta correta é 'NO ONE'."
       },
       {
         "id": "f1f56",
         "topic": "Some/Any/No Words",
-        "question": "Don't worry — I'm sure you'll find _____ who understands you.",
-        "options": ["anyone", "someone", "no one", "everyone"],
+        "question": "Don't worry, I'm sure you'll find _____ who understands you.",
+        "options": [
+          "anyone",
+          "someone",
+          "no one",
+          "everyone"
+        ],
         "correct": 1,
         "explanation": "Em frases positivas com expectativa otimista, usamos 'someone' para falar de uma pessoa desconhecida mas esperada. Neste caso, a pessoa está encorajando alguém a acreditar que vai encontrar quem a entenda. Portanto, a resposta correta é 'SOMEONE'."
       },
@@ -944,7 +1524,12 @@
         "id": "f1f57",
         "topic": "Some/Any/No Words",
         "question": "Would you like _____ to drink? (offering)",
-        "options": ["anything", "something", "nothing", "everything"],
+        "options": [
+          "anything",
+          "something",
+          "nothing",
+          "everything"
+        ],
         "correct": 1,
         "explanation": "Em ofertas e perguntas onde esperamos uma resposta positiva, usamos 'some-' (something, someone). Neste caso, o anfitrião está oferecendo uma bebida ao convidado e espera que ele aceite. Portanto, a resposta correta é 'SOMETHING'."
       },
@@ -952,7 +1537,12 @@
         "id": "f1f58",
         "topic": "Some/Any/No Words",
         "question": "Have you seen my glasses? I've looked _____ for them!",
-        "options": ["somewhere", "nowhere", "everywhere", "anywhere"],
+        "options": [
+          "somewhere",
+          "nowhere",
+          "everywhere",
+          "anywhere"
+        ],
         "correct": 2,
         "explanation": "Quando queremos dizer que procuramos em todos os lugares possíveis, usamos 'everywhere'. 'Anywhere' seria usado em perguntas ou frases negativas. Neste caso, a pessoa vasculhou todo o ambiente procurando os óculos. Portanto, a resposta correta é 'EVERYWHERE'."
       },
@@ -960,55 +1550,90 @@
         "id": "f1f59",
         "topic": "Connectors (Pairs)",
         "question": "_____ Sarah _____ her brother knows the answer. They're both confused.",
-        "options": ["Both / and", "Either / or", "Neither / nor", "Not only / but also"],
+        "options": [
+          "Both / and",
+          "Either / or",
+          "Neither / nor",
+          "Not only / but also"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que a negação se aplica a duas pessoas ou coisas ao mesmo tempo — nenhuma das duas —, usamos 'neither... nor'. Neste caso, nem Sarah nem o irmão sabe a resposta. Portanto, a resposta correta é 'NEITHER / NOR'."
+        "explanation": "Quando queremos dizer que a negação se aplica a duas pessoas ou coisas ao mesmo tempo (nenhuma das duas), usamos 'neither... nor'. Neste caso, nem Sarah nem o irmão sabe a resposta. Portanto, a resposta correta é 'NEITHER / NOR'."
       },
       {
         "id": "f1f60",
         "topic": "Connectors (Pairs)",
         "question": "You can _____ pay by card _____ use cash at this store.",
-        "options": ["both / and", "neither / nor", "either / or", "not only / but also"],
+        "options": [
+          "both / and",
+          "neither / nor",
+          "either / or",
+          "not only / but also"
+        ],
         "correct": 2,
-        "explanation": "Quando apresentamos duas opções e a pessoa pode escolher qualquer uma delas, usamos 'either... or'. Neste caso, o cliente tem duas formas de pagamento disponíveis — pode escolher uma ou a outra. Portanto, a resposta correta é 'EITHER / OR'."
+        "explanation": "Quando apresentamos duas opções e a pessoa pode escolher qualquer uma delas, usamos 'either... or'. Neste caso, o cliente tem duas formas de pagamento disponíveis. Pode escolher uma ou a outra. Portanto, a resposta correta é 'EITHER / OR'."
       },
       {
         "id": "f1f61",
         "topic": "Connectors (Pairs)",
         "question": "She is _____ an excellent teacher _____ a published author.",
-        "options": ["either / or", "neither / nor", "not only / but also", "both / and"],
+        "options": [
+          "either / or",
+          "neither / nor",
+          "not only / but also",
+          "both / and"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos destacar duas qualidades impressionantes de alguém com ênfase, usamos 'not only... but also'. Neste caso, ela não é apenas professora — ela também é autora publicada, e queremos dar destaque a ambos. Portanto, a resposta correta é 'NOT ONLY / BUT ALSO'."
+        "explanation": "Quando queremos destacar duas qualidades impressionantes de alguém com ênfase, usamos 'not only... but also'. Neste caso, ela não é apenas professora. Ela também é autora publicada, e queremos dar destaque a ambos. Portanto, a resposta correta é 'NOT ONLY / BUT ALSO'."
       },
       {
         "id": "f1f62",
         "topic": "Connectors (Pairs)",
         "question": "_____ the students _____ the teacher were satisfied with the results.",
-        "options": ["Neither / nor", "Either / or", "Both / and", "Not only / but also"],
+        "options": [
+          "Neither / nor",
+          "Either / or",
+          "Both / and",
+          "Not only / but also"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que algo é verdade para dois grupos ao mesmo tempo — os dois, juntos —, usamos 'both... and'. Neste caso, tanto os alunos quanto o professor ficaram satisfeitos. Portanto, a resposta correta é 'BOTH / AND'."
+        "explanation": "Quando queremos dizer que algo é verdade para dois grupos ao mesmo tempo (os dois, juntos), usamos 'both... and'. Neste caso, tanto os alunos quanto o professor ficaram satisfeitos. Portanto, a resposta correta é 'BOTH / AND'."
       },
       {
         "id": "f1f63",
         "topic": "Past Perfect",
         "question": "The players were tired because they _____ for three hours.",
-        "options": ["trained", "had been training", "have been training", "were training"],
+        "options": [
+          "trained",
+          "had been training",
+          "have been training",
+          "were training"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos enfatizar a duração de uma atividade que aconteceu antes de outro evento passado, usamos 'had been' + verbo com -ing. Neste caso, três horas de treino causaram o cansaço — o treino aconteceu antes do cansaço que descrevemos. Portanto, a resposta correta é 'HAD BEEN TRAINING'."
+        "explanation": "Quando queremos enfatizar a duração de uma atividade que aconteceu antes de outro evento passado, usamos 'had been' + verbo com -ing. Neste caso, três horas de treino causaram o cansaço, o treino aconteceu antes do cansaço que descrevemos. Portanto, a resposta correta é 'HAD BEEN TRAINING'."
       },
       {
         "id": "f1f64",
         "topic": "Past Perfect",
         "question": "She recognized the city because she _____ there as a child.",
-        "options": ["lived", "has lived", "had lived", "was living"],
+        "options": [
+          "lived",
+          "has lived",
+          "had lived",
+          "was living"
+        ],
         "correct": 2,
-        "explanation": "Quando explicamos por que algo aconteceu no passado usando um fato ainda mais antigo, usamos o past perfect: 'had' + particípio. Neste caso, ela morou na cidade quando era criança — antes do momento em que a reconheceu. Portanto, a resposta correta é 'HAD LIVED'."
+        "explanation": "Quando explicamos por que algo aconteceu no passado usando um fato ainda mais antigo, usamos o past perfect: 'had' + particípio. Neste caso, ela morou na cidade quando era criança, antes do momento em que a reconheceu. Portanto, a resposta correta é 'HAD LIVED'."
       },
       {
         "id": "f1f65",
         "topic": "Past Perfect",
         "question": "Before I got the job, I _____ my CV several times.",
-        "options": ["updated", "have updated", "had updated", "was updating"],
+        "options": [
+          "updated",
+          "have updated",
+          "had updated",
+          "was updating"
+        ],
         "correct": 2,
         "explanation": "Com expressões como 'before' ou 'by the time', quando descrevemos algo concluído antes de outro evento passado, usamos o past perfect: 'had' + particípio. Neste caso, a atualização do currículo aconteceu antes de conseguir o emprego. Portanto, a resposta correta é 'HAD UPDATED'."
       },
@@ -1016,41 +1641,66 @@
         "id": "f1f66",
         "topic": "Past Perfect",
         "question": "He realized he _____ the iron on when he was already at work.",
-        "options": ["left", "has left", "had left", "was leaving"],
+        "options": [
+          "left",
+          "has left",
+          "had left",
+          "was leaving"
+        ],
         "correct": 2,
-        "explanation": "Quando alguém percebe algo que aconteceu antes — enquanto já está em outro momento —, usamos 'had' + particípio para indicar que aquele fato ocorreu anteriormente. Neste caso, ele percebeu no trabalho que tinha deixado o ferro ligado antes de sair. Portanto, a resposta correta é 'HAD LEFT'."
+        "explanation": "Quando alguém percebe algo que aconteceu antes (enquanto já está em outro momento), usamos 'had' + particípio para indicar que aquele fato ocorreu anteriormente. Neste caso, ele percebeu no trabalho que tinha deixado o ferro ligado antes de sair. Portanto, a resposta correta é 'HAD LEFT'."
       },
       {
         "id": "f1f67",
         "topic": "Third Conditional",
         "question": "If it _____ (not rain), we would have had a picnic.",
-        "options": ["didn't rain", "hadn't rained", "wouldn't rain", "doesn't rain"],
+        "options": [
+          "didn't rain",
+          "hadn't rained",
+          "wouldn't rain",
+          "doesn't rain"
+        ],
         "correct": 1,
-        "explanation": "Na terceira condicional, a parte com 'if' usa sempre 'had' + particípio para imaginar um passado diferente. Neste caso, choveu e não fizemos piquenique — mas imaginamos o que teria acontecido se não tivesse chovido. Portanto, a resposta correta é 'HADN'T RAINED'."
+        "explanation": "Na terceira condicional, a parte com 'if' usa sempre 'had' + particípio para imaginar um passado diferente. Neste caso, choveu e não fizemos piquenique, mas imaginamos o que teria acontecido se não tivesse chovido. Portanto, a resposta correta é 'HADN'T RAINED'."
       },
       {
         "id": "f1f68",
         "topic": "Third Conditional",
         "question": "You would have felt better if you _____ (take) that medicine.",
-        "options": ["took", "had taken", "would have taken", "have taken"],
+        "options": [
+          "took",
+          "had taken",
+          "would have taken",
+          "have taken"
+        ],
         "correct": 1,
-        "explanation": "Na terceira condicional, a condição com 'if' usa sempre 'had' + particípio. Neste caso, a pessoa não tomou o remédio e não se sentiu bem — mas imaginamos o resultado se tivesse tomado. Portanto, a resposta correta é 'HAD TAKEN'."
+        "explanation": "Na terceira condicional, a condição com 'if' usa sempre 'had' + particípio. Neste caso, a pessoa não tomou o remédio e não se sentiu bem, mas imaginamos o resultado se tivesse tomado. Portanto, a resposta correta é 'HAD TAKEN'."
       },
       {
         "id": "f1f69",
         "topic": "Third Conditional",
         "question": "If I had known about the sale, I _____ (buy) that jacket.",
-        "options": ["would buy", "bought", "would have bought", "had bought"],
+        "options": [
+          "would buy",
+          "bought",
+          "would have bought",
+          "had bought"
+        ],
         "correct": 2,
-        "explanation": "Na terceira condicional, o resultado imaginado usa 'would/could have' + particípio. Neste caso, a pessoa não sabia da promoção e não comprou o casaco — mas imagina o que teria feito se soubesse. Portanto, a resposta correta é 'WOULD HAVE BOUGHT'."
+        "explanation": "Na terceira condicional, o resultado imaginado usa 'would/could have' + particípio. Neste caso, a pessoa não sabia da promoção e não comprou o casaco, mas imagina o que teria feito se soubesse. Portanto, a resposta correta é 'WOULD HAVE BOUGHT'."
       },
       {
         "id": "f1f70",
         "topic": "Third Conditional",
         "question": "She _____ (become) a doctor if she hadn't changed her major.",
-        "options": ["would become", "would have become", "could become", "had become"],
+        "options": [
+          "would become",
+          "would have become",
+          "could become",
+          "had become"
+        ],
         "correct": 1,
-        "explanation": "Na terceira condicional, o resultado imaginado usa 'would/could have' + particípio. Neste caso, ela mudou de curso e não virou médica — mas estamos pensando no que poderia ter acontecido se não tivesse mudado. Portanto, a resposta correta é 'WOULD HAVE BECOME'."
+        "explanation": "Na terceira condicional, o resultado imaginado usa 'would/could have' + particípio. Neste caso, ela mudou de curso e não virou médica, mas estamos pensando no que poderia ter acontecido se não tivesse mudado. Portanto, a resposta correta é 'WOULD HAVE BECOME'."
       }
     ]
   }

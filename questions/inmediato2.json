@@ -7,7 +7,12 @@
       {
         "topic": "Pronombres de Complemento Indirecto",
         "question": "¿Cuál es el pronombre de complemento indirecto para 'ella'?",
-        "options": ["lo", "la", "le", "se"],
+        "options": [
+          "lo",
+          "la",
+          "le",
+          "se"
+        ],
         "correct": 2,
         "explanation": "O pronome de complemento indireto para 'ella' (3ª pessoa do singular) é 'le'. Os pronomes de CI são: me, te, le, nos, os, les."
       },
@@ -26,14 +31,24 @@
       {
         "topic": "Pronombres de Complemento Indirecto",
         "question": "¿Qué pronombre de complemento indirecto se usa para 'vosotros'?",
-        "options": ["les", "se", "os", "te"],
+        "options": [
+          "les",
+          "se",
+          "os",
+          "te"
+        ],
         "correct": 2,
         "explanation": "O pronome de complemento indireto para 'vosotros' é 'os'. É exclusivo do espanhol peninsular; na América Latina, usa-se 'les' para 'ustedes'."
       },
       {
         "topic": "Pronombres de Complemento Indirecto",
         "question": "Completa: '_____ dije la verdad a ellos.'",
-        "options": ["Le", "Los", "Les", "Se"],
+        "options": [
+          "Le",
+          "Los",
+          "Les",
+          "Se"
+        ],
         "correct": 2,
         "explanation": "Para 'ellos' (3ª pessoa do plural), o pronome de CI é 'les'. Portanto: 'Les dije la verdad a ellos'."
       },
@@ -52,42 +67,72 @@
       {
         "topic": "Pretérito Perfecto Simple (irregulares)",
         "question": "¿Cuál es la forma correcta del pretérito perfecto simple del verbo 'ir' para 'yo'?",
-        "options": ["ié", "fui", "iba", "voy"],
+        "options": [
+          "ié",
+          "fui",
+          "iba",
+          "voy"
+        ],
         "correct": 1,
         "explanation": "'Ir' e 'ser' têm a mesma conjugação no pretérito perfecto simple. 'Yo' → 'fui'. Essa é uma forma totalmente irregular que deve ser memorizada."
       },
       {
         "topic": "Pretérito Perfecto Simple (irregulares)",
         "question": "Completa: 'Ayer nosotros _____ (tener) mucho trabajo.'",
-        "options": ["tenimos", "tuvimos", "teníamos", "tenemos"],
+        "options": [
+          "tenimos",
+          "tuvimos",
+          "teníamos",
+          "tenemos"
+        ],
         "correct": 1,
         "explanation": "'Tener' é irregular no pretérito perfecto simple. A raiz muda para 'tuv-': tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron."
       },
       {
         "topic": "Pretérito Perfecto Simple (irregulares)",
         "question": "¿Cómo se conjuga 'hacer' en tercera persona singular del pretérito perfecto simple?",
-        "options": ["hacó", "hació", "hizo", "hazo"],
+        "options": [
+          "hacó",
+          "hació",
+          "hizo",
+          "hazo"
+        ],
         "correct": 2,
         "explanation": "'Hacer' é irregular: yo hice, tú hiciste, él/ella hizo. Note que na 3ª pessoa do singular a 'c' muda para 'z' para manter o som correto."
       },
       {
         "topic": "Pretérito Perfecto Simple (irregulares)",
         "question": "Selecciona la forma correcta: 'Él _____ (venir) tarde a la reunión.'",
-        "options": ["venió", "vino", "vení", "viene"],
+        "options": [
+          "venió",
+          "vino",
+          "vení",
+          "viene"
+        ],
         "correct": 1,
         "explanation": "'Venir' é irregular no pretérito perfecto simple. A raiz muda para 'vin-': vine, viniste, vino, vinimos, vinisteis, vinieron."
       },
       {
         "topic": "Pretérito Perfecto Simple (irregulares)",
         "question": "¿Cuál es la conjugación correcta de 'decir' para 'ellos' en pretérito perfecto simple?",
-        "options": ["dicieron", "dijeron", "decieron", "dijión"],
+        "options": [
+          "dicieron",
+          "dijeron",
+          "decieron",
+          "dijión"
+        ],
         "correct": 1,
         "explanation": "'Decir' é irregular: dije, dijiste, dijo, dijimos, dijisteis, dijeron. A raiz muda para 'dij-' e a terminação da 3ª pessoa do plural perde o 'i' (dijeron, não *dijieron)."
       },
       {
         "topic": "Verbos de Valoración",
         "question": "¿Cuál de los siguientes es un verbo de valoración en español?",
-        "options": ["caminar", "encantar", "tener", "saber"],
+        "options": [
+          "caminar",
+          "encantar",
+          "tener",
+          "saber"
+        ],
         "correct": 1,
         "explanation": "'Encantar' é um verbo de valoração (como gustar, molestar, interesar). Funciona como 'gustar': o sujeito gramatical é o que agrada/desagrada, e usamos CI para indicar a quem."
       },
@@ -142,14 +187,24 @@
       {
         "topic": "Indefinidos",
         "question": "¿Cuál de los siguientes es un indefinido negativo en español?",
-        "options": ["alguno", "nadie", "mucho", "bastante"],
+        "options": [
+          "alguno",
+          "nadie",
+          "mucho",
+          "bastante"
+        ],
         "correct": 1,
         "explanation": "'Nadie' é um indefinido negativo (refere-se a nenhuma pessoa). Outros indefinidos negativos: nada, ninguno/ningún. Os indefinidos positivos incluem: alguien, algo, alguno."
       },
       {
         "topic": "Indefinidos",
         "question": "Completa: 'No hay _____ en casa.' (ninguna persona)",
-        "options": ["alguien", "nadie", "algo", "nada"],
+        "options": [
+          "alguien",
+          "nadie",
+          "algo",
+          "nada"
+        ],
         "correct": 1,
         "explanation": "'Nadie' refere-se a pessoas (nenhuma pessoa). 'Nada' refere-se a coisas. Com 'no' antes do verbo, não é necessário adicionar outra negação antes de 'nadie'; se 'nadie' vem antes do verbo, não se usa 'no'."
       },
@@ -168,7 +223,12 @@
       {
         "topic": "Indefinidos",
         "question": "¿Cuál es la forma correcta del indefinido 'ninguno' antes de un sustantivo masculino singular?",
-        "options": ["ninguNo", "ningún", "ninguno", "ningunos"],
+        "options": [
+          "ninguNo",
+          "ningún",
+          "ninguno",
+          "ningunos"
+        ],
         "correct": 1,
         "explanation": "'Ninguno' apocopa para 'ningún' antes de substantivo masculino singular: 'ningún problema', 'ningún libro'. Da mesma forma que 'alguno' → 'algún'."
       },
@@ -235,7 +295,12 @@
       {
         "topic": "Contraste Pretérito Perfecto Simple y Compuesto",
         "question": "¿Cuál de las siguientes expresiones de tiempo se usa típicamente con el Pretérito Perfecto Compuesto?",
-        "options": ["ayer", "la semana pasada", "hoy", "en 1990"],
+        "options": [
+          "ayer",
+          "la semana pasada",
+          "hoy",
+          "en 1990"
+        ],
         "correct": 2,
         "explanation": "O Pretérito Perfecto Compuesto (he comido, has ido) usa-se com marcadores temporais ligados ao presente: hoy, esta semana, este año, ya, todavía, alguna vez, nunca. 'Ayer', 'la semana pasada' e datas passadas pedem o Pretérito Perfecto Simple."
       },
@@ -357,7 +422,7 @@
           "Hablar de acciones habituales en el presente"
         ],
         "correct": 2,
-        "explanation": "O Pluscuamperfecto expressa uma ação que ocorreu ANTES de outra ação no passado. É o 'passado do passado'. Ex: 'Cuando llegué, ella ya había comido' — primeiro ela comeu, depois eu cheguei."
+        "explanation": "O Pluscuamperfecto expressa uma ação que ocorreu ANTES de outra ação no passado. É o 'passado do passado'. Ex: 'Cuando llegué, ella ya había comido', primeiro ela comeu, depois eu cheguei."
       },
       {
         "topic": "Pretérito Pluscuamperfecto de Indicativo",
@@ -549,7 +614,7 @@
           "Es"
         ],
         "correct": 2,
-        "explanation": "Com SE impessoal seguido de verbo no infinitivo, usa-se apenas 'Se': 'Se prohíbe fumar' ou 'Se prohibido fumar' não existe — o correto é 'Se prohíbe fumar' ou 'Está prohibido fumar'. Mas 'Se' + verbo conjugado = impessoal: 'Se prohíbe'."
+        "explanation": "Com SE impessoal seguido de verbo no infinitivo, usa-se apenas 'Se': 'Se prohíbe fumar' ou 'Se prohibido fumar' não existe. O correto é 'Se prohíbe fumar' ou 'Está prohibido fumar'. Mas 'Se' + verbo conjugado = impessoal: 'Se prohíbe'."
       },
       {
         "topic": "SE Impersonal",
@@ -621,7 +686,7 @@
           "Él las escribió."
         ],
         "correct": 1,
-        "explanation": "'La carta' é feminino singular. O pronome de CD correspondente é 'la'. Portanto: 'Él la escribió'. Lembre: CD concorda em gênero e número com o substantivo substituído — la (fem. sing.), lo (masc. sing.), las (fem. pl.), los (masc. pl.)."
+        "explanation": "'La carta' é feminino singular. O pronome de CD correspondente é 'la'. Portanto: 'Él la escribió'. Lembre: CD concorda em gênero e número com o substantivo substituído, la (fem. sing.), lo (masc. sing.), las (fem. pl.), los (masc. pl.)."
       },
       {
         "topic": "Contraste Pretérito Perfecto Simple y Compuesto",

@@ -1230,7 +1230,7 @@ function livrosAteOEstagio(k) {
   } else {
     // livro sem Quick Practice: não expõe o conteúdo dos outros estágios
     const cont = document.querySelector('#screen-books .container');
-    if (cont) cont.innerHTML = '<div style="max-width:520px;margin:2.5rem auto;text-align:center;font-size:1rem;line-height:1.6;">📚 O Quick Practice do seu livro <strong>(' + PORTAL_BOOK.replace(/</g, '&lt;') + ')</strong> ainda não está disponível.<br>Avise seu professor — em breve chega por aqui!</div>';
+    if (cont) cont.innerHTML = '<div style="max-width:520px;margin:2.5rem auto;text-align:center;font-size:1rem;line-height:1.6;">📚 O Quick Practice do seu livro <strong>(' + PORTAL_BOOK.replace(/</g, '&lt;') + ')</strong> ainda não está disponível.<br>Avise seu professor. Em breve chega por aqui!</div>';
   }
 })();
 
@@ -1425,8 +1425,8 @@ const UI_STRINGS = {
     examSuffix:  { midterm:'Midterm Exam', final:'Final Exam', practice:'Practice', custom:'Custom Practice' },
     scores: {
       great: { msg:'Great job!',         sub: all => all?'You got them all! Excellent!':'You are well prepared for the exam.' },
-      ok:    { msg:'Keep practicing!',   sub: _   => "You’re almost there — one more round and you’ll pass!" },
-      low:   { msg:'Needs more review.', sub: _   => 'Read the tips below and try again — you can do it!' },
+      ok:    { msg:'Keep practicing!',   sub: _   => "You’re almost there. One more round and you’ll pass!" },
+      low:   { msg:'Needs more review.', sub: _   => 'Read the tips below and try again. You can do it!' },
     },
   },
   es: {
@@ -1466,8 +1466,8 @@ const UI_STRINGS = {
     examSuffix:  { midterm:'Examen Parcial', final:'Examen Final', practice:'Práctica', custom:'Práctica Libre' },
     scores: {
       great: { msg:'¡Muy bien!',          sub: all => all?'¡Respondiste todo! ¡Excelente!':'Estás muy bien preparado para el examen.' },
-      ok:    { msg:'¡Sigue practicando!', sub: _   => 'Casi lo logras — ¡una ronda más y lo consigues!' },
-      low:   { msg:'Necesita más repaso.', sub: _  => 'Lee los consejos abajo e inténtalo de nuevo — ¡tú puedes!' },
+      ok:    { msg:'¡Sigue practicando!', sub: _   => 'Casi lo logras. ¡Una ronda más y lo consigues!' },
+      low:   { msg:'Necesita más repaso.', sub: _  => 'Lee los consejos abajo e inténtalo de nuevo. ¡Tú puedes!' },
     },
   },
 };
@@ -2038,8 +2038,8 @@ function generateFeedback(score, wrongTopics, correctTopics) {
     praise = `Bom trabalho${n}! Você está no caminho certo e bem perto de garantir um ótimo resultado na prova!`;
   } else if (pct >= 50) {
     praise = firstName
-      ? `${firstName}, você está evoluindo! Com mais um pouco de prática você chega lá — não desanime!`
-      : 'Você está evoluindo! Com mais um pouco de prática você chega lá — não desanime!';
+      ? `${firstName}, você está evoluindo! Com mais um pouco de prática você chega lá. Não desanime!`
+      : 'Você está evoluindo! Com mais um pouco de prática você chega lá. Não desanime!';
   } else {
     praise = `Não desanime${n}! Cada simulado é uma oportunidade de aprender mais. Você consegue!`;
   }
@@ -2383,7 +2383,7 @@ let balloonTimer = null;
     const entry = lookupWord(raw);
     balloonTxt.textContent = entry
       ? entry.en + ' → ' + entry.pt
-      : '"' + raw + '" — não encontrado no dicionário';
+      : '"' + raw + '" não foi encontrado no dicionário';
 
     balloon.style.left = e.clientX + 'px';
     balloon.style.top  = e.clientY + 'px';
@@ -2586,7 +2586,7 @@ portalPracticeBoot();
     { el:null, title:'Bem-vindo ao Quick Practice! 📝',
       html:'Aqui você pratica os exercícios do seu livro de forma independente, com correção automática na hora. Deixa eu te mostrar em 30 segundos.' },
     { el: firstVisible('.book-card') || '#english-books', title:'Escolha o seu livro 📚',
-      html:'Toque no seu estágio para começar. Você vê o livro do seu nível — ao tocar, já vai para a escolha do tipo de exercício.' }
+      html:'Toque no seu estágio para começar. Você vê o livro do seu nível. Ao tocar, já vai para a escolha do tipo de exercício.' }
   ];
   if(visible('#screen-books .lang-toggle'))
     steps.push({ el:'#screen-books .lang-toggle', title:'Inglês ou Espanhol 🌎',

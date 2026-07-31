@@ -7,7 +7,12 @@
       {
         "topic": "La Forma Impersonal \"Uno\"",
         "question": "Cuando ___ vive en el extranjero, ___ aprende mucho sobre otras culturas.",
-        "options": ["tú / tú", "uno / uno", "se / se", "usted / usted"],
+        "options": [
+          "tú / tú",
+          "uno / uno",
+          "se / se",
+          "usted / usted"
+        ],
         "correct": 1,
         "explanation": "A forma impessoal 'uno' é usada para fazer afirmações gerais sem especificar o sujeito, equivalente ao 'a gente' impessoal em português. O verbo fica na 3ª pessoa do singular."
       },
@@ -26,21 +31,36 @@
       {
         "topic": "La Forma Impersonal \"Uno\"",
         "question": "'En España, ___ puede tomar café a cualquier hora del día.' ¿Qué forma completa correctamente esta oración?",
-        "options": ["solo 'se'", "solo 'uno'", "solo 'tú'", "Tanto 'se' como 'uno' son correctas"],
+        "options": [
+          "solo 'se'",
+          "solo 'uno'",
+          "solo 'tú'",
+          "Tanto 'se' como 'uno' son correctas"
+        ],
         "correct": 3,
         "explanation": "Tanto 'se' quanto 'uno' podem ser usados como formas impessoais em espanhol. A diferença é de registro/estilo: 'uno' é mais formal e literário; 'se' é mais neutro."
       },
       {
         "topic": "La Forma Impersonal \"Uno\"",
         "question": "'Si ___ quiere triunfar, ___ debe trabajar duro.' Elige la opción correcta para mantener la coherencia impersonal:",
-        "options": ["uno / uno", "uno / tú", "tú / uno", "se / uno"],
+        "options": [
+          "uno / uno",
+          "uno / tú",
+          "tú / uno",
+          "se / uno"
+        ],
         "correct": 0,
         "explanation": "Quando usamos 'uno' como sujeito impessoal, mantemos 'uno' ao longo da frase para garantir coerência: 'Si uno quiere triunfar, uno debe trabajar duro.'"
       },
       {
         "topic": "Indicativo vs Subjuntivo",
         "question": "Completa: 'Es importante que todos ___ (llegar) a tiempo.'",
-        "options": ["llegan", "lleguen", "llegarán", "llegarían"],
+        "options": [
+          "llegan",
+          "lleguen",
+          "llegarán",
+          "llegarían"
+        ],
         "correct": 1,
         "explanation": "Após expressões impessoais de valor como 'es importante que', 'es necesario que', etc., usamos o Presente do Subjuntivo: 'lleguen'."
       },
@@ -54,40 +74,65 @@
           "No creo que venga."
         ],
         "correct": 1,
-        "explanation": "'Sé que' expressa certeza e conhecimento, portanto usa o Indicativo. As demais expressam desejo, esperança ou negação de crença — todas pedem Subjuntivo."
+        "explanation": "'Sé que' expressa certeza e conhecimento, portanto usa o Indicativo. As demais expressam desejo, esperança ou negação de crença. Todas pedem Subjuntivo."
       },
       {
         "topic": "Indicativo vs Subjuntivo",
         "question": "'No creo que ellos ___ (tener) razón.' ¿Qué forma es correcta?",
-        "options": ["tienen", "tengan", "tendrán", "tenían"],
+        "options": [
+          "tienen",
+          "tengan",
+          "tendrán",
+          "tenían"
+        ],
         "correct": 1,
         "explanation": "Após 'no creo que' (negação de crença/certeza), usamos o Presente do Subjuntivo: 'tengan'. Verbos de crença no negativo sempre pedem Subjuntivo."
       },
       {
         "topic": "Indicativo vs Subjuntivo",
         "question": "'Ojalá ___ (hacer) buen tiempo mañana.' Completa correctamente:",
-        "options": ["hace", "hará", "haga", "hiciera"],
+        "options": [
+          "hace",
+          "hará",
+          "haga",
+          "hiciera"
+        ],
         "correct": 2,
         "explanation": "'Ojalá' sempre é seguido de Subjuntivo. Para expressar desejo sobre o presente ou futuro, usamos o Presente do Subjuntivo: 'ojalá haga buen tiempo'."
       },
       {
         "topic": "Indicativo vs Subjuntivo",
         "question": "'Me alegra que tú ___ (estar) bien.' ¿Qué modo verbal se necesita?",
-        "options": ["estás", "estés", "estarás", "estarías"],
+        "options": [
+          "estás",
+          "estés",
+          "estarás",
+          "estarías"
+        ],
         "correct": 1,
         "explanation": "Verbos de sentimento como 'alegrar' pedem Subjuntivo na oração subordinada: 'me alegra que estés bien'. Reação emocional → Subjuntivo."
       },
       {
         "topic": "Aunque + Indicativo / Subjuntivo",
         "question": "'Aunque ___ (llover), voy a salir.' (El hablante sabe que está lloviendo ahora.) ¿Qué forma es correcta?",
-        "options": ["llueva", "llueve", "llovería", "lloviera"],
+        "options": [
+          "llueva",
+          "llueve",
+          "llovería",
+          "lloviera"
+        ],
         "correct": 1,
         "explanation": "Quando 'aunque' introduz um fato conhecido e real, usa-se o Indicativo: 'aunque llueve' = mesmo que (já) esteja chovendo. O falante conhece a realidade."
       },
       {
         "topic": "Aunque + Indicativo / Subjuntivo",
         "question": "'Aunque ___ (llover) mañana, voy a salir.' (El hablante no sabe si lloverá.) ¿Qué forma es correcta?",
-        "options": ["llueve", "llueva", "llovería", "llovió"],
+        "options": [
+          "llueve",
+          "llueva",
+          "llovería",
+          "llovió"
+        ],
         "correct": 1,
         "explanation": "Quando 'aunque' introduz algo hipotético ou desconhecido, usa-se o Subjuntivo: 'aunque llueva' = mesmo que chova (situação incerta ou hipotética)."
       },
@@ -106,133 +151,228 @@
       {
         "topic": "Aunque + Indicativo / Subjuntivo",
         "question": "'Aunque mis padres no ___ (querer), voy a estudiar en el extranjero.' (Situación hipotética futura.) ¿Qué forma es correcta?",
-        "options": ["quieren", "quieran", "querrán", "quisieran"],
+        "options": [
+          "quieren",
+          "quieran",
+          "querrán",
+          "quisieran"
+        ],
         "correct": 1,
         "explanation": "Em situação hipotética ou futura com 'aunque', usamos o Presente do Subjuntivo: 'aunque quieran' = mesmo que queiram (não sabemos a vontade deles)."
       },
       {
         "topic": "Perífrasis Verbales",
         "question": "Voy a terminar mi café y ___ salir. ¿Cuál es la perífrasis que indica que la acción está a punto de ocurrir?",
-        "options": ["estoy a punto de", "acabo de", "sigo", "dejo de"],
+        "options": [
+          "estoy a punto de",
+          "acabo de",
+          "sigo",
+          "dejo de"
+        ],
         "correct": 0,
         "explanation": "'Estar a punto de + infinitivo' expressa que algo está prestes a acontecer imediatamente: 'estoy a punto de salir' = estou prestes a sair."
       },
       {
         "topic": "Perífrasis Verbales",
         "question": "'¡___ quejarte tanto y ponte a trabajar!' ¿Cuál es la perífrasis correcta?",
-        "options": ["Empieza a", "Deja de", "Sigue", "Estás a punto de"],
+        "options": [
+          "Empieza a",
+          "Deja de",
+          "Sigue",
+          "Estás a punto de"
+        ],
         "correct": 1,
         "explanation": "'Dejar de + infinitivo' = parar de fazer algo. 'Deja de quejarte' = pare de reclamar. Indica a interrupção de uma ação em curso."
       },
       {
         "topic": "Perífrasis Verbales",
         "question": "'El cantante ___ cantar la misma canción en todos sus conciertos.' (Indica costumbre habitual.) ¿Cuál es la opción correcta?",
-        "options": ["sigue", "acaba de", "suele", "está a punto de"],
+        "options": [
+          "sigue",
+          "acaba de",
+          "suele",
+          "está a punto de"
+        ],
         "correct": 2,
         "explanation": "'Soler + infinitivo' expressa costume ou hábito: 'suele cantar' = costuma cantar. É equivalente ao 'costuma + infinitivo' em português."
       },
       {
         "topic": "Perífrasis Verbales",
         "question": "'Llevamos dos horas esperando y el médico ___ llegar.' (La llegada es inminente.) ¿Cuál es la opción correcta?",
-        "options": ["acaba de", "está a punto de", "suele", "deja de"],
+        "options": [
+          "acaba de",
+          "está a punto de",
+          "suele",
+          "deja de"
+        ],
         "correct": 1,
         "explanation": "'Estar a punto de + infinitivo' indica iminência: 'está a punto de llegar' = está prestes a chegar. Expressa que a ação ocorrerá em breve."
       },
       {
         "topic": "El de... / El que...",
         "question": "'¿Cuál es tu coche?' 'El ___ allí, el azul.' ¿Qué forma es correcta?",
-        "options": ["la de", "lo de", "el de", "el que"],
+        "options": [
+          "la de",
+          "lo de",
+          "el de",
+          "el que"
+        ],
         "correct": 2,
         "explanation": "'El de' + lugar ou possuidor substitui um substantivo masculino já mencionado. 'El de allí' = o de lá (o carro de lá). O artigo concorda com o substantivo substituído."
       },
       {
         "topic": "El de... / El que...",
         "question": "'Mi libro es interesante, pero ___ María es mejor.' ¿Cómo completar?",
-        "options": ["la de", "el de", "lo de", "el que"],
+        "options": [
+          "la de",
+          "el de",
+          "lo de",
+          "el que"
+        ],
         "correct": 1,
         "explanation": "'El de' (+ nome) substitui 'libro' (masculino singular) + o possessivo: 'el de María' = o de Maria (o livro de Maria). O artigo concorda com o substantivo omitido."
       },
       {
         "topic": "El de... / El que...",
         "question": "'Prefiero esta propuesta. ___ presentaron ayer era muy confusa.' ¿Cuál es la opción correcta?",
-        "options": ["El de", "La de", "La que", "Lo que"],
+        "options": [
+          "El de",
+          "La de",
+          "La que",
+          "Lo que"
+        ],
         "correct": 2,
         "explanation": "'La que' é pronome relativo que substitui 'la propuesta' (feminino): 'la que presentaron ayer' = a que apresentaram ontem. 'La que' refere-se à proposta já mencionada."
       },
       {
         "topic": "El de... / El que...",
         "question": "'¿Cuál de las dos blusas te gusta más?' 'Me gusta ___ tiene flores.'",
-        "options": ["el que", "la que", "lo que", "la de"],
+        "options": [
+          "el que",
+          "la que",
+          "lo que",
+          "la de"
+        ],
         "correct": 1,
         "explanation": "'La que' substitui 'la blusa' (feminino) e introduz uma cláusula relativa: 'la que tiene flores' = a que tem flores. O artigo concorda com o substantivo omitido."
       },
       {
         "topic": "Pero / Sino (que)",
         "question": "'No fui al cine ___ al teatro.' ¿Qué conjunción es correcta?",
-        "options": ["pero", "sino", "sino que", "aunque"],
+        "options": [
+          "pero",
+          "sino",
+          "sino que",
+          "aunque"
+        ],
         "correct": 1,
         "explanation": "'Sino' é usado após uma negação para contrastar dois elementos da mesma categoria (aqui, dois lugares): 'No fui al cine sino al teatro'. Não há mudança de verbo."
       },
       {
         "topic": "Pero / Sino (que)",
         "question": "'No caminé hasta allí, ___ tomé un taxi.' ¿Cuál es la conjunción correcta?",
-        "options": ["pero", "sino", "sino que", "aunque"],
+        "options": [
+          "pero",
+          "sino",
+          "sino que",
+          "aunque"
+        ],
         "correct": 2,
         "explanation": "'Sino que' é usado quando a segunda parte da contrastação contém um verbo conjugado: 'sino que tomé un taxi'. Há mudança de predicado verbal."
       },
       {
         "topic": "Pero / Sino (que)",
         "question": "'Me gusta el café ___ prefiero el té por la mañana.' ¿Qué conjunción es correcta?",
-        "options": ["sino", "sino que", "pero", "aunque"],
+        "options": [
+          "sino",
+          "sino que",
+          "pero",
+          "aunque"
+        ],
         "correct": 2,
         "explanation": "'Pero' expressa contraste sem negar a primeira parte. A frase não começa com negação: 'Me gusta el café, pero prefiero el té'. Não há substituição, apenas contraste."
       },
       {
         "topic": "Pero / Sino (que)",
         "question": "'No es alemán, ___ holandés.' ¿Qué conjunción es correcta?",
-        "options": ["pero", "sino que", "sino", "aunque"],
+        "options": [
+          "pero",
+          "sino que",
+          "sino",
+          "aunque"
+        ],
         "correct": 2,
         "explanation": "Após negação, quando contrastamos dois substantivos ou adjetivos da mesma categoria (aqui, nacionalidades), usamos 'sino': 'No es alemán, sino holandés' = não é alemão, mas sim holandês."
       },
       {
         "topic": "Superlativo",
         "question": "'Este es ___ restaurante de la ciudad.' ¿Cuál es el superlativo correcto?",
-        "options": ["el más bueno", "el mejor", "el más bien", "el buenísimo"],
+        "options": [
+          "el más bueno",
+          "el mejor",
+          "el más bien",
+          "el buenísimo"
+        ],
         "correct": 1,
         "explanation": "'Mejor' é o superlativo relativo irregular de 'bueno'. Usa-se 'el mejor' (não 'el más bueno', que é redundante e não recomendado): 'el mejor restaurante de la ciudad'."
       },
       {
         "topic": "Superlativo",
         "question": "'Este edificio es ___ del barrio.' (Se refiere a su gran altura.) ¿Cuál es el superlativo correcto?",
-        "options": ["el más alto", "el altísimo", "el mayor", "altamente"],
+        "options": [
+          "el más alto",
+          "el altísimo",
+          "el mayor",
+          "altamente"
+        ],
         "correct": 0,
         "explanation": "O superlativo relativo se forma com artigo definido + 'más' + adjetivo + 'de': 'el más alto del barrio'. 'El mayor' refere-se a tamanho/idade, não a altura."
       },
       {
         "topic": "Superlativo",
         "question": "¿Cuál de estas formas es un superlativo absoluto?",
-        "options": ["el más cansado", "muy cansado", "cansadísimo", "el más cansado de todos"],
+        "options": [
+          "el más cansado",
+          "muy cansado",
+          "cansadísimo",
+          "el más cansado de todos"
+        ],
         "correct": 2,
         "explanation": "O superlativo absoluto expressa o máximo grau sem comparação. Forma-se com o sufixo '-ísimo/a': 'cansadísimo' = extremamente cansado. 'El más cansado' é superlativo relativo."
       },
       {
         "topic": "Superlativo",
         "question": "'Sacó ___ nota de todos los estudiantes.' ¿Cuál es el superlativo correcto?",
-        "options": ["la más mala", "la menor", "la peor", "la más peor"],
+        "options": [
+          "la más mala",
+          "la menor",
+          "la peor",
+          "la más peor"
+        ],
         "correct": 2,
         "explanation": "'Peor' é o superlativo relativo irregular de 'malo/a': 'la peor nota'. 'La más peor' é incorreto (duplo superlativo). 'La menor' refere-se a tamanho ou idade, não à qualidade."
       },
       {
         "topic": "SE Impersonal (avanzado)",
         "question": "'¿Cómo ___ dice \"obrigado\" en español?' ¿Qué forma es correcta?",
-        "options": ["te", "le", "se", "nos"],
+        "options": [
+          "te",
+          "le",
+          "se",
+          "nos"
+        ],
         "correct": 2,
         "explanation": "O 'se' impessoal é usado para fazer declarações gerais sem especificar quem realiza a ação: '¿Cómo se dice...?' = Como se diz...? É uma das estruturas mais frequentes em espanhol."
       },
       {
         "topic": "SE Impersonal (avanzado)",
         "question": "'___ alquilan apartamentos.' ¿Cuál es la forma correcta del verbo?",
-        "options": ["Se alquila", "Se alquilan", "Se alquilar", "Se alquile"],
+        "options": [
+          "Se alquila",
+          "Se alquilan",
+          "Se alquilar",
+          "Se alquile"
+        ],
         "correct": 1,
         "explanation": "Na passiva reflexiva com 'se' e sujeito no plural, o verbo concorda com o sujeito: 'se alquilan apartamentos' (sujeito = apartamentos, plural). Compare: 'se alquila un apartamento'."
       },
@@ -251,49 +391,84 @@
       {
         "topic": "SE Impersonal (avanzado)",
         "question": "'___ necesitan camareros con experiencia.' ¿Qué forma del verbo es correcta?",
-        "options": ["Se necesita", "Se necesitan", "Se necesitamos", "Se necesitáis"],
+        "options": [
+          "Se necesita",
+          "Se necesitan",
+          "Se necesitamos",
+          "Se necesitáis"
+        ],
         "correct": 1,
         "explanation": "Na passiva reflexiva com 'se', o verbo concorda com o sujeito gramatical 'camareros' (plural): 'se necesitan camareros'. Se fosse singular: 'se necesita un camarero'."
       },
       {
         "topic": "Pretérito Imperfecto de Subjuntivo",
         "question": "'Quería que tú ___ (hablar) más despacio.' ¿Cuál es la forma correcta?",
-        "options": ["hablas", "hablarías", "hablaras", "hables"],
+        "options": [
+          "hablas",
+          "hablarías",
+          "hablaras",
+          "hables"
+        ],
         "correct": 2,
         "explanation": "Após 'quería que' (verbo de desejo no passado), usamos o Pretérito Imperfeito do Subjuntivo: 'hablaras'. A correlação temporal exige: passado → Imperfeito do Subjuntivo."
       },
       {
         "topic": "Pretérito Imperfecto de Subjuntivo",
         "question": "'Me pidieron que ___ (venir) temprano.' ¿Cuál es la forma correcta?",
-        "options": ["venga", "vengas", "viniera", "vine"],
+        "options": [
+          "venga",
+          "vengas",
+          "viniera",
+          "vine"
+        ],
         "correct": 2,
         "explanation": "'Pidieron' está no passado, portanto a oração subordinada usa o Pretérito Imperfeito do Subjuntivo: 'viniera' (de venir). Raiz irregular: vin- + -iera."
       },
       {
         "topic": "Pretérito Imperfecto de Subjuntivo",
         "question": "'El profesor esperaba que los estudiantes ___ (leer) el libro.' ¿Cuál es la forma correcta?",
-        "options": ["leeran", "leyeran", "leían", "lean"],
+        "options": [
+          "leeran",
+          "leyeran",
+          "leían",
+          "lean"
+        ],
         "correct": 1,
         "explanation": "O Pretérito Imperfeito do Subjuntivo de 'leer' é irregular: 'leyera, leyeras, leyera...' (com -y-, igual ao pretérito indefinido: 'leyeron → leyera'). 'Leeran' não existe."
       },
       {
         "topic": "Pretérito Imperfecto de Subjuntivo",
         "question": "¿Cuál es la forma correcta del Pretérito Imperfecto de Subjuntivo de 'ser/ir' para 'él'?",
-        "options": ["seran", "fuera", "sería", "sea"],
+        "options": [
+          "seran",
+          "fuera",
+          "sería",
+          "sea"
+        ],
         "correct": 1,
         "explanation": "'Ser' e 'ir' têm a mesma forma no Pretérito Imperfeito do Subjuntivo: 'fuera, fueras, fuera, fuéramos, fuerais, fueran'. O contexto determina qual verbo é. 'Sería' é Condicional."
       },
       {
         "topic": "Pretérito Imperfecto de Subjuntivo",
         "question": "'Ojalá ___ (tener) más tiempo libre cuando era estudiante.' ¿Cuál es la forma correcta?",
-        "options": ["tenga", "tuviera", "tendría", "tuve"],
+        "options": [
+          "tenga",
+          "tuviera",
+          "tendría",
+          "tuve"
+        ],
         "correct": 1,
         "explanation": "'Ojalá' com referência a uma situação passada usa o Pretérito Imperfeito do Subjuntivo: 'ojalá tuviera' = tomara eu tivesse (desejo não realizado no passado)."
       },
       {
         "topic": "Pretérito Imperfecto de Subjuntivo",
         "question": "'Le aconsejé que ___ (hacer) más ejercicio.' ¿Cuál es la forma correcta?",
-        "options": ["haga", "hiciera", "haría", "hizo"],
+        "options": [
+          "haga",
+          "hiciera",
+          "haría",
+          "hizo"
+        ],
         "correct": 1,
         "explanation": "'Aconsejé' (passado) + 'que' pede o Pretérito Imperfeito do Subjuntivo: 'hiciera' (de hacer, raiz irregular: hic- + -iera). Verbos de conselho, pedido e desejo no passado → Imperfeito do Subjuntivo."
       },
@@ -319,7 +494,7 @@
           "fuera / cambie"
         ],
         "correct": 1,
-        "explanation": "Condição hipotética: 'Si fuera presidente, cambiaría...' — Imperfeito do Subjuntivo (fuera) + Condicional Simples (cambiaría). NUNCA use Condicional na cláusula com 'si'."
+        "explanation": "Condição hipotética: 'Si fuera presidente, cambiaría...', Imperfeito do Subjuntivo (fuera) + Condicional Simples (cambiaría). NUNCA use Condicional na cláusula com 'si'."
       },
       {
         "topic": "Si + Pretérito Imperfecto de Subjuntivo + Condicional",
@@ -331,7 +506,7 @@
           "haría / ganas"
         ],
         "correct": 0,
-        "explanation": "Pergunta hipotética: '¿Qué harías si ganaras...?' — Condicional Simples na pergunta + 'si' + Imperfeito do Subjuntivo na condição."
+        "explanation": "Pergunta hipotética: '¿Qué harías si ganaras...?'. Condicional Simples na pergunta + 'si' + Imperfeito do Subjuntivo na condição."
       },
       {
         "topic": "Si + Pretérito Imperfecto de Subjuntivo + Condicional",
@@ -343,7 +518,7 @@
           "pueda / me quedaría"
         ],
         "correct": 1,
-        "explanation": "Hipotético presente: 'Si pudiera elegir, me quedaría...' — Imperfeito do Subjuntivo (pudiera) + Condicional Simples (me quedaría). Estrutura fixa e inviolável."
+        "explanation": "Hipotético presente: 'Si pudiera elegir, me quedaría...'. Imperfeito do Subjuntivo (pudiera) + Condicional Simples (me quedaría). Estrutura fixa e inviolável."
       },
       {
         "topic": "Si + Pretérito Imperfecto de Subjuntivo + Condicional",
@@ -355,33 +530,53 @@
           "'más' al final está mal usado."
         ],
         "correct": 0,
-        "explanation": "Na cláusula com 'si' hipotético, NUNCA se usa o Condicional — usa-se o Imperfeito do Subjuntivo: 'Si tuviera más tiempo, estudiaría más.' Esta é uma das regras mais importantes das condicionais."
+        "explanation": "Na cláusula com 'si' hipotético, NUNCA se usa o Condicional. Usa-se o Imperfeito do Subjuntivo: 'Si tuviera más tiempo, estudiaría más.' Esta é uma das regras mais importantes das condicionais."
       },
       {
         "topic": "El Artículo Neutro \"Lo\"",
         "question": "'___ importante es la salud.' ¿Cuál es el artículo correcto?",
-        "options": ["El", "La", "Lo", "Un"],
+        "options": [
+          "El",
+          "La",
+          "Lo",
+          "Un"
+        ],
         "correct": 2,
-        "explanation": "O artigo neutro 'lo' + adjetivo forma um conceito abstrato: 'lo importante' = a coisa importante / o que é importante. 'Lo' não tem gênero nem número — é sempre neutro."
+        "explanation": "O artigo neutro 'lo' + adjetivo forma um conceito abstrato: 'lo importante' = a coisa importante / o que é importante. 'Lo' não tem gênero nem número. É sempre neutro."
       },
       {
         "topic": "El Artículo Neutro \"Lo\"",
         "question": "'No me gusta ___ que dijiste.' ¿Qué artículo es correcto?",
-        "options": ["el", "la", "lo", "un"],
+        "options": [
+          "el",
+          "la",
+          "lo",
+          "un"
+        ],
         "correct": 2,
         "explanation": "'Lo que' = o que (aquilo que). É o artigo neutro seguido de pronome relativo, referindo-se a um conceito abstrato ou indeterminado: 'lo que dijiste' = o que você disse."
       },
       {
         "topic": "El Artículo Neutro \"Lo\"",
         "question": "'___ bueno de vivir aquí es el clima.' ¿Cuál es la opción correcta?",
-        "options": ["El", "Lo", "La", "Un"],
+        "options": [
+          "El",
+          "Lo",
+          "La",
+          "Un"
+        ],
         "correct": 1,
-        "explanation": "'Lo bueno de...' = o bom de... / a parte boa de... — artigo neutro 'lo' + adjetivo para expressar qualidade abstrata de algo. Compare: 'lo malo', 'lo difícil', 'lo mejor'."
+        "explanation": "'Lo bueno de...' = o bom de... / a parte boa de.... Artigo neutro 'lo' + adjetivo para expressar qualidade abstrata de algo. Compare: 'lo malo', 'lo difícil', 'lo mejor'."
       },
       {
         "topic": "El Artículo Neutro \"Lo\"",
         "question": "'¡No sabes ___ difícil que fue!' ¿Cuál es la opción correcta?",
-        "options": ["el", "la", "lo", "cuál"],
+        "options": [
+          "el",
+          "la",
+          "lo",
+          "cuál"
+        ],
         "correct": 2,
         "explanation": "'Lo + adjetivo + que' é uma estrutura exclamativa que intensifica uma qualidade: 'lo difícil que fue' = o quanto foi difícil. Expressa grau elevado com valor enfático."
       },
@@ -412,49 +607,84 @@
       {
         "topic": "Cuando + Subjuntivo",
         "question": "'Te llamaré cuando ___ (llegar) a casa.' ¿Cuál es la forma correcta?",
-        "options": ["llego", "llegaré", "llegues", "llegabas"],
+        "options": [
+          "llego",
+          "llegaré",
+          "llegues",
+          "llegabas"
+        ],
         "correct": 2,
         "explanation": "Quando 'cuando' se refere a uma ação futura, usa-se o Presente do Subjuntivo: 'cuando llegues' = quando você chegar. Com valor futuro, 'cuando' nunca vai com Indicativo."
       },
       {
         "topic": "Cuando + Subjuntivo",
         "question": "'Cuando ___ (tener) más dinero, compraré un coche.' ¿Qué forma es correcta?",
-        "options": ["tengo", "tenga", "tendré", "tenía"],
+        "options": [
+          "tengo",
+          "tenga",
+          "tendré",
+          "tenía"
+        ],
         "correct": 1,
         "explanation": "'Cuando' com sentido futuro + Presente do Subjuntivo: 'cuando tenga más dinero' = quando eu tiver mais dinheiro. O Futuro (tendré) após 'cuando' é gramaticalmente incorreto."
       },
       {
         "topic": "Cuando + Subjuntivo",
         "question": "'Cuando era niño, ___ (jugar) en el parque todos los días.' ¿Cuál es la forma correcta?",
-        "options": ["juegue", "jugara", "jugaba", "jugaré"],
+        "options": [
+          "juegue",
+          "jugara",
+          "jugaba",
+          "jugaré"
+        ],
         "correct": 2,
         "explanation": "Quando 'cuando' se refere a ações habituais no passado, usa-se o Pretérito Imperfeito do Indicativo: 'cuando era niño, jugaba'. Passado habitual → Indicativo (não Subjuntivo)."
       },
       {
         "topic": "Cuando + Subjuntivo",
         "question": "'Avísame cuando ___ (estar) listo.' ¿Cuál es la forma correcta?",
-        "options": ["estás", "estarás", "estés", "estuvieras"],
+        "options": [
+          "estás",
+          "estarás",
+          "estés",
+          "estuvieras"
+        ],
         "correct": 2,
         "explanation": "Após imperativo ou mandado com referência futura, 'cuando' + Presente do Subjuntivo: 'cuando estés listo' = quando estiver pronto. O imperativo projeta a ação para o futuro."
       },
       {
         "topic": "Futuro Compuesto",
         "question": "'Para el año que viene, ya ___ (terminar) mis estudios.' ¿Cuál es la forma correcta?",
-        "options": ["termino", "terminaré", "habré terminado", "he terminado"],
+        "options": [
+          "termino",
+          "terminaré",
+          "habré terminado",
+          "he terminado"
+        ],
         "correct": 2,
         "explanation": "O Futuro Composto (habré/habrás/habrá + participio) indica uma ação que estará concluída antes de um momento futuro específico: 'habré terminado' = terei terminado."
       },
       {
         "topic": "Futuro Compuesto",
         "question": "'¿___ (llegar) ya Juan? No le veo por ningún lado.' ¿Cuál es la forma que expresa hipótesis sobre el presente?",
-        "options": ["Llegó", "Ha llegado", "Habrá llegado", "Llegará"],
+        "options": [
+          "Llegó",
+          "Ha llegado",
+          "Habrá llegado",
+          "Llegará"
+        ],
         "correct": 2,
         "explanation": "O Futuro Composto expressa suposição sobre algo que possivelmente já aconteceu: 'Habrá llegado' = deve ter chegado (já) / será que chegou? Hipótese sobre o passado recente."
       },
       {
         "topic": "Futuro Compuesto",
         "question": "'Para cuando llegues, nosotros ya ___ (cenar).' ¿Cuál es la forma correcta?",
-        "options": ["cenamos", "cenaremos", "habremos cenado", "hemos cenado"],
+        "options": [
+          "cenamos",
+          "cenaremos",
+          "habremos cenado",
+          "hemos cenado"
+        ],
         "correct": 2,
         "explanation": "'Para cuando + Subjuntivo' + Futuro Composto: 'habremos cenado' = teremos jantado. A ação de jantar estará completa antes da chegada da segunda pessoa."
       },
@@ -473,98 +703,168 @@
       {
         "topic": "Demostrativos Neutros",
         "question": "'¿Qué es ___?' (señalando un objeto desconocido que está cerca del hablante.) ¿Cuál es el demostrativo neutro correcto?",
-        "options": ["este", "esta", "esto", "eso"],
+        "options": [
+          "este",
+          "esta",
+          "esto",
+          "eso"
+        ],
         "correct": 2,
         "explanation": "'Esto' é o demostrativo neutro próximo ao falante, usado quando não conhecemos o gênero do objeto ou o referente é abstrato/desconhecido. Os neutros (esto/eso/aquello) nunca têm acento."
       },
       {
         "topic": "Demostrativos Neutros",
         "question": "'___ que me dices es increíble.' ¿Cuál es el demostrativo neutro correcto?",
-        "options": ["Este", "Ese", "Eso", "Esto"],
+        "options": [
+          "Este",
+          "Ese",
+          "Eso",
+          "Esto"
+        ],
         "correct": 2,
         "explanation": "'Eso' é o demostrativo neutro que se refere a algo próximo do interlocutor (o que a outra pessoa disse ou mencionou): 'eso que me dices' = isso que você me diz."
       },
       {
         "topic": "Demostrativos Neutros",
         "question": "'¡___ sí que es una buena noticia!' (reaccionando a algo que acaban de decir.) ¿Cuál es el demostrativo correcto?",
-        "options": ["Este", "Ese", "Aquello", "Eso"],
+        "options": [
+          "Este",
+          "Ese",
+          "Aquello",
+          "Eso"
+        ],
         "correct": 3,
         "explanation": "'Eso' refere-se a algo mencionado imediatamente pelo interlocutor, exprimindo reação: '¡Eso sí que es una buena noticia!' = Isso sim é uma boa notícia!"
       },
       {
         "topic": "Demostrativos Neutros",
         "question": "'___ de la reunión de hace años fue muy complicado.' ¿Cuál es el demostrativo neutro correcto para referirse a algo lejano en el tiempo?",
-        "options": ["Esto", "Eso", "Aquello", "Ese"],
+        "options": [
+          "Esto",
+          "Eso",
+          "Aquello",
+          "Ese"
+        ],
         "correct": 2,
         "explanation": "'Aquello' é o demostrativo neutro para algo distante no espaço ou no tempo: 'aquello de la reunión de hace años' = aquilo da reunião de anos atrás. É sempre neutro, sem variação de gênero/número."
       },
       {
         "topic": "La Forma Impersonal \"Uno\"",
         "question": "'___ no sabe nunca lo que puede pasar en la vida.' ¿Qué forma impersonal es la más apropiada en un contexto formal o literario?",
-        "options": ["Se", "Uno", "Tú", "Nosotros"],
+        "options": [
+          "Se",
+          "Uno",
+          "Tú",
+          "Nosotros"
+        ],
         "correct": 1,
         "explanation": "Em contextos formais ou literários, 'uno' é preferido ao 'se' impessoal ou ao 'tú' coloquial: 'Uno no sabe nunca...' = nunca se sabe... A forma 'uno' transmite uma afirmação geral com tom mais elevado e reflexivo."
       },
       {
         "topic": "Aunque + Indicativo / Subjuntivo",
         "question": "'Aunque el examen ___ (ser) muy difícil, todos lo aprobaron.' (El hablante constata un hecho pasado real.) ¿Qué forma es correcta?",
-        "options": ["sea", "fuera", "fue", "sería"],
+        "options": [
+          "sea",
+          "fuera",
+          "fue",
+          "sería"
+        ],
         "correct": 2,
         "explanation": "Quando 'aunque' introduz um fato passado e verificado, usa-se o Indicativo: 'aunque fue muy difícil' = embora tenha sido muito difícil (fato real). O Subjuntivo 'fuera' indicaria hipótese ou concessão não confirmada."
       },
       {
         "topic": "Perífrasis Verbales",
         "question": "'___ leyendo la misma novela desde hace un mes y todavía no la termino.' ¿Cuál es la perífrasis que mejor indica que la acción continúa sin interrupción?",
-        "options": ["Acabo de", "Sigo", "Dejo de", "Estoy a punto de"],
+        "options": [
+          "Acabo de",
+          "Sigo",
+          "Dejo de",
+          "Estoy a punto de"
+        ],
         "correct": 1,
         "explanation": "'Seguir + gerúndio' indica que uma ação em curso continua sem interrupção: 'Sigo leyendo' = continuo lendo. Expressa continuidade e pode ter matiz de persistência. Compare: 'dejar de' = parar de; 'acabar de' = acabar de."
       },
       {
         "topic": "El de... / El que...",
         "question": "'Hay dos propuestas: la de Ana y la de Luis. Prefiero ___ Luis.' ¿Cuál es la forma correcta?",
-        "options": ["el de", "la de", "la que", "lo de"],
+        "options": [
+          "el de",
+          "la de",
+          "la que",
+          "lo de"
+        ],
         "correct": 1,
         "explanation": "'La de' + possuidor substitui 'la propuesta' (feminino singular): 'la de Luis' = a de Luis. O artigo concorda em gênero e número com o substantivo omitido ('propuesta' → feminino → 'la de'). Nenhum acento gráfico é necessário."
       },
       {
         "topic": "Pero / Sino (que)",
         "question": "'El problema no es el dinero, ___ la falta de organización.' ¿Cuál es la conjunción correcta?",
-        "options": ["pero", "sino que", "sino", "aunque"],
+        "options": [
+          "pero",
+          "sino que",
+          "sino",
+          "aunque"
+        ],
         "correct": 2,
         "explanation": "Após negação ('no es...'), quando substituímos um substantivo por outro da mesma categoria sem introduzir um novo verbo conjugado, usamos 'sino': 'no es el dinero, sino la falta de organización' = não é o dinheiro, mas sim a falta de organização."
       },
       {
         "topic": "Superlativo",
         "question": "'¡Esta película es ___! Nunca había visto algo tan aburrido.' (Expresa el grado máximo de forma absoluta, sin comparar con otras películas.) ¿Cuál es la forma correcta?",
-        "options": ["la más aburrida de todas", "muy aburrida", "aburridísima", "la peor"],
+        "options": [
+          "la más aburrida de todas",
+          "muy aburrida",
+          "aburridísima",
+          "la peor"
+        ],
         "correct": 2,
         "explanation": "O superlativo absoluto '-ísimo/a' expressa o grau máximo sem comparação com outros elementos: 'aburridísima' = muitíssimo chata. As formas com 'la más' e 'la peor' são superlativos relativos, que comparam a película com outras."
       },
       {
         "topic": "SE Impersonal (avanzado)",
         "question": "'En este país ___ muy bien de fútbol.' ¿Cuál es la forma correcta del verbo 'hablar' con 'se' impersonal?",
-        "options": ["se habla", "se hablan", "uno habla", "se hable"],
+        "options": [
+          "se habla",
+          "se hablan",
+          "uno habla",
+          "se hable"
+        ],
         "correct": 0,
         "explanation": "Com 'se' impessoal seguido de complemento preposicional ('de fútbol'), o verbo fica na 3ª pessoa do singular: 'se habla muy bien de fútbol' = fala-se muito bem de futebol. Não há sujeito gramatical, portanto o verbo não varia."
       },
       {
         "topic": "El Artículo Neutro \"Lo\"",
         "question": "'Me sorprendió ___ rápido que aprendió todo el vocabulario.' ¿Cuál es el artículo correcto?",
-        "options": ["el", "la", "lo", "un"],
+        "options": [
+          "el",
+          "la",
+          "lo",
+          "un"
+        ],
         "correct": 2,
         "explanation": "'Lo + adjetivo + que' cria uma estrutura exclamativa ou enfática que indica grau: 'lo rápido que aprendió' = o quanto aprendeu rápido / quão rápido aprendeu. Esta construção expressa admiração pela intensidade da qualidade."
       },
       {
         "topic": "Cuando + Subjuntivo",
         "question": "'Dime cuando ___ (terminar) para que podamos comer juntos.' ¿Cuál es la forma correcta?",
-        "options": ["terminas", "termines", "terminarás", "terminabas"],
+        "options": [
+          "terminas",
+          "termines",
+          "terminarás",
+          "terminabas"
+        ],
         "correct": 1,
         "explanation": "Mesmo em frases como 'dime cuando...', se a referência é futura, 'cuando' exige o Presente do Subjuntivo: 'cuando termines' = quando você terminar. O valor futuro da ação determina o modo, independentemente da estrutura da frase principal."
       },
       {
         "topic": "Futuro Compuesto",
         "question": "'¡María no ha llegado todavía! ¿Qué le ___ (pasar)?' ¿Cuál es la forma que mejor expresa suposición sobre una situación actual?",
-        "options": ["pasó", "pasa", "habrá pasado", "había pasado"],
+        "options": [
+          "pasó",
+          "pasa",
+          "habrá pasado",
+          "había pasado"
+        ],
         "correct": 2,
         "explanation": "O Futuro Composto expressa suposição ou hipótese sobre algo que pode ter acontecido: '¿Qué le habrá pasado?' = O que será que aconteceu com ela? É a forma padrão para especular sobre o passado recente quando não temos certeza."
       },
@@ -623,14 +923,24 @@
       {
         "topic": "Condicional Compuesto",
         "question": "'Si hubiera sabido, ___ (llamar) antes.' ¿Cuál es la forma correcta?",
-        "options": ["llamaría", "llamara", "habría llamado", "habré llamado"],
+        "options": [
+          "llamaría",
+          "llamara",
+          "habría llamado",
+          "habré llamado"
+        ],
         "correct": 2,
         "explanation": "Na condicional impossível (tipo 3), a apódose (resultado) usa o Condicional Composto: 'habría llamado' = teria ligado. Estrutura: 'si hubiera + participio → habría + participio'."
       },
       {
         "topic": "Condicional Compuesto",
         "question": "'Con más entrenamiento, ___ (ganar) el campeonato.' (Situación pasada que no ocurrió.) ¿Cuál es la forma correcta?",
-        "options": ["ganaría", "habría ganado", "hubiera ganado", "ganara"],
+        "options": [
+          "ganaría",
+          "habría ganado",
+          "hubiera ganado",
+          "ganara"
+        ],
         "correct": 1,
         "explanation": "O Condicional Composto 'habría + participio' expressa o que teria acontecido no passado se uma condição tivesse sido cumprida: 'habría ganado' = teria ganhado."
       },
@@ -649,7 +959,12 @@
       {
         "topic": "Condicional Compuesto",
         "question": "'¿Por qué no me lo dijiste? Yo te ___ (ayudar) con mucho gusto.' ¿Cuál es la forma correcta?",
-        "options": ["ayudaría", "ayudara", "habría ayudado", "he ayudado"],
+        "options": [
+          "ayudaría",
+          "ayudara",
+          "habría ayudado",
+          "he ayudado"
+        ],
         "correct": 2,
         "explanation": "Para expressar o que teria acontecido no passado (lamento ou hipótese passada não realizada), usamos o Condicional Composto: 'te habría ayudado' = teria te ajudado."
       },
@@ -668,21 +983,36 @@
       {
         "topic": "Pretérito Pluscuamperfecto de Subjuntivo",
         "question": "'Si ___ (estudiar) más, habrías aprobado.' ¿Cuál es la forma correcta?",
-        "options": ["estudiaras", "estudiarías", "hubieras estudiado", "hayas estudiado"],
+        "options": [
+          "estudiaras",
+          "estudiarías",
+          "hubieras estudiado",
+          "hayas estudiado"
+        ],
         "correct": 2,
         "explanation": "Na condicional impossível (tipo 3), a prótase (condição com 'si') usa o Pretérito Mais-que-Perfeito do Subjuntivo: 'si hubieras estudiado' = se você tivesse estudado."
       },
       {
         "topic": "Pretérito Pluscuamperfecto de Subjuntivo",
-        "question": "'Ojalá ___ (venir) ayer — fue una fiesta increíble.' ¿Cuál es la forma correcta?",
-        "options": ["vengas", "vinieras", "hubieras venido", "hayas venido"],
+        "question": "'Ojalá ___ (venir) ayer. Fue una fiesta increíble.' ¿Cuál es la forma correcta?",
+        "options": [
+          "vengas",
+          "vinieras",
+          "hubieras venido",
+          "hayas venido"
+        ],
         "correct": 2,
         "explanation": "'Ojalá' com lamento sobre o passado → Pretérito Mais-que-Perfeito do Subjuntivo: 'ojalá hubieras venido' = tomara você tivesse vindo. Expressa desejo não realizado no passado."
       },
       {
         "topic": "Pretérito Pluscuamperfecto de Subjuntivo",
         "question": "'El médico dudaba de que el paciente ___ (seguir) el tratamiento correctamente.' ¿Cuál es la forma correcta?",
-        "options": ["siguiera", "hubiera seguido", "haya seguido", "siguiese"],
+        "options": [
+          "siguiera",
+          "hubiera seguido",
+          "haya seguido",
+          "siguiese"
+        ],
         "correct": 1,
         "explanation": "'Dudar de que' no passado + referência a uma ação anterior → Pretérito Mais-que-Perfeito do Subjuntivo: 'hubiera seguido'. A ação de seguir o tratamento é anterior à dúvida."
       },
@@ -701,7 +1031,12 @@
       {
         "topic": "Pretérito Pluscuamperfecto de Subjuntivo",
         "question": "'Me alegró mucho que ___ (ganar, vosotros) el partido.' (La victoria ocurrió antes de que me alegrara.) ¿Cuál es la forma correcta?",
-        "options": ["ganaráis", "hayáis ganado", "hubierais ganado", "ganaríais"],
+        "options": [
+          "ganaráis",
+          "hayáis ganado",
+          "hubierais ganado",
+          "ganaríais"
+        ],
         "correct": 2,
         "explanation": "Quando a ação subordinada aconteceu antes da principal (ambas no passado), usa-se o Pretérito Mais-que-Perfeito do Subjuntivo: 'que hubierais ganado' (2ª pessoa do plural)."
       },
@@ -715,12 +1050,17 @@
           "No es una oración condicional."
         ],
         "correct": 0,
-        "explanation": "Tipo 1 (condicional real): 'si + Presente do Indicativo + Futuro Simple' — situação possível e provável: 'si llueve mañana, no saldremos'."
+        "explanation": "Tipo 1 (condicional real): 'si + Presente do Indicativo + Futuro Simple'. Situação possível e provável: 'si llueve mañana, no saldremos'."
       },
       {
         "topic": "Oraciones Condicionales (avanzado)",
         "question": "'Si ___ (poder) hablar todos los idiomas, sería maravilloso.' ¿Cuál es la forma correcta?",
-        "options": ["puedo", "podré", "pudiera", "haya podido"],
+        "options": [
+          "puedo",
+          "podré",
+          "pudiera",
+          "haya podido"
+        ],
         "correct": 2,
         "explanation": "Condicional tipo 2 (hipotética presente/futura): 'si + Pretérito Imperfeito do Subjuntivo + Condicional Simples': 'si pudiera hablar...' = se eu pudesse falar... (situação improvável)."
       },
@@ -739,43 +1079,72 @@
       {
         "topic": "Verbos de Cambio",
         "question": "'Después de trabajar tantas horas seguidas, ___ enfermo.' ¿Cuál es el verbo de cambio correcto?",
-        "options": ["se volvió", "se puso", "se hizo", "llegó a ser"],
+        "options": [
+          "se volvió",
+          "se puso",
+          "se hizo",
+          "llegó a ser"
+        ],
         "correct": 1,
         "explanation": "'Ponerse + adjetivo' indica mudança de estado físico ou emocional (geralmente temporária e repentina): 'se puso enfermo' = ficou doente. Para estados físicos, 'ponerse' é a escolha natural."
       },
       {
         "topic": "Verbos de Cambio",
         "question": "'Después de mucho esfuerzo y años de trabajo, ___ director de la empresa.' ¿Cuál es el verbo de cambio correcto?",
-        "options": ["se puso", "se volvió", "se hizo", "se quedó"],
+        "options": [
+          "se puso",
+          "se volvió",
+          "se hizo",
+          "se quedó"
+        ],
         "correct": 2,
         "explanation": "'Hacerse' indica mudança conquistada por esforço próprio, especialmente de status social ou profissional: 'se hizo director' = tornou-se diretor (por mérito e dedicação)."
       },
       {
         "topic": "Verbos de Cambio",
         "question": "'Con la edad, mi abuelo ___ muy olvidadizo.' ¿Cuál es el verbo de cambio correcto?",
-        "options": ["se puso", "se hizo", "se volvió", "llegó a ser"],
+        "options": [
+          "se puso",
+          "se hizo",
+          "se volvió",
+          "llegó a ser"
+        ],
         "correct": 2,
         "explanation": "'Volverse + adjetivo' expressa mudança de caráter ou personalidade, geralmente gradual e permanente: 'se volvió olvidadizo' = tornou-se esquecido. Mudança de personalidade → 'volverse'."
       },
       {
         "topic": "Verbos de Cambio",
         "question": "'Al recibir la noticia del accidente, ___ sin palabras.' ¿Cuál es el verbo de cambio correcto?",
-        "options": ["se volvió", "se quedó", "se hizo", "se puso"],
+        "options": [
+          "se volvió",
+          "se quedó",
+          "se hizo",
+          "se puso"
+        ],
         "correct": 1,
         "explanation": "'Quedarse + adjetivo/expressão' indica que alguém permanece em um estado (geralmente inesperado): 'se quedó sin palabras' = ficou sem palavras. 'Quedarse' enfatiza a permanência no estado."
       },
       {
         "topic": "Verbos de Cambio",
         "question": "'Tras ganar el premio, ___ muy famosa en todo el país.' ¿Cuál es el verbo de cambio más adecuado?",
-        "options": ["se puso", "se volvió", "se quedó", "se hizo"],
-        "correct": 3
-        ,
+        "options": [
+          "se puso",
+          "se volvió",
+          "se quedó",
+          "se hizo"
+        ],
+        "correct": 3,
         "explanation": "'Hacerse' é usado para mudanças de status conquistadas (fama, reconhecimento, posição social): 'se hizo muy famosa' = tornou-se muito famosa. 'Volverse' seria para mudança de caráter."
       },
       {
         "topic": "Para que / A fin de que + Subjuntivo",
         "question": "'Te explico esto ___ lo entiendas mejor.' ¿Cuál es la conjunción de finalidad correcta?",
-        "options": ["para que", "porque", "aunque", "cuando"],
+        "options": [
+          "para que",
+          "porque",
+          "aunque",
+          "cuando"
+        ],
         "correct": 0,
         "explanation": "'Para que + Subjuntivo' expressa finalidade (propósito): 'para que lo entiendas' = para que você entenda. Há mudança de sujeito (yo explico → tú entiendas), por isso 'para que', não 'para'."
       },
@@ -818,28 +1187,48 @@
       {
         "topic": "Hace + Presente / Gerundio",
         "question": "'___ tres años que estudio español.' ¿Cuál es la forma correcta para indicar duración hasta el presente?",
-        "options": ["Desde hace", "Por", "Hace", "Durante"],
+        "options": [
+          "Desde hace",
+          "Por",
+          "Hace",
+          "Durante"
+        ],
         "correct": 2,
         "explanation": "'Hace + tempo + que + Presente do Indicativo' = faz... que...: 'Hace tres años que estudio español' = faz três anos que estudo espanhol (e ainda estou estudando)."
       },
       {
         "topic": "Hace + Presente / Gerundio",
         "question": "'Estoy trabajando en este proyecto ___ enero.' ¿Cuál es a preposición correcta para un punto específico en el tiempo?",
-        "options": ["hace", "desde", "desde hace", "por"],
+        "options": [
+          "hace",
+          "desde",
+          "desde hace",
+          "por"
+        ],
         "correct": 1,
         "explanation": "'Desde + ponto específico no tempo' = desde: 'desde enero' = desde janeiro. Use 'desde' com datas, meses, anos específicos. 'Desde hace' vai com períodos de duração: 'desde hace tres meses'."
       },
       {
         "topic": "Hace + Presente / Gerundio",
         "question": "'¿___ cuánto tiempo vives en esta ciudad?' ¿Cuál es la forma correcta para preguntar por la duración?",
-        "options": ["Desde", "Hace", "Por", "Durante"],
+        "options": [
+          "Desde",
+          "Hace",
+          "Por",
+          "Durante"
+        ],
         "correct": 1,
         "explanation": "'¿Hace cuánto tiempo + verbo en Presente?' é a estrutura correta para perguntar duração: '¿Hace cuánto tiempo vives aquí?' = Há quanto tempo você mora aqui?"
       },
       {
         "topic": "Llevar + Gerundio",
         "question": "'Llevo tres horas ___ (esperar) el autobús.' ¿Cuál es la forma correcta?",
-        "options": ["esperar", "esperando", "esperado", "espere"],
+        "options": [
+          "esperar",
+          "esperando",
+          "esperado",
+          "espere"
+        ],
         "correct": 1,
         "explanation": "'Llevar + Gerúndio' expressa a duração de uma ação que ainda está em andamento: 'Llevo tres horas esperando' = estou esperando há três horas. O gerúndio é obrigatório nesta perífrasis."
       },
@@ -858,7 +1247,12 @@
       {
         "topic": "Llevar + Gerundio",
         "question": "'___ un año aprendiendo a tocar la guitarra y todavía me queda mucho.' ¿Cuál es la forma correcta?",
-        "options": ["Tengo", "Llevo", "Estoy", "Sigo"],
+        "options": [
+          "Tengo",
+          "Llevo",
+          "Estoy",
+          "Sigo"
+        ],
         "correct": 1,
         "explanation": "'Llevar + tempo + Gerúndio' para enfatizar a duração de uma ação contínua: 'Llevo un año aprendiendo' = estou aprendendo há um ano. 'Sigo' é possível mas sem indicar tempo de duração."
       },
@@ -968,12 +1362,17 @@
           "eran rotas"
         ],
         "correct": 0,
-        "explanation": "O participio de 'romper' é irregular: 'roto/rota/rotos/rotas'. Voz passiva: 'Las ventanas fueron rotas' — participio feminino plural concordando com o sujeito. 'Rompidas' não existe em espanhol."
+        "explanation": "O participio de 'romper' é irregular: 'roto/rota/rotos/rotas'. Voz passiva: 'Las ventanas fueron rotas', participio feminino plural concordando com o sujeito. 'Rompidas' não existe em espanhol."
       },
       {
         "topic": "El Imperativo y los Complementos",
         "question": "'¡___ (decir, tú) la verdad!' Con el pronombre de objeto directo (la verdad = la), ¿cómo se dice correctamente?",
-        "options": ["Di / ¡Dila!", "Dice / ¡Dícela!", "Dices / ¡Dícesla!", "Di / ¡Díla!"],
+        "options": [
+          "Di / ¡Dila!",
+          "Dice / ¡Dícela!",
+          "Dices / ¡Dícesla!",
+          "Di / ¡Díla!"
+        ],
         "correct": 0,
         "explanation": "O imperativo de 'decir' (tú) é 'di'. Com o pronome de OD (la = la verdad), o pronome se une ao imperativo afirmativo: '¡Dila!' O acento original do imperativo pode desaparecer com pronomes monossilábicos."
       },
@@ -987,7 +1386,7 @@
           "¡No cuentes / no lo cuentes a nadie!"
         ],
         "correct": 1,
-        "explanation": "Imperativo negativo (tú) usa Presente do Subjuntivo: 'no cuentes'. Com OI + OD no negativo: 'no se lo cuentes a nadie' — pronomes ANTES do verbo no imperativo negativo."
+        "explanation": "Imperativo negativo (tú) usa Presente do Subjuntivo: 'no cuentes'. Com OI + OD no negativo: 'no se lo cuentes a nadie', pronomes ANTES do verbo no imperativo negativo."
       },
       {
         "topic": "El Imperativo y los Complementos",
@@ -999,7 +1398,7 @@
           "Poned / ¡Pónedlos!"
         ],
         "correct": 0,
-        "explanation": "Imperativo afirmativo de 'poner' (vosotros) = 'poned'. Com pronome de OD: 'Ponedlos' — o pronome se une ao imperativo. Atenção: diferente de '-os' reflexivo, aqui o '-d' não cai."
+        "explanation": "Imperativo afirmativo de 'poner' (vosotros) = 'poned'. Com pronome de OD: 'Ponedlos', o pronome se une ao imperativo. Atenção: diferente de '-os' reflexivo, aqui o '-d' não cai."
       },
       {
         "topic": "El Imperativo y los Complementos",
@@ -1076,105 +1475,180 @@
       {
         "topic": "Pronombres Relativos",
         "question": "'La película ___ vimos ayer fue muy buena.' ¿Cuál es el pronombre relativo correcto?",
-        "options": ["quien", "quienes", "que", "cuyo"],
+        "options": [
+          "quien",
+          "quienes",
+          "que",
+          "cuyo"
+        ],
         "correct": 2,
         "explanation": "'Que' é o pronome relativo mais versátil em espanhol, usado para pessoas e coisas: 'la película que vimos' = o filme que vimos. É o pronome mais frequente e neutro."
       },
       {
         "topic": "Pronombres Relativos",
         "question": "'El libro ___ portada es roja es el mío.' ¿Cuál es el pronombre relativo correcto?",
-        "options": ["que", "quien", "cuya", "el que"],
+        "options": [
+          "que",
+          "quien",
+          "cuya",
+          "el que"
+        ],
         "correct": 2,
         "explanation": "'Cuyo/a/os/as' expressa posse e concorda em gênero e número com o substantivo que o segue (não com o antecedente): 'cuya portada' (portada é feminino singular). Equivale a 'cuja' em português."
       },
       {
         "topic": "Pronombres Relativos",
         "question": "'Ese es el café ___ siempre venimos a estudiar.' ¿Cuál es el pronombre relativo correcto?",
-        "options": ["que", "donde", "quien", "cual"],
+        "options": [
+          "que",
+          "donde",
+          "quien",
+          "cual"
+        ],
         "correct": 1,
         "explanation": "'Donde' é usado como pronome relativo para se referir a um lugar: 'el café donde siempre venimos' = o café onde sempre vimos. Equivale a 'onde' em português."
       },
       {
         "topic": "Pronombres Relativos",
         "question": "'La razón ___ no vine fue la lluvia.' ¿Cuál es el pronombre relativo correcto?",
-        "options": ["que", "por la que", "donde", "quien"],
+        "options": [
+          "que",
+          "por la que",
+          "donde",
+          "quien"
+        ],
         "correct": 1,
         "explanation": "'Por la que' (pronome relativo com preposição) é necessário quando o verbo exige 'por': 'la razón por la que no vine' = a razão pela qual não vim. A preposição deve vir junto com o relativo."
       },
       {
         "topic": "El Voseo",
         "question": "En el voseo (Argentina y otros países), ¿cómo se dice 'Tú hablas' en voseo?",
-        "options": ["Vos hablás", "Vos hablas", "Vos hablaste", "Vos habléis"],
+        "options": [
+          "Vos hablás",
+          "Vos hablas",
+          "Vos hablaste",
+          "Vos habléis"
+        ],
         "correct": 0,
         "explanation": "No voseo, o Presente do Indicativo de verbos '-ar' usa a forma: 'vos + radical + ás' (com acento na última sílaba): 'vos hablás'. A forma é regularizada e sempre tônica na terminação."
       },
       {
         "topic": "El Voseo",
         "question": "En el voseo, ¿cuál es la forma correcta de 'tú tienes'?",
-        "options": ["Vos tienes", "Vos tenés", "Vos tenéis", "Vos tiene"],
+        "options": [
+          "Vos tienes",
+          "Vos tenés",
+          "Vos tenéis",
+          "Vos tiene"
+        ],
         "correct": 1,
         "explanation": "No voseo, verbos '-er' usam a terminação '-és': 'vos tenés' (= você tem). 'Tener' no voseo é regular na terminação: 'tenés'. Outros exemplos: 'vos comés, vos bebés'."
       },
       {
         "topic": "El Voseo",
         "question": "En el voseo, ¿cuál es el imperativo afirmativo correcto para 'habla (tú)'?",
-        "options": ["Habla", "Hablad", "Hablá", "Habler"],
+        "options": [
+          "Habla",
+          "Hablad",
+          "Hablá",
+          "Habler"
+        ],
         "correct": 2,
         "explanation": "O imperativo no voseo se forma com o radical + á/é/í (sem o '-d' final do vosotros e sem o acento da penúltima sílaba do tuteo): 'hablá' (fala), 'comé' (come), 'vení' (vem)."
       },
       {
         "topic": "El Voseo",
         "question": "En el voseo, ¿cuál es la forma correcta del presente de 'venir'?",
-        "options": ["Vos vienes", "Vos venís", "Vos venés", "Vos venis"],
+        "options": [
+          "Vos vienes",
+          "Vos venís",
+          "Vos venés",
+          "Vos venis"
+        ],
         "correct": 1,
         "explanation": "'Venir' no voseo é irregular: 'vos venís' (acento na última sílaba). Atenção: não segue o padrão regular dos '-er' ('venés'). Outros irregulares no voseo: 'sos' (ser), 'vas' (ir)."
       },
       {
         "topic": "Oraciones Temporales",
         "question": "'Llámame ___ llegues.' ¿Cuál es la conjunción temporal correcta?",
-        "options": ["cuando", "hasta que", "antes de que", "después de que"],
+        "options": [
+          "cuando",
+          "hasta que",
+          "antes de que",
+          "después de que"
+        ],
         "correct": 0,
         "explanation": "'Cuando + Presente do Subjuntivo' para ações futuras: 'cuando llegues' = quando você chegar. Com referência futura, 'cuando' nunca usa o Futuro do Indicativo."
       },
       {
         "topic": "Oraciones Temporales",
         "question": "'No te vayas ___ yo vuelva.' ¿Cuál es la conjunción temporal correcta?",
-        "options": ["cuando", "antes de que", "hasta que", "mientras"],
+        "options": [
+          "cuando",
+          "antes de que",
+          "hasta que",
+          "mientras"
+        ],
         "correct": 2,
         "explanation": "'Hasta que + Subjuntivo' (com valor futuro) expressa o limite de uma ação: 'no te vayas hasta que yo vuelva' = não vá embora até eu voltar. Com valor futuro, 'hasta que' pede Subjuntivo."
       },
       {
         "topic": "Oraciones Temporales",
         "question": "'___ termines de comer, lava los platos.' ¿Cuál es la conjunción temporal correcta?",
-        "options": ["Cuando", "Después de que", "Hasta que", "Mientras"],
+        "options": [
+          "Cuando",
+          "Después de que",
+          "Hasta que",
+          "Mientras"
+        ],
         "correct": 1,
         "explanation": "'Después de que + Subjuntivo' indica que uma ação ocorre após outra (futura): 'después de que termines' = depois de você terminar. Há mudança de sujeito, por isso 'después de que' (não 'después de')."
       },
       {
         "topic": "Oraciones Temporales",
         "question": "'___ estudiaba, escuchaba música.' ¿Cuál es la conjunción temporal correcta para expresar simultaneidad en el pasado?",
-        "options": ["Cuando", "Mientras", "Hasta que", "Después de que"],
+        "options": [
+          "Cuando",
+          "Mientras",
+          "Hasta que",
+          "Después de que"
+        ],
         "correct": 1,
         "explanation": "'Mientras + Imperfeito do Indicativo' expressa simultaneidade de ações no passado: 'mientras estudiaba, escuchaba música' = enquanto estudava, ouvia música. Duas ações ocorrendo ao mesmo tempo."
       },
       {
         "topic": "El Diminutivo y el Aumentativo",
         "question": "¿Cuál es el diminutivo correcto de 'casa'?",
-        "options": ["casona", "casal", "casita", "casería"],
+        "options": [
+          "casona",
+          "casal",
+          "casita",
+          "casería"
+        ],
         "correct": 2,
         "explanation": "O diminutivo de 'casa' é 'casita' (sufixo -ita). Os diminutivos expressam tamanho pequeno ou afeto: 'una casita' = uma casinha. 'Casona' é aumentativo (casa grande e velha)."
       },
       {
         "topic": "El Diminutivo y el Aumentativo",
         "question": "¿Cuál es el aumentativo correcto de 'hombre'?",
-        "options": ["hombrito", "hombrecillo", "hombrón", "hombrecito"],
+        "options": [
+          "hombrito",
+          "hombrecillo",
+          "hombrón",
+          "hombrecito"
+        ],
         "correct": 2,
         "explanation": "O aumentativo de 'hombre' é 'hombrón' (sufixo -ón). Os aumentativos expressam tamanho grande ou exagero: 'un hombrón' = um homenzarrão. 'Hombrecito' e 'hombrecillo' são diminutivos."
       },
       {
         "topic": "El Diminutivo y el Aumentativo",
         "question": "'¡Espera un ___!' (Un momento muy breve, dicho de forma amable.) ¿Cuál es el diminutivo correcto?",
-        "options": ["momentazo", "momentón", "momentito", "momentoso"],
+        "options": [
+          "momentazo",
+          "momentón",
+          "momentito",
+          "momentoso"
+        ],
         "correct": 2,
         "explanation": "O diminutivo de 'momento' é 'momentito' (sufixo -ito). Expressa brevidade e tom amigável ou minimizador: 'un momentito' = um instantinho. O sufixo -ito é o mais comum e versátil."
       },
@@ -1229,28 +1703,48 @@
       {
         "topic": "Pronombres Relativos",
         "question": "'No encontré las llaves, ___ me hizo llegar tarde a la reunión.' ¿Cuál es el pronombre relativo correcto para referirse a toda la situación anterior?",
-        "options": ["que", "lo cual", "quien", "donde"],
+        "options": [
+          "que",
+          "lo cual",
+          "quien",
+          "donde"
+        ],
         "correct": 1,
         "explanation": "'Lo cual' (ou 'lo que') refere-se a uma situação ou ideia completa, não a um substantivo específico: 'No encontré las llaves, lo cual me hizo llegar tarde' = não encontrei as chaves, o que me fez chegar atrasado. Refere-se ao fato como um todo."
       },
       {
         "topic": "El Voseo",
         "question": "En el voseo rioplatense, ¿cuál es la forma correcta del verbo 'querer' en presente?",
-        "options": ["Vos quieres", "Vos querés", "Vos queréis", "Vos quiere"],
+        "options": [
+          "Vos quieres",
+          "Vos querés",
+          "Vos queréis",
+          "Vos quiere"
+        ],
         "correct": 1,
         "explanation": "No voseo, verbos '-er' como 'querer' usam a terminação '-és' sem a ditongação do tuteo: 'vos querés' (= você quer). Atenção: o voseo elimina as irregularidades por ditongo: 'tú quieres' → 'vos querés'; 'tú tienes' → 'vos tenés'."
       },
       {
         "topic": "Oraciones Temporales",
         "question": "'Te lo cuento ___ nos veamos.' ¿Cuál es la conjunción temporal correcta para indicar el momento futuro del encuentro?",
-        "options": ["mientras", "hasta que", "cuando", "después de que"],
+        "options": [
+          "mientras",
+          "hasta que",
+          "cuando",
+          "después de que"
+        ],
         "correct": 2,
-        "explanation": "'Cuando + Presente do Subjuntivo' para ações futuras: 'cuando nos veamos' = quando nos encontrarmos. Com referência futura, 'cuando' sempre exige Subjuntivo — nunca Futuro do Indicativo."
+        "explanation": "'Cuando + Presente do Subjuntivo' para ações futuras: 'cuando nos veamos' = quando nos encontrarmos. Com referência futura, 'cuando' sempre exige Subjuntivo, nunca Futuro do Indicativo."
       },
       {
         "topic": "El Diminutivo y el Aumentativo",
         "question": "'Por favor, habla un poco más ___ (bajo), que hay gente durmiendo.' ¿Cuál es la forma diminutiva más apropiada aquí?",
-        "options": ["bajote", "bajísimo", "bajito", "bajón"],
+        "options": [
+          "bajote",
+          "bajísimo",
+          "bajito",
+          "bajón"
+        ],
         "correct": 2,
         "explanation": "O diminutivo 'bajito' expressa suavização e afetividade: 'habla bajito' = fale baixinho. O sufixo -ito pode ser aplicado a adjetivos usados adverbialmente para suavizar a instrução. 'Bajísimo' é superlativo absoluto (extremamente baixo), que seria excessivo no contexto."
       },
@@ -1264,7 +1758,7 @@
           "Si estudiara más, aprobaría."
         ],
         "correct": 2,
-        "explanation": "A condicional impossível (tipo 3) refere-se ao passado — algo que não aconteceu e não pode mais acontecer: 'si hubiera llegado antes, habría conocido...' = se tivesse chegado antes, teria conhecido... Estrutura: 'si + pluscuamperfecto de subjuntivo + condicional compuesto'."
+        "explanation": "A condicional impossível (tipo 3) refere-se ao passado. Algo que não aconteceu e não pode mais acontecer: 'si hubiera llegado antes, habría conocido...' = se tivesse chegado antes, teria conhecido... Estrutura: 'si + pluscuamperfecto de subjuntivo + condicional compuesto'."
       },
       {
         "topic": "Oraciones Condicionales (avanzado)",

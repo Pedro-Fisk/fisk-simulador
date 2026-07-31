@@ -10,135 +10,220 @@
         "id": "t1m01",
         "topic": "Tag Questions",
         "question": "Mr. McGuiness is from Ireland, _____?",
-        "options": ["is he", "does he", "isn't he", "doesn't he"],
+        "options": [
+          "is he",
+          "does he",
+          "isn't he",
+          "doesn't he"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos confirmar se algo é verdade, colocamos um finalzinho de pergunta no fim da frase. Se a frase é positiva, o finalzinho é negativo — e usamos o mesmo verbo da frase. Neste caso, a frase diz que o Sr. McGuiness É da Irlanda — frase positiva com IS, então o finalzinho é negativo. Portanto, a resposta correta é 'ISN'T HE?'"
+        "explanation": "Quando queremos confirmar se algo é verdade, colocamos um finalzinho de pergunta no fim da frase. Se a frase é positiva, o finalzinho é negativo, e usamos o mesmo verbo da frase. Neste caso, a frase diz que o Sr. McGuiness É da Irlanda, frase positiva com IS, então o finalzinho é negativo. Portanto, a resposta correta é 'ISN'T HE?'"
       },
       {
         "id": "t1m02",
         "topic": "Tag Questions",
         "question": "He didn't recognize me, _____?",
-        "options": ["did he", "didn't he", "does he", "was he"],
+        "options": [
+          "did he",
+          "didn't he",
+          "does he",
+          "was he"
+        ],
         "correct": 0,
-        "explanation": "Quando queremos confirmar uma informação negativa, o finalzinho de pergunta é positivo. Neste caso, a frase diz que ele NÃO me reconheceu — é negativa com DIDN'T, então o finalzinho é positivo, com o mesmo verbo da frase. Portanto, a resposta correta é 'DID HE?'"
+        "explanation": "Quando queremos confirmar uma informação negativa, o finalzinho de pergunta é positivo. Neste caso, a frase diz que ele NÃO me reconheceu. É negativa com DIDN'T, então o finalzinho é positivo, com o mesmo verbo da frase. Portanto, a resposta correta é 'DID HE?'"
       },
       {
         "id": "t1m03",
         "topic": "Tag Questions",
         "question": "It'll rain tomorrow, _____?",
-        "options": ["will it", "won't it", "is it", "isn't it"],
+        "options": [
+          "will it",
+          "won't it",
+          "is it",
+          "isn't it"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos confirmar uma previsão positiva com WILL, o finalzinho de pergunta é negativo, com o mesmo verbo. Neste caso, a frase diz que VAI chover amanhã — positiva com WILL, então o finalzinho é negativo. Portanto, a resposta correta é 'WON'T IT?'"
+        "explanation": "Quando queremos confirmar uma previsão positiva com WILL, o finalzinho de pergunta é negativo, com o mesmo verbo. Neste caso, a frase diz que VAI chover amanhã. Positiva com WILL, então o finalzinho é negativo. Portanto, a resposta correta é 'WON'T IT?'"
       },
       {
         "id": "t1m04",
         "topic": "Future Arrangements (Be + -ing)",
         "question": "I _____ to the supermarket tomorrow. (arrangement already made)",
-        "options": ["go", "will go", "am going", "goes"],
+        "options": [
+          "go",
+          "will go",
+          "am going",
+          "goes"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos falar de um plano que já está decidido e combinado com antecedência, usamos o verbo com -ing no presente. Neste caso, a pessoa já sabe que vai ao supermercado amanhã — não é uma decisão tomada na hora. Portanto, a resposta correta é 'AM GOING'."
+        "explanation": "Quando queremos falar de um plano que já está decidido e combinado com antecedência, usamos o verbo com -ing no presente. Neste caso, a pessoa já sabe que vai ao supermercado amanhã. Não é uma decisão tomada na hora. Portanto, a resposta correta é 'AM GOING'."
       },
       {
         "id": "t1m05",
         "topic": "Zero Conditional",
         "question": "If you _____ ice, it _____. (general truth)",
-        "options": ["heat / melt", "heat / melts", "heated / melts", "will heat / melts"],
+        "options": [
+          "heat / melt",
+          "heat / melts",
+          "heated / melts",
+          "will heat / melts"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos falar de algo que é sempre verdadeiro, como um fato da natureza, usamos dois verbos no presente. Neste caso, a frase descreve o que acontece com gelo quando é aquecido — é sempre assim, toda vez, não é uma previsão. Portanto, a resposta correta é 'HEAT / MELTS'."
+        "explanation": "Quando queremos falar de algo que é sempre verdadeiro, como um fato da natureza, usamos dois verbos no presente. Neste caso, a frase descreve o que acontece com gelo quando é aquecido. É sempre assim, toda vez, não é uma previsão. Portanto, a resposta correta é 'HEAT / MELTS'."
       },
       {
         "id": "t1m06",
         "topic": "Zero Conditional (If + Imperative)",
         "question": "If you go to the supermarket, _____ some milk.",
-        "options": ["you bring", "bring", "you'll bring", "bringing"],
+        "options": [
+          "you bring",
+          "bring",
+          "you'll bring",
+          "bringing"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos dar uma instrução ou fazer um pedido para alguém caso uma condição aconteça, usamos o verbo diretamente, sem sujeito. Neste caso, a pessoa está pedindo que comprem leite se forem ao supermercado — é um pedido direto. Portanto, a resposta correta é 'BRING'."
+        "explanation": "Quando queremos dar uma instrução ou fazer um pedido para alguém caso uma condição aconteça, usamos o verbo diretamente, sem sujeito. Neste caso, a pessoa está pedindo que comprem leite se forem ao supermercado. É um pedido direto. Portanto, a resposta correta é 'BRING'."
       },
       {
         "id": "t1m07",
         "topic": "Comparatives (as...as)",
         "question": "Joe is _____ Rick. (same age)",
-        "options": ["as old than", "older than", "as old as", "old as"],
+        "options": [
+          "as old than",
+          "older than",
+          "as old as",
+          "old as"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que duas pessoas ou coisas são iguais em alguma característica, usamos a estrutura 'as + adjetivo + as'. Neste caso, Joe e Rick têm a mesma idade — não há diferença entre eles. Portanto, a resposta correta é 'AS OLD AS'."
+        "explanation": "Quando queremos dizer que duas pessoas ou coisas são iguais em alguma característica, usamos a estrutura 'as + adjetivo + as'. Neste caso, Joe e Rick têm a mesma idade. Não há diferença entre eles. Portanto, a resposta correta é 'AS OLD AS'."
       },
       {
         "id": "t1m08",
         "topic": "Comparatives (-er + than)",
         "question": "A whale is _____ a cat.",
-        "options": ["more long than", "longest than", "longer than", "as long as"],
+        "options": [
+          "more long than",
+          "longest than",
+          "longer than",
+          "as long as"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos mostrar que uma coisa tem mais de alguma qualidade do que outra, adicionamos -ER ao adjetivo curto e usamos THAN. Neste caso, uma baleia e um gato estão sendo comparados pelo comprimento — a baleia é muito maior. Portanto, a resposta correta é 'LONGER THAN'."
+        "explanation": "Quando queremos mostrar que uma coisa tem mais de alguma qualidade do que outra, adicionamos -ER ao adjetivo curto e usamos THAN. Neste caso, uma baleia e um gato estão sendo comparados pelo comprimento. A baleia é muito maior. Portanto, a resposta correta é 'LONGER THAN'."
       },
       {
         "id": "t1m09",
         "topic": "Comparatives (more/less + than)",
         "question": "Text messages are _____ phone calls.",
-        "options": ["more practical than", "practicaller than", "most practical than", "practical than"],
+        "options": [
+          "more practical than",
+          "practicaller than",
+          "most practical than",
+          "practical than"
+        ],
         "correct": 0,
-        "explanation": "Quando queremos comparar duas coisas usando um adjetivo longo, colocamos MORE antes do adjetivo e THAN depois. Neste caso, mensagens de texto estão sendo comparadas a ligações usando 'practical' — que é um adjetivo longo, então precisa de MORE. Portanto, a resposta correta é 'MORE PRACTICAL THAN'."
+        "explanation": "Quando queremos comparar duas coisas usando um adjetivo longo, colocamos MORE antes do adjetivo e THAN depois. Neste caso, mensagens de texto estão sendo comparadas a ligações usando 'practical'. Que é um adjetivo longo, então precisa de MORE. Portanto, a resposta correta é 'MORE PRACTICAL THAN'."
       },
       {
         "id": "t1m10",
         "topic": "Comparatives (-er/-ier)",
         "question": "An elephant is _____ a bear.",
-        "options": ["more big than", "bigger than", "biggest than", "bigest than"],
+        "options": [
+          "more big than",
+          "bigger than",
+          "biggest than",
+          "bigest than"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos comparar com o adjetivo 'big', dobramos a última letra antes de adicionar -ER, porque ele termina em consoante-vogal-consoante. Neste caso, um elefante e um urso estão sendo comparados pelo tamanho — 'big' vira 'bigger'. Portanto, a resposta correta é 'BIGGER THAN'."
+        "explanation": "Quando queremos comparar com o adjetivo 'big', dobramos a última letra antes de adicionar -ER, porque ele termina em consoante-vogal-consoante. Neste caso, um elefante e um urso estão sendo comparados pelo tamanho. 'Big' vira 'bigger'. Portanto, a resposta correta é 'BIGGER THAN'."
       },
       {
         "id": "t1m11",
         "topic": "Used To",
         "question": "I _____ smoke, but I stopped two years ago.",
-        "options": ["am used to", "use to", "used to", "was used to"],
+        "options": [
+          "am used to",
+          "use to",
+          "used to",
+          "was used to"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos falar de algo que fazíamos no passado mas que não fazemos mais, usamos USED TO antes do verbo. Neste caso, a pessoa fumava antes, mas parou há dois anos — era um hábito do passado que acabou. Portanto, a resposta correta é 'USED TO'."
+        "explanation": "Quando queremos falar de algo que fazíamos no passado mas que não fazemos mais, usamos USED TO antes do verbo. Neste caso, a pessoa fumava antes, mas parou há dois anos. Era um hábito do passado que acabou. Portanto, a resposta correta é 'USED TO'."
       },
       {
         "id": "t1m12",
         "topic": "Used To",
         "question": "Did you _____ play tennis when you were at school?",
-        "options": ["used to", "use to", "used", "using"],
+        "options": [
+          "used to",
+          "use to",
+          "used",
+          "using"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos perguntar sobre um hábito do passado, usamos DID no começo da pergunta e o verbo fica na forma básica, sem o 'D' no final. Neste caso, a pergunta é se a pessoa tinha o costume de jogar tênis na escola — com DID, escrevemos 'use to', não 'used to'. Portanto, a resposta correta é 'USE TO'."
+        "explanation": "Quando queremos perguntar sobre um hábito do passado, usamos DID no começo da pergunta e o verbo fica na forma básica, sem o 'D' no final. Neste caso, a pergunta é se a pessoa tinha o costume de jogar tênis na escola, com DID, escrevemos 'use to', não 'used to'. Portanto, a resposta correta é 'USE TO'."
       },
       {
         "id": "t1m13",
         "topic": "Prepositions + V-ing",
         "question": "I take a shower _____ going to school.",
-        "options": ["before to go", "before go", "before going", "before to going"],
+        "options": [
+          "before to go",
+          "before go",
+          "before going",
+          "before to going"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que uma ação acontece antes de outra, usamos 'before' seguido do verbo com -ing. Neste caso, a pessoa toma banho antes de ir à escola — a ação depois de 'before' sempre fica com -ing. Portanto, a resposta correta é 'BEFORE GOING'."
+        "explanation": "Quando queremos dizer que uma ação acontece antes de outra, usamos 'before' seguido do verbo com -ing. Neste caso, a pessoa toma banho antes de ir à escola. A ação depois de 'before' sempre fica com -ing. Portanto, a resposta correta é 'BEFORE GOING'."
       },
       {
         "id": "t1m14",
         "topic": "Prepositions + V-ing",
         "question": "She is afraid _____ speaking in public.",
-        "options": ["to", "for", "of", "with"],
+        "options": [
+          "to",
+          "for",
+          "of",
+          "with"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que alguém tem medo de fazer algo, usamos 'afraid OF' seguido do verbo com -ing. Neste caso, ela tem medo de falar em público — a preposição que sempre vem depois de 'afraid' é OF. Portanto, a resposta correta é 'OF'."
+        "explanation": "Quando queremos dizer que alguém tem medo de fazer algo, usamos 'afraid OF' seguido do verbo com -ing. Neste caso, ela tem medo de falar em público. A preposição que sempre vem depois de 'afraid' é OF. Portanto, a resposta correta é 'OF'."
       },
       {
         "id": "t1m15",
         "topic": "Should / Had Better",
         "question": "My mother isn't feeling well. She _____ see a doctor.",
-        "options": ["had better not", "should", "shouldn't", "had better"],
+        "options": [
+          "had better not",
+          "should",
+          "shouldn't",
+          "had better"
+        ],
         "correct": 3,
-        "explanation": "Quando queremos dar um conselho com urgência, onde a situação exige ação imediata, usamos HAD BETTER. Neste caso, a mãe não está se sentindo bem e é importante que ela consulte um médico logo — a situação é séria e urgente. Portanto, a resposta correta é 'HAD BETTER'."
+        "explanation": "Quando queremos dar um conselho com urgência, onde a situação exige ação imediata, usamos HAD BETTER. Neste caso, a mãe não está se sentindo bem e é importante que ela consulte um médico logo. A situação é séria e urgente. Portanto, a resposta correta é 'HAD BETTER'."
       },
       {
         "id": "t1m16",
         "topic": "Should / Had Better",
         "question": "_____ we tell the truth?",
-        "options": ["Had better", "Better", "Should", "Ought"],
+        "options": [
+          "Had better",
+          "Better",
+          "Should",
+          "Ought"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos perguntar se algo é a coisa certa ou recomendada a fazer, usamos SHOULD no começo da pergunta. Neste caso, as pessoas estão em dúvida se deveriam dizer a verdade — é uma pergunta sobre o que é correto. Portanto, a resposta correta é 'SHOULD'."
+        "explanation": "Quando queremos perguntar se algo é a coisa certa ou recomendada a fazer, usamos SHOULD no começo da pergunta. Neste caso, as pessoas estão em dúvida se deveriam dizer a verdade. É uma pergunta sobre o que é correto. Portanto, a resposta correta é 'SHOULD'."
       },
       {
         "id": "t1m17",
         "topic": "Was/Were Going To (Past Plans)",
         "question": "I _____ study, but I had a headache.",
-        "options": ["was going to", "am going to", "will", "went to"],
+        "options": [
+          "was going to",
+          "am going to",
+          "will",
+          "went to"
+        ],
         "correct": 0,
         "explanation": "Quando queremos falar de um plano que tínhamos no passado mas que não aconteceu por algum motivo, usamos WAS/WERE GOING TO. Neste caso, a pessoa planejava estudar, mas não pôde por causa de uma dor de cabeça. Portanto, a resposta correta é 'WAS GOING TO'."
       },
@@ -146,47 +231,77 @@
         "id": "t1m18",
         "topic": "Was/Were Going To (Past Plans)",
         "question": "Dave _____ come to our party, but he couldn't find a babysitter.",
-        "options": ["was going", "were going to", "was going to", "is going to"],
+        "options": [
+          "was going",
+          "were going to",
+          "was going to",
+          "is going to"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos falar de um plano que alguém tinha no passado mas que não deu certo, usamos WAS ou WERE GOING TO. Neste caso, Dave ia vir à festa mas não pôde porque não encontrou babá — como Dave é 'he', a forma certa é WAS. Portanto, a resposta correta é 'WAS GOING TO'."
+        "explanation": "Quando queremos falar de um plano que alguém tinha no passado mas que não deu certo, usamos WAS ou WERE GOING TO. Neste caso, Dave ia vir à festa mas não pôde porque não encontrou babá. Como Dave é 'he', a forma certa é WAS. Portanto, a resposta correta é 'WAS GOING TO'."
       },
       {
         "id": "t1m19",
         "topic": "Gerund as Subject",
         "question": "_____ is a good exercise.",
-        "options": ["Swim", "To swimming", "Swimming", "Swims"],
+        "options": [
+          "Swim",
+          "To swimming",
+          "Swimming",
+          "Swims"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos usar uma ação como o assunto principal da frase em inglês, colocamos o verbo com -ing. Neste caso, estamos dizendo que nadar é um bom exercício — 'nadar' é o assunto, então em inglês vai com -ing. Portanto, a resposta correta é 'SWIMMING'."
+        "explanation": "Quando queremos usar uma ação como o assunto principal da frase em inglês, colocamos o verbo com -ing. Neste caso, estamos dizendo que nadar é um bom exercício. 'Nadar' é o assunto, então em inglês vai com -ing. Portanto, a resposta correta é 'SWIMMING'."
       },
       {
         "id": "t1m20",
         "topic": "Gerund as Subject",
         "question": "_____ lies can get you into trouble.",
-        "options": ["Tell", "To tell", "Telling", "Tells"],
+        "options": [
+          "Tell",
+          "To tell",
+          "Telling",
+          "Tells"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos usar uma ação como o assunto principal da frase, colocamos o verbo com -ing. Neste caso, 'contar mentiras' é o assunto da frase — é isso que pode te meter em encrenca. Portanto, a resposta correta é 'TELLING'."
+        "explanation": "Quando queremos usar uma ação como o assunto principal da frase, colocamos o verbo com -ing. Neste caso, 'contar mentiras' é o assunto da frase. É isso que pode te meter em encrenca. Portanto, a resposta correta é 'TELLING'."
       },
       {
         "id": "t1m21",
         "topic": "Some / Any / No",
         "question": "We need _____ bananas.",
-        "options": ["any", "no", "some", "much"],
+        "options": [
+          "any",
+          "no",
+          "some",
+          "much"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que precisamos de uma quantidade de algo em uma frase positiva, usamos SOME. Neste caso, a frase afirma que precisamos de bananas — é uma frase positiva, então a palavra certa é SOME. Portanto, a resposta correta é 'SOME'."
+        "explanation": "Quando queremos dizer que precisamos de uma quantidade de algo em uma frase positiva, usamos SOME. Neste caso, a frase afirma que precisamos de bananas. É uma frase positiva, então a palavra certa é SOME. Portanto, a resposta correta é 'SOME'."
       },
       {
         "id": "t1m22",
         "topic": "Some / Any / No",
         "question": "You can't buy _____ posters in this shop.",
-        "options": ["some", "no", "any", "much"],
+        "options": [
+          "some",
+          "no",
+          "any",
+          "much"
+        ],
         "correct": 2,
-        "explanation": "Quando temos uma frase negativa ou com uma palavra de negação como 'can't', usamos ANY no lugar de SOME. Neste caso, a frase diz que não é possível comprar cartazes nessa loja — é negativa com 'can't'. Portanto, a resposta correta é 'ANY'."
+        "explanation": "Quando temos uma frase negativa ou com uma palavra de negação como 'can't', usamos ANY no lugar de SOME. Neste caso, a frase diz que não é possível comprar cartazes nessa loja. É negativa com 'can't'. Portanto, a resposta correta é 'ANY'."
       },
       {
         "id": "t1m23",
         "topic": "Tag Questions",
         "question": "You have been to Paris before, _____?",
-        "options": ["have you", "haven't you", "did you", "didn't you"],
+        "options": [
+          "have you",
+          "haven't you",
+          "did you",
+          "didn't you"
+        ],
         "correct": 1,
         "explanation": "Quando a frase é positiva, o finalzinho de pergunta é negativo e usa o mesmo auxiliar da frase. Neste caso, a frase é positiva com HAVE BEEN, então o finalzinho é negativo com HAVEN'T. Portanto, a resposta correta é 'HAVEN'T YOU?'"
       },
@@ -194,7 +309,12 @@
         "id": "t1m24",
         "topic": "Tag Questions",
         "question": "They aren't coming to the party, _____?",
-        "options": ["are they", "aren't they", "do they", "don't they"],
+        "options": [
+          "are they",
+          "aren't they",
+          "do they",
+          "don't they"
+        ],
         "correct": 0,
         "explanation": "Quando a frase é negativa, o finalzinho de pergunta é positivo e usa o mesmo auxiliar da frase. Neste caso, a frase é negativa com AREN'T, então o finalzinho é positivo com ARE. Portanto, a resposta correta é 'ARE THEY?'"
       },
@@ -202,23 +322,38 @@
         "id": "t1m25",
         "topic": "Used To",
         "question": "She _____ live in Paris when she was young.",
-        "options": ["use to", "is used to", "used to", "was used"],
+        "options": [
+          "use to",
+          "is used to",
+          "used to",
+          "was used"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos falar de um estado ou situação que existia no passado mas que não existe mais, usamos USED TO. Neste caso, ela morava em Paris quando era jovem — mas não mora mais lá. Portanto, a resposta correta é 'USED TO'."
+        "explanation": "Quando queremos falar de um estado ou situação que existia no passado mas que não existe mais, usamos USED TO. Neste caso, ela morava em Paris quando era jovem, mas não mora mais lá. Portanto, a resposta correta é 'USED TO'."
       },
       {
         "id": "t1m26",
         "topic": "Used To",
         "question": "They _____ walk to school. Now they take the bus.",
-        "options": ["were used to", "used to", "use to", "are used to"],
+        "options": [
+          "were used to",
+          "used to",
+          "use to",
+          "are used to"
+        ],
         "correct": 1,
-        "explanation": "USED TO descreve um hábito ou rotina do passado que não acontece mais. Neste caso, eles tinham o costume de ir a pé para a escola — mas agora pegam ônibus. Portanto, a resposta correta é 'USED TO'."
+        "explanation": "USED TO descreve um hábito ou rotina do passado que não acontece mais. Neste caso, eles tinham o costume de ir a pé para a escola, mas agora pegam ônibus. Portanto, a resposta correta é 'USED TO'."
       },
       {
         "id": "t1m27",
         "topic": "Used To",
         "question": "He _____ eat meat, but he became a vegetarian last year.",
-        "options": ["use to", "didn't used to", "used to", "doesn't used to"],
+        "options": [
+          "use to",
+          "didn't used to",
+          "used to",
+          "doesn't used to"
+        ],
         "correct": 2,
         "explanation": "Para falar de algo que alguém fazia regularmente no passado mas que parou de fazer, usamos USED TO. Neste caso, ele comia carne antes, mas parou quando se tornou vegetariano. Portanto, a resposta correta é 'USED TO'."
       },
@@ -226,63 +361,103 @@
         "id": "t1m28",
         "topic": "Prepositions + V-ing",
         "question": "We left without _____ goodbye.",
-        "options": ["say", "to say", "saying", "to saying"],
+        "options": [
+          "say",
+          "to say",
+          "saying",
+          "to saying"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que uma ação aconteceu sem que outra fosse feita, usamos 'without' seguido do verbo com -ing. Neste caso, eles foram embora sem se despedir — a ação depois de 'without' sempre fica com -ing. Portanto, a resposta correta é 'SAYING'."
+        "explanation": "Quando queremos dizer que uma ação aconteceu sem que outra fosse feita, usamos 'without' seguido do verbo com -ing. Neste caso, eles foram embora sem se despedir. A ação depois de 'without' sempre fica com -ing. Portanto, a resposta correta é 'SAYING'."
       },
       {
         "id": "t1m29",
         "topic": "Prepositions + V-ing",
         "question": "I'm not very good _____ cooking.",
-        "options": ["at", "in", "for", "to"],
+        "options": [
+          "at",
+          "in",
+          "for",
+          "to"
+        ],
         "correct": 0,
-        "explanation": "Quando queremos dizer que alguém é bom ou ruim em alguma habilidade, usamos 'good AT' seguido do verbo com -ing. Neste caso, a pessoa não é boa em cozinhar — a preposição que sempre vem depois de 'good' nesse sentido é AT. Portanto, a resposta correta é 'AT'."
+        "explanation": "Quando queremos dizer que alguém é bom ou ruim em alguma habilidade, usamos 'good AT' seguido do verbo com -ing. Neste caso, a pessoa não é boa em cozinhar. A preposição que sempre vem depois de 'good' nesse sentido é AT. Portanto, a resposta correta é 'AT'."
       },
       {
         "id": "t1m30",
         "topic": "Prepositions + V-ing",
         "question": "She thanked me _____ helping her with the project.",
-        "options": ["for", "to", "at", "of"],
+        "options": [
+          "for",
+          "to",
+          "at",
+          "of"
+        ],
         "correct": 0,
-        "explanation": "Quando queremos dizer pelo quê alguém agradece, usamos 'thank FOR' seguido do verbo com -ing. Neste caso, ela estava agradecendo pela ajuda no projeto — a preposição que sempre vem depois de 'thank' é FOR. Portanto, a resposta correta é 'FOR'."
+        "explanation": "Quando queremos dizer pelo quê alguém agradece, usamos 'thank FOR' seguido do verbo com -ing. Neste caso, ela estava agradecendo pela ajuda no projeto. A preposição que sempre vem depois de 'thank' é FOR. Portanto, a resposta correta é 'FOR'."
       },
       {
         "id": "t1m31",
         "topic": "Should / Had Better",
         "question": "You look tired. You _____ get some rest.",
-        "options": ["had better not", "shouldn't", "should", "had better to"],
+        "options": [
+          "had better not",
+          "shouldn't",
+          "should",
+          "had better to"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dar um conselho simples e tranquilo, sem urgência nem consequência grave, usamos SHOULD. Neste caso, a pessoa está cansada e a sugestão é que ela descanse — é um conselho comum, sem pressa especial. Portanto, a resposta correta é 'SHOULD'."
+        "explanation": "Quando queremos dar um conselho simples e tranquilo, sem urgência nem consequência grave, usamos SHOULD. Neste caso, a pessoa está cansada e a sugestão é que ela descanse. É um conselho comum, sem pressa especial. Portanto, a resposta correta é 'SHOULD'."
       },
       {
         "id": "t1m32",
         "topic": "Should / Had Better",
         "question": "It's getting late. You _____ leave now or you'll miss the train.",
-        "options": ["should", "should to", "had better", "had better to"],
+        "options": [
+          "should",
+          "should to",
+          "had better",
+          "had better to"
+        ],
         "correct": 2,
-        "explanation": "Quando o conselho vem com uma consequência negativa clara e a situação é urgente, usamos HAD BETTER. Neste caso, a pessoa vai perder o trem se não sair logo — é urgente e há uma consequência direta. Portanto, a resposta correta é 'HAD BETTER'."
+        "explanation": "Quando o conselho vem com uma consequência negativa clara e a situação é urgente, usamos HAD BETTER. Neste caso, a pessoa vai perder o trem se não sair logo. É urgente e há uma consequência direta. Portanto, a resposta correta é 'HAD BETTER'."
       },
       {
         "id": "t1m33",
         "topic": "Should / Had Better",
         "question": "_____ I call her and apologize?",
-        "options": ["Had I better", "Better", "Should", "Had better"],
+        "options": [
+          "Had I better",
+          "Better",
+          "Should",
+          "Had better"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos pedir uma opinião ou sugestão sobre o que é correto fazer, usamos SHOULD no começo da pergunta. Neste caso, a pessoa está em dúvida se deve ligar para pedir desculpas — é uma pergunta sobre o que é certo. Portanto, a resposta correta é 'SHOULD'."
+        "explanation": "Quando queremos pedir uma opinião ou sugestão sobre o que é correto fazer, usamos SHOULD no começo da pergunta. Neste caso, a pessoa está em dúvida se deve ligar para pedir desculpas. É uma pergunta sobre o que é certo. Portanto, a resposta correta é 'SHOULD'."
       },
       {
         "id": "t1m34",
         "topic": "Was/Were Going To (Past Plans)",
         "question": "We _____ go camping last weekend, but it rained all day.",
-        "options": ["are going to", "were going to", "was going to", "will going to"],
+        "options": [
+          "are going to",
+          "were going to",
+          "was going to",
+          "will going to"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos falar de um plano que um grupo tinha no passado mas que não aconteceu, usamos WERE GOING TO. Neste caso, o grupo planejava acampar, mas a chuva impediu — como o sujeito é WE, a forma certa é WERE. Portanto, a resposta correta é 'WERE GOING TO'."
+        "explanation": "Quando queremos falar de um plano que um grupo tinha no passado mas que não aconteceu, usamos WERE GOING TO. Neste caso, o grupo planejava acampar, mas a chuva impediu. Como o sujeito é WE, a forma certa é WERE. Portanto, a resposta correta é 'WERE GOING TO'."
       },
       {
         "id": "t1m35",
         "topic": "Was/Were Going To (Past Plans)",
         "question": "They _____ buy a new car, but they didn't have enough money.",
-        "options": ["was going to", "were going to", "are going to", "will go to"],
+        "options": [
+          "was going to",
+          "were going to",
+          "are going to",
+          "will go to"
+        ],
         "correct": 1,
         "explanation": "Com o sujeito THEY, usamos WERE GOING TO para falar de planos do passado que não se realizaram. Neste caso, eles pretendiam comprar um carro novo, mas o dinheiro não era suficiente. Portanto, a resposta correta é 'WERE GOING TO'."
       },
@@ -290,79 +465,129 @@
         "id": "t1m36",
         "topic": "Was/Were Going To (Past Plans)",
         "question": "She _____ study abroad, but she changed her mind.",
-        "options": ["was going to", "were going to", "is going to", "goes to"],
+        "options": [
+          "was going to",
+          "were going to",
+          "is going to",
+          "goes to"
+        ],
         "correct": 0,
-        "explanation": "Com o sujeito SHE, usamos WAS GOING TO para falar de um plano passado que não aconteceu. Neste caso, ela planejava estudar no exterior, mas desistiu — como é she/he/it, usamos WAS. Portanto, a resposta correta é 'WAS GOING TO'."
+        "explanation": "Com o sujeito SHE, usamos WAS GOING TO para falar de um plano passado que não aconteceu. Neste caso, ela planejava estudar no exterior, mas desistiu. Como é she/he/it, usamos WAS. Portanto, a resposta correta é 'WAS GOING TO'."
       },
       {
         "id": "t1m37",
         "topic": "Gerund as Subject",
         "question": "_____ a good book is very relaxing.",
-        "options": ["Read", "To reading", "Reading", "Reads"],
+        "options": [
+          "Read",
+          "To reading",
+          "Reading",
+          "Reads"
+        ],
         "correct": 2,
-        "explanation": "Quando uma ação é o sujeito da frase em inglês, usamos o verbo com -ing. Neste caso, 'ler um bom livro' é o assunto — é isso que é relaxante. Portanto, a resposta correta é 'READING'."
+        "explanation": "Quando uma ação é o sujeito da frase em inglês, usamos o verbo com -ing. Neste caso, 'ler um bom livro' é o assunto. É isso que é relaxante. Portanto, a resposta correta é 'READING'."
       },
       {
         "id": "t1m38",
         "topic": "Gerund as Subject",
         "question": "_____ properly is very important for your health.",
-        "options": ["Sleep", "To sleeping", "Sleeps", "Sleeping"],
+        "options": [
+          "Sleep",
+          "To sleeping",
+          "Sleeps",
+          "Sleeping"
+        ],
         "correct": 3,
-        "explanation": "O sujeito da frase pode ser um verbo com -ing — chamamos isso de gerúndio. Neste caso, 'dormir bem' é o assunto da frase, que diz que isso é importante para a saúde. Portanto, a resposta correta é 'SLEEPING'."
+        "explanation": "O sujeito da frase pode ser um verbo com -ing, chamamos isso de gerúndio. Neste caso, 'dormir bem' é o assunto da frase, que diz que isso é importante para a saúde. Portanto, a resposta correta é 'SLEEPING'."
       },
       {
         "id": "t1m39",
         "topic": "Gerund as Subject",
         "question": "_____ too much can be bad for you.",
-        "options": ["Work", "To work", "Working", "Works"],
+        "options": [
+          "Work",
+          "To work",
+          "Working",
+          "Works"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos colocar uma ação como o assunto principal da frase, usamos o verbo com -ing. Neste caso, 'trabalhar demais' é o assunto — é isso que pode ser prejudicial. Portanto, a resposta correta é 'WORKING'."
+        "explanation": "Quando queremos colocar uma ação como o assunto principal da frase, usamos o verbo com -ing. Neste caso, 'trabalhar demais' é o assunto. É isso que pode ser prejudicial. Portanto, a resposta correta é 'WORKING'."
       },
       {
         "id": "t1m40",
         "topic": "Some / Any / No",
         "question": "There are _____ apples in the fridge. Would you like one?",
-        "options": ["any", "no", "some", "much"],
+        "options": [
+          "any",
+          "no",
+          "some",
+          "much"
+        ],
         "correct": 2,
-        "explanation": "Em frases afirmativas, usamos SOME para indicar uma quantidade de algo. Neste caso, a frase confirma que há maçãs na geladeira — é uma afirmação positiva, e a pessoa até oferece uma. Portanto, a resposta correta é 'SOME'."
+        "explanation": "Em frases afirmativas, usamos SOME para indicar uma quantidade de algo. Neste caso, a frase confirma que há maçãs na geladeira. É uma afirmação positiva, e a pessoa até oferece uma. Portanto, a resposta correta é 'SOME'."
       },
       {
         "id": "t1m41",
         "topic": "Some / Any / No",
         "question": "Do you have _____ brothers or sisters?",
-        "options": ["no", "some", "any", "much"],
+        "options": [
+          "no",
+          "some",
+          "any",
+          "much"
+        ],
         "correct": 2,
-        "explanation": "Em perguntas, usamos ANY no lugar de SOME para perguntar sobre a existência de algo. Neste caso, a pergunta é sobre se a pessoa tem irmãos — é uma pergunta, então a palavra certa é ANY. Portanto, a resposta correta é 'ANY'."
+        "explanation": "Em perguntas, usamos ANY no lugar de SOME para perguntar sobre a existência de algo. Neste caso, a pergunta é sobre se a pessoa tem irmãos. É uma pergunta, então a palavra certa é ANY. Portanto, a resposta correta é 'ANY'."
       },
       {
         "id": "t1m42",
         "topic": "Some / Any / No",
         "question": "She made _____ mistakes in the test. She got 100%!",
-        "options": ["some", "any", "no", "none of"],
+        "options": [
+          "some",
+          "any",
+          "no",
+          "none of"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que a quantidade é zero — que algo não existe —, usamos NO antes do substantivo. Neste caso, ela não errou nenhuma questão na prova, por isso tirou 100. Portanto, a resposta correta é 'NO'."
+        "explanation": "Quando queremos dizer que a quantidade é zero (que algo não existe), usamos NO antes do substantivo. Neste caso, ela não errou nenhuma questão na prova, por isso tirou 100. Portanto, a resposta correta é 'NO'."
       },
       {
         "id": "t1m43",
         "topic": "Future Arrangements (Be + -ing)",
         "question": "They _____ dinner at an Italian restaurant tonight. (reservation already made)",
-        "options": ["will have", "have", "are having", "going to have"],
+        "options": [
+          "will have",
+          "have",
+          "are having",
+          "going to have"
+        ],
         "correct": 2,
-        "explanation": "Quando um plano já está marcado com antecedência — como uma reserva num restaurante —, usamos o verbo com -ing no presente. Neste caso, o jantar já está reservado para esta noite. Portanto, a resposta correta é 'ARE HAVING'."
+        "explanation": "Quando um plano já está marcado com antecedência (como uma reserva num restaurante), usamos o verbo com -ing no presente. Neste caso, o jantar já está reservado para esta noite. Portanto, a resposta correta é 'ARE HAVING'."
       },
       {
         "id": "t1m44",
         "topic": "Future Arrangements (Be + -ing)",
         "question": "My sister _____ married next month. (the date is set)",
-        "options": ["will get", "is getting", "gets", "going to get"],
+        "options": [
+          "will get",
+          "is getting",
+          "gets",
+          "going to get"
+        ],
         "correct": 1,
-        "explanation": "Quando um evento futuro já está agendado e organizado, usamos o verbo com -ing no presente. Neste caso, o casamento da irmã já tem data marcada — não é uma decisão de última hora. Portanto, a resposta correta é 'IS GETTING'."
+        "explanation": "Quando um evento futuro já está agendado e organizado, usamos o verbo com -ing no presente. Neste caso, o casamento da irmã já tem data marcada. Não é uma decisão de última hora. Portanto, a resposta correta é 'IS GETTING'."
       },
       {
         "id": "t1m45",
         "topic": "Future Arrangements (Be + -ing)",
         "question": "What _____ you _____ this weekend? (asking about personal plans)",
-        "options": ["will / do", "do / do", "are / doing", "are / do"],
+        "options": [
+          "will / do",
+          "do / do",
+          "are / doing",
+          "are / do"
+        ],
         "correct": 2,
         "explanation": "Quando perguntamos sobre planos pessoais para o futuro próximo, usamos ARE/IS + verbo com -ING. Neste caso, a pergunta é sobre o que a pessoa já planeja fazer no fim de semana. Portanto, a resposta correta é 'ARE / DOING'."
       },
@@ -370,23 +595,38 @@
         "id": "t1m46",
         "topic": "Future Arrangements (Be + -ing)",
         "question": "He _____ his friend at the airport at 7 a.m. tomorrow. (confirmed plan)",
-        "options": ["will meet", "meets", "is meeting", "go to meet"],
+        "options": [
+          "will meet",
+          "meets",
+          "is meeting",
+          "go to meet"
+        ],
         "correct": 2,
-        "explanation": "Quando dois amigos já combinaram de se encontrar num horário específico, isso é um plano organizado — usamos o verbo com -ing no presente. Neste caso, o encontro no aeroporto já está acertado. Portanto, a resposta correta é 'IS MEETING'."
+        "explanation": "Quando dois amigos já combinaram de se encontrar num horário específico, isso é um plano organizado. Usamos o verbo com -ing no presente. Neste caso, o encontro no aeroporto já está acertado. Portanto, a resposta correta é 'IS MEETING'."
       },
       {
         "id": "t1m47",
         "topic": "Zero Conditional",
         "question": "If plants _____ water, they _____.",
-        "options": ["don't get / die", "don't get / dying", "not get / die", "get not / dies"],
+        "options": [
+          "don't get / die",
+          "don't get / dying",
+          "not get / die",
+          "get not / dies"
+        ],
         "correct": 0,
-        "explanation": "No zero conditional, usamos o presente simples nas duas partes da frase para descrever fatos ou verdades gerais. Neste caso, a frase descreve o que sempre acontece com plantas que não recebem água — é uma verdade da natureza. Portanto, a resposta correta é 'DON'T GET / DIE'."
+        "explanation": "No zero conditional, usamos o presente simples nas duas partes da frase para descrever fatos ou verdades gerais. Neste caso, a frase descreve o que sempre acontece com plantas que não recebem água. É uma verdade da natureza. Portanto, a resposta correta é 'DON'T GET / DIE'."
       },
       {
         "id": "t1m48",
         "topic": "Zero Conditional",
         "question": "Water _____ at 100°C if you _____ it.",
-        "options": ["boils / heat", "boil / heat", "boils / heats", "boil / heats"],
+        "options": [
+          "boils / heat",
+          "boil / heat",
+          "boils / heats",
+          "boil / heats"
+        ],
         "correct": 0,
         "explanation": "No zero conditional, os dois verbos ficam no presente simples. 'Water' é singular, então usamos 'boils'; 'you' precisa de 'heat' (sem -s). Neste caso, a frase descreve um fato científico que sempre ocorre. Portanto, a resposta correta é 'BOILS / HEAT'."
       },
@@ -394,31 +634,51 @@
         "id": "t1m49",
         "topic": "Zero Conditional",
         "question": "If you stay in the sun too long, your skin _____.",
-        "options": ["burns", "will burn", "burned", "burning"],
+        "options": [
+          "burns",
+          "will burn",
+          "burned",
+          "burning"
+        ],
         "correct": 0,
-        "explanation": "No zero conditional, a consequência também fica no presente simples — não usamos WILL. Neste caso, a consequência de ficar muito tempo no sol é a pele queimar — e isso acontece sempre. Portanto, a resposta correta é 'BURNS'."
+        "explanation": "No zero conditional, a consequência também fica no presente simples. Não usamos WILL. Neste caso, a consequência de ficar muito tempo no sol é a pele queimar, e isso acontece sempre. Portanto, a resposta correta é 'BURNS'."
       },
       {
         "id": "t1m50",
         "topic": "Zero Conditional",
         "question": "If I feel hungry at night, I usually _____.",
-        "options": ["eat something", "will eat something", "ate something", "eating something"],
+        "options": [
+          "eat something",
+          "will eat something",
+          "ate something",
+          "eating something"
+        ],
         "correct": 0,
-        "explanation": "O zero conditional descreve algo que sempre acontece quando uma condição se repete. Usamos o presente simples nas duas partes da frase. Neste caso, comer à noite com fome é um hábito da pessoa — algo que ela sempre faz. Portanto, a resposta correta é 'EAT SOMETHING'."
+        "explanation": "O zero conditional descreve algo que sempre acontece quando uma condição se repete. Usamos o presente simples nas duas partes da frase. Neste caso, comer à noite com fome é um hábito da pessoa, algo que ela sempre faz. Portanto, a resposta correta é 'EAT SOMETHING'."
       },
       {
         "id": "t1m51",
         "topic": "Zero Conditional (If + Imperative)",
         "question": "If you feel sick, _____ a doctor.",
-        "options": ["you should see", "see", "you see", "seeing"],
+        "options": [
+          "you should see",
+          "see",
+          "you see",
+          "seeing"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos dar uma instrução direta com uma condição, usamos o imperativo — o verbo na forma básica, sem sujeito. Neste caso, a instrução é consultar um médico caso a pessoa se sinta doente. Portanto, a resposta correta é 'SEE'."
+        "explanation": "Quando queremos dar uma instrução direta com uma condição, usamos o imperativo, o verbo na forma básica, sem sujeito. Neste caso, a instrução é consultar um médico caso a pessoa se sinta doente. Portanto, a resposta correta é 'SEE'."
       },
       {
         "id": "t1m52",
         "topic": "Zero Conditional (If + Imperative)",
         "question": "If the phone rings, _____ it for me, please.",
-        "options": ["answer", "you answer", "answering", "answered"],
+        "options": [
+          "answer",
+          "you answer",
+          "answering",
+          "answered"
+        ],
         "correct": 0,
         "explanation": "Com If + Imperativo, damos um pedido ou instrução direta usando o verbo na forma básica, sem sujeito. Neste caso, a pessoa está pedindo que atendam o telefone se ele tocar. Portanto, a resposta correta é 'ANSWER'."
       },
@@ -426,55 +686,90 @@
         "id": "t1m53",
         "topic": "Zero Conditional (If + Imperative)",
         "question": "If you're hungry, _____ something from the fridge.",
-        "options": ["taking", "you take", "take", "to take"],
+        "options": [
+          "taking",
+          "you take",
+          "take",
+          "to take"
+        ],
         "correct": 2,
-        "explanation": "O imperativo é usado depois de 'if' quando queremos dar permissão ou uma instrução. Neste caso, a pessoa está dando permissão para pegar comida da geladeira caso alguém esteja com fome — o verbo fica na forma básica. Portanto, a resposta correta é 'TAKE'."
+        "explanation": "O imperativo é usado depois de 'if' quando queremos dar permissão ou uma instrução. Neste caso, a pessoa está dando permissão para pegar comida da geladeira caso alguém esteja com fome. O verbo fica na forma básica. Portanto, a resposta correta é 'TAKE'."
       },
       {
         "id": "t1m54",
         "topic": "Zero Conditional (If + Imperative)",
         "question": "If it rains tomorrow, _____ your umbrella.",
-        "options": ["bringing", "to bring", "you should bring", "bring"],
+        "options": [
+          "bringing",
+          "to bring",
+          "you should bring",
+          "bring"
+        ],
         "correct": 3,
-        "explanation": "Quando damos um conselho ou instrução direta com uma condição, usamos o imperativo depois de 'if'. Neste caso, o conselho é levar o guarda-chuva caso chova — a forma imperativa é o verbo direto, sem sujeito. Portanto, a resposta correta é 'BRING'."
+        "explanation": "Quando damos um conselho ou instrução direta com uma condição, usamos o imperativo depois de 'if'. Neste caso, o conselho é levar o guarda-chuva caso chova. A forma imperativa é o verbo direto, sem sujeito. Portanto, a resposta correta é 'BRING'."
       },
       {
         "id": "t1m55",
         "topic": "Comparatives (as...as)",
         "question": "Is London _____ New York? (similar size)",
-        "options": ["as big as", "more big as", "as big than", "bigger as"],
+        "options": [
+          "as big as",
+          "more big as",
+          "as big than",
+          "bigger as"
+        ],
         "correct": 0,
-        "explanation": "Para dizer que duas coisas têm a mesma característica, usamos 'as + adjetivo + as'. Neste caso, a pergunta é se Londres e Nova York são do mesmo tamanho — sem diferença entre as duas. Portanto, a resposta correta é 'AS BIG AS'."
+        "explanation": "Para dizer que duas coisas têm a mesma característica, usamos 'as + adjetivo + as'. Neste caso, a pergunta é se Londres e Nova York são do mesmo tamanho, sem diferença entre as duas. Portanto, a resposta correta é 'AS BIG AS'."
       },
       {
         "id": "t1m56",
         "topic": "Comparatives (as...as)",
         "question": "This coffee is not _____ the one I had yesterday.",
-        "options": ["as good as", "as good than", "so good that", "good as"],
+        "options": [
+          "as good as",
+          "as good than",
+          "so good that",
+          "good as"
+        ],
         "correct": 0,
-        "explanation": "A estrutura 'not as + adjetivo + as' indica que a primeira coisa é inferior à segunda. Neste caso, o café de hoje não é tão bom quanto o de ontem — há uma diferença, e hoje está pior. Portanto, a resposta correta é 'AS GOOD AS'."
+        "explanation": "A estrutura 'not as + adjetivo + as' indica que a primeira coisa é inferior à segunda. Neste caso, o café de hoje não é tão bom quanto o de ontem. Há uma diferença, e hoje está pior. Portanto, a resposta correta é 'AS GOOD AS'."
       },
       {
         "id": "t1m57",
         "topic": "Comparatives (as...as)",
         "question": "The train was _____ the bus. (same speed)",
-        "options": ["as fast than", "faster as", "as fast as", "so fast as"],
+        "options": [
+          "as fast than",
+          "faster as",
+          "as fast as",
+          "so fast as"
+        ],
         "correct": 2,
-        "explanation": "Para igualar duas coisas em alguma característica, a estrutura correta é 'as + adjetivo + as'. Neste caso, o trem e o ônibus tinham a mesma velocidade — nenhum era mais rápido. Portanto, a resposta correta é 'AS FAST AS'."
+        "explanation": "Para igualar duas coisas em alguma característica, a estrutura correta é 'as + adjetivo + as'. Neste caso, o trem e o ônibus tinham a mesma velocidade. Nenhum era mais rápido. Portanto, a resposta correta é 'AS FAST AS'."
       },
       {
         "id": "t1m58",
         "topic": "Comparatives (as...as)",
         "question": "His room is _____ mine. (same size)",
-        "options": ["as large as", "as large than", "large as", "so large than"],
+        "options": [
+          "as large as",
+          "as large than",
+          "large as",
+          "so large than"
+        ],
         "correct": 0,
-        "explanation": "Quando duas coisas têm o mesmo tamanho ou qualidade, usamos 'as + adjetivo + as'. Neste caso, o quarto dele e o meu têm o mesmo tamanho — não há diferença. Portanto, a resposta correta é 'AS LARGE AS'."
+        "explanation": "Quando duas coisas têm o mesmo tamanho ou qualidade, usamos 'as + adjetivo + as'. Neste caso, o quarto dele e o meu têm o mesmo tamanho. Não há diferença. Portanto, a resposta correta é 'AS LARGE AS'."
       },
       {
         "id": "t1m59",
         "topic": "Comparatives (-er + than)",
         "question": "Summer is _____ winter.",
-        "options": ["more hot than", "hot than", "hotter than", "hottest than"],
+        "options": [
+          "more hot than",
+          "hot than",
+          "hotter than",
+          "hottest than"
+        ],
         "correct": 2,
         "explanation": "Com adjetivos curtos de uma sílaba, adicionamos -ER e usamos THAN para comparar. Quando o adjetivo termina em consoante-vogal-consoante (como 'hot'), dobramos a última consoante. Portanto, a resposta correta é 'HOTTER THAN'."
       },
@@ -482,7 +777,12 @@
         "id": "t1m60",
         "topic": "Comparatives (-er + than)",
         "question": "She is _____ her brother.",
-        "options": ["tall than", "more tall than", "taller than", "as tall than"],
+        "options": [
+          "tall than",
+          "more tall than",
+          "taller than",
+          "as tall than"
+        ],
         "correct": 2,
         "explanation": "Com adjetivos curtos, adicionamos -ER + THAN para fazer a comparação. 'Tall' tem apenas uma sílaba, então não usamos MORE. Neste caso, ela está sendo comparada ao irmão em altura. Portanto, a resposta correta é 'TALLER THAN'."
       },
@@ -490,23 +790,38 @@
         "id": "t1m61",
         "topic": "Comparatives (-er + than)",
         "question": "This test is _____ the last one.",
-        "options": ["more hard than", "harder than", "hardier than", "hard than"],
+        "options": [
+          "more hard than",
+          "harder than",
+          "hardier than",
+          "hard than"
+        ],
         "correct": 1,
-        "explanation": "O adjetivo 'hard' tem uma sílaba, então a comparação é feita com -ER + THAN, sem usar MORE. Neste caso, a prova de hoje está sendo comparada à anterior — e é mais difícil. Portanto, a resposta correta é 'HARDER THAN'."
+        "explanation": "O adjetivo 'hard' tem uma sílaba, então a comparação é feita com -ER + THAN, sem usar MORE. Neste caso, a prova de hoje está sendo comparada à anterior, e é mais difícil. Portanto, a resposta correta é 'HARDER THAN'."
       },
       {
         "id": "t1m62",
         "topic": "Comparatives (-er + than)",
         "question": "The new office is _____ the old one.",
-        "options": ["nicer than", "more nicer than", "nice than", "nicelier than"],
+        "options": [
+          "nicer than",
+          "more nicer than",
+          "nice than",
+          "nicelier than"
+        ],
         "correct": 0,
-        "explanation": "Com adjetivos curtos terminados em -E, adicionamos apenas -R + THAN para comparar. 'Nice' vira 'nicer' — nunca usamos MORE com adjetivos curtos. Neste caso, o novo escritório está sendo comparado ao antigo. Portanto, a resposta correta é 'NICER THAN'."
+        "explanation": "Com adjetivos curtos terminados em -E, adicionamos apenas -R + THAN para comparar. 'Nice' vira 'nicer'. Nunca usamos MORE com adjetivos curtos. Neste caso, o novo escritório está sendo comparado ao antigo. Portanto, a resposta correta é 'NICER THAN'."
       },
       {
         "id": "t1m63",
         "topic": "Comparatives (more/less + than)",
         "question": "History is _____ geography. (more interesting)",
-        "options": ["interestinger than", "more interesting than", "most interesting than", "interesting than"],
+        "options": [
+          "interestinger than",
+          "more interesting than",
+          "most interesting than",
+          "interesting than"
+        ],
         "correct": 1,
         "explanation": "Com adjetivos longos (três ou mais sílabas), usamos MORE + adjetivo + THAN para comparar. 'Interesting' é longo demais para receber -ER. Neste caso, história e geografia estão sendo comparadas em termos de interesse. Portanto, a resposta correta é 'MORE INTERESTING THAN'."
       },
@@ -514,15 +829,25 @@
         "id": "t1m64",
         "topic": "Comparatives (more/less + than)",
         "question": "Electric cars are _____ petrol cars.",
-        "options": ["expensive than", "expensiver than", "more expensive than", "most expensive than"],
+        "options": [
+          "expensive than",
+          "expensiver than",
+          "more expensive than",
+          "most expensive than"
+        ],
         "correct": 2,
-        "explanation": "O adjetivo 'expensive' tem três sílabas, então a comparação usa MORE + adjetivo + THAN — nunca -ER. Neste caso, carros elétricos e a gasolina estão sendo comparados em preço. Portanto, a resposta correta é 'MORE EXPENSIVE THAN'."
+        "explanation": "O adjetivo 'expensive' tem três sílabas, então a comparação usa MORE + adjetivo + THAN, nunca -ER. Neste caso, carros elétricos e a gasolina estão sendo comparados em preço. Portanto, a resposta correta é 'MORE EXPENSIVE THAN'."
       },
       {
         "id": "t1m65",
         "topic": "Comparatives (more/less + than)",
         "question": "That movie was _____ the book. (less exciting)",
-        "options": ["less exciting than", "more less exciting than", "less exciting as", "little exciting than"],
+        "options": [
+          "less exciting than",
+          "more less exciting than",
+          "less exciting as",
+          "little exciting than"
+        ],
         "correct": 0,
         "explanation": "Para dizer que algo tem menos de uma qualidade do que outra coisa, usamos LESS + adjetivo + THAN. Neste caso, o filme foi considerado menos emocionante do que o livro. Portanto, a resposta correta é 'LESS EXCITING THAN'."
       },
@@ -530,15 +855,25 @@
         "id": "t1m66",
         "topic": "Comparatives (more/less + than)",
         "question": "This problem is _____ I expected.",
-        "options": ["more complicated than", "complicated than", "complicateder than", "most complicated than"],
+        "options": [
+          "more complicated than",
+          "complicated than",
+          "complicateder than",
+          "most complicated than"
+        ],
         "correct": 0,
-        "explanation": "'Complicated' é um adjetivo longo, então a comparação usa MORE + adjetivo + THAN. Neste caso, o problema é comparado à expectativa da pessoa — e é mais difícil do que ela imaginava. Portanto, a resposta correta é 'MORE COMPLICATED THAN'."
+        "explanation": "'Complicated' é um adjetivo longo, então a comparação usa MORE + adjetivo + THAN. Neste caso, o problema é comparado à expectativa da pessoa, e é mais difícil do que ela imaginava. Portanto, a resposta correta é 'MORE COMPLICATED THAN'."
       },
       {
         "id": "t1m67",
         "topic": "Comparatives (-er/-ier)",
         "question": "July is _____ June.",
-        "options": ["more hot than", "hoter than", "hotter than", "hottest than"],
+        "options": [
+          "more hot than",
+          "hoter than",
+          "hotter than",
+          "hottest than"
+        ],
         "correct": 2,
         "explanation": "O adjetivo 'hot' tem CVC (consoante-vogal-consoante) no final, então dobramos o T antes de adicionar -ER. Neste caso, julho e junho estão sendo comparados em temperatura. Portanto, a resposta correta é 'HOTTER THAN'."
       },
@@ -546,23 +881,38 @@
         "id": "t1m68",
         "topic": "Comparatives (-er/-ier)",
         "question": "The countryside is _____ the city.",
-        "options": ["more quiet than", "quieter than", "quieter as", "quiet than"],
+        "options": [
+          "more quiet than",
+          "quieter than",
+          "quieter as",
+          "quiet than"
+        ],
         "correct": 1,
-        "explanation": "O adjetivo 'quiet' tem duas sílabas e segue a regra de adicionar -ER + THAN. Neste caso, o campo e a cidade são comparados em silêncio — o campo é mais tranquilo. Portanto, a resposta correta é 'QUIETER THAN'."
+        "explanation": "O adjetivo 'quiet' tem duas sílabas e segue a regra de adicionar -ER + THAN. Neste caso, o campo e a cidade são comparados em silêncio. O campo é mais tranquilo. Portanto, a resposta correta é 'QUIETER THAN'."
       },
       {
         "id": "t1m69",
         "topic": "Comparatives (-er/-ier)",
         "question": "Today I feel _____ yesterday.",
-        "options": ["happier than", "more happy than", "happyer than", "as happy than"],
+        "options": [
+          "happier than",
+          "more happy than",
+          "happyer than",
+          "as happy than"
+        ],
         "correct": 0,
-        "explanation": "Adjetivos de duas sílabas terminados em -Y trocam o Y por -IER na comparação. 'Happy' vira 'happier' — nunca 'happyer'. Neste caso, a pessoa está comparando como se sente hoje com ontem. Portanto, a resposta correta é 'HAPPIER THAN'."
+        "explanation": "Adjetivos de duas sílabas terminados em -Y trocam o Y por -IER na comparação. 'Happy' vira 'happier', nunca 'happyer'. Neste caso, a pessoa está comparando como se sente hoje com ontem. Portanto, a resposta correta é 'HAPPIER THAN'."
       },
       {
         "id": "t1m70",
         "topic": "Comparatives (-er/-ier)",
         "question": "Dogs are _____ cats. (more friendly)",
-        "options": ["friendly than", "more friendly than", "friendlier than", "friendliest than"],
+        "options": [
+          "friendly than",
+          "more friendly than",
+          "friendlier than",
+          "friendliest than"
+        ],
         "correct": 2,
         "explanation": "O adjetivo 'friendly' termina em -Y com duas sílabas, então trocamos o Y por -IER. Neste caso, cães e gatos estão sendo comparados em simpatia. Portanto, a resposta correta é 'FRIENDLIER THAN'."
       }
@@ -576,239 +926,389 @@
         "id": "t1f01",
         "topic": "Must / Have To / Mustn't",
         "question": "You _____ drive without a license.",
-        "options": ["must", "have to", "mustn't", "don't have to"],
+        "options": [
+          "must",
+          "have to",
+          "mustn't",
+          "don't have to"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que algo é completamente proibido e não pode acontecer de jeito nenhum, usamos MUSTN'T. Neste caso, dirigir sem carteira de motorista é proibido por lei — não é uma questão de preferência, é uma proibição absoluta. Portanto, a resposta correta é 'MUSTN'T'."
+        "explanation": "Quando queremos dizer que algo é completamente proibido e não pode acontecer de jeito nenhum, usamos MUSTN'T. Neste caso, dirigir sem carteira de motorista é proibido por lei. Não é uma questão de preferência, é uma proibição absoluta. Portanto, a resposta correta é 'MUSTN'T'."
       },
       {
         "id": "t1f02",
         "topic": "Must / Have To / Mustn't",
         "question": "I _____ study more if I want to pass the test. (obligation)",
-        "options": ["mustn't", "don't have to", "have to", "shouldn't"],
+        "options": [
+          "mustn't",
+          "don't have to",
+          "have to",
+          "shouldn't"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que algo é necessário ou obrigatório, usamos HAVE TO. Neste caso, a pessoa precisa estudar mais para conseguir passar na prova — é uma obrigação que ela mesma reconhece. Portanto, a resposta correta é 'HAVE TO'."
+        "explanation": "Quando queremos dizer que algo é necessário ou obrigatório, usamos HAVE TO. Neste caso, a pessoa precisa estudar mais para conseguir passar na prova. É uma obrigação que ela mesma reconhece. Portanto, a resposta correta é 'HAVE TO'."
       },
       {
         "id": "t1f03",
         "topic": "Must / Have To / Mustn't",
         "question": "He _____ go to school on Saturdays. (not necessary)",
-        "options": ["must", "mustn't", "doesn't have to", "can't"],
+        "options": [
+          "must",
+          "mustn't",
+          "doesn't have to",
+          "can't"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que algo não é necessário, mas também não é proibido, usamos DOESN'T HAVE TO. Neste caso, ele não precisa ir à escola aos sábados — não há aula, mas ir seria uma opção dele. Portanto, a resposta correta é 'DOESN'T HAVE TO'."
+        "explanation": "Quando queremos dizer que algo não é necessário, mas também não é proibido, usamos DOESN'T HAVE TO. Neste caso, ele não precisa ir à escola aos sábados. Não há aula, mas ir seria uma opção dele. Portanto, a resposta correta é 'DOESN'T HAVE TO'."
       },
       {
         "id": "t1f04",
         "topic": "Have / Has Got",
-        "question": "Have you got a smartphone? — Yes, _____.",
-        "options": ["Yes, I've got.", "Yes, I have got a smartphone.", "Yes, I do.", "Yes, I've got a smartphone."],
+        "question": "Have you got a smartphone?, Yes, _____.",
+        "options": [
+          "Yes, I've got.",
+          "Yes, I have got a smartphone.",
+          "Yes, I do.",
+          "Yes, I've got a smartphone."
+        ],
         "correct": 3,
-        "explanation": "Quando queremos responder de forma completa a uma pergunta com 'have got', repetimos o objeto na resposta de maneira natural. Neste caso, a pergunta é se a pessoa tem um smartphone — a resposta mais natural inclui o objeto 'a smartphone'. Portanto, a resposta correta é 'YES, I'VE GOT a smartphone'."
+        "explanation": "Quando queremos responder de forma completa a uma pergunta com 'have got', repetimos o objeto na resposta de maneira natural. Neste caso, a pergunta é se a pessoa tem um smartphone. A resposta mais natural inclui o objeto 'a smartphone'. Portanto, a resposta correta é 'YES, I'VE GOT a smartphone'."
       },
       {
         "id": "t1f05",
         "topic": "Have / Has Got",
         "question": "She _____ to go. It's urgent. (she has to = have got to)",
-        "options": ["has got", "has to got", "has got to", "have got to"],
+        "options": [
+          "has got",
+          "has to got",
+          "has got to",
+          "have got to"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que alguém tem a obrigação de fazer algo, podemos usar HAS GOT TO seguido do verbo — tem o mesmo sentido de HAS TO. Neste caso, ela precisa ir embora com urgência — é uma necessidade clara. Portanto, a resposta correta é 'HAS GOT TO'."
+        "explanation": "Quando queremos dizer que alguém tem a obrigação de fazer algo, podemos usar HAS GOT TO seguido do verbo (tem o mesmo sentido de HAS TO. Neste caso, ela precisa ir embora com urgência) é uma necessidade clara. Portanto, a resposta correta é 'HAS GOT TO'."
       },
       {
         "id": "t1f06",
         "topic": "Be Able To",
         "question": "I _____ speak English now, but I couldn't five years ago.",
-        "options": ["could", "can / am able to", "will able to", "am able to"],
+        "options": [
+          "could",
+          "can / am able to",
+          "will able to",
+          "am able to"
+        ],
         "correct": 3,
-        "explanation": "Quando queremos falar de algo que somos capazes de fazer no presente, podemos usar AM ABLE TO como alternativa a CAN. Neste caso, a pessoa consegue falar inglês agora — a frase descreve uma capacidade atual, no presente. Portanto, a resposta correta é 'AM ABLE TO'."
+        "explanation": "Quando queremos falar de algo que somos capazes de fazer no presente, podemos usar AM ABLE TO como alternativa a CAN. Neste caso, a pessoa consegue falar inglês agora, a frase descreve uma capacidade atual, no presente. Portanto, a resposta correta é 'AM ABLE TO'."
       },
       {
         "id": "t1f07",
         "topic": "Present Perfect (Ever/Never)",
-        "question": "Have you ever traveled to the USA? — No, I _____ traveled there.",
-        "options": ["haven't ever", "have never", "never have", "never had"],
+        "question": "Have you ever traveled to the USA?, No, I _____ traveled there.",
+        "options": [
+          "haven't ever",
+          "have never",
+          "never have",
+          "never had"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos responder de forma negativa a uma pergunta com 'ever', usamos NEVER — as duas palavras juntas na mesma frase ficam redundantes. Neste caso, a resposta é negativa — a pessoa nunca foi aos EUA — então NEVER vai entre 'have' e o verbo. Portanto, a resposta correta é 'HAVE NEVER'."
+        "explanation": "Quando queremos responder de forma negativa a uma pergunta com 'ever', usamos NEVER. As duas palavras juntas na mesma frase ficam redundantes. Neste caso, a resposta é negativa (a pessoa nunca foi aos EUA) então NEVER vai entre 'have' e o verbo. Portanto, a resposta correta é 'HAVE NEVER'."
       },
       {
         "id": "t1f08",
         "topic": "Present Perfect (Already/Yet)",
-        "question": "Has the teacher corrected the test? — Yes, she's _____ corrected it.",
-        "options": ["yet", "never", "already", "still"],
+        "question": "Has the teacher corrected the test?, Yes, she's _____ corrected it.",
+        "options": [
+          "yet",
+          "never",
+          "already",
+          "still"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos confirmar que algo já foi feito, usamos ALREADY na resposta positiva. Neste caso, a professora já corrigiu a prova — é uma confirmação de que a ação foi concluída. Portanto, a resposta correta é 'ALREADY'."
+        "explanation": "Quando queremos confirmar que algo já foi feito, usamos ALREADY na resposta positiva. Neste caso, a professora já corrigiu a prova. É uma confirmação de que a ação foi concluída. Portanto, a resposta correta é 'ALREADY'."
       },
       {
         "id": "t1f09",
         "topic": "Present Perfect (For/Since)",
         "question": "I've known my best friend _____ 15 years.",
-        "options": ["since", "for", "ago", "in"],
+        "options": [
+          "since",
+          "for",
+          "ago",
+          "in"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos dizer por quanto tempo algo já dura, usamos FOR seguido de um período de tempo. Neste caso, a pessoa conhece o melhor amigo há 15 anos — '15 years' é uma duração, não um momento específico. Portanto, a resposta correta é 'FOR'."
+        "explanation": "Quando queremos dizer por quanto tempo algo já dura, usamos FOR seguido de um período de tempo. Neste caso, a pessoa conhece o melhor amigo há 15 anos. '15 years' é uma duração, não um momento específico. Portanto, a resposta correta é 'FOR'."
       },
       {
         "id": "t1f10",
         "topic": "Present Perfect (For/Since)",
         "question": "I haven't seen her _____ last year.",
-        "options": ["for", "ago", "since", "in"],
+        "options": [
+          "for",
+          "ago",
+          "since",
+          "in"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer desde quando algo não acontece, usamos SINCE seguido de um momento específico no passado. Neste caso, a pessoa não vê ela desde o ano passado — 'last year' é um ponto específico no tempo, não uma duração. Portanto, a resposta correta é 'SINCE'."
+        "explanation": "Quando queremos dizer desde quando algo não acontece, usamos SINCE seguido de um momento específico no passado. Neste caso, a pessoa não vê ela desde o ano passado. 'Last year' é um ponto específico no tempo, não uma duração. Portanto, a resposta correta é 'SINCE'."
       },
       {
         "id": "t1f11",
         "topic": "Do or Make",
         "question": "She didn't _____ breakfast for them this morning.",
-        "options": ["do", "make", "have", "cook"],
+        "options": [
+          "do",
+          "make",
+          "have",
+          "cook"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos falar de preparar ou criar algo, usamos MAKE. Neste caso, a frase é sobre fazer o café da manhã para as pessoas — 'breakfast' é algo que se prepara, e a combinação certa é sempre MAKE com 'breakfast'. Portanto, a resposta correta é 'MAKE'."
+        "explanation": "Quando queremos falar de preparar ou criar algo, usamos MAKE. Neste caso, a frase é sobre fazer o café da manhã para as pessoas. 'Breakfast' é algo que se prepara, e a combinação certa é sempre MAKE com 'breakfast'. Portanto, a resposta correta é 'MAKE'."
       },
       {
         "id": "t1f12",
         "topic": "Do or Make",
         "question": "He has to _____ the housework before he can go.",
-        "options": ["make", "do", "get", "have"],
+        "options": [
+          "make",
+          "do",
+          "get",
+          "have"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos falar de tarefas e atividades de casa, usamos DO. Neste caso, ele precisa fazer as tarefas domésticas antes de sair — 'housework' é uma tarefa, não algo que se cria, então a combinação certa é DO. Portanto, a resposta correta é 'DO'."
+        "explanation": "Quando queremos falar de tarefas e atividades de casa, usamos DO. Neste caso, ele precisa fazer as tarefas domésticas antes de sair. 'Housework' é uma tarefa, não algo que se cria, então a combinação certa é DO. Portanto, a resposta correta é 'DO'."
       },
       {
         "id": "t1f13",
         "topic": "Comparatives (Irregular)",
         "question": "This laptop is _____ the tablet.",
-        "options": ["more good than", "best than", "better than", "gooder than"],
+        "options": [
+          "more good than",
+          "best than",
+          "better than",
+          "gooder than"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos comparar usando o adjetivo 'good', a forma de comparação é especial — não segue a regra normal. Neste caso, o laptop está sendo comparado ao tablet e é considerado superior — 'good' tem uma forma própria de comparação. Portanto, a resposta correta é 'BETTER THAN'."
+        "explanation": "Quando queremos comparar usando o adjetivo 'good', a forma de comparação é especial, não segue a regra normal. Neste caso, o laptop está sendo comparado ao tablet e é considerado superior, 'good' tem uma forma própria de comparação. Portanto, a resposta correta é 'BETTER THAN'."
       },
       {
         "id": "t1f14",
         "topic": "Tag Questions",
         "question": "Cars pollute the environment, _____?",
-        "options": ["do they", "aren't they", "don't they", "isn't it"],
+        "options": [
+          "do they",
+          "aren't they",
+          "don't they",
+          "isn't it"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos confirmar uma informação positiva com um finalzinho de pergunta, o finalzinho é negativo e usa o mesmo verbo da frase. Neste caso, a frase diz que carros poluem — é positiva no presente com 'cars' (= they), então o finalzinho é negativo. Portanto, a resposta correta é 'DON'T THEY?'"
+        "explanation": "Quando queremos confirmar uma informação positiva com um finalzinho de pergunta, o finalzinho é negativo e usa o mesmo verbo da frase. Neste caso, a frase diz que carros poluem. É positiva no presente com 'cars' (= they), então o finalzinho é negativo. Portanto, a resposta correta é 'DON'T THEY?'"
       },
       {
         "id": "t1f15",
         "topic": "Must / Have To",
-        "question": "What _____ you do before lunch? — I must wash my hands.",
-        "options": ["do must", "must", "are you must", "should do"],
+        "question": "What _____ you do before lunch?, I must wash my hands.",
+        "options": [
+          "do must",
+          "must",
+          "are you must",
+          "should do"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos fazer uma pergunta com MUST, colocamos MUST diretamente antes da pessoa — sem precisar de 'do'. Neste caso, a pergunta é sobre o que a pessoa deve fazer antes do almoço — MUST já forma a pergunta sozinho. Portanto, a resposta correta é 'MUST'."
+        "explanation": "Quando queremos fazer uma pergunta com MUST, colocamos MUST diretamente antes da pessoa, sem precisar de 'do'. Neste caso, a pergunta é sobre o que a pessoa deve fazer antes do almoço, MUST já forma a pergunta sozinho. Portanto, a resposta correta é 'MUST'."
       },
       {
         "id": "t1f16",
         "topic": "Present Perfect (Ever/Already/Never/Yet)",
         "question": "Have you bought the tickets _____ ? (asking if it's done)",
-        "options": ["already", "never", "still", "yet"],
+        "options": [
+          "already",
+          "never",
+          "still",
+          "yet"
+        ],
         "correct": 3,
-        "explanation": "Quando queremos perguntar se algo já foi feito ou ainda não aconteceu, usamos YET no final da pergunta. Neste caso, a pergunta é sobre se os ingressos já foram comprados — ainda não sabemos se foi feito, e YET expressa exatamente essa dúvida. Portanto, a resposta correta é 'YET'."
+        "explanation": "Quando queremos perguntar se algo já foi feito ou ainda não aconteceu, usamos YET no final da pergunta. Neste caso, a pergunta é sobre se os ingressos já foram comprados. Ainda não sabemos se foi feito, e YET expressa exatamente essa dúvida. Portanto, a resposta correta é 'YET'."
       },
       {
         "id": "t1f17",
         "topic": "As...As (Equal Comparisons)",
         "question": "Spanish is _____ Portuguese. (same difficulty)",
-        "options": ["as difficult than", "as more difficult as", "as difficult as", "difficult as"],
+        "options": [
+          "as difficult than",
+          "as more difficult as",
+          "as difficult as",
+          "difficult as"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que duas coisas têm o mesmo nível de alguma característica, usamos a estrutura 'as + adjetivo + as'. Neste caso, espanhol e português são apresentados como igualmente difíceis — não há diferença entre eles. Portanto, a resposta correta é 'AS DIFFICULT AS'."
+        "explanation": "Quando queremos dizer que duas coisas têm o mesmo nível de alguma característica, usamos a estrutura 'as + adjetivo + as'. Neste caso, espanhol e português são apresentados como igualmente difíceis. Não há diferença entre eles. Portanto, a resposta correta é 'AS DIFFICULT AS'."
       },
       {
         "id": "t1f18",
         "topic": "Be Able To – Future/Conditional",
         "question": "When _____ you cook dinner for 6 people?",
-        "options": ["will you be able", "you will able to", "will you be able to", "can you will"],
+        "options": [
+          "will you be able",
+          "you will able to",
+          "will you be able to",
+          "can you will"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos perguntar sobre algo que alguém vai conseguir fazer no futuro, usamos WILL BE ABLE TO — porque não existe 'will can'. Neste caso, a pergunta é sobre quando a pessoa vai conseguir preparar um jantar para seis pessoas — é uma capacidade futura. Portanto, a resposta correta é 'WILL YOU BE ABLE TO'."
+        "explanation": "Quando queremos perguntar sobre algo que alguém vai conseguir fazer no futuro, usamos WILL BE ABLE TO. Porque não existe 'will can'. Neste caso, a pergunta é sobre quando a pessoa vai conseguir preparar um jantar para seis pessoas, é uma capacidade futura. Portanto, a resposta correta é 'WILL YOU BE ABLE TO'."
       },
       {
         "id": "t1f19",
         "topic": "Prepositions + V-ing (Interest/Opinion)",
         "question": "I am interested _____ studying history.",
-        "options": ["to study", "in to study", "in studying", "for studying"],
+        "options": [
+          "to study",
+          "in to study",
+          "in studying",
+          "for studying"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que temos interesse em fazer algo, usamos 'interested IN' seguido do verbo com -ing. Neste caso, a pessoa tem interesse em estudar história — a preposição que sempre vem depois de 'interested' é IN. Portanto, a resposta correta é 'IN STUDYING'."
+        "explanation": "Quando queremos dizer que temos interesse em fazer algo, usamos 'interested IN' seguido do verbo com -ing. Neste caso, a pessoa tem interesse em estudar história. A preposição que sempre vem depois de 'interested' é IN. Portanto, a resposta correta é 'IN STUDYING'."
       },
       {
         "id": "t1f20",
         "topic": "Should – Advice",
         "question": "I'm so hot. You _____ take off your coat!",
-        "options": ["shouldn't", "had better not", "should", "had better"],
+        "options": [
+          "shouldn't",
+          "had better not",
+          "should",
+          "had better"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dar uma sugestão ou conselho simples e tranquilo, usamos SHOULD. Neste caso, a pessoa está com calor e a sugestão é que ela tire o casaco — é um conselho simples, sem urgência nem consequência grave. Portanto, a resposta correta é 'SHOULD'."
+        "explanation": "Quando queremos dar uma sugestão ou conselho simples e tranquilo, usamos SHOULD. Neste caso, a pessoa está com calor e a sugestão é que ela tire o casaco. É um conselho simples, sem urgência nem consequência grave. Portanto, a resposta correta é 'SHOULD'."
       },
       {
         "id": "t1f21",
         "topic": "Verb + V-ing (Avoid/Enjoy/Consider/Finish)",
         "question": "I usually avoid _____ soda.",
-        "options": ["to drink", "drink", "drinking", "drank"],
+        "options": [
+          "to drink",
+          "drink",
+          "drinking",
+          "drank"
+        ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que evitamos fazer algo, o verbo 'avoid' é sempre seguido do verbo com -ing. Neste caso, a pessoa habitualmente evita beber refrigerante — depois de 'avoid', o verbo sempre fica com -ing. Portanto, a resposta correta é 'DRINKING'."
+        "explanation": "Quando queremos dizer que evitamos fazer algo, o verbo 'avoid' é sempre seguido do verbo com -ing. Neste caso, a pessoa habitualmente evita beber refrigerante. Depois de 'avoid', o verbo sempre fica com -ing. Portanto, a resposta correta é 'DRINKING'."
       },
       {
         "id": "t1f22",
         "topic": "Zero Conditional",
         "question": "If I travel by plane, I always _____ sick.",
-        "options": ["get", "will get", "got", "getting"],
+        "options": [
+          "get",
+          "will get",
+          "got",
+          "getting"
+        ],
         "correct": 0,
-        "explanation": "Quando queremos falar de algo que sempre acontece como consequência de uma situação, usamos dois verbos no presente. Neste caso, toda vez que a pessoa viaja de avião ela fica doente — é algo constante e previsível, não uma previsão futura. Portanto, a resposta correta é 'GET'."
+        "explanation": "Quando queremos falar de algo que sempre acontece como consequência de uma situação, usamos dois verbos no presente. Neste caso, toda vez que a pessoa viaja de avião ela fica doente. É algo constante e previsível, não uma previsão futura. Portanto, a resposta correta é 'GET'."
       },
       {
         "id": "t1f23",
         "topic": "Gerund as Subject",
         "question": "_____ fast may lead to an accident.",
-        "options": ["Drive", "To drive", "Drives", "Driving"],
+        "options": [
+          "Drive",
+          "To drive",
+          "Drives",
+          "Driving"
+        ],
         "correct": 3,
-        "explanation": "Quando queremos usar uma ação como o assunto principal da frase em inglês, colocamos o verbo com -ing. Neste caso, 'dirigir rápido' é o assunto — é isso que pode causar um acidente. Portanto, a resposta correta é 'DRIVING'."
+        "explanation": "Quando queremos usar uma ação como o assunto principal da frase em inglês, colocamos o verbo com -ing. Neste caso, 'dirigir rápido' é o assunto. É isso que pode causar um acidente. Portanto, a resposta correta é 'DRIVING'."
       },
       {
         "id": "t1f24",
         "topic": "Future Arrangements",
         "question": "We _____ a barbecue on Sunday. (already planned)",
-        "options": ["will have", "are having", "have", "going to have"],
+        "options": [
+          "will have",
+          "are having",
+          "have",
+          "going to have"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos falar de um plano que já está combinado e organizado com antecedência, usamos o verbo com -ing no presente. Neste caso, o churrasco no domingo já está marcado e confirmado — não é uma ideia que surgiu agora. Portanto, a resposta correta é 'ARE HAVING'."
+        "explanation": "Quando queremos falar de um plano que já está combinado e organizado com antecedência, usamos o verbo com -ing no presente. Neste caso, o churrasco no domingo já está marcado e confirmado. Não é uma ideia que surgiu agora. Portanto, a resposta correta é 'ARE HAVING'."
       },
       {
         "id": "t1f25",
         "topic": "Have / Has Got",
         "question": "_____ he got a driving license?",
-        "options": ["Does", "Is", "Has", "Have"],
+        "options": [
+          "Does",
+          "Is",
+          "Has",
+          "Have"
+        ],
         "correct": 2,
-        "explanation": "Com HAVE/HAS GOT, a pergunta é formada colocando HAS antes do sujeito — não usamos DO/DOES. Neste caso, a pergunta é sobre se ele tem carteira de motorista — como o sujeito é 'he', a forma correta é HAS. Portanto, a resposta correta é 'HAS'."
+        "explanation": "Com HAVE/HAS GOT, a pergunta é formada colocando HAS antes do sujeito. Não usamos DO/DOES. Neste caso, a pergunta é sobre se ele tem carteira de motorista, como o sujeito é 'he', a forma correta é HAS. Portanto, a resposta correta é 'HAS'."
       },
       {
         "id": "t1f26",
         "topic": "Have / Has Got",
         "question": "We _____ any homework today. It's a holiday.",
-        "options": ["haven't got", "don't have got", "didn't got", "has not got"],
+        "options": [
+          "haven't got",
+          "don't have got",
+          "didn't got",
+          "has not got"
+        ],
         "correct": 0,
-        "explanation": "A forma negativa de HAVE GOT é HAVEN'T GOT (ou HASN'T GOT para he/she/it). Neste caso, a frase diz que não há dever de casa hoje — usamos HAVEN'T GOT com o sujeito WE. Portanto, a resposta correta é 'HAVEN'T GOT'."
+        "explanation": "A forma negativa de HAVE GOT é HAVEN'T GOT (ou HASN'T GOT para he/she/it). Neste caso, a frase diz que não há dever de casa hoje. Usamos HAVEN'T GOT com o sujeito WE. Portanto, a resposta correta é 'HAVEN'T GOT'."
       },
       {
         "id": "t1f27",
         "topic": "Have / Has Got",
         "question": "My cat _____ beautiful green eyes.",
-        "options": ["have got", "is got", "has got", "have"],
+        "options": [
+          "have got",
+          "is got",
+          "has got",
+          "have"
+        ],
         "correct": 2,
-        "explanation": "Com sujeitos de terceira pessoa do singular (he, she, it), a forma correta é HAS GOT. Neste caso, estamos descrevendo uma característica do gato — como é 'my cat' (= it), usamos HAS GOT. Portanto, a resposta correta é 'HAS GOT'."
+        "explanation": "Com sujeitos de terceira pessoa do singular (he, she, it), a forma correta é HAS GOT. Neste caso, estamos descrevendo uma característica do gato. Como é 'my cat' (= it), usamos HAS GOT. Portanto, a resposta correta é 'HAS GOT'."
       },
       {
         "id": "t1f28",
         "topic": "Present Perfect (For/Since)",
         "question": "She has worked here _____ 2018.",
-        "options": ["for", "ago", "since", "in"],
+        "options": [
+          "for",
+          "ago",
+          "since",
+          "in"
+        ],
         "correct": 2,
-        "explanation": "Usamos SINCE quando indicamos o momento específico em que algo começou. Neste caso, 2018 é um ponto no tempo — um ano específico em que ela começou a trabalhar lá. Portanto, a resposta correta é 'SINCE'."
+        "explanation": "Usamos SINCE quando indicamos o momento específico em que algo começou. Neste caso, 2018 é um ponto no tempo. Um ano específico em que ela começou a trabalhar lá. Portanto, a resposta correta é 'SINCE'."
       },
       {
         "id": "t1f29",
         "topic": "Present Perfect (For/Since)",
         "question": "They have been married _____ over 30 years.",
-        "options": ["since", "ago", "in", "for"],
+        "options": [
+          "since",
+          "ago",
+          "in",
+          "for"
+        ],
         "correct": 3,
-        "explanation": "Usamos FOR quando indicamos uma duração — um período de tempo. Neste caso, 'over 30 years' expressa por quanto tempo eles são casados — é uma duração, não um ponto específico. Portanto, a resposta correta é 'FOR'."
+        "explanation": "Usamos FOR quando indicamos uma duração, um período de tempo. Neste caso, 'over 30 years' expressa por quanto tempo eles são casados, é uma duração, não um ponto específico. Portanto, a resposta correta é 'FOR'."
       },
       {
         "id": "t1f30",
         "topic": "Present Perfect (For/Since)",
         "question": "He hasn't eaten _____ this morning.",
-        "options": ["for", "in", "since", "ago"],
+        "options": [
+          "for",
+          "in",
+          "since",
+          "ago"
+        ],
         "correct": 2,
         "explanation": "SINCE é usado com momentos específicos no passado para indicar o ponto de partida de uma situação. Neste caso, 'this morning' é um momento específico desde quando ele não come. Portanto, a resposta correta é 'SINCE'."
       },
@@ -816,87 +1316,142 @@
         "id": "t1f31",
         "topic": "Do or Make",
         "question": "Please _____ your homework before playing video games.",
-        "options": ["make", "do", "have", "take"],
+        "options": [
+          "make",
+          "do",
+          "have",
+          "take"
+        ],
         "correct": 1,
-        "explanation": "Usamos DO com tarefas e atividades que envolvem esforço ou trabalho, especialmente tarefas escolares. Neste caso, 'homework' é uma tarefa escolar — a combinação fixa em inglês é DO your homework. Portanto, a resposta correta é 'DO'."
+        "explanation": "Usamos DO com tarefas e atividades que envolvem esforço ou trabalho, especialmente tarefas escolares. Neste caso, 'homework' é uma tarefa escolar. A combinação fixa em inglês é DO your homework. Portanto, a resposta correta é 'DO'."
       },
       {
         "id": "t1f32",
         "topic": "Do or Make",
         "question": "She _____ a mistake in the email and had to resend it.",
-        "options": ["did", "made", "had", "took"],
+        "options": [
+          "did",
+          "made",
+          "had",
+          "took"
+        ],
         "correct": 1,
-        "explanation": "Usamos MAKE com erros, decisões e criações. Neste caso, ela cometeu um erro no e-mail — a combinação fixa em inglês é MAKE a mistake. Portanto, a resposta correta é 'MADE'."
+        "explanation": "Usamos MAKE com erros, decisões e criações. Neste caso, ela cometeu um erro no e-mail. A combinação fixa em inglês é MAKE a mistake. Portanto, a resposta correta é 'MADE'."
       },
       {
         "id": "t1f33",
         "topic": "Do or Make",
         "question": "Can you _____ me a favor?",
-        "options": ["do", "have", "make", "get"],
+        "options": [
+          "do",
+          "have",
+          "make",
+          "get"
+        ],
         "correct": 0,
-        "explanation": "A expressão 'do someone a favor' é uma combinação fixa — usamos DO, não MAKE. Neste caso, a pessoa está pedindo ajuda a alguém. Portanto, a resposta correta é 'DO'."
+        "explanation": "A expressão 'do someone a favor' é uma combinação fixa. Usamos DO, não MAKE. Neste caso, a pessoa está pedindo ajuda a alguém. Portanto, a resposta correta é 'DO'."
       },
       {
         "id": "t1f34",
         "topic": "Must / Have To / Mustn't",
         "question": "It's optional. You _____ come if you don't want to.",
-        "options": ["must", "mustn't", "don't have to", "have to"],
+        "options": [
+          "must",
+          "mustn't",
+          "don't have to",
+          "have to"
+        ],
         "correct": 2,
-        "explanation": "DON'T HAVE TO significa que algo não é obrigatório — a pessoa tem a escolha. Neste caso, a participação é opcional — não há obrigação de ir. Portanto, a resposta correta é 'DON'T HAVE TO'."
+        "explanation": "DON'T HAVE TO significa que algo não é obrigatório (a pessoa tem a escolha. Neste caso, a participação é opcional) não há obrigação de ir. Portanto, a resposta correta é 'DON'T HAVE TO'."
       },
       {
         "id": "t1f35",
         "topic": "Must / Have To / Mustn't",
         "question": "You _____ tell anyone this secret. It's confidential!",
-        "options": ["don't have to", "mustn't", "can't to", "haven't to"],
+        "options": [
+          "don't have to",
+          "mustn't",
+          "can't to",
+          "haven't to"
+        ],
         "correct": 1,
-        "explanation": "MUSTN'T expressa uma proibição forte — algo que é totalmente errado fazer. Neste caso, revelar o segredo é proibido — a pessoa não deve contar para ninguém. Portanto, a resposta correta é 'MUSTN'T'."
+        "explanation": "MUSTN'T expressa uma proibição forte (algo que é totalmente errado fazer. Neste caso, revelar o segredo é proibido) a pessoa não deve contar para ninguém. Portanto, a resposta correta é 'MUSTN'T'."
       },
       {
         "id": "t1f36",
         "topic": "Be Able To",
         "question": "My grandfather _____ speak three languages.",
-        "options": ["is able to", "could able to", "was able to", "were able to"],
+        "options": [
+          "is able to",
+          "could able to",
+          "was able to",
+          "were able to"
+        ],
         "correct": 2,
-        "explanation": "Para falar de uma capacidade que existia no passado, usamos WAS/WERE ABLE TO. Neste caso, o avô tinha a capacidade de falar três idiomas — é algo do passado, e com 'my grandfather' (= he), usamos WAS. Portanto, a resposta correta é 'WAS ABLE TO'."
+        "explanation": "Para falar de uma capacidade que existia no passado, usamos WAS/WERE ABLE TO. Neste caso, o avô tinha a capacidade de falar três idiomas. É algo do passado, e com 'my grandfather' (= he), usamos WAS. Portanto, a resposta correta é 'WAS ABLE TO'."
       },
       {
         "id": "t1f37",
         "topic": "Be Able To",
         "question": "After months of therapy, she _____ walk again.",
-        "options": ["could", "was able to", "were able to", "can"],
+        "options": [
+          "could",
+          "was able to",
+          "were able to",
+          "can"
+        ],
         "correct": 1,
-        "explanation": "WAS ABLE TO é usado para falar de uma conquista específica no passado — algo que alguém conseguiu fazer numa situação particular. Neste caso, ela conseguiu voltar a andar após a terapia — é um resultado concreto. Portanto, a resposta correta é 'WAS ABLE TO'."
+        "explanation": "WAS ABLE TO é usado para falar de uma conquista específica no passado, algo que alguém conseguiu fazer numa situação particular. Neste caso, ela conseguiu voltar a andar após a terapia, é um resultado concreto. Portanto, a resposta correta é 'WAS ABLE TO'."
       },
       {
         "id": "t1f38",
         "topic": "Be Able To",
         "question": "The firefighters _____ rescue all the people from the building.",
-        "options": ["could", "were able to", "was able to", "are able to"],
+        "options": [
+          "could",
+          "were able to",
+          "was able to",
+          "are able to"
+        ],
         "correct": 1,
-        "explanation": "WERE ABLE TO é a forma correta para um sujeito plural no passado quando descreve uma conquista específica. Neste caso, os bombeiros conseguiram resgatar todas as pessoas — é um resultado real numa situação específica. Portanto, a resposta correta é 'WERE ABLE TO'."
+        "explanation": "WERE ABLE TO é a forma correta para um sujeito plural no passado quando descreve uma conquista específica. Neste caso, os bombeiros conseguiram resgatar todas as pessoas. É um resultado real numa situação específica. Portanto, a resposta correta é 'WERE ABLE TO'."
       },
       {
         "id": "t1f39",
         "topic": "Be Able To",
         "question": "He _____ ride a bicycle when he was 5 years old.",
-        "options": ["is able to", "was able to", "were able to", "can"],
+        "options": [
+          "is able to",
+          "was able to",
+          "were able to",
+          "can"
+        ],
         "correct": 1,
-        "explanation": "Para descrever uma capacidade que uma pessoa tinha no passado, usamos WAS ABLE TO. Neste caso, ele sabia andar de bicicleta quando tinha 5 anos — é uma habilidade passada. Portanto, a resposta correta é 'WAS ABLE TO'."
+        "explanation": "Para descrever uma capacidade que uma pessoa tinha no passado, usamos WAS ABLE TO. Neste caso, ele sabia andar de bicicleta quando tinha 5 anos. É uma habilidade passada. Portanto, a resposta correta é 'WAS ABLE TO'."
       },
       {
         "id": "t1f40",
         "topic": "Present Perfect (Ever/Never)",
         "question": "I've _____ been to Japan, but I really want to go!",
-        "options": ["already", "ever", "never", "yet"],
+        "options": [
+          "already",
+          "ever",
+          "never",
+          "yet"
+        ],
         "correct": 2,
-        "explanation": "NEVER é usado para dizer que uma experiência nunca aconteceu. Neste caso, a pessoa ainda não foi ao Japão — ela nunca teve essa experiência, mas quer ter. Portanto, a resposta correta é 'NEVER'."
+        "explanation": "NEVER é usado para dizer que uma experiência nunca aconteceu. Neste caso, a pessoa ainda não foi ao Japão. Ela nunca teve essa experiência, mas quer ter. Portanto, a resposta correta é 'NEVER'."
       },
       {
         "id": "t1f41",
         "topic": "Present Perfect (Ever/Never)",
         "question": "This is the most beautiful beach I've _____ seen.",
-        "options": ["yet", "never", "already", "ever"],
+        "options": [
+          "yet",
+          "never",
+          "already",
+          "ever"
+        ],
         "correct": 3,
         "explanation": "EVER é usado com superlativos para indicar 'em toda a minha vida'. Neste caso, a praia é descrita como a mais bonita que a pessoa já viu em toda a sua vida. Portanto, a resposta correta é 'EVER'."
       },
@@ -904,7 +1459,12 @@
         "id": "t1f42",
         "topic": "Present Perfect (Ever/Never)",
         "question": "Have you _____ tried sushi?",
-        "options": ["never", "already", "ever", "yet"],
+        "options": [
+          "never",
+          "already",
+          "ever",
+          "yet"
+        ],
         "correct": 2,
         "explanation": "EVER é usado em perguntas com present perfect para questionar se algo aconteceu em algum momento da vida. Neste caso, a pergunta é sobre se a pessoa alguma vez provou sushi. Portanto, a resposta correta é 'EVER'."
       },
@@ -912,15 +1472,25 @@
         "id": "t1f43",
         "topic": "Present Perfect (Ever/Never)",
         "question": "She has _____ missed a class in her life. She's always there.",
-        "options": ["ever", "yet", "already", "never"],
+        "options": [
+          "ever",
+          "yet",
+          "already",
+          "never"
+        ],
         "correct": 3,
-        "explanation": "NEVER expressa que algo nunca aconteceu em nenhum momento da vida. Neste caso, ela nunca faltou a uma aula — NEVER enfatiza essa experiência de frequência total. Portanto, a resposta correta é 'NEVER'."
+        "explanation": "NEVER expressa que algo nunca aconteceu em nenhum momento da vida. Neste caso, ela nunca faltou a uma aula, NEVER enfatiza essa experiência de frequência total. Portanto, a resposta correta é 'NEVER'."
       },
       {
         "id": "t1f44",
         "topic": "Present Perfect (Already/Yet)",
         "question": "Have you finished the report _____?",
-        "options": ["already", "never", "still", "yet"],
+        "options": [
+          "already",
+          "never",
+          "still",
+          "yet"
+        ],
         "correct": 3,
         "explanation": "YET é usado no final de perguntas para questionar se algo foi concluído ou não até agora. Neste caso, a pergunta é sobre se o relatório foi finalizado. Portanto, a resposta correta é 'YET'."
       },
@@ -928,63 +1498,103 @@
         "id": "t1f45",
         "topic": "Present Perfect (Already/Yet)",
         "question": "I've _____ sent the email. Check your inbox.",
-        "options": ["yet", "still", "never", "already"],
+        "options": [
+          "yet",
+          "still",
+          "never",
+          "already"
+        ],
         "correct": 3,
-        "explanation": "ALREADY é usado em afirmações para dizer que algo foi feito antes do esperado ou antes de ser pedido. Neste caso, o e-mail já foi enviado — a ação já está concluída. Portanto, a resposta correta é 'ALREADY'."
+        "explanation": "ALREADY é usado em afirmações para dizer que algo foi feito antes do esperado ou antes de ser pedido. Neste caso, o e-mail já foi enviado. A ação já está concluída. Portanto, a resposta correta é 'ALREADY'."
       },
       {
         "id": "t1f46",
         "topic": "Present Perfect (Already/Yet)",
         "question": "They haven't arrived _____.",
-        "options": ["already", "ever", "yet", "still"],
+        "options": [
+          "already",
+          "ever",
+          "yet",
+          "still"
+        ],
         "correct": 2,
-        "explanation": "YET é usado no final de frases negativas para indicar que algo esperado ainda não aconteceu. Neste caso, eles ainda não chegaram — era esperado que chegassem, mas ainda não ocorreu. Portanto, a resposta correta é 'YET'."
+        "explanation": "YET é usado no final de frases negativas para indicar que algo esperado ainda não aconteceu. Neste caso, eles ainda não chegaram. Era esperado que chegassem, mas ainda não ocorreu. Portanto, a resposta correta é 'YET'."
       },
       {
         "id": "t1f47",
         "topic": "Present Perfect (Already/Yet)",
         "question": "Don't tell me the ending! I haven't seen the movie _____.",
-        "options": ["already", "yet", "ever", "never"],
+        "options": [
+          "already",
+          "yet",
+          "ever",
+          "never"
+        ],
         "correct": 1,
-        "explanation": "YET em frases negativas indica que algo ainda não aconteceu, mas espera-se que aconteça. Neste caso, a pessoa ainda não viu o filme — não quer saber o final porque pretende assistir. Portanto, a resposta correta é 'YET'."
+        "explanation": "YET em frases negativas indica que algo ainda não aconteceu, mas espera-se que aconteça. Neste caso, a pessoa ainda não viu o filme. Não quer saber o final porque pretende assistir. Portanto, a resposta correta é 'YET'."
       },
       {
         "id": "t1f48",
         "topic": "Comparatives (Irregular)",
         "question": "The traffic today is _____ yesterday.",
-        "options": ["more bad than", "worst than", "worse than", "badder than"],
+        "options": [
+          "more bad than",
+          "worst than",
+          "worse than",
+          "badder than"
+        ],
         "correct": 2,
-        "explanation": "'Bad' tem uma forma irregular de comparação — não seguimos a regra normal de adicionar -ER ou MORE. 'Bad' vira 'worse' na comparação, e nunca 'more bad' ou 'badder'. Portanto, a resposta correta é 'WORSE THAN'."
+        "explanation": "'Bad' tem uma forma irregular de comparação. Não seguimos a regra normal de adicionar -ER ou MORE. 'Bad' vira 'worse' na comparação, e nunca 'more bad' ou 'badder'. Portanto, a resposta correta é 'WORSE THAN'."
       },
       {
         "id": "t1f49",
         "topic": "Comparatives (Irregular)",
         "question": "She dances _____ her sister.",
-        "options": ["more well than", "weller than", "best than", "better than"],
+        "options": [
+          "more well than",
+          "weller than",
+          "best than",
+          "better than"
+        ],
         "correct": 3,
-        "explanation": "'Well' (ou 'good') tem uma forma irregular na comparação. A forma comparativa de 'well' é 'better' — nunca 'more well' ou 'weller'. Neste caso, as duas irmãs são comparadas em dança. Portanto, a resposta correta é 'BETTER THAN'."
+        "explanation": "'Well' (ou 'good') tem uma forma irregular na comparação. A forma comparativa de 'well' é 'better', nunca 'more well' ou 'weller'. Neste caso, as duas irmãs são comparadas em dança. Portanto, a resposta correta é 'BETTER THAN'."
       },
       {
         "id": "t1f50",
         "topic": "Comparatives (Irregular)",
         "question": "My headache is getting _____. I need to take medicine.",
-        "options": ["more worse", "worser", "worst", "worse"],
+        "options": [
+          "more worse",
+          "worser",
+          "worst",
+          "worse"
+        ],
         "correct": 3,
-        "explanation": "'Worse' é a forma comparativa irregular de 'bad'. Nunca usamos 'more worse' ou 'worser' — 'worse' já é a comparação completa. Neste caso, a dor de cabeça está piorando com o tempo. Portanto, a resposta correta é 'WORSE'."
+        "explanation": "'Worse' é a forma comparativa irregular de 'bad'. Nunca usamos 'more worse' ou 'worser'. 'Worse' já é a comparação completa. Neste caso, a dor de cabeça está piorando com o tempo. Portanto, a resposta correta é 'WORSE'."
       },
       {
         "id": "t1f51",
         "topic": "Comparatives (Irregular)",
         "question": "The weather today is _____ than it was yesterday.",
-        "options": ["gooder", "more good", "best", "better"],
+        "options": [
+          "gooder",
+          "more good",
+          "best",
+          "better"
+        ],
         "correct": 3,
-        "explanation": "'Good' tem uma forma irregular na comparação — não adicionamos -ER e não usamos MORE. A forma comparativa correta é 'better'. Neste caso, o tempo de hoje está sendo comparado ao de ontem. Portanto, a resposta correta é 'BETTER'."
+        "explanation": "'Good' tem uma forma irregular na comparação. Não adicionamos -ER e não usamos MORE. A forma comparativa correta é 'better'. Neste caso, o tempo de hoje está sendo comparado ao de ontem. Portanto, a resposta correta é 'BETTER'."
       },
       {
         "id": "t1f52",
         "topic": "Tag Questions",
         "question": "You've met my sister before, _____?",
-        "options": ["have you", "haven't you", "did you", "don't you"],
+        "options": [
+          "have you",
+          "haven't you",
+          "did you",
+          "don't you"
+        ],
         "correct": 1,
         "explanation": "Com present perfect positivo, o finalzinho de pergunta é negativo e usa o mesmo auxiliar HAVE. Neste caso, a frase é positiva com 'have met', então o finalzinho é negativo com HAVEN'T. Portanto, a resposta correta é 'HAVEN'T YOU?'"
       },
@@ -992,7 +1602,12 @@
         "id": "t1f53",
         "topic": "Tag Questions",
         "question": "They weren't at the party, _____?",
-        "options": ["weren't they", "were they", "didn't they", "did they"],
+        "options": [
+          "weren't they",
+          "were they",
+          "didn't they",
+          "did they"
+        ],
         "correct": 1,
         "explanation": "Com frases negativas, o finalzinho de pergunta é positivo. Neste caso, a frase é negativa com WEREN'T, então o finalzinho é positivo com WERE. Portanto, a resposta correta é 'WERE THEY?'"
       },
@@ -1000,63 +1615,103 @@
         "id": "t1f54",
         "topic": "Tag Questions",
         "question": "Let's go for a walk, _____?",
-        "options": ["do we", "don't we", "shall we", "will we"],
+        "options": [
+          "do we",
+          "don't we",
+          "shall we",
+          "will we"
+        ],
         "correct": 2,
-        "explanation": "Depois de 'Let's', o finalzinho de pergunta especial é sempre 'shall we?' — é uma regra fixa. Neste caso, a pessoa está sugerindo um passeio e quer confirmar se os outros concordam. Portanto, a resposta correta é 'SHALL WE?'"
+        "explanation": "Depois de 'Let's', o finalzinho de pergunta especial é sempre 'shall we?'. É uma regra fixa. Neste caso, a pessoa está sugerindo um passeio e quer confirmar se os outros concordam. Portanto, a resposta correta é 'SHALL WE?'"
       },
       {
         "id": "t1f55",
         "topic": "Tag Questions",
         "question": "She can play the piano beautifully, _____?",
-        "options": ["she can", "can she", "can't she", "she can't"],
+        "options": [
+          "she can",
+          "can she",
+          "can't she",
+          "she can't"
+        ],
         "correct": 2,
-        "explanation": "Com frases positivas usando CAN, o finalzinho é negativo com CAN'T. Neste caso, a frase afirma que ela toca piano lindamente — o finalzinho negativo confirma essa informação. Portanto, a resposta correta é 'CAN'T SHE?'"
+        "explanation": "Com frases positivas usando CAN, o finalzinho é negativo com CAN'T. Neste caso, a frase afirma que ela toca piano lindamente, o finalzinho negativo confirma essa informação. Portanto, a resposta correta é 'CAN'T SHE?'"
       },
       {
         "id": "t1f56",
         "topic": "Must / Have To",
         "question": "_____ you wear a uniform at your school?",
-        "options": ["Must", "Do you have to", "Have you to", "Do you must"],
+        "options": [
+          "Must",
+          "Do you have to",
+          "Have you to",
+          "Do you must"
+        ],
         "correct": 1,
-        "explanation": "Para perguntar sobre obrigações do dia a dia, usamos DO/DOES + HAVE TO. Neste caso, a pergunta é sobre usar uniforme na escola — uma obrigação externa. Portanto, a resposta correta é 'DO YOU HAVE TO'."
+        "explanation": "Para perguntar sobre obrigações do dia a dia, usamos DO/DOES + HAVE TO. Neste caso, a pergunta é sobre usar uniforme na escola, uma obrigação externa. Portanto, a resposta correta é 'DO YOU HAVE TO'."
       },
       {
         "id": "t1f57",
         "topic": "Must / Have To",
         "question": "She _____ finish the project by Friday. It's urgent.",
-        "options": ["don't have to", "mustn't", "has to", "have to"],
+        "options": [
+          "don't have to",
+          "mustn't",
+          "has to",
+          "have to"
+        ],
         "correct": 2,
-        "explanation": "HAS TO é a forma correta para terceira pessoa do singular quando se expressa uma obrigação. Neste caso, ela tem a obrigação de entregar o projeto até sexta — é urgente e necessário. Portanto, a resposta correta é 'HAS TO'."
+        "explanation": "HAS TO é a forma correta para terceira pessoa do singular quando se expressa uma obrigação. Neste caso, ela tem a obrigação de entregar o projeto até sexta. É urgente e necessário. Portanto, a resposta correta é 'HAS TO'."
       },
       {
         "id": "t1f58",
         "topic": "Must / Have To",
         "question": "The sign says 'No Entry'. You _____ go in there.",
-        "options": ["don't have to", "have to", "must", "mustn't"],
+        "options": [
+          "don't have to",
+          "have to",
+          "must",
+          "mustn't"
+        ],
         "correct": 3,
-        "explanation": "MUSTN'T expressa uma proibição — algo que é terminantemente proibido. Neste caso, a placa proíbe a entrada — entrar é proibido, não apenas desnecessário. Portanto, a resposta correta é 'MUSTN'T'."
+        "explanation": "MUSTN'T expressa uma proibição (algo que é terminantemente proibido. Neste caso, a placa proíbe a entrada) entrar é proibido, não apenas desnecessário. Portanto, a resposta correta é 'MUSTN'T'."
       },
       {
         "id": "t1f59",
         "topic": "Must / Have To",
         "question": "I'm the boss here. I _____ follow your orders.",
-        "options": ["must", "mustn't", "don't have to", "have to"],
+        "options": [
+          "must",
+          "mustn't",
+          "don't have to",
+          "have to"
+        ],
         "correct": 2,
-        "explanation": "DON'T HAVE TO indica ausência de obrigação — algo que não é necessário. Neste caso, o chefe não é obrigado a seguir ordens dos funcionários — ele tem a escolha. Portanto, a resposta correta é 'DON'T HAVE TO'."
+        "explanation": "DON'T HAVE TO indica ausência de obrigação. Algo que não é necessário. Neste caso, o chefe não é obrigado a seguir ordens dos funcionários, ele tem a escolha. Portanto, a resposta correta é 'DON'T HAVE TO'."
       },
       {
         "id": "t1f60",
         "topic": "Present Perfect (Ever/Already/Never/Yet)",
         "question": "I've _____ eaten at that restaurant. The food is amazing!",
-        "options": ["yet", "never", "already", "ever"],
+        "options": [
+          "yet",
+          "never",
+          "already",
+          "ever"
+        ],
         "correct": 2,
-        "explanation": "ALREADY em afirmativas indica que algo foi feito antes — possivelmente antes do esperado. Neste caso, a pessoa já foi ao restaurante e pode recomendar. Portanto, a resposta correta é 'ALREADY'."
+        "explanation": "ALREADY em afirmativas indica que algo foi feito antes, possivelmente antes do esperado. Neste caso, a pessoa já foi ao restaurante e pode recomendar. Portanto, a resposta correta é 'ALREADY'."
       },
       {
         "id": "t1f61",
         "topic": "Present Perfect (Ever/Already/Never/Yet)",
         "question": "Has your brother _____ been abroad?",
-        "options": ["already", "never", "yet", "ever"],
+        "options": [
+          "already",
+          "never",
+          "yet",
+          "ever"
+        ],
         "correct": 3,
         "explanation": "EVER em perguntas questiona se algo aconteceu em algum momento da vida. Neste caso, a pergunta é sobre se o irmão já viajou para outro país em algum momento. Portanto, a resposta correta é 'EVER'."
       },
@@ -1064,15 +1719,25 @@
         "id": "t1f62",
         "topic": "Present Perfect (Ever/Already/Never/Yet)",
         "question": "She hasn't replied to my message _____.",
-        "options": ["already", "ever", "never", "yet"],
+        "options": [
+          "already",
+          "ever",
+          "never",
+          "yet"
+        ],
         "correct": 3,
-        "explanation": "YET em frases negativas indica que algo esperado ainda não aconteceu. Neste caso, a resposta à mensagem ainda não chegou — espera-se que chegue em algum momento. Portanto, a resposta correta é 'YET'."
+        "explanation": "YET em frases negativas indica que algo esperado ainda não aconteceu. Neste caso, a resposta à mensagem ainda não chegou, espera-se que chegue em algum momento. Portanto, a resposta correta é 'YET'."
       },
       {
         "id": "t1f63",
         "topic": "Present Perfect (Ever/Already/Never/Yet)",
         "question": "Have they _____ finished the construction? It's taking so long!",
-        "options": ["ever", "yet", "never", "already"],
+        "options": [
+          "ever",
+          "yet",
+          "never",
+          "already"
+        ],
         "correct": 1,
         "explanation": "YET em perguntas indica impaciência ou expectativa de que algo deveria ter sido feito. Neste caso, a pergunta sobre a construção sugere que ela já deveria estar pronta. Portanto, a resposta correta é 'YET'."
       },
@@ -1080,87 +1745,142 @@
         "id": "t1f64",
         "topic": "As...As (Equal Comparisons)",
         "question": "This jacket is _____ the one I already have. I don't need it.",
-        "options": ["as same as", "as nice as", "nice as", "nicer as"],
+        "options": [
+          "as same as",
+          "as nice as",
+          "nice as",
+          "nicer as"
+        ],
         "correct": 1,
-        "explanation": "Para dizer que duas coisas têm a mesma qualidade, usamos 'as + adjetivo + as'. Neste caso, o casaco novo é igual ao que a pessoa já tem — a mesma aparência. Portanto, a resposta correta é 'AS NICE AS'."
+        "explanation": "Para dizer que duas coisas têm a mesma qualidade, usamos 'as + adjetivo + as'. Neste caso, o casaco novo é igual ao que a pessoa já tem, a mesma aparência. Portanto, a resposta correta é 'AS NICE AS'."
       },
       {
         "id": "t1f65",
         "topic": "As...As (Equal Comparisons)",
         "question": "He's not _____ his father. (same height)",
-        "options": ["as tall as", "tall than", "as tall than", "taller as"],
+        "options": [
+          "as tall as",
+          "tall than",
+          "as tall than",
+          "taller as"
+        ],
         "correct": 0,
-        "explanation": "A estrutura 'not as + adjetivo + as' indica que o primeiro não alcança o nível do segundo. Neste caso, ele é menos alto do que o pai — não têm a mesma altura. Portanto, a resposta correta é 'AS TALL AS'."
+        "explanation": "A estrutura 'not as + adjetivo + as' indica que o primeiro não alcança o nível do segundo. Neste caso, ele é menos alto do que o pai. Não têm a mesma altura. Portanto, a resposta correta é 'AS TALL AS'."
       },
       {
         "id": "t1f66",
         "topic": "As...As (Equal Comparisons)",
         "question": "My phone is _____ yours. (same price)",
-        "options": ["as expensive as", "expensive as", "as expensive than", "so expensive as"],
+        "options": [
+          "as expensive as",
+          "expensive as",
+          "as expensive than",
+          "so expensive as"
+        ],
         "correct": 0,
-        "explanation": "Para igualar dois objetos numa característica, usamos 'as + adjetivo + as'. Neste caso, os dois celulares têm o mesmo preço — nenhum é mais caro. Portanto, a resposta correta é 'AS EXPENSIVE AS'."
+        "explanation": "Para igualar dois objetos numa característica, usamos 'as + adjetivo + as'. Neste caso, os dois celulares têm o mesmo preço. Nenhum é mais caro. Portanto, a resposta correta é 'AS EXPENSIVE AS'."
       },
       {
         "id": "t1f67",
         "topic": "As...As (Equal Comparisons)",
         "question": "This road is _____ the highway. (same level of danger)",
-        "options": ["as dangerous as", "dangerous as", "so dangerous than", "as dangerous than"],
+        "options": [
+          "as dangerous as",
+          "dangerous as",
+          "so dangerous than",
+          "as dangerous than"
+        ],
         "correct": 0,
-        "explanation": "A estrutura 'as + adjetivo + as' compara dois elementos como iguais. Neste caso, a estrada e a rodovia têm o mesmo nível de perigo — nenhuma é mais perigosa. Portanto, a resposta correta é 'AS DANGEROUS AS'."
+        "explanation": "A estrutura 'as + adjetivo + as' compara dois elementos como iguais. Neste caso, a estrada e a rodovia têm o mesmo nível de perigo. Nenhuma é mais perigosa. Portanto, a resposta correta é 'AS DANGEROUS AS'."
       },
       {
         "id": "t1f68",
         "topic": "Be Able To – Future/Conditional",
         "question": "She _____ help you tomorrow afternoon.",
-        "options": ["will can", "will be able to", "would able to", "will able to"],
+        "options": [
+          "will can",
+          "will be able to",
+          "would able to",
+          "will able to"
+        ],
         "correct": 1,
-        "explanation": "No futuro, não existe 'will can' — usamos WILL BE ABLE TO para falar de capacidade futura. Neste caso, ela vai conseguir ajudar amanhã à tarde. Portanto, a resposta correta é 'WILL BE ABLE TO'."
+        "explanation": "No futuro, não existe 'will can'. Usamos WILL BE ABLE TO para falar de capacidade futura. Neste caso, ela vai conseguir ajudar amanhã à tarde. Portanto, a resposta correta é 'WILL BE ABLE TO'."
       },
       {
         "id": "t1f69",
         "topic": "Be Able To – Future/Conditional",
         "question": "If you practice every day, you _____ speak fluently.",
-        "options": ["will can", "will able to", "will be able to", "would be able"],
+        "options": [
+          "will can",
+          "will able to",
+          "will be able to",
+          "would be able"
+        ],
         "correct": 2,
-        "explanation": "Com WILL, usamos WILL BE ABLE TO para expressar capacidade futura. Neste caso, o resultado de praticar todo dia é conseguir falar fluentemente — é uma capacidade que a pessoa vai desenvolver. Portanto, a resposta correta é 'WILL BE ABLE TO'."
+        "explanation": "Com WILL, usamos WILL BE ABLE TO para expressar capacidade futura. Neste caso, o resultado de praticar todo dia é conseguir falar fluentemente. É uma capacidade que a pessoa vai desenvolver. Portanto, a resposta correta é 'WILL BE ABLE TO'."
       },
       {
         "id": "t1f70",
         "topic": "Be Able To – Future/Conditional",
         "question": "They _____ finish the project on time.",
-        "options": ["won't able to", "won't be able to", "will not can", "will not able"],
+        "options": [
+          "won't able to",
+          "won't be able to",
+          "will not can",
+          "will not able"
+        ],
         "correct": 1,
-        "explanation": "A forma negativa de WILL BE ABLE TO é WON'T BE ABLE TO. Neste caso, eles não vão conseguir terminar o projeto a tempo — é uma incapacidade futura. Portanto, a resposta correta é 'WON'T BE ABLE TO'."
+        "explanation": "A forma negativa de WILL BE ABLE TO é WON'T BE ABLE TO. Neste caso, eles não vão conseguir terminar o projeto a tempo. É uma incapacidade futura. Portanto, a resposta correta é 'WON'T BE ABLE TO'."
       },
       {
         "id": "t1f71",
         "topic": "Be Able To – Future/Conditional",
         "question": "With more practice, he _____ run a marathon.",
-        "options": ["will able to", "will can", "would be able", "will be able to"],
+        "options": [
+          "will able to",
+          "will can",
+          "would be able",
+          "will be able to"
+        ],
         "correct": 3,
-        "explanation": "WILL BE ABLE TO é a estrutura correta para falar de uma capacidade que alguém vai adquirir no futuro. Neste caso, com mais prática, ele vai conseguir correr uma maratona — é uma habilidade futura. Portanto, a resposta correta é 'WILL BE ABLE TO'."
+        "explanation": "WILL BE ABLE TO é a estrutura correta para falar de uma capacidade que alguém vai adquirir no futuro. Neste caso, com mais prática, ele vai conseguir correr uma maratona. É uma habilidade futura. Portanto, a resposta correta é 'WILL BE ABLE TO'."
       },
       {
         "id": "t1f72",
         "topic": "Prepositions + V-ing (Interest/Opinion)",
         "question": "She is passionate _____ painting.",
-        "options": ["to", "for", "about", "of"],
+        "options": [
+          "to",
+          "for",
+          "about",
+          "of"
+        ],
         "correct": 2,
-        "explanation": "A expressão 'passionate about' é uma combinação fixa — a preposição que acompanha 'passionate' é sempre ABOUT, seguida do verbo com -ing. Neste caso, ela tem paixão por pintura. Portanto, a resposta correta é 'ABOUT'."
+        "explanation": "A expressão 'passionate about' é uma combinação fixa. A preposição que acompanha 'passionate' é sempre ABOUT, seguida do verbo com -ing. Neste caso, ela tem paixão por pintura. Portanto, a resposta correta é 'ABOUT'."
       },
       {
         "id": "t1f73",
         "topic": "Prepositions + V-ing (Interest/Opinion)",
         "question": "Are you keen _____ learning Japanese?",
-        "options": ["about", "on", "in", "for"],
+        "options": [
+          "about",
+          "on",
+          "in",
+          "for"
+        ],
         "correct": 1,
-        "explanation": "A expressão 'keen on' é uma combinação fixa em inglês — usada para dizer que alguém tem entusiasmo por algo. Depois de 'keen on', usamos o verbo com -ing. Portanto, a resposta correta é 'ON'."
+        "explanation": "A expressão 'keen on' é uma combinação fixa em inglês. Usada para dizer que alguém tem entusiasmo por algo. Depois de 'keen on', usamos o verbo com -ing. Portanto, a resposta correta é 'ON'."
       },
       {
         "id": "t1f74",
         "topic": "Prepositions + V-ing (Interest/Opinion)",
         "question": "He is not very good _____ cooking.",
-        "options": ["at", "in", "for", "to"],
+        "options": [
+          "at",
+          "in",
+          "for",
+          "to"
+        ],
         "correct": 0,
         "explanation": "A estrutura 'good at' é usada para falar de habilidade em algo. A preposição que sempre acompanha 'good' nesse contexto é AT, seguida do verbo com -ing. Portanto, a resposta correta é 'AT'."
       },
@@ -1168,7 +1888,12 @@
         "id": "t1f75",
         "topic": "Prepositions + V-ing (Interest/Opinion)",
         "question": "I'm thinking _____ changing jobs.",
-        "options": ["in", "for", "about", "on"],
+        "options": [
+          "in",
+          "for",
+          "about",
+          "on"
+        ],
         "correct": 2,
         "explanation": "A expressão 'thinking about' é usada para dizer que alguém está considerando fazer algo. Depois de 'thinking about', usamos o verbo com -ing. Neste caso, a pessoa está considerando mudar de emprego. Portanto, a resposta correta é 'ABOUT'."
       },
@@ -1176,15 +1901,25 @@
         "id": "t1f76",
         "topic": "Should – Advice",
         "question": "You _____ eat more vegetables. They're really good for you.",
-        "options": ["had better", "shouldn't", "should", "mustn't"],
+        "options": [
+          "had better",
+          "shouldn't",
+          "should",
+          "mustn't"
+        ],
         "correct": 2,
-        "explanation": "SHOULD é usado para dar conselhos simples e gerais, sem urgência. Neste caso, comer mais legumes é um conselho de saúde — não há uma consequência grave se a pessoa não seguir. Portanto, a resposta correta é 'SHOULD'."
+        "explanation": "SHOULD é usado para dar conselhos simples e gerais, sem urgência. Neste caso, comer mais legumes é um conselho de saúde. Não há uma consequência grave se a pessoa não seguir. Portanto, a resposta correta é 'SHOULD'."
       },
       {
         "id": "t1f77",
         "topic": "Should – Advice",
         "question": "I have a headache. _____ I take some aspirin?",
-        "options": ["Had I better", "Shall", "Should", "Am I better to"],
+        "options": [
+          "Had I better",
+          "Shall",
+          "Should",
+          "Am I better to"
+        ],
         "correct": 2,
         "explanation": "SHOULD é usado em perguntas para pedir uma sugestão ou conselho. Neste caso, a pessoa quer saber se é uma boa ideia tomar aspirina para a dor de cabeça. Portanto, a resposta correta é 'SHOULD'."
       },
@@ -1192,119 +1927,194 @@
         "id": "t1f78",
         "topic": "Should – Advice",
         "question": "You _____ stay up so late every night. You look exhausted.",
-        "options": ["should", "had better", "shouldn't", "mustn't"],
+        "options": [
+          "should",
+          "had better",
+          "shouldn't",
+          "mustn't"
+        ],
         "correct": 2,
-        "explanation": "SHOULDN'T é usado para dar um conselho negativo — sugerir que algo não deveria ser feito. Neste caso, a pessoa está sendo aconselhada a não ficar acordada até tarde com tanta frequência. Portanto, a resposta correta é 'SHOULDN'T'."
+        "explanation": "SHOULDN'T é usado para dar um conselho negativo, sugerir que algo não deveria ser feito. Neste caso, a pessoa está sendo aconselhada a não ficar acordada até tarde com tanta frequência. Portanto, a resposta correta é 'SHOULDN'T'."
       },
       {
         "id": "t1f79",
         "topic": "Should – Advice",
         "question": "She _____ apologize to him. She was clearly wrong.",
-        "options": ["shouldn't", "should", "mustn't", "don't have to"],
+        "options": [
+          "shouldn't",
+          "should",
+          "mustn't",
+          "don't have to"
+        ],
         "correct": 1,
-        "explanation": "SHOULD é o modal ideal para dar um conselho sobre o que é correto ou justo fazer. Neste caso, a sugestão é que ela peça desculpas porque errou — é o comportamento certo. Portanto, a resposta correta é 'SHOULD'."
+        "explanation": "SHOULD é o modal ideal para dar um conselho sobre o que é correto ou justo fazer. Neste caso, a sugestão é que ela peça desculpas porque errou. É o comportamento certo. Portanto, a resposta correta é 'SHOULD'."
       },
       {
         "id": "t1f80",
         "topic": "Verb + V-ing (Avoid/Enjoy/Consider/Finish)",
         "question": "Have you considered _____ a new hobby?",
-        "options": ["to try", "try", "tried", "trying"],
+        "options": [
+          "to try",
+          "try",
+          "tried",
+          "trying"
+        ],
         "correct": 3,
-        "explanation": "O verbo 'consider' sempre é seguido do verbo com -ing. Neste caso, a pergunta é sobre se a pessoa já pensou em tentar um novo hobby — depois de 'consider', o verbo fica com -ing. Portanto, a resposta correta é 'TRYING'."
+        "explanation": "O verbo 'consider' sempre é seguido do verbo com -ing. Neste caso, a pergunta é sobre se a pessoa já pensou em tentar um novo hobby. Depois de 'consider', o verbo fica com -ing. Portanto, a resposta correta é 'TRYING'."
       },
       {
         "id": "t1f81",
         "topic": "Verb + V-ing (Avoid/Enjoy/Consider/Finish)",
         "question": "He finished _____ the report an hour ago.",
-        "options": ["to write", "write", "writing", "wrote"],
+        "options": [
+          "to write",
+          "write",
+          "writing",
+          "wrote"
+        ],
         "correct": 2,
-        "explanation": "O verbo 'finish' sempre é seguido do verbo com -ing. Neste caso, ele terminou de escrever o relatório — depois de 'finish', o verbo vai com -ing. Portanto, a resposta correta é 'WRITING'."
+        "explanation": "O verbo 'finish' sempre é seguido do verbo com -ing. Neste caso, ele terminou de escrever o relatório. Depois de 'finish', o verbo vai com -ing. Portanto, a resposta correta é 'WRITING'."
       },
       {
         "id": "t1f82",
         "topic": "Verb + V-ing (Avoid/Enjoy/Consider/Finish)",
         "question": "I enjoy _____ to music while I cook.",
-        "options": ["listen", "to listen", "listened", "listening"],
+        "options": [
+          "listen",
+          "to listen",
+          "listened",
+          "listening"
+        ],
         "correct": 3,
-        "explanation": "O verbo 'enjoy' sempre é seguido do verbo com -ing. Neste caso, a pessoa gosta de ouvir música enquanto cozinha — depois de 'enjoy', o verbo fica com -ing. Portanto, a resposta correta é 'LISTENING'."
+        "explanation": "O verbo 'enjoy' sempre é seguido do verbo com -ing. Neste caso, a pessoa gosta de ouvir música enquanto cozinha. Depois de 'enjoy', o verbo fica com -ing. Portanto, a resposta correta é 'LISTENING'."
       },
       {
         "id": "t1f83",
         "topic": "Verb + V-ing (Avoid/Enjoy/Consider/Finish)",
         "question": "They avoided _____ the question about money.",
-        "options": ["to answer", "answer", "answering", "answered"],
+        "options": [
+          "to answer",
+          "answer",
+          "answering",
+          "answered"
+        ],
         "correct": 2,
-        "explanation": "O verbo 'avoid' sempre é seguido do verbo com -ing. Neste caso, eles evitaram responder à pergunta sobre dinheiro — depois de 'avoid', o verbo vai com -ing. Portanto, a resposta correta é 'ANSWERING'."
+        "explanation": "O verbo 'avoid' sempre é seguido do verbo com -ing. Neste caso, eles evitaram responder à pergunta sobre dinheiro. Depois de 'avoid', o verbo vai com -ing. Portanto, a resposta correta é 'ANSWERING'."
       },
       {
         "id": "t1f84",
         "topic": "Zero Conditional",
         "question": "If you leave bread in water, it _____.",
-        "options": ["gets soft", "will get soft", "got soft", "getting soft"],
+        "options": [
+          "gets soft",
+          "will get soft",
+          "got soft",
+          "getting soft"
+        ],
         "correct": 0,
-        "explanation": "No zero conditional, usamos o presente simples nas duas partes para descrever fatos gerais. Neste caso, o que acontece com o pão na água é sempre assim — é uma verdade geral, não uma previsão. Portanto, a resposta correta é 'GETS SOFT'."
+        "explanation": "No zero conditional, usamos o presente simples nas duas partes para descrever fatos gerais. Neste caso, o que acontece com o pão na água é sempre assim. É uma verdade geral, não uma previsão. Portanto, a resposta correta é 'GETS SOFT'."
       },
       {
         "id": "t1f85",
         "topic": "Zero Conditional",
         "question": "Cats use their claws when they _____.",
-        "options": ["are scared", "will be scared", "scared", "were scared"],
+        "options": [
+          "are scared",
+          "will be scared",
+          "scared",
+          "were scared"
+        ],
         "correct": 0,
-        "explanation": "No zero conditional, descrevemos algo que sempre acontece numa determinada situação — usamos o presente simples. Neste caso, gatos usam as garras quando têm medo — é um comportamento natural e constante. Portanto, a resposta correta é 'ARE SCARED'."
+        "explanation": "No zero conditional, descrevemos algo que sempre acontece numa determinada situação (usamos o presente simples. Neste caso, gatos usam as garras quando têm medo) é um comportamento natural e constante. Portanto, a resposta correta é 'ARE SCARED'."
       },
       {
         "id": "t1f86",
         "topic": "Zero Conditional",
         "question": "If you add salt to boiling water, it _____ faster.",
-        "options": ["boiled", "boils", "boil", "boiling"],
+        "options": [
+          "boiled",
+          "boils",
+          "boil",
+          "boiling"
+        ],
         "correct": 1,
-        "explanation": "No zero conditional, a consequência também fica no presente simples — não usamos WILL ou passado. Neste caso, o efeito do sal na água fervendo é um fato científico que sempre ocorre. Portanto, a resposta correta é 'BOILS'."
+        "explanation": "No zero conditional, a consequência também fica no presente simples. Não usamos WILL ou passado. Neste caso, o efeito do sal na água fervendo é um fato científico que sempre ocorre. Portanto, a resposta correta é 'BOILS'."
       },
       {
         "id": "t1f87",
         "topic": "Zero Conditional",
         "question": "When the temperature falls below zero, water _____.",
-        "options": ["freezes", "freeze", "froze", "will freeze"],
+        "options": [
+          "freezes",
+          "freeze",
+          "froze",
+          "will freeze"
+        ],
         "correct": 0,
-        "explanation": "O zero conditional com WHEN também usa o presente simples nas duas partes para expressar verdades científicas. Neste caso, a água congelar abaixo de zero é um fato da natureza — acontece sempre. Portanto, a resposta correta é 'FREEZES'."
+        "explanation": "O zero conditional com WHEN também usa o presente simples nas duas partes para expressar verdades científicas. Neste caso, a água congelar abaixo de zero é um fato da natureza. Acontece sempre. Portanto, a resposta correta é 'FREEZES'."
       },
       {
         "id": "t1f88",
         "topic": "Gerund as Subject",
         "question": "_____ a new language takes a lot of practice.",
-        "options": ["Learn", "To learning", "Learning", "Learns"],
+        "options": [
+          "Learn",
+          "To learning",
+          "Learning",
+          "Learns"
+        ],
         "correct": 2,
-        "explanation": "Quando uma ação é o sujeito da frase, usamos o verbo com -ing. Neste caso, 'aprender um novo idioma' é o assunto — é o que requer muita prática. Portanto, a resposta correta é 'LEARNING'."
+        "explanation": "Quando uma ação é o sujeito da frase, usamos o verbo com -ing. Neste caso, 'aprender um novo idioma' é o assunto. É o que requer muita prática. Portanto, a resposta correta é 'LEARNING'."
       },
       {
         "id": "t1f89",
         "topic": "Gerund as Subject",
         "question": "_____ is not always easy.",
-        "options": ["Forgive", "Forgiving", "To forgiving", "Forgives"],
+        "options": [
+          "Forgive",
+          "Forgiving",
+          "To forgiving",
+          "Forgives"
+        ],
         "correct": 1,
-        "explanation": "Para usar uma ação como sujeito, colocamos o verbo com -ing. Neste caso, 'perdoar' é o assunto da frase — é o ato que não é fácil. Portanto, a resposta correta é 'FORGIVING'."
+        "explanation": "Para usar uma ação como sujeito, colocamos o verbo com -ing. Neste caso, 'perdoar' é o assunto da frase. É o ato que não é fácil. Portanto, a resposta correta é 'FORGIVING'."
       },
       {
         "id": "t1f90",
         "topic": "Gerund as Subject",
         "question": "_____ every day can significantly improve your mood.",
-        "options": ["Exercise", "Exercising", "To exercise", "Exercises"],
+        "options": [
+          "Exercise",
+          "Exercising",
+          "To exercise",
+          "Exercises"
+        ],
         "correct": 1,
-        "explanation": "O sujeito da frase pode ser um verbo com -ing. Neste caso, 'se exercitar todos os dias' é o assunto — é isso que melhora o humor. Portanto, a resposta correta é 'EXERCISING'."
+        "explanation": "O sujeito da frase pode ser um verbo com -ing. Neste caso, 'se exercitar todos os dias' é o assunto. É isso que melhora o humor. Portanto, a resposta correta é 'EXERCISING'."
       },
       {
         "id": "t1f91",
         "topic": "Gerund as Subject",
         "question": "_____ healthy food is essential for a good life.",
-        "options": ["Eat", "Eating", "To eating", "Eats"],
+        "options": [
+          "Eat",
+          "Eating",
+          "To eating",
+          "Eats"
+        ],
         "correct": 1,
-        "explanation": "Quando queremos colocar uma ação como o assunto principal, usamos o verbo com -ing. Neste caso, 'comer comida saudável' é o sujeito da frase — é o que é essencial. Portanto, a resposta correta é 'EATING'."
+        "explanation": "Quando queremos colocar uma ação como o assunto principal, usamos o verbo com -ing. Neste caso, 'comer comida saudável' é o sujeito da frase. É o que é essencial. Portanto, a resposta correta é 'EATING'."
       },
       {
         "id": "t1f92",
         "topic": "Future Arrangements",
         "question": "I _____ a dentist appointment on Thursday. (already booked)",
-        "options": ["will have", "have", "am having", "going to have"],
+        "options": [
+          "will have",
+          "have",
+          "am having",
+          "going to have"
+        ],
         "correct": 2,
         "explanation": "Quando um compromisso já está marcado com antecedência, usamos o verbo com -ing no presente. Neste caso, a consulta com o dentista já está agendada para quinta-feira. Portanto, a resposta correta é 'AM HAVING'."
       },
@@ -1312,25 +2122,40 @@
         "id": "t1f93",
         "topic": "Future Arrangements",
         "question": "She _____ a flight to Rome next week. (ticket already bought)",
-        "options": ["will take", "is taking", "takes", "take"],
+        "options": [
+          "will take",
+          "is taking",
+          "takes",
+          "take"
+        ],
         "correct": 1,
-        "explanation": "Planos confirmados com antecedência — como uma passagem já comprada — são expressos com o verbo com -ing no presente. Neste caso, a viagem a Roma já está planejada e paga. Portanto, a resposta correta é 'IS TAKING'."
+        "explanation": "Planos confirmados com antecedência (como uma passagem já comprada) são expressos com o verbo com -ing no presente. Neste caso, a viagem a Roma já está planejada e paga. Portanto, a resposta correta é 'IS TAKING'."
       },
       {
         "id": "t1f94",
         "topic": "Future Arrangements",
         "question": "They _____ to a new house next month. (contract already signed)",
-        "options": ["will move", "are moving", "move", "going to move"],
+        "options": [
+          "will move",
+          "are moving",
+          "move",
+          "going to move"
+        ],
         "correct": 1,
-        "explanation": "Quando algo já está organizado e combinado, usamos o verbo com -ing no presente para expressar esse plano futuro. Neste caso, a mudança já está decidida — o contrato foi assinado. Portanto, a resposta correta é 'ARE MOVING'."
+        "explanation": "Quando algo já está organizado e combinado, usamos o verbo com -ing no presente para expressar esse plano futuro. Neste caso, a mudança já está decidida. O contrato foi assinado. Portanto, a resposta correta é 'ARE MOVING'."
       },
       {
         "id": "t1f95",
         "topic": "Future Arrangements",
         "question": "_____ you _____ anyone for dinner this Friday? (reservation made)",
-        "options": ["Will / meet", "Are / meeting", "Do / meet", "Are / going to meet"],
+        "options": [
+          "Will / meet",
+          "Are / meeting",
+          "Do / meet",
+          "Are / going to meet"
+        ],
         "correct": 1,
-        "explanation": "Para perguntar sobre planos já organizados, usamos ARE/IS + verbo com -ING. Neste caso, a pergunta é sobre um jantar que pode já estar marcado — uma reserva feita com antecedência. Portanto, a resposta correta é 'ARE / MEETING'."
+        "explanation": "Para perguntar sobre planos já organizados, usamos ARE/IS + verbo com -ING. Neste caso, a pergunta é sobre um jantar que pode já estar marcado, uma reserva feita com antecedência. Portanto, a resposta correta é 'ARE / MEETING'."
       }
     ]
   }
