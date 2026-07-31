@@ -61,15 +61,15 @@
       {
         "id": "f1m05",
         "topic": "Some/Any/No Words",
-        "question": "Is there _____ open this late? I'm starving.",
+        "question": "I'm starving, but there isn't _____ to eat in the fridge.",
         "options": [
-          "somewhere",
+          "anything",
           "something",
-          "anywhere",
-          "anywhere"
+          "everything",
+          "somewhere"
         ],
-        "correct": 1,
-        "explanation": "Quando fazemos uma pergunta esperando encontrar alguma coisa (com uma expectativa positiva), usamos 'something'. Neste caso, a pessoa está com fome e pergunta se tem algo aberto tão tarde assim, esperando uma resposta positiva. Portanto, a resposta correta é 'SOMETHING'."
+        "correct": 0,
+        "explanation": "Em frases negativas usamos as palavras com ANY. Aqui a frase diz que NÃO há comida na geladeira (isn't), então a palavra certa é 'anything'. 'Something' aparece em frases afirmativas ou em perguntas com expectativa positiva, 'everything' quer dizer tudo, e 'somewhere' serve para lugar, não para coisa. Portanto, a resposta correta é 'ANYTHING'."
       },
       {
         "id": "f1m06",
