@@ -848,7 +848,7 @@
 ══════════════════════════════════════ -->
 <div id="screen-books" class="screen active">
   <header class="hero" style="position:relative;">
-    <a href="https://pedro-fisk.github.io/fisk-hub/" class="hub-back-link">&#8592; Fisk Hub</a>
+    <a href="https://pedro-fisk.github.io/fisk-hub/" class="hub-back-link" id="hub-back">&#8592; Fisk Hub</a>
     <button class="theme-toggle" id="themeToggleBooks" aria-label="Toggle dark mode">🌙</button>
     <img class="hero-logo"
          src="https://raw.githubusercontent.com/Pedro-Fisk/fisk-hub/main/assets/fisk-logo.png"
@@ -2594,6 +2594,27 @@ portalPracticeBoot();
   steps.push({ el:null, title:'Como funciona 🎯',
     html:'Depois de escolher o livro, você seleciona <b>Prova do Meio</b>, <b>Prova do Fim</b> ou <b>prática livre por tópico</b>. No fim, você vê a nota e a explicação de cada questão. Toque no <b>❓</b> para rever este tour.' });
   FiskTour.mount(steps, { key:'qp_v1', delay:700 });
+})();
+</script>
+
+<script>
+/* Para onde o "voltar" leva. A ferramenta atende DOIS públicos: o professor,
+   que chega pelo Fisk Hub, e o aluno, que chega pelo Portal. O link fixo
+   mandava todo mundo para o Hub, ou seja, o aluno caía na tela de login do
+   professor. Quem chega com ?raf= veio do Portal. E quando há histórico na
+   aba (navegação normal, não nova aba), voltar de verdade é melhor do que
+   qualquer URL fixa: devolve exatamente a página de origem. */
+(function () {
+  var el = document.getElementById('hub-back');
+  if (!el) return;
+  var doPortal = /[?&]raf=/.test(location.search);
+  if (doPortal) {
+    el.href = 'https://portalfisk.com.br/';
+    el.innerHTML = '&#8592; Portal do Aluno';
+  }
+  el.addEventListener('click', function (ev) {
+    if (history.length > 1) { ev.preventDefault(); history.back(); }
+  });
 })();
 </script>
 </body>
