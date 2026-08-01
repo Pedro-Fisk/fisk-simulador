@@ -88,15 +88,34 @@
     if(el && !inView) setTimeout(function(){ self._render(step, self._resolve(step)); }, 200);
     else self._render(step, el);
   };
+  /* Rótulos da moldura. A interface daqui acompanha o CURSO (inglês ou
+     espanhol), então a moldura tem de acompanhar também: o aluno de Inmediato
+     via a tela em espanhol e "Passo 1 de 4 · Pular tour" em português. */
+  var FT_TXT = {
+    en:{ passo:'Step', de:'of', pular:'Skip tour', voltar:'Back',  proximo:'Next →',      concluir:'Finish ✓' },
+    es:{ passo:'Paso', de:'de', pular:'Saltar tour', voltar:'Atrás', proximo:'Siguiente →', concluir:'Finalizar ✓' },
+    pt:{ passo:'Passo', de:'de', pular:'Pular tour', voltar:'Voltar', proximo:'Próximo →',  concluir:'Concluir ✓' }
+  };
+  function ftTxt(){
+    try {
+      /* `const state` no outro <script> NÃO vira window.state (só `var` faz
+         isso), mas o identificador global existe: por isso o typeof. */
+      if (typeof state !== 'undefined' && state && FT_TXT[state.lang]) return FT_TXT[state.lang];
+      var l = localStorage.getItem('fisk_lang');
+      if (FT_TXT[l]) return FT_TXT[l];
+    } catch(e){}
+    return FT_TXT.en;
+  }
   Runner.prototype._render = function(step, el){
     var last = this.i===this.steps.length-1, first = this.i===0;
+    var x = ftTxt();
     this.card.innerHTML =
-      '<div class="ftour-step">Passo '+(this.i+1)+' de '+this.steps.length+'</div>'+
+      '<div class="ftour-step">'+x.passo+' '+(this.i+1)+' '+x.de+' '+this.steps.length+'</div>'+
       '<h3>'+step.title+'</h3><p>'+step.html+'</p>'+
       '<div class="ftour-actions">'+
-        '<button class="ftour-skip">Pular tour</button>'+
-        (first?'':'<button class="ftour-btn ftour-prev">Voltar</button>')+
-        '<button class="ftour-btn ftour-next">'+(last?'Concluir ✓':'Próximo →')+'</button>'+
+        '<button class="ftour-skip">'+x.pular+'</button>'+
+        (first?'':'<button class="ftour-btn ftour-prev">'+x.voltar+'</button>')+
+        '<button class="ftour-btn ftour-next">'+(last?x.concluir:x.proximo)+'</button>'+
       '</div>';
     this.card.querySelector('.ftour-skip').onclick = this._skip.bind(this);
     this.card.querySelector('.ftour-next').onclick = this._next.bind(this);

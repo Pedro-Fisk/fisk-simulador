@@ -1217,9 +1217,20 @@ function livrosAteOEstagio(k) {
   if (k) {
     const alcanca = livrosAteOEstagio(k);
     document.querySelectorAll('.book-card').forEach(c => { if (alcanca.indexOf(c.dataset.book) < 0) c.style.display = 'none'; });
+    /* Aluno de espanhol: trocar o GRUPO de livros não bastava, porque a
+       interface continuava em inglês (e o tour também). selectLang faz as
+       três coisas de uma vez: string da interface, grupo visível e o idioma
+       que o tour lê. */
     if (/^inmediato/.test(k)) {
       document.getElementById('english-books').style.display = 'none';
       document.getElementById('spanish-books').style.display = '';
+      /* A interface também tem de virar espanhol, senão o aluno de Inmediato
+         lê a tela em inglês. Vai no PRÓXIMO TICK de propósito: selectLang usa
+         applyLang, que lê UI_STRINGS, uma const declarada mais abaixo neste
+         mesmo script. Chamar aqui dá erro de inicialização e aborta o resto
+         deste bloco (foi o que aconteceu na primeira tentativa: o seletor de
+         idioma ficava visível porque o código seguinte nunca rodava). */
+      setTimeout(function () { if (typeof selectLang === 'function') selectLang('es'); }, 0);
     }
     // esconde grupos que ficaram vazios e o toggle de idioma
     document.querySelectorAll('.books-grid').forEach(g => {
@@ -2567,7 +2578,7 @@ async function portalPracticeBoot() {
 }
 portalPracticeBoot();
 </script>
-<script src="assets/tour.js"></script>
+<script src="assets/tour.js?v=20260731"></script>
 <script>
 /* Tour guiado de primeiro acesso do Quick Practice (PT). */
 (function(){
@@ -2582,17 +2593,49 @@ portalPracticeBoot();
     return null;
   }
   function visible(sel){ var el=document.querySelector(sel); return !!(el && el.offsetParent!==null); }
+  /* O tour existia só em português, mas a interface daqui acompanha o CURSO:
+     inglês ou espanhol. O aluno de Inmediato via a tela toda em espanhol e o
+     tour em português. Os textos seguem o mesmo state.lang do resto. */
+  var TOUR = {
+    en: {
+      bem:  ['Welcome to Quick Practice! 📝',
+             'Here you practise your book exercises on your own, marked automatically as you go. Let me show you in 30 seconds.'],
+      livro:['Choose your book 📚',
+             'Tap your level to start. You see the book for your stage, and tapping it takes you straight to the exercise type.'],
+      idioma:['English or Spanish 🌎',
+             'Studying Spanish? Switch between <b>Inglês</b> and <b>Español</b> here before choosing the book.'],
+      como: ['How it works 🎯',
+             'After choosing the book, you pick <b>Midterm</b>, <b>Final</b> or <b>free practice by topic</b>. At the end you see your score and the explanation for every question. Tap <b>❓</b> to see this tour again.']
+    },
+    es: {
+      bem:  ['¡Bienvenido a Quick Practice! 📝',
+             'Aquí practicas los ejercicios de tu libro por tu cuenta, con corrección automática al instante. Te muestro en 30 segundos.'],
+      livro:['Elige tu libro 📚',
+             'Toca tu nivel para empezar. Ves el libro de tu etapa y, al tocarlo, vas directo a la elección del tipo de ejercicio.'],
+      idioma:['Inglés o Español 🌎',
+             '¿Estudias español? Cambia aquí entre <b>Inglês</b> y <b>Español</b> antes de elegir el libro.'],
+      como: ['Cómo funciona 🎯',
+             'Después de elegir el libro, seleccionas <b>Prova do Meio</b>, <b>Prova do Fim</b> o <b>práctica libre por tema</b>. Al final ves la nota y la explicación de cada pregunta. Toca <b>❓</b> para volver a ver este tour.']
+    },
+    pt: {
+      bem:  ['Bem-vindo ao Quick Practice! 📝',
+             'Aqui você pratica os exercícios do seu livro de forma independente, com correção automática na hora. Deixa eu te mostrar em 30 segundos.'],
+      livro:['Escolha o seu livro 📚',
+             'Toque no seu estágio para começar. Você vê o livro do seu nível. Ao tocar, já vai para a escolha do tipo de exercício.'],
+      idioma:['Inglês ou Espanhol 🌎',
+             'Estuda espanhol? Troque aqui entre <b>Inglês</b> e <b>Español</b> antes de escolher o livro.'],
+      como: ['Como funciona 🎯',
+             'Depois de escolher o livro, você seleciona <b>Prova do Meio</b>, <b>Prova do Fim</b> ou <b>prática livre por tópico</b>. No fim, você vê a nota e a explicação de cada questão. Toque no <b>❓</b> para rever este tour.']
+    }
+  };
+  var TT = TOUR[(state && state.lang) || 'en'] || TOUR.en;
   var steps=[
-    { el:null, title:'Bem-vindo ao Quick Practice! 📝',
-      html:'Aqui você pratica os exercícios do seu livro de forma independente, com correção automática na hora. Deixa eu te mostrar em 30 segundos.' },
-    { el: firstVisible('.book-card') || '#english-books', title:'Escolha o seu livro 📚',
-      html:'Toque no seu estágio para começar. Você vê o livro do seu nível. Ao tocar, já vai para a escolha do tipo de exercício.' }
+    { el:null, title:TT.bem[0], html:TT.bem[1] },
+    { el: firstVisible('.book-card') || '#english-books', title:TT.livro[0], html:TT.livro[1] }
   ];
   if(visible('#screen-books .lang-toggle'))
-    steps.push({ el:'#screen-books .lang-toggle', title:'Inglês ou Espanhol 🌎',
-      html:'Estuda espanhol? Troque aqui entre <b>Inglês</b> e <b>Español</b> antes de escolher o livro.' });
-  steps.push({ el:null, title:'Como funciona 🎯',
-    html:'Depois de escolher o livro, você seleciona <b>Prova do Meio</b>, <b>Prova do Fim</b> ou <b>prática livre por tópico</b>. No fim, você vê a nota e a explicação de cada questão. Toque no <b>❓</b> para rever este tour.' });
+    steps.push({ el:'#screen-books .lang-toggle', title:TT.idioma[0], html:TT.idioma[1] });
+  steps.push({ el:null, title:TT.como[0], html:TT.como[1] });
   FiskTour.mount(steps, { key:'qp_v1', delay:700 });
 })();
 </script>

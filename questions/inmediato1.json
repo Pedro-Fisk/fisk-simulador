@@ -5,6 +5,7 @@
   "midterm": {
     "questions": [
       {
+        "id": "i1m01",
         "topic": "Artículos Determinados",
         "question": "¿Cuál es el artículo determinado correcto para la palabra 'libro'?",
         "options": [
@@ -17,6 +18,7 @@
         "explanation": "'Livro' em espanhol é masculino singular. O artigo determinado masculino singular é 'el'."
       },
       {
+        "id": "i1m02",
         "topic": "Artículos Determinados",
         "question": "Completa la oración: '___ chica es muy simpática.'",
         "options": [
@@ -29,6 +31,7 @@
         "explanation": "'Chica' é feminino singular. O artigo determinado feminino singular é 'la'."
       },
       {
+        "id": "i1m03",
         "topic": "Artículos Determinados",
         "question": "¿Cuál es el artículo determinado correcto para 'estudiantes'?",
         "options": [
@@ -41,6 +44,7 @@
         "explanation": "'Estudiantes' é masculino plural (ou misto). O artigo determinado masculino plural é 'los'."
       },
       {
+        "id": "i1m04",
         "topic": "Masculino / Femenino",
         "question": "¿Cuál es el femenino de 'amigo'?",
         "options": [
@@ -53,6 +57,7 @@
         "explanation": "Em espanhol, para formar o feminino de palavras terminadas em '-o', troca-se o '-o' por '-a'. 'Amigo' → 'amiga'."
       },
       {
+        "id": "i1m05",
         "topic": "Masculino / Femenino",
         "question": "¿Cuál es la forma femenina de 'médico'?",
         "options": [
@@ -65,6 +70,7 @@
         "explanation": "O feminino de 'médico' é 'médica', substituindo o '-o' por '-a'."
       },
       {
+        "id": "i1m06",
         "topic": "Masculino / Femenino",
         "question": "¿Cuál de estas palabras es femenina?",
         "options": [
@@ -77,6 +83,7 @@
         "explanation": "'Profesora' é feminino. 'Libro', 'chico' e 'hombre' são masculinos."
       },
       {
+        "id": "i1m07",
         "topic": "Singular / Plural",
         "question": "¿Cuál es el plural de 'lápiz'?",
         "options": [
@@ -89,6 +96,7 @@
         "explanation": "Palavras terminadas em '-z' formam o plural com '-ces'. 'Lápiz' → 'lápices'."
       },
       {
+        "id": "i1m08",
         "topic": "Singular / Plural",
         "question": "¿Cuál es el plural de 'ciudad'?",
         "options": [
@@ -101,6 +109,7 @@
         "explanation": "Palavras terminadas em consoante formam o plural com '-es'. 'Ciudad' → 'ciudades'."
       },
       {
+        "id": "i1m09",
         "topic": "Singular / Plural",
         "question": "¿Cuál es el singular de 'árboles'?",
         "options": [
@@ -113,6 +122,7 @@
         "explanation": "O singular de 'árboles' é 'árbol'. Retira-se o '-es' final."
       },
       {
+        "id": "i1m10",
         "topic": "Interrogativos",
         "question": "¿___ te llamas?",
         "options": [
@@ -125,6 +135,7 @@
         "explanation": "Para perguntar o nome de alguém, usamos '¿Cómo te llamas?' (Como você se chama?)."
       },
       {
+        "id": "i1m11",
         "topic": "Interrogativos",
         "question": "¿___ años tienes?",
         "options": [
@@ -137,6 +148,7 @@
         "explanation": "Para perguntar a idade, usamos '¿Cuántos años tienes?' (Quantos anos você tem?)."
       },
       {
+        "id": "i1m12",
         "topic": "Interrogativos",
         "question": "¿___ vives?",
         "options": [
@@ -149,6 +161,7 @@
         "explanation": "Para perguntar onde alguém mora, usamos '¿Dónde vives?' (Onde você mora?)."
       },
       {
+        "id": "i1m13",
         "topic": "Presente de Indicativo (-ar)",
         "question": "Ella ___ español todos los días. (hablar)",
         "options": [
@@ -161,6 +174,7 @@
         "explanation": "Com o sujeito 'ella', o verbo 'hablar' no presente do indicativo é 'habla'. Terminações -ar: yo -o, tú -as, él/ella -a, nosotros -amos, vosotros -áis, ellos -an."
       },
       {
+        "id": "i1m14",
         "topic": "Presente de Indicativo (-ar)",
         "question": "Nosotros ___ en una empresa internacional. (trabajar)",
         "options": [
@@ -173,6 +187,7 @@
         "explanation": "Com 'nosotros', o verbo 'trabajar' termina em '-amos'. 'Trabajamos' = nós trabalhamos."
       },
       {
+        "id": "i1m15",
         "topic": "Presente de Indicativo (-ar)",
         "question": "Yo ___ música clásica por la tarde. (escuchar)",
         "options": [
@@ -185,6 +200,7 @@
         "explanation": "Com o sujeito 'yo', os verbos regulares terminados em '-ar' recebem a terminação '-o'. 'Escucho' = eu escuto."
       },
       {
+        "id": "i1m16",
         "topic": "Presente de Indicativo (-ar)",
         "question": "Ellos ___ mucho los fines de semana. (caminar)",
         "options": [
@@ -197,6 +213,7 @@
         "explanation": "Com 'ellos/ellas', o verbo 'caminar' termina em '-an'. 'Caminan' = eles caminham."
       },
       {
+        "id": "i1m17",
         "topic": "Presente de Indicativo (ser / llamarse)",
         "question": "Yo ___ Pedro García.",
         "options": [
@@ -209,6 +226,7 @@
         "explanation": "O verbo 'llamarse' é reflexivo. Com 'yo', usa-se o pronome reflexivo 'me' + 'llamo'. 'Me llamo' = meu nome é / eu me chamo."
       },
       {
+        "id": "i1m18",
         "topic": "Presente de Indicativo (ser / llamarse)",
         "question": "Ella ___ doctora. (ser)",
         "options": [
@@ -221,6 +239,7 @@
         "explanation": "Com 'ella', o verbo 'ser' no presente é 'es'. 'Ella es doctora' = Ela é médica."
       },
       {
+        "id": "i1m19",
         "topic": "Presente de Indicativo (ser / llamarse)",
         "question": "¿Cómo ___ tu amigo? (llamarse)",
         "options": [
@@ -233,6 +252,7 @@
         "explanation": "Para perguntar o nome de uma terceira pessoa, usamos '¿Cómo se llama?' Com 'él/ella', o pronome reflexivo é 'se'."
       },
       {
+        "id": "i1m20",
         "topic": "Presente de Indicativo (ser / llamarse)",
         "question": "Vosotros ___ de España, ¿verdad? (ser)",
         "options": [
@@ -245,6 +265,7 @@
         "explanation": "Com 'vosotros' (vocês, forma usada na Espanha), o verbo 'ser' é 'sois'. 'Vosotros sois' = vocês são."
       },
       {
+        "id": "i1m21",
         "topic": "Demostrativos",
         "question": "___ libro que tengo aquí es muy interesante.",
         "options": [
@@ -257,6 +278,7 @@
         "explanation": "'Libro' é masculino singular e o objeto está perto do falante. O demonstrativo masculino singular para algo próximo é 'este' (este)."
       },
       {
+        "id": "i1m22",
         "topic": "Demostrativos",
         "question": "___ chica que está allí lejos es mi hermana.",
         "options": [
@@ -269,6 +291,7 @@
         "explanation": "'Chica' é feminino singular e está longe do falante. O demonstrativo para algo distante feminino é 'aquella'."
       },
       {
+        "id": "i1m23",
         "topic": "Demostrativos",
         "question": "¿Qué es ___?, (señalando algo cuyo nombre no sabes)",
         "options": [
@@ -281,6 +304,7 @@
         "explanation": "Quando não sabemos o nome do objeto apontado, usamos a forma neutra 'esto' (isto). Os demonstrativos neutros são: esto, eso, aquello. Não têm gênero."
       },
       {
+        "id": "i1m24",
         "topic": "Presente de Indicativo (-er / -ir)",
         "question": "Tú ___ muy rápido. (comer)",
         "options": [
@@ -293,6 +317,7 @@
         "explanation": "Com 'tú', os verbos em '-er' terminam em '-es'. 'Comer' → 'comes' = você come."
       },
       {
+        "id": "i1m25",
         "topic": "Presente de Indicativo (-er / -ir)",
         "question": "Nosotros ___ en Barcelona. (vivir)",
         "options": [
@@ -305,6 +330,7 @@
         "explanation": "Com 'nosotros', os verbos '-ir' terminam em '-imos'. 'Vivir' → 'vivimos' = nós moramos."
       },
       {
+        "id": "i1m26",
         "topic": "Presente de Indicativo (-er / -ir)",
         "question": "Ella ___ el periódico cada mañana. (leer)",
         "options": [
@@ -317,6 +343,7 @@
         "explanation": "Com 'ella', o verbo 'leer' termina em '-e'. 'Lee' = ela lê."
       },
       {
+        "id": "i1m27",
         "topic": "Presente de Indicativo (-er / -ir)",
         "question": "Ellos ___ agua mineral en las comidas. (beber)",
         "options": [
@@ -329,6 +356,7 @@
         "explanation": "Com 'ellos', os verbos '-er' terminam em '-en'. 'Beber' → 'beben' = eles bebem."
       },
       {
+        "id": "i1m28",
         "topic": "Verbos Irregulares (E>IE)",
         "question": "Yo ___ ir al cine contigo. (querer)",
         "options": [
@@ -341,6 +369,7 @@
         "explanation": "O verbo 'querer' é irregular E>IE. Com 'yo', a raiz tônica muda: 'quiero' = eu quero. Atenção: em espanhol, 'quiero', não 'quero'."
       },
       {
+        "id": "i1m29",
         "topic": "Verbos Irregulares (E>IE)",
         "question": "La clase ___ a las nueve de la mañana. (empezar)",
         "options": [
@@ -353,6 +382,7 @@
         "explanation": "'Empezar' é irregular E>IE. Com 'ella/él', a raiz muda: 'empeza' → 'empieza'. A mudança ocorre nas formas com raiz tônica."
       },
       {
+        "id": "i1m30",
         "topic": "Verbos Irregulares (E>IE)",
         "question": "¿___ tú la explicación del profesor? (entender)",
         "options": [
@@ -365,6 +395,7 @@
         "explanation": "'Entender' é irregular E>IE. Com 'tú', a raiz muda para 'ie': 'entiendes' = você entende."
       },
       {
+        "id": "i1m31",
         "topic": "Verbos Irregulares (E>IE)",
         "question": "Nosotros ___ el problema perfectamente. (entender)",
         "options": [
@@ -377,6 +408,7 @@
         "explanation": "Com 'nosotros', os verbos E>IE NÃO sofrem a mudança na raiz. 'Entendemos' = nós entendemos. A mudança E>IE só ocorre nas formas com raiz tônica (yo, tú, él/ella, ellos/ellas)."
       },
       {
+        "id": "i1m32",
         "topic": "Expresiones de Tiempo y Frecuencia",
         "question": "Ella va al gimnasio ___ los días.",
         "options": [
@@ -389,6 +421,7 @@
         "explanation": "'Todos los días' significa 'todos os dias'. É a expressão usada para indicar frequência diária sem exceção."
       },
       {
+        "id": "i1m33",
         "topic": "Expresiones de Tiempo y Frecuencia",
         "question": "Él va muy poco al médico. Podemos decir que ___ va al médico.",
         "options": [
@@ -401,6 +434,7 @@
         "explanation": "'Casi nunca' significa 'quase nunca' e indica que algo acontece com muito pouca frequência."
       },
       {
+        "id": "i1m34",
         "topic": "Expresiones de Tiempo y Frecuencia",
         "question": "¿Con qué frecuencia estudias español? Estudio ___ los martes y jueves.",
         "options": [
@@ -413,6 +447,7 @@
         "explanation": "'Los' + dia da semana indica frequência regular semanal. 'Los martes y jueves' = às terças e quintas-feiras."
       },
       {
+        "id": "i1m35",
         "topic": "Contracciones (al / del)",
         "question": "Voy ___ mercado a comprar frutas. (a + el)",
         "options": [
@@ -425,6 +460,7 @@
         "explanation": "Em espanhol, 'a' + 'el' se contraem obrigatoriamente em 'al'. 'Voy al mercado' = eu vou ao mercado."
       },
       {
+        "id": "i1m36",
         "topic": "Contracciones (al / del)",
         "question": "Vengo ___ trabajo muy cansado. (de + el)",
         "options": [
@@ -437,6 +473,7 @@
         "explanation": "'De' + 'el' se contraem em 'del'. 'Vengo del trabajo' = venho do trabalho."
       },
       {
+        "id": "i1m37",
         "topic": "Contracciones (al / del)",
         "question": "El libro es ___ profesor. (de + el)",
         "options": [
@@ -449,6 +486,7 @@
         "explanation": "Para indicar posse, usamos 'de' + 'el' = 'del'. 'El libro del profesor' = o livro do professor. 'De el' não existe em espanhol."
       },
       {
+        "id": "i1m38",
         "topic": "Verbos Reflexivos",
         "question": "Yo ___ a las siete de la mañana. (levantarse)",
         "options": [
@@ -461,6 +499,7 @@
         "explanation": "O verbo reflexivo 'levantarse' usa pronomes reflexivos. Com 'yo', o pronome é 'me'. 'Me levanto' = eu me levanto."
       },
       {
+        "id": "i1m39",
         "topic": "Verbos Reflexivos",
         "question": "Ella ___ el pelo todos los días. (lavarse)",
         "options": [
@@ -473,6 +512,7 @@
         "explanation": "Com 'ella', o pronome reflexivo é 'se'. 'Se lava el pelo' = ela lava o cabelo (a si mesma)."
       },
       {
+        "id": "i1m40",
         "topic": "Verbos Reflexivos",
         "question": "¿A qué hora ___ tú? (acostarse)",
         "options": [
@@ -485,6 +525,7 @@
         "explanation": "Com 'tú', o pronome reflexivo é 'te'. Além disso, 'acostarse' é irregular O>UE: 'te acuestas' = você vai se deitar."
       },
       {
+        "id": "i1m41",
         "topic": "Verbos Reflexivos",
         "question": "Ellos ___ muy tarde los fines de semana. (dormirse)",
         "options": [
@@ -497,6 +538,7 @@
         "explanation": "Com 'ellos', o pronome reflexivo é 'se'. 'Se duermen' = eles adormecem. 'Dormirse' também é irregular O>UE."
       },
       {
+        "id": "i1m42",
         "topic": "Verbos Irregulares (O>UE)",
         "question": "Ella ___ ocho horas cada noche. (dormir)",
         "options": [
@@ -509,6 +551,7 @@
         "explanation": "'Dormir' é irregular O>UE. Com 'ella', a raiz muda: 'duerme' = ela dorme."
       },
       {
+        "id": "i1m43",
         "topic": "Verbos Irregulares (O>UE)",
         "question": "Yo ___ a casa a las ocho. (volver)",
         "options": [
@@ -521,6 +564,7 @@
         "explanation": "'Volver' é irregular O>UE. Com 'yo', a raiz muda: 'vuelvo' = eu volto. Cuidado: 'vuelo' é de 'volar' (voar)."
       },
       {
+        "id": "i1m44",
         "topic": "Verbos Irregulares (O>UE)",
         "question": "¿___ tú hablar francés? (poder)",
         "options": [
@@ -533,6 +577,7 @@
         "explanation": "'Poder' é irregular O>UE. Com 'tú', a raiz muda: 'puedes' = você pode. Em espanhol, não existe 'pode'."
       },
       {
+        "id": "i1m45",
         "topic": "Verbos Irregulares (O>UE)",
         "question": "Nosotros ___ al fútbol los sábados. (jugar)",
         "options": [
@@ -545,6 +590,7 @@
         "explanation": "Com 'nosotros', os verbos O>UE NÃO sofrem a mudança na raiz. 'Jugamos' = nós jogamos. A mudança só ocorre nas formas com raiz tônica."
       },
       {
+        "id": "i1m46",
         "topic": "Verbo Ir",
         "question": "Yo ___ al supermercado ahora mismo.",
         "options": [
@@ -557,6 +603,7 @@
         "explanation": "O verbo 'ir' é completamente irregular. Com 'yo' (eu), a forma correta é 'voy'. 'Voy al supermercado' = vou ao supermercado."
       },
       {
+        "id": "i1m47",
         "topic": "Verbo Ir",
         "question": "Ellos ___ al cine esta noche.",
         "options": [
@@ -569,6 +616,7 @@
         "explanation": "Com 'ellos' (eles), o verbo 'ir' é 'van'. 'Ellos van' = eles vão."
       },
       {
+        "id": "i1m48",
         "topic": "Verbo Ir",
         "question": "¿___ tú a la fiesta el sábado?",
         "options": [
@@ -581,6 +629,7 @@
         "explanation": "Com 'tú' (você), o verbo 'ir' é 'vas'. '¿Vas a la fiesta?' = você vai à festa?"
       },
       {
+        "id": "i1m49",
         "topic": "Adjetivos",
         "question": "La chica es muy ___. (inteligente)",
         "options": [
@@ -593,6 +642,7 @@
         "explanation": "O adjetivo 'inteligente' termina em '-e' e não tem forma específica para masculino ou feminino. Serve para singular masculino e feminino."
       },
       {
+        "id": "i1m50",
         "topic": "Adjetivos",
         "question": "Los libros son muy ___. (interesting)",
         "options": [
@@ -605,6 +655,7 @@
         "explanation": "Com um substantivo masculino plural ('los libros'), o adjetivo deve estar no plural. 'Interesante' → plural: 'interesantes'."
       },
       {
+        "id": "i1m51",
         "topic": "Adjetivos",
         "question": "El hombre ___ es mi profesor. (alto)",
         "options": [
@@ -617,6 +668,7 @@
         "explanation": "O adjetivo concorda com o substantivo em gênero e número. 'Hombre' é masculino singular, então o adjetivo é 'alto'."
       },
       {
+        "id": "i1m52",
         "topic": "Posesivos (mi, tu, su...)",
         "question": "___ casa es muy grande y bonita.",
         "options": [
@@ -629,6 +681,7 @@
         "explanation": "Antes de um substantivo singular, usamos a forma curta do possessivo: 'mi' (meu/minha). 'Mi casa' = minha casa."
       },
       {
+        "id": "i1m53",
         "topic": "Posesivos (mi, tu, su...)",
         "question": "¿Es este ___ libro? (de ti)",
         "options": [
@@ -641,6 +694,7 @@
         "explanation": "'Tu' (sem acento) é o possessivo para 'tú' (você). '¿Es tu libro?' = é o seu livro? (de você). Cuidado: 'tú' com acento é o pronome pessoal."
       },
       {
+        "id": "i1m54",
         "topic": "Posesivos (mi, tu, su...)",
         "question": "Ellos fueron de vacaciones con ___ familia. (de ellos)",
         "options": [
@@ -653,6 +707,7 @@
         "explanation": "'Su' é o possessivo para él/ella/ellos/ustedes. Aqui, 'su familia' = a família deles."
       },
       {
+        "id": "i1m55",
         "topic": "Comparación",
         "question": "Pedro es ___ alto ___ Juan.",
         "options": [
@@ -665,6 +720,7 @@
         "explanation": "Para comparar desigualdade (mais... do que), usamos 'más + adjetivo + que'. 'Pedro es más alto que Juan' = Pedro é mais alto que Juan."
       },
       {
+        "id": "i1m56",
         "topic": "Comparación",
         "question": "Esta película es ___ interesante ___ la otra.",
         "options": [
@@ -677,6 +733,7 @@
         "explanation": "Para comparar igualdade (tão... quanto), usamos 'tan + adjetivo + como'. 'Tan interesante como' = tão interessante quanto."
       },
       {
+        "id": "i1m57",
         "topic": "Comparación",
         "question": "Carlos es el ___ estudiante de la clase. (best)",
         "options": [
@@ -689,6 +746,7 @@
         "explanation": "'Mejor' é o comparativo/superlativo irregular de 'bueno'. 'El mejor estudiante' = o melhor aluno."
       },
       {
+        "id": "i1m58",
         "topic": "Verbos Irregulares (-ZCO)",
         "question": "Yo ___ a mucha gente en esta ciudad. (conocer)",
         "options": [
@@ -701,6 +759,7 @@
         "explanation": "O verbo 'conocer' é irregular na primeira pessoa do singular: 'yo conozco'. As outras pessoas são regulares: conoces, conoce, conocemos..."
       },
       {
+        "id": "i1m59",
         "topic": "Verbos Irregulares (-ZCO)",
         "question": "Yo ___ a mis padres en todo. (obedecer)",
         "options": [
@@ -713,6 +772,7 @@
         "explanation": "O verbo 'obedecer' é irregular na primeira pessoa: 'obedezco'. Outros sujeitos são regulares. O padrão -ZCO é típico de verbos terminados em '-ecer', '-ocer', '-ucir'."
       },
       {
+        "id": "i1m60",
         "topic": "Verbos Irregulares (-ZCO)",
         "question": "Yo no ___ bien por la noche. (conducir)",
         "options": [
@@ -725,6 +785,7 @@
         "explanation": "O verbo 'conducir' é irregular na primeira pessoa: 'conduzco'. Outros: conduces, conduce... Cuidado com 'conduco' e 'conduzo', que não existem em espanhol."
       },
       {
+        "id": "i1m61",
         "topic": "Verbos Irregulares (-ZCO)",
         "question": "Yo ___ los documentos al inglés. (traducir)",
         "options": [
@@ -737,6 +798,7 @@
         "explanation": "O verbo 'traducir' é irregular na primeira pessoa: 'traduzco'. Outros: traduces, traduce... O padrão -ZCO é típico de verbos terminados em '-ucir'."
       },
       {
+        "id": "i1m62",
         "topic": "Localizadores",
         "question": "El banco está ___ la farmacia.",
         "options": [
@@ -749,6 +811,7 @@
         "explanation": "'Al lado de' significa 'ao lado de'. 'El banco está al lado de la farmacia' = o banco fica ao lado da farmácia."
       },
       {
+        "id": "i1m63",
         "topic": "Localizadores",
         "question": "Las llaves están ___ la mesa.",
         "options": [
@@ -761,6 +824,7 @@
         "explanation": "'Encima de' significa 'em cima de / sobre'. 'Las llaves están encima de la mesa' = as chaves estão em cima da mesa."
       },
       {
+        "id": "i1m64",
         "topic": "Localizadores",
         "question": "El gato está ___ la silla.",
         "options": [
@@ -773,6 +837,7 @@
         "explanation": "'Debajo de' significa 'embaixo de'. 'El gato está debajo de la silla' = o gato está embaixo da cadeira."
       },
       {
+        "id": "i1m65",
         "topic": "Posesivos (mío, tuyo, suyo...)",
         "question": "Este libro es ___. (mine)",
         "options": [
@@ -785,6 +850,7 @@
         "explanation": "'Mío' é a forma tônica (independente) do possessivo de primeira pessoa masculino singular. Usada depois do verbo, sem substantivo. 'Es mío' = é meu."
       },
       {
+        "id": "i1m66",
         "topic": "Posesivos (mío, tuyo, suyo...)",
         "question": "¿Es tuya esa mochila? Sí, es ___. (mine)",
         "options": [
@@ -797,6 +863,7 @@
         "explanation": "A pergunta usa 'tuya' (sua, de você). A resposta indica que é da pessoa que fala: 'mía' (minha). É a forma feminina singular de 'mío'."
       },
       {
+        "id": "i1m67",
         "topic": "Posesivos (mío, tuyo, suyo...)",
         "question": "Ese apartamento no es nuestro, es ___. (his)",
         "options": [
@@ -809,6 +876,7 @@
         "explanation": "'Suyo' é a forma tônica do possessivo para él/ella/ellos/ustedes. 'Es suyo' = é dele/dela/deles."
       },
       {
+        "id": "i1m68",
         "topic": "Presente Continuo",
         "question": "Ella ___ en este momento. (estudiar)",
         "options": [
@@ -821,6 +889,7 @@
         "explanation": "O presente contínuo se forma com 'estar' + gerúndio (-ando/-iendo). 'Está estudiando' = está estudando (agora). O gerúndio de verbos '-ar' termina em '-ando'."
       },
       {
+        "id": "i1m69",
         "topic": "Presente Continuo",
         "question": "¿Qué ___ tú ahora? (hacer)",
         "options": [
@@ -833,6 +902,7 @@
         "explanation": "O gerúndio de 'hacer' é 'haciendo'. Com 'tú', 'estar' é 'estás'. '¿Estás haciendo?' = você está fazendo?"
       },
       {
+        "id": "i1m70",
         "topic": "Presente Continuo",
         "question": "Ellos ___ en el parque. (correr)",
         "options": [
@@ -845,6 +915,7 @@
         "explanation": "O gerúndio de verbos '-er' termina em '-iendo'. 'Correr' → 'corriendo'. Com 'ellos', 'estar' é 'están'. 'Están corriendo' = eles estão correndo."
       },
       {
+        "id": "i1m71",
         "topic": "Presente de Indicativo (-ar)",
         "question": "Vosotros ___ mucho en clase. (preguntar)",
         "options": [
@@ -857,6 +928,7 @@
         "explanation": "Com 'vosotros', os verbos regulares terminados em '-ar' recebem a terminação '-áis'. 'Preguntar' → 'preguntáis' = vocês perguntam. Esta forma é usada principalmente na Espanha."
       },
       {
+        "id": "i1m72",
         "topic": "Presente de Indicativo (ser / llamarse)",
         "question": "Nosotros ___ profesores de español. (ser)",
         "options": [
@@ -869,6 +941,7 @@
         "explanation": "Com 'nosotros', o verbo 'ser' é 'somos'. 'Somos profesores' = somos professores. A conjugação de 'ser' é completamente irregular: soy, eres, es, somos, sois, son."
       },
       {
+        "id": "i1m73",
         "topic": "Presente de Indicativo (-er / -ir)",
         "question": "Yo ___ cartas a mis amigos. (escribir)",
         "options": [
@@ -881,6 +954,7 @@
         "explanation": "Com o sujeito 'yo', os verbos regulares terminados em '-ir' recebem a terminação '-o'. 'Escribir' → 'escribo' = eu escrevo."
       },
       {
+        "id": "i1m74",
         "topic": "Verbos Irregulares (E>IE)",
         "question": "Ellos ___ volver a casa antes de las diez. (querer)",
         "options": [
@@ -893,6 +967,7 @@
         "explanation": "'Querer' é irregular E>IE. Com 'ellos', a raiz tônica muda: 'quieren' = eles querem. A mudança ocorre em todas as pessoas exceto 'nosotros' e 'vosotros'."
       },
       {
+        "id": "i1m75",
         "topic": "Verbos Reflexivos",
         "question": "Nosotros ___ con agua fría en verano. (ducharse)",
         "options": [
@@ -905,6 +980,7 @@
         "explanation": "Com 'nosotros', o pronome reflexivo é 'nos'. 'Nos duchamos' = nós tomamos banho de chuveiro. A forma verbal segue a conjugação regular de '-ar': 'duchamos'."
       },
       {
+        "id": "i1m76",
         "topic": "Verbos Irregulares (O>UE)",
         "question": "Ellos ___ a sus amigos en el parque. (encontrar)",
         "options": [
@@ -917,6 +993,7 @@
         "explanation": "'Encontrar' é irregular O>UE. Com 'ellos', a raiz muda: 'encuentran' = eles encontram. A mudança O>UE é obrigatória nas formas com raiz tônica; 'nosotros' e 'vosotros' não mudam."
       },
       {
+        "id": "i1m77",
         "topic": "Verbos Irregulares (-ZCO)",
         "question": "Yo ___ este problema perfectamente. (reconocer)",
         "options": [
@@ -929,6 +1006,7 @@
         "explanation": "'Reconocer' é irregular apenas na primeira pessoa do singular: 'reconozco'. O padrão -ZCO é típico de verbos terminados em '-ocer', '-ecer' e '-ucir'. As demais formas são regulares."
       },
       {
+        "id": "i1m78",
         "topic": "Artículos Determinados",
         "question": "¿Cuál es el artículo determinado correcto para 'mesas'?",
         "options": [
@@ -941,6 +1019,7 @@
         "explanation": "'Mesas' é feminino plural. O artigo determinado feminino plural é 'las'. Os quatro artigos determinados em espanhol são: el (masc. sing.), la (fem. sing.), los (masc. plur.), las (fem. plur.)."
       },
       {
+        "id": "i1m79",
         "topic": "Artículos Determinados",
         "question": "___ niños están jugando en el jardín.",
         "options": [
@@ -953,6 +1032,7 @@
         "explanation": "'Niños' é masculino plural. O artigo determinado masculino plural é 'los'. Em espanhol, grupos mistos de pessoas também usam o artigo masculino plural."
       },
       {
+        "id": "i1m80",
         "topic": "Masculino / Femenino",
         "question": "¿Cuál es el femenino de 'actor'?",
         "options": [
@@ -965,6 +1045,7 @@
         "explanation": "O feminino de 'actor' é irregular: 'actriz'. Não segue a regra de substituir '-o' por '-a'. Outros pares irregulares em espanhol: rey/reina, hombre/mujer, padre/madre."
       },
       {
+        "id": "i1m81",
         "topic": "Masculino / Femenino",
         "question": "¿Cuál de estas palabras es masculina en español?",
         "options": [
@@ -977,6 +1058,7 @@
         "explanation": "'Problema' é masculino em espanhol, apesar de terminar em '-a'. Palavras de origem grega com terminação '-ma' geralmente são masculinas: el problema, el tema, el sistema, el idioma."
       },
       {
+        "id": "i1m82",
         "topic": "Singular / Plural",
         "question": "¿Cuál es el plural de 'café'?",
         "options": [
@@ -989,6 +1071,7 @@
         "explanation": "Palavras terminadas em vogal acentuada formam o plural com '-s', mantendo o acento. 'Café' → 'cafés'. O acento é necessário para preservar a pronúncia original."
       },
       {
+        "id": "i1m83",
         "topic": "Singular / Plural",
         "question": "¿Cuál es el plural de 'martes'?",
         "options": [
@@ -1001,6 +1084,7 @@
         "explanation": "Palavras esdrúxulas terminadas em '-s' são invariáveis no plural. 'El martes' → 'los martes'. O plural é indicado apenas pelo artigo. Outros exemplos: el/los lunes, el/los miércoles."
       },
       {
+        "id": "i1m84",
         "topic": "Interrogativos",
         "question": "¿___ es la capital de España?",
         "options": [
@@ -1013,6 +1097,7 @@
         "explanation": "Para perguntar sobre identidade específica dentre várias opções, usamos '¿Cuál es...?' '¿Cuál es la capital?' = Qual é a capital? 'Qué' pergunta sobre definição ou natureza."
       },
       {
+        "id": "i1m85",
         "topic": "Interrogativos",
         "question": "¿___ cuesta este abrigo?",
         "options": [
@@ -1025,6 +1110,7 @@
         "explanation": "'¿Cuánto cuesta?' = Quanto custa? 'Cuánto' é usado para perguntar preço ou quantidade de algo não contável. 'Cuántos/Cuántas' é usado com substantivos no plural."
       },
       {
+        "id": "i1m86",
         "topic": "Demostrativos",
         "question": "¿Te gustan ___ zapatos que tengo aquí?",
         "options": [
@@ -1037,6 +1123,7 @@
         "explanation": "'Zapatos' é masculino plural e está próximo do falante ('aquí'). O demonstrativo masculino plural para algo próximo é 'estos'. 'Estos zapatos' = estes sapatos (aqui perto de mim)."
       },
       {
+        "id": "i1m87",
         "topic": "Demostrativos",
         "question": "___ señor que está ahí es el director del colegio.",
         "options": [
@@ -1049,6 +1136,7 @@
         "explanation": "'Señor' é masculino singular e está a uma distância média do falante ('ahí'). O demonstrativo correto é 'ese'. 'Ese señor' = esse senhor (ali perto). 'Aquel' seria para algo mais distante."
       },
       {
+        "id": "i1m88",
         "topic": "Expresiones de Tiempo y Frecuencia",
         "question": "¿Con qué frecuencia vas al dentista? ___ al año.",
         "options": [
@@ -1061,6 +1149,7 @@
         "explanation": "'Una vez al año' = uma vez por ano. Para expressar frequência, usamos 'una vez / dos veces / tres veces + a la semana / al mes / al año'."
       },
       {
+        "id": "i1m89",
         "topic": "Expresiones de Tiempo y Frecuencia",
         "question": "___ hago ejercicio, solo los fines de semana.",
         "options": [
@@ -1073,6 +1162,7 @@
         "explanation": "'A veces' significa 'às vezes'. Indica frequência irregular ou ocasional. Escala de frequência: siempre > a menudo > a veces > casi nunca > nunca."
       },
       {
+        "id": "i1m90",
         "topic": "Contracciones (al / del)",
         "question": "Esta es la oficina ___ director. (de + el)",
         "options": [
@@ -1085,6 +1175,7 @@
         "explanation": "'De' + 'el' = 'del'. 'La oficina del director' = o escritório do diretor. A contração é obrigatória em espanhol; a forma 'de el' (separada) não existe."
       },
       {
+        "id": "i1m91",
         "topic": "Contracciones (al / del)",
         "question": "Llamamos ___ médico cuando estamos enfermos. (a + el)",
         "options": [
@@ -1097,6 +1188,7 @@
         "explanation": "'A' + 'el' = 'al'. 'Llamar al médico' = chamar o médico. A contração é obrigatória sempre que a preposição 'a' ou 'de' precede o artigo 'el' (masculino singular definido)."
       },
       {
+        "id": "i1m92",
         "topic": "Verbo Ir",
         "question": "Nosotros ___ de vacaciones a la playa este verano.",
         "options": [
@@ -1109,6 +1201,7 @@
         "explanation": "Com 'nosotros', o verbo 'ir' é 'vamos'. 'Vamos de vacaciones' = nós vamos de férias. O verbo 'ir' é completamente irregular: voy, vas, va, vamos, vais, van."
       },
       {
+        "id": "i1m93",
         "topic": "Verbo Ir",
         "question": "¿___ vosotros al partido de fútbol el domingo?",
         "options": [
@@ -1121,6 +1214,7 @@
         "explanation": "Com 'vosotros', o verbo 'ir' é 'vais'. '¿Vais al partido?' = vocês vão ao jogo? Esta forma é usada principalmente na Espanha."
       },
       {
+        "id": "i1m94",
         "topic": "Adjetivos",
         "question": "Las chicas son muy ___. (simpático)",
         "options": [
@@ -1133,6 +1227,7 @@
         "explanation": "O adjetivo deve concordar em gênero e número com o substantivo. 'Las chicas' é feminino plural, portanto 'simpático' → 'simpáticas'."
       },
       {
+        "id": "i1m95",
         "topic": "Adjetivos",
         "question": "Mi hermana es ___. (rubio)",
         "options": [
@@ -1145,6 +1240,7 @@
         "explanation": "O adjetivo concorda com o substantivo em gênero e número. 'Hermana' é feminino singular, então 'rubio' → 'rubia'. 'Mi hermana es rubia' = minha irmã é loira."
       },
       {
+        "id": "i1m96",
         "topic": "Posesivos (mi, tu, su...)",
         "question": "___ amigos son muy divertidos. (de nosotros)",
         "options": [
@@ -1157,6 +1253,7 @@
         "explanation": "O possessivo de 'nosotros' é 'nuestro/a/os/as'. 'Amigos' é masculino plural, então usamos 'nuestros'. 'Nuestros amigos' = nossos amigos."
       },
       {
+        "id": "i1m97",
         "topic": "Posesivos (mi, tu, su...)",
         "question": "El profesor habla con ___ alumnos cada tarde. (de él)",
         "options": [
@@ -1169,6 +1266,7 @@
         "explanation": "'Sus' é o possessivo plural para él/ella/ellos/ustedes. 'Sus alumnos' = os alunos dele. Em espanhol, 'su/sus' não muda de acordo com o gênero do possuidor."
       },
       {
+        "id": "i1m98",
         "topic": "Comparación",
         "question": "Este hotel es ___ caro ___ el otro.",
         "options": [
@@ -1181,6 +1279,7 @@
         "explanation": "Para comparar desigualdade (menos... do que), usamos 'menos + adjetivo + que'. 'Menos caro que el otro' = menos caro do que o outro."
       },
       {
+        "id": "i1m99",
         "topic": "Comparación",
         "question": "Este restaurante es ___ de toda la ciudad. (bueno, superlativo)",
         "options": [
@@ -1193,6 +1292,7 @@
         "explanation": "'El mejor' é o superlativo de 'bueno'. Significa 'o melhor'. Em espanhol, 'bueno' tem formas irregulares: comparativo 'mejor', superlativo 'el mejor'."
       },
       {
+        "id": "i1m100",
         "topic": "Localizadores",
         "question": "La panadería está ___ la ferretería y la librería.",
         "options": [
@@ -1205,6 +1305,7 @@
         "explanation": "'Entre' significa 'entre'. 'La panadería está entre la ferretería y la librería' = a padaria fica entre a loja de ferragens e a livraria."
       },
       {
+        "id": "i1m101",
         "topic": "Localizadores",
         "question": "El cine está justo ___ del banco, al otro lado de la calle.",
         "options": [
@@ -1217,6 +1318,7 @@
         "explanation": "'Enfrente de' significa 'em frente a'. 'El cine está enfrente del banco' = o cinema fica em frente ao banco. Também se pode dizer 'frente a'."
       },
       {
+        "id": "i1m102",
         "topic": "Posesivos (mío, tuyo, suyo...)",
         "question": "¿Son vuestras estas mochilas? Sí, son ___.",
         "options": [
@@ -1229,6 +1331,7 @@
         "explanation": "'Nuestras' é a forma feminina plural do possessivo tônico de 'nosotros'. Como 'mochilas' é feminino plural, usamos 'nuestras'. 'Son nuestras' = são nossas."
       },
       {
+        "id": "i1m103",
         "topic": "Posesivos (mío, tuyo, suyo...)",
         "question": "Ese ordenador no es mío, es ___. (de tú)",
         "options": [
@@ -1241,6 +1344,7 @@
         "explanation": "'Tuyo' é a forma tônica do possessivo de 'tú', masculino singular. 'Es tuyo' = é seu (de você). Concorda com o gênero de 'ordenador' (masculino singular)."
       },
       {
+        "id": "i1m104",
         "topic": "Presente Continuo",
         "question": "Yo ___ un libro muy interesante. (leer)",
         "options": [
@@ -1253,6 +1357,7 @@
         "explanation": "O gerúndio de 'leer' é irregular: 'leyendo' (não 'leendo'). Verbos com raiz terminada em vogal mudam '-iendo' para '-yendo'. 'Estoy leyendo' = estou lendo."
       },
       {
+        "id": "i1m105",
         "topic": "Presente Continuo",
         "question": "¿___ tú un correo electrónico ahora? (escribir)",
         "options": [
@@ -1269,6 +1374,7 @@
   "final": {
     "questions": [
       {
+        "id": "i1f01",
         "topic": "Artículos Indeterminados",
         "question": "Quiero ___ café, por favor.",
         "options": [
@@ -1281,6 +1387,7 @@
         "explanation": "'Café' é masculino singular. O artigo indeterminado masculino singular é 'un'. 'Un café' = um café."
       },
       {
+        "id": "i1f02",
         "topic": "Artículos Indeterminados",
         "question": "Ella tiene ___ hermana muy simpática.",
         "options": [
@@ -1293,6 +1400,7 @@
         "explanation": "'Hermana' é feminino singular. O artigo indeterminado feminino singular é 'una'. 'Una hermana' = uma irmã."
       },
       {
+        "id": "i1f03",
         "topic": "Artículos Indeterminados",
         "question": "¿Hay ___ farmacia cerca de aquí?",
         "options": [
@@ -1305,6 +1413,7 @@
         "explanation": "'Farmacia' é feminino singular. O artigo indeterminado correto é 'una'. '¿Hay una farmacia?' = tem uma farmácia? Com 'hay', usamos artigo indeterminado."
       },
       {
+        "id": "i1f04",
         "topic": "Verbo Gustar",
         "question": "A mí ___ el chocolate.",
         "options": [
@@ -1317,6 +1426,7 @@
         "explanation": "O verbo 'gustar' concorda com a coisa que agrada, não com a pessoa. 'El chocolate' é singular, então usamos 'gusta'. A frase completa é 'Me gusta el chocolate'."
       },
       {
+        "id": "i1f05",
         "topic": "Verbo Gustar",
         "question": "A ella ___ los deportes.",
         "options": [
@@ -1329,6 +1439,7 @@
         "explanation": "'Los deportes' é plural, então o verbo 'gustar' deve estar no plural: 'gustan'. A frase completa é 'Le gustan los deportes' = ela gosta de esportes."
       },
       {
+        "id": "i1f06",
         "topic": "Verbo Gustar",
         "question": "¿A ti ___ la música clásica?",
         "options": [
@@ -1341,6 +1452,7 @@
         "explanation": "Com 'a ti', o pronome de objeto indireto é 'te'. '¿Te gusta la música clásica?' = você gosta de música clássica?"
       },
       {
+        "id": "i1f07",
         "topic": "Verbo Gustar",
         "question": "A nosotros ___ viajar por Europa.",
         "options": [
@@ -1353,6 +1465,7 @@
         "explanation": "'Viajar' é um infinitivo e funciona como singular. O pronome de 'nosotros' é 'nos'. 'Nos gusta viajar' = nós gostamos de viajar."
       },
       {
+        "id": "i1f08",
         "topic": "Acuerdo y Desacuerdo",
         "question": "A mí me gusta el fútbol. ¿Y a ti?, ___ también.",
         "options": [
@@ -1365,6 +1478,7 @@
         "explanation": "Para concordar com uma frase afirmativa, usamos 'a mí también' (a mim também). 'A mí también me gusta' = eu também gosto."
       },
       {
+        "id": "i1f09",
         "topic": "Acuerdo y Desacuerdo",
         "question": "A mí no me gusta el café., Pues a mí ___. (I do like it)",
         "options": [
@@ -1377,6 +1491,7 @@
         "explanation": "Quando discordamos de uma frase negativa (ou seja, você gosta), usamos 'sí'. 'A mí sí (me gusta)' = mas eu gosto."
       },
       {
+        "id": "i1f10",
         "topic": "Acuerdo y Desacuerdo",
         "question": "Yo no como carne., Yo ___. (I don't eat it either)",
         "options": [
@@ -1389,6 +1504,7 @@
         "explanation": "Para concordar com uma frase negativa, usamos 'tampoco' (tampouco/também não). 'Yo tampoco como carne' = eu também não como carne."
       },
       {
+        "id": "i1f11",
         "topic": "Preposiciones (desde, hasta, hacia)",
         "question": "Trabajo ___ las 8 de la mañana ___ las 6 de la tarde.",
         "options": [
@@ -1401,6 +1517,7 @@
         "explanation": "'Desde' indica o ponto de partida e 'hasta' o ponto de chegada. 'Desde las 8 hasta las 6' = das 8 até as 6."
       },
       {
+        "id": "i1f12",
         "topic": "Preposiciones (desde, hasta, hacia)",
         "question": "El avión vuela ___ el norte.",
         "options": [
@@ -1413,6 +1530,7 @@
         "explanation": "'Hacia' indica direção aproximada, sem ponto de chegada definido. 'Vuela hacia el norte' = voa em direção ao norte."
       },
       {
+        "id": "i1f13",
         "topic": "Preposiciones (desde, hasta, hacia)",
         "question": "Estudio español ___ hace tres meses.",
         "options": [
@@ -1425,6 +1543,7 @@
         "explanation": "'Desde hace' + período de tempo indica há quanto tempo algo acontece continuamente. 'Estudio español desde hace tres meses' = estudo espanhol há três meses."
       },
       {
+        "id": "i1f14",
         "topic": "Hay / Tiene / Está",
         "question": "___ un banco cerca de aquí.",
         "options": [
@@ -1437,6 +1556,7 @@
         "explanation": "'Hay' (há/tem) é usado para indicar existência de algo não específico. '¿Hay un banco?' = tem um banco? Nunca usa artigo definido depois de 'hay'."
       },
       {
+        "id": "i1f15",
         "topic": "Hay / Tiene / Está",
         "question": "Mi hermano ___ los ojos azules.",
         "options": [
@@ -1449,6 +1569,7 @@
         "explanation": "'Tener' (ter) é usado para descrever características físicas de uma pessoa. 'Tiene los ojos azules' = ele tem os olhos azuis."
       },
       {
+        "id": "i1f16",
         "topic": "Hay / Tiene / Está",
         "question": "El mercado ___ en la calle principal.",
         "options": [
@@ -1461,6 +1582,7 @@
         "explanation": "'Estar' é usado para indicar a localização de algo específico e identificado. 'El mercado está en la calle principal' = o mercado fica na rua principal."
       },
       {
+        "id": "i1f17",
         "topic": "Medios de Transporte",
         "question": "Voy al trabajo ___ metro todos los días.",
         "options": [
@@ -1473,6 +1595,7 @@
         "explanation": "Em espanhol, usamos a preposição 'en' com meios de transporte. 'En metro, en autobús, en coche...' = de metrô, de ônibus, de carro..."
       },
       {
+        "id": "i1f18",
         "topic": "Medios de Transporte",
         "question": "Prefiero ir ___ pie cuando el destino está cerca.",
         "options": [
@@ -1485,6 +1608,7 @@
         "explanation": "A exceção entre os meios de transporte é 'a pie' (a pé), que usa a preposição 'a', não 'en'. 'Voy a pie' = vou a pé."
       },
       {
+        "id": "i1f19",
         "topic": "Medios de Transporte",
         "question": "¿Cómo vas al aeropuerto? ___ taxi.",
         "options": [
@@ -1497,6 +1621,7 @@
         "explanation": "Com meios de transporte (exceto 'a pie'), usamos 'en'. 'En taxi' = de táxi."
       },
       {
+        "id": "i1f20",
         "topic": "Imperativo Afirmativo",
         "question": "___ la ventana, por favor. (abrir - tú)",
         "options": [
@@ -1509,6 +1634,7 @@
         "explanation": "O imperativo afirmativo de 'tú' para verbos regulares é igual à 3ª pessoa do singular do presente. 'Él abre' → imperativo 'tú': 'Abre'. = abre (você)."
       },
       {
+        "id": "i1f21",
         "topic": "Imperativo Afirmativo",
         "question": "___ a la derecha en el semáforo. (girar - usted)",
         "options": [
@@ -1521,6 +1647,7 @@
         "explanation": "O imperativo afirmativo de 'usted' é igual ao presente do subjuntivo. 'Girar' → 'Gire'. = vire (o senhor/a senhora). É diferente do imperativo de 'tú' (gira)."
       },
       {
+        "id": "i1f22",
         "topic": "Imperativo Afirmativo",
         "question": "___ más despacio, por favor. (hablar - tú)",
         "options": [
@@ -1533,6 +1660,7 @@
         "explanation": "O imperativo de 'tú' para 'hablar' é 'habla'. É igual à 3ª pessoa singular do presente: él/ella habla."
       },
       {
+        "id": "i1f23",
         "topic": "Imperativo Afirmativo",
         "question": "___ la puerta, chicos. (cerrar - vosotros)",
         "options": [
@@ -1545,6 +1673,7 @@
         "explanation": "O imperativo afirmativo de 'vosotros' se forma substituindo o '-r' do infinitivo por '-d'. 'Cerrar' → 'Cerrad'. Não há mudança de raiz (nem E>IE) no imperativo de vosotros."
       },
       {
+        "id": "i1f24",
         "topic": "Pronombres de Complemento Directo",
         "question": "¿Tienes el libro? Sí, ___ tengo.",
         "options": [
@@ -1557,6 +1686,7 @@
         "explanation": "'El libro' é masculino singular. O pronome de complemento direto masculino singular é 'lo'. 'Lo tengo' = eu o tenho."
       },
       {
+        "id": "i1f25",
         "topic": "Pronombres de Complemento Directo",
         "question": "¿Ves a María en la fiesta? Sí, ___ veo.",
         "options": [
@@ -1569,6 +1699,7 @@
         "explanation": "'María' é feminino singular. O pronome de complemento direto feminino singular é 'la'. 'La veo' = eu a vejo."
       },
       {
+        "id": "i1f26",
         "topic": "Pronombres de Complemento Directo",
         "question": "¿Compras las frutas en el mercado? Sí, ___ compro allí.",
         "options": [
@@ -1581,6 +1712,7 @@
         "explanation": "'Las frutas' é feminino plural. O pronome de complemento direto feminino plural é 'las'. 'Las compro' = eu as compro."
       },
       {
+        "id": "i1f27",
         "topic": "Pronombres de Complemento Directo",
         "question": "¿Llamas a tus padres con frecuencia? Sí, ___ llamo todos los domingos.",
         "options": [
@@ -1593,6 +1725,7 @@
         "explanation": "'Tus padres' é masculino plural. O pronome de complemento direto masculino plural é 'los'. 'Los llamo' = eu os ligo."
       },
       {
+        "id": "i1f28",
         "topic": "Verbo Quedar",
         "question": "¿___ con tus amigos esta tarde? (tú)",
         "options": [
@@ -1605,6 +1738,7 @@
         "explanation": "O verbo 'quedar' (no sentido de combinar de se encontrar) é regular. Com 'tú', a forma é 'quedas'. '¿Quedas con tus amigos?' = você vai se encontrar com seus amigos?"
       },
       {
+        "id": "i1f29",
         "topic": "Verbo Quedar",
         "question": "Ella ___ con su novio los sábados por la tarde.",
         "options": [
@@ -1617,6 +1751,7 @@
         "explanation": "Com 'ella', o verbo 'quedar' é 'queda'. 'Queda con su novio' = ela se encontra com o namorado."
       },
       {
+        "id": "i1f30",
         "topic": "Verbo Quedar",
         "question": "¿A qué hora ___ vosotros esta noche?",
         "options": [
@@ -1629,6 +1764,7 @@
         "explanation": "Com 'vosotros', o verbo 'quedar' é 'quedáis'. '¿A qué hora quedáis?' = a que horas vocês vão se encontrar?"
       },
       {
+        "id": "i1f31",
         "topic": "Pretérito Perfecto Compuesto",
         "question": "Yo ___ España este verano. (visitar)",
         "options": [
@@ -1641,6 +1777,7 @@
         "explanation": "O pretérito perfeito composto se forma com 'haber' no presente + particípio passado. Com marcadores como 'este verano', 'hoy', 'esta semana', usamos 'he visitado' = eu visitei (período ainda relevante)."
       },
       {
+        "id": "i1f32",
         "topic": "Pretérito Perfecto Compuesto",
         "question": "Ella ___ la película esta tarde. (ver)",
         "options": [
@@ -1653,6 +1790,7 @@
         "explanation": "O particípio de 'ver' é 'visto' (irregular). Com 'ella', o auxiliar 'haber' é 'ha'. 'Ha visto' = ela viu (hoje/recentemente). Use com 'esta tarde, hoy, esta semana...'."
       },
       {
+        "id": "i1f33",
         "topic": "Pretérito Perfecto Compuesto",
         "question": "Nosotros ya ___ el ejercicio. (terminar)",
         "options": [
@@ -1665,6 +1803,7 @@
         "explanation": "Com 'nosotros', o auxiliar 'haber' é 'hemos'. 'Hemos terminado' = nós terminamos (recentemente/hoje). 'Ya' indica que a ação foi concluída."
       },
       {
+        "id": "i1f34",
         "topic": "Pretérito Perfecto Compuesto",
         "question": "¿___ alguna vez en España? (tú, estar)",
         "options": [
@@ -1677,6 +1816,7 @@
         "explanation": "Para perguntar sobre experiências de vida com 'alguna vez' (alguma vez), usamos o pretérito perfeito composto. 'Has estado' = você já esteve. O particípio de 'estar' é 'estado'."
       },
       {
+        "id": "i1f35",
         "topic": "Marcadores Temporales",
         "question": "___ he llamado a mi madre.",
         "options": [
@@ -1689,6 +1829,7 @@
         "explanation": "'Esta mañana' (esta manhã) é um marcador temporal que indica uma ação recente, compatível com o pretérito perfeito composto (he llamado)."
       },
       {
+        "id": "i1f36",
         "topic": "Marcadores Temporales",
         "question": "No he dormido bien ___.",
         "options": [
@@ -1701,6 +1842,7 @@
         "explanation": "'Esta semana' (esta semana) indica um período que ainda não terminou. Use o pretérito perfeito composto com: hoy, esta semana, este mes, este año, ya, todavía..."
       },
       {
+        "id": "i1f37",
         "topic": "Marcadores Temporales",
         "question": "___ hemos comido en ese restaurante.",
         "options": [
@@ -1713,6 +1855,7 @@
         "explanation": "'Hoy' (hoje) indica o dia atual, um período ainda em curso. Use com o pretérito perfeito composto. Com 'ayer' ou 'la semana pasada', usaria o indefinido."
       },
       {
+        "id": "i1f38",
         "topic": "Pretérito Perfecto Simple",
         "question": "Yo ___ en Madrid el año pasado. (estar)",
         "options": [
@@ -1725,6 +1868,7 @@
         "explanation": "O pretérito perfeito simples (indefinido) indica ação concluída no passado com tempo fechado. Com 'el año pasado', usamos o indefinido. 'Estuve' = eu estive."
       },
       {
+        "id": "i1f39",
         "topic": "Pretérito Perfecto Simple",
         "question": "Ella ___ a las ocho ayer. (llegar)",
         "options": [
@@ -1737,6 +1881,7 @@
         "explanation": "Com 'ayer' (ontem), usamos o pretérito indefinido. 'Llegó' = ela chegou. Terminação de 3ª pessoa singular em '-ar': -ó."
       },
       {
+        "id": "i1f40",
         "topic": "Pretérito Perfecto Simple",
         "question": "¿___ bien anoche? (tú, dormir)",
         "options": [
@@ -1749,6 +1894,7 @@
         "explanation": "Com 'anoche' (ontem à noite), usamos o pretérito indefinido. 'Dormiste' = você dormiu. É a forma de 'tú' no indefinido de 'dormir'."
       },
       {
+        "id": "i1f41",
         "topic": "Pretérito Perfecto Simple",
         "question": "Nosotros ___ en Roma en 2019. (vivir)",
         "options": [
@@ -1761,6 +1907,7 @@
         "explanation": "Com datas do passado (en 2019), usamos o pretérito indefinido. 'Vivimos' = nós moramos. Atenção: para verbos '-ir' e '-er', 'nosotros' no indefinido tem a mesma forma que no presente."
       },
       {
+        "id": "i1f42",
         "topic": "Ir a + Infinitivo",
         "question": "Ella ___ estudiar esta tarde.",
         "options": [
@@ -1773,6 +1920,7 @@
         "explanation": "'Ir a + infinitivo' expressa uma intenção ou plano futuro próximo. Com 'ella', 'ir' é 'va'. A estrutura completa: 'va a estudiar' = ela vai estudar."
       },
       {
+        "id": "i1f43",
         "topic": "Ir a + Infinitivo",
         "question": "Nosotros ___ viajar a México el próximo año.",
         "options": [
@@ -1785,6 +1933,7 @@
         "explanation": "Com 'nosotros', 'ir' é 'vamos'. A estrutura 'vamos a + infinitivo' expressa plano futuro. 'Vamos a viajar' = vamos viajar."
       },
       {
+        "id": "i1f44",
         "topic": "Ir a + Infinitivo",
         "question": "¿Qué ___ tú hacer esta noche?",
         "options": [
@@ -1797,6 +1946,7 @@
         "explanation": "Com 'tú', 'ir' é 'vas'. A estrutura completa é 'vas a + infinitivo'. '¿Qué vas a hacer?' = o que você vai fazer?"
       },
       {
+        "id": "i1f45",
         "topic": "Marcadores Temporales (pasado)",
         "question": "___ fuimos al teatro.",
         "options": [
@@ -1809,6 +1959,7 @@
         "explanation": "'La semana pasada' significa 'na semana passada'. É um marcador temporal do passado fechado que acompanha o pretérito indefinido."
       },
       {
+        "id": "i1f46",
         "topic": "Marcadores Temporales (pasado)",
         "question": "Ella nació ___ 1990.",
         "options": [
@@ -1821,6 +1972,7 @@
         "explanation": "Para dizer o ano em que algo aconteceu, usamos a preposição 'en'. 'Nació en 1990' = ela nasceu em 1990."
       },
       {
+        "id": "i1f47",
         "topic": "Marcadores Temporales (pasado)",
         "question": "Él llegó ___ tres horas.",
         "options": [
@@ -1833,6 +1985,7 @@
         "explanation": "'Hace' + período de tempo indica há quanto tempo algo aconteceu. 'Llegó hace tres horas' = ele chegou há três horas."
       },
       {
+        "id": "i1f48",
         "topic": "Pretérito Imperfecto de Indicativo",
         "question": "Cuando era niño, ___ mucho fútbol. (jugar)",
         "options": [
@@ -1845,6 +1998,7 @@
         "explanation": "O pretérito imperfeito descreve ações habituais ou repetidas no passado. 'Jugaba' = ele jogava (habitualmente, quando criança). O indefinido 'jugué' indicaria uma ação pontual."
       },
       {
+        "id": "i1f49",
         "topic": "Pretérito Imperfecto de Indicativo",
         "question": "Ella siempre ___ café con leche por la mañana. (tomar)",
         "options": [
@@ -1857,6 +2011,7 @@
         "explanation": "Com 'siempre' e descrição de hábito passado, usamos o imperfeito. 'Tomaba' = ela tomava (costume do passado)."
       },
       {
+        "id": "i1f50",
         "topic": "Pretérito Imperfecto de Indicativo",
         "question": "Nosotros ___ en ese barrio hace diez años. (vivir)",
         "options": [
@@ -1869,6 +2024,7 @@
         "explanation": "O imperfeito 'vivíamos' descreve uma situação contínua ou durativa no passado. 'Vivíamos en ese barrio' = nós morávamos nesse bairro."
       },
       {
+        "id": "i1f51",
         "topic": "Pretérito Imperfecto de Indicativo",
         "question": "¿Cómo ___ tú de pequeño? (ser)",
         "options": [
@@ -1881,6 +2037,7 @@
         "explanation": "Para descrever como uma pessoa era no passado (característica contínua), usamos o imperfeito. 'Eras' é a forma de 'tú' no imperfeito de 'ser'. = você era."
       },
       {
+        "id": "i1f52",
         "topic": "Contraste entre Pretéritos",
         "question": "Ayer ___ a María en el supermercado. (ver, acción puntual)",
         "options": [
@@ -1893,6 +2050,7 @@
         "explanation": "'Ayer' com um evento pontual e completo pede o pretérito indefinido. 'Vi' = eu vi (ação única, concluída). Com 'ayer', nunca usamos 'he visto' no espanhol padrão."
       },
       {
+        "id": "i1f53",
         "topic": "Contraste entre Pretéritos",
         "question": "Cuando llegué, ella ___ la televisión. (acción de fondo)",
         "options": [
@@ -1905,6 +2063,7 @@
         "explanation": "O imperfeito descreve a ação de fundo (em andamento) quando outra ação (chegada) ocorreu. 'Veía' = ela estava vendo (a TV), ação contínua interrompida."
       },
       {
+        "id": "i1f54",
         "topic": "Contraste entre Pretéritos",
         "question": "___ muchas veces a ese restaurante. (experiência de vida, I have gone)",
         "options": [
@@ -1917,6 +2076,7 @@
         "explanation": "Para expressar experiências de vida sem referência temporal específica (mas relevante ao presente), usamos o pretérito perfeito composto. 'He ido muchas veces' = fui/tenho ido muitas vezes."
       },
       {
+        "id": "i1f55",
         "topic": "Contraste entre Pretéritos",
         "question": "De niño, él ___ al parque todos los días. (hábito pasado)",
         "options": [
@@ -1929,6 +2089,7 @@
         "explanation": "'Todos los días' no passado com hábito repetido pede o imperfeito. 'Iba' = ele ia (habitualmente). O indefinido 'fue' indicaria uma ação pontual e única, não um hábito."
       },
       {
+        "id": "i1f56",
         "topic": "Verbo Gustar",
         "question": "¿Qué ___ hacer en tu tiempo libre? (a ti)",
         "options": [
@@ -1941,6 +2102,7 @@
         "explanation": "Com 'a ti', o pronome de objeto indireto é 'te'. '¿Qué te gusta hacer?' = o que você gosta de fazer? O verbo concorda com o infinitivo (singular), por isso 'gusta'."
       },
       {
+        "id": "i1f57",
         "topic": "Imperativo Afirmativo",
         "question": "___ el libro en la página veinte, chicos. (abrir - vosotros)",
         "options": [
@@ -1953,6 +2115,7 @@
         "explanation": "O imperativo afirmativo de 'vosotros' se forma substituindo o '-r' do infinitivo por '-d'. 'Abrir' → 'Abrid'. É diferente do imperativo de 'tú' (abre) e 'usted' (abra)."
       },
       {
+        "id": "i1f58",
         "topic": "Pronombres de Complemento Directo",
         "question": "¿Ves a mis hermanos en la foto? Sí, ___ veo perfectamente.",
         "options": [
@@ -1965,6 +2128,7 @@
         "explanation": "'Mis hermanos' é masculino plural. O pronome de complemento direto masculino plural é 'los'. 'Los veo' = eu os vejo."
       },
       {
+        "id": "i1f59",
         "topic": "Pretérito Perfecto Compuesto",
         "question": "Ellos ___ muy tarde hoy. (llegar)",
         "options": [
@@ -1977,6 +2141,7 @@
         "explanation": "Com 'ellos', o auxiliar 'haber' é 'han'. O particípio de 'llegar' é 'llegado'. 'Han llegado' = eles chegaram (hoje). Com 'hoy', usamos o pretérito perfeito composto."
       },
       {
+        "id": "i1f60",
         "topic": "Pretérito Perfecto Simple",
         "question": "¿Qué ___ tú el fin de semana pasado? (hacer)",
         "options": [
@@ -1989,6 +2154,7 @@
         "explanation": "Com 'el fin de semana pasado', usamos o pretérito indefinido. 'Hacer' é irregular: hice, hiciste, hizo, hicimos, hicisteis, hicieron. 'Hiciste' = você fez."
       },
       {
+        "id": "i1f61",
         "topic": "Pretérito Imperfecto de Indicativo",
         "question": "Ellos ___ mucho dinero cuando eran jóvenes. (ganar)",
         "options": [
@@ -2001,6 +2167,7 @@
         "explanation": "Com 'ellos' no imperfeito, os verbos '-ar' terminam em '-aban'. 'Ganaban' = eles ganhavam. O imperfeito descreve hábitos ou estados contínuos no passado sem ponto final definido."
       },
       {
+        "id": "i1f62",
         "topic": "Contraste entre Pretéritos",
         "question": "Mientras yo ___, mi hermano llegó a casa. (estudiar, acción en curso)",
         "options": [
@@ -2013,6 +2180,7 @@
         "explanation": "O imperfeito 'estudiaba' descreve a ação em curso (fundo) quando o evento pontual 'llegó' aconteceu. 'Mientras yo estudiaba' = enquanto eu estava estudando. Imperfeito para ação de fundo, indefinido para ação pontual."
       },
       {
+        "id": "i1f63",
         "topic": "Artículos Indeterminados",
         "question": "Ella compró ___ piso nuevo en el centro de la ciudad.",
         "options": [
@@ -2025,6 +2193,7 @@
         "explanation": "'Piso' é masculino singular. O artigo indeterminado masculino singular é 'un'. Usamos artigo indeterminado quando o substantivo é mencionado pela primeira vez ou de forma não específica."
       },
       {
+        "id": "i1f64",
         "topic": "Artículos Indeterminados",
         "question": "Hay ___ mensajes nuevos en tu teléfono.",
         "options": [
@@ -2037,6 +2206,7 @@
         "explanation": "'Mensajes' é masculino plural. O artigo indeterminado masculino plural é 'unos'. 'Unos mensajes' = umas mensagens. Com 'hay', usamos sempre artigo indeterminado ou numeral, nunca artigo definido."
       },
       {
+        "id": "i1f65",
         "topic": "Acuerdo y Desacuerdo",
         "question": "Me encanta bailar., Pues a mí ___. (I also love it)",
         "options": [
@@ -2049,6 +2219,7 @@
         "explanation": "Para concordar com uma afirmação positiva, usamos 'también' (também). 'A mí también me encanta' = a mim também encanta. 'Tampoco' é usado para concordar com negações."
       },
       {
+        "id": "i1f66",
         "topic": "Acuerdo y Desacuerdo",
         "question": "No me gustan nada las películas de terror., ___, son muy aburridas. (I agree)",
         "options": [
@@ -2061,6 +2232,7 @@
         "explanation": "Para concordar com uma frase negativa, usamos 'tampoco' (tampouco / também não). 'A mí tampoco me gustan' = a mim também não me agradam."
       },
       {
+        "id": "i1f67",
         "topic": "Preposiciones (desde, hasta, hacia)",
         "question": "La tienda está abierta ___ las 9 de la mañana.",
         "options": [
@@ -2073,6 +2245,7 @@
         "explanation": "'Desde' indica o ponto de partida temporal. 'Desde las 9' = a partir das 9 / desde as 9. Geralmente acompanha 'hasta' para indicar o término: 'desde las 9 hasta las 6'."
       },
       {
+        "id": "i1f68",
         "topic": "Preposiciones (desde, hasta, hacia)",
         "question": "El tren va ___ el norte del país.",
         "options": [
@@ -2085,6 +2258,7 @@
         "explanation": "'Hacia' indica direção aproximada, sem especificar o destino final exato. 'El tren va hacia el norte' = o trem vai em direção ao norte."
       },
       {
+        "id": "i1f69",
         "topic": "Hay / Tiene / Está",
         "question": "El parque ___ muchos árboles y flores.",
         "options": [
@@ -2097,6 +2271,7 @@
         "explanation": "'Tener' é usado para indicar que algo contém ou possui algo. 'El parque tiene árboles' = o parque tem árvores. Diferente de 'hay', que indica existência de elementos não específicos."
       },
       {
+        "id": "i1f70",
         "topic": "Hay / Tiene / Está",
         "question": "¿___ alguien en casa?",
         "options": [
@@ -2109,6 +2284,7 @@
         "explanation": "'Hay' é usado para indicar existência. '¿Hay alguien en casa?' = tem alguém em casa? Depois de 'hay', nunca se usa artigo definido (el/la/los/las)."
       },
       {
+        "id": "i1f71",
         "topic": "Medios de Transporte",
         "question": "¿Cómo vas a la universidad? ___ autobús.",
         "options": [
@@ -2121,6 +2297,7 @@
         "explanation": "Em espanhol, a preposição 'en' é usada com meios de transporte: en autobús, en metro, en coche... A exceção é 'a pie' (a pé), que usa a preposição 'a'."
       },
       {
+        "id": "i1f72",
         "topic": "Medios de Transporte",
         "question": "Nunca cojo el avión, prefiero viajar ___ tren.",
         "options": [
@@ -2133,6 +2310,7 @@
         "explanation": "'En tren' = de trem. Em espanhol, usamos 'en' com todos os meios de transporte: en avión, en tren, en barco, en moto, en bicicleta..."
       },
       {
+        "id": "i1f73",
         "topic": "Verbo Quedar",
         "question": "Nosotros ___ en el café de la plaza a las seis.",
         "options": [
@@ -2145,6 +2323,7 @@
         "explanation": "Com 'nosotros', o verbo 'quedar' é 'quedamos'. 'Quedamos en el café' = combinamos de nos encontrar no café. 'Quedar' é um verbo regular."
       },
       {
+        "id": "i1f74",
         "topic": "Verbo Quedar",
         "question": "¿Cuándo ___ tú con el médico?",
         "options": [
@@ -2157,6 +2336,7 @@
         "explanation": "Com 'tú', o verbo 'quedar' é 'quedas'. '¿Cuándo quedas con el médico?' = quando você tem consulta com o médico? 'Quedar con alguien' = combinar de se encontrar com alguém."
       },
       {
+        "id": "i1f75",
         "topic": "Marcadores Temporales",
         "question": "___ año he viajado mucho por Europa.",
         "options": [
@@ -2169,6 +2349,7 @@
         "explanation": "'Este año' (este ano) indica o período atual, ainda em curso. Marcadores de tempo aberto (este año, esta semana, hoy, ya) pedem o pretérito perfeito composto."
       },
       {
+        "id": "i1f76",
         "topic": "Marcadores Temporales",
         "question": "¿___ has estado alguna vez en Argentina?",
         "options": [
@@ -2181,6 +2362,7 @@
         "explanation": "'Alguna vez' = alguma vez / já. É um marcador que indica experiência de vida sem referência temporal específica. Pede o pretérito perfeito composto."
       },
       {
+        "id": "i1f77",
         "topic": "Ir a + Infinitivo",
         "question": "¿___ tú a llamar a tu madre esta noche?",
         "options": [
@@ -2193,6 +2375,7 @@
         "explanation": "A estrutura 'ir a + infinitivo' expressa plano ou intenção futura. Com 'tú', 'ir' é 'vas'. '¿Vas a llamar?' = você vai ligar? A estrutura completa inclui obrigatoriamente 'a' antes do infinitivo."
       },
       {
+        "id": "i1f78",
         "topic": "Ir a + Infinitivo",
         "question": "Ellos ___ comprar una casa nueva el próximo año.",
         "options": [
@@ -2205,6 +2388,7 @@
         "explanation": "Com 'ellos', 'ir' é 'van'. A estrutura completa é 'van a + infinitivo'. 'Van a comprar' = eles vão comprar. Expressa intenção ou plano futuro próximo."
       },
       {
+        "id": "i1f79",
         "topic": "Marcadores Temporales (pasado)",
         "question": "Mis padres se conocieron ___ 1985.",
         "options": [
@@ -2217,6 +2401,7 @@
         "explanation": "Para indicar o ano em que algo aconteceu, usamos a preposição 'en'. 'Se conocieron en 1985' = eles se conheceram em 1985. Com anos, sempre usamos 'en'."
       },
       {
+        "id": "i1f80",
         "topic": "Marcadores Temporales (pasado)",
         "question": "___ llamé a mi mejor amigo para su cumpleaños.",
         "options": [

@@ -5,6 +5,7 @@
   "midterm": {
     "questions": [
       {
+        "id": "i2m01",
         "topic": "Pronombres de Complemento Indirecto",
         "question": "¿Cuál es el pronombre de complemento indirecto para 'ella'?",
         "options": [
@@ -17,6 +18,7 @@
         "explanation": "O pronome de complemento indireto para 'ella' (3ª pessoa do singular) é 'le'. Os pronomes de CI são: me, te, le, nos, os, les."
       },
       {
+        "id": "i2m02",
         "topic": "Pronombres de Complemento Indirecto",
         "question": "Elige la oración correcta con pronombre de complemento indirecto:",
         "options": [
@@ -29,6 +31,7 @@
         "explanation": "O pronome de CI correto para 'a mi madre' (3ª pessoa singular) é 'le'. Usamos CI para indicar a quem ou para quem a ação é realizada."
       },
       {
+        "id": "i2m03",
         "topic": "Pronombres de Complemento Indirecto",
         "question": "¿Qué pronombre de complemento indirecto se usa para 'vosotros'?",
         "options": [
@@ -41,6 +44,7 @@
         "explanation": "O pronome de complemento indireto para 'vosotros' é 'os'. É exclusivo do espanhol peninsular; na América Latina, usa-se 'les' para 'ustedes'."
       },
       {
+        "id": "i2m04",
         "topic": "Pronombres de Complemento Indirecto",
         "question": "Completa: '_____ dije la verdad a ellos.'",
         "options": [
@@ -53,6 +57,7 @@
         "explanation": "Para 'ellos' (3ª pessoa do plural), o pronome de CI é 'les'. Portanto: 'Les dije la verdad a ellos'."
       },
       {
+        "id": "i2m05",
         "topic": "Pronombres de Complemento Indirecto",
         "question": "¿En qué oración el pronombre de complemento indirecto está usado correctamente?",
         "options": [
@@ -65,6 +70,7 @@
         "explanation": "'Me gusta el chocolate (a mí)' está correto. 'Me' corresponde a 'a mí' (1ª pessoa do singular). As demais opções têm pronomes que não correspondem às pessoas indicadas."
       },
       {
+        "id": "i2m06",
         "topic": "Pretérito Perfecto Simple (irregulares)",
         "question": "¿Cuál es la forma correcta del pretérito perfecto simple del verbo 'ir' para 'yo'?",
         "options": [
@@ -77,6 +83,7 @@
         "explanation": "'Ir' e 'ser' têm a mesma conjugação no pretérito perfecto simple. 'Yo' → 'fui'. Essa é uma forma totalmente irregular que deve ser memorizada."
       },
       {
+        "id": "i2m07",
         "topic": "Pretérito Perfecto Simple (irregulares)",
         "question": "Completa: 'Ayer nosotros _____ (tener) mucho trabajo.'",
         "options": [
@@ -89,6 +96,7 @@
         "explanation": "'Tener' é irregular no pretérito perfecto simple. A raiz muda para 'tuv-': tuve, tuviste, tuvo, tuvimos, tuvisteis, tuvieron."
       },
       {
+        "id": "i2m08",
         "topic": "Pretérito Perfecto Simple (irregulares)",
         "question": "¿Cómo se conjuga 'hacer' en tercera persona singular del pretérito perfecto simple?",
         "options": [
@@ -101,6 +109,7 @@
         "explanation": "'Hacer' é irregular: yo hice, tú hiciste, él/ella hizo. Note que na 3ª pessoa do singular a 'c' muda para 'z' para manter o som correto."
       },
       {
+        "id": "i2m09",
         "topic": "Pretérito Perfecto Simple (irregulares)",
         "question": "Selecciona la forma correcta: 'Él _____ (venir) tarde a la reunión.'",
         "options": [
@@ -113,6 +122,7 @@
         "explanation": "'Venir' é irregular no pretérito perfecto simple. A raiz muda para 'vin-': vine, viniste, vino, vinimos, vinisteis, vinieron."
       },
       {
+        "id": "i2m10",
         "topic": "Pretérito Perfecto Simple (irregulares)",
         "question": "¿Cuál es la conjugación correcta de 'decir' para 'ellos' en pretérito perfecto simple?",
         "options": [
@@ -125,6 +135,7 @@
         "explanation": "'Decir' é irregular: dije, dijiste, dijo, dijimos, dijisteis, dijeron. A raiz muda para 'dij-' e a terminação da 3ª pessoa do plural perde o 'i' (dijeron, não *dijieron)."
       },
       {
+        "id": "i2m11",
         "topic": "Verbos de Valoración",
         "question": "¿Cuál de los siguientes es un verbo de valoración en español?",
         "options": [
@@ -137,6 +148,7 @@
         "explanation": "'Encantar' é um verbo de valoração (como gustar, molestar, interesar). Funciona como 'gustar': o sujeito gramatical é o que agrada/desagrada, e usamos CI para indicar a quem."
       },
       {
+        "id": "i2m12",
         "topic": "Verbos de Valoración",
         "question": "Elige la oración correcta con un verbo de valoración:",
         "options": [
@@ -149,6 +161,7 @@
         "explanation": "Com verbos de valoração, o verbo concorda com o sujeito gramatical ('las películas'). Como é plural, usa-se 'encantan' (plural). 'Me' é o CI que indica a quem."
       },
       {
+        "id": "i2m13",
         "topic": "Verbos de Valoración",
         "question": "Completa: 'A ellos _____ (molestar) el ruido.'",
         "options": [
@@ -161,6 +174,7 @@
         "explanation": "'El ruido' é singular, então o verbo fica no singular: 'molesta'. O CI para 'ellos' é 'les'. A estrutura correta é: 'A ellos les molesta el ruido'."
       },
       {
+        "id": "i2m14",
         "topic": "Verbos de Valoración",
         "question": "¿Qué oración usa correctamente un verbo de valoración?",
         "options": [
@@ -173,6 +187,7 @@
         "explanation": "'Los deportes' é plural, então o verbo concorda no plural: 'interesan'. O CI 'me' indica que é 'a mí' quem tem interesse. Forma correta: 'A mí me interesan los deportes'."
       },
       {
+        "id": "i2m15",
         "topic": "Verbos de Valoración",
         "question": "Selecciona la traducción correcta de 'Nos aburre la tarea':",
         "options": [
@@ -185,6 +200,7 @@
         "explanation": "'Aburrir' funciona como 'gustar'. 'Nos aburre la tarea' = 'A tarefa nos entedia'. O sujeito é 'la tarea' (singular), e 'nos' é o CI para 'nosotros'."
       },
       {
+        "id": "i2m16",
         "topic": "Indefinidos",
         "question": "¿Cuál de los siguientes es un indefinido negativo en español?",
         "options": [
@@ -197,6 +213,7 @@
         "explanation": "'Nadie' é um indefinido negativo (refere-se a nenhuma pessoa). Outros indefinidos negativos: nada, ninguno/ningún. Os indefinidos positivos incluem: alguien, algo, alguno."
       },
       {
+        "id": "i2m17",
         "topic": "Indefinidos",
         "question": "Completa: 'No hay _____ en casa.' (ninguna persona)",
         "options": [
@@ -209,6 +226,7 @@
         "explanation": "'Nadie' refere-se a pessoas (nenhuma pessoa). 'Nada' refere-se a coisas. Com 'no' antes do verbo, não é necessário adicionar outra negação antes de 'nadie'; se 'nadie' vem antes do verbo, não se usa 'no'."
       },
       {
+        "id": "i2m18",
         "topic": "Indefinidos",
         "question": "Elige la oración correcta:",
         "options": [
@@ -221,6 +239,7 @@
         "explanation": "Em perguntas sem negação, usamos indefinidos positivos: 'algo' (alguma coisa) e 'alguien' (alguém). 'Algo interesante' é a escolha correta para perguntar sobre coisas."
       },
       {
+        "id": "i2m19",
         "topic": "Indefinidos",
         "question": "¿Cuál es la forma correcta del indefinido 'ninguno' antes de un sustantivo masculino singular?",
         "options": [
@@ -233,6 +252,7 @@
         "explanation": "'Ninguno' apocopa para 'ningún' antes de substantivo masculino singular: 'ningún problema', 'ningún libro'. Da mesma forma que 'alguno' vira 'algún'. 'Ninguna' é a forma feminina e 'ningunos' quase não se usa. Portanto, a resposta correta é 'NINGÚN'."
       },
       {
+        "id": "i2m20",
         "topic": "Indefinidos",
         "question": "Selecciona la oración con el uso correcto de los indefinidos:",
         "options": [
@@ -245,6 +265,7 @@
         "explanation": "'Alguien' refere-se a uma pessoa indefinida. 'Alguien llamó a la puerta' = 'Alguém bateu na porta'. É o uso correto para referir-se a uma pessoa desconhecida."
       },
       {
+        "id": "i2m21",
         "topic": "Pronombres CD e CI",
         "question": "En la oración 'Juan me dio el libro', ¿qué función tiene 'me'?",
         "options": [
@@ -257,6 +278,7 @@
         "explanation": "'Me' é o Complemento Indireto (CI): indica a quem Juan deu o livro (a mim). O CD é 'el libro' (o que Juan deu). Para identificar: CI = a quem / para quem; CD = o quê / a quem (para pessoas)."
       },
       {
+        "id": "i2m22",
         "topic": "Pronombres CD e CI",
         "question": "En la oración 'María lo compró ayer', ¿a qué se refiere 'lo'?",
         "options": [
@@ -269,6 +291,7 @@
         "explanation": "'Lo' é pronome de Complemento Direto masculino singular. Substitui um substantivo masculino: 'lo compró' = comprou ele (o livro, o carro, etc.). Os pronomes de CD são: me, te, lo/la, nos, os, los/las."
       },
       {
+        "id": "i2m23",
         "topic": "Pronombres CD e CI",
         "question": "Sustituye el complemento directo: 'Ella compró las flores.'",
         "options": [
@@ -281,6 +304,7 @@
         "explanation": "'Las flores' é feminino plural. O pronome de CD correspondente é 'las'. Portanto: 'Ella las compró'. Lembre: CD concorda em gênero e número com o substantivo substituído."
       },
       {
+        "id": "i2m24",
         "topic": "Pronombres CD e CI",
         "question": "¿Cuál es la posición correcta del pronombre átono en la oración?",
         "options": [
@@ -293,6 +317,7 @@
         "explanation": "Os pronomes átonos (CD e CI) vão ANTES do verbo conjugado: 'Lo compró'. Exceção: com infinitivo e gerúndio, podem ir antes do auxiliar ou unidos ao final do infinitivo/gerúndio."
       },
       {
+        "id": "i2m25",
         "topic": "Contraste Pretérito Perfecto Simple y Compuesto",
         "question": "¿Cuál de las siguientes expresiones de tiempo se usa típicamente con el Pretérito Perfecto Compuesto?",
         "options": [
@@ -305,6 +330,7 @@
         "explanation": "O Pretérito Perfecto Compuesto (he comido, has ido) usa-se com marcadores temporais ligados ao presente: hoy, esta semana, este año, ya, todavía, alguna vez, nunca. 'Ayer', 'la semana pasada' e datas passadas pedem o Pretérito Perfecto Simple."
       },
       {
+        "id": "i2m26",
         "topic": "Contraste Pretérito Perfecto Simple y Compuesto",
         "question": "Elige la oración correcta en español peninsular:",
         "options": [
@@ -317,6 +343,7 @@
         "explanation": "No espanhol peninsular, 'esta mañana' (tempo ainda ligado ao dia atual) pede o Pretérito Perfecto Compuesto: 'he ido'. Se o contexto fosse claramente passado e distante, usaríamos o Simple."
       },
       {
+        "id": "i2m27",
         "topic": "Contraste Pretérito Perfecto Simple y Compuesto",
         "question": "Completa con el tiempo correcto: 'El año pasado _____ (visitar/yo) París.'",
         "options": [
@@ -329,6 +356,7 @@
         "explanation": "'El año pasado' é um marcador temporal de passado distante/concluído, então usa-se o Pretérito Perfecto Simple: 'visité'. O Compuesto seria incorreto aqui porque o período ('el año pasado') já está totalmente encerrado."
       },
       {
+        "id": "i2m28",
         "topic": "Contraste Pretérito Perfecto Simple y Compuesto",
         "question": "¿Cuál es el uso correcto del Pretérito Perfecto Compuesto?",
         "options": [
@@ -341,6 +369,7 @@
         "explanation": "'Nunca he probado el sushi' usa corretamente o Perfecto Compuesto porque expressa uma experiência (ou falta dela) sem limitar a um tempo passado específico. 'Nunca', 'ya', 'alguna vez' são marcadores típicos do Compuesto."
       },
       {
+        "id": "i2m29",
         "topic": "Combinación de Pronombres (CI + CD)",
         "question": "¿Qué ocurre cuando 'le' o 'les' se combina con 'lo', 'la', 'los' o 'las'?",
         "options": [
@@ -353,6 +382,7 @@
         "explanation": "Quando CI (le/les) vem antes de CD (lo/la/los/las), o CI muda para 'se': 'le lo' → 'se lo'. Isso evita a sequência de dois pronomes começando com 'l'. Ex: '¿Le das el libro a ella?' → 'Se lo das'."
       },
       {
+        "id": "i2m30",
         "topic": "Combinación de Pronombres (CI + CD)",
         "question": "Sustituye los complementos: 'Ella dio el regalo a su amigo.'",
         "options": [
@@ -365,6 +395,7 @@
         "explanation": "CI = 'a su amigo' → 'le'; CD = 'el regalo' → 'lo'. Quando juntos: le + lo = se + lo. Ordem: CI + CD + verbo → 'Ella se lo dio'. O 'se' aqui é CI, não reflexivo."
       },
       {
+        "id": "i2m31",
         "topic": "Combinación de Pronombres (CI + CD)",
         "question": "Transforma: '¿Puedes explicar el problema a mí?'",
         "options": [
@@ -377,6 +408,7 @@
         "explanation": "CI = 'a mí' → 'me'; CD = 'el problema' → 'lo'. Ordem: CI antes de CD = 'me lo'. Como há verbo auxiliar + infinitivo, pode-se colocar antes do auxiliar: '¿Me lo puedes explicar?' ou depois do infinitivo: '¿Puedes explicármelo?'."
       },
       {
+        "id": "i2m32",
         "topic": "Combinación de Pronombres (CI + CD)",
         "question": "¿Cuál es la oración correcta con doble pronombre?",
         "options": [
@@ -389,6 +421,7 @@
         "explanation": "'Te las voy a comprar' é correto: CI = 'te' (para você), CD = 'las' (as flores, feminino plural). Os pronomes vão juntos antes do verbo conjugado ou ambos unidos ao infinitivo: 'Voy a comprártelas'."
       },
       {
+        "id": "i2m33",
         "topic": "Combinación de Pronombres (CI + CD)",
         "question": "Identifica el error en: 'Se les enviamos el correo ayer.'",
         "options": [
@@ -401,6 +434,7 @@
         "explanation": "A combinação 'se les' não existe. A regra é: quando CI (le/les) precede CD (lo/la/los/las), usa-se 'se'. Mas aqui 'les' não está antes de um CD com 'l'. Além disso, 'se' já substitui 'le/les'. O correto seria: 'Se lo enviamos ayer' (referindo-se a algo específico)."
       },
       {
+        "id": "i2m34",
         "topic": "Pretérito Pluscuamperfecto de Indicativo",
         "question": "¿Cómo se forma el Pretérito Pluscuamperfecto de Indicativo?",
         "options": [
@@ -413,6 +447,7 @@
         "explanation": "O Pretérito Pluscuamperfecto forma-se com o IMPERFEITO do auxiliar 'haber' (había, habías, había, habíamos, habíais, habían) + participio passado. Ex: había comido, habías salido."
       },
       {
+        "id": "i2m35",
         "topic": "Pretérito Pluscuamperfecto de Indicativo",
         "question": "¿Cuál es el uso principal del Pretérito Pluscuamperfecto?",
         "options": [
@@ -425,6 +460,7 @@
         "explanation": "O Pluscuamperfecto expressa uma ação que ocorreu ANTES de outra ação no passado. É o 'passado do passado'. Ex: 'Cuando llegué, ella ya había comido', primeiro ela comeu, depois eu cheguei."
       },
       {
+        "id": "i2m36",
         "topic": "Pretérito Pluscuamperfecto de Indicativo",
         "question": "Completa: 'Cuando llegamos al cine, la película ya _____ (empezar).'",
         "options": [
@@ -437,6 +473,7 @@
         "explanation": "O filme começou ANTES de chegarmos ao cinema. Para expressar essa anterioridade, usamos o Pluscuamperfecto: 'había empezado'. O evento mais recente ('llegamos') vai no Pretérito Simple."
       },
       {
+        "id": "i2m37",
         "topic": "Pretérito Pluscuamperfecto de Indicativo",
         "question": "¿Cuál es la forma correcta del Pretérito Pluscuamperfecto para 'nosotros' con el verbo 'volver'?",
         "options": [
@@ -449,6 +486,7 @@
         "explanation": "'Volver' tem participio irregular: 'vuelto'. Com 'nosotros', o auxiliar no imperfeito é 'habíamos': 'habíamos vuelto'. Participios irregulares comuns: vuelto, hecho, dicho, puesto, abierto, escrito."
       },
       {
+        "id": "i2m38",
         "topic": "Pretérito Pluscuamperfecto de Indicativo",
         "question": "Selecciona la oración que usa correctamente el Pretérito Pluscuamperfecto:",
         "options": [
@@ -461,6 +499,7 @@
         "explanation": "'Nunca habían visitado ese museo antes de ayer' usa corretamente o Pluscuamperfecto: a visita (inexistente) é anterior ao ponto de referência 'antes de ayer'. O Pluscuamperfecto expressa essa relação de anterioridade no passado."
       },
       {
+        "id": "i2m39",
         "topic": "Pretérito Pluscuamperfecto de Indicativo",
         "question": "¿Por qué es incorrecto usar el Pluscuamperfecto en: 'Ayer *había comido* en ese restaurante por primera vez'?",
         "options": [
@@ -473,6 +512,7 @@
         "explanation": "O Pluscuamperfecto requer um ponto de referência no passado (outra ação passada) em relação ao qual a ação é anterior. 'Ayer comí en ese restaurante por primera vez' é o correto, usando o Pretérito Simple."
       },
       {
+        "id": "i2m40",
         "topic": "Verbo Doler",
         "question": "¿Cómo se dice 'Me duele la cabeza' en portugués?",
         "options": [
@@ -485,6 +525,7 @@
         "explanation": "'Me duele la cabeza' = 'Minha cabeça me dói' (ou 'Estou com dor de cabeça'). 'Doler' funciona como 'gustar': o sujeito é a parte do corpo, o CI indica quem sente a dor."
       },
       {
+        "id": "i2m41",
         "topic": "Verbo Doler",
         "question": "Elige la forma correcta: 'A ella _____ las piernas después de correr.'",
         "options": [
@@ -497,6 +538,7 @@
         "explanation": "'Las piernas' é plural, então o verbo concorda no plural: 'duelen'. O CI para 'ella' é 'le'. Forma correta: 'A ella le duelen las piernas'. Compare: 'le duele el pie' (singular)."
       },
       {
+        "id": "i2m42",
         "topic": "Verbo Doler",
         "question": "Completa: '¿A vosotros _____ (doler) la espalda?'",
         "options": [
@@ -509,6 +551,7 @@
         "explanation": "'La espalda' é singular → 'duele'. O CI para 'vosotros' é 'os'. Forma correta: '¿A vosotros os duele la espalda?' Se fossem várias partes: 'os duelen los pies'."
       },
       {
+        "id": "i2m43",
         "topic": "Verbo Doler",
         "question": "¿Cuál es la oración correcta para expresar dolor?",
         "options": [
@@ -521,6 +564,7 @@
         "explanation": "'Me duele el estómago' é a forma correta. O sujeito é 'el estómago' (3ª pessoa), o verbo é 'duele', e 'me' é o CI. Nunca se usa 'doler' com sujeito em 1ª pessoa ('yo duelo' não existe)."
       },
       {
+        "id": "i2m44",
         "topic": "Tener que / Hay que",
         "question": "¿Cuál es la diferencia entre 'tener que' y 'hay que'?",
         "options": [
@@ -533,6 +577,7 @@
         "explanation": "'Hay que' é impessoal (não tem sujeito específico, vale para todos): 'Hay que estudiar mucho'. 'Tener que' é pessoal (indica quem tem a obrigação): 'Yo tengo que estudiar'. Ambos expressam obrigação/necessidade."
       },
       {
+        "id": "i2m45",
         "topic": "Tener que / Hay que",
         "question": "Elige la oración correcta para una obligación personal:",
         "options": [
@@ -545,6 +590,7 @@
         "explanation": "Para obrigação pessoal (de uma pessoa específica), usa-se 'tener que' conjugado: 'Tengo que llegar temprano' (Eu tenho que chegar cedo). 'Hay que' não se conjuga e não admite sujeito explícito."
       },
       {
+        "id": "i2m46",
         "topic": "Tener que / Hay que",
         "question": "Completa con la forma correcta: 'Para aprender español, _____ practicar todos los días.'",
         "options": [
@@ -557,6 +603,7 @@
         "explanation": "A frase expressa uma obrigação geral/impessoal (aplicável a qualquer pessoa que queira aprender espanhol), então usa-se 'hay que': 'Para aprender español, hay que practicar todos los días'."
       },
       {
+        "id": "i2m47",
         "topic": "Tener que / Hay que",
         "question": "¿Cuál de las siguientes oraciones usa 'tener que' correctamente?",
         "options": [
@@ -569,6 +616,7 @@
         "explanation": "'Tener que' se conjuga de acordo com o sujeito. Para 'ella' (3ª pessoa singular): 'tiene'. Estrutura: sujeito + tener (conjugado) + que + infinitivo = 'Ella tiene que trabajar más'."
       },
       {
+        "id": "i2m48",
         "topic": "SE Impersonal",
         "question": "¿Qué expresa el 'SE impersonal' en español?",
         "options": [
@@ -581,6 +629,7 @@
         "explanation": "O SE impessoal expressa uma ação sem sujeito específico, válida de forma geral: 'En España se cena tarde' (Em geral, na Espanha as pessoas jantam tarde). É equivalente ao 'se' apassivante ou ao uso impessoal."
       },
       {
+        "id": "i2m49",
         "topic": "SE Impersonal",
         "question": "Elige el ejemplo correcto de 'SE impersonal':",
         "options": [
@@ -593,6 +642,7 @@
         "explanation": "'Se habla español aquí' é SE impessoal: não há sujeito específico, a frase informa que (em geral/neste lugar) fala-se espanhol. As outras opções: reflexivo (peina, cayó) e recíproco (nos vemos)."
       },
       {
+        "id": "i2m50",
         "topic": "SE Impersonal",
         "question": "¿Cómo se dice impersonalmente 'En este país la gente trabaja mucho'?",
         "options": [
@@ -605,6 +655,7 @@
         "explanation": "Tanto 'se trabaja mucho' (SE impessoal) quanto 'uno trabaja mucho' (uso impessoal de 'uno') são formas corretas de expressar ações impessoais em espanhol. Ambas equivalem a 'as pessoas trabalham muito'."
       },
       {
+        "id": "i2m51",
         "topic": "SE Impersonal",
         "question": "Completa el aviso: '_____ prohibido fumar en este edificio.'",
         "options": [
@@ -617,6 +668,7 @@
         "explanation": "Com SE impessoal seguido de verbo no infinitivo, usa-se apenas 'Se': 'Se prohíbe fumar' ou 'Se prohibido fumar' não existe. O correto é 'Se prohíbe fumar' ou 'Está prohibido fumar'. Mas 'Se' + verbo conjugado = impessoal: 'Se prohíbe'."
       },
       {
+        "id": "i2m52",
         "topic": "SE Impersonal",
         "question": "¿Cuál es la diferencia entre 'Se vende casa' y 'Se venden casas'?",
         "options": [
@@ -629,6 +681,7 @@
         "explanation": "Com SE apassivante/impessoal, o verbo concorda com o substantivo que segue: 'casa' (singular) → 'se vende'; 'casas' (plural) → 'se venden'. Isso é chamado de voz passiva com SE ou SE passivo."
       },
       {
+        "id": "i2m53",
         "topic": "Verbo Tocar",
         "question": "¿Qué significa 'tocar' en la oración 'A mí me toca lavar los platos hoy'?",
         "options": [
@@ -641,6 +694,7 @@
         "explanation": "'Tocar' com CI significa 'ser a vez de', 'caber a alguém', 'ser a responsabilidade de': 'Me toca' = 'É minha vez' / 'Me cabe'. Funciona como 'gustar': 'A mí me toca', 'a ti te toca', etc."
       },
       {
+        "id": "i2m54",
         "topic": "Verbo Tocar",
         "question": "Completa: 'Hoy _____ (tocar/a vosotros) limpiar la cocina.'",
         "options": [
@@ -653,6 +707,7 @@
         "explanation": "O CI para 'vosotros' é 'os'. 'Limpiar la cocina' é singular (infinitivo), então o verbo fica no singular: 'toca'. Forma correta: 'Hoy os toca limpiar la cocina'."
       },
       {
+        "id": "i2m55",
         "topic": "Verbo Tocar",
         "question": "¿Cuál es la oración correcta con el verbo 'tocar' para indicar turno?",
         "options": [
@@ -665,6 +720,7 @@
         "explanation": "'Salir primero' é um infinitivo (ação singular), então o verbo 'tocar' fica no singular: 'le toca'. O CI para 'él' é 'le'. Forma correta: 'A él le toca salir primero' (É a vez dele de sair primeiro)."
       },
       {
+        "id": "i2m56",
         "topic": "Verbo Tocar",
         "question": "¿Qué pronombre CI y forma de 'tocar' completar correctamente? 'Esta semana _____ (a nosotros) cocinar.'",
         "options": [
@@ -677,6 +733,7 @@
         "explanation": "CI para 'nosotros' = 'nos'. 'Cocinar' é infinitivo → verbo no singular 'toca'. Correto: 'Esta semana nos toca cocinar'. Não se usa 'se' neste contexto (seria SE reflexivo/impessoal)."
       },
       {
+        "id": "i2m57",
         "topic": "Pronombres CD e CI",
         "question": "Sustituye el complemento directo en: 'Él escribió la carta.'",
         "options": [
@@ -689,6 +746,7 @@
         "explanation": "'La carta' é feminino singular. O pronome de CD correspondente é 'la'. Portanto: 'Él la escribió'. Lembre: CD concorda em gênero e número com o substantivo substituído, la (fem. sing.), lo (masc. sing.), las (fem. pl.), los (masc. pl.)."
       },
       {
+        "id": "i2m58",
         "topic": "Contraste Pretérito Perfecto Simple y Compuesto",
         "question": "Completa con el tiempo correcto: 'Esta semana _____ (trabajar/yo) mucho.'",
         "options": [
@@ -701,6 +759,7 @@
         "explanation": "'Esta semana' indica um período de tempo que ainda não terminou (a semana atual). No espanhol peninsular, isso pede o Pretérito Perfecto Compuesto: 'he trabajado'. Marcadores como 'hoy', 'esta semana', 'este mes' e 'este año' ligam a ação ao presente e pedem o Compuesto."
       },
       {
+        "id": "i2m59",
         "topic": "Verbo Doler",
         "question": "Completa: 'Después del partido, _____ los brazos y las piernas (a mí).'",
         "options": [
@@ -713,6 +772,7 @@
         "explanation": "'Los brazos y las piernas' é um sujeito plural (duas partes do corpo), então o verbo concorda no plural: 'duelen'. O CI para 'a mí' é 'me'. Forma correta: 'Me duelen los brazos y las piernas'. Compare com o singular: 'me duele el brazo'."
       },
       {
+        "id": "i2m60",
         "topic": "Tener que / Hay que",
         "question": "Completa con la forma correcta: 'Nosotros _____ llegar antes de las ocho.'",
         "options": [
@@ -725,6 +785,7 @@
         "explanation": "'Tener que' conjuga-se de acordo com o sujeito. Para 'nosotros': 'tenemos'. Estrutura: sujeito + tener (conjugado) + que + infinitivo = 'Nosotros tenemos que llegar'. 'Hay que' seria impessoal (sem sujeito específico) e não admite sujeito explícito."
       },
       {
+        "id": "i2m61",
         "topic": "Verbo Tocar",
         "question": "Completa: 'Esta noche _____ (tocar/a ellos) fregar los platos.'",
         "options": [
@@ -741,6 +802,7 @@
   "final": {
     "questions": [
       {
+        "id": "i2f01",
         "topic": "Futuro Simple",
         "question": "¿Cómo se forma el Futuro Simple para verbos regulares?",
         "options": [
@@ -753,6 +815,7 @@
         "explanation": "O Futuro Simple regular forma-se com o INFINITIVO completo + terminações: -é, -ás, -á, -emos, -éis, -án. Ex: hablar → hablaré, hablarás, hablará... Não se usa a raiz, mas o infinitivo inteiro."
       },
       {
+        "id": "i2f02",
         "topic": "Futuro Simple",
         "question": "¿Cuál es la conjugación correcta de 'poder' en futuro para 'tú'?",
         "options": [
@@ -765,6 +828,7 @@
         "explanation": "'Poder' é irregular no futuro: a vogal do infinitivo cai e adiciona-se 'd': pod- → podr-. Conjugação: podré, podrás, podrá, podremos, podréis, podrán. Para 'tú': 'podrás'."
       },
       {
+        "id": "i2f03",
         "topic": "Futuro Simple",
         "question": "Completa: 'El próximo año nosotros _____ (vivir) en Madrid.'",
         "options": [
@@ -777,6 +841,7 @@
         "explanation": "'Vivir' é regular no futuro: infinitivo mais a terminação de 'nosotros' (-emos), que dá 'viviremos'. O marcador 'el próximo año' indica futuro. As outras são tempos diferentes: 'viviríamos' é condicional, 'vivimos' é presente ou pretérito, e 'vivíamos' é imperfeito. Portanto, a resposta correta é 'VIVIREMOS'."
       },
       {
+        "id": "i2f04",
         "topic": "Futuro Simple",
         "question": "¿Cuál de los siguientes verbos tiene raíz irregular en futuro?",
         "options": [
@@ -789,6 +854,7 @@
         "explanation": "'Tener' é irregular no futuro: tendr- (em vez de 'tener'). Conjugação: tendré, tendrás, tendrá, tendremos, tendréis, tendrán. Outros irregulares: saber (sabr-), poder (podr-), querer (querr-), hacer (har-), venir (vendr-)."
       },
       {
+        "id": "i2f05",
         "topic": "Futuro Simple",
         "question": "¿Qué expresa 'Serán las tres de la tarde' en español?",
         "options": [
@@ -801,6 +867,7 @@
         "explanation": "O Futuro Simple também pode expressar probabilidade ou suposição no presente: 'Serán las tres' = 'Devem ser três horas' / 'Provavelmente são três horas'. É o uso do futuro de probabilidade."
       },
       {
+        "id": "i2f06",
         "topic": "Futuro Simple",
         "question": "Selecciona la forma correcta de 'hacer' en futuro para 'yo':",
         "options": [
@@ -813,6 +880,7 @@
         "explanation": "'Hacer' é irregular no futuro com raiz 'har-': haré, harás, hará, haremos, haréis, harán. Para 'yo': 'haré'. Note que a raiz é 'har-' (não 'hacer-' nem 'hac-')."
       },
       {
+        "id": "i2f07",
         "topic": "Condicional Simple",
         "question": "¿Cómo se forma el Condicional Simple para verbos regulares?",
         "options": [
@@ -825,6 +893,7 @@
         "explanation": "O Condicional Simple regular forma-se com o INFINITIVO completo + terminações: -ía, -ías, -ía, -íamos, -íais, -ían. As terminações são as mesmas para os três grupos (-ar, -er, -ir). Ex: hablar → hablaría."
       },
       {
+        "id": "i2f08",
         "topic": "Condicional Simple",
         "question": "¿Cuál es el uso principal del Condicional Simple?",
         "options": [
@@ -837,6 +906,7 @@
         "explanation": "O Condicional Simple usa-se para: hipóteses ('Si tuviera dinero, viajaría'), desejo educado ('¿Podría ayudarme?'), conselhos ('Yo que tú, estudiaría más') e probabilidade no passado. É equivalente ao condicional do português (-ria)."
       },
       {
+        "id": "i2f09",
         "topic": "Condicional Simple",
         "question": "Completa: 'Yo en tu lugar, _____ (hablar) con el jefe.'",
         "options": [
@@ -849,6 +919,7 @@
         "explanation": "'Yo en tu lugar' (Eu no seu lugar) introduz um conselho hipotético, que pede o Condicional: 'hablaría'. É uma estrutura comum para dar conselhos educadamente em espanhol."
       },
       {
+        "id": "i2f10",
         "topic": "Condicional Simple",
         "question": "¿Cuál es la forma del verbo 'tener' en Condicional para 'ellos'?",
         "options": [
@@ -861,6 +932,7 @@
         "explanation": "'Tener' é irregular no Condicional com a mesma raiz do Futuro: 'tendr-'. Para 'ellos': 'tendrían'. Os verbos irregulares no Condicional têm as mesmas raízes irregulares do Futuro Simple."
       },
       {
+        "id": "i2f11",
         "topic": "Condicional Simple",
         "question": "¿Cuál oración usa el Condicional Simple correctamente para expresar cortesía?",
         "options": [
@@ -873,6 +945,7 @@
         "explanation": "O Condicional 'podría' é mais educado e formal que o Presente 'puede'. '¿Podría usted ayudarme?' = 'Poderia o senhor me ajudar?' é uma forma muito cortês de pedir ajuda em espanhol."
       },
       {
+        "id": "i2f12",
         "topic": "Conjunciones (y/e – o/u)",
         "question": "¿Cuándo se usa 'e' en lugar de 'y' en español?",
         "options": [
@@ -885,6 +958,7 @@
         "explanation": "A conjunção 'y' (e) muda para 'e' antes de palavras que começam com o som /i/ (grafado 'i' ou 'hi'): 'madre e hijo', 'español e inglés'. Isso evita a repetição do som /i/ seguido: 'y inglés' seria difícil de pronunciar."
       },
       {
+        "id": "i2f13",
         "topic": "Conjunciones (y/e – o/u)",
         "question": "Elige la conjunción correcta: 'Me gustan las ciencias _____ historia.'",
         "options": [
@@ -897,6 +971,7 @@
         "explanation": "'Historia' começa com o som /i/ (hi-). Por isso, 'y' muda para 'e': 'ciencias e historia'. Compara: 'ciencias y arte' (sem mudança, pois 'arte' não começa com /i/)."
       },
       {
+        "id": "i2f14",
         "topic": "Conjunciones (y/e – o/u)",
         "question": "¿Cuándo se usa 'u' en lugar de 'o'?",
         "options": [
@@ -909,6 +984,7 @@
         "explanation": "A conjunção 'o' (ou) muda para 'u' antes de palavras que começam com 'o' ou 'ho': 'siete u ocho', 'hombre u hormiga'. Isso evita a repetição do som /o/: 'o ocho' seria confuso."
       },
       {
+        "id": "i2f15",
         "topic": "Conjunciones (y/e – o/u)",
         "question": "¿En cuál de las siguientes oraciones el uso de la conjunción es INCORRECTO?",
         "options": [
@@ -921,6 +997,7 @@
         "explanation": "Em 'Es inteligente y honesta', o uso de 'y' está incorreto. 'Honesta' começa com 'ho-', e a regra diz que 'o' muda para 'u' antes de palavras que começam com 'o' ou 'ho'. O correto é 'Es inteligente u honesta'. As demais opções estão corretas: 'e inglés' (começa com i-), 'u otra' (começa com o-), 'u ocho' (começa com o-)."
       },
       {
+        "id": "i2f16",
         "topic": "Conjunciones (y/e – o/u)",
         "question": "Selecciona la conjunción correcta: '¿Prefieres café _____ otro tipo de bebida?'",
         "options": [
@@ -933,6 +1010,7 @@
         "explanation": "'Otro' começa com 'o'. A conjunção 'o' muda para 'u' antes de 'o' ou 'ho': '¿Prefieres café u otro tipo de bebida?' Isso evita a sequência de sons /o/ + /o/."
       },
       {
+        "id": "i2f17",
         "topic": "Presente de Subjuntivo",
         "question": "¿Cómo se forma el Presente de Subjuntivo para verbos en -AR?",
         "options": [
@@ -945,6 +1023,7 @@
         "explanation": "O Presente de Subjuntivo dos verbos em -AR usa as terminações 'opostas': -e, -es, -e, -emos, -éis, -en (terminações típicas de -ER). Parte da 1ª pessoa do presente do indicativo (yo hablo → habl-) + estas terminações."
       },
       {
+        "id": "i2f18",
         "topic": "Presente de Subjuntivo",
         "question": "¿Cuál es la forma correcta del Presente de Subjuntivo para 'tú' con el verbo 'comer'?",
         "options": [
@@ -957,6 +1036,7 @@
         "explanation": "Verbos em -ER no Subjuntivo usam terminações com 'a': -a, -as, -a, -amos, -áis, -an. 'Comer': raiz 'com-' → coma, comas, coma, comamos, comáis, coman. Para 'tú': 'comas'."
       },
       {
+        "id": "i2f19",
         "topic": "Presente de Subjuntivo",
         "question": "¿Cuándo se usa el Presente de Subjuntivo?",
         "options": [
@@ -969,6 +1049,7 @@
         "explanation": "O Subjuntivo usa-se com: desejo ('quiero que vengas'), dúvida ('no creo que sea verdad'), emoção ('me alegra que estés aquí'), recomendação ('te recomiendo que estudies') e certas conjunções ('cuando llegues', 'para que sepas')."
       },
       {
+        "id": "i2f20",
         "topic": "Presente de Subjuntivo",
         "question": "Completa: 'Espero que tú _____ (venir) a la fiesta.'",
         "options": [
@@ -981,6 +1062,7 @@
         "explanation": "'Espero que' (espero que) introduz o Subjuntivo. 'Venir' é irregular: a base do Subjuntivo vem do 'yo' presente: vengo → veng-. Para 'tú': 'vengas'. A estrutura desejo + que + subjuntivo é fundamental."
       },
       {
+        "id": "i2f21",
         "topic": "Presente de Subjuntivo",
         "question": "¿Cuál es la forma del subjuntivo de 'ser' para 'nosotros'?",
         "options": [
@@ -993,6 +1075,7 @@
         "explanation": "'Ser' é irregular no Subjuntivo: sea, seas, sea, seamos, seáis, sean. Para 'nosotros': 'seamos'. Outros irregulares importantes: ir (vaya), haber (haya), estar (esté), tener (tenga), hacer (haga)."
       },
       {
+        "id": "i2f22",
         "topic": "Presente de Subjuntivo",
         "question": "Selecciona la oración correcta con Presente de Subjuntivo:",
         "options": [
@@ -1005,6 +1088,7 @@
         "explanation": "Após 'querer que' (querer que), usa-se o Subjuntivo: 'venga' (3ª pessoa singular de 'venir' no subjuntivo). A estrutura obrigatória é: verbo principal + QUE + subjuntivo. Sem 'que', a estrutura é agramatical."
       },
       {
+        "id": "i2f23",
         "topic": "Presente de Subjuntivo",
         "question": "¿Cuál es el subjuntivo correcto de 'ir' para 'vosotros'?",
         "options": [
@@ -1017,6 +1101,7 @@
         "explanation": "'Ir' tem Subjuntivo irregular: vaya, vayas, vaya, vayamos, vayáis, vayan. Para 'vosotros': 'vayáis'. Note que a raiz 'vay-' é completamente diferente do presente indicativo 'va-' e do passado 'fue-'."
       },
       {
+        "id": "i2f24",
         "topic": "Introductores de Subjuntivo",
         "question": "¿Cuál de los siguientes introductores exige el uso del Subjuntivo?",
         "options": [
@@ -1029,6 +1114,7 @@
         "explanation": "'Es importante que' expressa uma valoração/recomendação e introduz o Subjuntivo: 'Es importante que estudies'. 'Creo que', 'es evidente que' e 'sé que' expressam certeza/afirmação e usam o Indicativo."
       },
       {
+        "id": "i2f25",
         "topic": "Introductores de Subjuntivo",
         "question": "Completa: 'Te recomiendo que _____ (leer) este libro.'",
         "options": [
@@ -1041,6 +1127,7 @@
         "explanation": "'Recomendar que' é um introdutor de recomendação/conselho que pede o Subjuntivo. 'Leer' no Subjuntivo: lea, leas, lea, leamos, leáis, lean. Para 'tú': 'leas'. Note: 'eer' → 'ea' (não leerás, que é futuro)."
       },
       {
+        "id": "i2f26",
         "topic": "Introductores de Subjuntivo",
         "question": "¿Qué estructura usa el Indicativo (NO el Subjuntivo)?",
         "options": [
@@ -1053,6 +1140,7 @@
         "explanation": "'Pensar que' (pensar que / achar que) expressa uma opinião/certeza e usa o INDICATIVO: 'Pienso que tiene razón'. Já 'ojalá', 'es necesario que' e 'me alegra que' introduzem o Subjuntivo."
       },
       {
+        "id": "i2f27",
         "topic": "Introductores de Subjuntivo",
         "question": "Selecciona la oración correcta con introductor de subjuntivo:",
         "options": [
@@ -1065,6 +1153,7 @@
         "explanation": "'Esperar que' (esperar que) introduz o Subjuntivo: 'llueva' (Subjuntivo de 'llover'). Note que 'llover' é irregular (o→ue) no indicativo presente 'llueve', e essa irregularidade mantém-se no Subjuntivo: 'llueva'."
       },
       {
+        "id": "i2f28",
         "topic": "Introductores de Subjuntivo",
         "question": "¿Cuál es el introductor correcto para: '_____ tengas buena suerte en el examen'?",
         "options": [
@@ -1077,6 +1166,7 @@
         "explanation": "'Ojalá' é um dos mais característicos introductores de Subjuntivo em espanhol. Expressa desejo/esperança: 'Ojalá tengas buena suerte' = 'Tomara que você tenha boa sorte'. Sempre é seguido de Subjuntivo."
       },
       {
+        "id": "i2f29",
         "topic": "Apócopes",
         "question": "¿Cuándo se usa 'buen' en lugar de 'bueno'?",
         "options": [
@@ -1089,6 +1179,7 @@
         "explanation": "'Bueno' apocopa para 'buen' ANTES de substantivo masculino singular: 'un buen libro', 'buen día'. Depois do substantivo, mantém a forma completa: 'un libro bueno'. O mesmo ocorre com 'malo' → 'mal'."
       },
       {
+        "id": "i2f30",
         "topic": "Apócopes",
         "question": "Selecciona la forma correcta del apócope:",
         "options": [
@@ -1101,6 +1192,7 @@
         "explanation": "'Grande' apocopa para 'gran' ANTES de qualquer substantivo (masculino ou feminino) singular: 'un gran hombre', 'una gran mujer'. Depois do substantivo, usa-se 'grande': 'un hombre grande'."
       },
       {
+        "id": "i2f31",
         "topic": "Apócopes",
         "question": "¿Cuál es el apócope correcto en: 'Necesito _____ minutos más.'?",
         "options": [
@@ -1113,6 +1205,7 @@
         "explanation": "'Alguno' apocopa para 'algún' antes de substantivo masculino singular: 'algún minuto', 'algún problema'. Para feminino: 'alguna', sem apócope. Para plural: 'algunos/algunas', sem apócope."
       },
       {
+        "id": "i2f32",
         "topic": "Apócopes",
         "question": "¿Qué apócope se usa correctamente en la siguiente oración? 'Es el _____ día de la semana.'",
         "options": [
@@ -1125,6 +1218,7 @@
         "explanation": "'Primero' apocopa para 'primer' antes de substantivo masculino singular: 'el primer día', 'el primer lugar'. O mesmo ocorre com 'tercero' → 'tercer': 'el tercer piso'. Depois do substantivo: 'el día primero'."
       },
       {
+        "id": "i2f33",
         "topic": "Apócopes",
         "question": "¿Cuál de las siguientes afirmaciones sobre los apócopes es INCORRECTA?",
         "options": [
@@ -1137,6 +1231,7 @@
         "explanation": "A opção incorreta é C: 'bueno' NÃO se apocopa antes de femininos. Apocopa apenas antes de masculino singular: 'buen libro' (masc. sing.), mas 'buena idea' (sem apócope para feminino). 'Ninguno' → 'ningún' (masc. sing.) também é correto."
       },
       {
+        "id": "i2f34",
         "topic": "Imperativo Afirmativo (irregulares)",
         "question": "¿Cuál es la forma correcta del Imperativo afirmativo para 'tú' con el verbo 'ir'?",
         "options": [
@@ -1149,6 +1244,7 @@
         "explanation": "'Ir' tem imperativo irregular para 'tú': 've'. Os imperativos irregulares para 'tú' mais comuns: ve (ir), sé (ser), ten (tener), pon (poner), sal (salir), haz (hacer), di (decir), ven (venir)."
       },
       {
+        "id": "i2f35",
         "topic": "Imperativo Afirmativo (irregulares)",
         "question": "Completa el consejo: '¡_____ (tener/tú) paciencia!'",
         "options": [
@@ -1161,6 +1257,7 @@
         "explanation": "O imperativo afirmativo irregular de 'tener' para 'tú' é 'ten'. Os irregulares de 'tú' são formas curtas: ten, pon, sal, haz, di, ve, sé, ven. 'Tenga' seria o imperativo para 'usted' (formal)."
       },
       {
+        "id": "i2f36",
         "topic": "Imperativo Afirmativo (irregulares)",
         "question": "¿Cuál es el imperativo afirmativo correcto de 'decir' para 'vosotros'?",
         "options": [
@@ -1173,6 +1270,7 @@
         "explanation": "O imperativo afirmativo para 'vosotros' forma-se substituindo o -r do infinitivo por -d: decir → decid. Essa regra é regular para 'vosotros', diferente de 'tú' (que tem formas irregulares). Exceção: 'irse' → 'idos' (não 'iros')."
       },
       {
+        "id": "i2f37",
         "topic": "Imperativo Afirmativo (irregulares)",
         "question": "¿Cómo se dice '¡Ven aquí!' en Imperativo afirmativo?",
         "options": [
@@ -1185,6 +1283,7 @@
         "explanation": "'Ven' é o imperativo afirmativo irregular de 'venir' para 'tú'. 'Ve' é o imperativo de 'ir'. '¡Ven aquí!' = 'Venha aqui!' (para uma pessoa com quem você usa 'tú'). Para 'usted': 'venga'."
       },
       {
+        "id": "i2f38",
         "topic": "Imperativo Afirmativo (irregulares)",
         "question": "Selecciona la oración con el Imperativo afirmativo irregular correcto:",
         "options": [
@@ -1197,6 +1296,7 @@
         "explanation": "O imperativo afirmativo irregular de 'poner' para 'tú' é 'pon'. '¡Pon la mesa!' = 'Ponha a mesa!' Os irregulares de 'tú': di, haz, ve, ven, pon, sal, sé, ten. Nunca se usa Subjuntivo ('pongas') no Imperativo afirmativo de 'tú'."
       },
       {
+        "id": "i2f39",
         "topic": "Imperativo Negativo",
         "question": "¿Cómo se forma el Imperativo Negativo para 'tú'?",
         "options": [
@@ -1209,6 +1309,7 @@
         "explanation": "O Imperativo Negativo usa o Presente de Subjuntivo para TODAS as pessoas: 'no + subjuntivo'. Para 'tú': 'no hables' (não a forma afirmativa 'habla'). Isso é diferente do afirmativo, que tem formas especiais para 'tú'."
       },
       {
+        "id": "i2f40",
         "topic": "Imperativo Negativo",
         "question": "¿Cuál es el Imperativo Negativo correcto de 'comer' para 'tú'?",
         "options": [
@@ -1221,6 +1322,7 @@
         "explanation": "Imperativo negativo de 'tú' = no + Subjuntivo. 'Comer' no Subjuntivo para 'tú': 'comas'. Portanto: 'no comas'. Compare: afirmativo = 'come' (forma especial); negativo = 'no comas' (subjuntivo)."
       },
       {
+        "id": "i2f41",
         "topic": "Imperativo Negativo",
         "question": "Transforma al negativo: '¡Habla más alto!'",
         "options": [
@@ -1233,6 +1335,7 @@
         "explanation": "'Habla' é imperativo afirmativo de 'tú'. Para o negativo, usamos o Subjuntivo: 'hables'. '¡No hables más alto!' O subjuntivo de 'hablar' para 'tú' é 'hables'. Note: 'hable' seria para 'usted'."
       },
       {
+        "id": "i2f42",
         "topic": "Imperativo Negativo",
         "question": "¿Cuál es el Imperativo Negativo correcto para 'vosotros' con 'ir'?",
         "options": [
@@ -1245,6 +1348,7 @@
         "explanation": "Imperativo negativo de 'vosotros' = no + Subjuntivo. 'Ir' no Subjuntivo para 'vosotros': 'vayáis'. Portanto: 'no vayáis'. O afirmativo irregular é 'id', mas o negativo usa sempre o Subjuntivo."
       },
       {
+        "id": "i2f43",
         "topic": "Imperativo Negativo",
         "question": "Elige la oración con Imperativo Negativo correcto para 'usted':",
         "options": [
@@ -1257,6 +1361,7 @@
         "explanation": "Imperativo negativo (e afirmativo) de 'usted' usa o Subjuntivo. 'Hacer' no Subjuntivo para 'usted': 'haga'. '¡No haga usted eso!' = 'Não faça isso, senhor/senhora'. 'Hagas' seria para 'tú'."
       },
       {
+        "id": "i2f44",
         "topic": "Imperativo Negativo",
         "question": "¿Cuál es la oración incorrecta?",
         "options": [
@@ -1269,6 +1374,7 @@
         "explanation": "'¡No come tan rápido!' está incorreto. O imperativo negativo de 'tú' usa o Subjuntivo: 'no comas'. 'Come' é a forma do indicativo presente ou do imperativo afirmativo (não do negativo). O correto seria '¡No comas tan rápido!'."
       },
       {
+        "id": "i2f45",
         "topic": "Si + Presente de Indicativo",
         "question": "¿Qué expresa la estructura 'Si + Presente de Indicativo + Presente/Futuro'?",
         "options": [
@@ -1281,6 +1387,7 @@
         "explanation": "A estrutura 'Si + Presente de Indicativo' expressa condições reais ou possíveis (não hipotéticas): 'Si estudias, apruebas' (Se você estudar, você passa). É diferente de 'Si + Imperfecto de Subjuntivo' (condição hipotética/irreal)."
       },
       {
+        "id": "i2f46",
         "topic": "Si + Presente de Indicativo",
         "question": "Elige la oración condicional correcta con 'si + presente':",
         "options": [
@@ -1293,6 +1400,7 @@
         "explanation": "Com 'si' condicional (real/possível), usa-se o Presente de INDICATIVO (não futuro, não subjuntivo): 'Si tienes tiempo, llámame'. Depois de 'si', NUNCA se usa futuro nem subjuntivo (neste tipo de oração)."
       },
       {
+        "id": "i2f47",
         "topic": "Si + Presente de Indicativo",
         "question": "Completa: 'Si _____ (llover) mañana, nos quedamos en casa.'",
         "options": [
@@ -1305,6 +1413,7 @@
         "explanation": "Na oração 'si' real, usa-se o Presente do Indicativo: 'si llueve'. 'Llover' é irregular no presente: llueve (3ª singular). A condição é real/possível: se chover (e é possível que chova), ficamos em casa."
       },
       {
+        "id": "i2f48",
         "topic": "Si + Presente de Indicativo",
         "question": "¿Cuál de las siguientes oraciones usa incorrectamente la estructura 'si + presente'?",
         "options": [
@@ -1317,6 +1426,7 @@
         "explanation": "'Si tendrás más dinero' está incorreto. Nunca se usa o FUTURO depois de 'si' condicional. O correto seria 'Si tienes más dinero, viajarás mucho' (presente de indicativo na cláusula 'si', futuro na conclusão)."
       },
       {
+        "id": "i2f49",
         "topic": "Si + Presente de Indicativo",
         "question": "Selecciona la estructura correcta para una condición habitual/general:",
         "options": [
