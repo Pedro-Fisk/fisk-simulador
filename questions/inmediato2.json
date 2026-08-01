@@ -224,13 +224,13 @@
         "topic": "Indefinidos",
         "question": "¿Cuál es la forma correcta del indefinido 'ninguno' antes de un sustantivo masculino singular?",
         "options": [
-          "ninguNo",
+          "ninguna",
           "ningún",
           "ninguno",
           "ningunos"
         ],
         "correct": 1,
-        "explanation": "'Ninguno' apocopa para 'ningún' antes de substantivo masculino singular: 'ningún problema', 'ningún libro'. Da mesma forma que 'alguno' → 'algún'."
+        "explanation": "'Ninguno' apocopa para 'ningún' antes de substantivo masculino singular: 'ningún problema', 'ningún libro'. Da mesma forma que 'alguno' vira 'algún'. 'Ninguna' é a forma feminina e 'ningunos' quase não se usa. Portanto, a resposta correta é 'NINGÚN'."
       },
       {
         "topic": "Indefinidos",
@@ -769,12 +769,12 @@
         "question": "Completa: 'El próximo año nosotros _____ (vivir) en Madrid.'",
         "options": [
           "viviremos",
-          "viviramos",
+          "viviríamos",
           "vivimos",
-          "viviramos"
+          "vivíamos"
         ],
         "correct": 0,
-        "explanation": "'Vivir' é regular no futuro. Infinitivo + terminação para 'nosotros' (-emos): 'viviremos'. O marcador 'el próximo año' indica futuro, confirmando o uso do Futuro Simple."
+        "explanation": "'Vivir' é regular no futuro: infinitivo mais a terminação de 'nosotros' (-emos), que dá 'viviremos'. O marcador 'el próximo año' indica futuro. As outras são tempos diferentes: 'viviríamos' é condicional, 'vivimos' é presente ou pretérito, e 'vivíamos' é imperfeito. Portanto, a resposta correta é 'VIVIREMOS'."
       },
       {
         "topic": "Futuro Simple",

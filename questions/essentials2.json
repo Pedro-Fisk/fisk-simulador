@@ -1046,11 +1046,11 @@
         "options": [
           "knifes",
           "knives",
-          "knifes",
+          "knive",
           "knife's"
         ],
         "correct": 1,
-        "explanation": "Quando queremos falar de várias facas em inglês, palavras que terminam em -F ou -FE trocam essa terminação por -VES no plural. Neste caso, knife → KNIVES, da mesma forma que leaf → leaves e wife → wives. Portanto, a resposta correta é KNIVES."
+        "explanation": "Quando queremos falar de várias facas em inglês, palavras que terminam em -F ou -FE trocam essa terminação por -VES no plural. Neste caso, knife vira KNIVES, da mesma forma que wife vira wives e life vira lives. Repare que não basta trocar o F pelo V: o S do plural também entra, por isso 'knive' está incompleto. Portanto, a resposta correta é 'KNIVES'."
       },
       {
         "id": "e2f06",
@@ -1280,11 +1280,11 @@
         "options": [
           "All the students's",
           "All the students'",
-          "All the students's",
+          "All the students",
           "All the student's"
         ],
         "correct": 1,
-        "explanation": "Quando queremos mostrar que algo pertence a um grupo cujo nome já termina em S, colocamos apenas o apóstrofo, sem o 's extra. Neste caso, 'students' já termina em S, então escrevemos STUDENTS' books. Portanto, a resposta correta é ALL THE STUDENTS'."
+        "explanation": "Quando queremos mostrar que algo pertence a um grupo cujo nome já termina em S, colocamos apenas o apóstrofo, sem o 's extra. Neste caso, 'students' já termina em S, então fica students'. Sem apóstrofo nenhum a frase perde a ideia de posse, e 'All the student's' falaria de um aluno só. Portanto, a resposta correta é 'ALL THE STUDENTS''."
       },
       {
         "id": "e2f24",
