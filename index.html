@@ -1816,6 +1816,11 @@ function startQuiz() {
       ...q,
       _opts: shuffled.map(o => o.txt),
       _correct: shuffled.findIndex(o => o.orig === q.correct),
+      /* Mapa tela → banco. As alternativas são embaralhadas a cada sessão,
+         então o índice que o aluno clica não quer dizer nada fora desta tela.
+         O servidor corrige contra a ordem ORIGINAL do banco, que é a única
+         estável, e `_origs[escolhido]` é o que traduz uma na outra. */
+      _origs: shuffled.map(o => o.orig),
     };
   });
 
@@ -1979,19 +1984,44 @@ function sendResultToCloud(score) {
   try {
     const info = BOOKS[state.book] || {};
     const examLbl = state.exam === 'midterm' ? 'Midterm' : state.exam === 'final' ? 'Final' : 'Practice';
+    const rotulo = (info.name || state.book || '') + ' · ' + examLbl;
+
+    /* ALUNO IDENTIFICADO (veio do Portal, tem RAF): manda as RESPOSTAS e o
+       servidor corrige contra o banco. O placar da tela já foi calculado e
+       mostrado aqui; ele simplesmente não é mais o que se grava. Antes iam
+       `c` e `q` prontos, e bastava o console para registrar "10 de 10" numa
+       prova nunca aberta — registro que o professor lê como prova de estudo
+       no Dossiê do Aluno. O desempenho por tópico também passou a ser
+       calculado lá: ele sai do mesmo banco, e não de uma conta do cliente. */
+    if (PORTAL_RAF) {
+      const respostas = {};
+      state.questions.forEach(function (q, i) {
+        const escolhido = state.answers[i];
+        if (q.id == null || escolhido == null) return;
+        respostas[q.id] = q._origs ? q._origs[escolhido] : escolhido;
+      });
+      fetch(CLOUD.endpoint, {
+        method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+        body: JSON.stringify({ action: 'alunoAtividade', key: CLOUD.appKey, raf: PORTAL_RAF,
+                               activityId: CLOUD.tool + ':' + rotulo, respostas: respostas,
+                               test: state.exam || 'custom', book: info.name || '' })
+      }).then(function (r) { return r.json(); }).then(function (res) {
+        if (res && res.fd && res.fd.credito > 0) fdToast(res.fd.credito);
+      }).catch(function () {});
+      return;
+    }
+
+    /* SEM RAF: uso solto do simulador, só com o nome digitado. Não credita
+       nada e o dossiê nem enxerga (ele casa por RAF), então a linha antiga
+       continua servindo como histórico. */
     const entry = {
       t: Date.now(), n: state.studentName || '',
-      s: (info.name || state.book || '') + ' · ' + examLbl,
-      c: score, q: state.questions.length,
+      s: rotulo, c: score, q: state.questions.length,
       test: state.exam || 'custom', book: info.name || ''
     };
-    if (PORTAL_RAF) entry.raf = PORTAL_RAF;
     fetch(CLOUD.endpoint, {
       method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' },
       body: JSON.stringify({ key: CLOUD.appKey, tool: CLOUD.tool, data: entry })
-    }).then(function (r) { return r.json(); }).then(function (res) {
-      // Fisk Dólares: o backend credita e devolve o ganho em res.fd
-      if (res && res.fd && res.fd.credito > 0) fdToast(res.fd.credito);
     }).catch(function () {});
   } catch (e) {}
 }
