@@ -1276,7 +1276,7 @@
         "options": [
           "'para que' debería ser 'para', porque el sujeto es el mismo.",
           "'aprobar' debería ser 'apruebe'.",
-          "Ambas opciones A y B son correctas.",
+          "Las dos correcciones son necesarias: 'para' y 'apruebe'.",
           "'Estudio' debería ser 'Estudiaré'."
         ],
         "correct": 0,

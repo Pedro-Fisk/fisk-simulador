@@ -1397,7 +1397,7 @@
         "options": [
           "who",
           "that",
-          "which / that",
+          "who / that",
           "All of the above"
         ],
         "correct": 3,
@@ -1531,7 +1531,7 @@
           "She goes to the gym always."
         ],
         "correct": 1,
-        "explanation": "Advérbios de frequência como 'always', 'usually' e 'often' ficam antes do verbo principal em inglês. Neste caso, 'always' deve ficar antes de 'goes': 'She ALWAYS GOES to the gym' é a forma correta. Portanto, a resposta correta é a segunda opção."
+        "explanation": "Advérbios de frequência como 'always', 'usually' e 'often' ficam antes do verbo principal em inglês. Neste caso, 'always' deve ficar antes de 'goes': 'She ALWAYS GOES to the gym' é a forma correta. Portanto, a resposta correta é 'She ALWAYS GOES to the gym'."
       },
       {
         "id": "f2f53",
@@ -1544,7 +1544,7 @@
           "Very she dances beautifully."
         ],
         "correct": 2,
-        "explanation": "Quando usamos dois advérbios juntos, o advérbio de intensidade (very, quite, rather) vem antes do advérbio de modo. Neste caso, 'very' intensifica 'beautifully', então a ordem correta é: 'She dances VERY BEAUTIFULLY'. Portanto, a resposta correta é a terceira opção."
+        "explanation": "Quando usamos dois advérbios juntos, o advérbio de intensidade (very, quite, rather) vem antes do advérbio de modo. Neste caso, 'very' intensifica 'beautifully', então a ordem correta é: 'She dances VERY BEAUTIFULLY'. Portanto, a resposta correta é 'She dances VERY BEAUTIFULLY'."
       },
       {
         "id": "f2f54",

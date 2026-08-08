@@ -495,7 +495,23 @@
     .r-qnum { font-size: .68rem; font-weight: 800; text-transform: uppercase; letter-spacing: .07em; color: var(--gray); margin-bottom: .2rem; }
     .r-qtxt { font-size: .95rem; font-weight: 700; line-height: 1.4; font-family: var(--font-h); }
 
-    .r-opts { display: flex; flex-direction: column; gap: .3rem; }
+    /* MESMA geometria da prova (.opts-grid): duas colunas no desktop, uma no
+       celular. Antes a revisão era sempre uma coluna só, e no computador a
+       alternativa marcada aparecia em OUTRO lugar da tela depois de submeter
+       — aluno lendo por posição concluía que a plataforma tinha trocado a
+       resposta dele. A letra sempre esteve certa; o que enganava era o mapa. */
+    .r-opts { display: grid; grid-template-columns: 1fr 1fr; gap: .3rem; }
+
+    /* O que o aluno marcou, escrito por extenso. Nas questões em que as quatro
+       alternativas são as mesmas palavras em ordens diferentes (adjective
+       order, "a colleague of mine"...), a cor sozinha não convence. */
+    .r-picked {
+      font-size: .82rem; font-weight: 700; color: var(--gray);
+      margin-bottom: .45rem;
+    }
+    /* var(--black), não #161414: no tema escuro esse token vira quase branco;
+       fixo, a linha sumiria dentro do card. */
+    .r-picked b { color: var(--black); font-weight: 800; }
 
     .r-opt {
       display: flex; align-items: center; gap: .5rem;
@@ -691,6 +707,7 @@
     @media (max-width: 560px) {
       .exam-grid  { grid-template-columns: 1fr; }
       .opts-grid  { grid-template-columns: 1fr; }
+      .r-opts     { grid-template-columns: 1fr; }
       .books-grid { grid-template-columns: 1fr; }
       .hero { padding: 2.25rem 1.25rem 2rem; }
       #translator-panel { right: .5rem; width: calc(100vw - 1rem); }
@@ -1396,6 +1413,11 @@ function shuffle(arr) {
 
 const LETTERS = ['A','B','C','D'];
 
+/* Alternativas cujo texto pressupõe estar em último lugar. Ver o uso em
+   startQuiz. Deliberadamente estreito: só casa a fórmula fechada, para não
+   prender por engano uma alternativa comum que comece com "todas". */
+const PRESA_NO_FIM = /^(all|none|any) of the (above|others)\b|^(todas|ninguna) (las anteriores|de las anteriores)\b|^todas as (alternativas )?(acima|anteriores)\b/i;
+
 /* ── Navigation ── */
 /* ── UI string tables (EN / ES) ── */
 const UI_STRINGS = {
@@ -1422,6 +1444,7 @@ const UI_STRINGS = {
     clearConfirm:'Clear all answers and restart?',
     loadErr:     'Could not load questions. Please check your connection.',
     answerRev:   'Answer Review',
+    pickedLbl:   'You chose:',
     retakeBtn:   'Retake Quiz',
     chooseBook:  'Choose another book',
     weakBtn:     n => `Practice Weak Points (${n} topic${n!==1?'s':''})`,
@@ -1463,6 +1486,7 @@ const UI_STRINGS = {
     clearConfirm:'¿Limpiar todas las respuestas y volver a empezar?',
     loadErr:     'No se pudieron cargar las preguntas. Verifica tu conexión.',
     answerRev:   'Revisión de Respuestas',
+    pickedLbl:   'Marcaste:',
     retakeBtn:   'Repetir Examen',
     chooseBook:  'Elegir otro libro',
     weakBtn:     n => `Repasar puntos débiles (${n} tema${n!==1?'s':''})`,
@@ -1811,7 +1835,15 @@ function startQuiz() {
 
   state.questions = pool.map(q => {
     const indexed = q.options.map((txt, i) => ({ txt, orig: i }));
-    const shuffled = shuffle(indexed);
+    /* "All of the above" só é verdade se ela estiver EMBAIXO. Embaralhada,
+       caía como A ou B e a frase virava mentira: o aluno lia "todas as
+       acima" com duas alternativas ainda por vir, marcava outra coisa e era
+       corrigido como errado — sem ter como saber por quê. Essas alternativas
+       ficam presas no fim; todo o resto continua embaralhado normalmente.
+       (Alternativa que cita a LETRA de outra — "las opciones A y C" — não tem
+       conserto por aqui: essas foram reescritas no banco.) */
+    const presa = o => PRESA_NO_FIM.test(String(o.txt).trim());
+    const shuffled = shuffle(indexed.filter(o => !presa(o))).concat(indexed.filter(presa));
     return {
       ...q,
       _opts: shuffled.map(o => o.txt),
@@ -2199,6 +2231,12 @@ function renderResults(score) {
       ? `<div class="hint-box">💡 ${q.explanation}</div>`
       : '';
 
+    /* Dito por extenso, e não só pela cor: em questão de ordem de palavras as
+       quatro alternativas são as mesmas palavras trocadas de lugar, e ler a
+       linha pintada não basta para o aluno reconhecer a escolha dele. */
+    const picked = chosen === undefined ? ''
+      : `<div class="r-picked">${S.pickedLbl} <b>${LETTERS[chosen]} · ${q._opts[chosen]}</b></div>`;
+
     return `
       <div class="r-card ${cardCls}">
         <div class="r-head">
@@ -2208,6 +2246,7 @@ function renderResults(score) {
             <div class="r-qtxt">${q.question}</div>
           </div>
         </div>
+        ${picked}
         <div class="r-opts">${opts}</div>
         ${hint}
       </div>`;
