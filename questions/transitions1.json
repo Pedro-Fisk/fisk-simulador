@@ -194,7 +194,7 @@
         "question": "My mother isn't feeling well. She _____ see a doctor.",
         "options": [
           "had better not",
-          "should",
+          "had better to",
           "shouldn't",
           "had better"
         ],
@@ -993,7 +993,7 @@
         "question": "I _____ speak English now, but I couldn't five years ago.",
         "options": [
           "could",
-          "can / am able to",
+          "can able to",
           "will able to",
           "am able to"
         ],
@@ -1172,15 +1172,15 @@
       {
         "id": "t1f20",
         "topic": "Should – Advice",
-        "question": "I'm so hot. You _____ take off your coat!",
+        "question": "You look so hot. You _____ take off your coat!",
         "options": [
           "shouldn't",
           "had better not",
           "should",
-          "had better"
+          "should to"
         ],
         "correct": 2,
-        "explanation": "Quando queremos dar uma sugestão ou conselho simples e tranquilo, usamos SHOULD. Neste caso, a pessoa está com calor e a sugestão é que ela tire o casaco. É um conselho simples, sem urgência nem consequência grave. Portanto, a resposta correta é 'SHOULD'."
+        "explanation": "Quando queremos dar uma sugestão ou conselho simples e tranquilo, usamos SHOULD. Neste caso, a outra pessoa está com calor e a sugestão é que ela tire o casaco. É um conselho simples, sem urgência nem consequência grave. Portanto, a resposta correta é 'SHOULD'."
       },
       {
         "id": "t1f21",
@@ -1916,7 +1916,7 @@
         "question": "I have a headache. _____ I take some aspirin?",
         "options": [
           "Had I better",
-          "Shall",
+          "Would I better",
           "Should",
           "Am I better to"
         ],

@@ -258,7 +258,7 @@
         "topic": "Ever + Other Tenses",
         "question": "Do you _____ get tired of talking about that?",
         "options": [
-          "sometimes",
+          "since",
           "ever",
           "already",
           "yet"
@@ -716,7 +716,7 @@
           "already",
           "yet",
           "ever",
-          "still"
+          "since"
         ],
         "correct": 2,
         "explanation": "'Ever' pode aparecer com o presente simples em perguntas para indagar se algo acontece às vezes, em algum momento. 'Already' e 'yet' são usados principalmente com o presente perfeito. Portanto, a resposta correta é EVER."
@@ -1748,7 +1748,7 @@
         "options": [
           "recently",
           "yet",
-          "already",
+          "ever",
           "since"
         ],
         "correct": 0,

@@ -1706,7 +1706,7 @@
           "cuando",
           "hasta que",
           "antes de que",
-          "después de que"
+          "mientras que"
         ],
         "correct": 0,
         "explanation": "'Cuando + Presente do Subjuntivo' para ações futuras: 'cuando llegues' = quando você chegar. Com referência futura, 'cuando' nunca usa o Futuro do Indicativo."
@@ -1729,7 +1729,7 @@
         "topic": "Oraciones Temporales",
         "question": "'___ termines de comer, lava los platos.' ¿Cuál es la conjunción temporal correcta?",
         "options": [
-          "Cuando",
+          "Porque",
           "Después de que",
           "Hasta que",
           "Mientras"

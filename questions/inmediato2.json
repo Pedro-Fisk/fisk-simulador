@@ -189,7 +189,7 @@
       {
         "id": "i2m15",
         "topic": "Verbos de Valoración",
-        "question": "Selecciona la traducción correcta de 'Nos aburre la tarea':",
+        "question": "Selecciona la traducción LITERAL (misma estructura) de 'Nos aburre la tarea':",
         "options": [
           "Nós entediamos a tarefa.",
           "A lição de casa nos entedia.",
@@ -517,12 +517,12 @@
         "question": "¿Cómo se dice 'Me duele la cabeza' en portugués?",
         "options": [
           "Eu doo a cabeça.",
-          "Minha cabeça me dói.",
+          "Minha cabeça dói / Estou com dor de cabeça.",
           "Eu tenho cabeça.",
           "Minhas cabeças doem."
         ],
         "correct": 1,
-        "explanation": "'Me duele la cabeza' = 'Minha cabeça me dói' (ou 'Estou com dor de cabeça'). 'Doler' funciona como 'gustar': o sujeito é a parte do corpo, o CI indica quem sente a dor."
+        "explanation": "'Me duele la cabeza' = 'Minha cabeça dói' / 'Estou com dor de cabeça'. 'Doler' funciona como 'gustar': o sujeito é a parte do corpo, o CI indica quem sente a dor."
       },
       {
         "id": "i2m41",

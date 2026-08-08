@@ -39,11 +39,11 @@
         "options": [
           "used to go",
           "was going",
-          "would go",
+          "use to go",
           "had been going"
         ],
         "correct": 0,
-        "explanation": "Quando queremos falar de hábitos que tínhamos no passado mas não temos mais, a forma preferida é 'used to + verbo'. Embora 'would go' também seja possível para hábitos, 'used to' é a escolha mais natural e abrangente. Funciona tanto para ações repetidas quanto para estados passados. Neste caso, ir de bicicleta para a escola todo dia era um hábito de infância que não continuamos na vida adulta. Portanto, a resposta correta é USED TO GO."
+        "explanation": "Quando queremos falar de hábitos que tínhamos no passado mas não temos mais, a forma preferida é 'used to + verbo'. Embora 'would + verbo' também seja possível para hábitos, 'used to' é a escolha mais natural e abrangente. Funciona tanto para ações repetidas quanto para estados passados. Neste caso, ir de bicicleta para a escola todo dia era um hábito de infância que não continuamos na vida adulta. Portanto, a resposta correta é USED TO GO."
       },
       {
         "id": "ifm04",
@@ -207,7 +207,7 @@
         "question": "You can borrow my car _____ you drive carefully.",
         "options": [
           "unless",
-          "provided that",
+          "in case",
           "as long as",
           "even if"
         ],
@@ -312,11 +312,11 @@
         "options": [
           "were going",
           "went",
-          "would go",
+          "have gone",
           "had been going"
         ],
         "correct": 1,
-        "explanation": "Para descrever ações que aconteciam com regularidade no passado em frases narrativas, usamos o Simple Past. 'Went' é a forma mais natural e neutra neste contexto. 'Would go' é possível mas tem um tom mais literário e menos comum na fala cotidiana. 'Were going' indica uma ação em andamento num momento específico, não um hábito. Portanto, a resposta correta é WENT."
+        "explanation": "Para descrever ações que aconteciam com regularidade no passado em frases narrativas, usamos o Simple Past. 'Went' é a forma mais natural e neutra neste contexto. 'Would + verbo' é possível mas tem um tom mais literário e menos comum na fala cotidiana. 'Were going' indica uma ação em andamento num momento específico, não um hábito. Portanto, a resposta correta é WENT."
       },
       {
         "id": "ifm25",
@@ -611,7 +611,7 @@
         "options": [
           "unless",
           "as long as",
-          "provided that",
+          "in case",
           "even though"
         ],
         "correct": 1,
@@ -715,7 +715,7 @@
         "options": [
           "during",
           "while",
-          "when",
+          "meanwhile",
           "as soon as"
         ],
         "correct": 1,
@@ -1458,7 +1458,7 @@
       {
         "id": "iff42",
         "topic": "Relative Pronouns – Advanced",
-        "question": "This is the professor _____ I was telling you about.",
+        "question": "This is the professor _____ I was telling you about. (formal English)",
         "options": [
           "who",
           "whom",
@@ -1747,7 +1747,7 @@
         "question": "'She can't drive.', '_____ can I.'",
         "options": [
           "Neither",
-          "Nor",
+          "Also",
           "So",
           "Either"
         ],

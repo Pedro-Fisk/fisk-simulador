@@ -63,7 +63,7 @@
         "topic": "Reported Questions – Yes/No",
         "question": "She asked, 'Do you live alone?' → She asked _____ I lived alone.",
         "options": [
-          "if",
+          "what",
           "that",
           "whether",
           "when"
@@ -117,7 +117,7 @@
         "options": [
           "So",
           "Neither",
-          "Nor",
+          "Not",
           "Either"
         ],
         "correct": 1,
@@ -377,7 +377,7 @@
         "options": [
           "So",
           "Neither",
-          "Nor",
+          "Also",
           "Not either"
         ],
         "correct": 1,
@@ -403,7 +403,7 @@
         "options": [
           "So",
           "Neither",
-          "Nor",
+          "Too",
           "So either"
         ],
         "correct": 1,
@@ -545,7 +545,7 @@
         "question": "The teacher asked, 'Are you paying attention?' → The teacher asked _____ I was paying attention.",
         "options": [
           "that",
-          "if",
+          "what",
           "whether",
           "when"
         ],
@@ -990,15 +990,15 @@
       {
         "id": "f2f11",
         "topic": "Order of Adverbs",
-        "question": "We hardly ever see them these days.",
+        "question": "Choose the sentence with the adverb of frequency in the correct position:",
         "options": [
-          "The sentence is correct.",
-          "These days we hardly ever see them.",
+          "We hardly ever see them these days.",
           "We ever hardly see them these days.",
-          "We see them hardly ever these days."
+          "We hardly see ever them these days.",
+          "Hardly we ever see them these days."
         ],
         "correct": 0,
-        "explanation": "Quando queremos dizer com que frequência algo acontece, palavras como 'hardly ever', 'never', 'always' e 'often' ficam antes do verbo principal. Neste caso, 'hardly ever' está exatamente no lugar certo (antes de 'see') e a frase está completamente correta como está. Portanto, a resposta correta é THE SENTENCE IS CORRECT."
+        "explanation": "'Hardly ever' (quase nunca) é advérbio de frequência e fica antes do verbo principal: 'We HARDLY EVER see them these days'. As duas palavras andam sempre juntas e nessa ordem ('ever hardly' não existe), não se separam do verbo e não abrem a frase. Portanto, a resposta correta é 'We HARDLY EVER see them these days'."
       },
       {
         "id": "f2f12",

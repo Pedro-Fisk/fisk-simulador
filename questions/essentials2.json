@@ -245,7 +245,7 @@
         "topic": "When / While",
         "question": "I saw him _____ I was on my way home.",
         "options": [
-          "when",
+          "meanwhile",
           "while",
           "during",
           "as soon as"
@@ -791,7 +791,7 @@
         "topic": "Numbers",
         "question": "How do you say '325'?",
         "options": [
-          "three hundred twenty-five",
+          "three hundred and twenty-fifth",
           "three hundred and twenty-five",
           "three twenty-five",
           "three hundreds twenty-five"
@@ -1497,7 +1497,7 @@
       {
         "id": "e2f40",
         "topic": "Can / Could / May – Permission",
-        "question": "A student wants to speak to the teacher after class. Which options are polite?",
+        "question": "A student wants to speak to the teacher after class. Which option is the MOST formal?",
         "options": [
           "Can I talk to you?",
           "Could I talk to you?",
@@ -1707,7 +1707,7 @@
         "topic": "Can / Could – Request",
         "question": "_____ you pass me the salt, please?",
         "options": [
-          "Will",
+          "Do",
           "Should",
           "May",
           "Can"
