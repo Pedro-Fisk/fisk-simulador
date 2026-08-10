@@ -1703,5 +1703,1038 @@
         "explanation": "Na terceira condicional, o resultado imaginado usa 'would/could have' + particípio. Neste caso, ela mudou de curso e não virou médica, mas estamos pensando no que poderia ter acontecido se não tivesse mudado. Portanto, a resposta correta é 'WOULD HAVE BECOME'."
       }
     ]
+  },
+  "phrasal": {
+    "label": "Phrasal Verbs",
+    "topics": "Lessons 1–10: Relationships, Food, Traveling, Sports, Fashion, Technology, Health, Time, Consumerism, Games",
+    "questions": [
+      {
+        "id": "f1pv01",
+        "topic": "Phrasal Verbs – Relationships",
+        "question": "Mark finally got the courage to _____ Sofia _____ for dinner on Friday.",
+        "options": [
+          "ask / out",
+          "put / up with",
+          "look / up to",
+          "drift / apart"
+        ],
+        "correct": 0,
+        "explanation": "ASK SOMEONE OUT é convidar alguém para um encontro romântico. Portanto, a resposta correta é ASK / OUT."
+      },
+      {
+        "id": "f1pv02",
+        "topic": "Phrasal Verbs – Relationships",
+        "question": "After college we slowly _____ and stopped talking altogether.",
+        "options": [
+          "drifted apart",
+          "hit it off",
+          "got back together",
+          "asked out"
+        ],
+        "correct": 0,
+        "explanation": "DRIFT APART é ir se afastando aos poucos, sem briga, até a amizade acabar. Portanto, a resposta correta é DRIFTED APART."
+      },
+      {
+        "id": "f1pv03",
+        "topic": "Phrasal Verbs – Relationships",
+        "question": "I can _____ almost anything, but not people who lie to me.",
+        "options": [
+          "put up with",
+          "look up to",
+          "break up with",
+          "have a thing for"
+        ],
+        "correct": 0,
+        "explanation": "PUT UP WITH é tolerar, aguentar alguma coisa que incomoda. Portanto, a resposta correta é PUT UP WITH."
+      },
+      {
+        "id": "f1pv04",
+        "topic": "Phrasal Verbs – Relationships",
+        "question": "They _____ after seven years together, and nobody saw it coming.",
+        "options": [
+          "broke up",
+          "hit it off",
+          "looked up to",
+          "asked out"
+        ],
+        "correct": 0,
+        "explanation": "BREAK UP (WITH) é terminar um relacionamento. Portanto, a resposta correta é BROKE UP."
+      },
+      {
+        "id": "f1pv05",
+        "topic": "Phrasal Verbs – Relationships",
+        "question": "I've always _____ my older sister — she is the most generous person I know.",
+        "options": [
+          "looked up to",
+          "put up with",
+          "drifted apart from",
+          "gone out with"
+        ],
+        "correct": 0,
+        "explanation": "LOOK UP TO é admirar alguém, ter a pessoa como exemplo. Portanto, a resposta correta é LOOKED UP TO."
+      },
+      {
+        "id": "f1pv06",
+        "topic": "Phrasal Verbs – Relationships",
+        "question": "They broke up in March, but by December they had _____.",
+        "options": [
+          "got back together",
+          "drifted apart",
+          "broken up",
+          "put up with it"
+        ],
+        "correct": 0,
+        "explanation": "GET BACK TOGETHER é voltar a namorar depois de um término. Portanto, a resposta correta é GOT BACK TOGETHER."
+      },
+      {
+        "id": "f1pv07",
+        "topic": "Phrasal Verbs – Relationships",
+        "question": "We _____ the moment we started talking about music.",
+        "options": [
+          "hit it off",
+          "broke up",
+          "drifted apart",
+          "put up with"
+        ],
+        "correct": 0,
+        "explanation": "HIT IT OFF é se dar bem com alguém logo de cara. Portanto, a resposta correta é HIT IT OFF."
+      },
+      {
+        "id": "f1pv08",
+        "topic": "Phrasal Verbs – Relationships",
+        "question": "Everyone can tell that Bruno _____ the new intern — he blushes every time she walks in.",
+        "options": [
+          "has a thing for",
+          "puts up with",
+          "drifts apart from",
+          "breaks up with"
+        ],
+        "correct": 0,
+        "explanation": "HAVE A THING FOR SOMEONE é estar a fim, ter uma queda por alguém. Portanto, a resposta correta é HAS A THING FOR."
+      },
+      {
+        "id": "f1pv09",
+        "topic": "Phrasal Verbs – Food",
+        "question": "He _____ his lunch in four minutes and ran back to the office.",
+        "options": [
+          "bolted down",
+          "picked at",
+          "cut down on",
+          "ate out"
+        ],
+        "correct": 0,
+        "explanation": "BOLT DOWN é comer muito rápido, quase sem mastigar. Portanto, a resposta correta é BOLTED DOWN."
+      },
+      {
+        "id": "f1pv10",
+        "topic": "Phrasal Verbs – Food",
+        "question": "_____ your vegetables — there is dessert waiting for you.",
+        "options": [
+          "Eat up",
+          "Pick at",
+          "Eat out",
+          "Cut down on"
+        ],
+        "correct": 0,
+        "explanation": "EAT UP é comer tudo, não deixar nada no prato. Portanto, a resposta correta é EAT UP."
+      },
+      {
+        "id": "f1pv11",
+        "topic": "Phrasal Verbs – Food",
+        "question": "We hardly ever cook on Fridays; we prefer to _____.",
+        "options": [
+          "eat out",
+          "eat up",
+          "pick at",
+          "pig out"
+        ],
+        "correct": 0,
+        "explanation": "EAT OUT é comer fora de casa, num restaurante. Portanto, a resposta correta é EAT OUT."
+      },
+      {
+        "id": "f1pv12",
+        "topic": "Phrasal Verbs – Food",
+        "question": "The doctor told her to _____ salt and fried food.",
+        "options": [
+          "cut down on",
+          "pig out on",
+          "eat up",
+          "bolt down"
+        ],
+        "correct": 0,
+        "explanation": "CUT DOWN ON é reduzir o consumo de alguma coisa. Portanto, a resposta correta é CUT DOWN ON."
+      },
+      {
+        "id": "f1pv13",
+        "topic": "Phrasal Verbs – Food",
+        "question": "She was so nervous that she just _____ her food without really eating.",
+        "options": [
+          "picked at",
+          "bolted down",
+          "ate up",
+          "pigged out on"
+        ],
+        "correct": 0,
+        "explanation": "PICK AT é beliscar a comida, comer sem vontade. Portanto, a resposta correta é PICKED AT."
+      },
+      {
+        "id": "f1pv14",
+        "topic": "Phrasal Verbs – Food",
+        "question": "Every Sunday we _____ pizza and ice cream until we can't move.",
+        "options": [
+          "pig out on",
+          "cut down on",
+          "pick at",
+          "bolt down"
+        ],
+        "correct": 0,
+        "explanation": "PIG OUT ON é comer muito, exagerar na quantidade. Portanto, a resposta correta é PIG OUT ON."
+      },
+      {
+        "id": "f1pv15",
+        "topic": "Phrasal Verbs – Food",
+        "question": "The kids _____ when they saw the puppy in the living room.",
+        "options": [
+          "went bananas",
+          "spilled the beans",
+          "ate out",
+          "picked at it"
+        ],
+        "correct": 0,
+        "explanation": "GO BANANAS é enlouquecer, ficar eufórico. Portanto, a resposta correta é WENT BANANAS."
+      },
+      {
+        "id": "f1pv16",
+        "topic": "Phrasal Verbs – Food",
+        "question": "It was supposed to be a surprise party, but Léo _____.",
+        "options": [
+          "spilled the beans",
+          "went bananas",
+          "pigged out",
+          "ate up"
+        ],
+        "correct": 0,
+        "explanation": "SPILL THE BEANS é contar um segredo, entregar a surpresa. Portanto, a resposta correta é SPILLED THE BEANS."
+      },
+      {
+        "id": "f1pv17",
+        "topic": "Phrasal Verbs – Traveling",
+        "question": "Can you _____ me _____ at the airport at 6 a.m.?",
+        "options": [
+          "pick / up",
+          "drop / off",
+          "see / off",
+          "stop / by"
+        ],
+        "correct": 0,
+        "explanation": "PICK SOMEONE UP é buscar alguém de carro. Portanto, a resposta correta é PICK / UP."
+      },
+      {
+        "id": "f1pv18",
+        "topic": "Phrasal Verbs – Traveling",
+        "question": "If you have time, _____ the office and say hello.",
+        "options": [
+          "stop by",
+          "take off",
+          "come back",
+          "hit the road"
+        ],
+        "correct": 0,
+        "explanation": "STOP BY é dar uma passadinha rápida em algum lugar. Portanto, a resposta correta é STOP BY."
+      },
+      {
+        "id": "f1pv19",
+        "topic": "Phrasal Verbs – Traveling",
+        "question": "I'll _____ you _____ at the hotel and then park the car.",
+        "options": [
+          "drop / off",
+          "pick / up",
+          "see / off",
+          "come / back"
+        ],
+        "correct": 0,
+        "explanation": "DROP SOMEONE OFF é deixar alguém em um lugar. Portanto, a resposta correta é DROP / OFF."
+      },
+      {
+        "id": "f1pv20",
+        "topic": "Phrasal Verbs – Traveling",
+        "question": "The plane finally _____ from runway 3, two hours behind schedule.",
+        "options": [
+          "took off",
+          "came back",
+          "stopped by",
+          "picked up"
+        ],
+        "correct": 0,
+        "explanation": "TAKE OFF é decolar, sair do chão. Portanto, a resposta correta é TOOK OFF."
+      },
+      {
+        "id": "f1pv21",
+        "topic": "Phrasal Verbs – Traveling",
+        "question": "The whole family went to the station to _____ her _____.",
+        "options": [
+          "see / off",
+          "pick / up",
+          "drop / off",
+          "stop / by"
+        ],
+        "correct": 0,
+        "explanation": "SEE SOMEONE OFF é ir se despedir de quem está viajando. Portanto, a resposta correta é SEE / OFF."
+      },
+      {
+        "id": "f1pv22",
+        "topic": "Phrasal Verbs – Traveling",
+        "question": "She studied in Lisbon for a year and _____ home in July.",
+        "options": [
+          "came back",
+          "took off",
+          "stopped by",
+          "saw off"
+        ],
+        "correct": 0,
+        "explanation": "COME BACK é voltar, retornar de onde se foi. Portanto, a resposta correta é CAME BACK."
+      },
+      {
+        "id": "f1pv23",
+        "topic": "Phrasal Verbs – Traveling",
+        "question": "Our plans for the holiday are still _____ — nothing is booked yet.",
+        "options": [
+          "up in the air",
+          "on the road",
+          "taken off",
+          "dropped off"
+        ],
+        "correct": 0,
+        "explanation": "BE UP IN THE AIR é estar indefinido, sem decisão tomada. Portanto, a resposta correta é UP IN THE AIR."
+      },
+      {
+        "id": "f1pv24",
+        "topic": "Phrasal Verbs – Traveling",
+        "question": "We packed the car at dawn and _____ before sunrise.",
+        "options": [
+          "hit the road",
+          "came back",
+          "stopped by",
+          "saw off"
+        ],
+        "correct": 0,
+        "explanation": "HIT THE ROAD é pegar a estrada, começar a viagem. Portanto, a resposta correta é HIT THE ROAD."
+      },
+      {
+        "id": "f1pv25",
+        "topic": "Phrasal Verbs – Sports",
+        "question": "I run every morning to _____ the stress of the week.",
+        "options": [
+          "work off",
+          "give up",
+          "cool down",
+          "knock out"
+        ],
+        "correct": 0,
+        "explanation": "WORK OFF é queimar ou eliminar algo por meio de atividade física. Portanto, a resposta correta é WORK OFF."
+      },
+      {
+        "id": "f1pv26",
+        "topic": "Phrasal Verbs – Sports",
+        "question": "She is going to _____ the volleyball team next Monday — she has been practicing all summer.",
+        "options": [
+          "try out for",
+          "give up",
+          "kick off",
+          "cool down"
+        ],
+        "correct": 0,
+        "explanation": "TRY OUT FOR é fazer teste para entrar em um time. Portanto, a resposta correta é TRY OUT FOR."
+      },
+      {
+        "id": "f1pv27",
+        "topic": "Phrasal Verbs – Sports",
+        "question": "Don't _____ now — you have trained for this all year.",
+        "options": [
+          "give up",
+          "kick off",
+          "cool down",
+          "try out"
+        ],
+        "correct": 0,
+        "explanation": "GIVE UP é desistir, parar de tentar. Portanto, a resposta correta é GIVE UP."
+      },
+      {
+        "id": "f1pv28",
+        "topic": "Phrasal Verbs – Sports",
+        "question": "The match _____ at 4 p.m. sharp.",
+        "options": [
+          "kicks off",
+          "works off",
+          "cools down",
+          "gives up"
+        ],
+        "correct": 0,
+        "explanation": "KICK OFF é dar o pontapé inicial, começar a partida. Portanto, a resposta correta é KICKS OFF."
+      },
+      {
+        "id": "f1pv29",
+        "topic": "Phrasal Verbs – Sports",
+        "question": "Our team was _____ in the quarterfinals.",
+        "options": [
+          "knocked out",
+          "kicked off",
+          "cooled down",
+          "worked off"
+        ],
+        "correct": 0,
+        "explanation": "KNOCK OUT é eliminar alguém da competição. Portanto, a resposta correta é KNOCKED OUT."
+      },
+      {
+        "id": "f1pv30",
+        "topic": "Phrasal Verbs – Sports",
+        "question": "After the sprint, walk slowly for five minutes to _____.",
+        "options": [
+          "cool down",
+          "kick off",
+          "give up",
+          "try out"
+        ],
+        "correct": 0,
+        "explanation": "COOL DOWN é desacelerar, relaxar depois do esforço. Portanto, a resposta correta é COOL DOWN."
+      },
+      {
+        "id": "f1pv31",
+        "topic": "Phrasal Verbs – Sports",
+        "question": "He _____ when he forgot to send the report to the client.",
+        "options": [
+          "dropped the ball",
+          "gave his best shot",
+          "kicked off",
+          "cooled down"
+        ],
+        "correct": 0,
+        "explanation": "DROP THE BALL é vacilar, decepcionar quem contava com você. Portanto, a resposta correta é DROPPED THE BALL."
+      },
+      {
+        "id": "f1pv32",
+        "topic": "Phrasal Verbs – Sports",
+        "question": "We lost, but everyone _____.",
+        "options": [
+          "gave their best shot",
+          "dropped the ball",
+          "gave up",
+          "cooled down"
+        ],
+        "correct": 0,
+        "explanation": "GIVE YOUR BEST SHOT é dar o melhor de si, se esforçar de verdade. Portanto, a resposta correta é GAVE THEIR BEST SHOT."
+      },
+      {
+        "id": "f1pv33",
+        "topic": "Phrasal Verbs – Fashion",
+        "question": "It's a formal dinner, so we all have to _____.",
+        "options": [
+          "dress up",
+          "try on",
+          "give away",
+          "throw away"
+        ],
+        "correct": 0,
+        "explanation": "DRESS UP é se arrumar, colocar uma roupa mais formal. Portanto, a resposta correta é DRESS UP."
+      },
+      {
+        "id": "f1pv34",
+        "topic": "Phrasal Verbs – Fashion",
+        "question": "He cut his hair and bought new glasses — he really _____.",
+        "options": [
+          "smartened up",
+          "stood out",
+          "gave away",
+          "went out of fashion"
+        ],
+        "correct": 0,
+        "explanation": "SMARTEN UP é dar um trato no visual, ficar mais apresentável. Portanto, a resposta correta é SMARTENED UP."
+      },
+      {
+        "id": "f1pv35",
+        "topic": "Phrasal Verbs – Fashion",
+        "question": "Can I _____ these jeans _____ before buying them?",
+        "options": [
+          "try / on",
+          "give / away",
+          "throw / away",
+          "dress / up"
+        ],
+        "correct": 0,
+        "explanation": "TRY ON é experimentar uma roupa para ver se serve. Portanto, a resposta correta é TRY / ON."
+      },
+      {
+        "id": "f1pv36",
+        "topic": "Phrasal Verbs – Fashion",
+        "question": "I _____ three bags of clothes to a charity shop.",
+        "options": [
+          "gave away",
+          "threw away",
+          "tried on",
+          "dressed up"
+        ],
+        "correct": 0,
+        "explanation": "GIVE AWAY é doar, dar de graça. Portanto, a resposta correta é GAVE AWAY."
+      },
+      {
+        "id": "f1pv37",
+        "topic": "Phrasal Verbs – Fashion",
+        "question": "Those shoes are beyond repair; just _____ them _____.",
+        "options": [
+          "throw / away",
+          "give / away",
+          "try / on",
+          "dress / up"
+        ],
+        "correct": 0,
+        "explanation": "THROW AWAY é jogar fora, se desfazer de algo inútil. Portanto, a resposta correta é THROW / AWAY."
+      },
+      {
+        "id": "f1pv38",
+        "topic": "Phrasal Verbs – Fashion",
+        "question": "Her bright red coat made her _____ in the crowd.",
+        "options": [
+          "stand out",
+          "dress up",
+          "try on",
+          "give away"
+        ],
+        "correct": 0,
+        "explanation": "STAND OUT é chamar atenção, se destacar. Portanto, a resposta correta é STAND OUT."
+      },
+      {
+        "id": "f1pv39",
+        "topic": "Phrasal Verbs – Fashion",
+        "question": "Skinny jeans _____ a few years ago, but they are back now.",
+        "options": [
+          "went out of fashion",
+          "stood out",
+          "dressed up",
+          "smartened up"
+        ],
+        "correct": 0,
+        "explanation": "GO OUT OF FASHION é sair de moda, deixar de ser popular. Portanto, a resposta correta é WENT OUT OF FASHION."
+      },
+      {
+        "id": "f1pv40",
+        "topic": "Phrasal Verbs – Technology",
+        "question": "My laptop takes almost three minutes to _____ when I press the power button.",
+        "options": [
+          "start up",
+          "shut down",
+          "sign up",
+          "wipe out"
+        ],
+        "correct": 0,
+        "explanation": "START UP é iniciar, começar a funcionar. Portanto, a resposta correta é START UP."
+      },
+      {
+        "id": "f1pv41",
+        "topic": "Phrasal Verbs – Technology",
+        "question": "Someone managed to _____ the company's payroll system.",
+        "options": [
+          "hack into",
+          "sign up for",
+          "start up",
+          "shut down"
+        ],
+        "correct": 0,
+        "explanation": "HACK INTO é invadir um sistema sem permissão. Portanto, a resposta correta é HACK INTO."
+      },
+      {
+        "id": "f1pv42",
+        "topic": "Phrasal Verbs – Technology",
+        "question": "We _____ storage space in the middle of the backup.",
+        "options": [
+          "ran out of",
+          "signed up for",
+          "started up",
+          "pulled the plug on"
+        ],
+        "correct": 0,
+        "explanation": "RUN OUT OF é ficar sem, esgotar o que se tinha. Portanto, a resposta correta é RAN OUT OF."
+      },
+      {
+        "id": "f1pv43",
+        "topic": "Phrasal Verbs – Technology",
+        "question": "The update _____ every file I had saved on the desktop.",
+        "options": [
+          "wiped out",
+          "started up",
+          "signed up",
+          "ran out of"
+        ],
+        "correct": 0,
+        "explanation": "WIPE OUT é apagar tudo, eliminar por completo. Portanto, a resposta correta é WIPED OUT."
+      },
+      {
+        "id": "f1pv44",
+        "topic": "Phrasal Verbs – Technology",
+        "question": "Please _____ the machine before you leave the lab — we don't want it running all night.",
+        "options": [
+          "shut down",
+          "start up",
+          "sign up",
+          "hack into"
+        ],
+        "correct": 0,
+        "explanation": "SHUT DOWN é desligar, parar de funcionar. Portanto, a resposta correta é SHUT DOWN."
+      },
+      {
+        "id": "f1pv45",
+        "topic": "Phrasal Verbs – Technology",
+        "question": "You need to _____ before you can post a comment.",
+        "options": [
+          "sign up",
+          "shut down",
+          "wipe out",
+          "run out"
+        ],
+        "correct": 0,
+        "explanation": "SIGN UP é se cadastrar, criar uma conta. Portanto, a resposta correta é SIGN UP."
+      },
+      {
+        "id": "f1pv46",
+        "topic": "Phrasal Verbs – Technology",
+        "question": "It's a simple app, without all the _____ of the paid version.",
+        "options": [
+          "bells and whistles",
+          "plugs and cables",
+          "starts and stops",
+          "signs and ups"
+        ],
+        "correct": 0,
+        "explanation": "BELLS AND WHISTLES são os recursos extras, geralmente dispensáveis. Portanto, a resposta correta é BELLS AND WHISTLES."
+      },
+      {
+        "id": "f1pv47",
+        "topic": "Phrasal Verbs – Technology",
+        "question": "After ten years, the company _____ the old messaging app.",
+        "options": [
+          "pulled the plug on",
+          "signed up for",
+          "started up",
+          "hacked into"
+        ],
+        "correct": 0,
+        "explanation": "PULL THE PLUG ON é encerrar de vez, tirar do ar. Portanto, a resposta correta é PULLED THE PLUG ON."
+      },
+      {
+        "id": "f1pv48",
+        "topic": "Phrasal Verbs – Health",
+        "question": "It took her two weeks to _____ the flu.",
+        "options": [
+          "get over",
+          "come down with",
+          "threw up",
+          "pass out"
+        ],
+        "correct": 0,
+        "explanation": "GET OVER é se recuperar de uma doença. Portanto, a resposta correta é GET OVER."
+      },
+      {
+        "id": "f1pv49",
+        "topic": "Phrasal Verbs – Health",
+        "question": "Half the office _____ a cold after the trip.",
+        "options": [
+          "came down with",
+          "got over",
+          "passed away",
+          "threw up"
+        ],
+        "correct": 0,
+        "explanation": "COME DOWN WITH é pegar uma doença leve. Portanto, a resposta correta é CAME DOWN WITH."
+      },
+      {
+        "id": "f1pv50",
+        "topic": "Phrasal Verbs – Health",
+        "question": "Vitamin C helps the body _____ infections.",
+        "options": [
+          "fight off",
+          "come down with",
+          "pass out",
+          "throw up"
+        ],
+        "correct": 0,
+        "explanation": "FIGHT OFF é resistir, combater algo que ataca o corpo. Portanto, a resposta correta é FIGHT OFF."
+      },
+      {
+        "id": "f1pv51",
+        "topic": "Phrasal Verbs – Health",
+        "question": "He _____ in the heat and only _____ a minute later.",
+        "options": [
+          "passed out / came to",
+          "came to / passed out",
+          "passed away / got over",
+          "threw up / fought off"
+        ],
+        "correct": 0,
+        "explanation": "PASS OUT é desmaiar e COME TO é voltar a si — um é o contrário do outro. Portanto, a resposta correta é PASSED OUT / CAME TO."
+      },
+      {
+        "id": "f1pv52",
+        "topic": "Phrasal Verbs – Health",
+        "question": "The child ate too much cake and _____ in the car.",
+        "options": [
+          "threw up",
+          "passed away",
+          "got over",
+          "fought off"
+        ],
+        "correct": 0,
+        "explanation": "THROW UP é vomitar. Portanto, a resposta correta é THREW UP."
+      },
+      {
+        "id": "f1pv53",
+        "topic": "Phrasal Verbs – Health",
+        "question": "Her grandfather _____ peacefully last winter.",
+        "options": [
+          "passed away",
+          "passed out",
+          "threw up",
+          "came down"
+        ],
+        "correct": 0,
+        "explanation": "PASS AWAY é a forma delicada de dizer que alguém morreu. Portanto, a resposta correta é PASSED AWAY."
+      },
+      {
+        "id": "f1pv54",
+        "topic": "Phrasal Verbs – Health",
+        "question": "He was going to propose, but he _____ at the last minute.",
+        "options": [
+          "got cold feet",
+          "was head over heels",
+          "passed out",
+          "came to"
+        ],
+        "correct": 0,
+        "explanation": "GET COLD FEET é dar para trás na última hora, por medo. Portanto, a resposta correta é GOT COLD FEET."
+      },
+      {
+        "id": "f1pv55",
+        "topic": "Phrasal Verbs – Health",
+        "question": "They met in March and by May he was _____ for her.",
+        "options": [
+          "head over heels",
+          "cold feet",
+          "passed out",
+          "coming down"
+        ],
+        "correct": 0,
+        "explanation": "BE HEAD OVER HEELS é estar completamente apaixonado. Portanto, a resposta correta é HEAD OVER HEELS."
+      },
+      {
+        "id": "f1pv56",
+        "topic": "Phrasal Verbs – Time",
+        "question": "She _____ right after the meeting to catch her train.",
+        "options": [
+          "rushed off",
+          "fell behind",
+          "put off",
+          "did over"
+        ],
+        "correct": 0,
+        "explanation": "RUSH OFF é sair correndo, com pressa. Portanto, a resposta correta é RUSHED OFF."
+      },
+      {
+        "id": "f1pv57",
+        "topic": "Phrasal Verbs – Time",
+        "question": "Can you _____ a quick call before lunch?",
+        "options": [
+          "fit in",
+          "put off",
+          "fall behind",
+          "do over"
+        ],
+        "correct": 0,
+        "explanation": "FIT IN é achar um espaço na agenda para alguma coisa. Portanto, a resposta correta é FIT IN."
+      },
+      {
+        "id": "f1pv58",
+        "topic": "Phrasal Verbs – Time",
+        "question": "The file was corrupted, so I had to _____ the whole report.",
+        "options": [
+          "do over",
+          "put off",
+          "rush off",
+          "hurry up"
+        ],
+        "correct": 0,
+        "explanation": "DO OVER é refazer do zero. Portanto, a resposta correta é DO OVER."
+      },
+      {
+        "id": "f1pv59",
+        "topic": "Phrasal Verbs – Time",
+        "question": "He missed three classes and started to _____.",
+        "options": [
+          "fall behind",
+          "hurry up",
+          "fit in",
+          "beat the clock"
+        ],
+        "correct": 0,
+        "explanation": "FALL BEHIND é ficar para trás, não acompanhar o ritmo. Portanto, a resposta correta é FALL BEHIND."
+      },
+      {
+        "id": "f1pv60",
+        "topic": "Phrasal Verbs – Time",
+        "question": "_____! The movie starts in ten minutes.",
+        "options": [
+          "Hurry up",
+          "Put off",
+          "Do over",
+          "Fall behind"
+        ],
+        "correct": 0,
+        "explanation": "HURRY UP é se apressar, fazer mais rápido. Portanto, a resposta correta é HURRY UP."
+      },
+      {
+        "id": "f1pv61",
+        "topic": "Phrasal Verbs – Time",
+        "question": "They _____ the wedding until next spring.",
+        "options": [
+          "put off",
+          "hurried up",
+          "rushed off",
+          "fitted in"
+        ],
+        "correct": 0,
+        "explanation": "PUT OFF é adiar para depois. Portanto, a resposta correta é PUT OFF."
+      },
+      {
+        "id": "f1pv62",
+        "topic": "Phrasal Verbs – Time",
+        "question": "Studying every day pays off _____.",
+        "options": [
+          "in the long run",
+          "at the clock",
+          "over time off",
+          "behind schedule"
+        ],
+        "correct": 0,
+        "explanation": "IN THE LONG RUN é a longo prazo, com o tempo. Portanto, a resposta correta é IN THE LONG RUN."
+      },
+      {
+        "id": "f1pv63",
+        "topic": "Phrasal Verbs – Time",
+        "question": "We had until Friday, but we _____ and delivered on Tuesday.",
+        "options": [
+          "beat the clock",
+          "fell behind",
+          "put it off",
+          "did it over"
+        ],
+        "correct": 0,
+        "explanation": "BEAT THE CLOCK é terminar antes do prazo previsto. Portanto, a resposta correta é BEAT THE CLOCK."
+      },
+      {
+        "id": "f1pv64",
+        "topic": "Phrasal Verbs – Consumerism",
+        "question": "For two years they _____ a single salary.",
+        "options": [
+          "got by on",
+          "saved up",
+          "paid back",
+          "cut back on"
+        ],
+        "correct": 0,
+        "explanation": "GET BY ON é conseguir se virar com pouco dinheiro. Portanto, a resposta correta é GOT BY ON."
+      },
+      {
+        "id": "f1pv65",
+        "topic": "Phrasal Verbs – Consumerism",
+        "question": "I'll _____ you _____ as soon as I get paid.",
+        "options": [
+          "pay / back",
+          "save / up",
+          "rip / off",
+          "sell / out"
+        ],
+        "correct": 0,
+        "explanation": "PAY SOMEONE BACK é devolver o dinheiro que se deve. Portanto, a resposta correta é PAY / BACK."
+      },
+      {
+        "id": "f1pv66",
+        "topic": "Phrasal Verbs – Consumerism",
+        "question": "She is _____ for a trip to Japan.",
+        "options": [
+          "saving up",
+          "paying back",
+          "ripping off",
+          "getting by"
+        ],
+        "correct": 0,
+        "explanation": "SAVE UP é juntar dinheiro, guardar para um objetivo. Portanto, a resposta correta é SAVING UP."
+      },
+      {
+        "id": "f1pv67",
+        "topic": "Phrasal Verbs – Consumerism",
+        "question": "The tickets _____ in less than an hour.",
+        "options": [
+          "sold out",
+          "paid back",
+          "saved up",
+          "cut back"
+        ],
+        "correct": 0,
+        "explanation": "SELL OUT é esgotar, vender tudo. Portanto, a resposta correta é SOLD OUT."
+      },
+      {
+        "id": "f1pv68",
+        "topic": "Phrasal Verbs – Consumerism",
+        "question": "We had to _____ streaming services to balance the budget.",
+        "options": [
+          "cut back on",
+          "save up for",
+          "pay back",
+          "sell out"
+        ],
+        "correct": 0,
+        "explanation": "CUT BACK ON é cortar gastos, gastar menos com alguma coisa. Portanto, a resposta correta é CUT BACK ON."
+      },
+      {
+        "id": "f1pv69",
+        "topic": "Phrasal Verbs – Consumerism",
+        "question": "Forty reais for a bottle of water? You were _____.",
+        "options": [
+          "ripped off",
+          "sold out",
+          "paid back",
+          "saved up"
+        ],
+        "correct": 0,
+        "explanation": "RIP OFF é cobrar caro demais, passar a perna no preço. Portanto, a resposta correta é RIPPED OFF."
+      },
+      {
+        "id": "f1pv70",
+        "topic": "Phrasal Verbs – Consumerism",
+        "question": "The deadline must be met _____.",
+        "options": [
+          "at all costs",
+          "flat broke",
+          "in the long run",
+          "at the clock"
+        ],
+        "correct": 0,
+        "explanation": "AT ALL COSTS é a qualquer custo, sem desculpa. Portanto, a resposta correta é AT ALL COSTS."
+      },
+      {
+        "id": "f1pv71",
+        "topic": "Phrasal Verbs – Consumerism",
+        "question": "Three days before payday I'm always _____.",
+        "options": [
+          "flat broke",
+          "at all costs",
+          "sold out",
+          "ripped off"
+        ],
+        "correct": 0,
+        "explanation": "FLAT BROKE é estar sem nenhum dinheiro. Portanto, a resposta correta é FLAT BROKE."
+      },
+      {
+        "id": "f1pv72",
+        "topic": "Phrasal Verbs – Games",
+        "question": "On Sunday we _____ the team from the next town.",
+        "options": [
+          "play against",
+          "play along with",
+          "win over",
+          "win back"
+        ],
+        "correct": 0,
+        "explanation": "PLAY AGAINST é jogar contra, enfrentar um adversário. Portanto, a resposta correta é PLAY AGAINST."
+      },
+      {
+        "id": "f1pv73",
+        "topic": "Phrasal Verbs – Games",
+        "question": "I knew the story wasn't true, but I _____ him not to embarrass him.",
+        "options": [
+          "played along with",
+          "played against",
+          "won over",
+          "played out"
+        ],
+        "correct": 0,
+        "explanation": "PLAY ALONG WITH é fingir que concorda para não criar problema. Portanto, a resposta correta é PLAYED ALONG WITH."
+      },
+      {
+        "id": "f1pv74",
+        "topic": "Phrasal Verbs – Games",
+        "question": "Nobody could predict how the final would _____.",
+        "options": [
+          "play out",
+          "play against",
+          "win back",
+          "win over"
+        ],
+        "correct": 0,
+        "explanation": "PLAY OUT é se desenrolar, acontecer de determinada maneira. Portanto, a resposta correta é PLAY OUT."
+      },
+      {
+        "id": "f1pv75",
+        "topic": "Phrasal Verbs – Games",
+        "question": "Her presentation _____ even the most skeptical directors.",
+        "options": [
+          "won over",
+          "won out",
+          "won back",
+          "played against"
+        ],
+        "correct": 0,
+        "explanation": "WIN SOMEONE OVER é convencer, conquistar a pessoa. Portanto, a resposta correta é WON OVER."
+      },
+      {
+        "id": "f1pv76",
+        "topic": "Phrasal Verbs – Games",
+        "question": "It was a long dispute, but common sense _____ in the end.",
+        "options": [
+          "won out",
+          "won over",
+          "won back",
+          "played along"
+        ],
+        "correct": 0,
+        "explanation": "WIN OUT é prevalecer, sair vitorioso no fim. Portanto, a resposta correta é WON OUT."
+      },
+      {
+        "id": "f1pv77",
+        "topic": "Phrasal Verbs – Games",
+        "question": "The club is trying to _____ the fans it lost last season.",
+        "options": [
+          "win back",
+          "win out",
+          "play out",
+          "play along with"
+        ],
+        "correct": 0,
+        "explanation": "WIN BACK é reconquistar o que se tinha perdido. Portanto, a resposta correta é WIN BACK."
+      },
+      {
+        "id": "f1pv78",
+        "topic": "Phrasal Verbs – Games",
+        "question": "Losing a client now and then _____ — don't take it personally.",
+        "options": [
+          "is all part of the game",
+          "is child's play",
+          "plays out",
+          "wins over"
+        ],
+        "correct": 0,
+        "explanation": "BE ALL PART OF THE GAME é fazer parte, ser esperado na situação. Portanto, a resposta correta é IS ALL PART OF THE GAME."
+      },
+      {
+        "id": "f1pv79",
+        "topic": "Phrasal Verbs – Games",
+        "question": "For someone who codes every day, this exercise is _____.",
+        "options": [
+          "child's play",
+          "all part of the game",
+          "won over",
+          "played out"
+        ],
+        "correct": 0,
+        "explanation": "BE CHILD'S PLAY é ser facílimo, brincadeira de criança. Portanto, a resposta correta é CHILD'S PLAY."
+      }
+    ]
   }
 }

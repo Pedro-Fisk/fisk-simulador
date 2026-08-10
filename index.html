@@ -716,17 +716,29 @@
     /* ── Professor / Classroom Mode ── */
     .prof-badge { display: none; }
     body.prof-mode .prof-badge { display: inline-flex; }
+    /* Saída da ferramenta. Ficava escondida fora do Professor Mode, e por isso
+       o aluno não tinha como voltar ao Portal — só o botão do navegador. */
     .hub-back-link {
-      display: none;
-    }
-    body.prof-mode .hub-back-link {
       display: inline-flex; align-items: center; gap: .3rem;
       color: rgba(255,255,255,.75); text-decoration: none;
       font-size: .8rem; font-weight: 600;
       position: absolute; left: 1.25rem; top: 1rem;
       transition: color .15s;
     }
-    body.prof-mode .hub-back-link:hover { color: #fff; }
+    .hub-back-link:hover { color: #fff; }
+    /* Na barra da tela de exames ele vira um item do flex, não um elemento
+       solto no canto, e acompanha a cor do "Back" que fica ao lado. */
+    .page-header .hub-back-link {
+      position: static; color: #d8d5d5;
+      border-left: 1px solid #4a4444; padding-left: .8rem;
+    }
+    .page-header .hub-back-link:hover { color: #fff; }
+    /* No celular a barra não comporta dois rótulos e o nome do livro: a saída
+       vira só o ícone de casinha, mas continua ali. */
+    @media (max-width: 560px) {
+      .page-header .hub-back-link { font-size: 0; padding-left: .7rem; }
+      .page-header .hub-back-link::before { content: '\2302'; font-size: 1.15rem; }
+    }
     .prof-badge {
       align-items: center;
       background: #7C3AED; color: #fff;
@@ -966,6 +978,7 @@
 <div id="screen-exam" class="screen">
   <div class="page-header">
     <button class="back-btn" onclick="showScreen('books')">&larr; Back</button>
+    <a href="https://pedro-fisk.github.io/fisk-hub/" class="hub-back-link" id="hub-back-exam">&#8592; Fisk Hub</a>
     <div class="page-header-text">
       <div class="book-name" id="exam-book-name"></div>
       <div class="exam-name" id="exam-subtitle">Choose your exam</div>
@@ -994,11 +1007,11 @@
 
       <div class="exam-grid">
         <!-- Estágio sem prova formal (In Focus): não existe Midterm nem Final,
-             então sobra um Practice sobre todo o conteúdo do Study Guide. -->
+             então sobra um Practice que sorteia entre as 10 lições do livro. -->
         <div class="exam-card" data-exam="practice" id="card-practice" hidden onclick="selectExam(this)">
           <div class="exam-emoji">&#127919;</div>
           <h3 id="practice-h3">Practice</h3>
-          <p id="practice-desc">Exercises from the Study Guide content</p>
+          <p id="practice-desc">Random questions from all 10 lessons of the book</p>
         </div>
         <div class="exam-card" data-exam="midterm" id="card-midterm" onclick="selectExam(this)">
           <div class="exam-emoji">&#128214;</div>
@@ -1009,6 +1022,13 @@
           <div class="exam-emoji">&#127891;</div>
           <h3 id="final-h3">Final Exam</h3>
           <p id="final-desc">Lessons 6 to 10</p>
+        </div>
+        <!-- Prática dedicada de phrasal verbs. Só aparece nos livros cujo JSON
+             tem o bloco `phrasal` (hoje, Fluency 1 e 2). -->
+        <div class="exam-card" data-exam="phrasal" id="card-phrasal" hidden onclick="selectExam(this)">
+          <div class="exam-emoji">&#128172;</div>
+          <h3 id="phrasal-h3">Phrasal Verbs</h3>
+          <p id="phrasal-desc">The phrasal verbs from your Activity Book</p>
         </div>
         <div class="exam-card custom-card" data-exam="custom" onclick="selectExam(this)">
           <div class="exam-emoji">&#128221;</div>
@@ -1324,6 +1344,14 @@ const LESSON_MAP = {
     /* Lesson 8 */ 'Have/Get Something Done': 8, 'Verb + Object + Infinitive': 8,
     /* Lesson 9 */ 'Intensifiers': 9, 'Double Comparatives': 9,
     /* Lesson 10 */ 'Prefixes': 10, 'Reported Speech': 10, 'Passive Voice': 10, 'Connectors (Add/Contrast)': 10, 'Connectors (Pairs)': 10,
+    /* Phrasal verbs do Caderno de Atividades — uma categoria por lição. Entram
+       no Custom Practice junto da gramática da lição e no feedback do resultado;
+       o card "Phrasal Verbs" pratica os dez de uma vez. */
+    'Phrasal Verbs – Relationships': 1, 'Phrasal Verbs – Food': 2,
+    'Phrasal Verbs – Traveling': 3, 'Phrasal Verbs – Sports': 4,
+    'Phrasal Verbs – Fashion': 5, 'Phrasal Verbs – Technology': 6,
+    'Phrasal Verbs – Health': 7, 'Phrasal Verbs – Time': 8,
+    'Phrasal Verbs – Consumerism': 9, 'Phrasal Verbs – Games': 10,
   },
   fluency2: {
     /* Lesson 1 */ 'One / A / An': 1, 'Reporting Verbs – Time Changes': 1, 'Reporting Verbs': 1,
@@ -1336,27 +1364,50 @@ const LESSON_MAP = {
     /* Lesson 8 */ 'Verbs of Opinion': 8, 'Order of Adverbs': 8,
     /* Lesson 9 */ 'See/Hear + Verb or -ing': 9, 'Be / Get Used To': 9,
     /* Lesson 10 */ 'Uncountable Nouns': 10, 'Whatever / Whenever / However': 10,
+    /* Phrasal verbs do Caderno de Atividades — ver a nota no fluency1. */
+    'Phrasal Verbs – Reinvention': 1, 'Phrasal Verbs – Animals': 2,
+    'Phrasal Verbs – Regrets': 3, 'Phrasal Verbs – Learning': 4,
+    'Phrasal Verbs – Careers': 5, 'Phrasal Verbs – Leisure': 6,
+    'Phrasal Verbs – Art': 7, 'Phrasal Verbs – Communication': 8,
+    'Phrasal Verbs – Crime': 9, 'Phrasal Verbs – Caring': 10,
   },
+  /* In Focus segue a tabela de conteúdos do livro do aluno (10 lições), e não
+     mais as seções do Study Guide — que agrupavam pontos de lições diferentes
+     sob o mesmo nome. Os itens marcados (vocab) vêm dos Vocabulary Files. */
   infocus: {
-    'Present Tenses': 'Present Tenses', 'Present Tenses – State Verbs': 'Present Tenses',
-    'Past Tenses': 'Past Tenses', 'Past Tenses – While/When': 'Past Tenses',
-    'Future Tenses': 'Future Tenses', 'Future Tenses – Future Perfect': 'Future Tenses',
-    'Subjunctive': 'Subjunctive',
-    'Conditionals': 'Conditionals', 'Conditionals – Mixed': 'Conditionals',
-    'Conditionals – Formal Inversion': 'Conditionals', 'Conditionals – Unless/As Long As': 'Conditionals',
-    'First Conditional': 'Conditionals', 'Second Conditional': 'Conditionals',
-    'Third Conditional': 'Conditionals', 'Mixed Conditionals': 'Conditionals',
-    'Passive Voice – All Tenses': 'Passive Voice', 'Passive Voice – Modal': 'Passive Voice',
-    'Passive Voice – Continuous': 'Passive Voice', 'Passive Voice – Reporting Verbs': 'Passive Voice',
-    'Gerunds vs Infinitives': 'Gerunds and Infinitives',
-    'Gerunds vs Infinitives – Meaning Change': 'Gerunds and Infinitives',
-    'Gerunds – Prepositions': 'Gerunds and Infinitives',
-    'Relative Pronouns – Advanced': 'Relative Clauses', 'Relative Pronouns – Non-Defining': 'Relative Clauses',
-    'Inversion': 'Inversion', 'Inversion – Negative Adverbials': 'Inversion', 'Inversion – So/Neither': 'Inversion',
-    'Comparatives/Superlatives – Advanced': 'Comparatives and Superlatives',
-    'Comparatives – Modification': 'Comparatives and Superlatives',
-    'Cleft Sentences': 'Emphatic Structures', 'Cleft Sentences – It Is...That': 'Emphatic Structures',
-    'Cleft Sentences – What': 'Emphatic Structures', 'Emphatic Structures': 'Emphatic Structures',
+    /* Lesson 1 · Education — Present & Past */
+    'Present Tenses': 1, 'Present Tenses – State Verbs': 1,
+    'Past Tenses': 1, 'Past Tenses – While/When': 1, 'Used To / Be Used To': 1,
+    /* Lesson 2 · Environmental Science — The Future */
+    'Future Tenses': 2, 'Future Tenses – Future Perfect': 2, 'Future Continuous': 2,
+    'Compound Adjectives': 2, /* vocab */
+    /* Lesson 3 · Visual Arts — Emphatic forms */
+    'Emphatic Forms – Do/Does/Did': 3, 'Reflexive and Intensive Pronouns': 3,
+    'Cleft Sentences': 3, 'Cleft Sentences – It Is...That': 3, 'Cleft Sentences – What': 3,
+    /* Lesson 4 · Physical Education — Subjunctive */
+    'Subjunctive – Wish / If + Were': 4, 'Subjunctive – That-Clauses': 4,
+    'Nouns + Particles': 4, /* vocab */
+    /* Lesson 5 · History — Conditionals */
+    'Zero Conditional': 5, 'First Conditional': 5, 'Second Conditional': 5,
+    'Third Conditional': 5, 'Mixed Conditionals': 5, 'Conditionals – Unless/As Long As': 5,
+    /* Lesson 6 · Computer Science — Inversion */
+    'Inversion': 6, 'Inversion – So/Neither': 6, 'Conditionals – Formal Inversion': 6,
+    'Inversion – Negative Adverbials': 6, 'Inversion – Expressions with Only': 6,
+    'Homographs': 6, /* vocab */
+    /* Lesson 7 · Social Sciences — Gerunds and infinitives */
+    'Gerunds vs Infinitives': 7, 'Gerunds vs Infinitives – Meaning Change': 7,
+    'Gerunds – Prepositions': 7, 'Verb + Object + Infinitive': 7, 'Possessive + Gerund': 7,
+    /* Lesson 8 · Literature — Relative clauses */
+    'Relative Pronouns – Advanced': 8, 'Relative Pronouns – Non-Defining': 8,
+    'Relative Pronouns – Omission': 8, 'Relative Clauses – Special Use of Which': 8,
+    'Confusing Words': 8, /* vocab */
+    /* Lesson 9 · Musical Arts — Adjectives */
+    'Comparatives/Superlatives – Advanced': 9, 'Comparatives – Modification': 9,
+    'The + Comparative… The + Comparative': 9, 'Comparative + and + Comparative': 9,
+    /* Lesson 10 · Biology — Passive voice */
+    'Passive Voice – All Tenses': 10, 'Passive Voice – Modal': 10,
+    'Passive Voice – Continuous': 10, 'Passive Voice – Reporting Verbs': 10,
+    'Passive Voice – Two Objects': 10, 'Homophones': 10, /* vocab */
   },
   inmediato1: {
     /* Lección 1 */ 'Artículos Determinados': 1, 'Masculino / Femenino': 1, 'Singular / Plural': 1,
@@ -1402,6 +1453,23 @@ const LESSON_MAP = {
 };
 
 /* ── Utilities ── */
+
+/* Todo o conteúdo do livro, na ordem: as duas provas e, quando existe, o bloco
+   de phrasal verbs. É o que o Custom Practice oferece e o que ele sorteia —
+   Midterm e Final continuam lendo só o bloco delas, para a prova simulada
+   continuar sendo a prova. */
+function todasQuestoes(data) {
+  if (!data) return [];
+  return [
+    ...(data.midterm ? data.midterm.questions : []),
+    ...(data.final   ? data.final.questions   : []),
+    ...(data.phrasal ? data.phrasal.questions : []),
+  ];
+}
+function temPhrasal(data) {
+  return !!(data && data.phrasal && data.phrasal.questions && data.phrasal.questions.length);
+}
+
 function shuffle(arr) {
   const a = [...arr];
   for (let i = a.length - 1; i > 0; i--) {
@@ -1412,6 +1480,11 @@ function shuffle(arr) {
 }
 
 const LETTERS = ['A','B','C','D'];
+
+/* Tamanho de todo simulado do Quick Practice. Vale para as provas, para o
+   Practice, para os phrasal verbs e para o Custom — a ferramenta é revisão
+   rápida, não prova longa. */
+const MAX_QUESTOES = 10;
 
 /* Alternativas cujo texto pressupõe estar em último lugar. Ver o uso em
    startQuiz. Deliberadamente estreito: só casa a fórmula fechada, para não
@@ -1430,7 +1503,9 @@ const UI_STRINGS = {
     midterm:     'Midterm Exam',
     final:       'Final Exam',
     practice:    'Practice',
-    practiceDesc:'Exercises from the Study Guide content',
+    practiceDesc:'Random questions from all 10 lessons of the book',
+    phrasal:     'Phrasal Verbs',
+    phrasalDesc: 'The phrasal verbs from your Activity Book',
     custom:      'Custom Practice',
     customDesc:  'Select specific grammar topics to practice',
     startBtn:    'Start Quiz →',
@@ -1456,7 +1531,7 @@ const UI_STRINGS = {
     finishBtn:   'Finish ✓',
     questionLbl: 'Question',
     ofLbl:       'of',
-    examSuffix:  { midterm:'Midterm Exam', final:'Final Exam', practice:'Practice', custom:'Custom Practice' },
+    examSuffix:  { midterm:'Midterm Exam', final:'Final Exam', practice:'Practice', phrasal:'Phrasal Verbs', custom:'Custom Practice' },
     scores: {
       great: { msg:'Great job!',         sub: all => all?'You got them all! Excellent!':'You are well prepared for the exam.' },
       ok:    { msg:'Keep practicing!',   sub: _   => "You’re almost there. One more round and you’ll pass!" },
@@ -1472,7 +1547,9 @@ const UI_STRINGS = {
     midterm:     'Examen Parcial',
     final:       'Examen Final',
     practice:    'Práctica',
-    practiceDesc:'Ejercicios a partir del contenido del Study Guide',
+    practiceDesc:'Preguntas aleatorias de las 10 lecciones del libro',
+    phrasal:     'Phrasal Verbs',
+    phrasalDesc: 'Los phrasal verbs de tu Activity Book',
     custom:      'Práctica Libre',
     customDesc:  'Selecciona los temas gramaticales para practicar',
     startBtn:    'Iniciar →',
@@ -1498,7 +1575,7 @@ const UI_STRINGS = {
     finishBtn:   'Finalizar ✓',
     questionLbl: 'Pregunta',
     ofLbl:       'de',
-    examSuffix:  { midterm:'Examen Parcial', final:'Examen Final', practice:'Práctica', custom:'Práctica Libre' },
+    examSuffix:  { midterm:'Examen Parcial', final:'Examen Final', practice:'Práctica', phrasal:'Phrasal Verbs', custom:'Práctica Libre' },
     scores: {
       great: { msg:'¡Muy bien!',          sub: all => all?'¡Respondiste todo! ¡Excelente!':'Estás muy bien preparado para el examen.' },
       ok:    { msg:'¡Sigue practicando!', sub: _   => 'Casi lo logras. ¡Una ronda más y lo consigues!' },
@@ -1523,6 +1600,8 @@ function applyLang(lang) {
   set('final-h3',     S.final);
   set('practice-h3',  S.practice);
   set('practice-desc',S.practiceDesc);
+  set('phrasal-h3',  S.phrasal);
+  set('phrasal-desc',S.phrasalDesc);
   set('custom-h3',    S.custom);
   set('custom-desc',  S.customDesc);
   set('btn-start',    S.startBtn);
@@ -1692,6 +1771,9 @@ async function goToExam() {
     document.getElementById('midterm-desc').textContent = info.midtermLessons;
     document.getElementById('final-desc').textContent   = info.finalLessons;
   }
+  /* Quem manda no card de phrasal verbs é o próprio banco: o livro que tiver o
+     bloco `phrasal` ganha o card, sem precisar de flag no BOOKS. */
+  document.getElementById('card-phrasal').hidden = !temPhrasal(state.cache[state.book]);
 
   document.querySelectorAll('.exam-card').forEach(c => c.classList.remove('selected'));
   document.getElementById('topic-picker').classList.remove('open');
@@ -1719,8 +1801,7 @@ function updateStartBtn() {
   const hasExam = state.exam !== null;
   let canStart = hasName && hasExam;
   if (state.exam === 'custom') {
-    const data = state.cache[state.book];
-    const allQ = data ? [...(data.midterm ? data.midterm.questions : []), ...(data.final ? data.final.questions : [])] : [];
+    const allQ = todasQuestoes(state.cache[state.book]);
     const available = allQ.filter(q => (state.customTopics || []).includes(q.topic)).length;
     canStart = hasName && available > 0;
   }
@@ -1749,15 +1830,13 @@ function selectExam(card) {
 /* ── Topic picker: build checkboxes from LESSON_MAP ── */
 function buildTopicPicker() {
   const lessonMap = LESSON_MAP[state.book] || {};
-  const data = state.cache[state.book];
-  const allQ = data ? [...(data.midterm ? data.midterm.questions : []), ...(data.final ? data.final.questions : [])] : [];
+  const allQ = todasQuestoes(state.cache[state.book]);
 
   /* count available questions per topic */
   const qCount = {};
   allQ.forEach(q => { qCount[q.topic] = (qCount[q.topic] || 0) + 1; });
 
   /* group topics by lesson key */
-  const isInFocus = state.book === 'infocus';
   const groups = {};
   const order = [];
   Object.entries(lessonMap).forEach(([topic, key]) => {
@@ -1765,13 +1844,11 @@ function buildTopicPicker() {
     if (!groups[key].includes(topic)) groups[key].push(topic);
   });
 
-  const sortedKeys = isInFocus
-    ? [...new Set(order)].sort()
-    : [...new Set(order)].map(Number).sort((a, b) => a - b);
+  const sortedKeys = [...new Set(order)].map(Number).sort((a, b) => a - b);
 
   let html = '';
   sortedKeys.forEach(k => {
-    const label = isInFocus ? k : (k === 0 ? 'Before You Start' : 'Lesson ' + k);
+    const label = k === 0 ? 'Before You Start' : 'Lesson ' + k;
     html += `<div class="topic-group-title">${label}</div>`;
     groups[k].forEach(topic => {
       const n = qCount[topic] || 0;
@@ -1801,8 +1878,7 @@ function toggleTopic(topic, checked) {
 
 /* ── Update the topic counter and Start button ── */
 function updateTopicCount() {
-  const data = state.cache[state.book];
-  const allQ = data ? [...(data.midterm ? data.midterm.questions : []), ...(data.final ? data.final.questions : [])] : [];
+  const allQ = todasQuestoes(state.cache[state.book]);
   const selected = (state.customTopics || []);
   const available = allQ.filter(q => selected.includes(q.topic)).length;
   const n = selected.length;
@@ -1810,7 +1886,12 @@ function updateTopicCount() {
   if (n === 0) {
     el.innerHTML = 'Choose at least one topic below';
   } else {
-    el.innerHTML = `<strong>${n} topic${n > 1 ? 's' : ''} selected &middot; ${available} question${available !== 1 ? 's' : ''} available</strong>`;
+    /* Quando há mais questões do que cabe no simulado, o aluno precisa saber
+       que vão ser sorteadas — senão marca 30 tópicos e não entende as 10. */
+    const quantas = available > MAX_QUESTOES
+      ? `${MAX_QUESTOES} of ${available} questions`
+      : `${available} question${available !== 1 ? 's' : ''}`;
+    el.innerHTML = `<strong>${n} topic${n > 1 ? 's' : ''} selected &middot; ${quantas}</strong>`;
   }
   updateStartBtn();
 }
@@ -1822,15 +1903,20 @@ function startQuiz() {
 
   let pool;
   if (state.exam === 'custom') {
-    const allQ = [...(data.midterm ? data.midterm.questions : []), ...(data.final ? data.final.questions : [])];
-    pool = allQ.filter(q => (state.customTopics || []).includes(q.topic));
+    /* Também corta em 10, como as provas: marcar uma lição inteira do In Focus
+       chegava a abrir um simulado de 37 questões, que ninguém termina. */
+    pool = shuffle(todasQuestoes(data).filter(q => (state.customTopics || []).includes(q.topic)))
+             .slice(0, MAX_QUESTOES);
+  } else if (state.exam === 'phrasal') {
+    // prática dedicada: só o bloco de phrasal verbs, sorteando 10 como as provas
+    pool = shuffle([...data.phrasal.questions]).slice(0, MAX_QUESTOES);
   } else if (state.exam === 'practice') {
     // sem divisão por prova: sorteia entre tudo que o livro tem
     const allQ = [...(data.midterm ? data.midterm.questions : []), ...(data.final ? data.final.questions : [])];
-    pool = shuffle([...allQ]).slice(0, 10);
+    pool = shuffle([...allQ]).slice(0, MAX_QUESTOES);
   } else {
     pool = data[state.exam].questions;
-    pool = shuffle([...pool]).slice(0, 10);
+    pool = shuffle([...pool]).slice(0, MAX_QUESTOES);
   }
 
   state.questions = pool.map(q => {
@@ -1861,7 +1947,8 @@ function startQuiz() {
   const bookName = BOOKS[state.book].name;
   const S = UI_STRINGS[bookLang(state.book)];
   const examKey = state.exam === 'midterm' ? 'midterm' : state.exam === 'final' ? 'final'
-                : state.exam === 'practice' ? 'practice' : 'custom';
+                : state.exam === 'practice' ? 'practice'
+                : state.exam === 'phrasal' ? 'phrasal' : 'custom';
   document.getElementById('quiz-title').textContent = bookName + ' · ' + S.examSuffix[examKey];
 
   const total = state.questions.length;
@@ -2063,7 +2150,6 @@ function generateFeedback(score, wrongTopics, correctTopics) {
   const total = state.questions.length;
   const pct = Math.round((score / total) * 100);
   const lessonMap = LESSON_MAP[state.book] || {};
-  const isInFocus = state.book === 'infocus';
 
   function groupByLesson(topics) {
     const g = {};
@@ -2078,16 +2164,11 @@ function generateFeedback(score, wrongTopics, correctTopics) {
   }
 
   function sortKeys(g) {
-    return isInFocus
-      ? Object.keys(g).sort()
-      : Object.keys(g).map(Number).sort((a, b) => a - b);
+    return Object.keys(g).map(Number).sort((a, b) => a - b);
   }
 
   function buildLines(g, keys) {
     return keys.map(k => {
-      if (isInFocus) {
-        return `<div class="lesson-line">• <strong>${k}</strong> (Study Guide)</div>`;
-      }
       const topics = [...g[k]].join(', ');
       const label = k === 0 ? 'Before You Start' : 'Lesson ' + k;
       return `<div class="lesson-line">• <strong>${label}:</strong> ${topics}</div>`;
@@ -2123,9 +2204,7 @@ function generateFeedback(score, wrongTopics, correctTopics) {
   const cGroups = groupByLesson(correctTopics || []);
   const cKeys   = sortKeys(cGroups);
   if (cKeys.length > 0) {
-    const intro = isInFocus
-      ? `Com base nas suas respostas${firstName ? ', ' + firstName : ''}, vemos que você já demonstra domínio nas seguintes seções:`
-      : `Com base nas suas respostas${firstName ? ', ' + firstName : ''}, vemos que você já domina os seguintes conteúdos:`;
+    const intro = `Com base nas suas respostas${firstName ? ', ' + firstName : ''}, vemos que você já domina os seguintes conteúdos:`;
     html += `<div class="feedback-section feedback-strengths">
       <div class="feedback-section-title">&#10003; O que você já sabe</div>
       <p class="feedback-section-intro">${intro}</p>
@@ -2137,9 +2216,7 @@ function generateFeedback(score, wrongTopics, correctTopics) {
   const wGroups = groupByLesson(wrongTopics);
   const wKeys   = sortKeys(wGroups);
   if (wKeys.length > 0) {
-    const intro = isInFocus
-      ? `${firstName ? firstName + ', há' : 'Há'} oportunidade de reforçar as seguintes seções do seu Study Guide:`
-      : `${firstName ? firstName + ', há' : 'Há'} oportunidade de reforçar os seguintes conteúdos do livro:`;
+    const intro = `${firstName ? firstName + ', há' : 'Há'} oportunidade de reforçar os seguintes conteúdos do livro:`;
     html += `<div class="feedback-section feedback-improve">
       <div class="feedback-section-title">&#128270; O que você pode reforçar</div>
       <p class="feedback-section-intro">${intro}</p>
@@ -2161,7 +2238,8 @@ function renderResults(score) {
   const S     = UI_STRINGS[bookLang(state.book)];
   const bookName = BOOKS[state.book].name;
   const examKey  = state.exam === 'midterm' ? 'midterm' : state.exam === 'final' ? 'final'
-                 : state.exam === 'practice' ? 'practice' : 'custom';
+                 : state.exam === 'practice' ? 'practice'
+                 : state.exam === 'phrasal' ? 'phrasal' : 'custom';
 
   document.getElementById('results-title').textContent    = bookName;
   document.getElementById('results-subtitle').textContent = S.examSuffix[examKey];
@@ -2717,15 +2795,17 @@ portalPracticeBoot();
    aba (navegação normal, não nova aba), voltar de verdade é melhor do que
    qualquer URL fixa: devolve exatamente a página de origem. */
 (function () {
-  var el = document.getElementById('hub-back');
-  if (!el) return;
   var doPortal = /[?&]raf=/.test(location.search);
-  if (doPortal) {
-    el.href = 'https://portalfisk.com.br/';
-    el.innerHTML = '&#8592; Portal do Aluno';
-  }
-  el.addEventListener('click', function (ev) {
-    if (history.length > 1) { ev.preventDefault(); history.back(); }
+  ['hub-back', 'hub-back-exam'].forEach(function (id) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    if (doPortal) {
+      el.href = 'https://portalfisk.com.br/';
+      el.innerHTML = '&#8592; Portal do Aluno';
+    }
+    el.addEventListener('click', function (ev) {
+      if (history.length > 1) { ev.preventDefault(); history.back(); }
+    });
   });
 })();
 </script>

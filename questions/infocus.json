@@ -4,7 +4,7 @@
   "level": "advanced",
   "midterm": {
     "label": "Prova do Meio do Livro",
-    "topics": "Sections 1–5: Present Tenses, Past Tenses, Future Tenses, Subjunctive, Conditionals (1st, 2nd, 3rd, Mixed)",
+    "topics": "Lessons 1–5: Present & Past, Future Tenses, Emphatic Forms, Subjunctive, Conditionals",
     "questions": [
       {
         "id": "ifm01",
@@ -63,7 +63,7 @@
         "topic": "Past Tenses",
         "question": "By the time the ambulance arrived, the patient _____ already _____.",
         "options": [
-          "was / dying",
+          "was / died",
           "has / died",
           "had / died",
           "would / die"
@@ -87,12 +87,12 @@
       {
         "id": "ifm07",
         "topic": "Future Tenses",
-        "question": "Look at those dark clouds! It _____ rain.",
+        "question": "Look at those dark clouds! It _____ rain. (prediction based on evidence)",
         "options": [
           "will",
           "is going to",
           "shall",
-          "might"
+          "rains"
         ],
         "correct": 1,
         "explanation": "Quando queremos fazer uma previsão baseada em algo que estamos vendo agora, usamos 'is/are going to'. Neste caso, há nuvens escuras no céu. Uma evidência visível de que vai chover em breve. Portanto, a resposta correta é IS GOING TO."
@@ -112,20 +112,20 @@
       },
       {
         "id": "ifm09",
-        "topic": "Subjunctive",
+        "topic": "Subjunctive – That-Clauses",
         "question": "The doctor recommended that he _____ smoking immediately.",
         "options": [
           "stops",
           "stop",
           "stopped",
-          "should stop"
+          "stopping"
         ],
         "correct": 1,
         "explanation": "Quando queremos dizer que alguém recomendou que outra pessoa fizesse algo, usamos 'recommend that' com o verbo igual para todo mundo, sem -s. Neste caso, o médico recomendou que ele parasse de fumar, mesmo sendo 'he', o verbo não leva -s. Portanto, a resposta correta é STOP."
       },
       {
         "id": "ifm10",
-        "topic": "Subjunctive",
+        "topic": "Subjunctive – That-Clauses",
         "question": "It is essential that every student _____ a dictionary.",
         "options": [
           "has",
@@ -196,7 +196,7 @@
           "is",
           "was",
           "were",
-          "had been"
+          "would be"
         ],
         "correct": 2,
         "explanation": "Quando queremos falar de como alguém é hoje e imaginar o que poderia ter acontecido diferente no passado, usamos 'were' na condição e 'would have' no resultado. Neste caso, a pessoa não é paciente por natureza e isso atrapalhou o projeto no passado. Portanto, a resposta correta é WERE."
@@ -255,7 +255,7 @@
       },
       {
         "id": "ifm20",
-        "topic": "Conditionals",
+        "topic": "Conditionals – Formal Inversion",
         "question": "_____ it rain tomorrow, the match will be cancelled.",
         "options": [
           "Should",
@@ -268,7 +268,7 @@
       },
       {
         "id": "ifm21",
-        "topic": "Subjunctive",
+        "topic": "Subjunctive – That-Clauses",
         "question": "The manager insisted that the report _____ by Monday.",
         "options": [
           "is finished",
@@ -281,7 +281,7 @@
       },
       {
         "id": "ifm22",
-        "topic": "Conditionals – Mixed",
+        "topic": "Mixed Conditionals",
         "question": "If I were you, I _____ accepted their offer yesterday.",
         "options": [
           "would have",
@@ -297,7 +297,7 @@
         "topic": "Past Tenses",
         "question": "She _____ all the documents before the meeting started.",
         "options": [
-          "reviewed",
+          "has reviewed",
           "was reviewing",
           "had reviewed",
           "reviews"
@@ -321,11 +321,11 @@
       {
         "id": "ifm25",
         "topic": "Future Tenses",
-        "question": "I _____ you as soon as I get the results.",
+        "question": "I _____ you as soon as I get the results. (promise)",
         "options": [
           "call",
           "will call",
-          "am going to call",
+          "would call",
           "am calling"
         ],
         "correct": 1,
@@ -346,7 +346,7 @@
       },
       {
         "id": "ifm27",
-        "topic": "Subjunctive",
+        "topic": "Subjunctive – That-Clauses",
         "question": "It is vital that the CEO _____ present at the board meeting.",
         "options": [
           "is",
@@ -359,7 +359,7 @@
       },
       {
         "id": "ifm28",
-        "topic": "Subjunctive",
+        "topic": "Subjunctive – That-Clauses",
         "question": "The committee proposed that the new regulation _____ immediately.",
         "options": [
           "takes effect",
@@ -404,7 +404,7 @@
           "try",
           "tried",
           "am trying",
-          "have tried"
+          "had tried"
         ],
         "correct": 2,
         "explanation": "Quando descrevemos uma situação temporária que está acontecendo nesse período da vida (não necessariamente neste exato instante) usamos o Present Continuous. O advérbio 'lately' reforça que é algo passageiro e em andamento. Portanto, a resposta correta é AM TRYING."
@@ -557,7 +557,7 @@
         "topic": "Third Conditional",
         "question": "If they _____ more carefully, they wouldn't have made that mistake.",
         "options": [
-          "listened",
+          "listen",
           "had listened",
           "would have listened",
           "were listening"
@@ -597,7 +597,7 @@
         "question": "They wouldn't have gone bankrupt if they _____ their expenses more carefully.",
         "options": [
           "manage",
-          "managed",
+          "were managed",
           "had managed",
           "would manage"
         ],
@@ -646,15 +646,15 @@
       {
         "id": "ifm50",
         "topic": "Conditionals – Unless/As Long As",
-        "question": "She'll keep working overtime _____ her salary is increased.",
+        "question": "She says she'll quit _____ her salary is increased.",
         "options": [
           "as long as",
           "unless",
-          "even though",
+          "so that",
           "in case"
         ],
         "correct": 1,
-        "explanation": "'Unless' é usado para expressar uma exceção: ela continuará fazendo horas extras a não ser que (= if not) seu salário seja aumentado. A ideia é que, sem o aumento, a situação permanece inalterada. Portanto, a resposta correta é UNLESS."
+        "explanation": "UNLESS quer dizer \"a não ser que\": ela vai pedir demissão, a não ser que aumentem o salário dela. Com \"as long as\" a frase ficaria sem sentido — ela pediria demissão justamente se recebesse o aumento. Portanto, a resposta correta é UNLESS."
       },
       {
         "id": "ifm51",
@@ -702,7 +702,7 @@
         "options": [
           "is costing",
           "costs",
-          "cost",
+          "costing",
           "has cost"
         ],
         "correct": 1,
@@ -814,7 +814,7 @@
       },
       {
         "id": "ifm63",
-        "topic": "Conditionals",
+        "topic": "First Conditional",
         "question": "I'll call you _____ I arrive at the station.",
         "options": [
           "until",
@@ -827,7 +827,7 @@
       },
       {
         "id": "ifm64",
-        "topic": "Conditionals",
+        "topic": "Conditionals – Formal Inversion",
         "question": "_____ it not for her support, I wouldn't have gotten through it.",
         "options": [
           "Was",
@@ -840,7 +840,7 @@
       },
       {
         "id": "ifm65",
-        "topic": "Conditionals",
+        "topic": "Conditionals – Unless/As Long As",
         "question": "We'll go ahead with the plan _____ management approves the budget.",
         "options": [
           "if",
@@ -853,20 +853,20 @@
       },
       {
         "id": "ifm66",
-        "topic": "Conditionals",
-        "question": "_____ you to need assistance, there will be staff available.",
+        "topic": "Conditionals – Formal Inversion",
+        "question": "_____ you to need assistance, our staff would be available at any time.",
         "options": [
           "Should",
           "Were",
           "Had",
           "Would"
         ],
-        "correct": 0,
-        "explanation": "A inversão formal com 'should' é usada para expressar condições possíveis de forma elegante, sem o 'if'. 'Should you need' é equivalente a 'if you need' mas com tom mais formal e polido, muito comum em comunicações institucionais e documentos oficiais. Portanto, a resposta correta é SHOULD."
+        "correct": 1,
+        "explanation": "Na condicional formal sem \"if\", quando usamos a estrutura com to + verbo no infinitivo, o verbo que abre a frase é WERE: \"Were you to need assistance\" equivale a \"If you needed assistance\". Com \"should\" não usamos o \"to\" (\"Should you need\"). Portanto, a resposta correta é WERE."
       },
       {
         "id": "ifm67",
-        "topic": "Conditionals – Mixed",
+        "topic": "Mixed Conditionals",
         "question": "If she weren't so stubborn, she _____ from her mistakes earlier.",
         "options": [
           "learned",
@@ -879,7 +879,7 @@
       },
       {
         "id": "ifm68",
-        "topic": "Conditionals – Mixed",
+        "topic": "Mixed Conditionals",
         "question": "_____ he had taken the scholarship, he'd be a professor now.",
         "options": [
           "If",
@@ -892,10 +892,10 @@
       },
       {
         "id": "ifm69",
-        "topic": "Conditionals – Mixed",
+        "topic": "Mixed Conditionals",
         "question": "If I had chosen medicine instead of law, I _____ as a doctor now.",
         "options": [
-          "would work",
+          "will work",
           "work",
           "would be working",
           "had worked"
@@ -905,7 +905,7 @@
       },
       {
         "id": "ifm70",
-        "topic": "Conditionals – Mixed",
+        "topic": "Mixed Conditionals",
         "question": "Were he better organized, he _____ so many opportunities last year.",
         "options": [
           "hadn't wasted",
@@ -915,12 +915,532 @@
         ],
         "correct": 2,
         "explanation": "Neste condicional misto, a condição invertida está no presente ('were he better organized' = se ele fosse mais organizado) e o resultado está no passado. Usamos 'were' na condição invertida e 'would have + particípio' no resultado para indicar o que teria sido diferente no passado. Portanto, a resposta correta é WOULDN'T HAVE WASTED."
+      },
+      {
+        "id": "ifm71",
+        "topic": "Used To / Be Used To",
+        "question": "My grandfather _____ walk five kilometers to school every morning.",
+        "options": [
+          "used to",
+          "was used to",
+          "is used to",
+          "uses to"
+        ],
+        "correct": 0,
+        "explanation": "Para falar de um hábito que existia no passado e não existe mais, usamos USED TO + verbo no infinitivo. \"Be used to\" é diferente: significa estar acostumado, e vem seguido de verbo com -ing. Aqui a frase conta o que o avô fazia todo dia quando era jovem. Portanto, a resposta correta é USED TO."
+      },
+      {
+        "id": "ifm72",
+        "topic": "Used To / Be Used To",
+        "question": "I live in Alaska, so I _____ cold weather.",
+        "options": [
+          "am used to",
+          "used to",
+          "use to",
+          "am used to be"
+        ],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que já estamos acostumados com alguma coisa, usamos BE USED TO + substantivo ou verbo com -ing. Quem mora no Alasca está acostumado com o frio, não é um hábito que ficou no passado. Portanto, a resposta correta é AM USED TO."
+      },
+      {
+        "id": "ifm73",
+        "topic": "Used To / Be Used To",
+        "question": "Leo _____ in English all day. All his clients are American.",
+        "options": [
+          "is used to talking",
+          "is used to talk",
+          "used to talking",
+          "uses to talk"
+        ],
+        "correct": 0,
+        "explanation": "Depois de BE USED TO o verbo vem sempre com -ing, porque o \"to\" aqui é preposição, não parte do infinitivo. A frase diz que falar inglês o dia todo é normal para o Leo. Portanto, a resposta correta é IS USED TO TALKING."
+      },
+      {
+        "id": "ifm74",
+        "topic": "Used To / Be Used To",
+        "question": "We didn't _____ email our school reports to the teacher, but now we do.",
+        "options": [
+          "use to",
+          "used to",
+          "be used to",
+          "using to"
+        ],
+        "correct": 0,
+        "explanation": "Na forma negativa e na interrogativa, o \"did\" já marca o passado e o verbo volta para a forma simples: USE TO, sem o -d. Portanto, a resposta correta é USE TO."
+      },
+      {
+        "id": "ifm75",
+        "topic": "Used To / Be Used To",
+        "question": "When I moved to Japan, soy soup for breakfast seemed weird, but I _____ it.",
+        "options": [
+          "am getting used to",
+          "am getting used",
+          "used to get",
+          "get used"
+        ],
+        "correct": 0,
+        "explanation": "GET USED TO indica um processo: a pessoa ainda não está acostumada, mas está ficando. A frase mostra exatamente essa mudança em andamento. Portanto, a resposta correta é AM GETTING USED TO."
+      },
+      {
+        "id": "ifm76",
+        "topic": "Future Continuous",
+        "question": "This time tomorrow, we _____ over the Atlantic.",
+        "options": [
+          "will be flying",
+          "will fly",
+          "will have flown",
+          "are flying"
+        ],
+        "correct": 0,
+        "explanation": "Para descrever uma ação que estará acontecendo em um momento determinado do futuro usamos o future continuous: will + be + verbo com -ing. A expressão \"this time tomorrow\" marca esse momento exato. Portanto, a resposta correta é WILL BE FLYING."
+      },
+      {
+        "id": "ifm77",
+        "topic": "Future Continuous",
+        "question": "Don't call me at 8 p.m. — I _____ dinner with my in-laws.",
+        "options": [
+          "will be having",
+          "will have",
+          "will have had",
+          "have"
+        ],
+        "correct": 0,
+        "explanation": "O jantar estará em andamento às 8 da noite, e é por isso que a pessoa pede para não ligar naquele horário. Ação em progresso em um ponto do futuro pede will + be + -ing. Portanto, a resposta correta é WILL BE HAVING."
+      },
+      {
+        "id": "ifm78",
+        "topic": "Future Continuous",
+        "question": "One hundred years from now, tourists _____ trips to outer space.",
+        "options": [
+          "will be taking",
+          "will take",
+          "will have taken",
+          "are taking"
+        ],
+        "correct": 0,
+        "explanation": "A frase descreve como será a rotina dos turistas daqui a cem anos, uma cena acontecendo naquele momento futuro. Esse é o uso do future continuous. Portanto, a resposta correta é WILL BE TAKING."
+      },
+      {
+        "id": "ifm79",
+        "topic": "Future Continuous",
+        "question": "By Friday I _____ the report, and on Saturday I _____ on the beach.",
+        "options": [
+          "will have finished / will be lying",
+          "will finish / will lie",
+          "will be finishing / will have lain",
+          "will have been finishing / will lie"
+        ],
+        "correct": 0,
+        "explanation": "São dois usos diferentes na mesma frase: com BY (até certo momento) usamos o future perfect, porque a ação estará concluída; para descrever a cena de sábado, em andamento, usamos o future continuous. Portanto, a resposta correta é WILL HAVE FINISHED / WILL BE LYING."
+      },
+      {
+        "id": "ifm80",
+        "topic": "Future Continuous",
+        "question": "At midnight, the technicians _____ the new system.",
+        "options": [
+          "will still be testing",
+          "will still test",
+          "still test",
+          "will have still tested"
+        ],
+        "correct": 0,
+        "explanation": "O advérbio \"still\" reforça que o teste continuará acontecendo à meia-noite, ou seja, uma ação em progresso naquele horário. Portanto, a resposta correta é WILL STILL BE TESTING."
+      },
+      {
+        "id": "ifm81",
+        "topic": "Compound Adjectives",
+        "question": "How do you call a lake made by man?",
+        "options": [
+          "a man-made lake",
+          "a made-man lake",
+          "a man-make lake",
+          "a lake man-made"
+        ],
+        "correct": 0,
+        "explanation": "O adjetivo composto junta duas palavras com hífen e vem antes do substantivo. A ordem segue a ideia \"feito pelo homem\": man + made. Portanto, a resposta correta é A MAN-MADE LAKE."
+      },
+      {
+        "id": "ifm82",
+        "topic": "Compound Adjectives",
+        "question": "How do you call a trip that lasts 10 days?",
+        "options": [
+          "a 10-day trip",
+          "a 10-days trip",
+          "a trip 10-day",
+          "a 10 days-trip"
+        ],
+        "correct": 0,
+        "explanation": "Quando o número vira parte de um adjetivo composto, o substantivo fica no SINGULAR: 10-day, e não 10-days. Portanto, a resposta correta é A 10-DAY TRIP."
+      },
+      {
+        "id": "ifm83",
+        "topic": "Compound Adjectives",
+        "question": "How do you call alligators that are four meters long?",
+        "options": [
+          "four-meter-long alligators",
+          "four-meters-long alligators",
+          "four-long-meter alligators",
+          "alligators four-meter-long"
+        ],
+        "correct": 0,
+        "explanation": "Mesmo com três palavras, o adjetivo composto mantém o substantivo da medida no singular e vem antes do substantivo principal. Portanto, a resposta correta é FOUR-METER-LONG ALLIGATORS."
+      },
+      {
+        "id": "ifm84",
+        "topic": "Compound Adjectives",
+        "question": "How do you call a battery that works on solar power?",
+        "options": [
+          "a solar-powered battery",
+          "a solar-powering battery",
+          "a powered-solar battery",
+          "a battery solar-power"
+        ],
+        "correct": 0,
+        "explanation": "Quando o adjetivo composto descreve algo que recebe a ação, usamos o particípio: powered (movido a). Portanto, a resposta correta é A SOLAR-POWERED BATTERY."
+      },
+      {
+        "id": "ifm85",
+        "topic": "Compound Adjectives",
+        "question": "How do you call a situation that threatens someone's life?",
+        "options": [
+          "a life-threatening situation",
+          "a life-threatened situation",
+          "a threatening-life situation",
+          "a situation life-threatening"
+        ],
+        "correct": 0,
+        "explanation": "Aqui a situação é quem ameaça, então o adjetivo composto usa o -ing: threatening. Portanto, a resposta correta é A LIFE-THREATENING SITUATION."
+      },
+      {
+        "id": "ifm86",
+        "topic": "Emphatic Forms – Do/Does/Did",
+        "question": "I know you don't believe me, but those twin brothers _____ have a talent for drawing.",
+        "options": [
+          "do",
+          "does",
+          "did",
+          "are"
+        ],
+        "correct": 0,
+        "explanation": "Para dar ênfase a uma frase afirmativa no presente, colocamos DO/DOES antes do verbo principal, que fica na forma simples. Com \"those twin brothers\" (they) usamos DO. Portanto, a resposta correta é DO."
+      },
+      {
+        "id": "ifm87",
+        "topic": "Emphatic Forms – Do/Does/Did",
+        "question": "Margie _____ need help with her finances — she just won't admit it.",
+        "options": [
+          "does",
+          "do",
+          "did",
+          "is"
+        ],
+        "correct": 0,
+        "explanation": "Na terceira pessoa do singular, a forma enfática é DOES, e o verbo principal perde o -s: \"does need\", não \"does needs\". Portanto, a resposta correta é DOES."
+      },
+      {
+        "id": "ifm88",
+        "topic": "Emphatic Forms – Do/Does/Did",
+        "question": "They _____ believe they were doing the right thing at the time.",
+        "options": [
+          "did",
+          "do",
+          "does",
+          "were"
+        ],
+        "correct": 0,
+        "explanation": "A frase está no passado (\"at the time\"), e a ênfase no passado é feita com DID + verbo na forma simples. Portanto, a resposta correta é DID."
+      },
+      {
+        "id": "ifm89",
+        "topic": "Emphatic Forms – Do/Does/Did",
+        "question": "A: You never call me.  B: I _____ call you last night!",
+        "options": [
+          "did",
+          "do",
+          "does",
+          "have"
+        ],
+        "correct": 0,
+        "explanation": "Quem responde quer contrariar a acusação, e é justamente para isso que serve a forma enfática. Como o fato aconteceu ontem à noite, usamos DID. Portanto, a resposta correta é DID."
+      },
+      {
+        "id": "ifm90",
+        "topic": "Emphatic Forms – Do/Does/Did",
+        "question": "_____ come in! We've been waiting for you all afternoon.",
+        "options": [
+          "Do",
+          "Does",
+          "Did",
+          "Are"
+        ],
+        "correct": 0,
+        "explanation": "O imperativo também pode ser enfatizado, e nesse caso ele começa com DO, que aqui soa como um convite caloroso. Portanto, a resposta correta é DO."
+      },
+      {
+        "id": "ifm91",
+        "topic": "Reflexive and Intensive Pronouns",
+        "question": "Luke cut _____ while he was cooking.",
+        "options": [
+          "himself",
+          "him",
+          "his",
+          "themselves"
+        ],
+        "correct": 0,
+        "explanation": "Quando quem pratica e quem recebe a ação são a mesma pessoa, usamos o pronome reflexivo. O Luke cortou o próprio Luke. Portanto, a resposta correta é HIMSELF."
+      },
+      {
+        "id": "ifm92",
+        "topic": "Reflexive and Intensive Pronouns",
+        "question": "The doctor _____ gave the patient the injection.",
+        "options": [
+          "herself",
+          "her",
+          "hers",
+          "she"
+        ],
+        "correct": 0,
+        "explanation": "Aqui o pronome não recebe a ação: ele só reforça quem fez, é o pronome intensivo. A forma é a mesma do reflexivo e fica logo depois do sujeito. Portanto, a resposta correta é HERSELF."
+      },
+      {
+        "id": "ifm93",
+        "topic": "Reflexive and Intensive Pronouns",
+        "question": "We intend to decorate the new flat _____.",
+        "options": [
+          "ourselves",
+          "ourself",
+          "us",
+          "themselves"
+        ],
+        "correct": 0,
+        "explanation": "O pronome intensivo no fim da frase reforça que ninguém mais vai fazer o trabalho. A forma da primeira pessoa do plural é OURSELVES, com -ves. Portanto, a resposta correta é OURSELVES."
+      },
+      {
+        "id": "ifm94",
+        "topic": "Reflexive and Intensive Pronouns",
+        "question": "Do you ever talk to _____ when you are nervous?",
+        "options": [
+          "yourself",
+          "you",
+          "your",
+          "yourselves"
+        ],
+        "correct": 0,
+        "explanation": "A pessoa fala com ela mesma, então o pronome é reflexivo. Como \"you\" aqui é uma pessoa só, a forma é no singular. Portanto, a resposta correta é YOURSELF."
+      },
+      {
+        "id": "ifm95",
+        "topic": "Reflexive and Intensive Pronouns",
+        "question": "The sculpture _____ was two meters high.",
+        "options": [
+          "itself",
+          "himself",
+          "themselves",
+          "it"
+        ],
+        "correct": 0,
+        "explanation": "O pronome intensivo reforça o sujeito da frase. Como a escultura é uma coisa, no singular, a forma é ITSELF. Portanto, a resposta correta é ITSELF."
+      },
+      {
+        "id": "ifm96",
+        "topic": "Subjunctive – Wish / If + Were",
+        "question": "I wish I _____ more active.",
+        "options": [
+          "were",
+          "am",
+          "will be",
+          "being"
+        ],
+        "correct": 0,
+        "explanation": "Depois de WISH, quando falamos de algo que gostaríamos que fosse diferente agora, usamos o subjuntivo WERE — inclusive com I, he, she e it. Portanto, a resposta correta é WERE."
+      },
+      {
+        "id": "ifm97",
+        "topic": "Subjunctive – Wish / If + Were",
+        "question": "If I _____ you, I wouldn't miss any more classes.",
+        "options": [
+          "were",
+          "am",
+          "be",
+          "would be"
+        ],
+        "correct": 0,
+        "explanation": "Em situações hipotéticas depois de IF, a forma do verbo to be é sempre WERE, não importa a pessoa. É a fórmula do conselho \"if I were you\". Portanto, a resposta correta é WERE."
+      },
+      {
+        "id": "ifm98",
+        "topic": "Subjunctive – Wish / If + Were",
+        "question": "_____ for the small bathroom, this flat would be perfect.",
+        "options": [
+          "If it weren't",
+          "If it isn't",
+          "If it won't be",
+          "If it not being"
+        ],
+        "correct": 0,
+        "explanation": "A expressão \"if it weren't for…\" apresenta o único obstáculo a uma situação ideal, e usa o subjuntivo WEREN'T. Portanto, a resposta correta é IF IT WEREN'T."
+      },
+      {
+        "id": "ifm99",
+        "topic": "Subjunctive – Wish / If + Were",
+        "question": "She walks as if she _____ a model.",
+        "options": [
+          "were",
+          "is",
+          "be",
+          "would be"
+        ],
+        "correct": 0,
+        "explanation": "A expressão \"as if\" faz uma comparação com algo que não é real: ela não é modelo, só anda como se fosse. Comparação hipotética pede WERE. Portanto, a resposta correta é WERE."
+      },
+      {
+        "id": "ifm100",
+        "topic": "Subjunctive – Wish / If + Were",
+        "question": "Her friends wish she _____ more patient with the team.",
+        "options": [
+          "were",
+          "is",
+          "will be",
+          "being"
+        ],
+        "correct": 0,
+        "explanation": "Depois de WISH, mesmo com \"she\", o subjuntivo mantém a forma WERE. É o desejo de que a realidade fosse outra. Portanto, a resposta correta é WERE."
+      },
+      {
+        "id": "ifm101",
+        "topic": "Nouns + Particles",
+        "question": "Derek dropped out of college in his junior year. He is a college _____.",
+        "options": [
+          "dropout",
+          "drop",
+          "dropping",
+          "dropped out"
+        ],
+        "correct": 0,
+        "explanation": "Muitos phrasal verbs viram substantivo quando escritos como uma palavra só. \"To drop out\" (abandonar) vira o substantivo DROPOUT (quem abandonou). Portanto, a resposta correta é DROPOUT."
+      },
+      {
+        "id": "ifm102",
+        "topic": "Nouns + Particles",
+        "question": "Dean broke up with Brenda a year ago, but the _____ still hurts her.",
+        "options": [
+          "breakup",
+          "break",
+          "breaking",
+          "broke up"
+        ],
+        "correct": 0,
+        "explanation": "O verbo \"to break up\" (terminar um relacionamento) vira o substantivo BREAKUP, o término em si. Depois de \"the\" precisamos de um substantivo. Portanto, a resposta correta é BREAKUP."
+      },
+      {
+        "id": "ifm103",
+        "topic": "Nouns + Particles",
+        "question": "If you want to get away from the hectic life here, go to Bora-Bora. It's the perfect _____.",
+        "options": [
+          "getaway",
+          "getting away",
+          "get",
+          "goaway"
+        ],
+        "correct": 0,
+        "explanation": "O verbo \"to get away\" (escapar, fugir da rotina) vira o substantivo GETAWAY, aquela viagem curta de fuga. Portanto, a resposta correta é GETAWAY."
+      },
+      {
+        "id": "ifm104",
+        "topic": "Nouns + Particles",
+        "question": "I miss my friends. We used to spend hours at Sam's Café — it was our favorite _____.",
+        "options": [
+          "hangout",
+          "hang",
+          "hanging",
+          "hangover"
+        ],
+        "correct": 0,
+        "explanation": "De \"to hang out\" (passar tempo com os amigos) vem o substantivo HANGOUT, o lugar onde o grupo se encontra. Cuidado com \"hangover\", que é ressaca. Portanto, a resposta correta é HANGOUT."
+      },
+      {
+        "id": "ifm105",
+        "topic": "Nouns + Particles",
+        "question": "We work out at the gym three times a week. We start our _____ with some stretching.",
+        "options": [
+          "workout",
+          "work",
+          "working out",
+          "worker"
+        ],
+        "correct": 0,
+        "explanation": "O verbo \"to work out\" (malhar) vira o substantivo WORKOUT, a sessão de treino. Repare que na frase o verbo aparece separado e o substantivo, junto. Portanto, a resposta correta é WORKOUT."
+      },
+      {
+        "id": "ifm106",
+        "topic": "Zero Conditional",
+        "question": "If you mix blue and yellow, you _____ green.",
+        "options": [
+          "get",
+          "will get",
+          "would get",
+          "got"
+        ],
+        "correct": 0,
+        "explanation": "A condicional zero fala de verdades gerais e fatos científicos: sempre que uma coisa acontece, a outra acontece também. Os dois verbos ficam no presente simples. Portanto, a resposta correta é GET."
+      },
+      {
+        "id": "ifm107",
+        "topic": "Zero Conditional",
+        "question": "Water _____ if it is heated to 100 °C.",
+        "options": [
+          "boils",
+          "will boil",
+          "would boil",
+          "boiled"
+        ],
+        "correct": 0,
+        "explanation": "É um fato científico, que vale sempre. Na condicional zero os dois verbos ficam no presente simples, mesmo quando a oração com \"if\" vem depois. Portanto, a resposta correta é BOILS."
+      },
+      {
+        "id": "ifm108",
+        "topic": "Zero Conditional",
+        "question": "_____ me if you have any problems.",
+        "options": [
+          "Call",
+          "You call",
+          "Called",
+          "Will call"
+        ],
+        "correct": 0,
+        "explanation": "Quando damos uma instrução ou sugestão, a condicional usa if + presente com o IMPERATIVO na outra oração. O imperativo é o verbo na forma simples, sem sujeito. Portanto, a resposta correta é CALL."
+      },
+      {
+        "id": "ifm109",
+        "topic": "Zero Conditional",
+        "question": "If you are in doubt, _____ a decision now.",
+        "options": [
+          "don't make",
+          "you won't make",
+          "not make",
+          "wouldn't make"
+        ],
+        "correct": 0,
+        "explanation": "A instrução também pode ser negativa, e o imperativo negativo se forma com DON'T + verbo na forma simples. Portanto, a resposta correta é DON'T MAKE."
+      },
+      {
+        "id": "ifm110",
+        "topic": "Zero Conditional",
+        "question": "Metal _____ when you heat it.",
+        "options": [
+          "expands",
+          "will expand",
+          "would expand",
+          "is expanding"
+        ],
+        "correct": 0,
+        "explanation": "Com \"when\" no lugar de \"if\", a ideia de verdade geral continua a mesma: sempre que o metal é aquecido, ele se expande. Os dois verbos ficam no presente simples. Portanto, a resposta correta é EXPANDS."
       }
     ]
   },
   "final": {
     "label": "Prova do Final do Livro",
-    "topics": "Sections 1–10: Todo o conteúdo + Inversion, Gerunds vs Infinitives, Relative Pronouns, Comparatives/Superlatives, Passive Voice All Tenses, Emphatic Forms/Cleft Sentences",
+    "topics": "Lessons 6–10: Inversion, Gerunds & Infinitives, Relative Clauses, Adjectives, Passive Voice",
     "questions": [
       {
         "id": "iff01",
@@ -994,8 +1514,8 @@
         "options": [
           "why",
           "which",
-          "that",
-          "for which"
+          "what",
+          "for that"
         ],
         "correct": 0,
         "explanation": "Quando queremos explicar a razão de algo com uma segunda frase, usamos 'why' logo depois de 'reason'. Neste caso, a frase explica a razão pela qual ela foi embora, e 'why' é a palavra que conecta as duas partes. Portanto, a resposta correta é WHY."
@@ -1046,7 +1566,7 @@
         "options": [
           "which",
           "who",
-          "that",
+          "what",
           "whom"
         ],
         "correct": 1,
@@ -1135,7 +1655,7 @@
         "topic": "Conditionals – Formal Inversion",
         "question": "_____ you need any assistance, please don't hesitate to call.",
         "options": [
-          "If",
+          "Would",
           "Should",
           "Were",
           "Had"
@@ -1158,7 +1678,7 @@
       },
       {
         "id": "iff19",
-        "topic": "Emphatic Structures",
+        "topic": "Inversion – Expressions with Only",
         "question": "Only after leaving school _____ how little I knew.",
         "options": [
           "I realized",
@@ -1200,7 +1720,7 @@
         "topic": "Cleft Sentences",
         "question": "What really surprised me _____ the ending of the novel.",
         "options": [
-          "is",
+          "have been",
           "are",
           "was",
           "were"
@@ -1379,7 +1899,7 @@
       },
       {
         "id": "iff36",
-        "topic": "Inversion",
+        "topic": "Inversion – Expressions with Only",
         "question": "Only when the results were published _____ the extent of the damage.",
         "options": [
           "they understood",
@@ -1436,7 +1956,7 @@
         "options": [
           "where",
           "which",
-          "in which",
+          "what",
           "that"
         ],
         "correct": 0,
@@ -1538,7 +2058,7 @@
         "topic": "Cleft Sentences – It Is...That",
         "question": "It is the quality of her work _____ sets her apart from the others.",
         "options": [
-          "which",
+          "whose",
           "that",
           "who",
           "what"
@@ -1551,7 +2071,7 @@
         "topic": "Cleft Sentences – It Is...That",
         "question": "It was in Paris _____ they first met. (place emphasis)",
         "options": [
-          "where",
+          "who",
           "that",
           "which",
           "when"
@@ -1565,7 +2085,7 @@
         "question": "It is the government's policy _____ needs to change, not just the law.",
         "options": [
           "who",
-          "which",
+          "what",
           "that",
           "whose"
         ],
@@ -1578,7 +2098,7 @@
         "question": "It was her persistence _____ eventually led to the breakthrough.",
         "options": [
           "who",
-          "which",
+          "what",
           "that",
           "whose"
         ],
@@ -1604,8 +2124,8 @@
         "question": "What _____ was that she had been overlooked for promotion. (past emphasis)",
         "options": [
           "bothered her",
-          "was bothering her",
-          "did bother her",
+          "bothers her",
+          "bothering her",
           "has bothered her"
         ],
         "correct": 0,
@@ -1665,7 +2185,7 @@
       },
       {
         "id": "iff58",
-        "topic": "Comparatives/Superlatives – Advanced",
+        "topic": "The + Comparative… The + Comparative",
         "question": "The longer you wait, _____ it becomes to fix the problem.",
         "options": [
           "the more difficult",
@@ -1683,7 +2203,7 @@
         "options": [
           "far and away",
           "very",
-          "much",
+          "so much",
           "by much"
         ],
         "correct": 0,
@@ -1799,7 +2319,7 @@
         "question": "It _____ that the CEO has been involved in fraud.",
         "options": [
           "has alleged",
-          "is being alleged",
+          "is alleging",
           "is alleged",
           "alleges"
         ],
@@ -1874,7 +2394,7 @@
       {
         "id": "iff74",
         "topic": "Conditionals – Formal Inversion",
-        "question": "_____ there any doubt about the safety, operations must be suspended.",
+        "question": "_____ there be any doubt about the safety, operations must be suspended.",
         "options": [
           "Should",
           "Were",
@@ -1951,7 +2471,7 @@
       },
       {
         "id": "iff80",
-        "topic": "Emphatic Structures",
+        "topic": "Inversion – Negative Adverbials",
         "question": "Not until she received the letter _____ the truth.",
         "options": [
           "she knew",
@@ -1964,7 +2484,7 @@
       },
       {
         "id": "iff81",
-        "topic": "Emphatic Structures",
+        "topic": "Inversion – Expressions with Only",
         "question": "_____ did she work hard, she also volunteered in her community.",
         "options": [
           "Not only",
@@ -1977,7 +2497,7 @@
       },
       {
         "id": "iff82",
-        "topic": "Emphatic Structures",
+        "topic": "Inversion",
         "question": "So complicated _____ the instructions that nobody could follow them.",
         "options": [
           "they were",
@@ -1990,13 +2510,13 @@
       },
       {
         "id": "iff83",
-        "topic": "Emphatic Structures",
+        "topic": "Cleft Sentences – It Is...That",
         "question": "It _____ the director himself who made the final call.",
         "options": [
-          "is",
+          "are",
           "was",
           "were",
-          "has been"
+          "have been"
         ],
         "correct": 1,
         "explanation": "A estrutura 'It was... who/that' é usada para destacar um elemento específico da frase, neste caso, o sujeito da ação. Como o contexto está no passado, usamos 'was'. Esta construção enfática coloca o foco em quem tomou a decisão final. Portanto, a resposta correta é WAS."
@@ -2007,7 +2527,7 @@
         "question": "A new policy on remote work _____ discussed at headquarters this week.",
         "options": [
           "is being",
-          "has been",
+          "has being",
           "will be being",
           "is been"
         ],
@@ -2017,12 +2537,12 @@
       {
         "id": "iff85",
         "topic": "Passive Voice – Continuous",
-        "question": "When we arrived at the office, the documents _____ scanned.",
+        "question": "When we arrived at the office, the documents _____ scanned. (action in progress at that moment)",
         "options": [
           "were being",
           "are being",
           "had been being",
-          "were"
+          "was being"
         ],
         "correct": 0,
         "explanation": "O Past Continuous Passive (was/were being + particípio) descreve uma ação passiva que estava em andamento no passado. Neste caso, quando chegamos, a digitalização estava em progresso. 'Were being scanned' é a forma correta. Portanto, a resposta correta é WERE BEING."
@@ -2043,7 +2563,7 @@
       {
         "id": "iff87",
         "topic": "Passive Voice – Continuous",
-        "question": "The bridge _____ repaired for the past three months. (ongoing process right now)",
+        "question": "The bridge _____ repaired at the moment, so we have to take the long way.",
         "options": [
           "has been being",
           "is being",
@@ -2051,7 +2571,7 @@
           "has been"
         ],
         "correct": 1,
-        "explanation": "O Present Continuous Passive (is/are being + particípio) descreve uma ação passiva que está em andamento no momento presente. 'For the past three months' indica duração até agora, mas o foco é no processo contínuo atual. 'Has been being' é gramaticalmente incomum e evitado no inglês natural. Portanto, a resposta correta é IS BEING."
+        "explanation": "A passiva contínua descreve uma ação que está em andamento agora: be + being + particípio. \"At the moment\" marca esse agora. Portanto, a resposta correta é IS BEING."
       },
       {
         "id": "iff88",
@@ -2110,8 +2630,8 @@
         "topic": "Cleft Sentences",
         "question": "It _____ the lack of communication that caused the project to fail.",
         "options": [
-          "has been",
-          "is",
+          "have been",
+          "are",
           "was",
           "were"
         ],
@@ -2134,15 +2654,15 @@
       {
         "id": "iff94",
         "topic": "Cleft Sentences",
-        "question": "What the negotiators failed to account for _____ the cultural differences between the parties.",
+        "question": "What the negotiators failed to account for _____ the cultural gap between the parties.",
         "options": [
-          "is",
+          "have been",
           "was",
           "were",
           "are"
         ],
         "correct": 1,
-        "explanation": "Na estrutura cleft com 'what', o verbo principal é frequentemente determinado pelo contexto temporal e pelo predicativo. O contexto aqui é passado e 'what... failed to account for' é uma oração nominal que atua como sujeito singular. 'Was' é a forma mais aceita no inglês formal. Portanto, a resposta correta é WAS."
+        "explanation": "No wh-cleft, o verbo concorda com o complemento que vem depois. Como \"the cultural gap\" está no singular e a frase é sobre algo que já aconteceu, o verbo fica no passado singular. Portanto, a resposta correta é WAS."
       },
       {
         "id": "iff95",
@@ -2156,6 +2676,721 @@
         ],
         "correct": 1,
         "explanation": "Na estrutura 'What + sujeito + verbo...', a ordem depois de 'what' é sempre a ordem direta (sujeito + verbo), sem inversão. A oração 'what we need' funciona como sujeito nominal da frase e coloca ênfase no que é necessário. Portanto, a resposta correta é WE NEED."
+      },
+      {
+        "id": "iff96",
+        "topic": "Inversion – Expressions with Only",
+        "question": "Only through hands-on experience _____ actually learn the ropes.",
+        "options": [
+          "can you",
+          "you can",
+          "you could",
+          "could to you"
+        ],
+        "correct": 0,
+        "explanation": "Quando a frase começa com uma expressão com ONLY, o verbo auxiliar passa na frente do sujeito, como numa pergunta. Por isso dizemos \"can you\", e não \"you can\". Portanto, a resposta correta é CAN YOU."
+      },
+      {
+        "id": "iff97",
+        "topic": "Inversion – Expressions with Only",
+        "question": "Only then _____ allowed to join the team.",
+        "options": [
+          "was I",
+          "I was",
+          "did I",
+          "I did"
+        ],
+        "correct": 0,
+        "explanation": "Depois de \"only then\" vem a inversão. Como o verbo da frase é o to be no passado, é ele mesmo que passa na frente do sujeito: was I. Portanto, a resposta correta é WAS I."
+      },
+      {
+        "id": "iff98",
+        "topic": "Inversion – Expressions with Only",
+        "question": "Only after a couple of days _____ the complexity of the task.",
+        "options": [
+          "did we realize",
+          "we realized",
+          "we did realize",
+          "realized we"
+        ],
+        "correct": 0,
+        "explanation": "A frase está no passado simples e não tem auxiliar próprio, então a inversão usa DID + sujeito + verbo na forma simples. Portanto, a resposta correta é DID WE REALIZE."
+      },
+      {
+        "id": "iff99",
+        "topic": "Inversion – Expressions with Only",
+        "question": "Not only _____ the bug in the app, but he also solved it.",
+        "options": [
+          "did he find",
+          "he found",
+          "he did find",
+          "found he"
+        ],
+        "correct": 0,
+        "explanation": "\"Not only\" no início da frase também exige inversão, e no passado simples ela é feita com DID. A segunda parte costuma vir com \"but… also\". Portanto, a resposta correta é DID HE FIND."
+      },
+      {
+        "id": "iff100",
+        "topic": "Inversion – Expressions with Only",
+        "question": "Only if the board approves _____ ahead with the merger.",
+        "options": [
+          "will we go",
+          "we will go",
+          "we go",
+          "go we"
+        ],
+        "correct": 0,
+        "explanation": "A inversão acontece na oração principal, não na oração com \"only if\". Como o verbo está no futuro, o auxiliar \"will\" é que passa na frente do sujeito. Portanto, a resposta correta é WILL WE GO."
+      },
+      {
+        "id": "iff101",
+        "topic": "Homographs",
+        "question": "Alice inserted the flash _____ and copied the file. / Chloe can _____ a car, but not a truck. (the same word in both)",
+        "options": [
+          "drive",
+          "driver",
+          "drove",
+          "driving"
+        ],
+        "correct": 0,
+        "explanation": "Homógrafos são palavras escritas do mesmo jeito com significados diferentes. DRIVE é tanto o dispositivo de memória quanto o verbo dirigir. Portanto, a resposta correta é DRIVE."
+      },
+      {
+        "id": "iff102",
+        "topic": "Homographs",
+        "question": "He used a _____ to cut a piece of wood. / She _____ the sun set behind the mountains. (the same word in both)",
+        "options": [
+          "saw",
+          "seen",
+          "sew",
+          "sawed"
+        ],
+        "correct": 0,
+        "explanation": "SAW é ao mesmo tempo o substantivo serrote e o passado do verbo \"see\". A mesma escrita serve para as duas frases. Portanto, a resposta correta é SAW."
+      },
+      {
+        "id": "iff103",
+        "topic": "Homographs",
+        "question": "Which word means both 'an animal that flies at night' and 'a piece of equipment used in baseball'?",
+        "options": [
+          "bat",
+          "rat",
+          "bad",
+          "beat"
+        ],
+        "correct": 0,
+        "explanation": "BAT é o morcego e também o taco de beisebol — duas coisas sem nenhuma relação, com a mesma escrita. Portanto, a resposta correta é BAT."
+      },
+      {
+        "id": "iff104",
+        "topic": "Homographs",
+        "question": "Which word means both 'a heavy metal' and 'to guide a group of people'?",
+        "options": [
+          "lead",
+          "led",
+          "lend",
+          "load"
+        ],
+        "correct": 0,
+        "explanation": "LEAD é o chumbo e também o verbo liderar. Repare que a pronúncia muda, mas a escrita é a mesma. Portanto, a resposta correta é LEAD."
+      },
+      {
+        "id": "iff105",
+        "topic": "Homographs",
+        "question": "Which word means both 'a basin in the kitchen' and 'to go down below the surface of water'?",
+        "options": [
+          "sink",
+          "sank",
+          "sing",
+          "sunk"
+        ],
+        "correct": 0,
+        "explanation": "SINK é a pia da cozinha e também o verbo afundar. Portanto, a resposta correta é SINK."
+      },
+      {
+        "id": "iff106",
+        "topic": "Verb + Object + Infinitive",
+        "question": "We expect _____ on time.",
+        "options": [
+          "you to arrive",
+          "you arriving",
+          "that you arriving",
+          "you arrive"
+        ],
+        "correct": 0,
+        "explanation": "Verbos como expect, want, ask e tell pedem objeto + to + verbo no infinitivo. Primeiro vem quem faz a ação, depois o infinitivo com \"to\". Portanto, a resposta correta é YOU TO ARRIVE."
+      },
+      {
+        "id": "iff107",
+        "topic": "Verb + Object + Infinitive",
+        "question": "They forced _____ severe measures.",
+        "options": [
+          "us to take",
+          "us taking",
+          "that we taking",
+          "us take"
+        ],
+        "correct": 0,
+        "explanation": "O verbo \"force\" segue o mesmo padrão: objeto + to-infinitive. Portanto, a resposta correta é US TO TAKE."
+      },
+      {
+        "id": "iff108",
+        "topic": "Verb + Object + Infinitive",
+        "question": "My friends want _____ their NGO.",
+        "options": [
+          "me to join",
+          "me joining",
+          "that I joining",
+          "me join"
+        ],
+        "correct": 0,
+        "explanation": "Em inglês não se diz \"want that I join\": quando quem faz a ação é outra pessoa, usamos want + objeto + to-infinitive. Portanto, a resposta correta é ME TO JOIN."
+      },
+      {
+        "id": "iff109",
+        "topic": "Verb + Object + Infinitive",
+        "question": "The teacher reminded _____ the homework by Friday.",
+        "options": [
+          "us to hand in",
+          "us handing in",
+          "that we handing in",
+          "us hand in"
+        ],
+        "correct": 0,
+        "explanation": "\"Remind\" também entra na lista de verbos que pedem objeto + to-infinitive. Portanto, a resposta correta é US TO HAND IN."
+      },
+      {
+        "id": "iff110",
+        "topic": "Verb + Object + Infinitive",
+        "question": "Nobody could persuade _____ his mind.",
+        "options": [
+          "him to change",
+          "him changing",
+          "that he changing",
+          "him change"
+        ],
+        "correct": 0,
+        "explanation": "\"Persuade\" segue o padrão objeto + to-infinitive: convencer alguém A fazer algo. Portanto, a resposta correta é HIM TO CHANGE."
+      },
+      {
+        "id": "iff111",
+        "topic": "Possessive + Gerund",
+        "question": "_____ showing up for the meeting was completely unexpected. (formal English)",
+        "options": [
+          "Their",
+          "They",
+          "Them",
+          "Theirs"
+        ],
+        "correct": 0,
+        "explanation": "Quando o gerúndio funciona como sujeito da frase e pertence a alguém, usamos o adjetivo possessivo antes dele. Portanto, a resposta correta é THEIR."
+      },
+      {
+        "id": "iff112",
+        "topic": "Possessive + Gerund",
+        "question": "I can't explain _____ leaving her job for a lower salary.",
+        "options": [
+          "her",
+          "she",
+          "hers",
+          "herself"
+        ],
+        "correct": 0,
+        "explanation": "O que não se explica não é a pessoa, é o fato de ela ter saído do emprego. Por isso o gerúndio vem precedido do possessivo. Portanto, a resposta correta é HER."
+      },
+      {
+        "id": "iff113",
+        "topic": "Possessive + Gerund",
+        "question": "Which is the correct possessive form before the gerund? 'The _____ winning the game made the whole school proud.' (more than one boy)",
+        "options": [
+          "boys'",
+          "boy's",
+          "boys's",
+          "boyses'"
+        ],
+        "correct": 0,
+        "explanation": "Antes do gerúndio, o substantivo vai para o caso genitivo. Com plural terminado em -s, o genitivo leva só o apóstrofo depois do s: boys'. \"Boy's\" seria um menino só. Portanto, a resposta correta é BOYS'."
+      },
+      {
+        "id": "iff114",
+        "topic": "Possessive + Gerund",
+        "question": "Did you hear about _____ becoming the new boss? (formal English)",
+        "options": [
+          "Roy's",
+          "Roy",
+          "Roys",
+          "Roy is"
+        ],
+        "correct": 0,
+        "explanation": "Com nome próprio no singular, o caso genitivo é apóstrofo + s antes do gerúndio. Portanto, a resposta correta é ROY'S."
+      },
+      {
+        "id": "iff115",
+        "topic": "Possessive + Gerund",
+        "question": "_____ arriving late ruined the whole presentation. (formal English)",
+        "options": [
+          "His",
+          "He",
+          "Him",
+          "He is"
+        ],
+        "correct": 0,
+        "explanation": "O sujeito da frase é o atraso dele, não ele. Gerúndio como sujeito pede o adjetivo possessivo. Portanto, a resposta correta é HIS."
+      },
+      {
+        "id": "iff116",
+        "topic": "Relative Pronouns – Omission",
+        "question": "In which sentence can the relative pronoun be left out?",
+        "options": [
+          "The manuscript that we found in the cave will be auctioned.",
+          "The man who is wearing a gray suit donated the money.",
+          "She wrote a book which sold 100,000 copies.",
+          "Venice, which I visited last summer, is fascinating."
+        ],
+        "correct": 0,
+        "explanation": "O pronome relativo só pode ser omitido quando ele é OBJETO da oração relativa. Em \"the manuscript that we found\", quem encontrou foi \"we\", então \"that\" é objeto e pode sair. Nas outras, o pronome é sujeito ou a oração é explicativa. Portanto, a resposta correta é a primeira."
+      },
+      {
+        "id": "iff117",
+        "topic": "Relative Pronouns – Omission",
+        "question": "The relative pronoun can be omitted when it is the _____ of the relative clause.",
+        "options": [
+          "object",
+          "subject",
+          "verb",
+          "antecedent"
+        ],
+        "correct": 0,
+        "explanation": "A regra é simples: se logo depois do pronome vier outro sujeito, ele é objeto e pode ser omitido. Se vier o verbo, ele é sujeito e precisa ficar. Portanto, a resposta correta é OBJECT."
+      },
+      {
+        "id": "iff118",
+        "topic": "Relative Pronouns – Omission",
+        "question": "'The man who is wearing a gray suit donated the money.' Can WHO be omitted?",
+        "options": [
+          "No, because it is the subject of the relative clause.",
+          "Yes, because it refers to a person.",
+          "Yes, because there is no comma.",
+          "Yes, relative pronouns can always be omitted."
+        ],
+        "correct": 0,
+        "explanation": "Quem está de terno cinza é o próprio homem, ou seja, \"who\" é o sujeito de \"is wearing\". Sujeito nunca pode ser omitido, senão a oração fica sem quem pratica a ação. Portanto, a resposta correta é a primeira."
+      },
+      {
+        "id": "iff119",
+        "topic": "Relative Pronouns – Omission",
+        "question": "Choose the sentence with a correct omission.",
+        "options": [
+          "The man you talked to at the conference is our new editor.",
+          "The woman lives next door is a doctor.",
+          "The book sold a million copies is hers.",
+          "The man is wearing a gray suit donated it."
+        ],
+        "correct": 0,
+        "explanation": "Só a primeira omite um pronome que era objeto (\"the man whom you talked to\"). Nas outras três, o pronome omitido era sujeito, e a frase fica com dois verbos sem ligação. Portanto, a resposta correta é a primeira."
+      },
+      {
+        "id": "iff120",
+        "topic": "Relative Pronouns – Omission",
+        "question": "The film _____ we watched last night won three awards. (Which option is NOT possible?)",
+        "options": [
+          "what",
+          "that",
+          "which",
+          "— (no pronoun)"
+        ],
+        "correct": 0,
+        "explanation": "Para coisas usamos \"that\" ou \"which\", e como o pronome é objeto ele também pode simplesmente sair. O que não existe em oração relativa é \"what\". Portanto, a resposta correta é WHAT."
+      },
+      {
+        "id": "iff121",
+        "topic": "Relative Clauses – Special Use of Which",
+        "question": "The fans hated the book, _____ made her cry.",
+        "options": [
+          "which",
+          "that",
+          "what",
+          "who"
+        ],
+        "correct": 0,
+        "explanation": "Aqui o pronome não se refere a uma palavra só, mas à frase inteira: o que a fez chorar foi o fato de os fãs odiarem o livro. Nesse uso especial, usamos sempre WHICH, depois de vírgula. Portanto, a resposta correta é WHICH."
+      },
+      {
+        "id": "iff122",
+        "topic": "Relative Clauses – Special Use of Which",
+        "question": "He arrived two hours late, _____ annoyed everyone at the meeting.",
+        "options": [
+          "which",
+          "that",
+          "what",
+          "who"
+        ],
+        "correct": 0,
+        "explanation": "O que irritou todo mundo foi o atraso, ou seja, a ideia toda da primeira oração. Comentário sobre a frase inteira pede WHICH. Portanto, a resposta correta é WHICH."
+      },
+      {
+        "id": "iff123",
+        "topic": "Relative Clauses – Special Use of Which",
+        "question": "In 'Trisha read a book that made her cry', what made Trisha cry?",
+        "options": [
+          "the book",
+          "the fact that she read a book",
+          "the crying",
+          "the reading habit"
+        ],
+        "correct": 0,
+        "explanation": "Sem vírgula, o pronome se refere só à palavra anterior — no caso, o livro. Se houvesse vírgula e \"which\", o sentido mudaria para o fato de ela ter lido. Portanto, a resposta correta é THE BOOK."
+      },
+      {
+        "id": "iff124",
+        "topic": "Relative Clauses – Special Use of Which",
+        "question": "She was promoted last week, _____ came as a surprise to nobody.",
+        "options": [
+          "which",
+          "that",
+          "what",
+          "it"
+        ],
+        "correct": 0,
+        "explanation": "A surpresa (ou a falta dela) é sobre a promoção inteira, não sobre uma palavra específica. Uso especial do WHICH. Portanto, a resposta correta é WHICH."
+      },
+      {
+        "id": "iff125",
+        "topic": "Relative Clauses – Special Use of Which",
+        "question": "Which relative pronoun can NOT be used in a non-defining relative clause?",
+        "options": [
+          "that",
+          "which",
+          "who",
+          "whose"
+        ],
+        "correct": 0,
+        "explanation": "Nas orações relativas explicativas, entre vírgulas, o pronome THAT não é aceito. Usamos which, who ou whose. Portanto, a resposta correta é THAT."
+      },
+      {
+        "id": "iff126",
+        "topic": "Confusing Words",
+        "question": "Jenny _____ she is happy with her job, but I know she _____ to quit it soon. (intend / pretend)",
+        "options": [
+          "pretends / intends",
+          "intends / pretends",
+          "pretends / pretends",
+          "intends / intends"
+        ],
+        "correct": 0,
+        "explanation": "\"Pretend\" é fingir, e \"intend\" é pretender, ter a intenção. Ela finge estar feliz, mas pretende sair. Portanto, a resposta correta é PRETENDS / INTENDS."
+      },
+      {
+        "id": "iff127",
+        "topic": "Confusing Words",
+        "question": "Linda always uses reason to make a decision. She is the _____ sister, while Karen is the _____ one.",
+        "options": [
+          "sensible / sensitive",
+          "sensitive / sensible",
+          "sensible / sensible",
+          "sensitive / sensitive"
+        ],
+        "correct": 0,
+        "explanation": "\"Sensible\" é sensato, quem decide pela razão; \"sensitive\" é sensível, quem se emociona com facilidade. Portanto, a resposta correta é SENSIBLE / SENSITIVE."
+      },
+      {
+        "id": "iff128",
+        "topic": "Confusing Words",
+        "question": "Nick got the mail that was _____ on the floor, locked the door and _____ his keys on the table. (lay / lie)",
+        "options": [
+          "lying / laid",
+          "laying / lay",
+          "lying / lay",
+          "laid / lying"
+        ],
+        "correct": 0,
+        "explanation": "\"Lie\" (lie – lay – lain) é estar deitado, não leva objeto: a correspondência estava no chão. \"Lay\" (lay – laid – laid) é colocar alguma coisa em algum lugar. Portanto, a resposta correta é LYING / LAID."
+      },
+      {
+        "id": "iff129",
+        "topic": "Confusing Words",
+        "question": "I know I should be more _____, especially now that the _____ situation is so unstable.",
+        "options": [
+          "economical / economic",
+          "economic / economical",
+          "economical / economical",
+          "economic / economic"
+        ],
+        "correct": 0,
+        "explanation": "\"Economical\" é econômico no sentido de gastar pouco; \"economic\" se refere à economia como área. Portanto, a resposta correta é ECONOMICAL / ECONOMIC."
+      },
+      {
+        "id": "iff130",
+        "topic": "Confusing Words",
+        "question": "A: Can I _____ your phone?  B: Sorry. That's the only thing I never _____ to anyone.",
+        "options": [
+          "borrow / lend",
+          "lend / borrow",
+          "borrow / borrow",
+          "lend / lend"
+        ],
+        "correct": 0,
+        "explanation": "\"Borrow\" é pegar emprestado (quem recebe) e \"lend\" é emprestar (quem dá). Quem pede usa borrow; quem tem o telefone usa lend. Portanto, a resposta correta é BORROW / LEND."
+      },
+      {
+        "id": "iff131",
+        "topic": "The + Comparative… The + Comparative",
+        "question": "_____ a band is, the harder it is to get concert tickets.",
+        "options": [
+          "The more famous",
+          "The most famous",
+          "More famous",
+          "The famous more"
+        ],
+        "correct": 0,
+        "explanation": "Nessa estrutura, as duas partes começam com THE + comparativo, mostrando que uma mudança acompanha a outra. \"Famous\" é adjetivo longo, então o comparativo é \"more famous\". Portanto, a resposta correta é THE MORE FAMOUS."
+      },
+      {
+        "id": "iff132",
+        "topic": "The + Comparative… The + Comparative",
+        "question": "The sooner, _____.",
+        "options": [
+          "the better",
+          "the best",
+          "better",
+          "more better"
+        ],
+        "correct": 0,
+        "explanation": "É a versão reduzida da estrutura, muito comum na fala. O comparativo irregular de \"good\" é \"better\", sempre precedido de \"the\". Portanto, a resposta correta é THE BETTER."
+      },
+      {
+        "id": "iff133",
+        "topic": "The + Comparative… The + Comparative",
+        "question": "_____ the music, the more they like it.",
+        "options": [
+          "The louder",
+          "The loudest",
+          "Louder",
+          "More loud"
+        ],
+        "correct": 0,
+        "explanation": "\"Loud\" é adjetivo curto, então o comparativo recebe -er, e a estrutura exige \"the\" na frente. Portanto, a resposta correta é THE LOUDER."
+      },
+      {
+        "id": "iff134",
+        "topic": "The + Comparative… The + Comparative",
+        "question": "The more you practice, _____ you become.",
+        "options": [
+          "the more confident",
+          "the most confident",
+          "more confident",
+          "the confident more"
+        ],
+        "correct": 0,
+        "explanation": "A segunda parte repete a fórmula THE + comparativo. Como \"confident\" é adjetivo longo, usamos \"more confident\". Portanto, a resposta correta é THE MORE CONFIDENT."
+      },
+      {
+        "id": "iff135",
+        "topic": "The + Comparative… The + Comparative",
+        "question": "_____ we leave, the less traffic we will face.",
+        "options": [
+          "The earlier",
+          "The earliest",
+          "Earlier",
+          "More early"
+        ],
+        "correct": 0,
+        "explanation": "Adjetivos e advérbios terminados em -y trocam o y por -ier no comparativo, e a estrutura pede \"the\" antes. Portanto, a resposta correta é THE EARLIER."
+      },
+      {
+        "id": "iff136",
+        "topic": "Comparative + and + Comparative",
+        "question": "This is getting _____.",
+        "options": [
+          "better and better",
+          "best and best",
+          "more good and good",
+          "the better and better"
+        ],
+        "correct": 0,
+        "explanation": "Para mostrar que algo muda aos poucos, repetimos o comparativo ligado por \"and\". O comparativo irregular de \"good\" é \"better\". Portanto, a resposta correta é BETTER AND BETTER."
+      },
+      {
+        "id": "iff137",
+        "topic": "Comparative + and + Comparative",
+        "question": "As the show went on, the public got _____.",
+        "options": [
+          "more and more excited",
+          "more excited and excited",
+          "exciteder and exciteder",
+          "the more and more excited"
+        ],
+        "correct": 0,
+        "explanation": "Com adjetivo longo, quem se repete é o \"more\": more and more + adjetivo. Portanto, a resposta correta é MORE AND MORE EXCITED."
+      },
+      {
+        "id": "iff138",
+        "topic": "Comparative + and + Comparative",
+        "question": "The rhythm of the song gets _____ towards the end.",
+        "options": [
+          "slower and slower",
+          "more slow and slow",
+          "slowest and slowest",
+          "the slower and slower"
+        ],
+        "correct": 0,
+        "explanation": "Com adjetivo curto, repetimos a forma com -er dos dois lados do \"and\". Portanto, a resposta correta é SLOWER AND SLOWER."
+      },
+      {
+        "id": "iff139",
+        "topic": "Comparative + and + Comparative",
+        "question": "Ticket prices are becoming _____ every year.",
+        "options": [
+          "more and more expensive",
+          "expensiver and expensiver",
+          "more expensive and expensive",
+          "the more expensive"
+        ],
+        "correct": 0,
+        "explanation": "\"Expensive\" é adjetivo longo e nunca recebe -er. A repetição fica no \"more\". Portanto, a resposta correta é MORE AND MORE EXPENSIVE."
+      },
+      {
+        "id": "iff140",
+        "topic": "Comparative + and + Comparative",
+        "question": "Her health has been getting _____ since the accident.",
+        "options": [
+          "worse and worse",
+          "worst and worst",
+          "more bad and bad",
+          "badder and badder"
+        ],
+        "correct": 0,
+        "explanation": "O comparativo irregular de \"bad\" é \"worse\", e é ele que se repete. \"Worst\" é superlativo. Portanto, a resposta correta é WORSE AND WORSE."
+      },
+      {
+        "id": "iff141",
+        "topic": "Passive Voice – Two Objects",
+        "question": "She sent us a sample. → We _____ a sample.",
+        "options": [
+          "were sent",
+          "were sent to",
+          "sent",
+          "were send"
+        ],
+        "correct": 0,
+        "explanation": "Quando o verbo tem dois objetos, qualquer um dos dois pode virar sujeito da passiva. Começando pelo objeto indireto (\"us\"), não usamos preposição. Portanto, a resposta correta é WERE SENT."
+      },
+      {
+        "id": "iff142",
+        "topic": "Passive Voice – Two Objects",
+        "question": "She sent us a sample. → A sample _____ us.",
+        "options": [
+          "was sent to",
+          "was sent",
+          "sent to",
+          "were sent to"
+        ],
+        "correct": 0,
+        "explanation": "Agora quem virou sujeito foi o objeto direto (\"a sample\"), e nesse caso a pessoa que recebe precisa da preposição \"to\". Portanto, a resposta correta é WAS SENT TO."
+      },
+      {
+        "id": "iff143",
+        "topic": "Passive Voice – Two Objects",
+        "question": "The company offered Laura a promotion. → Laura _____ a promotion.",
+        "options": [
+          "was offered",
+          "was offered to",
+          "offered",
+          "has offered"
+        ],
+        "correct": 0,
+        "explanation": "Com a pessoa como sujeito da passiva, o outro objeto vem logo depois, sem preposição. Portanto, a resposta correta é WAS OFFERED."
+      },
+      {
+        "id": "iff144",
+        "topic": "Passive Voice – Two Objects",
+        "question": "They gave the winner a medal. → A medal _____ the winner.",
+        "options": [
+          "was given to",
+          "was given",
+          "gave to",
+          "were given to"
+        ],
+        "correct": 0,
+        "explanation": "Como o sujeito da passiva é a coisa (\"a medal\"), a pessoa que recebeu precisa vir com \"to\". Portanto, a resposta correta é WAS GIVEN TO."
+      },
+      {
+        "id": "iff145",
+        "topic": "Passive Voice – Two Objects",
+        "question": "Someone told me the news yesterday. → I _____ the news yesterday.",
+        "options": [
+          "was told",
+          "was told to",
+          "told",
+          "were told"
+        ],
+        "correct": 0,
+        "explanation": "Quando não se sabe ou não importa quem praticou a ação, a passiva resolve. Com a pessoa como sujeito, não entra preposição. Portanto, a resposta correta é WAS TOLD."
+      },
+      {
+        "id": "iff146",
+        "topic": "Homophones",
+        "question": "You will need two cups of _____ to make the cake.",
+        "options": [
+          "flour",
+          "flower",
+          "floor",
+          "flow"
+        ],
+        "correct": 0,
+        "explanation": "Homófonos são palavras com sons iguais e escritas diferentes. \"Flour\" é farinha e \"flower\" é flor — para o bolo, só a farinha serve. Portanto, a resposta correta é FLOUR."
+      },
+      {
+        "id": "iff147",
+        "topic": "Homophones",
+        "question": "It has been found that nicotine kills brain _____.",
+        "options": [
+          "cells",
+          "sells",
+          "sales",
+          "cellars"
+        ],
+        "correct": 0,
+        "explanation": "\"Cells\" são as células e \"sells\" é o verbo vender na terceira pessoa. O som é o mesmo. Portanto, a resposta correta é CELLS."
+      },
+      {
+        "id": "iff148",
+        "topic": "Homophones",
+        "question": "Which word is the homophone of 'weight'?",
+        "options": [
+          "wait",
+          "white",
+          "wet",
+          "weigh"
+        ],
+        "correct": 0,
+        "explanation": "\"Weight\" (peso) e \"wait\" (esperar) têm exatamente o mesmo som. Portanto, a resposta correta é WAIT."
+      },
+      {
+        "id": "iff149",
+        "topic": "Homophones",
+        "question": "Which pair of words are homophones?",
+        "options": [
+          "aloud / allowed",
+          "close / close",
+          "lead / lead",
+          "bat / bat"
+        ],
+        "correct": 0,
+        "explanation": "\"Aloud\" (em voz alta) e \"allowed\" (permitido) soam igual e se escrevem diferente: são homófonos. Os outros pares se escrevem igual, ou seja, são homógrafos. Portanto, a resposta correta é ALOUD / ALLOWED."
+      },
+      {
+        "id": "iff150",
+        "topic": "Homophones",
+        "question": "Which word is the homophone of 'through'?",
+        "options": [
+          "threw",
+          "thought",
+          "though",
+          "thorough"
+        ],
+        "correct": 0,
+        "explanation": "\"Through\" (através) e \"threw\" (passado de throw) têm o mesmo som. Cuidado com \"though\" e \"thorough\", que se parecem na escrita mas soam diferente. Portanto, a resposta correta é THREW."
       }
     ]
   }
