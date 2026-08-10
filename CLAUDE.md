@@ -95,11 +95,20 @@ simulados oficiais do MET, e estão em ordem de **peso na prova**, não de liç�
 | 10 | Tenses | 6 | Lessons 1 e 2 |
 | 11 | Relative Clauses & Passive | 4 | Lessons 8 e 10 |
 
-Consequência para este repositório: **o banco do In Focus cobre o livro, não a
-prova.** Faltam tópicos para Connectors (13), Phrasal Verbs & Prepositions (11),
-Embedded Questions & Word Order (10) e Adverbs, Modals & Tags (7) — 41 das 100
-questões de gramática do MET. O próprio guia manda o aluno usar o Quick Practice
-ao fim de cada capítulo, e para quatro capítulos não há o que praticar.
+Os quatro capítulos que não têm lição no livro — Connectors (13), Phrasal Verbs
+& Prepositions (11), Embedded Questions & Word Order (10) e Adverbs, Modals &
+Tags (7), juntos 41 das 100 questões — viraram o bloco **`met`** do
+`infocus.json`: 13 tópicos, 65 questões. No Custom Practice eles aparecem num
+grupo próprio, **"MET Study Guide"**, depois da Lesson 10.
+
+Por isso o `LESSON_MAP` aceita dois tipos de valor: **número** (lição do livro) e
+**texto** (frente própria). `ordenarGrupos()` põe as lições primeiro e as frentes
+depois; `rotuloGrupo()` decide entre "Lesson N" e o nome da frente. Chamar esses
+capítulos de "Lesson 11" seria mentira — eles não estão no livro.
+
+O bloco `met` entra no `todasQuestoes()`, então o Custom Practice e o feedback o
+enxergam. **O card Practice não**: ele lê só `midterm` + `final`, e continua
+sorteando apenas o que é conteúdo do livro.
 
 ## Phrasal Verbs — o quarto card
 

@@ -1408,6 +1408,23 @@ const LESSON_MAP = {
     'Passive Voice – All Tenses': 10, 'Passive Voice – Modal': 10,
     'Passive Voice – Continuous': 10, 'Passive Voice – Reporting Verbs': 10,
     'Passive Voice – Two Objects': 10, 'Homophones': 10, /* vocab */
+    /* Frente do MET: os quatro capítulos do Study Guide que valem 41 das 100
+       questões de gramática da prova e não têm lição no livro. Ficam num grupo
+       próprio do picker porque não são conteúdo de lição — chamá-los de
+       "Lesson 11" seria mentira. */
+    'Connectors – Contrast': 'MET Study Guide',
+    'Connectors – Cause & Result': 'MET Study Guide',
+    'Connectors – Purpose & Condition': 'MET Study Guide',
+    'Connectors – Addition & Sequence': 'MET Study Guide',
+    'Phrasal Verbs – MET High-Frequency': 'MET Study Guide',
+    'Verb + Preposition': 'MET Study Guide',
+    'Adjective + Preposition': 'MET Study Guide',
+    'Embedded Questions': 'MET Study Guide',
+    'If vs Whether / Wh- + Infinitive': 'MET Study Guide',
+    'Word Order & Parallel Structure': 'MET Study Guide',
+    'Adverbs – Almost, Hardly, Still, Yet, Else': 'MET Study Guide',
+    'Modal Perfects': 'MET Study Guide',
+    'Tag Questions & Short Answers': 'MET Study Guide',
   },
   inmediato1: {
     /* Lección 1 */ 'Artículos Determinados': 1, 'Masculino / Femenino': 1, 'Singular / Plural': 1,
@@ -1464,7 +1481,23 @@ function todasQuestoes(data) {
     ...(data.midterm ? data.midterm.questions : []),
     ...(data.final   ? data.final.questions   : []),
     ...(data.phrasal ? data.phrasal.questions : []),
+    ...(data.met     ? data.met.questions     : []),
   ];
+}
+
+/* Um grupo do Custom Practice é uma lição do livro (número) ou uma frente
+   própria (texto) — como o "MET Study Guide" do In Focus, que reúne o que a
+   prova cobra e o livro não ensina. As lições vêm primeiro, na ordem; as
+   frentes, depois. */
+function ehLicao(k) { return String(k).trim() !== '' && !isNaN(Number(k)); }
+function ordenarGrupos(keys) {
+  const licoes  = keys.filter(ehLicao).map(Number).sort((a, b) => a - b);
+  const frentes = keys.filter(k => !ehLicao(k)).sort();
+  return [...licoes, ...frentes];
+}
+function rotuloGrupo(k) {
+  if (!ehLicao(k)) return String(k);
+  return Number(k) === 0 ? 'Before You Start' : 'Lesson ' + Number(k);
 }
 function temPhrasal(data) {
   return !!(data && data.phrasal && data.phrasal.questions && data.phrasal.questions.length);
@@ -1844,11 +1877,11 @@ function buildTopicPicker() {
     if (!groups[key].includes(topic)) groups[key].push(topic);
   });
 
-  const sortedKeys = [...new Set(order)].map(Number).sort((a, b) => a - b);
+  const sortedKeys = ordenarGrupos([...new Set(order)]);
 
   let html = '';
   sortedKeys.forEach(k => {
-    const label = k === 0 ? 'Before You Start' : 'Lesson ' + k;
+    const label = rotuloGrupo(k);
     html += `<div class="topic-group-title">${label}</div>`;
     groups[k].forEach(topic => {
       const n = qCount[topic] || 0;
@@ -2164,14 +2197,13 @@ function generateFeedback(score, wrongTopics, correctTopics) {
   }
 
   function sortKeys(g) {
-    return Object.keys(g).map(Number).sort((a, b) => a - b);
+    return ordenarGrupos(Object.keys(g));
   }
 
   function buildLines(g, keys) {
     return keys.map(k => {
       const topics = [...g[k]].join(', ');
-      const label = k === 0 ? 'Before You Start' : 'Lesson ' + k;
-      return `<div class="lesson-line">• <strong>${label}:</strong> ${topics}</div>`;
+      return `<div class="lesson-line">• <strong>${rotuloGrupo(k)}:</strong> ${topics}</div>`;
     }).join('');
   }
 

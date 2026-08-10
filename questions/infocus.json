@@ -3393,5 +3393,856 @@
         "explanation": "\"Through\" (através) e \"threw\" (passado de throw) têm o mesmo som. Cuidado com \"though\" e \"thorough\", que se parecem na escrita mas soam diferente. Portanto, a resposta correta é THREW."
       }
     ]
+  },
+  "met": {
+    "label": "MET Study Guide",
+    "topics": "Capítulos 1, 3, 7 e 9 do guia — 41 das 100 questões de gramática do MET",
+    "questions": [
+      {
+        "id": "ifmet01",
+        "topic": "Connectors – Contrast",
+        "question": "_____ the heavy traffic, she arrived on time.",
+        "options": [
+          "In spite of",
+          "Although",
+          "Even though",
+          "Whereas"
+        ],
+        "correct": 0,
+        "explanation": "IN SPITE OF vem antes de substantivo (\"the heavy traffic\"). Although, even though e whereas só aparecem antes de uma oração completa, com sujeito e verbo. Portanto, a resposta correta é IN SPITE OF."
+      },
+      {
+        "id": "ifmet02",
+        "topic": "Connectors – Contrast",
+        "question": "_____ he had studied for weeks, Daniel felt unprepared.",
+        "options": [
+          "Even though",
+          "Despite",
+          "In spite of",
+          "Because of"
+        ],
+        "correct": 0,
+        "explanation": "Depois da lacuna vem uma oração completa (\"he had studied\"), e isso pede EVEN THOUGH. Despite e in spite of exigiriam um substantivo no lugar. Portanto, a resposta correta é EVEN THOUGH."
+      },
+      {
+        "id": "ifmet03",
+        "topic": "Connectors – Contrast",
+        "question": "The report was thorough; _____, it missed the main point.",
+        "options": [
+          "however",
+          "although",
+          "despite",
+          "whereas"
+        ],
+        "correct": 0,
+        "explanation": "Depois do ponto e vírgula entra um conector que liga duas frases independentes, e é isso que HOWEVER faz. Although e whereas ligam orações dentro da mesma frase. Portanto, a resposta correta é HOWEVER."
+      },
+      {
+        "id": "ifmet04",
+        "topic": "Connectors – Contrast",
+        "question": "Sales rose in the north, _____ they fell sharply in the south.",
+        "options": [
+          "whereas",
+          "despite",
+          "in spite of",
+          "because of"
+        ],
+        "correct": 0,
+        "explanation": "WHEREAS opõe dois fatos paralelos e vem antes de uma oração. Os outros três precisariam de substantivo depois. Portanto, a resposta correta é WHEREAS."
+      },
+      {
+        "id": "ifmet05",
+        "topic": "Connectors – Contrast",
+        "question": "_____ being the youngest on the team, she was chosen as captain.",
+        "options": [
+          "Despite",
+          "Although",
+          "Even though",
+          "While"
+        ],
+        "correct": 0,
+        "explanation": "Antes de verbo com -ing usamos DESPITE (ou in spite of). Although, even though e while pedem sujeito e verbo conjugado. Portanto, a resposta correta é DESPITE."
+      },
+      {
+        "id": "ifmet06",
+        "topic": "Connectors – Cause & Result",
+        "question": "The flight was cancelled _____ the storm.",
+        "options": [
+          "due to",
+          "because",
+          "since",
+          "as"
+        ],
+        "correct": 0,
+        "explanation": "\"The storm\" é um substantivo, e antes de substantivo a causa se marca com DUE TO (ou because of, owing to). Because, since e as pedem oração completa. Portanto, a resposta correta é DUE TO."
+      },
+      {
+        "id": "ifmet07",
+        "topic": "Connectors – Cause & Result",
+        "question": "_____ the results were unclear, the team repeated the test.",
+        "options": [
+          "Since",
+          "Due to",
+          "Because of",
+          "Owing to"
+        ],
+        "correct": 0,
+        "explanation": "Aqui vem uma oração completa, então a causa se marca com SINCE (ou because, as). Due to, because of e owing to só antes de substantivo. Portanto, a resposta correta é SINCE."
+      },
+      {
+        "id": "ifmet08",
+        "topic": "Connectors – Cause & Result",
+        "question": "The supplier missed three deadlines; _____, the contract was cancelled.",
+        "options": [
+          "consequently",
+          "because",
+          "since",
+          "due to"
+        ],
+        "correct": 0,
+        "explanation": "A segunda frase é a consequência da primeira, e CONSEQUENTLY (como therefore, thus, as a result) é o conector de resultado. Os outros três introduzem causa, não efeito. Portanto, a resposta correta é CONSEQUENTLY."
+      },
+      {
+        "id": "ifmet09",
+        "topic": "Connectors – Cause & Result",
+        "question": "The museum closed two galleries _____ the ongoing renovation work.",
+        "options": [
+          "because of",
+          "because",
+          "since",
+          "so that"
+        ],
+        "correct": 0,
+        "explanation": "\"The ongoing renovation work\" é substantivo, então a causa é BECAUSE OF. Sem o \"of\", \"because\" exigiria uma oração. Portanto, a resposta correta é BECAUSE OF."
+      },
+      {
+        "id": "ifmet10",
+        "topic": "Connectors – Cause & Result",
+        "question": "Heavy rain damaged the crops and, _____, food prices rose.",
+        "options": [
+          "as a result",
+          "because of",
+          "owing to",
+          "due to"
+        ],
+        "correct": 0,
+        "explanation": "A subida dos preços é o resultado do estrago, e AS A RESULT marca justamente isso. Os outros três introduziriam a causa. Portanto, a resposta correta é AS A RESULT."
+      },
+      {
+        "id": "ifmet11",
+        "topic": "Connectors – Purpose & Condition",
+        "question": "Marina left the office early _____ she could catch the last ferry.",
+        "options": [
+          "so that",
+          "because of",
+          "in order to",
+          "due to"
+        ],
+        "correct": 0,
+        "explanation": "SO THAT introduz finalidade seguida de oração (\"she could catch\"). \"In order to\" viria antes de verbo no infinitivo, sem sujeito. Portanto, a resposta correta é SO THAT."
+      },
+      {
+        "id": "ifmet12",
+        "topic": "Connectors – Purpose & Condition",
+        "question": "You won't be admitted _____ you show your ID at the entrance.",
+        "options": [
+          "unless",
+          "if",
+          "in case",
+          "so that"
+        ],
+        "correct": 0,
+        "explanation": "UNLESS quer dizer \"a não ser que\" e já carrega a negação: sem mostrar o documento, não entra. Com \"if\" a frase diria o contrário do que se quer. Portanto, a resposta correta é UNLESS."
+      },
+      {
+        "id": "ifmet13",
+        "topic": "Connectors – Purpose & Condition",
+        "question": "Take an umbrella _____ it rains later.",
+        "options": [
+          "in case",
+          "unless",
+          "so that",
+          "in order to"
+        ],
+        "correct": 0,
+        "explanation": "IN CASE é a precaução tomada ANTES, por causa de uma possibilidade. Não é condição (\"if\"), é prevenção. Portanto, a resposta correta é IN CASE."
+      },
+      {
+        "id": "ifmet14",
+        "topic": "Connectors – Purpose & Condition",
+        "question": "_____ the budget is approved, work begins in March.",
+        "options": [
+          "Provided that",
+          "Unless",
+          "In case",
+          "So that"
+        ],
+        "correct": 0,
+        "explanation": "PROVIDED THAT (como as long as) põe uma condição necessária: só começa se o orçamento for aprovado. Unless inverteria o sentido. Portanto, a resposta correta é PROVIDED THAT."
+      },
+      {
+        "id": "ifmet15",
+        "topic": "Connectors – Purpose & Condition",
+        "question": "The team stayed late _____ finish the proposal before the deadline.",
+        "options": [
+          "in order to",
+          "so that",
+          "in case",
+          "due to"
+        ],
+        "correct": 0,
+        "explanation": "Antes de verbo no infinitivo sem sujeito, a finalidade é IN ORDER TO (ou só \"to\"). \"So that\" precisaria de sujeito e verbo depois. Portanto, a resposta correta é IN ORDER TO."
+      },
+      {
+        "id": "ifmet16",
+        "topic": "Connectors – Addition & Sequence",
+        "question": "_____ working full time, she is finishing a doctorate.",
+        "options": [
+          "Besides",
+          "Furthermore",
+          "Moreover",
+          "In addition"
+        ],
+        "correct": 0,
+        "explanation": "BESIDES (como apart from) vem antes de substantivo ou verbo com -ing. Furthermore, moreover e in addition ligam frases inteiras, não sintagmas. Portanto, a resposta correta é BESIDES."
+      },
+      {
+        "id": "ifmet17",
+        "topic": "Connectors – Addition & Sequence",
+        "question": "The magazine sent one journalist _____ two photographers.",
+        "options": [
+          "along with",
+          "furthermore",
+          "moreover",
+          "in addition"
+        ],
+        "correct": 0,
+        "explanation": "Dentro da frase, para somar um elemento a outro, usamos ALONG WITH (ou as well as). Os outros três só funcionam ligando frases. Portanto, a resposta correta é ALONG WITH."
+      },
+      {
+        "id": "ifmet18",
+        "topic": "Connectors – Addition & Sequence",
+        "question": "The proposal is expensive; _____, it would take three years to implement.",
+        "options": [
+          "furthermore",
+          "along with",
+          "as well as",
+          "apart from"
+        ],
+        "correct": 0,
+        "explanation": "Depois do ponto e vírgula, para acrescentar um segundo argumento, entra FURTHERMORE (como moreover, in addition). Os outros três precisariam de substantivo depois. Portanto, a resposta correta é FURTHERMORE."
+      },
+      {
+        "id": "ifmet19",
+        "topic": "Connectors – Addition & Sequence",
+        "question": "The candidate has strong technical skills _____ excellent communication.",
+        "options": [
+          "as well as",
+          "furthermore",
+          "moreover",
+          "in addition"
+        ],
+        "correct": 0,
+        "explanation": "AS WELL AS soma dois elementos dentro da mesma frase, sem precisar de pontuação forte. Os outros três ligam frases independentes. Portanto, a resposta correta é AS WELL AS."
+      },
+      {
+        "id": "ifmet20",
+        "topic": "Connectors – Addition & Sequence",
+        "question": "First the samples are collected; _____ they are analysed in the lab.",
+        "options": [
+          "then",
+          "meanwhile",
+          "besides",
+          "apart from"
+        ],
+        "correct": 0,
+        "explanation": "A frase descreve uma sequência: primeiro uma etapa, THEN a seguinte. \"Meanwhile\" diria que as duas acontecem ao mesmo tempo, o que contradiz o \"first\". Portanto, a resposta correta é THEN."
+      },
+      {
+        "id": "ifmet21",
+        "topic": "Phrasal Verbs – MET High-Frequency",
+        "question": "The committee will _____ the causes of the delay before deciding anything.",
+        "options": [
+          "look into",
+          "call off",
+          "put off",
+          "carry out"
+        ],
+        "correct": 0,
+        "explanation": "LOOK INTO é investigar, examinar os fatos de uma situação. Call off é cancelar, put off é adiar e carry out é executar. Portanto, a resposta correta é LOOK INTO."
+      },
+      {
+        "id": "ifmet22",
+        "topic": "Phrasal Verbs – MET High-Frequency",
+        "question": "It took her two weeks to _____ the flu and go back to work.",
+        "options": [
+          "get over",
+          "bring up",
+          "come across",
+          "see through"
+        ],
+        "correct": 0,
+        "explanation": "GET OVER é se recuperar de uma doença ou de um baque. Portanto, a resposta correta é GET OVER."
+      },
+      {
+        "id": "ifmet23",
+        "topic": "Phrasal Verbs – MET High-Frequency",
+        "question": "I'll _____ you _____ on the results as soon as they arrive.",
+        "options": [
+          "keep / posted",
+          "bring / up",
+          "call / off",
+          "put / off"
+        ],
+        "correct": 0,
+        "explanation": "KEEP SOMEONE POSTED ON é manter a pessoa informada sobre algo. Portanto, a resposta correta é KEEP / POSTED."
+      },
+      {
+        "id": "ifmet24",
+        "topic": "Phrasal Verbs – MET High-Frequency",
+        "question": "The outdoor concert was _____ because of the storm warning.",
+        "options": [
+          "called off",
+          "caught up",
+          "brought up",
+          "carried out"
+        ],
+        "correct": 0,
+        "explanation": "CALL OFF é cancelar um evento que já estava marcado. Portanto, a resposta correta é CALLED OFF."
+      },
+      {
+        "id": "ifmet25",
+        "topic": "Phrasal Verbs – MET High-Frequency",
+        "question": "She _____ an old photograph of her grandmother while cleaning the attic.",
+        "options": [
+          "came across",
+          "looked into",
+          "saw through",
+          "went ahead"
+        ],
+        "correct": 0,
+        "explanation": "COME ACROSS é encontrar por acaso, sem estar procurando. Portanto, a resposta correta é CAME ACROSS."
+      },
+      {
+        "id": "ifmet26",
+        "topic": "Verb + Preposition",
+        "question": "The final decision depends _____ the budget approved by the board.",
+        "options": [
+          "on",
+          "of",
+          "from",
+          "to"
+        ],
+        "correct": 0,
+        "explanation": "Em inglês é DEPEND ON. \"Depend of\" é um dos erros mais comuns e não existe. Portanto, a resposta correta é ON."
+      },
+      {
+        "id": "ifmet27",
+        "topic": "Verb + Preposition",
+        "question": "I prefer coffee _____ tea in the morning.",
+        "options": [
+          "to",
+          "than",
+          "over than",
+          "from"
+        ],
+        "correct": 0,
+        "explanation": "A estrutura é PREFER X TO Y. \"Prefer than\" não existe em inglês. Portanto, a resposta correta é TO."
+      },
+      {
+        "id": "ifmet28",
+        "topic": "Verb + Preposition",
+        "question": "I completely agree _____ you, but I do not agree _____ the deadline.",
+        "options": [
+          "with / on",
+          "on / with",
+          "to / with",
+          "with / to"
+        ],
+        "correct": 0,
+        "explanation": "Concorda-se WITH uma pessoa e ON um assunto. \"Agree to\" fica reservado a uma proposta. Portanto, a resposta correta é WITH / ON."
+      },
+      {
+        "id": "ifmet29",
+        "topic": "Verb + Preposition",
+        "question": "The report accounts _____ the sharp drop in sales last quarter.",
+        "options": [
+          "for",
+          "to",
+          "of",
+          "with"
+        ],
+        "correct": 0,
+        "explanation": "ACCOUNT FOR é explicar, justificar alguma coisa. Portanto, a resposta correta é FOR."
+      },
+      {
+        "id": "ifmet30",
+        "topic": "Verb + Preposition",
+        "question": "The course consists _____ ten modules and a final project.",
+        "options": [
+          "of",
+          "in",
+          "from",
+          "with"
+        ],
+        "correct": 0,
+        "explanation": "CONSIST OF é ser composto por. A preposição é fixa. Portanto, a resposta correta é OF."
+      },
+      {
+        "id": "ifmet31",
+        "topic": "Adjective + Preposition",
+        "question": "She is perfectly capable _____ finishing the project on her own.",
+        "options": [
+          "of",
+          "to",
+          "for",
+          "in"
+        ],
+        "correct": 0,
+        "explanation": "CAPABLE OF, e depois da preposição o verbo vai para -ing: capable of finishing. Portanto, a resposta correta é OF."
+      },
+      {
+        "id": "ifmet32",
+        "topic": "Adjective + Preposition",
+        "question": "He is not interested _____ moving to another city right now.",
+        "options": [
+          "in",
+          "on",
+          "for",
+          "to"
+        ],
+        "correct": 0,
+        "explanation": "INTERESTED IN, com o verbo seguinte em -ing. Portanto, a resposta correta é IN."
+      },
+      {
+        "id": "ifmet33",
+        "topic": "Adjective + Preposition",
+        "question": "The manager is responsible _____ organizing the whole schedule.",
+        "options": [
+          "for",
+          "of",
+          "to",
+          "about"
+        ],
+        "correct": 0,
+        "explanation": "RESPONSIBLE FOR, e depois da preposição o verbo recebe -ing. Portanto, a resposta correta é FOR."
+      },
+      {
+        "id": "ifmet34",
+        "topic": "Adjective + Preposition",
+        "question": "The new results are consistent _____ the previous study.",
+        "options": [
+          "with",
+          "to",
+          "of",
+          "for"
+        ],
+        "correct": 0,
+        "explanation": "CONSISTENT WITH é estar de acordo com, bater com. Portanto, a resposta correta é WITH."
+      },
+      {
+        "id": "ifmet35",
+        "topic": "Adjective + Preposition",
+        "question": "Are you aware _____ the new safety rules that start next month?",
+        "options": [
+          "of",
+          "about",
+          "with",
+          "for"
+        ],
+        "correct": 0,
+        "explanation": "AWARE OF é a combinação fixa para \"estar ciente de\". Portanto, a resposta correta é OF."
+      },
+      {
+        "id": "ifmet36",
+        "topic": "Embedded Questions",
+        "question": "Could you tell me where _____?",
+        "options": [
+          "the station is",
+          "is the station",
+          "does the station be",
+          "the station does be"
+        ],
+        "correct": 0,
+        "explanation": "Na pergunta encaixada a inversão desaparece: o sujeito volta para antes do verbo, como numa frase afirmativa. Portanto, a resposta correta é THE STATION IS."
+      },
+      {
+        "id": "ifmet37",
+        "topic": "Embedded Questions",
+        "question": "Do you know what time _____?",
+        "options": [
+          "it closes",
+          "does it close",
+          "it does close",
+          "closes it"
+        ],
+        "correct": 0,
+        "explanation": "Depois de \"Do you know…\" a parte seguinte não é mais pergunta: sai o do/does/did e o verbo concorda normalmente com o sujeito. Portanto, a resposta correta é IT CLOSES."
+      },
+      {
+        "id": "ifmet38",
+        "topic": "Embedded Questions",
+        "question": "I wonder _____ she called while I was out.",
+        "options": [
+          "whether",
+          "did",
+          "does",
+          "was"
+        ],
+        "correct": 0,
+        "explanation": "Uma pergunta de sim/não encaixada entra com WHETHER (ou if), e não com o auxiliar da pergunta direta. Portanto, a resposta correta é WHETHER."
+      },
+      {
+        "id": "ifmet39",
+        "topic": "Embedded Questions",
+        "question": "Who _____ called this morning?",
+        "options": [
+          "did you say",
+          "you said",
+          "said you",
+          "did you said"
+        ],
+        "correct": 0,
+        "explanation": "Quando uma pergunta é encaixada em outra, o auxiliar acompanha o verbo da pergunta principal (\"say\"), e não o da encaixada. Portanto, a resposta correta é DID YOU SAY."
+      },
+      {
+        "id": "ifmet40",
+        "topic": "Embedded Questions",
+        "question": "The question is how _____ the deadline without more staff.",
+        "options": [
+          "they will meet",
+          "will they meet",
+          "do they meet will",
+          "meet they will"
+        ],
+        "correct": 0,
+        "explanation": "Depois de \"The question is how…\" vale a ordem da afirmativa: sujeito antes do verbo. Portanto, a resposta correta é THEY WILL MEET."
+      },
+      {
+        "id": "ifmet41",
+        "topic": "If vs Whether / Wh- + Infinitive",
+        "question": "There is still some doubt as to _____ the department will expand.",
+        "options": [
+          "whether",
+          "if",
+          "that",
+          "what"
+        ],
+        "correct": 0,
+        "explanation": "Depois de preposição — aqui, \"as to\" — só cabe WHETHER. \"If\" não vem depois de preposição. Portanto, a resposta correta é WHETHER."
+      },
+      {
+        "id": "ifmet42",
+        "topic": "If vs Whether / Wh- + Infinitive",
+        "question": "We must decide how often _____ the sessions this semester.",
+        "options": [
+          "to hold",
+          "holding",
+          "we holding",
+          "to holding"
+        ],
+        "correct": 0,
+        "explanation": "Quando o sujeito está subentendido, a palavra interrogativa vem seguida de TO + infinitivo. Portanto, a resposta correta é TO HOLD."
+      },
+      {
+        "id": "ifmet43",
+        "topic": "If vs Whether / Wh- + Infinitive",
+        "question": "She still has not decided _____ to accept the offer or not.",
+        "options": [
+          "whether",
+          "if",
+          "that",
+          "what"
+        ],
+        "correct": 0,
+        "explanation": "Com \"…or not\", a forma é WHETHER. \"If … or not\" não é aceito nesse encaixe. Portanto, a resposta correta é WHETHER."
+      },
+      {
+        "id": "ifmet44",
+        "topic": "If vs Whether / Wh- + Infinitive",
+        "question": "He needs to know just _____ the measurement is.",
+        "options": [
+          "how precise",
+          "precise how",
+          "how precisely",
+          "precisely how"
+        ],
+        "correct": 0,
+        "explanation": "O intensificador (\"just\") vem ANTES da palavra interrogativa, e depois de \"is\" entra adjetivo: just how precise. Portanto, a resposta correta é HOW PRECISE."
+      },
+      {
+        "id": "ifmet45",
+        "topic": "If vs Whether / Wh- + Infinitive",
+        "question": "The instructions are confusing and I am not sure _____ to start.",
+        "options": [
+          "where",
+          "where do I",
+          "where I do",
+          "do where"
+        ],
+        "correct": 0,
+        "explanation": "Wh- + TO + infinitivo dispensa sujeito e auxiliar: \"where to start\". Portanto, a resposta correta é WHERE."
+      },
+      {
+        "id": "ifmet46",
+        "topic": "Word Order & Parallel Structure",
+        "question": "She sang _____.",
+        "options": [
+          "beautifully at the theatre last night",
+          "at the theatre beautifully last night",
+          "last night beautifully at the theatre",
+          "at the theatre last night beautifully"
+        ],
+        "correct": 0,
+        "explanation": "A ordem dos advérbios é modo, lugar e tempo: como, onde e quando. Portanto, a resposta correta é BEAUTIFULLY AT THE THEATRE LAST NIGHT."
+      },
+      {
+        "id": "ifmet47",
+        "topic": "Word Order & Parallel Structure",
+        "question": "All people _____ access to clean drinking water.",
+        "options": [
+          "should have",
+          "have should",
+          "should to have",
+          "having should"
+        ],
+        "correct": 0,
+        "explanation": "Na afirmativa a ordem é sujeito + modal + verbo na forma base, sem \"to\" depois do modal. Portanto, a resposta correta é SHOULD HAVE."
+      },
+      {
+        "id": "ifmet48",
+        "topic": "Word Order & Parallel Structure",
+        "question": "Which sentence has correct parallel structure?",
+        "options": [
+          "She likes dancing, singing and travelling.",
+          "She likes to dance, singing and to travel.",
+          "She likes dancing, to sing and travelling.",
+          "She likes dance, singing and to travel."
+        ],
+        "correct": 0,
+        "explanation": "Numa lista, todos os itens ficam na mesma forma. Misturar infinitivo com -ing quebra o paralelismo. Portanto, a resposta correta é SHE LIKES DANCING, SINGING AND TRAVELLING.."
+      },
+      {
+        "id": "ifmet49",
+        "topic": "Word Order & Parallel Structure",
+        "question": "The presentations are brief, focused and _____.",
+        "options": [
+          "easy to follow",
+          "they allow time for questions",
+          "allowing time for questions",
+          "they are easy to follow"
+        ],
+        "correct": 0,
+        "explanation": "Os dois primeiros itens da lista são adjetivos, então o terceiro também precisa ser. Trocar para uma oração inteira quebra o paralelismo. Portanto, a resposta correta é EASY TO FOLLOW."
+      },
+      {
+        "id": "ifmet50",
+        "topic": "Word Order & Parallel Structure",
+        "question": "They finished the report _____.",
+        "options": [
+          "quickly at the office yesterday",
+          "yesterday quickly at the office",
+          "at the office quickly yesterday",
+          "quickly yesterday at the office"
+        ],
+        "correct": 0,
+        "explanation": "Modo, lugar e tempo, nessa ordem: quickly (como), at the office (onde), yesterday (quando). Portanto, a resposta correta é QUICKLY AT THE OFFICE YESTERDAY."
+      },
+      {
+        "id": "ifmet51",
+        "topic": "Adverbs – Almost, Hardly, Still, Yet, Else",
+        "question": "The renovations are _____ complete — only the painting is left.",
+        "options": [
+          "almost",
+          "hardly",
+          "still",
+          "yet"
+        ],
+        "correct": 0,
+        "explanation": "ALMOST (como nearly) quer dizer \"quase\". \"Hardly\" é quase NÃO, o oposto do que a frase descreve. Portanto, a resposta correta é ALMOST."
+      },
+      {
+        "id": "ifmet52",
+        "topic": "Adverbs – Almost, Hardly, Still, Yet, Else",
+        "question": "She _____ ever takes the bus; she prefers to walk everywhere.",
+        "options": [
+          "hardly",
+          "almost",
+          "already",
+          "still"
+        ],
+        "correct": 0,
+        "explanation": "HARDLY EVER é \"quase nunca\". A segunda parte da frase confirma que ela quase não usa o ônibus. Portanto, a resposta correta é HARDLY."
+      },
+      {
+        "id": "ifmet53",
+        "topic": "Adverbs – Almost, Hardly, Still, Yet, Else",
+        "question": "Have they finished the report _____?",
+        "options": [
+          "yet",
+          "still",
+          "already",
+          "almost"
+        ],
+        "correct": 0,
+        "explanation": "YET é o \"ainda\" das perguntas e das negativas. \"Still\" é o \"ainda\" das afirmativas, para algo que continua. Portanto, a resposta correta é YET."
+      },
+      {
+        "id": "ifmet54",
+        "topic": "Adverbs – Almost, Hardly, Still, Yet, Else",
+        "question": "Is there anything _____ you need before I leave?",
+        "options": [
+          "else",
+          "other",
+          "more else",
+          "another"
+        ],
+        "correct": 0,
+        "explanation": "ELSE vem sempre DEPOIS da palavra que acompanha: anything else, someone else, somewhere else. Portanto, a resposta correta é ELSE."
+      },
+      {
+        "id": "ifmet55",
+        "topic": "Adverbs – Almost, Hardly, Still, Yet, Else",
+        "question": "The meeting can be held anywhere _____ this room, which is being painted.",
+        "options": [
+          "other than",
+          "else than",
+          "else",
+          "than"
+        ],
+        "correct": 0,
+        "explanation": "ANYWHERE OTHER THAN é \"em qualquer lugar que não seja\". Com \"else\" não entra o \"than\". Portanto, a resposta correta é OTHER THAN."
+      },
+      {
+        "id": "ifmet56",
+        "topic": "Modal Perfects",
+        "question": "The lights are off and the car is gone; they _____ already left.",
+        "options": [
+          "must have",
+          "should have",
+          "can't have",
+          "might not have"
+        ],
+        "correct": 0,
+        "explanation": "MUST HAVE é a conclusão quase certa sobre o passado, apoiada em evidência — aqui, as luzes apagadas e o carro fora. Portanto, a resposta correta é MUST HAVE."
+      },
+      {
+        "id": "ifmet57",
+        "topic": "Modal Perfects",
+        "question": "She never received the message, so she _____ it before the meeting.",
+        "options": [
+          "can't have seen",
+          "must have seen",
+          "should have seen",
+          "could have seen"
+        ],
+        "correct": 0,
+        "explanation": "CAN'T HAVE é a conclusão negativa: se ela nunca recebeu, é impossível que tenha visto. Portanto, a resposta correta é CAN'T HAVE SEEN."
+      },
+      {
+        "id": "ifmet58",
+        "topic": "Modal Perfects",
+        "question": "I forgot my passport at home. I _____ it in my bag last night.",
+        "options": [
+          "should have put",
+          "must have put",
+          "can't have put",
+          "might have put"
+        ],
+        "correct": 0,
+        "explanation": "SHOULD HAVE é o arrependimento: era boa ideia e não foi feito. Portanto, a resposta correta é SHOULD HAVE PUT."
+      },
+      {
+        "id": "ifmet59",
+        "topic": "Modal Perfects",
+        "question": "He isn't answering. Maybe he _____ his phone on silent.",
+        "options": [
+          "might have left",
+          "should have left",
+          "can't have left",
+          "must not leave"
+        ],
+        "correct": 0,
+        "explanation": "\"Maybe\" indica possibilidade, e a possibilidade sobre o passado é MIGHT HAVE (ou may have). Portanto, a resposta correta é MIGHT HAVE LEFT."
+      },
+      {
+        "id": "ifmet60",
+        "topic": "Modal Perfects",
+        "question": "They were leading 3–0 with ten minutes to go. They _____ the match easily.",
+        "options": [
+          "could have won",
+          "must have won",
+          "can't have won",
+          "may not have won"
+        ],
+        "correct": 0,
+        "explanation": "COULD HAVE é o que era possível e não aconteceu: eles tinham tudo para vencer e não venceram. Portanto, a resposta correta é COULD HAVE WON."
+      },
+      {
+        "id": "ifmet61",
+        "topic": "Tag Questions & Short Answers",
+        "question": "This is your book, _____?",
+        "options": [
+          "isn't it",
+          "is it",
+          "isn't this",
+          "doesn't it"
+        ],
+        "correct": 0,
+        "explanation": "Frase afirmativa pede tag negativa, com o mesmo verbo e o pronome correspondente: isn't it. Portanto, a resposta correta é ISN'T IT."
+      },
+      {
+        "id": "ifmet62",
+        "topic": "Tag Questions & Short Answers",
+        "question": "You've never been to Chile, _____?",
+        "options": [
+          "have you",
+          "haven't you",
+          "do you",
+          "don't you"
+        ],
+        "correct": 0,
+        "explanation": "A frase já é negativa por causa de \"never\", então a tag vem afirmativa e repete o auxiliar \"have\". Portanto, a resposta correta é HAVE YOU."
+      },
+      {
+        "id": "ifmet63",
+        "topic": "Tag Questions & Short Answers",
+        "question": "She hardly ever complains about the workload, _____?",
+        "options": [
+          "does she",
+          "doesn't she",
+          "is she",
+          "has she"
+        ],
+        "correct": 0,
+        "explanation": "\"Hardly\" já torna a frase negativa, e por isso a tag vem na afirmativa. Portanto, a resposta correta é DOES SHE."
+      },
+      {
+        "id": "ifmet64",
+        "topic": "Tag Questions & Short Answers",
+        "question": "A: I don't enjoy horror films.   B: _____.",
+        "options": [
+          "Neither do I",
+          "So do I",
+          "I do too",
+          "So am I"
+        ],
+        "correct": 0,
+        "explanation": "Para concordar com uma frase NEGATIVA usamos \"Neither do I\" (ou \"I don't either\"). Portanto, a resposta correta é NEITHER DO I."
+      },
+      {
+        "id": "ifmet65",
+        "topic": "Tag Questions & Short Answers",
+        "question": "A: I've already finished my part.   B: _____.",
+        "options": [
+          "So have I",
+          "Neither have I",
+          "So do I",
+          "I haven't either"
+        ],
+        "correct": 0,
+        "explanation": "Para concordar com uma frase afirmativa usamos \"So + auxiliar + sujeito\", repetindo o auxiliar da frase original: \"So have I\". Portanto, a resposta correta é SO HAVE I."
+      }
+    ]
   }
 }
