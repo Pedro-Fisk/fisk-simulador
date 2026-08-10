@@ -53,12 +53,53 @@ const reBooks = /(\w+):\s*\{\s*name:\s*'([^']+)'/g;
 let m;
 while ((m = reBooks.exec(html))) { if (ESCADA.ingles.concat(ESCADA.espanhol).indexOf(m[1]) >= 0) nomes[m[2]] = m[1]; }
 
+/* ── capítulo do MET → o que praticar no Quick Practice ───────────────────────
+   Sem isto, o botão "praticar" de um erro do simulado cairia na home da
+   ferramenta. A correspondência é editorial e por isso é escrita à mão: são 11
+   linhas, e adivinhar por semelhança de nome mandaria o aluno para o lugar
+   errado com cara de acerto. Só entram tópicos que existem no In Focus. */
+const PRATICA_MET = {
+  'Connectors': ['Connectors – Contrast', 'Connectors – Cause & Result',
+                 'Connectors – Purpose & Condition', 'Connectors – Addition & Sequence'],
+  'Gerunds & Infinitives': ['Gerunds vs Infinitives', 'Gerunds vs Infinitives – Meaning Change',
+                            'Gerunds – Prepositions', 'Verb + Object + Infinitive', 'Possessive + Gerund'],
+  'Phrasal Verbs & Prepositions': ['Phrasal Verbs – MET High-Frequency', 'Verb + Preposition',
+                                   'Adjective + Preposition'],
+  'Inversion & Emphasis': ['Inversion', 'Inversion – Negative Adverbials', 'Inversion – So/Neither',
+                           'Inversion – Expressions with Only', 'Emphatic Forms – Do/Does/Did',
+                           'Cleft Sentences', 'Cleft Sentences – It Is...That', 'Cleft Sentences – What'],
+  'Pronouns & Determiners': ['Reflexive and Intensive Pronouns'],
+  'Comparatives & Superlatives': ['Comparatives/Superlatives – Advanced', 'Comparatives – Modification',
+                                  'The + Comparative… The + Comparative', 'Comparative + and + Comparative'],
+  'Embedded Questions & Word Order': ['Embedded Questions', 'If vs Whether / Wh- + Infinitive',
+                                      'Word Order & Parallel Structure'],
+  'Conditionals & Subjunctive': ['Zero Conditional', 'First Conditional', 'Second Conditional',
+                                 'Third Conditional', 'Mixed Conditionals', 'Conditionals – Unless/As Long As',
+                                 'Subjunctive – Wish / If + Were', 'Subjunctive – That-Clauses'],
+  'Adverbs, Modals & Tags': ['Adverbs – Almost, Hardly, Still, Yet, Else', 'Modal Perfects',
+                             'Tag Questions & Short Answers'],
+  'Tenses': ['Present Tenses', 'Present Tenses – State Verbs', 'Past Tenses', 'Past Tenses – While/When',
+             'Used To / Be Used To', 'Future Tenses', 'Future Tenses – Future Perfect', 'Future Continuous'],
+  'Relative Clauses & Passive': ['Relative Pronouns – Advanced', 'Relative Pronouns – Non-Defining',
+                                 'Relative Pronouns – Omission', 'Relative Clauses – Special Use of Which',
+                                 'Passive Voice – All Tenses', 'Passive Voice – Modal',
+                                 'Passive Voice – Continuous', 'Passive Voice – Reporting Verbs',
+                                 'Passive Voice – Two Objects'],
+};
+/* Confere contra o LESSON_MAP: tópico que não existe mais vira link quebrado. */
+Object.keys(PRATICA_MET).forEach(function (cap) {
+  PRATICA_MET[cap].forEach(function (t) {
+    if (!(t in LESSON_MAP.infocus)) throw new Error('PRATICA_MET aponta para tópico inexistente: ' + t);
+  });
+});
+
 const saida = {
   _sobre: 'GERADO por scripts/build-topicos.js — não edite à mão.',
   licoes: LESSON_MAP,
   capitulosMet: capitulos,
   escada: ESCADA,
   chaveDoNome: nomes,
+  praticaMet: PRATICA_MET,
 };
 
 const arquivo = path.join(RAIZ, 'topicos.json');

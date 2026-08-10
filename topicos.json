@@ -439,5 +439,85 @@
   "Inmediato 1": "inmediato1",
   "Inmediato 2": "inmediato2",
   "Inmediato 3": "inmediato3"
+ },
+ "praticaMet": {
+  "Connectors": [
+   "Connectors – Contrast",
+   "Connectors – Cause & Result",
+   "Connectors – Purpose & Condition",
+   "Connectors – Addition & Sequence"
+  ],
+  "Gerunds & Infinitives": [
+   "Gerunds vs Infinitives",
+   "Gerunds vs Infinitives – Meaning Change",
+   "Gerunds – Prepositions",
+   "Verb + Object + Infinitive",
+   "Possessive + Gerund"
+  ],
+  "Phrasal Verbs & Prepositions": [
+   "Phrasal Verbs – MET High-Frequency",
+   "Verb + Preposition",
+   "Adjective + Preposition"
+  ],
+  "Inversion & Emphasis": [
+   "Inversion",
+   "Inversion – Negative Adverbials",
+   "Inversion – So/Neither",
+   "Inversion – Expressions with Only",
+   "Emphatic Forms – Do/Does/Did",
+   "Cleft Sentences",
+   "Cleft Sentences – It Is...That",
+   "Cleft Sentences – What"
+  ],
+  "Pronouns & Determiners": [
+   "Reflexive and Intensive Pronouns"
+  ],
+  "Comparatives & Superlatives": [
+   "Comparatives/Superlatives – Advanced",
+   "Comparatives – Modification",
+   "The + Comparative… The + Comparative",
+   "Comparative + and + Comparative"
+  ],
+  "Embedded Questions & Word Order": [
+   "Embedded Questions",
+   "If vs Whether / Wh- + Infinitive",
+   "Word Order & Parallel Structure"
+  ],
+  "Conditionals & Subjunctive": [
+   "Zero Conditional",
+   "First Conditional",
+   "Second Conditional",
+   "Third Conditional",
+   "Mixed Conditionals",
+   "Conditionals – Unless/As Long As",
+   "Subjunctive – Wish / If + Were",
+   "Subjunctive – That-Clauses"
+  ],
+  "Adverbs, Modals & Tags": [
+   "Adverbs – Almost, Hardly, Still, Yet, Else",
+   "Modal Perfects",
+   "Tag Questions & Short Answers"
+  ],
+  "Tenses": [
+   "Present Tenses",
+   "Present Tenses – State Verbs",
+   "Past Tenses",
+   "Past Tenses – While/When",
+   "Used To / Be Used To",
+   "Future Tenses",
+   "Future Tenses – Future Perfect",
+   "Future Continuous"
+  ],
+  "Relative Clauses & Passive": [
+   "Relative Pronouns – Advanced",
+   "Relative Pronouns – Non-Defining",
+   "Relative Pronouns – Omission",
+   "Relative Clauses – Special Use of Which",
+   "Passive Voice – All Tenses",
+   "Passive Voice – Modal",
+   "Passive Voice – Continuous",
+   "Passive Voice – Reporting Verbs",
+   "Passive Voice – Two Objects"
+  ]
  }
 }

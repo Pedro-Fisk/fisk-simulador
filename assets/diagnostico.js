@@ -84,6 +84,49 @@
     return null;
   }
 
+  /* Para onde mandar o aluno praticar este ponto. É o que transforma o painel
+     de retrato em plano de ação.
+       · ponto do Quick Practice        → abre o Custom Practice já marcado nele
+       · capítulo do MET                → abre os tópicos equivalentes do QP
+                                          (mapa editorial, no topicos.json)
+       · rótulo de habilidade do MET    → não há treino por tópico: vai para o
+         ("Listening · Detalhe")          simulado, onde ele treina a seção */
+  var URL_QP  = 'https://pedro-fisk.github.io/fisk-simulador/';
+  var URL_MET = 'https://pedro-fisk.github.io/met-siele-simulador/';
+
+  function praticar(ponto, estagio, mapa, aluno) {
+    if (!mapa) return null;
+    var ident = '';
+    if (aluno && aluno.raf) {
+      ident = '&raf=' + encodeURIComponent(aluno.raf) +
+              '&nome=' + encodeURIComponent(aluno.nome || '');
+    }
+    var topico = ponto.topico;
+    var chave = mapa.chaveDoNome && mapa.chaveDoNome[estagio];
+    var doLivro = chave && mapa.licoes && mapa.licoes[chave] && (topico in mapa.licoes[chave]);
+
+    if (doLivro) {
+      return { onde: 'qp', rotulo: 'Praticar',
+               url: URL_QP + '?book=' + encodeURIComponent(estagio) +
+                    '&topicos=' + encodeURIComponent(topico) + ident };
+    }
+    var equivalentes = mapa.praticaMet && mapa.praticaMet[topico];
+    if (equivalentes && equivalentes.length && chave) {
+      /* Só manda o que o estágio realmente tem, senão o Quick Practice abre
+         com caixas que não existem e o aluno vê uma lista vazia. */
+      var validos = equivalentes.filter(function (t) { return t in mapa.licoes[chave]; });
+      if (validos.length) {
+        return { onde: 'qp', rotulo: 'Praticar',
+                 url: URL_QP + '?book=' + encodeURIComponent(estagio) +
+                      '&topicos=' + encodeURIComponent(validos.join('|')) + ident };
+      }
+    }
+    if (topico.indexOf('Listening · ') === 0 || topico.indexOf('Reading · ') === 0) {
+      return { onde: 'met', rotulo: 'Treinar no MET', url: URL_MET + '?' + ident.slice(1) };
+    }
+    return null;
+  }
+
   function faixaDe(pct, q) {
     if (q < REGRA.piso) return 'pouco';
     if (pct >= REGRA.domina) return 'domina';
@@ -122,6 +165,10 @@
       a.pct = a.q ? Math.round(a.c / a.q * 100) : 0;
       a.faixa = faixaDe(a.pct, a.q);
       a.onde = ondeEstuda(a.topico, estagio, mapa);
+      /* Só nos pontos que precisam de trabalho: pendurar "praticar" no que ele
+         já domina convida a gastar tempo onde não falta. */
+      a.praticar = (a.faixa === 'desafio' || a.faixa === 'progresso')
+        ? praticar(a, estagio, mapa, op.aluno) : null;
       return a;
     });
 
@@ -183,6 +230,6 @@
 
   raiz.FiskDiagnostico = {
     REGRA: REGRA, montar: montar, carregarMapa: carregarMapa,
-    estagiosValidos: estagiosValidos, ondeEstuda: ondeEstuda
+    estagiosValidos: estagiosValidos, ondeEstuda: ondeEstuda, praticar: praticar
   };
 })(typeof window !== 'undefined' ? window : globalThis);
