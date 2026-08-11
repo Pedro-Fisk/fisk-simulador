@@ -834,11 +834,11 @@
         "options": [
           "viviremos",
           "viviríamos",
-          "vivimos",
+          "hemos vivido",
           "vivíamos"
         ],
         "correct": 0,
-        "explanation": "'Vivir' é regular no futuro: infinitivo mais a terminação de 'nosotros' (-emos), que dá 'viviremos'. O marcador 'el próximo año' indica futuro. As outras são tempos diferentes: 'viviríamos' é condicional, 'vivimos' é presente ou pretérito, e 'vivíamos' é imperfeito. Portanto, a resposta correta é 'VIVIREMOS'."
+        "explanation": "'Vivir' é regular no futuro: infinitivo mais a terminação de 'nosotros' (-emos), que dá 'viviremos'. O marcador 'el próximo año' indica futuro. As outras são tempos diferentes: 'viviríamos' é condicional, 'vivíamos' é imperfeito e 'hemos vivido' é pretérito perfeito composto, que fala do passado. Portanto, a resposta correta é 'VIVIREMOS'."
       },
       {
         "id": "i2f04",
