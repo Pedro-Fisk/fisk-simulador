@@ -880,6 +880,84 @@
         "explanation": "'Hacer' é irregular no futuro com raiz 'har-': haré, harás, hará, haremos, haréis, harán. Para 'yo': 'haré'. Note que a raiz é 'har-' (não 'hacer-' nem 'hac-')."
       },
       {
+        "id": "i2f50",
+        "topic": "Futuro Simple",
+        "question": "¿Cuál de estas formas del Futuro Simple NO lleva tilde?",
+        "options": [
+          "hablaré",
+          "hablarás",
+          "hablaremos",
+          "hablarán"
+        ],
+        "correct": 2,
+        "explanation": "No Futuro Simple todas as pessoas levam acento, menos 'nosotros': hablaré, hablarás, hablará, hablaremos, hablaréis, hablarán. Portanto, a resposta correta é HABLAREMOS."
+      },
+      {
+        "id": "i2f51",
+        "topic": "Futuro Simple",
+        "question": "Completa: 'Mañana yo te _____ (decir) toda la verdad.'",
+        "options": [
+          "deciré",
+          "diré",
+          "diría",
+          "dije"
+        ],
+        "correct": 1,
+        "explanation": "'Decir' perde a sílaba do meio no futuro e fica com a raiz 'dir-': diré, dirás, dirá, diremos, diréis, dirán. 'Diría' é condicional e 'digo' é presente. Portanto, a resposta correta é DIRÉ."
+      },
+      {
+        "id": "i2f52",
+        "topic": "Futuro Simple",
+        "question": "Completa: 'El próximo sábado nosotros _____ (salir) muy temprano.'",
+        "options": [
+          "saliremos",
+          "saldremos",
+          "salieremos",
+          "salíamos"
+        ],
+        "correct": 1,
+        "explanation": "'Salir' é do grupo que troca a vogal final da raiz por um 'd': sal- + d + r = saldr-. Fica saldré, saldrás, saldrá, saldremos, saldréis, saldrán. O mesmo acontece com 'poner' (pondr-), 'tener' (tendr-) e 'venir' (vendr-). Portanto, a resposta correta é SALDREMOS."
+      },
+      {
+        "id": "i2f53",
+        "topic": "Futuro Simple",
+        "question": "¿Cuál es la forma de 'querer' en Futuro Simple para 'ellos'?",
+        "options": [
+          "quererán",
+          "querrán",
+          "quisieron",
+          "quieren"
+        ],
+        "correct": 1,
+        "explanation": "'Querer' perde o 'e' da terminação do infinitivo e fica com dois erres: querr-. Dá querré, querrás, querrá, querremos, querréis, querrán. Portanto, a resposta correta é QUERRÁN."
+      },
+      {
+        "id": "i2f54",
+        "topic": "Futuro Simple",
+        "question": "Completa: 'Mañana _____ una reunión importante en la oficina.'",
+        "options": [
+          "habrá",
+          "habrán",
+          "hubo",
+          "habían"
+        ],
+        "correct": 0,
+        "explanation": "O futuro de 'hay' é 'habrá', e ele não muda no plural: 'habrá una reunión' e também 'habrá dos reuniones'. 'Hay' é presente e 'había' é passado. Portanto, a resposta correta é HABRÁ."
+      },
+      {
+        "id": "i2f55",
+        "topic": "Futuro Simple",
+        "question": "'¿Dónde estará Ana ahora?' ¿Qué quiere decir la persona que habla?",
+        "options": [
+          "Le está preguntando a Ana adónde va mañana",
+          "Se pregunta dónde está Ana en este momento",
+          "Le ordena a Ana que vaya a un lugar",
+          "Cuenta dónde estuvo Ana ayer"
+        ],
+        "correct": 1,
+        "explanation": "Numa pergunta, o Futuro Simple costuma servir para SUPOR, e não para falar do futuro: '¿Dónde estará Ana?' equivale a 'Onde será que a Ana está?', agora. É o mesmo uso de 'Serán las tres de la tarde'."
+      },
+      {
         "id": "i2f07",
         "topic": "Condicional Simple",
         "question": "¿Cómo se forma el Condicional Simple para verbos regulares?",
