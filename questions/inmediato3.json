@@ -512,6 +512,32 @@
         "explanation": "'Aconsejé' (passado) + 'que' pede o Pretérito Imperfeito do Subjuntivo: 'hiciera' (de hacer, raiz irregular: hic- + -iera). Verbos de conselho, pedido e desejo no passado → Imperfeito do Subjuntivo."
       },
       {
+        "id": "i3m79",
+        "topic": "Pretérito Imperfecto de Subjuntivo",
+        "question": "'Si yo ___ (saber) la respuesta, te la diría.' ¿Cuál es la forma correcta?",
+        "options": [
+          "sabría",
+          "supiera",
+          "sabía",
+          "supe"
+        ],
+        "correct": 1,
+        "explanation": "Depois de 'si', numa hipótese, entra o imperfeito do subjuntivo e nunca o condicional: 'si yo supiera'. O condicional fica na outra metade: 'te la diría'. Portanto, a resposta correta é 'SUPIERA'."
+      },
+      {
+        "id": "i3m80",
+        "topic": "Pretérito Imperfecto de Subjuntivo",
+        "question": "¿Cuáles son las DOS terminaciones válidas del Pretérito Imperfecto de Subjuntivo?",
+        "options": [
+          "-ra y -se (hablara / hablase)",
+          "-ría y -se",
+          "-ra y -ría",
+          "-ara y -iera, sin alternativa"
+        ],
+        "correct": 0,
+        "explanation": "As duas formas existem e valem igual: 'hablara' e 'hablase', 'tuviera' e 'tuviese'. A de '-ra' é mais comum na fala do dia a dia. Portanto, a resposta correta é '-RA Y -SE'."
+      },
+      {
         "id": "i3m40",
         "topic": "Si + Pretérito Imperfecto de Subjuntivo + Condicional",
         "question": "'Si ___ (tener) dinero, ___ (viajar) por el mundo.' ¿Cuál es la forma correcta?",
@@ -900,6 +926,32 @@
         ],
         "correct": 0,
         "explanation": "Com 'se' impessoal seguido de complemento preposicional ('de fútbol'), o verbo fica na 3ª pessoa do singular: 'se habla muy bien de fútbol' = fala-se muito bem de futebol. Não há sujeito gramatical, portanto o verbo não varia."
+      },
+      {
+        "id": "i3m77",
+        "topic": "SE Impersonal (avanzado)",
+        "question": "'En España ___ mucho a los abuelos.' (cuidar) ¿Cuál es la forma correcta?",
+        "options": [
+          "se cuidan",
+          "se cuida",
+          "se cuidando",
+          "cuidan se"
+        ],
+        "correct": 1,
+        "explanation": "Quando o complemento é pessoa e vem precedido de 'a', o verbo fica no singular: 'se cuida a los abuelos'. Com coisas e sem o 'a', ele concorda: 'se venden casas'. Portanto, a resposta correta é 'SE CUIDA'."
+      },
+      {
+        "id": "i3m78",
+        "topic": "SE Impersonal (avanzado)",
+        "question": "¿Por qué 'Se prohíbe fumar' no lleva el verbo en plural?",
+        "options": [
+          "Porque el sujeto es un infinitivo, que cuenta como singular",
+          "Porque 'prohibir' no tiene plural",
+          "Porque falta el artículo",
+          "Porque es una orden"
+        ],
+        "correct": 0,
+        "explanation": "O sujeito de 'se prohíbe fumar' é o infinitivo 'fumar', e infinitivo conta como singular. Por isso não se diz 'se prohíben fumar'."
       },
       {
         "id": "i3m70",
@@ -1426,6 +1478,32 @@
         "explanation": "Imperativo negativo no Estilo Indireto → Presente do Subjuntivo (3ª pessoa do plural, pois a professora fala para os alunos): 'que no hablen en clase'. O ponto de vista muda para a 3ª pessoa."
       },
       {
+        "id": "i3f76",
+        "topic": "Estilo Indirecto: Dice que...",
+        "question": "Ana dice: 'Estoy cansada.' ¿Cuál es el estilo indirecto correcto?",
+        "options": [
+          "Ana dice que estoy cansada.",
+          "Ana dice que está cansada.",
+          "Ana dice que esté cansada.",
+          "Ana dice que estaba cansada."
+        ],
+        "correct": 1,
+        "explanation": "Com 'dice' no presente, o tempo do verbo não muda: só muda a pessoa, e 'estoy' vira 'está'. Portanto, a resposta correta é 'ANA DICE QUE ESTÁ CANSADA'."
+      },
+      {
+        "id": "i3f77",
+        "topic": "Estilo Indirecto: Dice que...",
+        "question": "Luis te pregunta: '¿Dónde vives?' Tú se lo cuentas a otra persona. ¿Cuál es la forma correcta?",
+        "options": [
+          "Luis pregunta dónde vives.",
+          "Luis pregunta dónde vivo.",
+          "Luis pregunta si dónde vivo.",
+          "Luis pregunta dónde viva."
+        ],
+        "correct": 1,
+        "explanation": "A palavra interrogativa se mantém e quem muda é a pessoa do verbo: quem conta é a pessoa perguntada, então '¿dónde vives?' vira 'dónde vivo'. Portanto, a resposta correta é 'LUIS PREGUNTA DÓNDE VIVO'."
+      },
+      {
         "id": "i3f34",
         "topic": "Voz Pasiva (Ser + Participio)",
         "question": "'Los estudiantes escribieron el ensayo.' ¿Cuál es la voz pasiva correcta?",
@@ -1549,11 +1627,11 @@
         "options": [
           "Juan dijo que vino mañana.",
           "Juan dijo que vendría al día siguiente.",
-          "Juan dijo que vendrá mañana.",
+          "Juan dijo que vendría el día anterior.",
           "Juan dijo que venga mañana."
         ],
         "correct": 1,
-        "explanation": "Com 'dijo' (passado), o Futuro Simples muda para Condicional Simples: 'vendré → vendría'. Expressões de tempo também mudam: 'mañana → al día siguiente'. Duas mudanças simultâneas."
+        "explanation": "Com 'dijo' (passado), o Futuro Simples vira Condicional Simples: 'vendré → vendría'. E a expressão de tempo anda junto, para a frente: 'mañana → al día siguiente'. 'El día anterior' aponta para trás e desmente o original; 'vino' é passado e 'venga' é subjuntivo. Portanto, a resposta correta é 'JUAN DIJO QUE VENDRÍA AL DÍA SIGUIENTE'."
       },
       {
         "id": "i3f44",
@@ -1827,6 +1905,45 @@
         ],
         "correct": 0,
         "explanation": "Voz passiva com 'ser + participio' concordando com o sujeito feminino: 'La novela fue escrita'. Atenção: 'escribir' tem participio irregular 'escrito/escrita' (não 'escribida'). O participio concorda em gênero e número com o sujeito passivo."
+      },
+      {
+        "id": "i3f78",
+        "topic": "Voz Pasiva (Ser + Participio)",
+        "question": "'Cervantes escribió el Quijote.' ¿Cuál es la voz pasiva correcta?",
+        "options": [
+          "El Quijote fue escribido por Cervantes.",
+          "El Quijote fue escrito por Cervantes.",
+          "El Quijote estuvo escrito por Cervantes.",
+          "El Quijote se escribió por Cervantes."
+        ],
+        "correct": 1,
+        "explanation": "Na passiva com 'ser', o particípio concorda com o sujeito e o agente entra com 'por': 'fue escrito por Cervantes'. 'Escribido' não existe, e a passiva com 'se' não aceita agente explícito. Portanto, a resposta correta é 'EL QUIJOTE FUE ESCRITO POR CERVANTES'."
+      },
+      {
+        "id": "i3f79",
+        "topic": "Voz Pasiva (Ser + Participio)",
+        "question": "Completa: 'Las cartas _____ enviadas ayer por la mañana.'",
+        "options": [
+          "fue",
+          "fueron",
+          "estuvieron",
+          "han"
+        ],
+        "correct": 1,
+        "explanation": "O verbo 'ser' e o particípio concordam com o sujeito: 'las cartas' é feminino plural, então 'fueron enviadas'. Portanto, a resposta correta é 'FUERON'."
+      },
+      {
+        "id": "i3f80",
+        "topic": "Voz Pasiva (Ser + Participio)",
+        "question": "¿Cuándo se prefiere la pasiva con 'se' en lugar de 'ser + participio'?",
+        "options": [
+          "Cuando no interesa decir quién hizo la acción",
+          "Cuando el agente es una persona famosa",
+          "Cuando el verbo es irregular",
+          "Cuando la frase está en futuro"
+        ],
+        "correct": 0,
+        "explanation": "A passiva com 'se' serve justamente para deixar o agente de fora: 'se construyó el puente en 1950'. Quando se quer dizer quem fez, usa-se 'ser + particípio' com 'por'."
       },
       {
         "id": "i3f65",

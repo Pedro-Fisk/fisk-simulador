@@ -2167,6 +2167,45 @@
         "explanation": "Com 'ellos' no imperfeito, os verbos '-ar' terminam em '-aban'. 'Ganaban' = eles ganhavam. O imperfeito descreve hábitos ou estados contínuos no passado sem ponto final definido."
       },
       {
+        "id": "i1f81",
+        "topic": "Pretérito Imperfecto de Indicativo",
+        "question": "Antes nosotros ___ en bicicleta todos los domingos. (ir)",
+        "options": [
+          "fuimos",
+          "íbamos",
+          "vamos",
+          "iremos"
+        ],
+        "correct": 1,
+        "explanation": "'Ir' é irregular no imperfeito: iba, ibas, iba, íbamos, ibais, iban. E 'todos los domingos' marca hábito no passado, que é o terreno do imperfeito. Portanto, a resposta correta é 'ÍBAMOS'."
+      },
+      {
+        "id": "i1f82",
+        "topic": "Pretérito Imperfecto de Indicativo",
+        "question": "En aquella época la ciudad ___ muy tranquila. (ser)",
+        "options": [
+          "fue",
+          "es",
+          "era",
+          "sería"
+        ],
+        "correct": 2,
+        "explanation": "Descrever como as coisas eram vai no imperfeito: 'era muy tranquila'. 'Fue' contaria um fato pontual e fechado, que não é o caso. Portanto, a resposta correta é 'ERA'."
+      },
+      {
+        "id": "i1f83",
+        "topic": "Pretérito Imperfecto de Indicativo",
+        "question": "¿Cuáles son los TRES únicos verbos irregulares en Pretérito Imperfecto?",
+        "options": [
+          "tener, hacer, poder",
+          "ser, ir, ver",
+          "estar, andar, poner",
+          "decir, traer, venir"
+        ],
+        "correct": 1,
+        "explanation": "O imperfeito quase não tem irregulares: são só 'ser' (era), 'ir' (iba) e 'ver' (veía). Todos os outros seguem o padrão, inclusive os que são irregulares em outros tempos. Portanto, a resposta correta é 'SER, IR, VER'."
+      },
+      {
         "id": "i1f62",
         "topic": "Contraste entre Pretéritos",
         "question": "Mientras yo ___, mi hermano llegó a casa. (estudiar, acción en curso)",
@@ -2178,6 +2217,32 @@
         ],
         "correct": 3,
         "explanation": "O imperfeito 'estudiaba' descreve a ação em curso (fundo) quando o evento pontual 'llegó' aconteceu. 'Mientras yo estudiaba' = enquanto eu estava estudando. Imperfeito para ação de fundo, indefinido para ação pontual."
+      },
+      {
+        "id": "i1f84",
+        "topic": "Contraste entre Pretéritos",
+        "question": "Ella ___ la puerta cuando sonó el teléfono. (abrir, acción en curso)",
+        "options": [
+          "abría",
+          "abrió",
+          "ha abierto",
+          "abre"
+        ],
+        "correct": 0,
+        "explanation": "A ação em curso, que servia de cenário quando outra coisa aconteceu, vai no imperfeito: 'abría la puerta'. O que interrompe é que fica no pretérito: 'sonó'. Portanto, a resposta correta é 'ABRÍA'."
+      },
+      {
+        "id": "i1f85",
+        "topic": "Contraste entre Pretéritos",
+        "question": "¿Qué diferencia hay entre 'Ayer comí paella' y 'Antes comía paella'?",
+        "options": [
+          "Las dos cuentan exactamente lo mismo",
+          "La primera cuenta un hecho puntual; la segunda, una costumbre",
+          "La primera es una costumbre; la segunda, un hecho puntual",
+          "La segunda está mal construida"
+        ],
+        "correct": 1,
+        "explanation": "O pretérito perfeito simples fecha o fato num ponto do passado ('ayer comí'), e o imperfeito descreve o que era costume ('antes comía'). É esse o contraste que separa os dois tempos."
       },
       {
         "id": "i1f63",
@@ -2367,12 +2432,12 @@
         "question": "¿___ tú a llamar a tu madre esta noche?",
         "options": [
           "Iras",
-          "Irás",
+          "Vais a",
           "Va",
           "Vas a"
         ],
         "correct": 3,
-        "explanation": "A estrutura 'ir a + infinitivo' expressa plano ou intenção futura. Com 'tú', 'ir' é 'vas'. '¿Vas a llamar?' = você vai ligar? A estrutura completa inclui obrigatoriamente 'a' antes do infinitivo."
+        "explanation": "A estrutura 'ir a + infinitivo' expressa plano ou intenção futura. Com 'tú', 'ir' é 'vas': '¿Vas a llamar?' = você vai ligar? 'Vais a' é de 'vosotros' e 'Va' é de 'él/ella/usted'; 'Iras' sem acento não é forma verbal nenhuma. E o 'a' antes do infinitivo é obrigatório."
       },
       {
         "id": "i1f78",
