@@ -739,6 +739,13 @@
       .page-header .hub-back-link { font-size: 0; padding-left: .7rem; }
       .page-header .hub-back-link::before { content: '\2302'; font-size: 1.15rem; }
     }
+    .portal-badge {
+      display: inline-flex; align-items: center;
+      background: rgba(0,0,0,.06); color: inherit;
+      border-radius: 999px; padding: .22rem .8rem;
+      font-size: .74rem; font-weight: 700; white-space: nowrap;
+    }
+    body.theme-dark .portal-badge { background: rgba(255,255,255,.12); }
     .prof-badge {
       align-items: center;
       background: #7C3AED; color: #fff;
@@ -984,13 +991,16 @@
       <div class="exam-name" id="exam-subtitle">Choose your exam</div>
     </div>
     <span id="prof-badge-exam" class="prof-badge" style="margin-top:0;">&#128250; Professor Mode</span>
+    <!-- Quem veio do Portal já está identificado: o campo de nome some e fica
+         este selo. Preenchido em JS, com o nome que veio na URL. -->
+    <span id="portal-name-badge" class="portal-badge" hidden></span>
     <button class="theme-toggle" id="themeToggleExam" style="position:absolute;right:1.25rem;top:50%;transform:translateY(-50%);">🌙</button>
   </div>
 
   <div style="flex:1; overflow-y:auto;">
     <div class="container">
 
-      <div class="name-field-wrap">
+      <div class="name-field-wrap" id="name-field-wrap">
         <label class="name-field-label" for="student-name"><span id="name-field-label-text">Your name</span> <span class="name-field-required" id="name-field-required-text">* required</span></label>
         <div class="name-field-row">
           <input
@@ -1816,7 +1826,15 @@ async function goToExam() {
   /* restore name if already entered this session */
   const nameInput = document.getElementById('student-name');
   if (nameInput) nameInput.value = state.studentName;
-  if (nameInput && PORTAL_NOME) nameInput.disabled = true; // veio logado do portal
+  /* Quem vem do Portal já está identificado: o campo SOME, e o nome aparece
+     como selo. Até 11/08/2026 ele só ficava desabilitado, e um campo de nome
+     na tela pede uma ação de quem não tem nenhuma para fazer. */
+  const nomeWrap = document.getElementById('name-field-wrap');
+  if (nomeWrap && PORTAL_NOME) {
+    nomeWrap.style.display = 'none';
+    const selo = document.getElementById('portal-name-badge');
+    if (selo) { selo.textContent = '\u{1F464} ' + PORTAL_NOME; selo.hidden = false; }
+  }
   applyLang(bookLang(state.book));
   updateStartBtn();
 
@@ -2827,12 +2845,16 @@ portalPracticeBoot();
    aba (navegação normal, não nova aba), voltar de verdade é melhor do que
    qualquer URL fixa: devolve exatamente a página de origem. */
 (function () {
-  var doPortal = /[?&]raf=/.test(location.search);
+  /* O RAF vai junto no href. Sem ele, a aba sem histórico (link colado, PWA
+     aberto do zero) cairia no formulário de login do Portal, e o aluno leria
+     isso como ter sido deslogado. O Portal entra direto e tira o código da
+     barra de endereços. */
+  var raf = (new URLSearchParams(location.search).get('raf') || '').trim();
   ['hub-back', 'hub-back-exam'].forEach(function (id) {
     var el = document.getElementById(id);
     if (!el) return;
-    if (doPortal) {
-      el.href = 'https://portalfisk.com.br/';
+    if (raf) {
+      el.href = 'https://portalfisk.com.br/?raf=' + encodeURIComponent(raf);
       el.innerHTML = '&#8592; Portal do Aluno';
     }
     el.addEventListener('click', function (ev) {
