@@ -1120,6 +1120,11 @@
 <div id="screen-results" class="screen">
   <div class="page-header">
     <button class="back-btn" onclick="showScreen('exam')">&larr; Back</button>
+    <!-- Saída para o Portal também aqui: é a tela em que o aluno terminou e
+         quer sair, e sem isto ele teria de voltar duas telas para achar a
+         porta. Na tela do quiz não entra de propósito: um clique acidental no
+         meio da prova jogaria fora o que ele já respondeu. -->
+    <a href="https://pedro-fisk.github.io/fisk-hub/" class="hub-back-link" id="hub-back-results">&#8592; Fisk Hub</a>
     <div class="page-header-text">
       <div class="book-name" id="results-title"></div>
       <div class="exam-name" id="results-subtitle"></div>
@@ -2845,16 +2850,18 @@ portalPracticeBoot();
    aba (navegação normal, não nova aba), voltar de verdade é melhor do que
    qualquer URL fixa: devolve exatamente a página de origem. */
 (function () {
-  /* O RAF vai junto no href. Sem ele, a aba sem histórico (link colado, PWA
-     aberto do zero) cairia no formulário de login do Portal, e o aluno leria
-     isso como ter sido deslogado. O Portal entra direto e tira o código da
-     barra de endereços. */
-  var raf = (new URLSearchParams(location.search).get('raf') || '').trim();
-  ['hub-back', 'hub-back-exam'].forEach(function (id) {
+  /* O parâmetro `raf` é o sinal de que veio do Portal, mesmo VAZIO: a direção
+     entra com ele em branco, e testar o conteúdo mandaria justamente ela para
+     o lugar errado. Quando há RAF, ele vai junto no href, porque a aba sem
+     histórico (link colado, PWA aberto do zero) cairia no formulário de login
+     do Portal, e o aluno leria isso como ter sido deslogado. */
+  var qsp = new URLSearchParams(location.search);
+  var raf = (qsp.get('raf') || '').trim();
+  ['hub-back', 'hub-back-exam', 'hub-back-quiz', 'hub-back-results'].forEach(function (id) {
     var el = document.getElementById(id);
     if (!el) return;
-    if (raf) {
-      el.href = 'https://portalfisk.com.br/?raf=' + encodeURIComponent(raf);
+    if (qsp.has('raf')) {
+      el.href = 'https://portalfisk.com.br/' + (raf ? '?raf=' + encodeURIComponent(raf) : '');
       el.innerHTML = '&#8592; Portal do Aluno';
     }
     el.addEventListener('click', function (ev) {
