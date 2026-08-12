@@ -5,6 +5,10 @@ Servido pelo GitHub Pages em `pedro-fisk.github.io/fisk-simulador`.
 **HTML estático puro, sem build, sem dependências.** Todo o app é o
 `index.html`; o conteúdo mora em `questions/<livro>.json`.
 
+O **estado do catálogo e as decisões** (o que existe hoje, por que o espanhol
+cresceu, onde mora a régua do diagnóstico, o que falta) estão em
+`docs/roadmap-quick-practice.md`. Aqui ficam as convenções e o que é fácil errar.
+
 Chega gente por três portas, e isso muda a tela:
 
 | Como entra | URL | O que muda |
@@ -151,6 +155,13 @@ Ele mora num terceiro bloco do JSON, `phrasal`, ao lado de `midterm` e `final`:
   algum dia o corte mudar, o contador precisa mudar junto.
 - **Nome de tópico é chave.** Renomear um tópico sem atualizar o `LESSON_MAP` e o
   `qp` dos vídeos do Portal derruba o atalho "praticar este ponto".
+- **Publicar questão aqui não basta.** Quem corrige é o servidor, pelo
+  `Gabarito.js` do `fisk-hub-backend`, que é gerado destes JSONs — e
+  `corrigirProva_` ignora **em silêncio** a questão que não está lá. Sem regerar
+  e implantar, a tentativa tem total menor do que o aluno respondeu, ele ganha
+  menos Fisk Dólares e os tópicos daquelas questões não chegam ao diagnóstico.
+  Aconteceu com as 48 questões de espanhol de agosto. Ver
+  `docs/roadmap-quick-practice.md`.
 - **Distrator que forma frase correta é o defeito mais caro do banco**, e nenhum
   teste automático pega. A pergunta certa em cada revisão é: *um professor
   aceitaria esta alternativa errada como resposta nesta frase?* Duas armadilhas
