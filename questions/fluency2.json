@@ -1780,8 +1780,8 @@
         "options": [
           "top dog",
           "black sheep",
-          "drama queen",
-          "helping hand"
+          "chicken",
+          "wallflower"
         ],
         "correct": 0,
         "explanation": "TOP DOG é a pessoa mais importante de uma organização. Portanto, a resposta correta é TOP DOG."
@@ -2299,9 +2299,9 @@
         "question": "She cried for an hour over a broken mug — such a _____.",
         "options": [
           "drama queen",
-          "top dog",
           "helping hand",
-          "chicken"
+          "night owl",
+          "couch potato"
         ],
         "correct": 0,
         "explanation": "DRAMA QUEEN é quem faz drama por qualquer coisa. Portanto, a resposta correta é DRAMA QUEEN."
@@ -2452,7 +2452,7 @@
       {
         "id": "f2pv68",
         "topic": "Phrasal Verbs – Crime",
-        "question": "The reform _____ several outdated penalties.",
+        "question": "The school finally _____ the old uniform rule.",
         "options": [
           "did away with",
           "got away with",

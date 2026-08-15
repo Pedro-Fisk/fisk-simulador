@@ -264,7 +264,7 @@
           "Until"
         ],
         "correct": 0,
-        "explanation": "Usamos 'while' para conectar duas ações passadas quando uma estava em progresso (Past Continuous: was taking) e a outra aconteceu de repente (Simple Past: rang). 'During' é seguido de substantivo, não de oração com sujeito e verbo."
+        "explanation": "Usamos 'while' para conectar duas ações passadas quando uma estava em progresso (Past Continuous: was taking) e a outra aconteceu de repente (Simple Past: rang). 'During' é seguido de substantivo, não de oração com sujeito e verbo. Portanto, a resposta correta é WHILE."
       },
       {
         "id": "e2m21",
@@ -277,7 +277,7 @@
           "Yes, I am able to."
         ],
         "correct": 0,
-        "explanation": "Para responder afirmativamente a uma pergunta com 'could', usamos 'Yes, I could.' O auxiliar 'can' não é usado para falar de habilidades no passado. 'Could' é a forma correta."
+        "explanation": "Para responder afirmativamente a uma pergunta com 'could', usamos 'Yes, I could'. O auxiliar 'can' não é usado para falar de habilidades no passado. Portanto, a resposta correta é 'YES, I COULD'."
       },
       {
         "id": "e2m22",
@@ -869,13 +869,13 @@
         "topic": "Adverbs of Frequency",
         "question": "Where does an adverb of frequency go in a sentence with a main verb?",
         "options": [
-          "at the end of the sentence",
+          "after the main verb",
           "before the subject",
-          "between the subject and the main verb",
-          "after the object"
+          "between the subject and the verb",
+          "at the end of the sentence"
         ],
         "correct": 2,
-        "explanation": "Advérbios de frequência como always, usually, often, sometimes e never ficam entre o sujeito e o verbo principal na frase. Exemplos: 'She always studies', 'They never eat meat'. Portanto, a resposta correta é BETWEEN THE SUBJECT AND THE MAIN VERB."
+        "explanation": "Advérbios de frequência como always, usually, often, sometimes e never ficam entre o sujeito e o verbo principal da frase. Exemplos: 'She always studies', 'They never eat meat'. Portanto, a resposta correta é BETWEEN THE SUBJECT AND THE VERB."
       },
       {
         "id": "e2m68",
@@ -979,7 +979,7 @@
           "How many years are you?"
         ],
         "correct": 2,
-        "explanation": "Em inglês, a forma correta de perguntar a idade é HOW OLD ARE YOU?. Não traduções literais do português como 'How many years do you have?'. Portanto, a resposta correta é HOW OLD ARE YOU?"
+        "explanation": "Em inglês, a forma correta de perguntar a idade é HOW OLD ARE YOU? Não usamos traduções literais do português, como 'How many years are you?' ou 'How years do you have?'. Portanto, a resposta correta é HOW OLD ARE YOU?"
       }
     ]
   },
@@ -1050,7 +1050,7 @@
           "knife's"
         ],
         "correct": 1,
-        "explanation": "Quando queremos falar de várias facas em inglês, palavras que terminam em -F ou -FE trocam essa terminação por -VES no plural. Neste caso, knife vira KNIVES, da mesma forma que wife vira wives e life vira lives. Repare que não basta trocar o F pelo V: o S do plural também entra, por isso 'knive' está incompleto. Portanto, a resposta correta é 'KNIVES'."
+        "explanation": "Quando queremos falar de várias facas em inglês, palavras que terminam em -F ou -FE trocam essa terminação por -VES no plural. Neste caso, knife vira KNIVES, da mesma forma que wife vira wives e life vira lives. Repare que não basta trocar o F pelo V: o S do plural também entra, por isso 'knive' está incompleto. Portanto, a resposta correta é KNIVES."
       },
       {
         "id": "e2f06",
@@ -1068,15 +1068,15 @@
       {
         "id": "e2f07",
         "topic": "Verb + To + Verb / Verb + V-ing",
-        "question": "I don't like _____ newspapers. (both forms are possible with 'like')",
+        "question": "I don't like _____ newspapers in the morning.",
         "options": [
           "read",
-          "to read / reading",
+          "reading",
           "to reading",
           "read to"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dizer o que gostamos ou não gostamos de fazer, o verbo LIKE aceita as duas formas (TO READ ou o verbo com -ing READING), sem diferença de significado. Neste caso, tanto 'I don't like to read' quanto 'I don't like reading' estão corretos. Portanto, a resposta correta é TO READ / READING."
+        "explanation": "O verbo LIKE aceita tanto TO + verbo quanto o verbo com -ing, sem diferença de significado. Entre as opções aqui, a única forma possível é READING. Portanto, a resposta correta é READING."
       },
       {
         "id": "e2f08",
@@ -2186,7 +2186,7 @@
       {
         "id": "e2f93",
         "topic": "How – Manner",
-        "question": "He drives very _____. He has never had an accident.",
+        "question": "He drives very _____. He never had an accident.",
         "options": [
           "careful",
           "care",

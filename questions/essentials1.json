@@ -204,7 +204,7 @@
       {
         "id": "e1m16",
         "topic": "Objective Pronouns",
-        "question": "The receptionist smiled at _____. (I → ?)",
+        "question": "The teacher is talking to _____. (I → ?)",
         "options": [
           "I",
           "my",
@@ -1323,7 +1323,7 @@
           "three and hundred twenty-five"
         ],
         "correct": 1,
-        "explanation": "A forma padrão do inglês britânico para números acima de 100 usa 'and' entre 'hundred' e o restante do número. Portanto, 325 se escreve 'three hundred AND twenty-five'. Portanto, a resposta correta é 'THREE HUNDRED AND TWENTY-FIVE'."
+        "explanation": "Para ler e escrever números de três dígitos, dizemos a centena e depois o resto do número, ligados por 'and': 325 = 'three hundred and twenty-five'. 'Hundred' nunca leva -s quando vem depois de um número. Portanto, a resposta correta é 'THREE HUNDRED AND TWENTY-FIVE'."
       },
       {
         "id": "e1f22",
@@ -1973,7 +1973,7 @@
           "one and hundred forty-seven"
         ],
         "correct": 1,
-        "explanation": "A forma padrão do inglês britânico para números acima de 100 usa 'and' entre 'hundred' e o restante do número. Portanto, 147 se escreve 'one hundred AND forty-seven'. Portanto, a resposta correta é 'ONE HUNDRED AND FORTY-SEVEN'."
+        "explanation": "Para ler e escrever números de três dígitos, dizemos a centena e depois o resto do número, ligados por 'and': 147 = 'one hundred and forty-seven'. 'Hundred' nunca leva -s quando vem depois de um número. Portanto, a resposta correta é 'ONE HUNDRED AND FORTY-SEVEN'."
       },
       {
         "id": "e1f72",
@@ -1986,7 +1986,7 @@
           "nine ninety-nine hundred"
         ],
         "correct": 0,
-        "explanation": "Números de três dígitos em inglês seguem o padrão: centena + 'and' + dezena e unidade. Portanto, 999 = 'nine hundred and ninety-nine'. Nunca se usa o plural 'hundreds' para dizer um número específico."
+        "explanation": "Números de três dígitos em inglês seguem o padrão: centena + 'and' + dezena e unidade. 'Hundred' nunca vai para o plural quando dizemos um número específico. Portanto, a resposta correta é 'NINE HUNDRED AND NINETY-NINE'."
       },
       {
         "id": "e1f73",

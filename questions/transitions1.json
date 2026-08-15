@@ -9,7 +9,7 @@
       {
         "id": "t1m01",
         "topic": "Tag Questions",
-        "question": "Mr. McGuiness is from Ireland, _____?",
+        "question": "Mr. McGuinness is from Ireland, _____?",
         "options": [
           "is he",
           "does he",
@@ -17,7 +17,7 @@
           "doesn't he"
         ],
         "correct": 2,
-        "explanation": "Quando queremos confirmar se algo é verdade, colocamos um finalzinho de pergunta no fim da frase. Se a frase é positiva, o finalzinho é negativo, e usamos o mesmo verbo da frase. Neste caso, a frase diz que o Sr. McGuiness É da Irlanda, frase positiva com IS, então o finalzinho é negativo. Portanto, a resposta correta é 'ISN'T HE?'"
+        "explanation": "Quando queremos confirmar se algo é verdade, colocamos um finalzinho de pergunta no fim da frase. Se a frase é positiva, o finalzinho é negativo, e usamos o mesmo verbo da frase. Neste caso, a frase diz que o Sr. McGuiness É da Irlanda, frase positiva com IS, então o finalzinho é negativo. Portanto, a resposta correta é 'ISN'T HE?'."
       },
       {
         "id": "t1m02",
@@ -30,7 +30,7 @@
           "was he"
         ],
         "correct": 0,
-        "explanation": "Quando queremos confirmar uma informação negativa, o finalzinho de pergunta é positivo. Neste caso, a frase diz que ele NÃO me reconheceu. É negativa com DIDN'T, então o finalzinho é positivo, com o mesmo verbo da frase. Portanto, a resposta correta é 'DID HE?'"
+        "explanation": "Quando queremos confirmar uma informação negativa, o finalzinho de pergunta é positivo. Neste caso, a frase diz que ele NÃO me reconheceu. É negativa com DIDN'T, então o finalzinho é positivo, com o mesmo verbo da frase. Portanto, a resposta correta é 'DID HE?'."
       },
       {
         "id": "t1m03",
@@ -43,7 +43,7 @@
           "isn't it"
         ],
         "correct": 1,
-        "explanation": "Quando queremos confirmar uma previsão positiva com WILL, o finalzinho de pergunta é negativo, com o mesmo verbo. Neste caso, a frase diz que VAI chover amanhã. Positiva com WILL, então o finalzinho é negativo. Portanto, a resposta correta é 'WON'T IT?'"
+        "explanation": "Quando queremos confirmar uma previsão positiva com WILL, o finalzinho de pergunta é negativo, com o mesmo verbo. Neste caso, a frase diz que VAI chover amanhã. Positiva com WILL, então o finalzinho é negativo. Portanto, a resposta correta é 'WON'T IT?'."
       },
       {
         "id": "t1m04",
@@ -121,7 +121,7 @@
           "practical than"
         ],
         "correct": 0,
-        "explanation": "Quando queremos comparar duas coisas usando um adjetivo longo, colocamos MORE antes do adjetivo e THAN depois. Neste caso, mensagens de texto estão sendo comparadas a ligações usando 'practical'. Que é um adjetivo longo, então precisa de MORE. Portanto, a resposta correta é 'MORE PRACTICAL THAN'."
+        "explanation": "Quando queremos comparar duas coisas usando um adjetivo longo, colocamos MORE antes do adjetivo e THAN depois. Neste caso, mensagens de texto estão sendo comparadas a ligações usando 'practical', que é um adjetivo longo e por isso precisa de MORE. Portanto, a resposta correta é 'MORE PRACTICAL THAN'."
       },
       {
         "id": "t1m10",
@@ -160,7 +160,7 @@
           "using"
         ],
         "correct": 1,
-        "explanation": "Quando queremos perguntar sobre um hábito do passado, usamos DID no começo da pergunta e o verbo fica na forma básica, sem o 'D' no final. Neste caso, a pergunta é se a pessoa tinha o costume de jogar tênis na escola, com DID, escrevemos 'use to', não 'used to'. Portanto, a resposta correta é 'USE TO'."
+        "explanation": "Quando queremos perguntar sobre um hábito do passado, usamos DID no começo da pergunta e o verbo fica na forma básica, sem o D no final. Neste caso, a pergunta é se a pessoa tinha o costume de jogar tênis na escola. Como já existe o DID, escrevemos 'use to', e não 'used to'. Portanto, a resposta correta é 'USE TO'."
       },
       {
         "id": "t1m13",
@@ -303,7 +303,7 @@
           "didn't you"
         ],
         "correct": 1,
-        "explanation": "Quando a frase é positiva, o finalzinho de pergunta é negativo e usa o mesmo auxiliar da frase. Neste caso, a frase é positiva com HAVE BEEN, então o finalzinho é negativo com HAVEN'T. Portanto, a resposta correta é 'HAVEN'T YOU?'"
+        "explanation": "Quando a frase é positiva, o finalzinho de pergunta é negativo e usa o mesmo auxiliar da frase. Neste caso, a frase é positiva com HAVE BEEN, então o finalzinho é negativo com HAVEN'T. Portanto, a resposta correta é 'HAVEN'T YOU?'."
       },
       {
         "id": "t1m24",
@@ -316,7 +316,7 @@
           "don't they"
         ],
         "correct": 0,
-        "explanation": "Quando a frase é negativa, o finalzinho de pergunta é positivo e usa o mesmo auxiliar da frase. Neste caso, a frase é negativa com AREN'T, então o finalzinho é positivo com ARE. Portanto, a resposta correta é 'ARE THEY?'"
+        "explanation": "Quando a frase é negativa, o finalzinho de pergunta é positivo e usa o mesmo auxiliar da frase. Neste caso, a frase é negativa com AREN'T, então o finalzinho é positivo com ARE. Portanto, a resposta correta é 'ARE THEY?'."
       },
       {
         "id": "t1m25",
@@ -542,7 +542,7 @@
       {
         "id": "t1m42",
         "topic": "Some / Any / No",
-        "question": "She made _____ mistakes in the test. She got 100%!",
+        "question": "She made _____ mistakes on the test. She got 100%!",
         "options": [
           "some",
           "any",
@@ -828,7 +828,7 @@
       {
         "id": "t1m64",
         "topic": "Comparatives (more/less + than)",
-        "question": "Electric cars are _____ petrol cars.",
+        "question": "Electric cars are _____ gasoline cars.",
         "options": [
           "expensive than",
           "expensiver than",
@@ -836,7 +836,7 @@
           "most expensive than"
         ],
         "correct": 2,
-        "explanation": "O adjetivo 'expensive' tem três sílabas, então a comparação usa MORE + adjetivo + THAN, nunca -ER. Neste caso, carros elétricos e a gasolina estão sendo comparados em preço. Portanto, a resposta correta é 'MORE EXPENSIVE THAN'."
+        "explanation": "O adjetivo 'expensive' tem três sílabas, então a comparação usa MORE + adjetivo + THAN, nunca -ER. Neste caso, carros elétricos e carros a gasolina estão sendo comparados em preço. Portanto, a resposta correta é 'MORE EXPENSIVE THAN'."
       },
       {
         "id": "t1m65",
@@ -1050,7 +1050,7 @@
           "in"
         ],
         "correct": 2,
-        "explanation": "Quando queremos dizer desde quando algo não acontece, usamos SINCE seguido de um momento específico no passado. Neste caso, a pessoa não vê ela desde o ano passado. 'Last year' é um ponto específico no tempo, não uma duração. Portanto, a resposta correta é 'SINCE'."
+        "explanation": "Quando queremos dizer desde quando algo não acontece, usamos SINCE seguido de um momento específico no passado. Neste caso, a pessoa não a vê desde o ano passado. 'Last year' é um ponto específico no tempo, não uma duração. Portanto, a resposta correta é 'SINCE'."
       },
       {
         "id": "t1f11",
@@ -1102,7 +1102,7 @@
           "isn't it"
         ],
         "correct": 2,
-        "explanation": "Quando queremos confirmar uma informação positiva com um finalzinho de pergunta, o finalzinho é negativo e usa o mesmo verbo da frase. Neste caso, a frase diz que carros poluem. É positiva no presente com 'cars' (= they), então o finalzinho é negativo. Portanto, a resposta correta é 'DON'T THEY?'"
+        "explanation": "Quando queremos confirmar uma informação positiva com um finalzinho de pergunta, o finalzinho é negativo e usa o mesmo verbo da frase. Neste caso, a frase diz que carros poluem. É positiva no presente com 'cars' (= they), então o finalzinho é negativo. Portanto, a resposta correta é 'DON'T THEY?'."
       },
       {
         "id": "t1f15",
@@ -1120,7 +1120,7 @@
       {
         "id": "t1f16",
         "topic": "Present Perfect (Ever/Already/Never/Yet)",
-        "question": "Have you bought the tickets _____ ? (asking if it's done)",
+        "question": "Have you bought the tickets _____? (asking if it's done)",
         "options": [
           "already",
           "never",
@@ -1237,7 +1237,7 @@
       {
         "id": "t1f25",
         "topic": "Have / Has Got",
-        "question": "_____ he got a driving license?",
+        "question": "_____ he got a driver's license?",
         "options": [
           "Does",
           "Is",
@@ -1362,7 +1362,7 @@
           "have to"
         ],
         "correct": 2,
-        "explanation": "DON'T HAVE TO significa que algo não é obrigatório (a pessoa tem a escolha. Neste caso, a participação é opcional) não há obrigação de ir. Portanto, a resposta correta é 'DON'T HAVE TO'."
+        "explanation": "DON'T HAVE TO significa que algo não é obrigatório e a pessoa tem a escolha. Neste caso, a participação é opcional, não há obrigação de ir. Portanto, a resposta correta é 'DON'T HAVE TO'."
       },
       {
         "id": "t1f35",
@@ -1375,7 +1375,7 @@
           "haven't to"
         ],
         "correct": 1,
-        "explanation": "MUSTN'T expressa uma proibição forte (algo que é totalmente errado fazer. Neste caso, revelar o segredo é proibido) a pessoa não deve contar para ninguém. Portanto, a resposta correta é 'MUSTN'T'."
+        "explanation": "MUSTN'T expressa uma proibição forte, algo que é totalmente errado fazer. Neste caso, revelar o segredo é proibido, a pessoa não deve contar para ninguém. Portanto, a resposta correta é 'MUSTN'T'."
       },
       {
         "id": "t1f36",
@@ -1479,7 +1479,7 @@
           "never"
         ],
         "correct": 3,
-        "explanation": "NEVER expressa que algo nunca aconteceu em nenhum momento da vida. Neste caso, ela nunca faltou a uma aula, NEVER enfatiza essa experiência de frequência total. Portanto, a resposta correta é 'NEVER'."
+        "explanation": "NEVER expressa que algo nunca aconteceu em nenhum momento da vida. Neste caso, ela nunca faltou a uma aula, e por isso está sempre presente. Portanto, a resposta correta é 'NEVER'."
       },
       {
         "id": "t1f44",
@@ -1596,7 +1596,7 @@
           "don't you"
         ],
         "correct": 1,
-        "explanation": "Com present perfect positivo, o finalzinho de pergunta é negativo e usa o mesmo auxiliar HAVE. Neste caso, a frase é positiva com 'have met', então o finalzinho é negativo com HAVEN'T. Portanto, a resposta correta é 'HAVEN'T YOU?'"
+        "explanation": "Com present perfect positivo, o finalzinho de pergunta é negativo e usa o mesmo auxiliar HAVE. Neste caso, a frase é positiva com 'have met', então o finalzinho é negativo com HAVEN'T. Portanto, a resposta correta é 'HAVEN'T YOU?'."
       },
       {
         "id": "t1f53",
@@ -1609,7 +1609,7 @@
           "did they"
         ],
         "correct": 1,
-        "explanation": "Com frases negativas, o finalzinho de pergunta é positivo. Neste caso, a frase é negativa com WEREN'T, então o finalzinho é positivo com WERE. Portanto, a resposta correta é 'WERE THEY?'"
+        "explanation": "Com frases negativas, o finalzinho de pergunta é positivo. Neste caso, a frase é negativa com WEREN'T, então o finalzinho é positivo com WERE. Portanto, a resposta correta é 'WERE THEY?'."
       },
       {
         "id": "t1f54",
@@ -1622,7 +1622,7 @@
           "will we"
         ],
         "correct": 2,
-        "explanation": "Depois de 'Let's', o finalzinho de pergunta especial é sempre 'shall we?'. É uma regra fixa. Neste caso, a pessoa está sugerindo um passeio e quer confirmar se os outros concordam. Portanto, a resposta correta é 'SHALL WE?'"
+        "explanation": "Depois de 'Let's', o finalzinho de pergunta especial é sempre 'shall we?'. É uma regra fixa. Neste caso, a pessoa está sugerindo um passeio e quer confirmar se os outros concordam. Portanto, a resposta correta é 'SHALL WE?'."
       },
       {
         "id": "t1f55",
@@ -1635,7 +1635,7 @@
           "she can't"
         ],
         "correct": 2,
-        "explanation": "Com frases positivas usando CAN, o finalzinho é negativo com CAN'T. Neste caso, a frase afirma que ela toca piano lindamente, o finalzinho negativo confirma essa informação. Portanto, a resposta correta é 'CAN'T SHE?'"
+        "explanation": "Com frases positivas usando CAN, o finalzinho é negativo com CAN'T. Neste caso, a frase afirma que ela toca piano lindamente, o finalzinho negativo confirma essa informação. Portanto, a resposta correta é 'CAN'T SHE?'."
       },
       {
         "id": "t1f56",
@@ -1674,7 +1674,7 @@
           "mustn't"
         ],
         "correct": 3,
-        "explanation": "MUSTN'T expressa uma proibição (algo que é terminantemente proibido. Neste caso, a placa proíbe a entrada) entrar é proibido, não apenas desnecessário. Portanto, a resposta correta é 'MUSTN'T'."
+        "explanation": "MUSTN'T expressa uma proibição, algo terminantemente proibido. Neste caso, a placa proíbe a entrada: entrar é proibido, não apenas desnecessário. Portanto, a resposta correta é 'MUSTN'T'."
       },
       {
         "id": "t1f59",
@@ -1731,7 +1731,7 @@
       {
         "id": "t1f63",
         "topic": "Present Perfect (Ever/Already/Never/Yet)",
-        "question": "Have they _____ finished the construction? It's taking so long!",
+        "question": "Have they finished the construction _____? It's taking so long!",
         "options": [
           "ever",
           "yet",
@@ -2025,7 +2025,7 @@
           "were scared"
         ],
         "correct": 0,
-        "explanation": "No zero conditional, descrevemos algo que sempre acontece numa determinada situação (usamos o presente simples. Neste caso, gatos usam as garras quando têm medo) é um comportamento natural e constante. Portanto, a resposta correta é 'ARE SCARED'."
+        "explanation": "No zero conditional descrevemos algo que sempre acontece numa determinada situação, e para isso usamos o presente simples. Neste caso, gatos usam as garras quando têm medo: é um comportamento natural e constante. Portanto, a resposta correta é 'ARE SCARED'."
       },
       {
         "id": "t1f86",
