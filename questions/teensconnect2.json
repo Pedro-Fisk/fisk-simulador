@@ -9,7 +9,7 @@
       {
         "id": "tc2m01",
         "topic": "Can / Can't",
-        "question": "Choose the correct sentence:",
+        "question": "Choose the correct sentence about ability:",
         "options": [
           "She can swims very well.",
           "She can swim very well.",
@@ -113,7 +113,7 @@
       {
         "id": "tc2m09",
         "topic": "Simple Present – Does / Doesn't",
-        "question": "Which sentence is WRONG?",
+        "question": "Which sentence is WRONG? (simple present)",
         "options": [
           "She doesn't eat fish.",
           "My dad works on Saturdays.",
@@ -165,7 +165,7 @@
       {
         "id": "tc2m13",
         "topic": "Linking Words – And / But / Or",
-        "question": "Would you like juice _____ soda?",
+        "question": "Would you like juice _____ soda? — Juice, please.",
         "options": [
           "or",
           "and",
@@ -173,7 +173,7 @@
           "so"
         ],
         "correct": 0,
-        "explanation": "Quando oferecemos uma escolha entre duas opções, usamos 'or'. Neste caso, a pessoa vai escolher suco OU refrigerante, só um dos dois. Portanto, a resposta correta é 'juice OR soda'."
+        "explanation": "Quando oferecemos uma escolha entre duas opções, usamos 'or'. A resposta mostra que a pessoa escolheu só uma das duas: suco. Portanto, a resposta correta é 'juice OR soda'."
       },
       {
         "id": "tc2m14",
@@ -256,7 +256,7 @@
       {
         "id": "tc2m20",
         "topic": "Simple Present – He/She/It Spelling",
-        "question": "Which sentence is WRONG?",
+        "question": "Which sentence is WRONG? (he / she / it in the simple present)",
         "options": [
           "He plays soccer on Sundays.",
           "She studys English every day.",
@@ -386,7 +386,7 @@
       {
         "id": "tc2m30",
         "topic": "Genitive Case",
-        "question": "Choose the correct sentence:",
+        "question": "Choose the correct sentence about who owns the bike:",
         "options": [
           "That is the bike of Karen.",
           "That is Karen's bike.",
@@ -394,7 +394,7 @@
           "That is Karen bike's."
         ],
         "correct": 1,
-        "explanation": "Quando o dono é uma pessoa, preferimos o apóstrofo + 's' logo depois do nome: Karen's bike. O apóstrofo vai no dono, não na coisa. Portanto, a resposta correta é 'That is KAREN'S bike.'"
+        "explanation": "Com pessoas, o inglês marca o dono com apóstrofo + 's' logo depois do nome: Karen's bike. A construção 'the bike of Karen' não é usada com pessoas, e o apóstrofo vai sempre no dono, nunca na coisa. Portanto, a resposta correta é 'That is KAREN'S bike.'"
       },
       {
         "id": "tc2m31",
@@ -529,7 +529,7 @@
       {
         "id": "tc2m41",
         "topic": "Should – Advice",
-        "question": "Choose the correct sentence:",
+        "question": "Choose the correct sentence about advice:",
         "options": [
           "You should to drink more water.",
           "You should drink more water.",
@@ -711,7 +711,7 @@
       {
         "id": "tc2m55",
         "topic": "Be Going To",
-        "question": "Which sentence is WRONG?",
+        "question": "Which sentence is WRONG? (be going to)",
         "options": [
           "She is going to rest on Sunday.",
           "We are going to hang out with friends.",
@@ -750,7 +750,7 @@
       {
         "id": "tc2m58",
         "topic": "May – Possibility",
-        "question": "Choose the correct sentence:",
+        "question": "Choose the correct sentence about possibility:",
         "options": [
           "She may to visit her grandparents.",
           "She mays visit her grandparents.",
@@ -860,7 +860,7 @@
       {
         "id": "tc2f06",
         "topic": "To Be – Past (Was/Were)",
-        "question": "Which sentence is WRONG?",
+        "question": "Which sentence is WRONG? (was / were)",
         "options": [
           "They was at the farm on Saturday.",
           "I was at the theater last night.",
@@ -951,7 +951,7 @@
       {
         "id": "tc2f13",
         "topic": "Past Continuous",
-        "question": "The lions _____ resting in the cave.",
+        "question": "The lions _____ resting in the cave when we arrived.",
         "options": [
           "were",
           "was",
@@ -959,12 +959,12 @@
           "did"
         ],
         "correct": 0,
-        "explanation": "O Past Continuous usa 'was' ou 'were' + verbo com '-ing'. 'The lions' é plural, ou seja, 'they', que pede 'were'. Portanto, a resposta correta é 'The lions WERE resting in the cave.'"
+        "explanation": "O Past Continuous usa 'was' ou 'were' + verbo com '-ing'. O 'when we arrived' mostra que tudo aconteceu no passado, e 'the lions' é plural, ou seja, 'they', que pede 'were'. Portanto, a resposta correta é 'The lions WERE resting in the cave when we arrived.'"
       },
       {
         "id": "tc2f14",
         "topic": "Past Continuous",
-        "question": "Bob _____ walking his dog at 8 a.m.",
+        "question": "Bob _____ walking his dog at 8 a.m. yesterday.",
         "options": [
           "were",
           "was",
@@ -972,7 +972,7 @@
           "did"
         ],
         "correct": 1,
-        "explanation": "No Past Continuous, usamos 'was' para 'he', 'she' e 'it'. Bob é 'he'. Portanto, a resposta correta é 'Bob WAS walking his dog at 8 a.m.'"
+        "explanation": "No Past Continuous, usamos 'was' para 'he', 'she' e 'it'. Bob é 'he', e o 'yesterday' mostra que a ação estava acontecendo no passado. Portanto, a resposta correta é 'Bob WAS walking his dog at 8 a.m. yesterday.'"
       },
       {
         "id": "tc2f15",
@@ -1016,7 +1016,7 @@
       {
         "id": "tc2f18",
         "topic": "Past Continuous",
-        "question": "Which sentence is WRONG?",
+        "question": "Which sentence is WRONG? (past continuous)",
         "options": [
           "He was feeding the animals.",
           "She were reading a book.",
@@ -1172,7 +1172,7 @@
       {
         "id": "tc2f30",
         "topic": "Possessive Pronouns",
-        "question": "Which sentence is WRONG?",
+        "question": "Which sentence is WRONG? (possessive pronouns)",
         "options": [
           "The red bike is hers.",
           "This is mine notebook.",
@@ -1263,7 +1263,7 @@
       {
         "id": "tc2f37",
         "topic": "There Was / There Were",
-        "question": "_____ a woman at the corner.",
+        "question": "_____ a woman at the corner yesterday.",
         "options": [
           "There was",
           "There were",
@@ -1271,7 +1271,7 @@
           "There are"
         ],
         "correct": 0,
-        "explanation": "Quando falamos que existia UMA coisa ou pessoa no passado, usamos 'there was'. 'A woman' é uma pessoa só. Portanto, a resposta correta é 'THERE WAS a woman at the corner.'"
+        "explanation": "Quando falamos que existia UMA coisa ou pessoa no passado, usamos 'there was'. O 'yesterday' mostra que é passado, e 'a woman' é uma pessoa só. Portanto, a resposta correta é 'THERE WAS a woman at the corner yesterday.'"
       },
       {
         "id": "tc2f38",
@@ -1315,7 +1315,7 @@
       {
         "id": "tc2f41",
         "topic": "There Was / There Were",
-        "question": "Which sentence is WRONG?",
+        "question": "Which sentence is WRONG? (there was / there were)",
         "options": [
           "There was three hotels near the beach.",
           "There was a bakery on this street.",
@@ -1523,7 +1523,7 @@
       {
         "id": "tc2f57",
         "topic": "Irregular Plural",
-        "question": "Which sentence is WRONG?",
+        "question": "Which sentence is WRONG? (plural)",
         "options": [
           "My feet are cold.",
           "The children are at school.",

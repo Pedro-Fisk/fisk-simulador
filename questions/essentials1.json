@@ -9,28 +9,28 @@
       {
         "id": "e1m01",
         "topic": "Articles: A / AN",
-        "question": "Choose the correct article: '_____ umbrella'",
+        "question": "Choose A or AN: '_____ umbrella'",
         "options": [
           "a",
           "an",
           "the",
-          "–"
+          "no article"
         ],
         "correct": 1,
-        "explanation": "Quando queremos usar o artigo indefinido em inglês, a escolha entre 'a' e 'an' depende do som da palavra seguinte: se começa com som de vogal, usamos 'an'. Neste caso, 'umbrella' começa com o som 'u', que é um som de vogal. Portanto, a resposta correta é 'AN umbrella'."
+        "explanation": "Quando falamos de uma coisa pela primeira vez, usamos o artigo indefinido 'a' ou 'an'. A escolha entre os dois depende do SOM da palavra seguinte: 'umbrella' começa com som de vogal, então usamos 'an'. O exercício pede o artigo indefinido, então 'the' e 'no article' não entram. Portanto, a resposta correta é 'AN umbrella'."
       },
       {
         "id": "e1m02",
         "topic": "Articles: A / AN",
-        "question": "Choose the correct article: '_____ blue cap'",
+        "question": "Choose A or AN: '_____ blue cap'",
         "options": [
           "an",
-          "an a",
+          "the",
           "a",
-          "the"
+          "no article"
         ],
         "correct": 2,
-        "explanation": "Quando queremos usar o artigo indefinido, escolhemos 'a' se a palavra seguinte começa com som de consoante. Neste caso, 'blue' começa com 'b', que é som de consoante. Portanto, a resposta correta é 'A blue cap'."
+        "explanation": "Quando falamos de uma coisa pela primeira vez, usamos o artigo indefinido 'a' ou 'an'. A escolha depende do SOM da palavra seguinte: 'blue' começa com o som de 'b', que é consoante, então usamos 'a'. O exercício pede o artigo indefinido, então 'the' e 'no article' não entram. Portanto, a resposta correta é 'A blue cap'."
       },
       {
         "id": "e1m03",
@@ -295,41 +295,41 @@
       {
         "id": "e1m23",
         "topic": "Articles: A / AN",
-        "question": "Choose the correct article: '_____ egg'",
+        "question": "Choose A or AN: '_____ egg'",
         "options": [
           "a",
           "an",
           "the",
-          "–"
+          "no article"
         ],
         "correct": 1,
-        "explanation": "A escolha entre 'a' e 'an' depende do som inicial da palavra seguinte. 'Egg' começa com o som da vogal 'e', então usamos 'an'. Portanto, a resposta correta é 'AN egg'."
+        "explanation": "A escolha entre os artigos indefinidos 'a' e 'an' depende do SOM inicial da palavra seguinte. 'Egg' começa com o som da vogal 'e', então usamos 'an'. O exercício pede o artigo indefinido, então 'the' e 'no article' não entram. Portanto, a resposta correta é 'AN egg'."
       },
       {
         "id": "e1m24",
-        "question": "Choose the correct article: '_____ honest man'",
+        "question": "Choose A or AN: '_____ honest man'",
         "topic": "Articles: A / AN",
         "options": [
           "a",
           "an",
           "the",
-          "–"
+          "no article"
         ],
         "correct": 1,
-        "explanation": "A escolha entre 'a' e 'an' depende do som, não da letra escrita. Em 'honest', o 'h' é mudo e a palavra começa com o som da vogal 'o', por isso usamos 'an'. Portanto, a resposta correta é 'AN honest man'."
+        "explanation": "A escolha entre os artigos indefinidos 'a' e 'an' depende do SOM, não da letra escrita. Em 'honest', o 'h' é mudo e a palavra começa com o som da vogal 'o', por isso usamos 'an'. O exercício pede o artigo indefinido, então 'the' e 'no article' não entram. Portanto, a resposta correta é 'AN honest man'."
       },
       {
         "id": "e1m25",
         "topic": "Articles: A / AN",
-        "question": "Choose the correct article: '_____ university'",
+        "question": "Choose A or AN: '_____ university'",
         "options": [
           "a",
           "an",
           "the",
-          "–"
+          "no article"
         ],
         "correct": 0,
-        "explanation": "Mesmo que 'university' comece com a letra 'u', ela é pronunciada com o som de consoante /j/ (como 'you-niversity'). Por isso, usamos 'a' e não 'an'. Portanto, a resposta correta é 'A university'."
+        "explanation": "A escolha entre os artigos indefinidos 'a' e 'an' depende do SOM, não da letra escrita. Mesmo começando com a letra 'u', 'university' é pronunciada com som de consoante, como em 'you'. Por isso usamos 'a'. O exercício pede o artigo indefinido, então 'the' e 'no article' não entram. Portanto, a resposta correta é 'A university'."
       },
       {
         "id": "e1m26",
@@ -810,7 +810,7 @@
           "five thirty o'clock"
         ],
         "correct": 2,
-        "explanation": "Quando o relógio marca 30 minutos (meia hora), usamos 'half past' + a hora. Também podemos dizer 'five thirty'. Portanto, a resposta correta é 'HALF PAST five'."
+        "explanation": "Quando o relógio marca 30 minutos (meia hora), usamos 'half past' + a hora. Também é possível dizer só 'five thirty', mas nunca 'five thirty o'clock', porque 'o'clock' só aparece na hora exata, sem minutos. Portanto, a resposta correta é 'HALF PAST five'."
       },
       {
         "id": "e1m63",
@@ -1263,7 +1263,7 @@
       {
         "id": "e1f17",
         "topic": "Can – Ability",
-        "question": "_____ you play soccer?",
+        "question": "_____ you play soccer? Yes, I can. I'm a very good player.",
         "options": [
           "Do",
           "Does",
@@ -1271,12 +1271,12 @@
           "Are"
         ],
         "correct": 2,
-        "explanation": "Quando queremos perguntar se alguém tem a habilidade de fazer algo, usamos 'can'. Neste caso, a pergunta é sobre saber jogar futebol. Portanto, a resposta correta é 'CAN you play soccer?'"
+        "explanation": "Quando queremos perguntar se alguém tem a habilidade de fazer algo, usamos 'can'. Aqui a resposta é 'Yes, I can', e a pergunta precisa começar com o mesmo verbo da resposta. Portanto, a resposta correta é 'CAN you play soccer?'"
       },
       {
         "id": "e1f18",
         "topic": "Question Words",
-        "question": "_____ is the party? It's on Friday. (asking about TIME)",
+        "question": "_____ is the party? It's on Friday.",
         "options": [
           "Where",
           "Who",
@@ -1284,20 +1284,20 @@
           "What"
         ],
         "correct": 2,
-        "explanation": "Quando queremos perguntar em que momento algo vai acontecer (o dia ou a hora), usamos 'when'. Neste caso, a resposta 'It's on Friday' mostra que a pergunta é sobre quando a festa acontece. Portanto, a resposta correta é 'WHEN is the party?'"
+        "explanation": "Quando queremos perguntar o dia em que algo acontece, usamos 'when'. A resposta 'It's on Friday' dá um dia da semana. 'Where' pergunta o lugar, 'who' pergunta a pessoa e 'what' pergunta a coisa. Portanto, a resposta correta é 'WHEN is the party?'"
       },
       {
         "id": "e1f19",
         "topic": "Question Words",
-        "question": "_____ do you get up on weekends? At 9 o'clock. (asking about TIME of day)",
+        "question": "_____ do you get up on weekends? At 9 o'clock.",
         "options": [
-          "When",
+          "Why",
           "What time",
           "Where",
           "How"
         ],
         "correct": 1,
-        "explanation": "Quando queremos perguntar as horas exatas em que algo acontece, usamos 'what time'. Neste caso, a resposta 'At 9 o'clock' mostra que a pergunta é sobre a hora exata de acordar. Portanto, a resposta correta é 'WHAT TIME do you get up on weekends?'"
+        "explanation": "Quando queremos perguntar a hora exata em que algo acontece, usamos 'what time'. A resposta 'At 9 o'clock' dá um horário do relógio, e não um motivo ('why'), um lugar ('where') ou um modo ('how'). Portanto, a resposta correta é 'WHAT TIME do you get up on weekends?'"
       },
       {
         "id": "e1f20",
@@ -1562,7 +1562,7 @@
       {
         "id": "e1f40",
         "topic": "Can – Ability",
-        "question": "_____ your brother cook well?",
+        "question": "_____ your brother cook well? Yes, he can. He makes great pizza.",
         "options": [
           "Does",
           "Do",
@@ -1570,12 +1570,12 @@
           "Can"
         ],
         "correct": 3,
-        "explanation": "Para perguntar sobre a habilidade de alguém, usamos 'can' no início da pergunta. 'Can' nunca muda de forma, independente do sujeito. Portanto, a resposta correta é 'CAN your brother cook well?'"
+        "explanation": "Para perguntar sobre a habilidade de alguém, usamos 'can', que nunca muda de forma, seja qual for o sujeito. Aqui a resposta é 'Yes, he can', e a pergunta precisa começar com o mesmo verbo da resposta. Portanto, a resposta correta é 'CAN your brother cook well?'"
       },
       {
         "id": "e1f41",
         "topic": "Can – Ability",
-        "question": "She _____ swim, but she _____ drive.",
+        "question": "Ana is on the swimming team, and she is only 15 years old. She _____ swim, but she _____ drive.",
         "options": [
           "can / can't",
           "can't / can",
@@ -1583,7 +1583,7 @@
           "can't / can't"
         ],
         "correct": 0,
-        "explanation": "A frase tem dois contrasts: ela sabe nadar (can) mas não sabe dirigir (can't). 'Can't' é a forma negativa contraída de 'cannot'. Portanto, a resposta correta é 'She CAN swim, but she CAN'T drive'."
+        "explanation": "A frase mostra um contraste: Ana está no time de natação, então ela sabe nadar (can); mas ela tem só 15 anos, então ela não pode dirigir (can't). 'Can't' é a forma negativa contraída de 'cannot'. Portanto, a resposta correta é 'She CAN swim, but she CAN'T drive'."
       },
       {
         "id": "e1f42",

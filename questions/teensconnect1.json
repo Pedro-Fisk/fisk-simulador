@@ -209,7 +209,7 @@
           "a",
           "an",
           "the",
-          "–"
+          "any"
         ],
         "correct": 1,
         "explanation": "Antes de palavra que começa com som de vogal, usamos 'an'. 'Architect' começa com o som de 'a', que é vogal. Portanto, a resposta correta é 'My mom is AN architect'."
@@ -464,7 +464,7 @@
       {
         "id": "tc1m36",
         "topic": "To Be – Questions",
-        "question": "Find the correct question:",
+        "question": "Find the correct question about where someone is:",
         "options": [
           "You are in the garage?",
           "Are you in the garage?",
@@ -492,13 +492,13 @@
         "topic": "Question Word: Where",
         "question": "Choose the correct question for this answer: \"Mom is in the kitchen.\"",
         "options": [
-          "Who is in the kitchen?",
+          "Where is the kitchen?",
           "Where is Mom?",
           "What is Mom?",
           "How old is Mom?"
         ],
         "correct": 1,
-        "explanation": "A resposta diz o lugar onde a mãe está: na cozinha. A pergunta sobre lugar usa 'Where'. Portanto, a resposta correta é 'WHERE is Mom?'"
+        "explanation": "A resposta diz o lugar onde a mãe está: na cozinha. A pergunta sobre lugar usa 'Where'. Cuidado: 'Where is the kitchen?' pergunta onde fica a cozinha, e não onde está a mãe. Portanto, a resposta correta é 'WHERE is Mom?'"
       },
       {
         "id": "tc1m39",
@@ -607,7 +607,7 @@
       {
         "id": "tc1m47",
         "topic": "Where...From?",
-        "question": "Find the correct question:",
+        "question": "Find the correct question about where people are from:",
         "options": [
           "Where your friends are from?",
           "Where is your friends from?",
@@ -646,15 +646,15 @@
       {
         "id": "tc1m50",
         "topic": "Position of Adjectives",
-        "question": "The flag is green and yellow. It is a _____ flag.",
+        "question": "The flag is green and yellow. It is a _____.",
         "options": [
           "flag colorful",
-          "colorful",
-          "colorfuls",
-          "color"
+          "colorful flag",
+          "colorfuls flag",
+          "color flag"
         ],
         "correct": 1,
-        "explanation": "O adjetivo 'colorful' vem antes de 'flag' e nunca ganha 's', mesmo falando de coisas no plural. Portanto, a resposta correta é 'It is a COLORFUL flag'."
+        "explanation": "Em inglês, o adjetivo vem ANTES da palavra que ele descreve: 'a colorful flag', e não 'a flag colorful'. E o adjetivo nunca ganha 's'. Portanto, a resposta correta é 'It is a COLORFUL FLAG.'"
       },
       {
         "id": "tc1m51",
@@ -685,7 +685,7 @@
       {
         "id": "tc1m53",
         "topic": "Do You Like...?",
-        "question": "Find the correct question:",
+        "question": "Find the correct question about what someone likes:",
         "options": [
           "You do like tennis?",
           "Do you like tennis?",
@@ -750,15 +750,15 @@
       {
         "id": "tc1m58",
         "topic": "Prepositions: In / On (Time)",
-        "question": "The tennis class is _____ Monday _____ Friday.",
+        "question": "My English class is _____ Tuesdays, and my birthday is _____ September.",
         "options": [
-          "from / to",
-          "in / on",
           "on / in",
-          "to / from"
+          "in / on",
+          "at / on",
+          "on / at"
         ],
         "correct": 0,
-        "explanation": "Para dizer que algo vai de um dia até outro, usamos 'from... to...': de segunda a sexta. Portanto, a resposta correta é 'FROM Monday TO Friday'."
+        "explanation": "Com dias da semana usamos 'on' (on Tuesdays) e com meses usamos 'in' (in September). Portanto, a resposta correta é 'ON Tuesdays... IN September'."
       },
       {
         "id": "tc1m59",
@@ -1393,7 +1393,7 @@
       {
         "id": "tc1f47",
         "topic": "Pets & Actions",
-        "question": "\"_____, snakes are not good pets for children.\" Choose the option that gives an OPINION:",
+        "question": "Choose the option that gives an OPINION: \"_____, snakes are not good pets for children.\"",
         "options": [
           "In my opinion",
           "Where",

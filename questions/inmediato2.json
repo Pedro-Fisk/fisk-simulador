@@ -192,12 +192,12 @@
         "question": "Selecciona la traducción LITERAL (misma estructura) de 'Nos aburre la tarea':",
         "options": [
           "Nós entediamos a tarefa.",
-          "A lição de casa nos entedia.",
+          "Nós nos entediamos com a tarefa.",
           "Nós ficamos entediados com a tarefa.",
           "A tarefa nos entedia."
         ],
         "correct": 3,
-        "explanation": "'Aburrir' funciona como 'gustar'. 'Nos aburre la tarea' = 'A tarefa nos entedia'. O sujeito é 'la tarea' (singular), e 'nos' é o CI para 'nosotros'."
+        "explanation": "'Aburrir' funciona como 'gustar': quem entedia é a coisa, e a pessoa aparece como complemento indireto. Em 'Nos aburre la tarea' o sujeito é 'la tarea' (singular) e 'nos' é o complemento indireto, então a tradução com a mesma estrutura é 'A tarefa nos entedia'. As outras três põem 'nós' como sujeito e invertem os papéis. Portanto, a resposta correta é 'A tarefa nos entedia'."
       },
       {
         "id": "i2m16",
@@ -223,7 +223,7 @@
           "nada"
         ],
         "correct": 1,
-        "explanation": "'Nadie' refere-se a pessoas (nenhuma pessoa). 'Nada' refere-se a coisas. Com 'no' antes do verbo, não é necessário adicionar outra negação antes de 'nadie'; se 'nadie' vem antes do verbo, não se usa 'no'."
+        "explanation": "'Nadie' se refere a pessoas e 'nada' a coisas; como o enunciado pede 'ninguna persona', a escolha é 'nadie'. Em espanhol a dupla negação é obrigatória quando o indefinido vem depois do verbo: 'No hay nadie en casa'. Se ele vier antes do verbo, o 'no' desaparece: 'Nadie está en casa'. Depois de um verbo negado não se usa 'alguien'. Portanto, a resposta correta é 'nadie'."
       },
       {
         "id": "i2m18",
@@ -233,10 +233,10 @@
           "¿Hay algo interesante en la tienda?",
           "¿Hay nada interesante en la tienda?",
           "¿Hay nadie interesante en la tienda?",
-          "¿Hay alguien interesante en la tienda?"
+          "¿Hay ninguna cosa interesante en la tienda?"
         ],
         "correct": 0,
-        "explanation": "Em perguntas sem negação, usamos indefinidos positivos: 'algo' (alguma coisa) e 'alguien' (alguém). 'Algo interesante' é a escolha correta para perguntar sobre coisas."
+        "explanation": "Em perguntas sem negação usam-se os indefinidos positivos: 'algo' para coisas e 'alguien' para pessoas. 'Nada' e 'nadie' só aparecem depois de um verbo já negado ('No hay nada interesante') ou antes do verbo ('Nadie ha venido'). E 'alguien' é pronome: nunca acompanha um substantivo, o correto seria 'alguna cosa'. Portanto, a resposta correta é '¿Hay algo interesante en la tienda?'."
       },
       {
         "id": "i2m19",
@@ -257,12 +257,12 @@
         "question": "Selecciona la oración con el uso correcto de los indefinidos:",
         "options": [
           "Alguien llamó a la puerta.",
-          "Algo llamó a la puerta.",
-          "Nadie llamó a la puerta y escuché la voz.",
-          "Nada está esperando afuera."
+          "Nadie no llamó a la puerta.",
+          "En casa no hay alguien.",
+          "Ninguno persona llamó a la puerta."
         ],
         "correct": 0,
-        "explanation": "'Alguien' refere-se a uma pessoa indefinida. 'Alguien llamó a la puerta' = 'Alguém bateu na porta'. É o uso correto para referir-se a uma pessoa desconhecida."
+        "explanation": "'Alguien' é o indefinido positivo para pessoas e funciona sozinho como sujeito: 'Alguien llamó a la puerta'. As outras três estão erradas: quando 'nadie' vem antes do verbo o 'no' desaparece ('Nadie llamó'); depois de um verbo negado o espanhol exige 'nadie', não 'alguien' ('no hay nadie'); e 'ninguno' apocopa e concorda em gênero ('ninguna persona'). Portanto, a resposta correta é 'Alguien llamó a la puerta'."
       },
       {
         "id": "i2m21",
@@ -698,13 +698,13 @@
         "topic": "SE Impersonal",
         "question": "¿Cómo se dice impersonalmente 'En este país la gente trabaja mucho'?",
         "options": [
-          "En este país se trabaja mucho.",
           "En este país se trabajan mucho.",
-          "En este país uno trabaja mucho.",
-          "'Se trabaja mucho' y 'uno trabaja mucho' son correctas."
+          "En este país se trabajando mucho.",
+          "En este país trabajan se mucho.",
+          "En este país se trabaja mucho."
         ],
         "correct": 3,
-        "explanation": "Tanto 'se trabaja mucho' (SE impessoal) quanto 'uno trabaja mucho' (uso impessoal de 'uno') são formas corretas de expressar ações impessoais em espanhol. Ambas equivalem a 'as pessoas trabalham muito'."
+        "explanation": "Com o SE impessoal o verbo fica sempre na 3ª pessoa do singular, porque não há sujeito com que concordar: 'En este país se trabaja mucho'. 'Se trabajan' pediria um sujeito plural, 'se trabajando' mistura o 'se' com o gerúndio e 'trabajan se' inverte a ordem, que em espanhol é sempre 'se' antes do verbo. Portanto, a resposta correta é 'En este país se trabaja mucho'."
       },
       {
         "id": "i2m51",
@@ -800,7 +800,7 @@
       {
         "id": "i2m56",
         "topic": "Verbo Tocar",
-        "question": "¿Qué pronombre CI y forma de 'tocar' completar correctamente? 'Esta semana _____ (a nosotros) cocinar.'",
+        "question": "¿Qué pronombre de CI y qué forma de 'tocar' completan correctamente la frase? 'Esta semana _____ (a nosotros) cocinar.'",
         "options": [
           "se nos toca",
           "nos toca",
@@ -808,7 +808,7 @@
           "les toca"
         ],
         "correct": 1,
-        "explanation": "CI para 'nosotros' = 'nos'. 'Cocinar' é infinitivo → verbo no singular 'toca'. Correto: 'Esta semana nos toca cocinar'. Não se usa 'se' neste contexto (seria SE reflexivo/impessoal)."
+        "explanation": "O complemento indireto de 'nosotros' é 'nos', e o sujeito de 'tocar' aqui é o infinitivo 'cocinar', que conta como singular: 'Esta semana nos toca cocinar'. 'Nos tocan' concordaria com um sujeito plural, 'les toca' seria 'a ellos' e o 'se' não cabe nesta construção. Portanto, a resposta correta é 'nos toca'."
       },
       {
         "id": "i2m57",
@@ -1085,7 +1085,7 @@
           "dije"
         ],
         "correct": 1,
-        "explanation": "'Decir' perde a sílaba do meio no futuro e fica com a raiz 'dir-': diré, dirás, dirá, diremos, diréis, dirán. 'Diría' é condicional e 'digo' é presente. Portanto, a resposta correta é DIRÉ."
+        "explanation": "'Decir' perde a sílaba do meio no futuro e fica com a raiz 'dir-': diré, dirás, dirá, diremos, diréis, dirán. 'Deciré' não existe, 'diría' é o condicional e 'dije' é o pretérito indefinido, que não combina com 'mañana'. Portanto, a resposta correta é 'diré'."
       },
       {
         "id": "i2f52",
@@ -1696,12 +1696,12 @@
           "dicen"
         ],
         "correct": 1,
-        "explanation": "O imperativo afirmativo para 'vosotros' forma-se substituindo o -r do infinitivo por -d: decir → decid. Essa regra é regular para 'vosotros', diferente de 'tú' (que tem formas irregulares). Exceção: 'irse' → 'idos' (não 'iros')."
+        "explanation": "O imperativo afirmativo de 'vosotros' se forma trocando o '-r' do infinitivo por '-d': decir → decid. Essa formação não tem irregularidade de raiz, diferente de 'tú' (di, ven, pon). Com verbos reflexivos o '-d' cai ('sentaos', 'callaos'); o caso de 'irse' tem a forma tradicional 'idos', embora hoje a RAE também aceite 'iros'. Portanto, a resposta correta é 'decid'."
       },
       {
         "id": "i2f37",
         "topic": "Imperativo Afirmativo (irregulares)",
-        "question": "¿Cómo se dice '¡Ven aquí!' en Imperativo afirmativo?",
+        "question": "'¡Ven aquí!' ¿De qué verbo y de qué persona es este imperativo?",
         "options": [
           "Es el imperativo de 'ver' para 'tú'",
           "Es el imperativo de 'venir' para 'tú'",
@@ -1709,7 +1709,7 @@
           "Es el imperativo de 'ver' para 'usted'"
         ],
         "correct": 1,
-        "explanation": "'Ven' é o imperativo afirmativo irregular de 'venir' para 'tú'. 'Ve' é o imperativo de 'ir'. '¡Ven aquí!' = 'Venha aqui!' (para uma pessoa com quem você usa 'tú'). Para 'usted': 'venga'."
+        "explanation": "'Ven' é o imperativo afirmativo irregular de 'venir' para 'tú'. Cuidado com 've', que é o imperativo de 'ir' e de 'ver'; para 'usted' a forma de 'venir' seria 'venga'. Portanto, a resposta correta é a que identifica o verbo 'venir' na forma de 'tú'."
       },
       {
         "id": "i2f38",
@@ -1857,7 +1857,7 @@
       {
         "id": "i2f73",
         "topic": "Imperativo Negativo",
-        "question": "'Decírmelo' en Imperativo Negativo para 'tú' es: '¡No _____!'",
+        "question": "'¡Dímelo!' en Imperativo Negativo para 'tú' es: '¡No _____!'",
         "options": [
           "dígamelo",
           "me lo digas",
@@ -1865,7 +1865,7 @@
           "me digas lo"
         ],
         "correct": 1,
-        "explanation": "No negativo os pronomes vão ANTES do verbo e separados: 'no me lo digas'. Colados atrás só no afirmativo: 'dímelo'. Portanto, a resposta correta é 'ME LO DIGAS'."
+        "explanation": "No imperativo negativo os pronomes vão antes do verbo, separados dele e na ordem CI + CD: 'no me lo digas'. Colados atrás do verbo eles só aparecem no afirmativo ('dímelo'), e 'dígamelo' é a forma de 'usted'. Portanto, a resposta correta é 'me lo digas'."
       },
       {
         "id": "i2f45",

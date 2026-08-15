@@ -176,7 +176,7 @@
       {
         "id": "i3m14",
         "topic": "Perífrasis Verbales",
-        "question": "Voy a terminar mi café y _____ salir. ¿Cuál es la perífrasis que indica que la acción está a punto de ocurrir?",
+        "question": "'Ya he terminado mi café y _____ salir.' ¿Cuál es la perífrasis que indica que la acción está a punto de ocurrir?",
         "options": [
           "estoy a punto de",
           "acabo de",
@@ -184,7 +184,7 @@
           "dejo de"
         ],
         "correct": 0,
-        "explanation": "'Estar a punto de + infinitivo' expressa que algo está prestes a acontecer imediatamente: 'estoy a punto de salir' = estou prestes a sair."
+        "explanation": "'Estar a punto de + infinitivo' indica que a ação vai acontecer em seguida: 'estoy a punto de salir' = estou prestes a sair. 'Acabar de + infinitivo' diz o contrário, que a ação terminou agora mesmo; 'seguir' pede gerúndio ('sigo saliendo') e 'dejar de' marca a interrupção de um hábito. Portanto, a resposta correta é 'estoy a punto de'."
       },
       {
         "id": "i3m15",
@@ -748,7 +748,7 @@
       {
         "id": "i3m56",
         "topic": "Futuro Compuesto",
-        "question": "'¿_____ (llegar) ya Juan? No le veo por ningún lado.' ¿Cuál es la forma que expresa hipótesis sobre el presente?",
+        "question": "'¿_____ (llegar) ya Juan? No lo veo por ningún lado.' ¿Cuál es la forma que expresa una hipótesis sobre el pasado reciente?",
         "options": [
           "Llegó",
           "Ha llegado",
@@ -756,7 +756,7 @@
           "Llegará"
         ],
         "correct": 2,
-        "explanation": "O Futuro Composto expressa suposição sobre algo que possivelmente já aconteceu: 'Habrá llegado' = deve ter chegado (já) / será que chegou? Hipótese sobre o passado recente."
+        "explanation": "O Futuro Composto ('habrá' + particípio) expressa suposição sobre algo que talvez já tenha acontecido: '¿Habrá llegado ya Juan?' = será que ele já chegou? 'Llegó' e 'ha llegado' são perguntas diretas, sem marca de hipótese, e o Futuro Simples 'llegará' serve para supor sobre o presente ('¿Dónde estará?'). Portanto, a resposta correta é 'habrá llegado'."
       },
       {
         "id": "i3m57",
@@ -917,7 +917,7 @@
       {
         "id": "i3m69",
         "topic": "SE Impersonal (avanzado)",
-        "question": "'En este país _____ muy bien de fútbol.' ¿Cuál es la forma correcta del verbo 'hablar' con 'se' impersonal?",
+        "question": "'En este país _____ mucho de fútbol.' ¿Cuál es la forma correcta del verbo 'hablar' con 'se' impersonal?",
         "options": [
           "se habla",
           "se hablan",
@@ -925,12 +925,12 @@
           "se hable"
         ],
         "correct": 0,
-        "explanation": "Com 'se' impessoal seguido de complemento preposicional ('de fútbol'), o verbo fica na 3ª pessoa do singular: 'se habla muy bien de fútbol' = fala-se muito bem de futebol. Não há sujeito gramatical, portanto o verbo não varia."
+        "explanation": "Com o 'se' impessoal o verbo fica na 3ª pessoa do singular, porque não há sujeito com que concordar: 'En este país se habla mucho de fútbol'. 'Se hablan' exigiria um sujeito plural ('se hablan varios idiomas'), 'se hable' é Subjuntivo e 'uno habla' é outra construção impessoal, sem o 'se' que o enunciado pede. Portanto, a resposta correta é 'se habla'."
       },
       {
         "id": "i3m77",
         "topic": "SE Impersonal (avanzado)",
-        "question": "'En España _____ mucho a los abuelos.' (cuidar) ¿Cuál es la forma correcta?",
+        "question": "'En España _____ (cuidar) mucho a los abuelos.' ¿Cuál es la forma correcta?",
         "options": [
           "se cuidan",
           "se cuida",
@@ -938,7 +938,7 @@
           "cuidan se"
         ],
         "correct": 1,
-        "explanation": "Quando o complemento é pessoa e vem precedido de 'a', o verbo fica no singular: 'se cuida a los abuelos'. Com coisas e sem o 'a', ele concorda: 'se venden casas'. Portanto, a resposta correta é 'SE CUIDA'."
+        "explanation": "Quando o complemento é pessoa e vem precedido de 'a', o verbo com 'se' impessoal fica no singular: 'se cuida a los abuelos'. Com coisas e sem o 'a', ele concorda com o sujeito: 'se venden casas'. 'Se cuidando' mistura o 'se' com o gerúndio e 'cuidan se' inverte a ordem, que é sempre 'se' antes do verbo. Portanto, a resposta correta é 'se cuida'."
       },
       {
         "id": "i3m78",
@@ -982,7 +982,7 @@
       {
         "id": "i3m72",
         "topic": "Futuro Compuesto",
-        "question": "'¡María no ha llegado todavía! ¿Qué le _____ (pasar)?' ¿Cuál es la forma que mejor expresa suposición sobre una situación actual?",
+        "question": "'¡María no ha llegado todavía! ¿Qué le _____ (pasar)?' ¿Cuál es la forma que mejor expresa una suposición sobre algo que quizá ya ha ocurrido?",
         "options": [
           "pasó",
           "pasa",
@@ -990,20 +990,20 @@
           "había pasado"
         ],
         "correct": 2,
-        "explanation": "O Futuro Composto expressa suposição ou hipótese sobre algo que pode ter acontecido: '¿Qué le habrá pasado?' = O que será que aconteceu com ela? É a forma padrão para especular sobre o passado recente quando não temos certeza."
+        "explanation": "O Futuro Composto expressa suposição sobre algo que talvez já tenha acontecido: '¿Qué le habrá pasado?' = o que será que aconteceu com ela? 'Pasó' e 'pasa' perguntam por um fato, sem marca de hipótese, e 'había pasado' situaria a ação antes de outro momento do passado. Portanto, a resposta correta é 'habrá pasado'."
       },
       {
         "id": "i3m73",
         "topic": "Demostrativos Neutros",
         "question": "¿Cuál es la diferencia principal entre 'este libro' y 'esto'?",
         "options": [
-          "'Este libro' es masculino y acompaña a un sustantivo; 'esto' es neutro y se usa cuando el género es desconocido o el referente es abstracto.",
-          "No hay diferencia: ambos son demostrativos masculinos.",
-          "'Esto' lleva acento porque es pronombre; 'este' no lleva acento.",
-          "'Este' es neutro y 'esto' es masculino."
+          "'Este libro' acompaña a un sustantivo masculino; 'esto' es neutro y no acompaña a ningún sustantivo.",
+          "No hay diferencia entre las dos formas: ambas son demostrativos masculinos y equivalentes.",
+          "'Esto' lleva acento porque es pronombre y 'este' no lo lleva porque es adjetivo.",
+          "'Este' es la forma neutra y 'esto' es la masculina que acompaña al sustantivo."
         ],
         "correct": 0,
-        "explanation": "'Este libro' = demonstrativo masculino que acompanha um substantivo com gênero definido. 'Esto' = demonstrativo neutro, usado quando o gênero é desconhecido, o referente é abstrato ou ainda não identificado. Os neutros (esto/eso/aquello) nunca acompanham substantivos."
+        "explanation": "'Este libro' é um demonstrativo masculino que acompanha um substantivo de gênero definido. 'Esto' é neutro e nunca acompanha substantivo: usa-se quando o gênero é desconhecido ou o referente é abstrato ('¿Qué es esto?'). Os neutros esto, eso e aquello não têm plural nem acento gráfico. Portanto, a resposta correta é a que diz que 'este libro' acompanha um substantivo e 'esto' não acompanha nenhum."
       },
       {
         "id": "i3m74",
@@ -1142,15 +1142,15 @@
       {
         "id": "i3f08",
         "topic": "Pretérito Pluscuamperfecto de Subjuntivo",
-        "question": "'El médico dudaba de que el paciente _____ (seguir) el tratamiento correctamente.' ¿Cuál es la forma correcta?",
+        "question": "'Cuando llegué al hospital, me sorprendió que el paciente ya _____ (terminar) el tratamiento.' ¿Cuál es la forma correcta?",
         "options": [
-          "siguiera",
-          "hubiera seguido",
-          "haya seguido",
-          "siguiese"
+          "terminaba",
+          "hubiera terminado",
+          "haya terminado",
+          "habría terminado"
         ],
         "correct": 1,
-        "explanation": "'Dudar de que' no passado + referência a uma ação anterior → Pretérito Mais-que-Perfeito do Subjuntivo: 'hubiera seguido'. A ação de seguir o tratamento é anterior à dúvida."
+        "explanation": "Quando a ação da oração subordinada é anterior à da principal e as duas estão no passado, usa-se o Pretérito Mais-que-Perfeito do Subjuntivo, e o 'ya' marca essa anterioridade: 'que el paciente ya hubiera terminado'. 'Me sorprendió' exige subjuntivo, o que descarta 'terminaba' e 'habría terminado'; e a correlação com um verbo principal no passado descarta 'haya terminado', que pede um presente. Portanto, a resposta correta é 'hubiera terminado'."
       },
       {
         "id": "i3f09",
@@ -1272,7 +1272,7 @@
       {
         "id": "i3f18",
         "topic": "Verbos de Cambio",
-        "question": "'Tras ganar el premio, _____ muy famosa en todo el país.' ¿Cuál es el verbo de cambio más adecuado?",
+        "question": "'Tras años de esfuerzo y tras ganar el premio, _____ una de las escritoras más respetadas del país.' ¿Cuál es el verbo de cambio más adecuado?",
         "options": [
           "se puso",
           "se volvió",
@@ -1280,7 +1280,7 @@
           "se hizo"
         ],
         "correct": 3,
-        "explanation": "'Hacerse' é usado para mudanças de status conquistadas (fama, reconhecimento, posição social): 'se hizo muy famosa' = tornou-se muito famosa. 'Volverse' seria para mudança de caráter."
+        "explanation": "'Hacerse' indica uma mudança conquistada com esforço e tempo, sobretudo de status profissional ou social: 'se hizo una de las escritoras más respetadas'. 'Volverse' marca mudança involuntária ou de caráter, 'ponerse' um estado passageiro ('se puso nerviosa') e 'quedarse' o resultado de uma perda ('se quedó sola'). Portanto, a resposta correta é 'se hizo'."
       },
       {
         "id": "i3f19",
@@ -1314,12 +1314,12 @@
         "question": "'Te doy este mapa _____ no _____ (perderse).' ¿Cuál es la opción completamente correcta?",
         "options": [
           "para que / te pierdas",
-          "para que / no te pierdas",
-          "porque / te pierdes",
-          "a fin de que / no te pierdes"
+          "para que / te pierdes",
+          "porque / te pierdas",
+          "a fin de que / te pierdes"
         ],
         "correct": 0,
-        "explanation": "'Para que + Subjuntivo' com negação: 'para que no te pierdas' = para que você não se perca. Atenção: 'a fin de que' também usa Subjuntivo: 'a fin de que no te pierdas'."
+        "explanation": "'Para que' e 'a fin de que' expressam finalidade e sempre pedem Subjuntivo, inclusive com negação: 'para que no te pierdas'. 'Te pierdes' é Indicativo e não cabe depois dessas conjunções. Já 'porque' introduz causa e pede Indicativo, então 'porque no te pierdas' também está errado. Portanto, a resposta correta é 'para que / te pierdas'."
       },
       {
         "id": "i3f22",
@@ -1467,7 +1467,7 @@
       {
         "id": "i3f33",
         "topic": "Estilo Indirecto: Dice que...",
-        "question": "La profesora dice: '¡No habléis en clase!' ¿Cuál es el estilo indirecto correcto?",
+        "question": "La profesora les dice a sus alumnos: '¡No habléis en clase!' Tú se lo cuentas a una persona que no estaba allí. ¿Cuál es el estilo indirecto correcto?",
         "options": [
           "La profesora dice que no hablan en clase.",
           "La profesora dice que no habléis en clase.",
@@ -1475,7 +1475,7 @@
           "La profesora dice que no hablaran en clase."
         ],
         "correct": 2,
-        "explanation": "Imperativo negativo no Estilo Indireto → Presente do Subjuntivo (3ª pessoa do plural, pois a professora fala para os alunos): 'que no hablen en clase'. O ponto de vista muda para a 3ª pessoa."
+        "explanation": "O imperativo negativo passa ao Presente do Subjuntivo no estilo indireto, e a pessoa muda de acordo com quem fala e quem ouve: como você conta a alguém que não estava lá, os alunos viram 3ª pessoa do plural. 'No hablan' é Indicativo, 'no habléis' manteria a fala dirigida aos próprios alunos e 'no hablaran' só caberia com um verbo principal no passado ('dijo'). Portanto, a resposta correta é 'La profesora dice que no hablen en clase'."
       },
       {
         "id": "i3f76",
@@ -1599,13 +1599,13 @@
         "topic": "El Imperativo y los Complementos",
         "question": "'¡_____ (dar, usted) el informe al director!' Con OI (al director → se) + OD (el informe → lo), ¿cuál es la opción correcta?",
         "options": [
-          "¡Dé! / ¡Déselo!",
-          "¡Da! / ¡Dáselo!",
-          "¡Dé! / ¡Se lo dé!",
-          "¡Dé! / ¡Deselo!"
+          "Dé / ¡Déselo!",
+          "Da / ¡Dáselo!",
+          "Dé / ¡Se lo dé!",
+          "Dé / ¡Deselo!"
         ],
         "correct": 0,
-        "explanation": "Imperativo de 'dar' (usted) = 'dé' (com acento para distinguir de 'de' preposição). Com OI (se) + OD (lo) unidos ao imperativo afirmativo: '¡Déselo!' (acento para manter a sílaba tônica)."
+        "explanation": "O imperativo afirmativo de 'dar' para 'usted' é 'dé', com acento para distinguir da preposição 'de'. No afirmativo os pronomes se unem ao verbo na ordem CI + CD, e 'le' vira 'se' diante de 'lo': 'déselo', com acento porque a palavra fica proparoxítona. 'Da' é a forma de 'tú', 'se lo dé' separa os pronomes (isso só acontece no negativo) e 'deselo' fica sem o acento obrigatório. Portanto, a resposta correta é 'Dé / ¡Déselo!'."
       },
       {
         "id": "i3f42",
@@ -1709,7 +1709,7 @@
           "cual"
         ],
         "correct": 1,
-        "explanation": "'Donde' é usado como pronome relativo para se referir a um lugar: 'el café donde siempre venimos' = o café onde sempre vimos. Equivale a 'onde' em português."
+        "explanation": "'Donde' é o relativo de lugar: 'el café donde siempre venimos a estudiar' = o café em que a gente sempre vem estudar. Sem 'donde' seria preciso usar preposição mais artigo: 'el café al que venimos'. 'Que' sozinho não introduz lugar depois de um verbo de movimento, 'quien' só se refere a pessoas e 'cual' exige artigo ('el cual'). Portanto, a resposta correta é 'donde'."
       },
       {
         "id": "i3f50",
@@ -1820,13 +1820,13 @@
         "topic": "Oraciones Temporales",
         "question": "'_____ estudiaba, escuchaba música.' ¿Cuál es la conjunción temporal correcta para expresar simultaneidad en el pasado?",
         "options": [
-          "Cuando",
+          "Antes de que",
           "Mientras",
           "Hasta que",
           "Después de que"
         ],
         "correct": 1,
-        "explanation": "'Mientras + Imperfeito do Indicativo' expressa simultaneidade de ações no passado: 'mientras estudiaba, escuchaba música' = enquanto estudava, ouvia música. Duas ações ocorrendo ao mesmo tempo."
+        "explanation": "'Mientras' + Imperfeito do Indicativo expressa duas ações que acontecem ao mesmo tempo no passado: 'Mientras estudiaba, escuchaba música' = enquanto estudava, ouvia música. 'Antes de que' exige Subjuntivo e marca anterioridade, 'hasta que' marca o limite final de uma ação e 'después de que' marca posterioridade. Portanto, a resposta correta é 'Mientras'."
       },
       {
         "id": "i3f59",
@@ -1930,7 +1930,7 @@
           "han"
         ],
         "correct": 1,
-        "explanation": "O verbo 'ser' e o particípio concordam com o sujeito: 'las cartas' é feminino plural, então 'fueron enviadas'. Portanto, a resposta correta é 'FUERON'."
+        "explanation": "Na voz passiva com 'ser' + particípio, os dois concordam com o sujeito: 'las cartas' é feminino plural, então 'fueron enviadas'. 'Fue' é singular, 'estuvieron' usaria 'estar', que indica estado e não ação, e 'han' pediria o particípio 'enviado' num tempo composto ('han enviado las cartas'). Portanto, a resposta correta é 'fueron'."
       },
       {
         "id": "i3f80",
@@ -1948,7 +1948,7 @@
       {
         "id": "i3f65",
         "topic": "El Imperativo y los Complementos",
-        "question": "'¿Compramos el pan ahora?' '¡Sí, _____ ahora mismo!' (el pan → lo.) ¿Cuál es el imperativo afirmativo con pronombre correcto para 'tú'?",
+        "question": "'¿Compro el pan ahora?' '¡Sí, _____ ahora mismo!' (el pan → lo.) ¿Cuál es el imperativo afirmativo con pronombre correcto para 'tú'?",
         "options": [
           "cómpralo",
           "lo compra",
@@ -1956,7 +1956,7 @@
           "cómprale"
         ],
         "correct": 0,
-        "explanation": "O pronome de OD se une ao imperativo afirmativo (tú) formando uma única palavra: 'compra + lo = cómpralo'. O acento é necessário para manter a sílaba tônica original: 'COM-pra' → 'cóm-pra-lo'. O pronome nunca precede o imperativo afirmativo."
+        "explanation": "No imperativo afirmativo o pronome se une ao verbo formando uma só palavra, e o acento gráfico entra para manter a sílaba tônica original: 'compra + lo = cómpralo'. 'Lo compra' põe o pronome antes e 'compra lo' o deixa solto, o que só acontece no negativo ('no lo compres'); 'cómprale' usa pronome de objeto indireto, que não substitui 'el pan'. Portanto, a resposta correta é 'cómpralo'."
       },
       {
         "id": "i3f66",
@@ -2039,7 +2039,7 @@
       {
         "id": "i3f72",
         "topic": "Hace + Presente / Gerundio",
-        "question": "'_____ dos meses _____ (esperar) noticias de mi solicitud y todavía no sé nada.' ¿Cuál es la forma correcta con perífrasis de duración?",
+        "question": "'_____ dos meses que _____ (esperar) noticias de mi solicitud y todavía no sé nada.' ¿Cuál es la forma correcta con perífrasis de duración?",
         "options": [
           "Hace / estoy esperando",
           "Desde / estoy esperando",
@@ -2047,7 +2047,7 @@
           "Durante / esperé"
         ],
         "correct": 0,
-        "explanation": "'Hace + tempo + que + Presente/Gerúndio' expressa a duração de uma ação contínua até o momento presente: 'Hace dos meses (que) estoy esperando' = estou esperando há dois meses (e ainda espero). 'Hace' combina com Presente do Indicativo ou com o Gerúndio de Estar."
+        "explanation": "'Hace + tempo + que' + presente (ou 'estar' + gerúndio) expressa a duração de uma ação que começou no passado e continua: 'Hace dos meses que estoy esperando'. 'Desde' pede um ponto de partida ('desde enero') ou a forma 'desde hace'; 'por' e 'durante' medem um período já encerrado e não combinam com 'que'. Portanto, a resposta correta é 'Hace / estoy esperando'."
       },
       {
         "id": "i3f73",

@@ -209,7 +209,7 @@
           "Had better",
           "Better",
           "Should",
-          "Ought"
+          "Ought to"
         ],
         "correct": 2,
         "explanation": "Quando queremos perguntar se algo é a coisa certa ou recomendada a fazer, usamos SHOULD no começo da pergunta. Neste caso, as pessoas estão em dúvida se deveriam dizer a verdade. É uma pergunta sobre o que é correto. Portanto, a resposta correta é 'SHOULD'."
@@ -259,7 +259,7 @@
         "question": "_____ lies can get you into trouble.",
         "options": [
           "Tell",
-          "To tell",
+          "To telling",
           "Telling",
           "Tells"
         ],
@@ -412,7 +412,7 @@
       {
         "id": "t1m32",
         "topic": "Should / Had Better",
-        "question": "It's getting late. You _____ leave now or you'll miss the train.",
+        "question": "It's getting late. You _____ leave now or you'll miss the train. (a warning, stronger than advice)",
         "options": [
           "should",
           "should to",
@@ -420,7 +420,7 @@
           "had better to"
         ],
         "correct": 2,
-        "explanation": "Quando o conselho vem com uma consequência negativa clara e a situação é urgente, usamos HAD BETTER. Neste caso, a pessoa vai perder o trem se não sair logo. É urgente e há uma consequência direta. Portanto, a resposta correta é 'HAD BETTER'."
+        "explanation": "Quando o aviso é mais forte do que um simples conselho, porque existe uma consequência ruim se a pessoa não agir, usamos HAD BETTER seguido do verbo na forma básica, sem TO. SHOULD daria apenas um conselho. Neste caso, a pessoa vai perder o trem se não sair agora. Portanto, a resposta correta é 'HAD BETTER'."
       },
       {
         "id": "t1m33",
@@ -506,7 +506,7 @@
         "question": "_____ too much can be bad for you.",
         "options": [
           "Work",
-          "To work",
+          "To working",
           "Working",
           "Works"
         ],
@@ -659,15 +659,15 @@
       {
         "id": "t1m51",
         "topic": "Zero Conditional (If + Imperative)",
-        "question": "If you feel sick, _____ a doctor.",
+        "question": "If you feel sick, please _____ a doctor.",
         "options": [
-          "you should see",
+          "to see",
           "see",
           "you see",
           "seeing"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dar uma instrução direta com uma condição, usamos o imperativo, o verbo na forma básica, sem sujeito. Neste caso, a instrução é consultar um médico caso a pessoa se sinta doente. Portanto, a resposta correta é 'SEE'."
+        "explanation": "Quando damos uma instrução direta a alguém depois de uma condição, usamos o imperativo, que é o verbo na forma básica, sem sujeito e sem TO. Neste caso, o pedido é que a pessoa procure um médico se não estiver se sentindo bem. Portanto, a resposta correta é 'SEE'."
       },
       {
         "id": "t1m52",
@@ -698,15 +698,15 @@
       {
         "id": "t1m54",
         "topic": "Zero Conditional (If + Imperative)",
-        "question": "If it rains tomorrow, _____ your umbrella.",
+        "question": "If it rains tomorrow, please _____ your umbrella.",
         "options": [
           "bringing",
           "to bring",
-          "you should bring",
+          "you bring",
           "bring"
         ],
         "correct": 3,
-        "explanation": "Quando damos um conselho ou instrução direta com uma condição, usamos o imperativo depois de 'if'. Neste caso, o conselho é levar o guarda-chuva caso chova. A forma imperativa é o verbo direto, sem sujeito. Portanto, a resposta correta é 'BRING'."
+        "explanation": "Quando damos uma instrução direta depois de uma condição com IF, usamos o imperativo, que é o verbo na forma básica, sem sujeito. Neste caso, o pedido é que a pessoa leve o guarda-chuva caso chova. Portanto, a resposta correta é 'BRING'."
       },
       {
         "id": "t1m55",
@@ -882,13 +882,13 @@
         "topic": "Comparatives (-er/-ier)",
         "question": "The countryside is _____ the city.",
         "options": [
-          "more quiet than",
+          "more quieter than",
           "quieter than",
           "quieter as",
           "quiet than"
         ],
         "correct": 1,
-        "explanation": "O adjetivo 'quiet' tem duas sílabas e segue a regra de adicionar -ER + THAN. Neste caso, o campo e a cidade são comparados em silêncio. O campo é mais tranquilo. Portanto, a resposta correta é 'QUIETER THAN'."
+        "explanation": "Quando comparamos duas coisas com um adjetivo curto, acrescentamos -ER ao adjetivo e usamos THAN depois, nunca MORE junto com a terminação -ER. Neste caso, o campo e a cidade estão sendo comparados em tranquilidade. Portanto, a resposta correta é 'QUIETER THAN'."
       },
       {
         "id": "t1m69",
@@ -906,15 +906,15 @@
       {
         "id": "t1m70",
         "topic": "Comparatives (-er/-ier)",
-        "question": "Dogs are _____ cats. (more friendly)",
+        "question": "Dogs are _____ cats.",
         "options": [
           "friendly than",
-          "more friendly than",
+          "more friendlier than",
           "friendlier than",
           "friendliest than"
         ],
         "correct": 2,
-        "explanation": "O adjetivo 'friendly' termina em -Y com duas sílabas, então trocamos o Y por -IER. Neste caso, cães e gatos estão sendo comparados em simpatia. Portanto, a resposta correta é 'FRIENDLIER THAN'."
+        "explanation": "O adjetivo 'friendly' termina em -Y, então trocamos o Y por -IER e usamos THAN depois. Nunca juntamos MORE com a terminação -IER, e o -EST é usado para superlativo, não para comparação entre dois. Neste caso, cães e gatos estão sendo comparados em simpatia. Portanto, a resposta correta é 'FRIENDLIER THAN'."
       }
     ]
   },
@@ -1005,13 +1005,13 @@
         "topic": "Present Perfect (Ever/Never)",
         "question": "Have you ever traveled to the USA? No, I _____ traveled there.",
         "options": [
-          "haven't ever",
+          "have ever",
           "have never",
-          "never have",
+          "haven't never",
           "never had"
         ],
         "correct": 1,
-        "explanation": "Quando queremos responder de forma negativa a uma pergunta com 'ever', usamos NEVER. As duas palavras juntas na mesma frase ficam redundantes. Neste caso, a resposta é negativa (a pessoa nunca foi aos EUA) então NEVER vai entre 'have' e o verbo. Portanto, a resposta correta é 'HAVE NEVER'."
+        "explanation": "Quando respondemos de forma negativa a uma pergunta com EVER, usamos NEVER entre o auxiliar HAVE e o verbo principal. EVER aparece em perguntas, não em respostas como esta, e NEVER já é negativo, então não vem acompanhado de HAVEN'T. Neste caso, a pessoa nunca esteve nos Estados Unidos. Portanto, a resposta correta é 'HAVE NEVER'."
       },
       {
         "id": "t1f08",
@@ -1060,7 +1060,7 @@
           "do",
           "make",
           "have",
-          "cook"
+          "making"
         ],
         "correct": 1,
         "explanation": "Quando queremos falar de preparar ou criar algo, usamos MAKE. Neste caso, a frase é sobre fazer o café da manhã para as pessoas. 'Breakfast' é algo que se prepara, e a combinação certa é sempre MAKE com 'breakfast'. Portanto, a resposta correta é 'MAKE'."
@@ -1214,7 +1214,7 @@
         "question": "_____ fast may lead to an accident.",
         "options": [
           "Drive",
-          "To drive",
+          "To driving",
           "Drives",
           "Driving"
         ],
@@ -1380,7 +1380,7 @@
       {
         "id": "t1f36",
         "topic": "Be Able To",
-        "question": "My grandfather _____ speak three languages.",
+        "question": "My grandfather _____ speak three languages when he was young.",
         "options": [
           "is able to",
           "could able to",
@@ -1388,7 +1388,7 @@
           "were able to"
         ],
         "correct": 2,
-        "explanation": "Para falar de uma capacidade que existia no passado, usamos WAS/WERE ABLE TO. Neste caso, o avô tinha a capacidade de falar três idiomas. É algo do passado, e com 'my grandfather' (= he), usamos WAS. Portanto, a resposta correta é 'WAS ABLE TO'."
+        "explanation": "Para falar de uma capacidade que existia no passado, usamos WAS/WERE ABLE TO. Neste caso, 'when he was young' mostra que a frase está no passado, e com 'my grandfather' (= he) usamos WAS. Portanto, a resposta correta é 'WAS ABLE TO'."
       },
       {
         "id": "t1f37",
@@ -1419,7 +1419,7 @@
       {
         "id": "t1f39",
         "topic": "Be Able To",
-        "question": "He _____ ride a bicycle when he was 5 years old.",
+        "question": "It was raining hard, but he _____ ride his bicycle home.",
         "options": [
           "is able to",
           "was able to",
@@ -1427,7 +1427,7 @@
           "can"
         ],
         "correct": 1,
-        "explanation": "Para descrever uma capacidade que uma pessoa tinha no passado, usamos WAS ABLE TO. Neste caso, ele sabia andar de bicicleta quando tinha 5 anos. É uma habilidade passada. Portanto, a resposta correta é 'WAS ABLE TO'."
+        "explanation": "Quando alguém consegue fazer algo difícil em uma situação específica do passado, usamos WAS/WERE ABLE TO. Neste caso, ele conseguiu voltar de bicicleta mesmo com a chuva forte, e com 'he' usamos WAS. CAN e IS ABLE TO falam do presente, e não combinam com uma situação que já aconteceu. Portanto, a resposta correta é 'WAS ABLE TO'."
       },
       {
         "id": "t1f40",
@@ -1484,7 +1484,7 @@
       {
         "id": "t1f44",
         "topic": "Present Perfect (Already/Yet)",
-        "question": "Have you finished the report _____?",
+        "question": "The deadline was yesterday. Have you finished the report _____?",
         "options": [
           "already",
           "never",
@@ -1492,7 +1492,7 @@
           "yet"
         ],
         "correct": 3,
-        "explanation": "YET é usado no final de perguntas para questionar se algo foi concluído ou não até agora. Neste caso, a pergunta é sobre se o relatório foi finalizado. Portanto, a resposta correta é 'YET'."
+        "explanation": "Usamos YET no fim de perguntas para saber se algo já foi concluído, principalmente quando a conclusão está atrasada. Neste caso, o prazo já passou e a pessoa quer saber se o relatório ficou pronto. ALREADY numa pergunta expressa surpresa por algo ter ficado pronto antes do esperado, o que não faz sentido aqui. Portanto, a resposta correta é 'YET'."
       },
       {
         "id": "t1f45",
@@ -1757,7 +1757,7 @@
       {
         "id": "t1f65",
         "topic": "As...As (Equal Comparisons)",
-        "question": "He's not _____ his father. (same height)",
+        "question": "He's not _____ his father. (he is shorter)",
         "options": [
           "as tall as",
           "tall than",
@@ -1765,7 +1765,7 @@
           "taller as"
         ],
         "correct": 0,
-        "explanation": "A estrutura 'not as + adjetivo + as' indica que o primeiro não alcança o nível do segundo. Neste caso, ele é menos alto do que o pai. Não têm a mesma altura. Portanto, a resposta correta é 'AS TALL AS'."
+        "explanation": "A estrutura NOT AS + adjetivo + AS mostra que o primeiro não alcança o nível do segundo. Neste caso, ele não chega à altura do pai, ou seja, é mais baixo. Portanto, a resposta correta é 'AS TALL AS'."
       },
       {
         "id": "t1f66",
@@ -2082,11 +2082,11 @@
       {
         "id": "t1f90",
         "topic": "Gerund as Subject",
-        "question": "_____ every day can significantly improve your mood.",
+        "question": "_____ every day can really improve your mood.",
         "options": [
           "Exercise",
           "Exercising",
-          "To exercise",
+          "To exercising",
           "Exercises"
         ],
         "correct": 1,
@@ -2152,7 +2152,7 @@
           "Will / meet",
           "Are / meeting",
           "Do / meet",
-          "Are / going to meet"
+          "Are / meet"
         ],
         "correct": 1,
         "explanation": "Para perguntar sobre planos já organizados, usamos ARE/IS + verbo com -ING. Neste caso, a pergunta é sobre um jantar que pode já estar marcado, uma reserva feita com antecedência. Portanto, a resposta correta é 'ARE / MEETING'."

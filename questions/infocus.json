@@ -165,7 +165,7 @@
       {
         "id": "ifm13",
         "topic": "Third Conditional",
-        "question": "She _____ the job if she had prepared better for the interview.",
+        "question": "She _____ the job last month if she had prepared better for the interview.",
         "options": [
           "might have gotten",
           "would get",
@@ -173,7 +173,7 @@
           "had gotten"
         ],
         "correct": 0,
-        "explanation": "Quando queremos imaginar um passado diferente e dizer o que poderia ter acontecido, usamos 'might/would/could have' com a forma passada do verbo. Neste caso, ela não se preparou bem para a entrevista e talvez pudesse ter conseguido o emprego. 'Might' indica que era possível, mas não certo. Portanto, a resposta correta é MIGHT HAVE GOTTEN."
+        "explanation": "Quando imaginamos um passado diferente e dizemos o que poderia ter acontecido naquele momento, usamos 'might/could/would have' + particípio. A expressão 'last month' prende o resultado no passado: a seleção já terminou. Por isso 'would get', que joga o resultado para o presente ou o futuro, não cabe aqui. Portanto, a resposta correta é MIGHT HAVE GOTTEN."
       },
       {
         "id": "ifm14",
@@ -399,7 +399,7 @@
       {
         "id": "ifm31",
         "topic": "Present Tenses",
-        "question": "I _____ to learn the piano lately. (temporary situation in progress)",
+        "question": "I _____ to learn the piano this semester. (temporary situation in progress)",
         "options": [
           "try",
           "tried",
@@ -407,7 +407,7 @@
           "had tried"
         ],
         "correct": 2,
-        "explanation": "Quando descrevemos uma situação temporária que está acontecendo nesse período da vida (não necessariamente neste exato instante) usamos o Present Continuous. O advérbio 'lately' reforça que é algo passageiro e em andamento. Portanto, a resposta correta é AM TRYING."
+        "explanation": "Quando descrevemos uma situação temporária que está acontecendo nesse período da vida (não necessariamente neste exato instante) usamos o Present Continuous. A expressão 'this semester' delimita esse período passageiro, e a dica avisa que a ação continua em andamento. Portanto, a resposta correta é AM TRYING."
       },
       {
         "id": "ifm32",
@@ -724,7 +724,7 @@
       {
         "id": "ifm56",
         "topic": "Past Tenses – While/When",
-        "question": "I was reading quietly when suddenly my neighbour _____ on the door.",
+        "question": "I was reading quietly when suddenly my neighbor _____ on the door.",
         "options": [
           "was knocking",
           "had knocked",
@@ -849,7 +849,7 @@
           "All of the above"
         ],
         "correct": 3,
-        "explanation": "'If', 'provided that' e 'as long as' podem todos ser usados para expressar uma condição necessária. Neste contexto, as três expressões introduzem a mesma ideia: o plano avança se e somente se a gestão aprovar o orçamento. Portanto, a resposta correta é ALL OF THE ABOVE."
+        "explanation": "'If', 'provided that' e 'as long as' introduzem todas a mesma condição necessária para o plano avançar: a aprovação do orçamento. 'Provided that' e 'as long as' apenas reforçam que essa é a única condição, e nesta frase as três funcionam igualmente bem. Portanto, a resposta correta é ALL OF THE ABOVE."
       },
       {
         "id": "ifm66",
@@ -1445,7 +1445,7 @@
       {
         "id": "iff01",
         "topic": "Inversion – Negative Adverbials",
-        "question": "'Never have I _____ such a rude person.' (inversion)",
+        "question": "Never have I _____ such a rude person. (inversion)",
         "options": [
           "met",
           "meet",
@@ -1614,7 +1614,7 @@
       {
         "id": "iff14",
         "topic": "Inversion – So/Neither",
-        "question": "'I have never been to Japan.', 'Neither _____ I.'",
+        "question": "A: I have never been to Japan. B: Neither _____ I.",
         "options": [
           "had",
           "have",
@@ -1822,7 +1822,7 @@
       {
         "id": "iff30",
         "topic": "Passive Voice – All Tenses",
-        "question": "The new policy _____ since last month. (Present Perfect Passive – ongoing impact)",
+        "question": "The new policy _____ in all our branches. (Present Perfect Passive – ongoing impact)",
         "options": [
           "implemented",
           "is being implemented",
@@ -1830,7 +1830,7 @@
           "was being implemented"
         ],
         "correct": 2,
-        "explanation": "O Present Perfect Passive (has/have been + particípio) descreve uma ação que ocorreu no passado e ainda é relevante no presente. Neste caso, a política foi implementada no mês passado e seus efeitos persistem. Portanto, a resposta correta é HAS BEEN IMPLEMENTED."
+        "explanation": "O Present Perfect Passive (has/have been + particípio) descreve uma ação já concluída cujo efeito continua valendo. Neste caso, a política já foi implantada em todas as filiais e segue em vigor. Portanto, a resposta correta é HAS BEEN IMPLEMENTED."
       },
       {
         "id": "iff31",
@@ -1991,7 +1991,7 @@
       {
         "id": "iff43",
         "topic": "Relative Pronouns – Advanced",
-        "question": "The moment _____ she heard the news, she broke down in tears.",
+        "question": "I'll never forget the moment _____ she heard the news.",
         "options": [
           "when",
           "which",
@@ -2090,7 +2090,7 @@
           "whose"
         ],
         "correct": 2,
-        "explanation": "Na estrutura cleft 'It is... that', 'that' é o conector padrão e preferido, funciona com pessoas, coisas e ideias abstratas. É a forma mais comum e neutra nas cleft sentences. 'Who' é para pessoas no papel de sujeito. 'Which' não é usado em cleft sentences canônicas. Portanto, a resposta correta é THAT."
+        "explanation": "Na estrutura cleft 'It is... that', 'that' é o conector padrão e neutro: funciona com pessoas, coisas e ideias abstratas. 'Who' só serviria para pessoa no papel de sujeito, e 'what' não pode retomar um elemento já enunciado ('the government's policy'), porque ele mesmo já carrega o sentido de 'a coisa que'. Portanto, a resposta correta é THAT."
       },
       {
         "id": "iff51",
@@ -2264,7 +2264,7 @@
       {
         "id": "iff64",
         "topic": "Inversion – So/Neither",
-        "question": "'She can't drive.', '_____ can I.'",
+        "question": "A: She can't drive. B: _____ can I.",
         "options": [
           "Neither",
           "Also",
@@ -2277,7 +2277,7 @@
       {
         "id": "iff65",
         "topic": "Inversion – So/Neither",
-        "question": "'I've been to Australia.', '_____ have I.'",
+        "question": "A: I've been to Australia. B: _____ have I.",
         "options": [
           "Neither",
           "So",
@@ -2290,7 +2290,7 @@
       {
         "id": "iff66",
         "topic": "Inversion – So/Neither",
-        "question": "'My manager didn't attend the meeting.', 'Neither _____ mine.'",
+        "question": "A: My manager didn't attend the meeting. B: Neither _____ mine.",
         "options": [
           "attended",
           "does",
@@ -2303,7 +2303,7 @@
       {
         "id": "iff67",
         "topic": "Inversion – So/Neither",
-        "question": "'Tom will be at the conference.', 'So _____ Maria.'",
+        "question": "A: Tom will be at the conference. B: So _____ Maria.",
         "options": [
           "is",
           "was",
@@ -2485,7 +2485,7 @@
       {
         "id": "iff81",
         "topic": "Inversion – Expressions with Only",
-        "question": "_____ did she work hard, she also volunteered in her community.",
+        "question": "_____ did she work hard, but she also volunteered in her community.",
         "options": [
           "Not only",
           "Only not",
@@ -2997,10 +2997,10 @@
           "what",
           "that",
           "which",
-          "— (no pronoun)"
+          "no pronoun at all"
         ],
         "correct": 0,
-        "explanation": "Para coisas usamos \"that\" ou \"which\", e como o pronome é objeto ele também pode simplesmente sair. O que não existe em oração relativa é \"what\". Portanto, a resposta correta é WHAT."
+        "explanation": "Para coisas usamos 'that' ou 'which', e como o pronome é objeto da oração relativa ele também pode simplesmente sair, sem nenhum pronome. O que não existe em oração relativa é 'what'. Portanto, a resposta correta é WHAT."
       },
       {
         "id": "iff121",
@@ -3343,7 +3343,7 @@
       {
         "id": "iff147",
         "topic": "Homophones",
-        "question": "It has been found that nicotine kills brain _____.",
+        "question": "Scientists use a microscope to study brain _____.",
         "options": [
           "cells",
           "sells",
@@ -3351,7 +3351,7 @@
           "cellars"
         ],
         "correct": 0,
-        "explanation": "\"Cells\" são as células e \"sells\" é o verbo vender na terceira pessoa. O som é o mesmo. Portanto, a resposta correta é CELLS."
+        "explanation": "'Cells' são as células do corpo. 'Sells' é o verbo vender na terceira pessoa, 'sales' são as vendas e 'cellars' são porões: o som é parecido, mas só as células se estudam no microscópio. Portanto, a resposta correta é CELLS."
       },
       {
         "id": "iff148",
@@ -3648,7 +3648,7 @@
       {
         "id": "ifmet20",
         "topic": "Connectors – Addition & Sequence",
-        "question": "First the samples are collected; _____ they are analysed in the lab.",
+        "question": "First the samples are collected; _____ they are analyzed in the lab.",
         "options": [
           "then",
           "meanwhile",
@@ -3752,7 +3752,7 @@
       {
         "id": "ifmet28",
         "topic": "Verb + Preposition",
-        "question": "I completely agree _____ you, but I do not agree _____ the deadline.",
+        "question": "I completely agree _____ you, but the team could not agree _____ where to hold the event.",
         "options": [
           "with / on",
           "on / with",
@@ -3760,7 +3760,7 @@
           "with / to"
         ],
         "correct": 0,
-        "explanation": "Concorda-se WITH uma pessoa e ON um assunto. \"Agree to\" fica reservado a uma proposta. Portanto, a resposta correta é WITH / ON."
+        "explanation": "Concorda-se WITH uma pessoa e ON um assunto que está em discussão ('agree on where to hold the event'). 'Agree to' fica reservado a aceitar uma proposta e não cabe antes de uma pergunta indireta. Portanto, a resposta correta é WITH / ON."
       },
       {
         "id": "ifmet29",
@@ -3988,13 +3988,13 @@
         "topic": "Word Order & Parallel Structure",
         "question": "She sang _____.",
         "options": [
-          "beautifully at the theatre last night",
-          "at the theatre beautifully last night",
-          "last night beautifully at the theatre",
-          "at the theatre last night beautifully"
+          "beautifully at the theater last night",
+          "at the theater beautifully last night",
+          "last night beautifully at the theater",
+          "at the theater last night beautifully"
         ],
         "correct": 0,
-        "explanation": "A ordem dos advérbios é modo, lugar e tempo: como, onde e quando. Portanto, a resposta correta é BEAUTIFULLY AT THE THEATRE LAST NIGHT."
+        "explanation": "A ordem dos advérbios é modo, lugar e tempo: como, onde e quando. Portanto, a resposta correta é BEAUTIFULLY AT THE THEATER LAST NIGHT."
       },
       {
         "id": "ifmet47",
@@ -4014,13 +4014,13 @@
         "topic": "Word Order & Parallel Structure",
         "question": "Which sentence has correct parallel structure?",
         "options": [
-          "She likes dancing, singing and travelling.",
+          "She likes dancing, singing and traveling.",
           "She likes to dance, singing and to travel.",
-          "She likes dancing, to sing and travelling.",
+          "She likes dancing, to sing and traveling.",
           "She likes dance, singing and to travel."
         ],
         "correct": 0,
-        "explanation": "Numa lista, todos os itens ficam na mesma forma. Misturar infinitivo com -ing quebra o paralelismo. Portanto, a resposta correta é SHE LIKES DANCING, SINGING AND TRAVELLING.."
+        "explanation": "Numa lista, todos os itens ficam na mesma forma. Misturar infinitivo com -ing quebra o paralelismo. Portanto, a resposta correta é SHE LIKES DANCING, SINGING AND TRAVELING."
       },
       {
         "id": "ifmet49",
@@ -4155,7 +4155,7 @@
       {
         "id": "ifmet59",
         "topic": "Modal Perfects",
-        "question": "He isn't answering. Maybe he _____ his phone on silent.",
+        "question": "He isn't answering. He _____ his phone on silent. (possibility)",
         "options": [
           "might have left",
           "should have left",
@@ -4163,12 +4163,12 @@
           "must not leave"
         ],
         "correct": 0,
-        "explanation": "\"Maybe\" indica possibilidade, e a possibilidade sobre o passado é MIGHT HAVE (ou may have). Portanto, a resposta correta é MIGHT HAVE LEFT."
+        "explanation": "A dica '(possibility)' pede uma suposição sobre o passado que pode ser verdadeira, e essa suposição se faz com MIGHT HAVE (ou may have) + particípio. 'Should have left' seria uma crítica, 'can't have left' seria certeza de que isso não aconteceu, e 'must not leave' fala de uma regra no presente. Portanto, a resposta correta é MIGHT HAVE LEFT."
       },
       {
         "id": "ifmet60",
         "topic": "Modal Perfects",
-        "question": "They were leading 3–0 with ten minutes to go. They _____ the match easily.",
+        "question": "They were leading 3–0 with ten minutes to go, but they lost 4–3. They _____ the match easily.",
         "options": [
           "could have won",
           "must have won",
@@ -4176,7 +4176,7 @@
           "may not have won"
         ],
         "correct": 0,
-        "explanation": "COULD HAVE é o que era possível e não aconteceu: eles tinham tudo para vencer e não venceram. Portanto, a resposta correta é COULD HAVE WON."
+        "explanation": "COULD HAVE WON é o que era possível e não aconteceu: eles tinham tudo para vencer e ainda assim perderam. 'Must have won' e as outras opções só fariam sentido se o resultado da partida fosse desconhecido, mas a frase já diz que eles perderam. Portanto, a resposta correta é COULD HAVE WON."
       },
       {
         "id": "ifmet61",

@@ -35,28 +35,28 @@
       {
         "id": "f2m03",
         "topic": "Reporting Verbs – Time Changes",
-        "question": "She said, 'I will call you tomorrow.' → She told me she _____ call me the next day.",
+        "question": "She said, 'I will call you tomorrow.' → She told me she _____ me the next day.",
         "options": [
-          "will",
-          "would",
-          "was going to",
-          "would have called"
+          "will call",
+          "would call",
+          "will have called",
+          "would called"
         ],
         "correct": 1,
-        "explanation": "Quando queremos contar o que alguém disse, o 'will' do futuro muda para 'would' no discurso reportado. Esse é o recuo de tempo padrão. Neste caso, ela disse que ia ligar amanhã e ao reportar: 'She told me she WOULD call me the next day'. Portanto, a resposta correta é WOULD."
+        "explanation": "Quando contamos o que alguém disse, o 'will' do futuro recua para 'would'. Neste caso, a fala já aconteceu e o dia seguinte é contado de dentro do passado ('the next day'), então 'will call' não combina com 'told me'. 'Will have called' fala de algo concluído antes de um momento futuro e 'would called' não existe. Portanto, a resposta correta é WOULD CALL."
       },
       {
         "id": "f2m04",
         "topic": "Reporting Verbs – Time Changes",
-        "question": "He said, 'I saw her yesterday.' → He said he had seen her _____.",
+        "question": "He said, 'I saw her yesterday.' (reported a week later) → He said he had seen her _____.",
         "options": [
           "yesterday",
           "the day before",
-          "the previous day",
+          "the day after",
           "the last day"
         ],
         "correct": 1,
-        "explanation": "Quando queremos contar o que alguém disse, as palavras de tempo mudam: 'yesterday' vira 'the day before' no discurso reportado. Essa é a expressão mais comum e natural. Neste caso: 'He said he had seen her THE DAY BEFORE'. Portanto, a resposta correta é THE DAY BEFORE."
+        "explanation": "Quando contamos o que alguém disse, as palavras de tempo mudam de referência: 'yesterday' vira 'the day before' (ou 'the previous day'), sempre em relação ao dia em que a pessoa falou. Neste caso já passou uma semana, então 'yesterday' apontaria para o dia errado. 'The day after' inverte o sentido e 'the last day' significa 'o último dia'. Portanto, a resposta correta é THE DAY BEFORE."
       },
       {
         "id": "f2m05",
@@ -191,15 +191,15 @@
       {
         "id": "f2m15",
         "topic": "Possessive Before -ing",
-        "question": "I can't stand _____ being so selfish.",
+        "question": "_____ being so selfish really annoys everyone.",
         "options": [
-          "him",
-          "his",
-          "he",
-          "himself"
+          "Him",
+          "His",
+          "He",
+          "Himself"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que o comportamento de alguém nos incomoda, na forma mais cuidada usamos a forma possessiva antes do verbo com -ing. Neste caso, o que incomoda é o jeito egoísta dele, então dizemos 'I can't stand HIS being so selfish'. 'His' mostra de quem é o comportamento. Portanto, a resposta correta é HIS."
+        "explanation": "Quando o trecho com -ing é o sujeito da frase, quem indica de quem é o comportamento é a forma possessiva. Neste caso o egoísmo é dele: 'HIS being so selfish really annoys everyone'. 'Him', 'he' e 'himself' não abrem a frase nessa posição. Portanto, a resposta correta é HIS."
       },
       {
         "id": "f2m16",
@@ -219,13 +219,13 @@
         "topic": "Reported Questions",
         "question": "He asked me, 'Have you read this book?' → He asked me _____ that book.",
         "options": [
-          "if I read",
+          "if did I read",
           "whether I had read",
           "if I have read",
           "whether had I read"
         ],
         "correct": 1,
-        "explanation": "Quando queremos contar uma pergunta de sim ou não em que o original usou 'have', o tempo recua para 'had'. Neste caso, ele perguntou 'Have you read?' e ao contar usamos 'whether I had read'. 'Whether' para a pergunta de sim/não e 'had read' porque o tempo recuou. Portanto, a resposta correta é WHETHER I HAD READ."
+        "explanation": "Quando contamos uma pergunta de sim ou não, usamos 'if' ou 'whether' e a ordem fica normal, sujeito antes do verbo, sem 'do/does/did'. Além disso o tempo recua: 'have you read' vira 'I had read'. Neste caso: 'He asked me WHETHER I HAD READ that book'. Portanto, a resposta correta é WHETHER I HAD READ."
       },
       {
         "id": "f2m18",
@@ -295,7 +295,7 @@
       {
         "id": "f2m23",
         "topic": "One / A / An",
-        "question": "Which would you prefer, tea or coffee? I'd like _____, please.",
+        "question": "A: Do you need a pencil? B: Yes, could you lend me _____, please?",
         "options": [
           "a",
           "an",
@@ -303,7 +303,7 @@
           "the"
         ],
         "correct": 2,
-        "explanation": "Quando queremos nos referir a algo que já foi mencionado sem repetir o substantivo, usamos ONE no lugar. Neste caso, a pessoa perguntou sobre chá ou café, e a resposta usa ONE para se referir a uma das opções sem repeti-la: 'I'd like ONE, please'. Portanto, a resposta correta é ONE."
+        "explanation": "Quando queremos nos referir a algo que já foi mencionado sem repetir o substantivo, usamos ONE no lugar. Neste caso, 'a pencil' já apareceu na pergunta e ONE evita a repetição: 'could you lend me ONE, please?'. 'A', 'an' e 'the' não ficam sozinhos, sem o substantivo. Portanto, a resposta correta é ONE."
       },
       {
         "id": "f2m24",
@@ -559,11 +559,11 @@
         "options": [
           "if I had enjoyed",
           "that I enjoyed",
-          "whether I enjoyed",
+          "whether I enjoy",
           "if I would have enjoyed"
         ],
         "correct": 0,
-        "explanation": "Quando contamos uma pergunta de sim ou não no passado, usamos 'if' e o verbo recua um tempo: 'did enjoy' vira 'had enjoyed'. Neste caso: 'My friend asked me IF I HAD ENJOYED the concert'. O 'did' some, o verbo vai para o past perfect e usamos 'if' para introduzir. Portanto, a resposta correta é IF I HAD ENJOYED."
+        "explanation": "Quando contamos uma pergunta de sim ou não feita no passado, usamos 'if' (ou 'whether') e o verbo recua um tempo: 'did you enjoy' vira 'had enjoyed'. Neste caso: 'My friend asked me IF I HAD ENJOYED the concert'. 'Whether I enjoy' está no presente e o show já passou, 'that' não introduz pergunta e 'if I would have enjoyed' mudaria o sentido para algo hipotético. Portanto, a resposta correta é IF I HAD ENJOYED."
       },
       {
         "id": "f2m44",
@@ -637,37 +637,37 @@
         "options": [
           "was I",
           "I was",
-          "I had been",
+          "I have been",
           "had I been"
         ],
         "correct": 1,
-        "explanation": "Quando contamos uma pergunta indireta, a ordem vira normal, sujeito e depois verbo, sem inversão. Neste caso, 'where were you' vira 'where I was', sem inversão: 'the police officer asked where I WAS the night before'. Portanto, a resposta correta é I WAS."
+        "explanation": "Quando contamos uma pergunta indireta, a ordem vira normal, sujeito e depois verbo, sem inversão. Neste caso, 'where were you' vira 'where I was': 'The police officer asked where I WAS the night before'. 'Was I' e 'had I been' mantêm a inversão da pergunta direta, e 'I have been' não combina com um tempo passado definido como 'the night before'. Portanto, a resposta correta é I WAS."
       },
       {
         "id": "f2m50",
         "topic": "Possessive Before -ing",
-        "question": "The teacher appreciated _____ doing the homework on time.",
+        "question": "_____ doing the homework on time impressed the teacher.",
         "options": [
-          "us",
-          "our",
-          "we",
-          "ours"
+          "Us",
+          "Our",
+          "We",
+          "Ours"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que o comportamento de um grupo é apreciado ou incomoda alguém, na forma mais cuidada usamos a forma possessiva antes do verbo com -ing. Neste caso, o que o professor apreciou foi o comportamento do grupo (a ação de fazer a lição) então dizemos 'OUR doing the homework on time'. Portanto, a resposta correta é OUR."
+        "explanation": "Quando o trecho com -ing é o sujeito da frase, usamos a forma possessiva antes do verbo com -ing. Neste caso quem fez a lição no prazo fomos nós: 'OUR doing the homework on time impressed the teacher'. 'Us', 'we' e 'ours' não funcionam como sujeito de um verbo com -ing. Portanto, a resposta correta é OUR."
       },
       {
         "id": "f2m51",
         "topic": "Possessive Before -ing",
-        "question": "Do you mind _____ using your phone?",
+        "question": "_____ using your phone without asking was wrong, and I'm sorry.",
         "options": [
-          "me",
-          "my",
+          "Me",
+          "My",
           "I",
-          "mine"
+          "Mine"
         ],
         "correct": 1,
-        "explanation": "Quando queremos perguntar se algo que fazemos incomoda a outra pessoa, na forma mais cuidada usamos a forma possessiva antes do verbo com -ing. Neste caso, queremos pedir permissão para usar o celular: 'Do you mind MY using your phone?'. 'My' mostra de quem é o comportamento em questão. Portanto, a resposta correta é MY."
+        "explanation": "Quando o trecho com -ing é o sujeito da frase, usamos a forma possessiva antes do verbo com -ing. Neste caso quem usou o celular fui eu: 'MY using your phone without asking was wrong'. 'Me', 'I' e 'mine' não abrem a frase nessa posição. Portanto, a resposta correta é MY."
       },
       {
         "id": "f2m52",
@@ -685,15 +685,15 @@
       {
         "id": "f2m53",
         "topic": "Possessive Before -ing",
-        "question": "We are very proud of _____ winning the championship.",
+        "question": "_____ winning the championship made the whole school proud.",
         "options": [
-          "them",
-          "their",
-          "they",
-          "theirs"
+          "Them",
+          "Their",
+          "They",
+          "Theirs"
         ],
         "correct": 1,
-        "explanation": "Quando queremos expressar orgulho pelo comportamento ou conquista de alguém, usamos a forma possessiva antes do verbo com -ing. Neste caso, o que nos enche de orgulho é a conquista deles. A ação de ganhar o campeonato: 'We are proud of THEIR winning the championship'. Portanto, a resposta correta é THEIR."
+        "explanation": "Quando o trecho com -ing é o sujeito da frase, usamos a forma possessiva antes do verbo com -ing. Neste caso quem ganhou o campeonato foram eles: 'THEIR winning the championship made the whole school proud'. 'Them', 'they' e 'theirs' não servem como sujeito de um verbo com -ing. Portanto, a resposta correta é THEIR."
       },
       {
         "id": "f2m54",
@@ -828,15 +828,15 @@
       {
         "id": "f2m64",
         "topic": "Reporting Verbs",
-        "question": "My boss said, 'You must finish this by Friday.' → My boss said I _____ finish it by Friday.",
+        "question": "My boss said, 'You have to finish this by Friday.' → Last week my boss said I _____ finish it by that Friday.",
         "options": [
-          "must",
           "have to",
+          "has to",
           "had to",
-          "need to"
+          "having to"
         ],
         "correct": 2,
-        "explanation": "Quando contamos o que alguém disse usando 'must' para obrigação, esse 'must' muda para 'had to' no discurso reportado, pois o tempo recua para o passado. Neste caso, o chefe deu uma ordem e ao reportar: 'My boss said I HAD TO finish it by Friday'. Portanto, a resposta correta é HAD TO."
+        "explanation": "Quando contamos o que alguém disse, a obrigação também recua no tempo: 'have to' vira 'had to' (e 'must' também vira 'had to'). Neste caso a ordem foi dada na semana passada e o prazo já passou, então o presente 'have to' não cabe. 'Has to' não combina com 'I' e 'having to' não é tempo verbal. Portanto, a resposta correta é HAD TO."
       },
       {
         "id": "f2m65",
@@ -873,15 +873,15 @@
       {
         "id": "f2f02",
         "topic": "Wish + Would",
-        "question": "He never listens! I wish he _____ more attention.",
+        "question": "He never listens to me. I wish he _____ more attention when I talk to him.",
         "options": [
           "pays",
-          "paid",
+          "will pay",
           "would pay",
           "had paid"
         ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que gostaríamos que alguém mudasse um comportamento que nos frustra, usamos 'wish' seguido de 'would' e o verbo. Neste caso, ele nunca presta atenção e a pessoa deseja que isso mude: 'I wish he WOULD PAY more attention'. Portanto, a resposta correta é WOULD PAY."
+        "explanation": "Quando queremos dizer que gostaríamos que alguém mudasse um comportamento que nos incomoda, usamos 'wish' seguido de 'would' e o verbo. Neste caso ele nunca escuta e a pessoa quer que isso mude: 'I wish he WOULD PAY more attention'. Depois de 'wish' não usamos presente simples nem 'will', e 'had paid' serviria para lamentar um momento específico do passado, não um hábito de agora. Portanto, a resposta correta é WOULD PAY."
       },
       {
         "id": "f2f03",
@@ -990,7 +990,7 @@
       {
         "id": "f2f11",
         "topic": "Order of Adverbs",
-        "question": "Choose the sentence with the adverb of frequency in the correct position:",
+        "question": "Choose the sentence with the adverb in the correct position:",
         "options": [
           "We hardly ever see them these days.",
           "We ever hardly see them these days.",
@@ -1054,8 +1054,8 @@
       },
       {
         "id": "f2f16",
-        "topic": "Whatever / Whenever / However",
-        "question": "_____ you go, I'll follow you.",
+        "topic": "Whatever / Whenever / Wherever / However",
+        "question": "_____ you decide to live, I'll follow you, even to another country.",
         "options": [
           "Whatever",
           "Whenever",
@@ -1063,11 +1063,11 @@
           "However"
         ],
         "correct": 2,
-        "explanation": "Quando queremos dizer 'para qualquer lugar que' (indicando que o destino não importa) usamos 'wherever'. Neste caso, a frase significa que vou seguir você para qualquer lugar que você for: 'WHEREVER you go, I'll follow'. Portanto, a resposta correta é WHEREVER."
+        "explanation": "Quando queremos dizer 'em qualquer lugar que', usamos 'wherever'. Neste caso a frase fala de destino, de lugar, e a continuação confirma isso: 'even to another country'. 'Whenever' fala de tempo, 'whatever' de coisa e 'however' de modo. Portanto, a resposta correta é WHEREVER."
       },
       {
         "id": "f2f17",
-        "topic": "Whatever / Whenever / However",
+        "topic": "Whatever / Whenever / Wherever / However",
         "question": "_____ hard I try, I can't understand this.",
         "options": [
           "Whatever",
@@ -1081,7 +1081,7 @@
       {
         "id": "f2f18",
         "topic": "Uncountable Nouns",
-        "question": "I need some _____ to fix this shelf.",
+        "question": "The gym bought some new _____ last month.",
         "options": [
           "equipments",
           "an equipment",
@@ -1089,7 +1089,7 @@
           "equipment's"
         ],
         "correct": 2,
-        "explanation": "Quando queremos falar de 'equipment' (equipamento) em inglês, essa palavra não tem plural e não aceita 'a/an'. 'Equipments', 'an equipment' e 'equipment's' não existem como forma correta aqui. Neste caso, usamos 'some equipment'. Portanto, a resposta correta é 'EQUIPMENT'."
+        "explanation": "Quando queremos falar de 'equipment' (equipamento) em inglês, essa palavra não tem plural e não aceita 'a/an'. 'Equipments', 'an equipment' e 'equipment's' não existem como forma correta aqui. Neste caso usamos 'some new equipment'. Portanto, a resposta correta é 'EQUIPMENT'."
       },
       {
         "id": "f2f19",
@@ -1133,15 +1133,15 @@
       {
         "id": "f2f22",
         "topic": "Wish + Would",
-        "question": "The neighbors are so noisy. I wish they _____ quiet at night.",
+        "question": "The neighbors are so noisy every single night. I wish they _____ quiet from now on.",
         "options": [
           "are",
-          "were",
+          "will be",
           "would be",
           "had been"
         ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que gostaríamos que alguém mudasse um comportamento que depende da vontade dessa pessoa, usamos 'wish' seguido de 'would' e o verbo. Neste caso, os vizinhos poderiam ser mais quietos mas escolhem não ser, e a pessoa deseja que mudem: 'I wish they WOULD BE quiet'. Portanto, a resposta correta é WOULD BE."
+        "explanation": "Quando queremos dizer que gostaríamos que alguém mudasse um comportamento que depende da vontade dessa pessoa, usamos 'wish' seguido de 'would' e o verbo. Neste caso os vizinhos poderiam fazer silêncio e a pessoa quer essa mudança daqui para a frente: 'I wish they WOULD BE quiet'. Depois de 'wish' não usamos presente nem 'will', e 'had been' olharia para o passado, não para o que ainda vem. Portanto, a resposta correta é WOULD BE."
       },
       {
         "id": "f2f23",
@@ -1237,7 +1237,7 @@
       {
         "id": "f2f30",
         "topic": "Be / Get Used To",
-        "question": "You'll _____ waking up early once you start this job.",
+        "question": "Don't worry, you'll slowly _____ waking up early after a few weeks. (gradual process)",
         "options": [
           "be used of",
           "get used to",
@@ -1245,7 +1245,7 @@
           "be used to"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que alguém vai se acostumar a algo no futuro (vai passar pelo processo de adaptação) usamos 'get used to' seguido do verbo com -ing. Neste caso, a adaptação vai acontecer depois de começar o trabalho: 'You'll GET USED TO waking up early'. Portanto, a resposta correta é GET USED TO."
+        "explanation": "Quando queremos falar do processo de se acostumar a algo, a adaptação que acontece aos poucos, usamos 'get used to' seguido do verbo com -ing. Neste caso 'slowly' e 'after a few weeks' mostram que a adaptação ainda vai acontecer. 'Be used to' descreveria o resultado, alguém que já está acostumado, e não combina com 'slowly'; 'used to' fala de hábitos do passado e 'be used of' não existe. Portanto, a resposta correta é GET USED TO."
       },
       {
         "id": "f2f31",
@@ -1262,7 +1262,7 @@
       },
       {
         "id": "f2f32",
-        "topic": "Whatever / Whenever / However",
+        "topic": "Whatever / Whenever / Wherever / However",
         "question": "_____ you decide, I'll support you.",
         "options": [
           "However",
@@ -1275,7 +1275,7 @@
       },
       {
         "id": "f2f33",
-        "topic": "Whatever / Whenever / However",
+        "topic": "Whatever / Whenever / Wherever / However",
         "question": "You can call me _____ you need help.",
         "options": [
           "whatever",
@@ -1288,7 +1288,7 @@
       },
       {
         "id": "f2f34",
-        "topic": "Whatever / Whenever / However",
+        "topic": "Whatever / Whenever / Wherever / However",
         "question": "_____ you explain it, I can't understand this theory.",
         "options": [
           "Wherever",
@@ -1341,15 +1341,15 @@
       {
         "id": "f2f38",
         "topic": "Wish + Would",
-        "question": "My sister always borrows my things without asking. I wish she _____ before taking them.",
+        "question": "My sister always borrows my things without asking. I wish she _____ before taking them next time.",
         "options": [
           "asks",
-          "asked",
+          "will ask",
           "would ask",
           "had asked"
         ],
         "correct": 2,
-        "explanation": "Quando queremos expressar que gostaríamos que alguém mudasse um comportamento que nos irrita (algo que essa pessoa poderia fazer se quisesse) usamos 'wish' seguido de 'would'. Neste caso, a irmã poderia perguntar antes, mas não pergunta: 'I wish she WOULD ASK before taking them'. Portanto, a resposta correta é WOULD ASK."
+        "explanation": "Quando queremos expressar que gostaríamos que alguém mudasse um comportamento que nos irrita, usamos 'wish' seguido de 'would'. Neste caso a irmã poderia perguntar antes e a pessoa quer isso da próxima vez: 'I wish she WOULD ASK before taking them'. Depois de 'wish' não usamos presente simples nem 'will', e 'had asked' olharia para uma ocasião que já passou. Portanto, a resposta correta é WOULD ASK."
       },
       {
         "id": "f2f39",
@@ -1523,7 +1523,7 @@
       {
         "id": "f2f52",
         "topic": "Order of Adverbs",
-        "question": "Choose the correct sentence with the frequency adverb in the right position:",
+        "question": "Choose the sentence with the adverb in the correct position:",
         "options": [
           "She goes always to the gym.",
           "She always goes to the gym.",
@@ -1536,7 +1536,7 @@
       {
         "id": "f2f53",
         "topic": "Order of Adverbs",
-        "question": "Which sentence has the correct order of adverbs?",
+        "question": "Choose the sentence with the adverb in the correct position:",
         "options": [
           "She dances beautifully very.",
           "She very beautifully dances.",
@@ -1724,28 +1724,28 @@
       {
         "id": "f2pv12",
         "topic": "Phrasal Verbs – Animals",
-        "question": "Quit _____ and finish your homework.",
+        "question": "You've been playing games for an hour! Quit _____ and finish your homework.",
         "options": [
           "monkeying around",
-          "wolfing down",
-          "fishing for",
-          "topping the dog"
+          "wolfing down your lunch",
+          "fishing for compliments",
+          "chickening out"
         ],
         "correct": 0,
-        "explanation": "MONKEY AROUND é ficar de bobagem, fazer besteira em vez de trabalhar. Portanto, a resposta correta é MONKEYING AROUND."
+        "explanation": "MONKEY AROUND é ficar de bobagem, perder tempo em vez de fazer o que precisa ser feito. Portanto, a resposta correta é MONKEYING AROUND."
       },
       {
         "id": "f2pv13",
         "topic": "Phrasal Verbs – Animals",
-        "question": "He _____ of the meeting without saying goodbye to anyone.",
+        "question": "He _____ the meeting early, without saying goodbye to anyone.",
         "options": [
-          "ducked out",
+          "ducked out of",
           "fished for",
           "horsed around",
           "wolfed down"
         ],
         "correct": 0,
-        "explanation": "DUCK OUT é sair discretamente, sem avisar. Portanto, a resposta correta é DUCKED OUT."
+        "explanation": "DUCK OUT OF é sair discretamente de algum lugar, sem avisar ninguém. Portanto, a resposta correta é DUCKED OUT OF."
       },
       {
         "id": "f2pv14",
@@ -1779,9 +1779,9 @@
         "question": "In that company, she is the _____ — nothing happens without her.",
         "options": [
           "top dog",
-          "chicken out",
-          "wolf down",
-          "horse around"
+          "black sheep",
+          "drama queen",
+          "helping hand"
         ],
         "correct": 0,
         "explanation": "TOP DOG é a pessoa mais importante de uma organização. Portanto, a resposta correta é TOP DOG."
@@ -1880,7 +1880,7 @@
       {
         "id": "f2pv24",
         "topic": "Phrasal Verbs – Regrets",
-        "question": "You can't _____ — just learn from it and move on.",
+        "question": "What's done is done — you can't _____ and undo the past.",
         "options": [
           "turn back the clock",
           "cry over spilt milk",
@@ -1888,7 +1888,7 @@
           "do away with it"
         ],
         "correct": 0,
-        "explanation": "TURN BACK THE CLOCK é tentar voltar ao passado. Portanto, a resposta correta é TURN BACK THE CLOCK."
+        "explanation": "TURN BACK THE CLOCK é tentar voltar no tempo e desfazer o que já aconteceu. Portanto, a resposta correta é TURN BACK THE CLOCK."
       },
       {
         "id": "f2pv25",
@@ -2194,13 +2194,13 @@
         "topic": "Phrasal Verbs – Leisure",
         "question": "She learned three languages on her own — _____.",
         "options": [
-          "where there is a will there is a way",
+          "where there's a will, there's a way",
           "ups and downs",
           "bottle up",
           "loosen up"
         ],
         "correct": 0,
-        "explanation": "WHERE THERE IS A WILL THERE IS A WAY: querendo, a pessoa acha um jeito. Portanto, a resposta correta é WHERE THERE IS A WILL THERE IS A WAY."
+        "explanation": "WHERE THERE'S A WILL, THERE'S A WAY: quem realmente quer, acha um jeito. Portanto, a resposta correta é WHERE THERE'S A WILL, THERE'S A WAY."
       },
       {
         "id": "f2pv49",
@@ -2300,8 +2300,8 @@
         "options": [
           "drama queen",
           "top dog",
-          "make-out",
-          "read-through"
+          "helping hand",
+          "chicken"
         ],
         "correct": 0,
         "explanation": "DRAMA QUEEN é quem faz drama por qualquer coisa. Portanto, a resposta correta é DRAMA QUEEN."
@@ -2530,7 +2530,7 @@
       {
         "id": "f2pv74",
         "topic": "Phrasal Verbs – Caring",
-        "question": "My neighbour _____ with a cake, without calling first.",
+        "question": "My neighbor _____ with a cake, without calling first.",
         "options": [
           "dropped by",
           "carried out",

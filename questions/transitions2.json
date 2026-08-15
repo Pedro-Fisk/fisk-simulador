@@ -9,7 +9,7 @@
       {
         "id": "t2m01",
         "topic": "Superlatives",
-        "question": "My mum is _____ cook in the world.",
+        "question": "My mom is _____ cook in the world.",
         "options": [
           "the most good",
           "the better",
@@ -48,15 +48,15 @@
       {
         "id": "t2m04",
         "topic": "Present Perfect – Just",
-        "question": "Kate _____ her friend. (She just met her a moment ago.)",
+        "question": "Kate _____ her friend. They are talking at the door right now.",
         "options": [
           "has just meet",
-          "just met",
+          "just meets",
           "has just met",
           "just has met"
         ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que algo aconteceu há pouquíssimo tempo, usamos 'has/have just' + a forma passada do verbo. Neste caso, Kate encontrou a amiga dela agora há pouco, a ação acabou de acontecer. Portanto, a resposta correta é HAS JUST MET."
+        "explanation": "Quando queremos dizer que algo aconteceu há pouquíssimo tempo, usamos 'has/have just' + a forma passada do verbo, e o 'just' fica entre o auxiliar e o verbo. A forma passada de 'meet' é 'met'. Neste caso, Kate encontrou a amiga agora há pouco e as duas ainda estão conversando na porta. Portanto, a resposta correta é HAS JUST MET."
       },
       {
         "id": "t2m05",
@@ -113,20 +113,20 @@
       {
         "id": "t2m09",
         "topic": "First Conditional",
-        "question": "If it rains, I _____ go by car.",
+        "question": "If it rains tomorrow, I _____ go by car.",
         "options": [
           "will",
           "would",
-          "am going to",
+          "am going",
           "will be going"
         ],
         "correct": 0,
-        "explanation": "Quando queremos falar de um resultado possível no futuro em uma primeira condicional (if + presente + resultado), usamos 'will' na cláusula de resultado. Neste caso, se chover, a pessoa vai de carro, uma consequência futura e possível. Portanto, a resposta correta é WILL."
+        "explanation": "Quando queremos falar de um resultado possível no futuro em uma primeira condicional (if + presente simples, resultado com 'will'), usamos 'will' + o verbo na forma básica. 'Would' pertence à segunda condicional, que fala de situações imaginárias. 'Am going' e 'will be going' deixariam dois verbos seguidos na frase ('am going go'), o que não existe em inglês. Neste caso, se chover amanhã, a pessoa vai de carro. Portanto, a resposta correta é WILL."
       },
       {
         "id": "t2m10",
         "topic": "Be Supposed To",
-        "question": "You _____ have number plates on your car. (expectation/rule)",
+        "question": "You _____ have number plates on your car. It's the law.",
         "options": [
           "are suppose to",
           "are supposed to",
@@ -134,7 +134,7 @@
           "is supposed to"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que algo é esperado ou é uma regra (não uma ordem direta, mas o que se espera das pessoas) usamos 'are/is supposed to'. Neste caso, estamos dizendo que ter placas no carro é uma regra, algo que todo motorista deve ter. Portanto, a resposta correta é ARE SUPPOSED TO."
+        "explanation": "Quando queremos dizer que algo é esperado ou é uma regra, e não uma ordem direta, usamos 'be supposed to'. Para 'you', o verbo 'be' fica 'are', e 'supposed' sempre leva -d no fim, por isso 'are suppose to' está errado. Neste caso, ter placas no carro é o que a lei exige de todo motorista. Portanto, a resposta correta é ARE SUPPOSED TO."
       },
       {
         "id": "t2m11",
@@ -168,12 +168,12 @@
         "question": "John and Peggy _____ the book. Now they can watch the film.",
         "options": [
           "just have read",
-          "read",
+          "reads",
           "have just read",
           "had read"
         ],
         "correct": 2,
-        "explanation": "Quando queremos falar de algo que acabou de acontecer, usamos 'have just' + a forma passada do verbo. Neste caso, as frases são 'John e Peggy acabaram de ler o livro. Agora eles podem assistir ao filme'. Portanto, a resposta correta seria HAVE JUST READ."
+        "explanation": "Quando queremos dizer que algo acabou de acontecer e por isso muda a situação de agora, usamos 'have/has just' + a forma passada do verbo, com o 'just' entre o auxiliar e o verbo. Para 'John and Peggy', o auxiliar é 'have'. Neste caso, eles acabaram de ler o livro e agora podem assistir ao filme. Portanto, a resposta correta é HAVE JUST READ."
       },
       {
         "id": "t2m14",
@@ -230,7 +230,7 @@
       {
         "id": "t2m18",
         "topic": "Present Perfect Continuous",
-        "question": "She _____ here for five years.",
+        "question": "She _____ here for five years, and she doesn't want to leave the company.",
         "options": [
           "has been working",
           "have been working",
@@ -238,7 +238,7 @@
           "worked"
         ],
         "correct": 0,
-        "explanation": "Quando queremos dizer que uma atividade começou no passado e ainda continua até agora, usamos 'has/have been' + o verbo com -ing. Neste caso, ela começou a trabalhar aqui há cinco anos e ainda trabalha. Portanto, a resposta correta é HAS BEEN WORKING."
+        "explanation": "Quando uma atividade começou no passado e continua até agora, usamos 'has/have been' + o verbo com -ing. Para 'she', usamos 'has'. 'Worked' falaria de um trabalho que já terminou, mas ela continua na empresa e não quer sair. Neste caso, ela trabalha aqui há cinco anos e ainda está aqui. Portanto, a resposta correta é HAS BEEN WORKING."
       },
       {
         "id": "t2m19",
@@ -334,7 +334,7 @@
       {
         "id": "t2m26",
         "topic": "Present Perfect – Just",
-        "question": "She _____ her husband. They're so happy!",
+        "question": "She _____ her new boss. He seems very nice!",
         "options": [
           "has just met",
           "just has met",
@@ -342,7 +342,7 @@
           "have just met"
         ],
         "correct": 0,
-        "explanation": "Para expressar que algo aconteceu há pouco tempo, usamos 'has/have just' + a forma passada do verbo. Para 'she', o auxiliar é 'has', e o 'just' vai entre 'has' e o verbo. Portanto, a resposta correta é HAS JUST MET."
+        "explanation": "Para expressar que algo aconteceu há pouco tempo, usamos 'has/have just' + a forma passada do verbo. Para 'she', o auxiliar é 'has', e o 'just' fica entre 'has' e o verbo. Neste caso, ela acabou de conhecer o novo chefe. Portanto, a resposta correta é HAS JUST MET."
       },
       {
         "id": "t2m27",
@@ -355,7 +355,7 @@
           "has just had"
         ],
         "correct": 1,
-        "explanation": "Com 'have/has just' + a forma passada, expressamos que uma ação acabou de acontecer e tem consequência no presente. Para 'I', usamos 'have just'. A forma passada de 'have' (comer) é 'had'. Portanto, a resposta correta é HAVE JUST HAD."
+        "explanation": "Com 'have/has just' + a forma passada, expressamos que uma ação acabou de acontecer e tem consequência no presente. Para 'I', usamos 'have just'. Aqui o verbo 'have' tem o sentido de comer, de fazer uma refeição, e sua forma passada é 'had'. Portanto, a resposta correta é HAVE JUST HAD."
       },
       {
         "id": "t2m28",
@@ -581,7 +581,7 @@
       {
         "id": "t2m45",
         "topic": "Present Perfect Continuous",
-        "question": "My sister _____ on the phone for an hour.",
+        "question": "My sister _____ on the phone for an hour, and she still hasn't hung up.",
         "options": [
           "is talking",
           "talked",
@@ -589,7 +589,7 @@
           "has been talking"
         ],
         "correct": 3,
-        "explanation": "Quando uma atividade começou no passado e ainda está em andamento por um período especificado, usamos 'has/have been' + o verbo com -ing. Para 'my sister', usamos 'has'. Neste caso, ela está ao telefone há uma hora e ainda está. Portanto, a resposta correta é HAS BEEN TALKING."
+        "explanation": "Quando uma atividade começou no passado e ainda está acontecendo agora, usamos 'has/have been' + o verbo com -ing. Para 'my sister', usamos 'has'. 'Talked' indicaria uma conversa que já terminou, mas ela ainda não desligou o telefone. Neste caso, ela está ao telefone há uma hora e continua falando. Portanto, a resposta correta é HAS BEEN TALKING."
       },
       {
         "id": "t2m46",
@@ -654,7 +654,7 @@
           "Put on"
         ],
         "correct": 3,
-        "explanation": "'Put on' significa vestir ou colocar uma peça de roupa no corpo. 'Take off' seria o contrário, tirar a roupa. 'Turn on' significa ligar aparelhos, não roupas. Neste caso, está frio e a pessoa deve vestir a jaqueta. Portanto, a resposta correta é PUT ON."
+        "explanation": "'Put on' significa vestir ou colocar uma peça de roupa no corpo. 'Take on' e 'Get on' não são usados com roupas, e 'Turn on' serve para ligar aparelhos. Neste caso, está frio e a pessoa deve vestir a jaqueta antes de sair. Portanto, a resposta correta é PUT ON."
       },
       {
         "id": "t2m51",
@@ -685,7 +685,7 @@
       {
         "id": "t2m53",
         "topic": "Phrasal Verbs – On/Off",
-        "question": "Can you _____ the TV? My favourite show is starting.",
+        "question": "Can you _____ the TV? My favorite show is starting.",
         "options": [
           "put off",
           "turn off",
@@ -724,7 +724,7 @@
       {
         "id": "t2m56",
         "topic": "Ever + Other Tenses",
-        "question": "He rarely, if _____, arrives on time.",
+        "question": "Did you _____ play the piano when you were a child?",
         "options": [
           "already",
           "ever",
@@ -732,7 +732,7 @@
           "yet"
         ],
         "correct": 1,
-        "explanation": "A expressão 'if ever' reforça que algo quase nunca acontece. Junto com 'rarely', enfatizamos que a chegada pontual é praticamente inexistente. Esta é uma expressão idiomática usada para dar ênfase a eventos muito raros. Portanto, a resposta correta é EVER."
+        "explanation": "Quando perguntamos se algo aconteceu em algum momento da vida da pessoa, usamos 'ever'. Ele não aparece só no presente perfeito: entra também em perguntas no passado simples, no presente simples e depois de 'if'. 'Already' fala de algo que aconteceu antes do esperado, 'still' de algo que continua acontecendo e 'yet' aparece em frases negativas e em perguntas sobre algo que ainda se espera. Neste caso, queremos saber se a pessoa tocou piano em algum momento da infância. Portanto, a resposta correta é EVER."
       },
       {
         "id": "t2m57",
@@ -763,15 +763,15 @@
       {
         "id": "t2m59",
         "topic": "Verbal Combinations – Away",
-        "question": "The children _____ on their first plane trip.",
+        "question": "We waved goodbye as the plane _____ into the clouds.",
         "options": [
           "ran away",
-          "went away",
+          "put away",
           "flew away",
           "gave away"
         ],
         "correct": 2,
-        "explanation": "'Fly away' significa partir de avião, partir voando. 'Go away' significa ir embora de forma geral. Neste caso, as crianças viajaram de avião pela primeira vez. Portanto, a resposta correta é FLEW AWAY."
+        "explanation": "'Fly away' significa partir voando, sair do lugar pelo ar. 'Run away' é fugir a pé, 'put away' é guardar alguma coisa no lugar dela e 'give away' é dar de presente ou doar. Neste caso, o avião partiu voando em direção às nuvens. Portanto, a resposta correta é FLEW AWAY."
       },
       {
         "id": "t2m60",
@@ -886,28 +886,28 @@
       {
         "id": "t2f03",
         "topic": "Present Perfect – Lately/Recently",
-        "question": "Sam _____ lately. (He hasn't been taking showers.)",
+        "question": "Sam _____ lately. He is always too busy to go to the gym.",
         "options": [
-          "didn't take a shower",
-          "hasn't taken a shower",
-          "doesn't take a shower",
-          "wasn't taking a shower"
+          "didn't exercise",
+          "hasn't exercised",
+          "doesn't exercise",
+          "wasn't exercising"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que algo não aconteceu ultimamente, sem dizer exatamente quando, usamos o presente perfeito negativo. A palavra 'lately' (ultimamente) é a pista para isso. Neste caso, Sam não tomou banho ultimamente. Portanto, a resposta correta é HASN'T TAKEN A SHOWER."
+        "explanation": "Quando queremos dizer que algo não aconteceu ultimamente, sem dizer exatamente quando, usamos o presente perfeito negativo: 'hasn't/haven't' + a forma passada do verbo. A palavra 'lately' (ultimamente) é a pista para isso e não combina com o passado simples nem com o presente simples. Neste caso, Sam não se exercitou ultimamente. Portanto, a resposta correta é HASN'T EXERCISED."
       },
       {
         "id": "t2f04",
         "topic": "Present Perfect vs Simple Past",
-        "question": "I'm sorry, but I _____ my homework.",
+        "question": "I'm sorry, but I _____ my homework, so I don't have it with me today.",
         "options": [
-          "forgot",
+          "have forget",
           "have forgotten",
           "was forgetting",
           "forget"
         ],
         "correct": 1,
-        "explanation": "Quando queremos falar de algo que aconteceu no passado e ainda tem consequência agora, usamos o presente perfeito. Neste caso, a pessoa esqueceu o dever de casa, e a consequência é que ela está sem ele neste momento. Portanto, a resposta correta é HAVE FORGOTTEN."
+        "explanation": "Quando algo aconteceu e a consequência aparece agora, usamos o presente perfeito: 'have/has' + a forma passada do verbo. A forma passada de 'forget' é 'forgotten', por isso 'have forget' está errado. Neste caso, a pessoa esqueceu o dever de casa e por isso está sem ele hoje. Portanto, a resposta correta é HAVE FORGOTTEN."
       },
       {
         "id": "t2f05",
@@ -1003,7 +1003,7 @@
       {
         "id": "t2f12",
         "topic": "Anymore / Any Longer",
-        "question": "Do you still drink a lot of soda?. No, I don't drink a lot of soda _____.",
+        "question": "Do you still drink a lot of soda? No, I don't drink a lot of soda _____.",
         "options": [
           "still",
           "yet",
@@ -1133,7 +1133,7 @@
       {
         "id": "t2f22",
         "topic": "Present Perfect Continuous",
-        "question": "I _____ all day. (I'm exhausted now.)",
+        "question": "I _____ since eight o'clock this morning. I'm exhausted now.",
         "options": [
           "was studying",
           "have been studying",
@@ -1141,7 +1141,7 @@
           "am studying"
         ],
         "correct": 1,
-        "explanation": "Quando queremos explicar por que alguém está cansado agora, usando uma atividade que durou o dia todo, usamos 'have/has been' + o verbo com -ing. Neste caso, a pessoa estudou o dia inteiro e agora está exausta, a atividade contínua explica o cansaço. Portanto, a resposta correta é HAVE BEEN STUDYING."
+        "explanation": "Quando uma atividade começou num momento específico do passado e continua até agora, usamos 'have/has been' + o verbo com -ing. A palavra 'since' marca o ponto de início e não combina com o passado simples nem com o presente contínuo. Neste caso, a pessoa estuda desde as oito da manhã e por isso está exausta agora. Portanto, a resposta correta é HAVE BEEN STUDYING."
       },
       {
         "id": "t2f23",
@@ -1224,7 +1224,7 @@
       {
         "id": "t2f29",
         "topic": "Present Perfect Continuous",
-        "question": "She _____ for her keys for twenty minutes.",
+        "question": "She _____ for her keys since she got home, and she still can't find them.",
         "options": [
           "is looking",
           "looked",
@@ -1232,7 +1232,7 @@
           "has been looking"
         ],
         "correct": 3,
-        "explanation": "Quando uma atividade começou no passado e ainda continua agora, com duração especificada, usamos 'has/have been' + o verbo com -ing. Para 'she', usamos 'has'. Neste caso, ela está procurando as chaves há vinte minutos e ainda não encontrou. Portanto, a resposta correta é HAS BEEN LOOKING."
+        "explanation": "Quando uma ação começou num ponto do passado e continua agora, usamos 'has/have been' + o verbo com -ing. A palavra 'since' marca o início e pede essa forma. Para 'she', usamos 'has'. Neste caso, ela procura as chaves desde que chegou em casa e ainda não as encontrou. Portanto, a resposta correta é HAS BEEN LOOKING."
       },
       {
         "id": "t2f30",
@@ -1276,7 +1276,7 @@
       {
         "id": "t2f33",
         "topic": "Anymore / Any Longer",
-        "question": "I can't stand this noise _____, please do something!",
+        "question": "I can't stand this noise _____. Please do something!",
         "options": [
           "any longer",
           "still",
@@ -1380,15 +1380,15 @@
       {
         "id": "t2f41",
         "topic": "Present Perfect vs Simple Past",
-        "question": "My parents _____ to Japan twice. They love it there.",
+        "question": "My parents _____ to Japan twice. They are back home now, but they want to go again.",
         "options": [
-          "went",
+          "has gone",
           "have gone",
           "go",
           "have been"
         ],
         "correct": 3,
-        "explanation": "Falamos de experiências de vida sem mencionar quando com o presente perfeito. 'Have been' indica que foram e voltaram; 'have gone' indicaria que ainda estão lá. Neste caso, os pais visitaram o Japão duas vezes e já voltaram. Portanto, a resposta correta é HAVE BEEN."
+        "explanation": "Falamos de experiências de vida, sem dizer quando aconteceram, com o presente perfeito. 'Have been' indica que a pessoa foi e já voltou; 'have gone' indicaria que ela ainda está lá. Para 'my parents', o auxiliar é 'have', então 'has gone' também está errado. Neste caso, os pais visitaram o Japão duas vezes e já estão de volta em casa. Portanto, a resposta correta é HAVE BEEN."
       },
       {
         "id": "t2f42",
@@ -1759,13 +1759,13 @@
         "topic": "Present Perfect – Just/Recently/Lately",
         "question": "She has _____ arrived. She's still putting her bags away.",
         "options": [
-          "already",
-          "since",
+          "ever",
+          "never",
           "yet",
           "just"
         ],
         "correct": 3,
-        "explanation": "'Just' no presente perfeito indica que algo aconteceu há pouquíssimo tempo, agora mesmo. 'Already' indicaria que algo aconteceu mais cedo do que o esperado. Neste caso, ela chegou agora há pouco e ainda está se organizando. Portanto, a resposta correta é JUST."
+        "explanation": "'Just' no presente perfeito indica que algo aconteceu há pouquíssimo tempo, agora mesmo. 'Ever' aparece em perguntas sobre experiência, 'never' diria que ela nunca chegou, e 'yet' aparece em frases negativas e em perguntas. Neste caso, ela chegou agora há pouco e ainda está guardando as malas. Portanto, a resposta correta é JUST."
       },
       {
         "id": "t2f71",

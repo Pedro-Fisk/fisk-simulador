@@ -33,7 +33,7 @@
       {
         "id": "i1m03",
         "topic": "Artículos Determinados",
-        "question": "¿Cuál es el artículo determinado correcto para 'estudiantes'?",
+        "question": "¿Cuál es el artículo determinado correcto para 'estudiantes' cuando el grupo incluye chicos y chicas?",
         "options": [
           "el",
           "la",
@@ -41,7 +41,7 @@
           "las"
         ],
         "correct": 2,
-        "explanation": "'Estudiantes' é masculino plural (ou misto). O artigo determinado masculino plural é 'los'."
+        "explanation": "'Estudiante' é uma palavra de gênero comum: muda o artigo, não a palavra. Quando o grupo é misto (ou só de rapazes), o espanhol usa o masculino plural: 'los estudiantes'. Se o grupo fosse formado só por mulheres, seria 'las estudiantes'. 'El' e 'la' são singulares e não concordam com o plural. Portanto, a resposta correta é 'los'."
       },
       {
         "id": "i1m04",
@@ -293,7 +293,7 @@
       {
         "id": "i1m23",
         "topic": "Demostrativos",
-        "question": "¿Qué es _____? (señalando algo cuyo nombre no sabes)",
+        "question": "(Señalando algo cuyo nombre no sabes) ¿Qué es _____?",
         "options": [
           "ese",
           "este",
@@ -301,7 +301,7 @@
           "esa"
         ],
         "correct": 2,
-        "explanation": "Quando não sabemos o nome do objeto apontado, usamos a forma neutra 'esto' (isto). Os demonstrativos neutros são: esto, eso, aquello. Não têm gênero."
+        "explanation": "Quando não sabemos o nome nem o gênero do objeto apontado, usamos a forma neutra 'esto' (isto). Os demonstrativos neutros são 'esto', 'eso' e 'aquello': não têm gênero nem plural. 'Este', 'ese' e 'esa' só cabem quando já se conhece o substantivo a que se referem. Portanto, a resposta correta é 'esto'."
       },
       {
         "id": "i1m24",
@@ -379,7 +379,7 @@
           "empezamos"
         ],
         "correct": 0,
-        "explanation": "'Empezar' é irregular E>IE. Com 'ella/él', a raiz muda: 'empeza' → 'empieza'. A mudança ocorre nas formas com raiz tônica."
+        "explanation": "'Empezar' é irregular E>IE: nas formas de raiz tônica o 'e' da raiz vira 'ie'. Com 'él/ella': 'empieza'. Com 'nosotros' a raiz é átona e não muda: 'empezamos', que é a forma errada aqui porque o sujeito é 'la clase'. As grafias 'empieze' e 'empeza' não existem em espanhol. Portanto, a resposta correta é 'empieza'."
       },
       {
         "id": "i1m30",
@@ -570,11 +570,11 @@
         "options": [
           "pode",
           "puedo",
-          "podeis",
+          "podéis",
           "puedes"
         ],
         "correct": 3,
-        "explanation": "'Poder' é irregular O>UE. Com 'tú', a raiz muda: 'puedes' = você pode. Em espanhol, não existe 'pode'."
+        "explanation": "'Poder' é irregular O>UE. Com 'tú' a raiz muda e a terminação é '-es': 'puedes'. 'Puedo' é a forma de 'yo' e 'podéis' é a de 'vosotros'; 'pode' não existe em espanhol, é português. Portanto, a resposta correta é 'puedes'."
       },
       {
         "id": "i1m45",
@@ -644,7 +644,7 @@
       {
         "id": "i1m50",
         "topic": "Adjetivos",
-        "question": "Los libros son muy _____. (interesting)",
+        "question": "Los libros son muy _____. (interesante)",
         "options": [
           "interesante",
           "interesanta",
@@ -652,7 +652,7 @@
           "interesantes"
         ],
         "correct": 3,
-        "explanation": "Com um substantivo masculino plural ('los libros'), o adjetivo deve estar no plural. 'Interesante' → plural: 'interesantes'."
+        "explanation": "O adjetivo concorda com o substantivo: 'los libros' é plural, então o adjetivo também vai para o plural. 'Interesante' termina em '-e' e não tem forma feminina própria: no plural fica 'interesantes' para os dois gêneros. Por isso 'interesanta' e 'interesantos' não existem. Portanto, a resposta correta é 'interesantes'."
       },
       {
         "id": "i1m51",
@@ -709,7 +709,7 @@
       {
         "id": "i1m55",
         "topic": "Comparación",
-        "question": "Pedro es _____ alto _____ Juan.",
+        "question": "Pedro mide 1,85 m y Juan mide 1,70 m. Pedro es _____ alto _____ Juan.",
         "options": [
           "tan...como",
           "más...de",
@@ -717,12 +717,12 @@
           "más...que"
         ],
         "correct": 3,
-        "explanation": "Para comparar desigualdade (mais... do que), usamos 'más + adjetivo + que'. 'Pedro es más alto que Juan' = Pedro é mais alto que Juan."
+        "explanation": "Quando uma pessoa supera a outra, a comparação é de superioridade: 'más + adjetivo + que'. Como Pedro mede mais que Juan, a frase é 'Pedro es más alto que Juan'. 'Tan... como' diria que os dois têm a mesma altura e 'menos... que' inverteria o dado do enunciado; 'más... de' só aparece diante de quantidades ('más de veinte años'). Portanto, a resposta correta é 'más...que'."
       },
       {
         "id": "i1m56",
         "topic": "Comparación",
-        "question": "Esta película es _____ interesante _____ la otra.",
+        "question": "Las dos películas me gustaron exactamente igual. Esta película es _____ interesante _____ la otra.",
         "options": [
           "más...que",
           "tan...como",
@@ -730,12 +730,12 @@
           "más...de"
         ],
         "correct": 1,
-        "explanation": "Para comparar igualdade (tão... quanto), usamos 'tan + adjetivo + como'. 'Tan interesante como' = tão interessante quanto."
+        "explanation": "Quando os dois elementos estão no mesmo nível, a comparação é de igualdade: 'tan + adjetivo + como'. Como os dois filmes agradaram igualmente, a frase é 'Esta película es tan interesante como la otra'. 'Más... que' e 'menos... que' marcam diferença, o que contraria o enunciado, e 'más... de' só cabe diante de quantidades. Portanto, a resposta correta é 'tan...como'."
       },
       {
         "id": "i1m57",
         "topic": "Comparación",
-        "question": "Carlos es el _____ estudiante de la clase. (best)",
+        "question": "Carlos es el _____ estudiante de la clase. (el número uno)",
         "options": [
           "más bueno",
           "buenísimo",
@@ -743,7 +743,7 @@
           "mejor"
         ],
         "correct": 3,
-        "explanation": "'Mejor' é o comparativo/superlativo irregular de 'bueno'. 'El mejor estudiante' = o melhor aluno."
+        "explanation": "'Mejor' é o comparativo e o superlativo irregular de 'bueno': o número um da turma é 'el mejor estudiante'. Com 'bueno' não se diz 'el más bueno estudiante'; 'buenísimo' e 'muy bueno' são intensificadores e não podem ficar entre o artigo e o substantivo. Portanto, a resposta correta é 'mejor'."
       },
       {
         "id": "i1m58",
@@ -800,7 +800,7 @@
       {
         "id": "i1m62",
         "topic": "Localizadores",
-        "question": "El banco está _____ la farmacia.",
+        "question": "El banco y la farmacia están uno junto al otro, en la misma acera: el banco está _____ la farmacia.",
         "options": [
           "encima de",
           "detrás de",
@@ -808,12 +808,12 @@
           "al lado de"
         ],
         "correct": 3,
-        "explanation": "'Al lado de' significa 'ao lado de'. 'El banco está al lado de la farmacia' = o banco fica ao lado da farmácia."
+        "explanation": "Quando dois lugares ficam um imediatamente ao lado do outro, na mesma calçada, usamos 'al lado de': 'El banco está al lado de la farmacia'. 'Encima de' e 'debajo de' indicariam andares diferentes do mesmo prédio e 'detrás de' colocaria o banco na rua de trás. Portanto, a resposta correta é 'al lado de'."
       },
       {
         "id": "i1m63",
         "topic": "Localizadores",
-        "question": "Las llaves están _____ la mesa.",
+        "question": "Dejé las llaves sobre el mantel, junto al plato: están _____ la mesa.",
         "options": [
           "debajo de",
           "detrás de",
@@ -821,12 +821,12 @@
           "encima de"
         ],
         "correct": 3,
-        "explanation": "'Encima de' significa 'em cima de / sobre'. 'Las llaves están encima de la mesa' = as chaves estão em cima da mesa."
+        "explanation": "O 'mantel' é a toalha que cobre a superfície da mesa, então o que está sobre ela está em cima da mesa: 'Las llaves están encima de la mesa'. 'Debajo de' seria no chão, sob o móvel; 'detrás de' seria atrás dele e 'al lado de' seria ao lado, fora da superfície. Portanto, a resposta correta é 'encima de'."
       },
       {
         "id": "i1m64",
         "topic": "Localizadores",
-        "question": "El gato está _____ la silla.",
+        "question": "El gato se ha escondido en el suelo, entre las cuatro patas de la silla: está _____ la silla.",
         "options": [
           "encima de",
           "al lado de",
@@ -834,12 +834,12 @@
           "debajo de"
         ],
         "correct": 3,
-        "explanation": "'Debajo de' significa 'embaixo de'. 'El gato está debajo de la silla' = o gato está embaixo da cadeira."
+        "explanation": "Se o gato está no chão, entre as quatro pernas da cadeira, ele está embaixo dela: 'El gato está debajo de la silla'. 'Encima de' seria no assento, 'delante de' seria à frente e 'al lado de' seria ao lado do móvel, não sob ele. Portanto, a resposta correta é 'debajo de'."
       },
       {
         "id": "i1m65",
         "topic": "Posesivos (mío, tuyo, suyo...)",
-        "question": "Este libro es _____. (mine)",
+        "question": "Este libro es _____. (de mí)",
         "options": [
           "mi",
           "tuyo",
@@ -847,12 +847,12 @@
           "mío"
         ],
         "correct": 3,
-        "explanation": "'Mío' é a forma tônica (independente) do possessivo de primeira pessoa masculino singular. Usada depois do verbo, sem substantivo. 'Es mío' = é meu."
+        "explanation": "'Mío' é a forma tônica do possessivo de primeira pessoa, usada depois do verbo e sem substantivo: 'Es mío' = é meu. 'Mi' é a forma átona e só aparece antes do substantivo ('mi libro'); 'tuyo' é de 'tú' e 'suyo' é de 'él/ella/usted'. Portanto, a resposta correta é 'mío'."
       },
       {
         "id": "i1m66",
         "topic": "Posesivos (mío, tuyo, suyo...)",
-        "question": "¿Es tuya esa mochila? Sí, es _____. (mine)",
+        "question": "¿Es tuya esa mochila? Sí, es _____. (de mí)",
         "options": [
           "tuya",
           "suya",
@@ -860,12 +860,12 @@
           "nuestra"
         ],
         "correct": 2,
-        "explanation": "A pergunta usa 'tuya' (sua, de você). A resposta indica que é da pessoa que fala: 'mía' (minha). É a forma feminina singular de 'mío'."
+        "explanation": "A pergunta usa 'tuya' (sua, de você) e a resposta indica que a mochila pertence a quem fala: 'mía'. Como 'mochila' é feminino singular, o possessivo tônico também vai para o feminino singular. 'Suya' seria de outra pessoa e 'nuestra' seria de um grupo. Portanto, a resposta correta é 'mía'."
       },
       {
         "id": "i1m67",
         "topic": "Posesivos (mío, tuyo, suyo...)",
-        "question": "Ese apartamento no es nuestro, es _____. (his)",
+        "question": "Ese apartamento no es nuestro, es _____. (de él)",
         "options": [
           "mío",
           "tuyo",
@@ -873,7 +873,7 @@
           "suyo"
         ],
         "correct": 3,
-        "explanation": "'Suyo' é a forma tônica do possessivo para él/ella/ellos/ustedes. 'Es suyo' = é dele/dela/deles."
+        "explanation": "'Suyo' é a forma tônica do possessivo para él, ella, ellos e ustedes: 'Es suyo' = é dele. 'Mío' seria de quem fala, 'tuyo' de 'tú' e 'vuestro' de 'vosotros'. Portanto, a resposta correta é 'suyo'."
       },
       {
         "id": "i1m68",
@@ -1268,7 +1268,7 @@
       {
         "id": "i1m98",
         "topic": "Comparación",
-        "question": "Este hotel es _____ caro _____ el otro.",
+        "question": "Este hotel cuesta 50 euros por noche y el otro cuesta 90. Este hotel es _____ caro _____ el otro.",
         "options": [
           "tan...como",
           "más...de",
@@ -1276,7 +1276,7 @@
           "menos...que"
         ],
         "correct": 3,
-        "explanation": "Para comparar desigualdade (menos... do que), usamos 'menos + adjetivo + que'. 'Menos caro que el otro' = menos caro do que o outro."
+        "explanation": "Quando um elemento fica abaixo do outro, a comparação é de inferioridade: 'menos + adjetivo + que'. Como este hotel custa menos, a frase é 'Este hotel es menos caro que el otro'. 'Tan... como' diria que os dois custam igual; 'más... de' só cabe diante de quantidades e 'menos... como' não existe. Portanto, a resposta correta é 'menos...que'."
       },
       {
         "id": "i1m99",
@@ -1333,7 +1333,7 @@
       {
         "id": "i1m103",
         "topic": "Posesivos (mío, tuyo, suyo...)",
-        "question": "Ese ordenador no es mío, es _____. (de tú)",
+        "question": "Ese ordenador no es mío, es _____. (de ti)",
         "options": [
           "suyo",
           "mío",
@@ -1341,7 +1341,7 @@
           "tuyo"
         ],
         "correct": 3,
-        "explanation": "'Tuyo' é a forma tônica do possessivo de 'tú', masculino singular. 'Es tuyo' = é seu (de você). Concorda com o gênero de 'ordenador' (masculino singular)."
+        "explanation": "'Tuyo' é a forma tônica do possessivo de 'tú', masculino singular: 'Es tuyo' = é seu (de você). Concorda em gênero e número com 'ordenador'. 'Mío' já foi descartado pela própria frase, 'suyo' seria de outra pessoa e 'nuestro' seria de um grupo. Portanto, a resposta correta é 'tuyo'."
       },
       {
         "id": "i1m104",
@@ -1480,7 +1480,7 @@
       {
         "id": "i1f09",
         "topic": "Acuerdo y Desacuerdo",
-        "question": "A mí no me gusta el café. Pues a mí _____. (I do like it)",
+        "question": "— A mí no me gusta el café. — Pues a mí _____. (a mí me gusta mucho)",
         "options": [
           "tampoco",
           "también",
@@ -1488,12 +1488,12 @@
           "no"
         ],
         "correct": 2,
-        "explanation": "Quando discordamos de uma frase negativa (ou seja, você gosta), usamos 'sí'. 'A mí sí (me gusta)' = mas eu gosto."
+        "explanation": "Para discordar de uma frase negativa, o espanhol usa 'sí': 'Pues a mí sí (me gusta)' = pois eu gosto. 'Tampoco' e 'no' serviriam para concordar com a negação, e 'también' só concorda com frases afirmativas. Portanto, a resposta correta é 'sí'."
       },
       {
         "id": "i1f10",
         "topic": "Acuerdo y Desacuerdo",
-        "question": "Yo no como carne. Yo _____. (I don't eat it either)",
+        "question": "— Yo no como carne. — Yo _____. (igual que tú: yo no la como)",
         "options": [
           "también",
           "sí",
@@ -1501,7 +1501,7 @@
           "tampoco"
         ],
         "correct": 3,
-        "explanation": "Para concordar com uma frase negativa, usamos 'tampoco' (tampouco/também não). 'Yo tampoco como carne' = eu também não como carne."
+        "explanation": "Para concordar com uma frase negativa, o espanhol usa 'tampoco': 'Yo tampoco como carne' = eu também não como carne. 'También' só concorda com afirmativas, 'sí' serve para discordar de uma negativa e 'no' sozinho não é a fórmula de concordância. Portanto, a resposta correta é 'tampoco'."
       },
       {
         "id": "i1f11",
@@ -1553,7 +1553,7 @@
           "Hay"
         ],
         "correct": 3,
-        "explanation": "'Hay' (há/tem) é usado para indicar existência de algo não específico. '¿Hay un banco?' = tem um banco? Nunca usa artigo definido depois de 'hay'."
+        "explanation": "'Hay' indica a existência de algo não específico: 'Hay un banco cerca de aquí' = tem um banco aqui perto. Depois de 'hay' nunca se usa artigo definido (el, la, los, las). 'Es' e 'está' pedem um sujeito já conhecido ('el banco está cerca') e 'tiene' precisa de alguém que possua algo. Portanto, a resposta correta é 'Hay'."
       },
       {
         "id": "i1f15",
@@ -1974,7 +1974,7 @@
       {
         "id": "i1f47",
         "topic": "Marcadores Temporales (pasado)",
-        "question": "Él llegó _____ tres horas.",
+        "question": "Él llegó a las tres de la tarde y ahora son las seis: llegó _____ tres horas.",
         "options": [
           "en",
           "desde",
@@ -1982,7 +1982,7 @@
           "hace"
         ],
         "correct": 3,
-        "explanation": "'Hace' + período de tempo indica há quanto tempo algo aconteceu. 'Llegó hace tres horas' = ele chegou há três horas."
+        "explanation": "'Hace' + período de tempo indica há quanto tempo algo aconteceu: se ele chegou às três e agora são seis, 'llegó hace tres horas' = chegou há três horas. Cuidado com 'en tres horas', que significa 'em três horas', a duração do trajeto; 'desde' pediria 'desde hace' e 'hasta' marca o limite final de um período. Portanto, a resposta correta é 'hace'."
       },
       {
         "id": "i1f48",
@@ -2013,7 +2013,7 @@
       {
         "id": "i1f50",
         "topic": "Pretérito Imperfecto de Indicativo",
-        "question": "Nosotros _____ en ese barrio hace diez años. (vivir)",
+        "question": "Cuando éramos niños, nosotros _____ en ese barrio y jugábamos en la plaza todos los días. (vivir)",
         "options": [
           "vivimos",
           "hemos vivido",
@@ -2021,7 +2021,7 @@
           "vivíamos"
         ],
         "correct": 3,
-        "explanation": "O imperfeito 'vivíamos' descreve uma situação contínua ou durativa no passado. 'Vivíamos en ese barrio' = nós morávamos nesse bairro."
+        "explanation": "'Cuando éramos niños' e 'jugábamos todos los días' descrevem uma situação habitual e contínua no passado, terreno do Pretérito Imperfeito: 'vivíamos en ese barrio'. Com um momento fechado ('en 2019', 'hace diez años') entraria o indefinido 'vivimos'; 'hemos vivido' exige ligação com o presente e 'viviremos' é futuro. Portanto, a resposta correta é 'vivíamos'."
       },
       {
         "id": "i1f51",
@@ -2065,7 +2065,7 @@
       {
         "id": "i1f54",
         "topic": "Contraste entre Pretéritos",
-        "question": "_____ muchas veces a ese restaurante. (experiência de vida, I have gone)",
+        "question": "_____ muchas veces a ese restaurante. (experiencia de vida, sin fecha concreta; español peninsular)",
         "options": [
           "Fui",
           "Iba",
@@ -2073,7 +2073,7 @@
           "He ido"
         ],
         "correct": 3,
-        "explanation": "Para expressar experiências de vida sem referência temporal específica (mas relevante ao presente), usamos o pretérito perfeito composto. 'He ido muchas veces' = fui/tenho ido muitas vezes."
+        "explanation": "Para falar de experiências de vida, sem data concreta e com efeito no presente, o espanhol peninsular usa o Pretérito Perfeito Composto: 'He ido muchas veces a ese restaurante'. 'Fui' pediria um momento fechado ('fui ayer'), 'iba' descreveria um hábito no passado e 'iré' é futuro. Portanto, a resposta correta é 'He ido'."
       },
       {
         "id": "i1f55",
@@ -2273,7 +2273,7 @@
       {
         "id": "i1f65",
         "topic": "Acuerdo y Desacuerdo",
-        "question": "Me encanta bailar. Pues a mí _____. (I also love it)",
+        "question": "— Me encanta bailar. — Pues a mí _____. (a mí me pasa lo mismo)",
         "options": [
           "tampoco",
           "no",
@@ -2281,12 +2281,12 @@
           "también"
         ],
         "correct": 3,
-        "explanation": "Para concordar com uma afirmação positiva, usamos 'también' (também). 'A mí también me encanta' = a mim também encanta. 'Tampoco' é usado para concordar com negações."
+        "explanation": "Para concordar com uma afirmação positiva, o espanhol usa 'también': 'Pues a mí también (me encanta)' = pois a mim também. 'Tampoco' concorda com frases negativas, 'sí' serve para discordar de uma negativa e 'no' serve para discordar de uma afirmativa. Portanto, a resposta correta é 'también'."
       },
       {
         "id": "i1f66",
         "topic": "Acuerdo y Desacuerdo",
-        "question": "No me gustan nada las películas de terror. _____, son muy aburridas. (I agree)",
+        "question": "— No me gustan nada las películas de terror. — _____, son muy aburridas. (estoy de acuerdo contigo)",
         "options": [
           "A mí también",
           "Pues a mí sí",
@@ -2294,7 +2294,7 @@
           "A mí tampoco"
         ],
         "correct": 3,
-        "explanation": "Para concordar com uma frase negativa, usamos 'tampoco' (tampouco / também não). 'A mí tampoco me gustan' = a mim também não me agradam."
+        "explanation": "Para concordar com uma frase negativa, o espanhol usa 'tampoco': 'A mí tampoco me gustan' = a mim também não. 'A mí también' concordaria com uma afirmativa, e 'pues a mí sí' e 'yo sí' expressariam o contrário do que diz a segunda parte da frase. Portanto, a resposta correta é 'A mí tampoco'."
       },
       {
         "id": "i1f67",
@@ -2364,7 +2364,7 @@
       {
         "id": "i1f72",
         "topic": "Medios de Transporte",
-        "question": "Nunca cojo el avión, prefiero viajar _____ tren.",
+        "question": "Nunca tomo el avión, prefiero viajar _____ tren.",
         "options": [
           "a",
           "de",
@@ -2372,7 +2372,7 @@
           "en"
         ],
         "correct": 3,
-        "explanation": "'En tren' = de trem. Em espanhol, usamos 'en' com todos os meios de transporte: en avión, en tren, en barco, en moto, en bicicleta..."
+        "explanation": "'En' é a preposição usada com os meios de transporte em espanhol: en avión, en tren, en barco, en moto, en bicicleta. As únicas exceções são 'a pie' e 'a caballo'; 'de tren' e 'con tren' não existem. Portanto, a resposta correta é 'en'."
       },
       {
         "id": "i1f73",
@@ -2403,15 +2403,15 @@
       {
         "id": "i1f75",
         "topic": "Marcadores Temporales",
-        "question": "_____ año he viajado mucho por Europa.",
+        "question": "_____ he viajado mucho por Europa.",
         "options": [
-          "El año pasado",
           "Ayer",
           "Hace dos años",
-          "Este"
+          "El año pasado",
+          "Este año"
         ],
         "correct": 3,
-        "explanation": "'Este año' (este ano) indica o período atual, ainda em curso. Marcadores de tempo aberto (este año, esta semana, hoy, ya) pedem o pretérito perfeito composto."
+        "explanation": "Marcadores de tempo ainda em curso ('este año', 'esta semana', 'hoy') ligam a ação ao presente e pedem o Pretérito Perfeito Composto: 'Este año he viajado mucho por Europa'. Marcadores de tempo já fechado ('ayer', 'hace dos años', 'el año pasado') pedem o Pretérito Indefinido: 'viajé'. Portanto, a resposta correta é 'Este año'."
       },
       {
         "id": "i1f76",

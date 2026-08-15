@@ -282,7 +282,7 @@
       {
         "id": "f1m22",
         "topic": "How Long Does It Take",
-        "question": "How long did it take you to finish the book? It _____ me two hours.",
+        "question": "A: How long did it take you to finish the book? B: It _____ me two hours.",
         "options": [
           "takes",
           "take",
@@ -347,7 +347,7 @@
       {
         "id": "f1m27",
         "topic": "Present Perfect vs Continuous",
-        "question": "Why are your hands so dirty? I _____ the bike.",
+        "question": "A: Why are your hands so dirty? B: I _____ the bike.",
         "options": [
           "fixed",
           "have fixed",
@@ -451,15 +451,15 @@
       {
         "id": "f1m35",
         "topic": "Past Perfect",
-        "question": "She wasn't hungry because she _____ a big lunch.",
+        "question": "She wasn't hungry at dinner because she _____ a big lunch two hours earlier.",
         "options": [
-          "had",
+          "has eaten",
           "had eaten",
           "have eaten",
           "was eating"
         ],
         "correct": 1,
-        "explanation": "Quando explicamos por que algo aconteceu no passado usando um evento que aconteceu ainda antes, usamos 'had' + particípio. Neste caso, ela não estava com fome porque já tinha almoçado muito. A refeição veio antes do estado de não ter fome. Portanto, a resposta correta é 'HAD EATEN'."
+        "explanation": "Quando queremos explicar uma situação do passado por meio de algo que aconteceu ainda antes, usamos 'had' + particípio. Neste caso, ela não estava com fome no jantar porque já tinha almoçado bastante duas horas antes: o almoço veio primeiro, a falta de fome depois. 'Has eaten' e 'have eaten' são formas do presente e não combinam com 'two hours earlier', e 'was eating' descreveria uma refeição em andamento, não uma já terminada. Portanto, a resposta correta é 'HAD EATEN'."
       },
       {
         "id": "f1m36",
@@ -529,7 +529,7 @@
       {
         "id": "f1m41",
         "topic": "Third Conditional",
-        "question": "If she had told me the truth, I _____ so angry.",
+        "question": "If she had told me the truth at the time, I _____ so angry at yesterday's meeting.",
         "options": [
           "wouldn't be",
           "wouldn't have been",
@@ -537,7 +537,7 @@
           "wouldn't had been"
         ],
         "correct": 1,
-        "explanation": "Na terceira condicional, o resultado imaginado usa 'would/could have' + particípio. Neste caso, ela não contou a verdade e eu fiquei com raiva, mas estamos imaginando o que teria acontecido se ela tivesse contado. Portanto, a resposta correta é 'WOULDN'T HAVE BEEN'."
+        "explanation": "Na terceira condicional, tanto a condição quanto o resultado imaginado ficam no passado: 'would/could have' + particípio. Neste caso, a raiva aconteceu na reunião de ontem, um momento que já passou, então 'wouldn't be', que serviria para uma raiva de agora, não cabe. 'Hadn't been' e 'wouldn't had been' não formam o resultado de uma condicional. Portanto, a resposta correta é 'WOULDN'T HAVE BEEN'."
       },
       {
         "id": "f1m42",
@@ -659,7 +659,7 @@
       {
         "id": "f1m51",
         "topic": "Should Have / Could Have",
-        "question": "My sister _____ me about the party, now I missed it! (blame/regret)",
+        "question": "My sister _____ me about the party. Now I've missed it! (blame/regret)",
         "options": [
           "should tell",
           "should have told",
@@ -672,7 +672,7 @@
       {
         "id": "f1m52",
         "topic": "Should Have / Could Have",
-        "question": "You _____ the dog outside all night, it was freezing! (it was wrong)",
+        "question": "You _____ the dog outside all night. It was freezing! (it was wrong)",
         "options": [
           "shouldn't leave",
           "shouldn't have left",
@@ -693,7 +693,7 @@
           "deliciousest"
         ],
         "correct": 0,
-        "explanation": "Para adjetivos longos (de três sílabas ou mais), formamos o superlativo com 'the most' antes do adjetivo, nunca acrescentamos '-est'. Neste caso, 'delicious' tem três sílabas (de-li-cious), então o superlativo é 'the most delicious'. Portanto, a resposta correta é 'MOST DELICIOUS'."
+        "explanation": "Para adjetivos longos (de três sílabas ou mais), formamos o superlativo com 'the most' antes do adjetivo e nunca acrescentamos '-est'. Neste caso, 'delicious' tem três sílabas (de-li-cious), então o superlativo é 'the most delicious'. Portanto, a resposta correta é 'MOST DELICIOUS'."
       },
       {
         "id": "f1m54",
@@ -795,7 +795,7 @@
       {
         "id": "f1f01",
         "topic": "Emphatic Do/Does/Did",
-        "question": "Does your teacher wear formal clothes? Yes, she _____!",
+        "question": "A: Does your teacher wear formal clothes? B: Yes, she _____!",
         "options": [
           "does wear",
           "does",
@@ -847,7 +847,7 @@
       {
         "id": "f1f05",
         "topic": "Have/Get Something Done",
-        "question": "I washed my car. (Rewrite: someone did it for me), I _____ my car washed.",
+        "question": "I washed my car last Saturday. (Rewrite: someone did it for me) Last Saturday I _____ my car washed.",
         "options": [
           "got",
           "have",
@@ -855,12 +855,12 @@
           "let"
         ],
         "correct": 0,
-        "explanation": "Quando queremos dizer que mandamos alguém fazer algo por nós em vez de fazer nós mesmos, usamos 'get/have + o objeto + a forma passada do verbo'. Neste caso, a pessoa não lavou o carro ela mesma, outra pessoa fez isso para ela. Portanto, a resposta correta é 'GOT'."
+        "explanation": "Quando queremos dizer que mandamos alguém fazer algo por nós em vez de fazer nós mesmos, usamos 'get/have + objeto + particípio'. Neste caso, tudo aconteceu no sábado passado, então precisamos da forma passada: 'got' (ou 'had'). 'Have', no presente, não serve aqui, e 'made' e 'let' pedem o verbo no infinitivo sem 'to' ('made someone wash it'). Portanto, a resposta correta é 'GOT'."
       },
       {
         "id": "f1f06",
         "topic": "Have/Get Something Done",
-        "question": "She cut her hair. (Rewrite: at a salon), She _____ her hair cut.",
+        "question": "She cut her hair. (Rewrite: at a salon) She _____ her hair cut.",
         "options": [
           "made",
           "did",
@@ -899,7 +899,7 @@
       {
         "id": "f1f09",
         "topic": "Intensifiers",
-        "question": "This commercial is _____ annoying – I've seen it 100 times.",
+        "question": "This commercial is _____ annoying – I've seen it 100 times! (gradable adjective, strong emphasis)",
         "options": [
           "absolutely",
           "a bit",
@@ -907,7 +907,7 @@
           "really"
         ],
         "correct": 3,
-        "explanation": "Quando queremos reforçar um adjetivo comum para dizer que algo é muito daquele jeito, usamos 'really' ou 'very'. Neste caso, 'annoying' é um adjetivo comum e a pessoa está muito irritada com esse comercial. Portanto, a resposta correta é 'REALLY'."
+        "explanation": "Quando queremos reforçar um adjetivo comum (graduável) como 'annoying', usamos 'really' ou 'very'. Neste caso, a pessoa está muito irritada com o comercial. 'A bit' e 'slightly' enfraqueceriam a frase em vez de reforçá-la, e 'absolutely' é reservado para adjetivos extremos, como 'amazing' ou 'terrible'. Portanto, a resposta correta é 'REALLY'."
       },
       {
         "id": "f1f10",
@@ -953,13 +953,13 @@
         "topic": "Prefixes",
         "question": "It's _____ possible to win without practicing. (negative prefix)",
         "options": [
-          "un-",
-          "in-",
-          "dis-",
-          "im-"
+          "un",
+          "in",
+          "dis",
+          "im"
         ],
         "correct": 3,
-        "explanation": "Quando queremos dizer o contrário de uma palavra que começa com P ou M, usamos o prefixo 'im-'. Neste caso, 'possible' começa com P, então o contrário é 'impossible'. Portanto, a resposta correta é 'IM-possible'."
+        "explanation": "Quando queremos dizer o contrário de uma palavra que começa com P ou M, usamos o prefixo 'im-'. Neste caso, 'possible' começa com P, então o contrário é 'impossible'. Portanto, a resposta correta é 'IM'."
       },
       {
         "id": "f1f14",
@@ -1016,7 +1016,7 @@
       {
         "id": "f1f18",
         "topic": "Connectors (Add/Contrast)",
-        "question": "I don't like the gym, _____ I work out three times a week.",
+        "question": "I don't like the gym. _____, I work out three times a week.",
         "options": [
           "in addition",
           "also",
@@ -1024,7 +1024,7 @@
           "furthermore"
         ],
         "correct": 2,
-        "explanation": "Quando queremos apresentar uma situação surpreendente (algo que acontece mesmo contra o esperado), usamos 'even so'. Neste caso, a pessoa não gosta de academia, mas mesmo assim se exercita três vezes por semana. Portanto, a resposta correta é 'EVEN SO'."
+        "explanation": "Quando queremos apresentar algo que acontece mesmo contra o esperado, usamos 'even so' (mesmo assim). Neste caso, a pessoa não gosta de academia, mas mesmo assim se exercita três vezes por semana. 'In addition', 'also' e 'furthermore' apenas acrescentam informação na mesma direção e não marcam esse contraste. Portanto, a resposta correta é 'EVEN SO'."
       },
       {
         "id": "f1f19",
@@ -1107,7 +1107,7 @@
       {
         "id": "f1f25",
         "topic": "Emphatic Do/Does/Did",
-        "question": "The teacher _____ explain it clearly, you just weren't paying attention.",
+        "question": "The teacher _____ explain it clearly. You just weren't paying attention.",
         "options": [
           "do",
           "did",
@@ -1237,7 +1237,7 @@
       {
         "id": "f1f35",
         "topic": "Intensifiers",
-        "question": "The exam was _____ difficult, I think I'll fail. (gradable adjective, strong emphasis)",
+        "question": "The exam was _____ difficult. I think I'll fail. (gradable adjective, strong emphasis)",
         "options": [
           "absolutely",
           "extremely",
@@ -2104,7 +2104,7 @@
         "question": "He _____ when he forgot to send the report to the client.",
         "options": [
           "dropped the ball",
-          "gave his best shot",
+          "gave it his best shot",
           "kicked off",
           "cooled down"
         ],
@@ -2116,13 +2116,13 @@
         "topic": "Phrasal Verbs – Sports",
         "question": "We lost, but everyone _____.",
         "options": [
-          "gave their best shot",
+          "gave it their best shot",
           "dropped the ball",
           "gave up",
           "cooled down"
         ],
         "correct": 0,
-        "explanation": "GIVE YOUR BEST SHOT é dar o melhor de si, se esforçar de verdade. Portanto, a resposta correta é GAVE THEIR BEST SHOT."
+        "explanation": "GIVE IT YOUR BEST SHOT é dar o melhor de si, se esforçar de verdade. Portanto, a resposta correta é GAVE IT THEIR BEST SHOT."
       },
       {
         "id": "f1pv33",
@@ -2326,7 +2326,7 @@
         "options": [
           "get over",
           "come down with",
-          "threw up",
+          "throw up",
           "pass out"
         ],
         "correct": 0,
@@ -2647,7 +2647,7 @@
       {
         "id": "f1pv73",
         "topic": "Phrasal Verbs – Games",
-        "question": "I knew the story wasn't true, but I _____ him not to embarrass him.",
+        "question": "I knew the story wasn't true, but I _____ him so as not to embarrass him.",
         "options": [
           "played along with",
           "played against",
