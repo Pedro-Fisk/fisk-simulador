@@ -20,7 +20,7 @@
       {
         "id": "i1m02",
         "topic": "Artículos Determinados",
-        "question": "Completa la oración: '___ chica es muy simpática.'",
+        "question": "Completa la oración: '_____ chica es muy simpática.'",
         "options": [
           "el",
           "los",
@@ -124,7 +124,7 @@
       {
         "id": "i1m10",
         "topic": "Interrogativos",
-        "question": "¿___ te llamas?",
+        "question": "¿_____ te llamas?",
         "options": [
           "Cuándo",
           "Cuánto",
@@ -137,7 +137,7 @@
       {
         "id": "i1m11",
         "topic": "Interrogativos",
-        "question": "¿___ años tienes?",
+        "question": "¿_____ años tienes?",
         "options": [
           "Qué",
           "Cuántos",
@@ -150,7 +150,7 @@
       {
         "id": "i1m12",
         "topic": "Interrogativos",
-        "question": "¿___ vives?",
+        "question": "¿_____ vives?",
         "options": [
           "Qué",
           "Quién",
@@ -163,7 +163,7 @@
       {
         "id": "i1m13",
         "topic": "Presente de Indicativo (-ar)",
-        "question": "Ella ___ español todos los días. (hablar)",
+        "question": "Ella _____ español todos los días. (hablar)",
         "options": [
           "hablo",
           "hablas",
@@ -176,7 +176,7 @@
       {
         "id": "i1m14",
         "topic": "Presente de Indicativo (-ar)",
-        "question": "Nosotros ___ en una empresa internacional. (trabajar)",
+        "question": "Nosotros _____ en una empresa internacional. (trabajar)",
         "options": [
           "trabajo",
           "trabajas",
@@ -189,7 +189,7 @@
       {
         "id": "i1m15",
         "topic": "Presente de Indicativo (-ar)",
-        "question": "Yo ___ música clásica por la tarde. (escuchar)",
+        "question": "Yo _____ música clásica por la tarde. (escuchar)",
         "options": [
           "escucha",
           "escuchas",
@@ -202,7 +202,7 @@
       {
         "id": "i1m16",
         "topic": "Presente de Indicativo (-ar)",
-        "question": "Ellos ___ mucho los fines de semana. (caminar)",
+        "question": "Ellos _____ mucho los fines de semana. (caminar)",
         "options": [
           "caminan",
           "caminas",
@@ -215,7 +215,7 @@
       {
         "id": "i1m17",
         "topic": "Presente de Indicativo (ser / llamarse)",
-        "question": "Yo ___ Pedro García.",
+        "question": "Yo _____ Pedro García.",
         "options": [
           "se llama",
           "me llamo",
@@ -228,7 +228,7 @@
       {
         "id": "i1m18",
         "topic": "Presente de Indicativo (ser / llamarse)",
-        "question": "Ella ___ doctora. (ser)",
+        "question": "Ella _____ doctora. (ser)",
         "options": [
           "soy",
           "eres",
@@ -241,7 +241,7 @@
       {
         "id": "i1m19",
         "topic": "Presente de Indicativo (ser / llamarse)",
-        "question": "¿Cómo ___ tu amigo? (llamarse)",
+        "question": "¿Cómo _____ tu amigo? (llamarse)",
         "options": [
           "me llamo",
           "nos llamamos",
@@ -254,7 +254,7 @@
       {
         "id": "i1m20",
         "topic": "Presente de Indicativo (ser / llamarse)",
-        "question": "Vosotros ___ de España, ¿verdad? (ser)",
+        "question": "Vosotros _____ de España, ¿verdad? (ser)",
         "options": [
           "somos",
           "son",
@@ -267,7 +267,7 @@
       {
         "id": "i1m21",
         "topic": "Demostrativos",
-        "question": "___ libro que tengo aquí es muy interesante.",
+        "question": "_____ libro que tengo aquí es muy interesante.",
         "options": [
           "Aquel",
           "Esa",
@@ -280,7 +280,7 @@
       {
         "id": "i1m22",
         "topic": "Demostrativos",
-        "question": "___ chica que está allí lejos es mi hermana.",
+        "question": "_____ chica que está allí lejos es mi hermana.",
         "options": [
           "Esta",
           "Ese",
@@ -293,7 +293,7 @@
       {
         "id": "i1m23",
         "topic": "Demostrativos",
-        "question": "¿Qué es ___?, (señalando algo cuyo nombre no sabes)",
+        "question": "¿Qué es _____? (señalando algo cuyo nombre no sabes)",
         "options": [
           "ese",
           "este",
@@ -306,7 +306,7 @@
       {
         "id": "i1m24",
         "topic": "Presente de Indicativo (-er / -ir)",
-        "question": "Tú ___ muy rápido. (comer)",
+        "question": "Tú _____ muy rápido. (comer)",
         "options": [
           "come",
           "comemos",
@@ -319,7 +319,7 @@
       {
         "id": "i1m25",
         "topic": "Presente de Indicativo (-er / -ir)",
-        "question": "Nosotros ___ en Barcelona. (vivir)",
+        "question": "Nosotros _____ en Barcelona. (vivir)",
         "options": [
           "viven",
           "vivís",
@@ -332,7 +332,7 @@
       {
         "id": "i1m26",
         "topic": "Presente de Indicativo (-er / -ir)",
-        "question": "Ella ___ el periódico cada mañana. (leer)",
+        "question": "Ella _____ el periódico cada mañana. (leer)",
         "options": [
           "lees",
           "leo",
@@ -345,7 +345,7 @@
       {
         "id": "i1m27",
         "topic": "Presente de Indicativo (-er / -ir)",
-        "question": "Ellos ___ agua mineral en las comidas. (beber)",
+        "question": "Ellos _____ agua mineral en las comidas. (beber)",
         "options": [
           "bebes",
           "bebemos",
@@ -358,7 +358,7 @@
       {
         "id": "i1m28",
         "topic": "Verbos Irregulares (E>IE)",
-        "question": "Yo ___ ir al cine contigo. (querer)",
+        "question": "Yo _____ ir al cine contigo. (querer)",
         "options": [
           "quero",
           "quiero",
@@ -371,7 +371,7 @@
       {
         "id": "i1m29",
         "topic": "Verbos Irregulares (E>IE)",
-        "question": "La clase ___ a las nueve de la mañana. (empezar)",
+        "question": "La clase _____ a las nueve de la mañana. (empezar)",
         "options": [
           "empieza",
           "empieze",
@@ -384,7 +384,7 @@
       {
         "id": "i1m30",
         "topic": "Verbos Irregulares (E>IE)",
-        "question": "¿___ tú la explicación del profesor? (entender)",
+        "question": "¿_____ tú la explicación del profesor? (entender)",
         "options": [
           "entendo",
           "entendas",
@@ -397,7 +397,7 @@
       {
         "id": "i1m31",
         "topic": "Verbos Irregulares (E>IE)",
-        "question": "Nosotros ___ el problema perfectamente. (entender)",
+        "question": "Nosotros _____ el problema perfectamente. (entender)",
         "options": [
           "entendemos",
           "entendimos",
@@ -410,7 +410,7 @@
       {
         "id": "i1m32",
         "topic": "Expresiones de Tiempo y Frecuencia",
-        "question": "Ella va al gimnasio ___ los días.",
+        "question": "Ella va al gimnasio _____ los días.",
         "options": [
           "algunos",
           "ningún",
@@ -423,7 +423,7 @@
       {
         "id": "i1m33",
         "topic": "Expresiones de Tiempo y Frecuencia",
-        "question": "Él va muy poco al médico. Podemos decir que ___ va al médico.",
+        "question": "Él va muy poco al médico. Podemos decir que _____ va al médico.",
         "options": [
           "siempre",
           "todos los días",
@@ -436,20 +436,20 @@
       {
         "id": "i1m34",
         "topic": "Expresiones de Tiempo y Frecuencia",
-        "question": "¿Con qué frecuencia estudias español? Estudio ___ los martes y jueves.",
+        "question": "¿Con qué frecuencia estudias español? Estudio _____ los martes y jueves.",
         "options": [
           "nunca",
           "a veces",
           "los",
           "todos"
         ],
-        "correct": 2,
-        "explanation": "'Los' + dia da semana indica frequência regular semanal. 'Los martes y jueves' = às terças e quintas-feiras."
+        "correct": 3,
+        "explanation": "'Todos los' + dia da semana indica uma frequência semanal regular: 'Estudio todos los martes y jueves' = estudo todas as terças e quintas. Sozinho, 'los' não cabe aqui porque o artigo já está escrito na frase. Portanto, a resposta correta é 'TODOS'."
       },
       {
         "id": "i1m35",
         "topic": "Contracciones (al / del)",
-        "question": "Voy ___ mercado a comprar frutas. (a + el)",
+        "question": "Voy _____ mercado a comprar frutas. (a + el)",
         "options": [
           "a el",
           "al",
@@ -462,7 +462,7 @@
       {
         "id": "i1m36",
         "topic": "Contracciones (al / del)",
-        "question": "Vengo ___ trabajo muy cansado. (de + el)",
+        "question": "Vengo _____ trabajo muy cansado. (de + el)",
         "options": [
           "de el",
           "de la",
@@ -475,7 +475,7 @@
       {
         "id": "i1m37",
         "topic": "Contracciones (al / del)",
-        "question": "El libro es ___ profesor. (de + el)",
+        "question": "El libro es _____ profesor. (de + el)",
         "options": [
           "de el",
           "al",
@@ -488,7 +488,7 @@
       {
         "id": "i1m38",
         "topic": "Verbos Reflexivos",
-        "question": "Yo ___ a las siete de la mañana. (levantarse)",
+        "question": "Yo _____ a las siete de la mañana. (levantarse)",
         "options": [
           "se levanta",
           "te levantas",
@@ -501,7 +501,7 @@
       {
         "id": "i1m39",
         "topic": "Verbos Reflexivos",
-        "question": "Ella ___ el pelo todos los días. (lavarse)",
+        "question": "Ella _____ el pelo todos los días. (lavarse)",
         "options": [
           "me lavo",
           "te lavas",
@@ -514,7 +514,7 @@
       {
         "id": "i1m40",
         "topic": "Verbos Reflexivos",
-        "question": "¿A qué hora ___ tú? (acostarse)",
+        "question": "¿A qué hora _____ tú? (acostarse)",
         "options": [
           "me acuesto",
           "se acuesta",
@@ -527,7 +527,7 @@
       {
         "id": "i1m41",
         "topic": "Verbos Reflexivos",
-        "question": "Ellos ___ muy tarde los fines de semana. (dormirse)",
+        "question": "Ellos _____ muy tarde los fines de semana. (dormirse)",
         "options": [
           "me duermo",
           "te duermes",
@@ -540,7 +540,7 @@
       {
         "id": "i1m42",
         "topic": "Verbos Irregulares (O>UE)",
-        "question": "Ella ___ ocho horas cada noche. (dormir)",
+        "question": "Ella _____ ocho horas cada noche. (dormir)",
         "options": [
           "dormis",
           "dormes",
@@ -553,7 +553,7 @@
       {
         "id": "i1m43",
         "topic": "Verbos Irregulares (O>UE)",
-        "question": "Yo ___ a casa a las ocho. (volver)",
+        "question": "Yo _____ a casa a las ocho. (volver)",
         "options": [
           "vuelves",
           "vuelvo",
@@ -566,7 +566,7 @@
       {
         "id": "i1m44",
         "topic": "Verbos Irregulares (O>UE)",
-        "question": "¿___ tú hablar francés? (poder)",
+        "question": "¿_____ tú hablar francés? (poder)",
         "options": [
           "pode",
           "puedo",
@@ -579,7 +579,7 @@
       {
         "id": "i1m45",
         "topic": "Verbos Irregulares (O>UE)",
-        "question": "Nosotros ___ al fútbol los sábados. (jugar)",
+        "question": "Nosotros _____ al fútbol los sábados. (jugar)",
         "options": [
           "juegamos",
           "jugamos",
@@ -592,7 +592,7 @@
       {
         "id": "i1m46",
         "topic": "Verbo Ir",
-        "question": "Yo ___ al supermercado ahora mismo.",
+        "question": "Yo _____ al supermercado ahora mismo.",
         "options": [
           "va",
           "vas",
@@ -605,7 +605,7 @@
       {
         "id": "i1m47",
         "topic": "Verbo Ir",
-        "question": "Ellos ___ al cine esta noche.",
+        "question": "Ellos _____ al cine esta noche.",
         "options": [
           "vamos",
           "vas",
@@ -618,7 +618,7 @@
       {
         "id": "i1m48",
         "topic": "Verbo Ir",
-        "question": "¿___ tú a la fiesta el sábado?",
+        "question": "¿_____ tú a la fiesta el sábado?",
         "options": [
           "Voy",
           "Va",
@@ -631,7 +631,7 @@
       {
         "id": "i1m49",
         "topic": "Adjetivos",
-        "question": "La chica es muy ___. (inteligente)",
+        "question": "La chica es muy _____. (inteligente)",
         "options": [
           "inteligentes",
           "inteligenta",
@@ -644,7 +644,7 @@
       {
         "id": "i1m50",
         "topic": "Adjetivos",
-        "question": "Los libros son muy ___. (interesting)",
+        "question": "Los libros son muy _____. (interesting)",
         "options": [
           "interesante",
           "interesanta",
@@ -657,7 +657,7 @@
       {
         "id": "i1m51",
         "topic": "Adjetivos",
-        "question": "El hombre ___ es mi profesor. (alto)",
+        "question": "El hombre _____ es mi profesor. (alto)",
         "options": [
           "altas",
           "alta",
@@ -670,7 +670,7 @@
       {
         "id": "i1m52",
         "topic": "Posesivos (mi, tu, su...)",
-        "question": "___ casa es muy grande y bonita.",
+        "question": "_____ casa es muy grande y bonita.",
         "options": [
           "Mío",
           "Mía",
@@ -683,7 +683,7 @@
       {
         "id": "i1m53",
         "topic": "Posesivos (mi, tu, su...)",
-        "question": "¿Es este ___ libro? (de ti)",
+        "question": "¿Es este _____ libro? (de ti)",
         "options": [
           "mi",
           "su",
@@ -696,7 +696,7 @@
       {
         "id": "i1m54",
         "topic": "Posesivos (mi, tu, su...)",
-        "question": "Ellos fueron de vacaciones con ___ familia. (de ellos)",
+        "question": "Ellos fueron de vacaciones con _____ familia. (de ellos)",
         "options": [
           "mi",
           "tu",
@@ -709,7 +709,7 @@
       {
         "id": "i1m55",
         "topic": "Comparación",
-        "question": "Pedro es ___ alto ___ Juan.",
+        "question": "Pedro es _____ alto _____ Juan.",
         "options": [
           "tan...como",
           "más...de",
@@ -722,7 +722,7 @@
       {
         "id": "i1m56",
         "topic": "Comparación",
-        "question": "Esta película es ___ interesante ___ la otra.",
+        "question": "Esta película es _____ interesante _____ la otra.",
         "options": [
           "más...que",
           "tan...como",
@@ -735,7 +735,7 @@
       {
         "id": "i1m57",
         "topic": "Comparación",
-        "question": "Carlos es el ___ estudiante de la clase. (best)",
+        "question": "Carlos es el _____ estudiante de la clase. (best)",
         "options": [
           "más bueno",
           "buenísimo",
@@ -748,7 +748,7 @@
       {
         "id": "i1m58",
         "topic": "Verbos Irregulares (-ZCO)",
-        "question": "Yo ___ a mucha gente en esta ciudad. (conocer)",
+        "question": "Yo _____ a mucha gente en esta ciudad. (conocer)",
         "options": [
           "conoco",
           "conoces",
@@ -761,7 +761,7 @@
       {
         "id": "i1m59",
         "topic": "Verbos Irregulares (-ZCO)",
-        "question": "Yo ___ a mis padres en todo. (obedecer)",
+        "question": "Yo _____ a mis padres en todo. (obedecer)",
         "options": [
           "obedece",
           "obedezco",
@@ -774,7 +774,7 @@
       {
         "id": "i1m60",
         "topic": "Verbos Irregulares (-ZCO)",
-        "question": "Yo no ___ bien por la noche. (conducir)",
+        "question": "Yo no _____ bien por la noche. (conducir)",
         "options": [
           "conduco",
           "conduzco",
@@ -787,7 +787,7 @@
       {
         "id": "i1m61",
         "topic": "Verbos Irregulares (-ZCO)",
-        "question": "Yo ___ los documentos al inglés. (traducir)",
+        "question": "Yo _____ los documentos al inglés. (traducir)",
         "options": [
           "traduzco",
           "traduco",
@@ -800,7 +800,7 @@
       {
         "id": "i1m62",
         "topic": "Localizadores",
-        "question": "El banco está ___ la farmacia.",
+        "question": "El banco está _____ la farmacia.",
         "options": [
           "encima de",
           "detrás de",
@@ -813,7 +813,7 @@
       {
         "id": "i1m63",
         "topic": "Localizadores",
-        "question": "Las llaves están ___ la mesa.",
+        "question": "Las llaves están _____ la mesa.",
         "options": [
           "debajo de",
           "detrás de",
@@ -826,7 +826,7 @@
       {
         "id": "i1m64",
         "topic": "Localizadores",
-        "question": "El gato está ___ la silla.",
+        "question": "El gato está _____ la silla.",
         "options": [
           "encima de",
           "al lado de",
@@ -839,7 +839,7 @@
       {
         "id": "i1m65",
         "topic": "Posesivos (mío, tuyo, suyo...)",
-        "question": "Este libro es ___. (mine)",
+        "question": "Este libro es _____. (mine)",
         "options": [
           "mi",
           "tuyo",
@@ -852,7 +852,7 @@
       {
         "id": "i1m66",
         "topic": "Posesivos (mío, tuyo, suyo...)",
-        "question": "¿Es tuya esa mochila? Sí, es ___. (mine)",
+        "question": "¿Es tuya esa mochila? Sí, es _____. (mine)",
         "options": [
           "tuya",
           "suya",
@@ -865,7 +865,7 @@
       {
         "id": "i1m67",
         "topic": "Posesivos (mío, tuyo, suyo...)",
-        "question": "Ese apartamento no es nuestro, es ___. (his)",
+        "question": "Ese apartamento no es nuestro, es _____. (his)",
         "options": [
           "mío",
           "tuyo",
@@ -878,7 +878,7 @@
       {
         "id": "i1m68",
         "topic": "Presente Continuo",
-        "question": "Ella ___ en este momento. (estudiar)",
+        "question": "Ella _____ en este momento. (estudiar)",
         "options": [
           "estudia",
           "está estudiado",
@@ -891,7 +891,7 @@
       {
         "id": "i1m69",
         "topic": "Presente Continuo",
-        "question": "¿Qué ___ tú ahora? (hacer)",
+        "question": "¿Qué _____ tú ahora? (hacer)",
         "options": [
           "haces",
           "estás hecho",
@@ -904,7 +904,7 @@
       {
         "id": "i1m70",
         "topic": "Presente Continuo",
-        "question": "Ellos ___ en el parque. (correr)",
+        "question": "Ellos _____ en el parque. (correr)",
         "options": [
           "corren",
           "están correr",
@@ -917,7 +917,7 @@
       {
         "id": "i1m71",
         "topic": "Presente de Indicativo (-ar)",
-        "question": "Vosotros ___ mucho en clase. (preguntar)",
+        "question": "Vosotros _____ mucho en clase. (preguntar)",
         "options": [
           "pregunta",
           "preguntan",
@@ -930,7 +930,7 @@
       {
         "id": "i1m72",
         "topic": "Presente de Indicativo (ser / llamarse)",
-        "question": "Nosotros ___ profesores de español. (ser)",
+        "question": "Nosotros _____ profesores de español. (ser)",
         "options": [
           "son",
           "sois",
@@ -943,7 +943,7 @@
       {
         "id": "i1m73",
         "topic": "Presente de Indicativo (-er / -ir)",
-        "question": "Yo ___ cartas a mis amigos. (escribir)",
+        "question": "Yo _____ cartas a mis amigos. (escribir)",
         "options": [
           "escribe",
           "escribes",
@@ -956,7 +956,7 @@
       {
         "id": "i1m74",
         "topic": "Verbos Irregulares (E>IE)",
-        "question": "Ellos ___ volver a casa antes de las diez. (querer)",
+        "question": "Ellos _____ volver a casa antes de las diez. (querer)",
         "options": [
           "queremos",
           "quiere",
@@ -969,7 +969,7 @@
       {
         "id": "i1m75",
         "topic": "Verbos Reflexivos",
-        "question": "Nosotros ___ con agua fría en verano. (ducharse)",
+        "question": "Nosotros _____ con agua fría en verano. (ducharse)",
         "options": [
           "se duchan",
           "te duchas",
@@ -982,7 +982,7 @@
       {
         "id": "i1m76",
         "topic": "Verbos Irregulares (O>UE)",
-        "question": "Ellos ___ a sus amigos en el parque. (encontrar)",
+        "question": "Ellos _____ a sus amigos en el parque. (encontrar)",
         "options": [
           "encontran",
           "encuentran",
@@ -995,7 +995,7 @@
       {
         "id": "i1m77",
         "topic": "Verbos Irregulares (-ZCO)",
-        "question": "Yo ___ este problema perfectamente. (reconocer)",
+        "question": "Yo _____ este problema perfectamente. (reconocer)",
         "options": [
           "reconoco",
           "reconoces",
@@ -1021,7 +1021,7 @@
       {
         "id": "i1m79",
         "topic": "Artículos Determinados",
-        "question": "___ niños están jugando en el jardín.",
+        "question": "_____ niños están jugando en el jardín.",
         "options": [
           "La",
           "El",
@@ -1086,7 +1086,7 @@
       {
         "id": "i1m84",
         "topic": "Interrogativos",
-        "question": "¿___ es la capital de España?",
+        "question": "¿_____ es la capital de España?",
         "options": [
           "Qué",
           "Quién",
@@ -1099,7 +1099,7 @@
       {
         "id": "i1m85",
         "topic": "Interrogativos",
-        "question": "¿___ cuesta este abrigo?",
+        "question": "¿_____ cuesta este abrigo?",
         "options": [
           "Cuántos",
           "Cuándo",
@@ -1112,7 +1112,7 @@
       {
         "id": "i1m86",
         "topic": "Demostrativos",
-        "question": "¿Te gustan ___ zapatos que tengo aquí?",
+        "question": "¿Te gustan _____ zapatos que tengo aquí?",
         "options": [
           "aquellos",
           "esos",
@@ -1125,7 +1125,7 @@
       {
         "id": "i1m87",
         "topic": "Demostrativos",
-        "question": "___ señor que está ahí es el director del colegio.",
+        "question": "_____ señor que está ahí es el director del colegio.",
         "options": [
           "Este",
           "Aquel",
@@ -1138,7 +1138,7 @@
       {
         "id": "i1m88",
         "topic": "Expresiones de Tiempo y Frecuencia",
-        "question": "¿Con qué frecuencia vas al dentista? ___ al año.",
+        "question": "¿Con qué frecuencia vas al dentista? _____ al año.",
         "options": [
           "Siempre",
           "Todos los días",
@@ -1151,7 +1151,7 @@
       {
         "id": "i1m89",
         "topic": "Expresiones de Tiempo y Frecuencia",
-        "question": "___ hago ejercicio, solo los fines de semana.",
+        "question": "_____ hago ejercicio, solo los fines de semana.",
         "options": [
           "Nunca",
           "Todos los días",
@@ -1164,7 +1164,7 @@
       {
         "id": "i1m90",
         "topic": "Contracciones (al / del)",
-        "question": "Esta es la oficina ___ director. (de + el)",
+        "question": "Esta es la oficina _____ director. (de + el)",
         "options": [
           "de el",
           "a el",
@@ -1177,7 +1177,7 @@
       {
         "id": "i1m91",
         "topic": "Contracciones (al / del)",
-        "question": "Llamamos ___ médico cuando estamos enfermos. (a + el)",
+        "question": "Llamamos _____ médico cuando estamos enfermos. (a + el)",
         "options": [
           "a el",
           "de el",
@@ -1190,7 +1190,7 @@
       {
         "id": "i1m92",
         "topic": "Verbo Ir",
-        "question": "Nosotros ___ de vacaciones a la playa este verano.",
+        "question": "Nosotros _____ de vacaciones a la playa este verano.",
         "options": [
           "van",
           "vas",
@@ -1203,7 +1203,7 @@
       {
         "id": "i1m93",
         "topic": "Verbo Ir",
-        "question": "¿___ vosotros al partido de fútbol el domingo?",
+        "question": "¿_____ vosotros al partido de fútbol el domingo?",
         "options": [
           "Voy",
           "Van",
@@ -1216,7 +1216,7 @@
       {
         "id": "i1m94",
         "topic": "Adjetivos",
-        "question": "Las chicas son muy ___. (simpático)",
+        "question": "Las chicas son muy _____. (simpático)",
         "options": [
           "simpáticos",
           "simpático",
@@ -1229,7 +1229,7 @@
       {
         "id": "i1m95",
         "topic": "Adjetivos",
-        "question": "Mi hermana es ___. (rubio)",
+        "question": "Mi hermana es _____. (rubio)",
         "options": [
           "rubias",
           "rubio",
@@ -1242,7 +1242,7 @@
       {
         "id": "i1m96",
         "topic": "Posesivos (mi, tu, su...)",
-        "question": "___ amigos son muy divertidos. (de nosotros)",
+        "question": "_____ amigos son muy divertidos. (de nosotros)",
         "options": [
           "Su",
           "Tu",
@@ -1255,7 +1255,7 @@
       {
         "id": "i1m97",
         "topic": "Posesivos (mi, tu, su...)",
-        "question": "El profesor habla con ___ alumnos cada tarde. (de él)",
+        "question": "El profesor habla con _____ alumnos cada tarde. (de él)",
         "options": [
           "mi",
           "tu",
@@ -1268,7 +1268,7 @@
       {
         "id": "i1m98",
         "topic": "Comparación",
-        "question": "Este hotel es ___ caro ___ el otro.",
+        "question": "Este hotel es _____ caro _____ el otro.",
         "options": [
           "tan...como",
           "más...de",
@@ -1281,7 +1281,7 @@
       {
         "id": "i1m99",
         "topic": "Comparación",
-        "question": "Este restaurante es ___ de toda la ciudad. (bueno, superlativo)",
+        "question": "Este restaurante es _____ de toda la ciudad. (bueno, superlativo)",
         "options": [
           "muy bueno",
           "más bueno",
@@ -1294,7 +1294,7 @@
       {
         "id": "i1m100",
         "topic": "Localizadores",
-        "question": "La panadería está ___ la ferretería y la librería.",
+        "question": "La panadería está _____ la ferretería y la librería.",
         "options": [
           "encima de",
           "enfrente de",
@@ -1307,7 +1307,7 @@
       {
         "id": "i1m101",
         "topic": "Localizadores",
-        "question": "El cine está justo ___ del banco, al otro lado de la calle.",
+        "question": "El cine está justo _____ del banco, al otro lado de la calle.",
         "options": [
           "al lado",
           "debajo",
@@ -1320,7 +1320,7 @@
       {
         "id": "i1m102",
         "topic": "Posesivos (mío, tuyo, suyo...)",
-        "question": "¿Son vuestras estas mochilas? Sí, son ___.",
+        "question": "¿Son vuestras estas mochilas? Sí, son _____.",
         "options": [
           "tuyas",
           "mías",
@@ -1333,7 +1333,7 @@
       {
         "id": "i1m103",
         "topic": "Posesivos (mío, tuyo, suyo...)",
-        "question": "Ese ordenador no es mío, es ___. (de tú)",
+        "question": "Ese ordenador no es mío, es _____. (de tú)",
         "options": [
           "suyo",
           "mío",
@@ -1346,7 +1346,7 @@
       {
         "id": "i1m104",
         "topic": "Presente Continuo",
-        "question": "Yo ___ un libro muy interesante. (leer)",
+        "question": "Yo _____ un libro muy interesante. (leer)",
         "options": [
           "leo",
           "estoy leer",
@@ -1359,7 +1359,7 @@
       {
         "id": "i1m105",
         "topic": "Presente Continuo",
-        "question": "¿___ tú un correo electrónico ahora? (escribir)",
+        "question": "¿_____ tú un correo electrónico ahora? (escribir)",
         "options": [
           "Escribes",
           "Estás escribido",
@@ -1376,7 +1376,7 @@
       {
         "id": "i1f01",
         "topic": "Artículos Indeterminados",
-        "question": "Quiero ___ café, por favor.",
+        "question": "Quiero _____ café, por favor.",
         "options": [
           "el",
           "la",
@@ -1389,7 +1389,7 @@
       {
         "id": "i1f02",
         "topic": "Artículos Indeterminados",
-        "question": "Ella tiene ___ hermana muy simpática.",
+        "question": "Ella tiene _____ hermana muy simpática.",
         "options": [
           "un",
           "el",
@@ -1402,7 +1402,7 @@
       {
         "id": "i1f03",
         "topic": "Artículos Indeterminados",
-        "question": "¿Hay ___ farmacia cerca de aquí?",
+        "question": "¿Hay _____ farmacia cerca de aquí?",
         "options": [
           "un",
           "el",
@@ -1415,7 +1415,7 @@
       {
         "id": "i1f04",
         "topic": "Verbo Gustar",
-        "question": "A mí ___ el chocolate.",
+        "question": "A mí _____ el chocolate.",
         "options": [
           "gusto",
           "gustas",
@@ -1428,7 +1428,7 @@
       {
         "id": "i1f05",
         "topic": "Verbo Gustar",
-        "question": "A ella ___ los deportes.",
+        "question": "A ella _____ los deportes.",
         "options": [
           "gusta",
           "gusto",
@@ -1441,7 +1441,7 @@
       {
         "id": "i1f06",
         "topic": "Verbo Gustar",
-        "question": "¿A ti ___ la música clásica?",
+        "question": "¿A ti _____ la música clásica?",
         "options": [
           "me gusta",
           "les gusta",
@@ -1454,7 +1454,7 @@
       {
         "id": "i1f07",
         "topic": "Verbo Gustar",
-        "question": "A nosotros ___ viajar por Europa.",
+        "question": "A nosotros _____ viajar por Europa.",
         "options": [
           "nos gustan",
           "nos gustamos",
@@ -1467,7 +1467,7 @@
       {
         "id": "i1f08",
         "topic": "Acuerdo y Desacuerdo",
-        "question": "A mí me gusta el fútbol. ¿Y a ti?, ___ también.",
+        "question": "A mí me gusta el fútbol. ¿Y a ti? _____.",
         "options": [
           "A mí no",
           "A mí tampoco",
@@ -1480,7 +1480,7 @@
       {
         "id": "i1f09",
         "topic": "Acuerdo y Desacuerdo",
-        "question": "A mí no me gusta el café., Pues a mí ___. (I do like it)",
+        "question": "A mí no me gusta el café. Pues a mí _____. (I do like it)",
         "options": [
           "tampoco",
           "también",
@@ -1493,7 +1493,7 @@
       {
         "id": "i1f10",
         "topic": "Acuerdo y Desacuerdo",
-        "question": "Yo no como carne., Yo ___. (I don't eat it either)",
+        "question": "Yo no como carne. Yo _____. (I don't eat it either)",
         "options": [
           "también",
           "sí",
@@ -1506,7 +1506,7 @@
       {
         "id": "i1f11",
         "topic": "Preposiciones (desde, hasta, hacia)",
-        "question": "Trabajo ___ las 8 de la mañana ___ las 6 de la tarde.",
+        "question": "Trabajo _____ las 8 de la mañana _____ las 6 de la tarde.",
         "options": [
           "de...en",
           "hasta...desde",
@@ -1519,7 +1519,7 @@
       {
         "id": "i1f12",
         "topic": "Preposiciones (desde, hasta, hacia)",
-        "question": "El avión vuela ___ el norte.",
+        "question": "El avión vuela _____ el norte.",
         "options": [
           "desde",
           "hasta",
@@ -1532,7 +1532,7 @@
       {
         "id": "i1f13",
         "topic": "Preposiciones (desde, hasta, hacia)",
-        "question": "Estudio español ___ hace tres meses.",
+        "question": "Estudio español _____ hace tres meses.",
         "options": [
           "hasta",
           "hacia",
@@ -1545,7 +1545,7 @@
       {
         "id": "i1f14",
         "topic": "Hay / Tiene / Está",
-        "question": "___ un banco cerca de aquí.",
+        "question": "_____ un banco cerca de aquí.",
         "options": [
           "Tiene",
           "Es",
@@ -1558,7 +1558,7 @@
       {
         "id": "i1f15",
         "topic": "Hay / Tiene / Está",
-        "question": "Mi hermano ___ los ojos azules.",
+        "question": "Mi hermano _____ los ojos azules.",
         "options": [
           "hay",
           "tiene",
@@ -1571,7 +1571,7 @@
       {
         "id": "i1f16",
         "topic": "Hay / Tiene / Está",
-        "question": "El mercado ___ en la calle principal.",
+        "question": "El mercado _____ en la calle principal.",
         "options": [
           "hay",
           "tiene",
@@ -1584,7 +1584,7 @@
       {
         "id": "i1f17",
         "topic": "Medios de Transporte",
-        "question": "Voy al trabajo ___ metro todos los días.",
+        "question": "Voy al trabajo _____ metro todos los días.",
         "options": [
           "a",
           "de",
@@ -1597,7 +1597,7 @@
       {
         "id": "i1f18",
         "topic": "Medios de Transporte",
-        "question": "Prefiero ir ___ pie cuando el destino está cerca.",
+        "question": "Prefiero ir _____ pie cuando el destino está cerca.",
         "options": [
           "en",
           "con",
@@ -1610,7 +1610,7 @@
       {
         "id": "i1f19",
         "topic": "Medios de Transporte",
-        "question": "¿Cómo vas al aeropuerto? ___ taxi.",
+        "question": "¿Cómo vas al aeropuerto? _____ taxi.",
         "options": [
           "De",
           "A",
@@ -1623,7 +1623,7 @@
       {
         "id": "i1f20",
         "topic": "Imperativo Afirmativo",
-        "question": "___ la ventana, por favor. (abrir - tú)",
+        "question": "_____ la ventana, por favor. (abrir - tú)",
         "options": [
           "Abrís",
           "Abres",
@@ -1636,7 +1636,7 @@
       {
         "id": "i1f21",
         "topic": "Imperativo Afirmativo",
-        "question": "___ a la derecha en el semáforo. (girar - usted)",
+        "question": "_____ a la derecha en el semáforo. (girar - usted)",
         "options": [
           "Gira",
           "Girad",
@@ -1649,7 +1649,7 @@
       {
         "id": "i1f22",
         "topic": "Imperativo Afirmativo",
-        "question": "___ más despacio, por favor. (hablar - tú)",
+        "question": "_____ más despacio, por favor. (hablar - tú)",
         "options": [
           "Hablas",
           "Habla",
@@ -1662,7 +1662,7 @@
       {
         "id": "i1f23",
         "topic": "Imperativo Afirmativo",
-        "question": "___ la puerta, chicos. (cerrar - vosotros)",
+        "question": "_____ la puerta, chicos. (cerrar - vosotros)",
         "options": [
           "Cierren",
           "Cierrad",
@@ -1675,7 +1675,7 @@
       {
         "id": "i1f24",
         "topic": "Pronombres de Complemento Directo",
-        "question": "¿Tienes el libro? Sí, ___ tengo.",
+        "question": "¿Tienes el libro? Sí, _____ tengo.",
         "options": [
           "la",
           "le",
@@ -1688,7 +1688,7 @@
       {
         "id": "i1f25",
         "topic": "Pronombres de Complemento Directo",
-        "question": "¿Ves a María en la fiesta? Sí, ___ veo.",
+        "question": "¿Ves a María en la fiesta? Sí, _____ veo.",
         "options": [
           "lo",
           "la",
@@ -1701,7 +1701,7 @@
       {
         "id": "i1f26",
         "topic": "Pronombres de Complemento Directo",
-        "question": "¿Compras las frutas en el mercado? Sí, ___ compro allí.",
+        "question": "¿Compras las frutas en el mercado? Sí, _____ compro allí.",
         "options": [
           "lo",
           "la",
@@ -1714,7 +1714,7 @@
       {
         "id": "i1f27",
         "topic": "Pronombres de Complemento Directo",
-        "question": "¿Llamas a tus padres con frecuencia? Sí, ___ llamo todos los domingos.",
+        "question": "¿Llamas a tus padres con frecuencia? Sí, _____ llamo todos los domingos.",
         "options": [
           "la",
           "le",
@@ -1727,7 +1727,7 @@
       {
         "id": "i1f28",
         "topic": "Verbo Quedar",
-        "question": "¿___ con tus amigos esta tarde? (tú)",
+        "question": "¿_____ con tus amigos esta tarde? (tú)",
         "options": [
           "Quedo",
           "Queda",
@@ -1740,7 +1740,7 @@
       {
         "id": "i1f29",
         "topic": "Verbo Quedar",
-        "question": "Ella ___ con su novio los sábados por la tarde.",
+        "question": "Ella _____ con su novio los sábados por la tarde.",
         "options": [
           "quedo",
           "quedas",
@@ -1753,7 +1753,7 @@
       {
         "id": "i1f30",
         "topic": "Verbo Quedar",
-        "question": "¿A qué hora ___ vosotros esta noche?",
+        "question": "¿A qué hora _____ vosotros esta noche?",
         "options": [
           "quedamos",
           "quedan",
@@ -1766,7 +1766,7 @@
       {
         "id": "i1f31",
         "topic": "Pretérito Perfecto Compuesto",
-        "question": "Yo ___ España este verano. (visitar)",
+        "question": "Yo _____ España este verano. (visitar)",
         "options": [
           "visité",
           "visitaba",
@@ -1779,7 +1779,7 @@
       {
         "id": "i1f32",
         "topic": "Pretérito Perfecto Compuesto",
-        "question": "Ella ___ la película esta tarde. (ver)",
+        "question": "Ella _____ la película esta tarde. (ver)",
         "options": [
           "vio",
           "veía",
@@ -1792,7 +1792,7 @@
       {
         "id": "i1f33",
         "topic": "Pretérito Perfecto Compuesto",
-        "question": "Nosotros ya ___ el ejercicio. (terminar)",
+        "question": "Nosotros ya _____ el ejercicio. (terminar)",
         "options": [
           "terminamos",
           "terminábamos",
@@ -1805,7 +1805,7 @@
       {
         "id": "i1f34",
         "topic": "Pretérito Perfecto Compuesto",
-        "question": "¿___ alguna vez en España? (tú, estar)",
+        "question": "¿_____ alguna vez en España? (tú, estar)",
         "options": [
           "Estuviste",
           "Estabas",
@@ -1818,7 +1818,7 @@
       {
         "id": "i1f35",
         "topic": "Marcadores Temporales",
-        "question": "___ he llamado a mi madre.",
+        "question": "_____ he llamado a mi madre.",
         "options": [
           "Ayer",
           "La semana pasada",
@@ -1831,7 +1831,7 @@
       {
         "id": "i1f36",
         "topic": "Marcadores Temporales",
-        "question": "No he dormido bien ___.",
+        "question": "No he dormido bien _____.",
         "options": [
           "ayer",
           "la semana pasada",
@@ -1844,7 +1844,7 @@
       {
         "id": "i1f37",
         "topic": "Marcadores Temporales",
-        "question": "___ hemos comido en ese restaurante.",
+        "question": "_____ hemos comido en ese restaurante.",
         "options": [
           "Ayer",
           "La semana pasada",
@@ -1857,7 +1857,7 @@
       {
         "id": "i1f38",
         "topic": "Pretérito Perfecto Simple",
-        "question": "Yo ___ en Madrid el año pasado. (estar)",
+        "question": "Yo _____ en Madrid el año pasado. (estar)",
         "options": [
           "he estado",
           "estaba",
@@ -1870,7 +1870,7 @@
       {
         "id": "i1f39",
         "topic": "Pretérito Perfecto Simple",
-        "question": "Ella ___ a las ocho ayer. (llegar)",
+        "question": "Ella _____ a las ocho ayer. (llegar)",
         "options": [
           "ha llegado",
           "llegaba",
@@ -1883,7 +1883,7 @@
       {
         "id": "i1f40",
         "topic": "Pretérito Perfecto Simple",
-        "question": "¿___ bien anoche? (tú, dormir)",
+        "question": "¿_____ bien anoche? (tú, dormir)",
         "options": [
           "Has dormido",
           "Dormiste",
@@ -1896,7 +1896,7 @@
       {
         "id": "i1f41",
         "topic": "Pretérito Perfecto Simple",
-        "question": "Nosotros ___ en Roma en 2019. (vivir)",
+        "question": "Nosotros _____ en Roma en 2019. (vivir)",
         "options": [
           "hemos vivido",
           "vivíamos",
@@ -1904,12 +1904,12 @@
           "vivimos"
         ],
         "correct": 3,
-        "explanation": "Com datas do passado (en 2019), usamos o pretérito indefinido. 'Vivimos' = nós moramos. Atenção: para verbos '-ir' e '-er', 'nosotros' no indefinido tem a mesma forma que no presente."
+        "explanation": "Com data fechada no passado (en 2019), usa-se o pretérito indefinido: 'vivimos'. Atenção: só nos verbos em '-ir' a forma de 'nosotros' no indefinido é igual à do presente (vivimos / vivimos). Nos verbos em '-er' elas mudam: comemos (presente) × comimos (indefinido)."
       },
       {
         "id": "i1f42",
         "topic": "Ir a + Infinitivo",
-        "question": "Ella ___ estudiar esta tarde.",
+        "question": "Ella _____ estudiar esta tarde.",
         "options": [
           "va",
           "va de",
@@ -1922,7 +1922,7 @@
       {
         "id": "i1f43",
         "topic": "Ir a + Infinitivo",
-        "question": "Nosotros ___ viajar a México el próximo año.",
+        "question": "Nosotros _____ viajar a México el próximo año.",
         "options": [
           "vamos",
           "iremos",
@@ -1935,7 +1935,7 @@
       {
         "id": "i1f44",
         "topic": "Ir a + Infinitivo",
-        "question": "¿Qué ___ tú hacer esta noche?",
+        "question": "¿Qué _____ tú esta noche?",
         "options": [
           "vas hacer",
           "irás",
@@ -1948,7 +1948,7 @@
       {
         "id": "i1f45",
         "topic": "Marcadores Temporales (pasado)",
-        "question": "___ fuimos al teatro.",
+        "question": "_____ fuimos al teatro.",
         "options": [
           "Esta semana",
           "Mañana",
@@ -1961,7 +1961,7 @@
       {
         "id": "i1f46",
         "topic": "Marcadores Temporales (pasado)",
-        "question": "Ella nació ___ 1990.",
+        "question": "Ella nació _____ 1990.",
         "options": [
           "hace",
           "desde",
@@ -1974,7 +1974,7 @@
       {
         "id": "i1f47",
         "topic": "Marcadores Temporales (pasado)",
-        "question": "Él llegó ___ tres horas.",
+        "question": "Él llegó _____ tres horas.",
         "options": [
           "en",
           "desde",
@@ -1987,7 +1987,7 @@
       {
         "id": "i1f48",
         "topic": "Pretérito Imperfecto de Indicativo",
-        "question": "Cuando era niño, ___ mucho fútbol. (jugar)",
+        "question": "Cuando era niño, _____ mucho fútbol. (jugar)",
         "options": [
           "juego",
           "voy a jugar",
@@ -2000,7 +2000,7 @@
       {
         "id": "i1f49",
         "topic": "Pretérito Imperfecto de Indicativo",
-        "question": "Ella siempre ___ café con leche por la mañana. (tomar)",
+        "question": "Ella siempre _____ café con leche por la mañana. (tomar)",
         "options": [
           "toma",
           "ha tomado",
@@ -2013,7 +2013,7 @@
       {
         "id": "i1f50",
         "topic": "Pretérito Imperfecto de Indicativo",
-        "question": "Nosotros ___ en ese barrio hace diez años. (vivir)",
+        "question": "Nosotros _____ en ese barrio hace diez años. (vivir)",
         "options": [
           "vivimos",
           "hemos vivido",
@@ -2026,7 +2026,7 @@
       {
         "id": "i1f51",
         "topic": "Pretérito Imperfecto de Indicativo",
-        "question": "¿Cómo ___ tú de pequeño? (ser)",
+        "question": "¿Cómo _____ tú de pequeño? (ser)",
         "options": [
           "eres",
           "fuiste",
@@ -2039,7 +2039,7 @@
       {
         "id": "i1f52",
         "topic": "Contraste entre Pretéritos",
-        "question": "Ayer ___ a María en el supermercado. (ver, acción puntual)",
+        "question": "Ayer _____ a María en el supermercado. (ver, acción puntual)",
         "options": [
           "veía",
           "veo",
@@ -2052,7 +2052,7 @@
       {
         "id": "i1f53",
         "topic": "Contraste entre Pretéritos",
-        "question": "Cuando llegué, ella ___ la televisión. (acción de fondo)",
+        "question": "Cuando llegué, ella _____ la televisión. (acción de fondo)",
         "options": [
           "vio",
           "ha visto",
@@ -2065,7 +2065,7 @@
       {
         "id": "i1f54",
         "topic": "Contraste entre Pretéritos",
-        "question": "___ muchas veces a ese restaurante. (experiência de vida, I have gone)",
+        "question": "_____ muchas veces a ese restaurante. (experiência de vida, I have gone)",
         "options": [
           "Fui",
           "Iba",
@@ -2078,7 +2078,7 @@
       {
         "id": "i1f55",
         "topic": "Contraste entre Pretéritos",
-        "question": "De niño, él ___ al parque todos los días. (hábito pasado)",
+        "question": "De niño, él _____ al parque todos los días. (hábito pasado)",
         "options": [
           "fue",
           "va",
@@ -2091,7 +2091,7 @@
       {
         "id": "i1f56",
         "topic": "Verbo Gustar",
-        "question": "¿Qué ___ hacer en tu tiempo libre? (a ti)",
+        "question": "¿Qué _____ hacer en tu tiempo libre? (a ti)",
         "options": [
           "me gusta",
           "os gusta",
@@ -2104,7 +2104,7 @@
       {
         "id": "i1f57",
         "topic": "Imperativo Afirmativo",
-        "question": "___ el libro en la página veinte, chicos. (abrir - vosotros)",
+        "question": "_____ el libro en la página veinte, chicos. (abrir - vosotros)",
         "options": [
           "Abran",
           "Abre",
@@ -2117,7 +2117,7 @@
       {
         "id": "i1f58",
         "topic": "Pronombres de Complemento Directo",
-        "question": "¿Ves a mis hermanos en la foto? Sí, ___ veo perfectamente.",
+        "question": "¿Ves a mis hermanos en la foto? Sí, _____ veo perfectamente.",
         "options": [
           "le",
           "la",
@@ -2130,7 +2130,7 @@
       {
         "id": "i1f59",
         "topic": "Pretérito Perfecto Compuesto",
-        "question": "Ellos ___ muy tarde hoy. (llegar)",
+        "question": "Ellos _____ muy tarde hoy. (llegar)",
         "options": [
           "llegaron",
           "llegaban",
@@ -2143,7 +2143,7 @@
       {
         "id": "i1f60",
         "topic": "Pretérito Perfecto Simple",
-        "question": "¿Qué ___ tú el fin de semana pasado? (hacer)",
+        "question": "¿Qué _____ tú el fin de semana pasado? (hacer)",
         "options": [
           "has hecho",
           "hacías",
@@ -2156,7 +2156,7 @@
       {
         "id": "i1f61",
         "topic": "Pretérito Imperfecto de Indicativo",
-        "question": "Ellos ___ mucho dinero cuando eran jóvenes. (ganar)",
+        "question": "Ellos _____ mucho dinero cuando eran jóvenes. (ganar)",
         "options": [
           "ganaron",
           "han ganado",
@@ -2169,7 +2169,7 @@
       {
         "id": "i1f81",
         "topic": "Pretérito Imperfecto de Indicativo",
-        "question": "Antes nosotros ___ en bicicleta todos los domingos. (ir)",
+        "question": "Antes nosotros _____ en bicicleta todos los domingos. (ir)",
         "options": [
           "fuimos",
           "íbamos",
@@ -2182,7 +2182,7 @@
       {
         "id": "i1f82",
         "topic": "Pretérito Imperfecto de Indicativo",
-        "question": "En aquella época la ciudad ___ muy tranquila. (ser)",
+        "question": "En aquella época la ciudad _____ muy tranquila. (ser)",
         "options": [
           "fue",
           "es",
@@ -2208,7 +2208,7 @@
       {
         "id": "i1f62",
         "topic": "Contraste entre Pretéritos",
-        "question": "Mientras yo ___, mi hermano llegó a casa. (estudiar, acción en curso)",
+        "question": "Mientras yo _____, mi hermano llegó a casa. (estudiar, acción en curso)",
         "options": [
           "estudié",
           "he estudiado",
@@ -2221,7 +2221,7 @@
       {
         "id": "i1f84",
         "topic": "Contraste entre Pretéritos",
-        "question": "Ella ___ la puerta cuando sonó el teléfono. (abrir, acción en curso)",
+        "question": "Ella _____ la puerta cuando sonó el teléfono. (abrir, acción en curso)",
         "options": [
           "abría",
           "abrió",
@@ -2247,7 +2247,7 @@
       {
         "id": "i1f63",
         "topic": "Artículos Indeterminados",
-        "question": "Ella compró ___ piso nuevo en el centro de la ciudad.",
+        "question": "Ella compró _____ piso nuevo en el centro de la ciudad.",
         "options": [
           "el",
           "la",
@@ -2260,7 +2260,7 @@
       {
         "id": "i1f64",
         "topic": "Artículos Indeterminados",
-        "question": "Hay ___ mensajes nuevos en tu teléfono.",
+        "question": "Hay _____ mensajes nuevos en tu teléfono.",
         "options": [
           "un",
           "una",
@@ -2273,7 +2273,7 @@
       {
         "id": "i1f65",
         "topic": "Acuerdo y Desacuerdo",
-        "question": "Me encanta bailar., Pues a mí ___. (I also love it)",
+        "question": "Me encanta bailar. Pues a mí _____. (I also love it)",
         "options": [
           "tampoco",
           "no",
@@ -2286,7 +2286,7 @@
       {
         "id": "i1f66",
         "topic": "Acuerdo y Desacuerdo",
-        "question": "No me gustan nada las películas de terror., ___, son muy aburridas. (I agree)",
+        "question": "No me gustan nada las películas de terror. _____, son muy aburridas. (I agree)",
         "options": [
           "A mí también",
           "Pues a mí sí",
@@ -2299,7 +2299,7 @@
       {
         "id": "i1f67",
         "topic": "Preposiciones (desde, hasta, hacia)",
-        "question": "La tienda está abierta ___ las 9 de la mañana.",
+        "question": "La tienda está abierta _____ las 9 de la mañana.",
         "options": [
           "hacia",
           "hasta",
@@ -2312,7 +2312,7 @@
       {
         "id": "i1f68",
         "topic": "Preposiciones (desde, hasta, hacia)",
-        "question": "El tren va ___ el norte del país.",
+        "question": "El tren va _____ el norte del país.",
         "options": [
           "desde",
           "hasta",
@@ -2325,7 +2325,7 @@
       {
         "id": "i1f69",
         "topic": "Hay / Tiene / Está",
-        "question": "El parque ___ muchos árboles y flores.",
+        "question": "El parque _____ muchos árboles y flores.",
         "options": [
           "hay",
           "está",
@@ -2338,7 +2338,7 @@
       {
         "id": "i1f70",
         "topic": "Hay / Tiene / Está",
-        "question": "¿___ alguien en casa?",
+        "question": "¿_____ alguien en casa?",
         "options": [
           "Es",
           "Tiene",
@@ -2351,7 +2351,7 @@
       {
         "id": "i1f71",
         "topic": "Medios de Transporte",
-        "question": "¿Cómo vas a la universidad? ___ autobús.",
+        "question": "¿Cómo vas a la universidad? _____ autobús.",
         "options": [
           "De",
           "A",
@@ -2364,7 +2364,7 @@
       {
         "id": "i1f72",
         "topic": "Medios de Transporte",
-        "question": "Nunca cojo el avión, prefiero viajar ___ tren.",
+        "question": "Nunca cojo el avión, prefiero viajar _____ tren.",
         "options": [
           "a",
           "de",
@@ -2377,7 +2377,7 @@
       {
         "id": "i1f73",
         "topic": "Verbo Quedar",
-        "question": "Nosotros ___ en el café de la plaza a las seis.",
+        "question": "Nosotros _____ en el café de la plaza a las seis.",
         "options": [
           "quedo",
           "quedan",
@@ -2390,7 +2390,7 @@
       {
         "id": "i1f74",
         "topic": "Verbo Quedar",
-        "question": "¿Cuándo ___ tú con el médico?",
+        "question": "¿Cuándo _____ tú con el médico?",
         "options": [
           "queda",
           "quedamos",
@@ -2403,7 +2403,7 @@
       {
         "id": "i1f75",
         "topic": "Marcadores Temporales",
-        "question": "___ año he viajado mucho por Europa.",
+        "question": "_____ año he viajado mucho por Europa.",
         "options": [
           "El año pasado",
           "Ayer",
@@ -2416,7 +2416,7 @@
       {
         "id": "i1f76",
         "topic": "Marcadores Temporales",
-        "question": "¿___ has estado en Argentina?",
+        "question": "¿_____ has estado en Argentina?",
         "options": [
           "Ayer",
           "La semana pasada",
@@ -2429,7 +2429,7 @@
       {
         "id": "i1f77",
         "topic": "Ir a + Infinitivo",
-        "question": "¿___ tú a llamar a tu madre esta noche?",
+        "question": "¿_____ tú a llamar a tu madre esta noche?",
         "options": [
           "Iras",
           "Vais a",
@@ -2442,7 +2442,7 @@
       {
         "id": "i1f78",
         "topic": "Ir a + Infinitivo",
-        "question": "Ellos ___ comprar una casa nueva el próximo año.",
+        "question": "Ellos _____ comprar una casa nueva el próximo año.",
         "options": [
           "irán",
           "van",
@@ -2455,7 +2455,7 @@
       {
         "id": "i1f79",
         "topic": "Marcadores Temporales (pasado)",
-        "question": "Mis padres se conocieron ___ 1985.",
+        "question": "Mis padres se conocieron _____ 1985.",
         "options": [
           "desde",
           "hace",
@@ -2468,7 +2468,7 @@
       {
         "id": "i1f80",
         "topic": "Marcadores Temporales (pasado)",
-        "question": "___ llamé a mi mejor amigo para su cumpleaños.",
+        "question": "_____ llamé a mi mejor amigo para su cumpleaños.",
         "options": [
           "Esta mañana",
           "Esta semana",

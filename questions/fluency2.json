@@ -9,7 +9,7 @@
       {
         "id": "f2m01",
         "topic": "One / A / An",
-        "question": "Do you have a pen?, Yes, I have _____.",
+        "question": "Do you have a pen? Yes, I have _____.",
         "options": [
           "a",
           "one",
@@ -113,7 +113,7 @@
       {
         "id": "f2m09",
         "topic": "So / Neither",
-        "question": "I'm not hungry., _____ am I. (agreement with negative)",
+        "question": "I'm not hungry. _____ am I. (agreement with negative)",
         "options": [
           "So",
           "Neither",
@@ -126,7 +126,7 @@
       {
         "id": "f2m10",
         "topic": "So / Neither",
-        "question": "I enjoyed the party., _____ did I. (agreement with positive)",
+        "question": "I enjoyed the party. _____ did I. (agreement with positive)",
         "options": [
           "Neither",
           "So",
@@ -139,7 +139,7 @@
       {
         "id": "f2m11",
         "topic": "Wish + Past Perfect",
-        "question": "I didn't study. Now I failed., I wish I _____ harder.",
+        "question": "I didn't study. Now I failed. I wish I _____ harder.",
         "options": [
           "studied",
           "had studied",
@@ -152,7 +152,7 @@
       {
         "id": "f2m12",
         "topic": "Wish + Past Perfect",
-        "question": "She didn't call me. I was sad., She wishes she _____ me.",
+        "question": "She didn't call me. I was sad. She wishes she _____ me.",
         "options": [
           "called",
           "had called",
@@ -204,15 +204,15 @@
       {
         "id": "f2m16",
         "topic": "Indirect Questions",
-        "question": "Can you tell me where _____ the nearest bank?",
+        "question": "Can you tell me where the nearest bank _____?",
         "options": [
           "is",
           "there is",
           "it is",
           "is there"
         ],
-        "correct": 2,
-        "explanation": "Quando queremos fazer uma pergunta de forma mais educada, usando expressões como 'Can you tell me...?' ou 'Do you know...?', a ordem interna vira normal, sujeito e depois verbo. Neste caso, a pergunta educada é 'Can you tell me where IT IS?', não 'where is it'. Portanto, a resposta correta é IT IS."
+        "correct": 0,
+        "explanation": "Quando fazemos uma pergunta indireta com expressões como 'Can you tell me...?' ou 'Do you know...?', a ordem interna fica normal: sujeito e depois verbo, sem inversão. Neste caso, o sujeito é 'the nearest bank' e o verbo vem depois: 'Can you tell me where the nearest bank IS?'. Portanto, a resposta correta é IS."
       },
       {
         "id": "f2m17",
@@ -243,7 +243,7 @@
       {
         "id": "f2m19",
         "topic": "So / Neither – Disagreement",
-        "question": "I don't like carrots., Really? I _____!",
+        "question": "I don't like carrots. Really? I _____!",
         "options": [
           "do",
           "don't",
@@ -295,7 +295,7 @@
       {
         "id": "f2m23",
         "topic": "One / A / An",
-        "question": "Which would you prefer, tea or coffee?, I'd like _____, please.",
+        "question": "Which would you prefer, tea or coffee? I'd like _____, please.",
         "options": [
           "a",
           "an",
@@ -308,7 +308,7 @@
       {
         "id": "f2m24",
         "topic": "One / A / An",
-        "question": "Is there a supermarket near here?, Yes, there's _____ on Main Street.",
+        "question": "Is there a supermarket near here? Yes, there's _____ on Main Street.",
         "options": [
           "one",
           "a",
@@ -373,7 +373,7 @@
       {
         "id": "f2m29",
         "topic": "So / Neither",
-        "question": "I've never been to Japan., _____ have I.",
+        "question": "I've never been to Japan. _____ have I.",
         "options": [
           "So",
           "Neither",
@@ -386,7 +386,7 @@
       {
         "id": "f2m30",
         "topic": "So / Neither",
-        "question": "I can swim very well., _____ can I.",
+        "question": "I can swim very well. _____ can I.",
         "options": [
           "Neither",
           "Nor",
@@ -399,7 +399,7 @@
       {
         "id": "f2m31",
         "topic": "So / Neither",
-        "question": "Mark didn't understand the lesson., _____ did Lisa.",
+        "question": "Mark didn't understand the lesson. _____ did Lisa.",
         "options": [
           "So",
           "Neither",
@@ -412,7 +412,7 @@
       {
         "id": "f2m32",
         "topic": "Wish + Past Perfect",
-        "question": "I ate too much last night. I feel terrible., I wish I _____ so much.",
+        "question": "I ate too much last night. I feel terrible. I wish I _____ so much.",
         "options": [
           "don't eat",
           "hadn't eaten",
@@ -425,7 +425,7 @@
       {
         "id": "f2m33",
         "topic": "Wish + Past Perfect",
-        "question": "We didn't bring an umbrella. We got soaked!, We wish we _____ an umbrella.",
+        "question": "We didn't bring an umbrella. We got soaked! We wish we _____ an umbrella.",
         "options": [
           "bring",
           "brought",
@@ -438,7 +438,7 @@
       {
         "id": "f2m34",
         "topic": "Wish + Past Perfect",
-        "question": "He quit his job without a plan., He wishes he _____ that decision.",
+        "question": "He quit his job without a plan. He wishes he _____ that decision.",
         "options": [
           "didn't make",
           "hadn't made",
@@ -451,7 +451,7 @@
       {
         "id": "f2m35",
         "topic": "Indirect Questions",
-        "question": "Could you tell me how much _____ this jacket?",
+        "question": "Could you tell me how much this jacket _____?",
         "options": [
           "does cost",
           "costs",
@@ -459,7 +459,7 @@
           "cost"
         ],
         "correct": 1,
-        "explanation": "Quando fazemos uma pergunta indireta com expressões como 'Could you tell me...?', a ordem interna fica normal, sujeito e depois verbo, sem inversão ou 'do/does'. Neste caso, a pergunta indireta é 'how much this jacket COSTS', o 'does' some e o verbo fica com -s de terceira pessoa. Portanto, a resposta correta é COSTS."
+        "explanation": "Quando fazemos uma pergunta indireta com expressões como 'Could you tell me...?', a ordem interna fica normal: sujeito e depois verbo, sem inversão e sem 'do/does'. Neste caso, o sujeito é 'this jacket' e o verbo leva o -s de terceira pessoa: 'Could you tell me how much this jacket COSTS?'. Portanto, a resposta correta é COSTS."
       },
       {
         "id": "f2m36",
@@ -672,7 +672,7 @@
       {
         "id": "f2m52",
         "topic": "Possessive Before -ing",
-        "question": "What caused _____ changing her mind so suddenly?",
+        "question": "Nobody understood _____ leaving the party so early.",
         "options": [
           "she",
           "hers",
@@ -680,7 +680,7 @@
           "herself"
         ],
         "correct": 2,
-        "explanation": "Quando queremos indicar de quem é o comportamento descrito pelo verbo com -ing, usamos a forma possessiva ou pronome objeto antes do -ing. Neste caso, o que causou foi o ato dela mudar de ideia: 'What caused HER changing her mind?'. 'Her' é a forma aceita antes de -ing. Portanto, a resposta correta é HER."
+        "explanation": "Quando queremos indicar de quem é a ação descrita pelo verbo com -ing, usamos a forma possessiva antes do -ing. Neste caso, quem saiu da festa foi ela: 'Nobody understood HER leaving the party so early'. Portanto, a resposta correta é HER."
       },
       {
         "id": "f2m53",
@@ -750,7 +750,7 @@
       {
         "id": "f2m58",
         "topic": "So / Neither – Disagreement",
-        "question": "I never watch TV., Really? I _____ every night! (disagreement)",
+        "question": "I never watch TV. Really? I _____ every night! (disagreement)",
         "options": [
           "neither do",
           "don't",
@@ -763,7 +763,7 @@
       {
         "id": "f2m59",
         "topic": "So / Neither – Disagreement",
-        "question": "I love classical music., Really? I _____! (disagreement)",
+        "question": "I love classical music. Really? I _____! (disagreement)",
         "options": [
           "do too",
           "don't",
@@ -776,7 +776,7 @@
       {
         "id": "f2m60",
         "topic": "So / Neither – Disagreement",
-        "question": "I've already seen that film., Have you? I _____! I just bought the tickets! (disagreement)",
+        "question": "I've already seen that film. Have you? I _____! I just bought the tickets! (disagreement)",
         "options": [
           "have",
           "haven't",
@@ -789,7 +789,7 @@
       {
         "id": "f2m61",
         "topic": "So / Neither – Disagreement",
-        "question": "I'm not feeling well today., Aren't you? I _____ great! (disagreement)",
+        "question": "I'm not feeling well today. Aren't you? I _____ great! (disagreement)",
         "options": [
           "am feeling",
           "am not feeling",
@@ -964,28 +964,28 @@
       {
         "id": "f2f09",
         "topic": "Defining vs Non-Defining Clauses",
-        "question": "The film _____ won the Oscar was disappointing.",
+        "question": "The film, _____ won the Oscar last year, was disappointing.",
         "options": [
-          "which / that",
           "which",
           "that",
-          "All of the above"
+          "who",
+          "whose"
         ],
-        "correct": 3,
-        "explanation": "Quando queremos identificar de qual coisa estamos falando (escolher um de vários) usamos 'which' ou 'that' sem vírgulas. Neste caso, estamos dizendo qual filme: 'The film WHICH/THAT won the Oscar', os dois funcionam igualmente. Portanto, a resposta correta é ALL OF THE ABOVE (which / that)."
+        "correct": 0,
+        "explanation": "Quando a informação vem entre vírgulas, ela é um detalhe extra (non-defining) e 'that' nunca pode ser usado nessa posição. Como estamos falando de uma coisa (o filme), o pronome é 'which': 'The film, WHICH won the Oscar last year, was disappointing'. Portanto, a resposta correta é WHICH."
       },
       {
         "id": "f2f10",
         "topic": "Verbs of Opinion",
         "question": "What do you think _____ their new house?",
         "options": [
-          "of",
+          "on",
           "about",
           "for",
           "at"
         ],
         "correct": 1,
-        "explanation": "Quando queremos pedir a opinião de alguém sobre algo, usamos 'think about', a preposição padrão para expressar opinião ou reflexão. Neste caso, estamos perguntando o que a pessoa acha da casa nova: 'What do you think ABOUT their new house?' Portanto, a resposta correta é ABOUT."
+        "explanation": "Quando queremos pedir a opinião de alguém sobre algo, usamos 'What do you think ABOUT...?'. As preposições 'on', 'for' e 'at' não funcionam com 'think' nesse sentido. Neste caso, estamos perguntando o que a pessoa acha da casa nova. Portanto, a resposta correta é ABOUT."
       },
       {
         "id": "f2f11",
@@ -1396,12 +1396,12 @@
         "question": "The man _____ stole the bag has been arrested.",
         "options": [
           "who",
-          "that",
-          "who / that",
-          "All of the above"
+          "which",
+          "whose",
+          "what"
         ],
-        "correct": 3,
-        "explanation": "Quando queremos identificar de qual pessoa estamos falando (sem vírgulas, pois a informação é essencial) podemos usar 'who' ou 'that'. Neste caso, ambos funcionam igualmente: 'The man WHO/THAT stole the bag'. Portanto, a resposta correta é ALL OF THE ABOVE."
+        "correct": 0,
+        "explanation": "Quando a oração relativa identifica de qual pessoa estamos falando, sem vírgulas, usamos 'who'. 'Which' serve para coisas, 'whose' indica posse e 'what' não funciona como pronome relativo aqui. Neste caso: 'The man WHO stole the bag has been arrested'. Portanto, a resposta correta é WHO."
       },
       {
         "id": "f2f43",
@@ -1549,7 +1549,7 @@
       {
         "id": "f2f54",
         "topic": "Order of Adverbs",
-        "question": "I _____ go to bed late. (almost never)",
+        "question": "I _____ to bed late. (almost never)",
         "options": [
           "almost never go",
           "go almost never",
@@ -1562,15 +1562,15 @@
       {
         "id": "f2f55",
         "topic": "Order of Adverbs",
-        "question": "They arrived _____ at the station. (Choose the correct order: 'early' and 'yesterday')",
+        "question": "They arrived at the station _____. (Choose the correct order: 'early' and 'yesterday')",
         "options": [
           "yesterday early",
           "early yesterday",
-          "early at station yesterday",
-          "yesterday at station early"
+          "yesterday at early",
+          "early at yesterday"
         ],
         "correct": 1,
-        "explanation": "Quando usamos advérbios de tempo juntos, a regra geral é: informações mais específicas (hora, posição no dia) vêm antes de informações mais amplas (dia, data). Neste caso, 'early' (cedo, parte do dia) vem antes de 'yesterday' (o dia específico): 'They arrived EARLY YESTERDAY'. Portanto, a resposta correta é EARLY YESTERDAY."
+        "explanation": "Quando usamos dois advérbios de tempo juntos, a informação mais específica (a hora, a parte do dia) vem antes da mais ampla (o dia). Neste caso, 'early' vem antes de 'yesterday': 'They arrived at the station EARLY YESTERDAY'. Portanto, a resposta correta é EARLY YESTERDAY."
       }
     ]
   },

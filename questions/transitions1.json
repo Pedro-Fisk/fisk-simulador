@@ -165,7 +165,7 @@
       {
         "id": "t1m13",
         "topic": "Prepositions + V-ing",
-        "question": "I take a shower _____ going to school.",
+        "question": "I take a shower _____ to school.",
         "options": [
           "before to go",
           "before go",
@@ -964,10 +964,10 @@
       {
         "id": "t1f04",
         "topic": "Have / Has Got",
-        "question": "Have you got a smartphone?, Yes, _____.",
+        "question": "Have you got a smartphone? _____ (long answer)",
         "options": [
           "Yes, I've got.",
-          "Yes, I have got a smartphone.",
+          "Yes, I am got a smartphone.",
           "Yes, I do.",
           "Yes, I've got a smartphone."
         ],
@@ -977,7 +977,7 @@
       {
         "id": "t1f05",
         "topic": "Have / Has Got",
-        "question": "She _____ to go. It's urgent. (she has to = have got to)",
+        "question": "She _____ go. It's urgent.",
         "options": [
           "has got",
           "has to got",
@@ -985,7 +985,7 @@
           "have got to"
         ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que alguém tem a obrigação de fazer algo, podemos usar HAS GOT TO seguido do verbo (tem o mesmo sentido de HAS TO. Neste caso, ela precisa ir embora com urgência) é uma necessidade clara. Portanto, a resposta correta é 'HAS GOT TO'."
+        "explanation": "Quando queremos dizer que alguém tem a obrigação de fazer algo, podemos usar HAS GOT TO seguido do verbo, com o mesmo sentido de HAS TO. Neste caso, ela precisa ir embora com urgência, é uma necessidade clara. Portanto, a resposta correta é 'HAS GOT TO'."
       },
       {
         "id": "t1f06",
@@ -1003,7 +1003,7 @@
       {
         "id": "t1f07",
         "topic": "Present Perfect (Ever/Never)",
-        "question": "Have you ever traveled to the USA?, No, I _____ traveled there.",
+        "question": "Have you ever traveled to the USA? No, I _____ traveled there.",
         "options": [
           "haven't ever",
           "have never",
@@ -1016,7 +1016,7 @@
       {
         "id": "t1f08",
         "topic": "Present Perfect (Already/Yet)",
-        "question": "Has the teacher corrected the test?, Yes, she's _____ corrected it.",
+        "question": "Has the teacher corrected the test? Yes, she's _____ corrected it.",
         "options": [
           "yet",
           "never",
@@ -1107,7 +1107,7 @@
       {
         "id": "t1f15",
         "topic": "Must / Have To",
-        "question": "What _____ you do before lunch?, I must wash my hands.",
+        "question": "What _____ you do before lunch? I must wash my hands.",
         "options": [
           "do must",
           "must",
@@ -1146,7 +1146,7 @@
       {
         "id": "t1f18",
         "topic": "Be Able To – Future/Conditional",
-        "question": "When _____ you cook dinner for 6 people?",
+        "question": "When _____ cook dinner for 6 people?",
         "options": [
           "will you be able",
           "you will able to",
@@ -1154,12 +1154,12 @@
           "can you will"
         ],
         "correct": 2,
-        "explanation": "Quando queremos perguntar sobre algo que alguém vai conseguir fazer no futuro, usamos WILL BE ABLE TO. Porque não existe 'will can'. Neste caso, a pergunta é sobre quando a pessoa vai conseguir preparar um jantar para seis pessoas, é uma capacidade futura. Portanto, a resposta correta é 'WILL YOU BE ABLE TO'."
+        "explanation": "Quando queremos perguntar sobre algo que alguém vai conseguir fazer no futuro, usamos WILL BE ABLE TO, porque não existe 'will can'. Neste caso, a pergunta é sobre quando a pessoa vai conseguir preparar um jantar para seis pessoas, é uma capacidade futura. Portanto, a resposta correta é 'WILL YOU BE ABLE TO'."
       },
       {
         "id": "t1f19",
         "topic": "Prepositions + V-ing (Interest/Opinion)",
-        "question": "I am interested _____ studying history.",
+        "question": "I am interested _____ history.",
         "options": [
           "to study",
           "in to study",
@@ -1640,7 +1640,7 @@
       {
         "id": "t1f56",
         "topic": "Must / Have To",
-        "question": "_____ you wear a uniform at your school?",
+        "question": "_____ wear a uniform at your school?",
         "options": [
           "Must",
           "Do you have to",

@@ -880,7 +880,7 @@
       {
         "id": "ifm68",
         "topic": "Mixed Conditionals",
-        "question": "_____ he had taken the scholarship, he'd be a professor now.",
+        "question": "_____ he taken the scholarship, he'd be a professor now.",
         "options": [
           "If",
           "Were",
@@ -888,7 +888,7 @@
           "Should"
         ],
         "correct": 2,
-        "explanation": "A inversão formal 'Had + sujeito + particípio' substitui 'If + sujeito + had + particípio' no Terceiro Condicional e em condicionais mistos. Aqui, 'Had he taken the scholarship' é a forma invertida de 'If he had taken the scholarship', expressando algo que não aconteceu no passado com impacto no presente. Portanto, a resposta correta é HAD."
+        "explanation": "A inversão formal 'Had + sujeito + particípio' substitui 'If + sujeito + had + particípio' no Terceiro Condicional e nos condicionais mistos. Aqui, 'Had he taken the scholarship' é a forma invertida de 'If he had taken the scholarship', e expressa algo que não aconteceu no passado com impacto no presente. Portanto, a resposta correta é HAD."
       },
       {
         "id": "ifm69",
@@ -1049,7 +1049,7 @@
       {
         "id": "ifm81",
         "topic": "Compound Adjectives",
-        "question": "How do you call a lake made by man?",
+        "question": "What do you call a lake made by man?",
         "options": [
           "a man-made lake",
           "a made-man lake",
@@ -1062,7 +1062,7 @@
       {
         "id": "ifm82",
         "topic": "Compound Adjectives",
-        "question": "How do you call a trip that lasts 10 days?",
+        "question": "What do you call a trip that lasts 10 days?",
         "options": [
           "a 10-day trip",
           "a 10-days trip",
@@ -1075,7 +1075,7 @@
       {
         "id": "ifm83",
         "topic": "Compound Adjectives",
-        "question": "How do you call alligators that are four meters long?",
+        "question": "What do you call alligators that are four meters long?",
         "options": [
           "four-meter-long alligators",
           "four-meters-long alligators",
@@ -1088,7 +1088,7 @@
       {
         "id": "ifm84",
         "topic": "Compound Adjectives",
-        "question": "How do you call a battery that works on solar power?",
+        "question": "What do you call a battery that works on solar power?",
         "options": [
           "a solar-powered battery",
           "a solar-powering battery",
@@ -1101,7 +1101,7 @@
       {
         "id": "ifm85",
         "topic": "Compound Adjectives",
-        "question": "How do you call a situation that threatens someone's life?",
+        "question": "What do you call a situation that threatens someone's life?",
         "options": [
           "a life-threatening situation",
           "a life-threatened situation",
@@ -1153,7 +1153,7 @@
       {
         "id": "ifm89",
         "topic": "Emphatic Forms – Do/Does/Did",
-        "question": "A: You never call me.  B: I _____ call you last night!",
+        "question": "A: You never call me. B: I _____ call you last night!",
         "options": [
           "did",
           "do",
@@ -2498,15 +2498,15 @@
       {
         "id": "iff82",
         "topic": "Inversion",
-        "question": "So complicated _____ the instructions that nobody could follow them.",
+        "question": "So complicated _____ that nobody could follow them.",
         "options": [
-          "they were",
-          "were they",
-          "did they be",
-          "they had been"
+          "were the instructions",
+          "the instructions were",
+          "did the instructions be",
+          "the instructions had been"
         ],
-        "correct": 1,
-        "explanation": "A estrutura 'So + adjetivo + be + sujeito + that...' é uma forma enfática invertida de dizer 'The instructions were so complicated that...'. Quando 'so + adjetivo' inicia a frase, o verbo vem antes do sujeito. Esta construção destaca um grau extremo de uma qualidade. Portanto, a resposta correta é WERE THEY."
+        "correct": 0,
+        "explanation": "A estrutura 'So + adjetivo + be + sujeito + that...' é uma forma enfática de dizer 'The instructions were so complicated that...'. Quando 'so + adjetivo' abre a frase, a inversão é obrigatória: o verbo vem antes do sujeito. Portanto, a resposta correta é WERE THE INSTRUCTIONS."
       },
       {
         "id": "iff83",
@@ -2948,7 +2948,7 @@
           "Venice, which I visited last summer, is fascinating."
         ],
         "correct": 0,
-        "explanation": "O pronome relativo só pode ser omitido quando ele é OBJETO da oração relativa. Em \"the manuscript that we found\", quem encontrou foi \"we\", então \"that\" é objeto e pode sair. Nas outras, o pronome é sujeito ou a oração é explicativa. Portanto, a resposta correta é a primeira."
+        "explanation": "O pronome relativo só pode ser omitido quando ele é OBJETO da oração relativa. Em \"the manuscript that we found\", quem encontrou foi \"we\", então \"that\" é objeto e pode sair. Nas demais frases o pronome é sujeito, ou a oração é explicativa e vem entre vírgulas. Portanto, a resposta correta é THE MANUSCRIPT THAT WE FOUND IN THE CAVE WILL BE AUCTIONED."
       },
       {
         "id": "iff117",
@@ -2974,7 +2974,7 @@
           "Yes, relative pronouns can always be omitted."
         ],
         "correct": 0,
-        "explanation": "Quem está de terno cinza é o próprio homem, ou seja, \"who\" é o sujeito de \"is wearing\". Sujeito nunca pode ser omitido, senão a oração fica sem quem pratica a ação. Portanto, a resposta correta é a primeira."
+        "explanation": "Quem está de terno cinza é o próprio homem, ou seja, \"who\" é o sujeito de \"is wearing\". Sujeito nunca pode ser omitido, senão a oração fica sem quem pratica a ação. Portanto, a resposta correta é NO, BECAUSE IT IS THE SUBJECT OF THE RELATIVE CLAUSE."
       },
       {
         "id": "iff119",
@@ -2987,7 +2987,7 @@
           "The man is wearing a gray suit donated it."
         ],
         "correct": 0,
-        "explanation": "Só a primeira omite um pronome que era objeto (\"the man whom you talked to\"). Nas outras três, o pronome omitido era sujeito, e a frase fica com dois verbos sem ligação. Portanto, a resposta correta é a primeira."
+        "explanation": "Só uma das frases omite um pronome que era OBJETO: em \"the man you talked to at the conference\", o pronome omitido é \"whom\", objeto da preposição \"to\". Nas outras, o pronome omitido era sujeito, e a frase fica com dois verbos sem ligação. Portanto, a resposta correta é THE MAN YOU TALKED TO AT THE CONFERENCE IS OUR NEW EDITOR."
       },
       {
         "id": "iff120",
@@ -3122,7 +3122,7 @@
       {
         "id": "iff130",
         "topic": "Confusing Words",
-        "question": "A: Can I _____ your phone?  B: Sorry. That's the only thing I never _____ to anyone.",
+        "question": "A: Can I _____ your phone? B: Sorry. That's the only thing I never _____ to anyone.",
         "options": [
           "borrow / lend",
           "lend / borrow",
@@ -4220,7 +4220,7 @@
       {
         "id": "ifmet64",
         "topic": "Tag Questions & Short Answers",
-        "question": "A: I don't enjoy horror films.   B: _____.",
+        "question": "A: I don't enjoy horror films. B: _____.",
         "options": [
           "Neither do I",
           "So do I",
@@ -4233,7 +4233,7 @@
       {
         "id": "ifmet65",
         "topic": "Tag Questions & Short Answers",
-        "question": "A: I've already finished my part.   B: _____.",
+        "question": "A: I've already finished my part. B: _____.",
         "options": [
           "So have I",
           "Neither have I",

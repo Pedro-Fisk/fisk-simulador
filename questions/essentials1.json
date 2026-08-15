@@ -87,7 +87,7 @@
       {
         "id": "e1m07",
         "topic": "Do / Does – Short Answers",
-        "question": "Does he live in Paris?, ___________",
+        "question": "Does he live in Paris? _____ (short answer)",
         "options": [
           "Yes, he does.",
           "Yes, he do.",
@@ -243,12 +243,12 @@
       {
         "id": "e1m19",
         "topic": "Nationality / To Be",
-        "question": "Is Laura Japanese?, No, ___________ (short answer)",
+        "question": "Is Laura Japanese? _____ (short answer)",
         "options": [
-          "she isn't.",
-          "she doesn't.",
-          "she isn't Japanese.",
-          "no, isn't she."
+          "No, she isn't.",
+          "No, she doesn't.",
+          "No, she aren't.",
+          "No, she not is."
         ],
         "correct": 0,
         "explanation": "Para responder negativamente a uma pergunta com o verbo 'to be', usamos a resposta curta: sujeito + verbo 'to be' negado. Neste caso, a resposta curta correta é 'she isn't'. Portanto, a resposta correta é 'SHE ISN'T'."
@@ -490,7 +490,7 @@
       {
         "id": "e1m38",
         "topic": "Question Words",
-        "question": "_____ is your birthday?, It's on June 15th.",
+        "question": "_____ is your birthday? It's on June 15th.",
         "options": [
           "Who",
           "Where",
@@ -503,7 +503,7 @@
       {
         "id": "e1m39",
         "topic": "Question Words",
-        "question": "_____ is this?, It's a laptop.",
+        "question": "_____ is this? It's a laptop.",
         "options": [
           "Who",
           "Where",
@@ -516,7 +516,7 @@
       {
         "id": "e1m40",
         "topic": "Question Words",
-        "question": "_____ do you study English?, Because I want to travel.",
+        "question": "_____ do you study English? Because I want to travel.",
         "options": [
           "When",
           "Why",
@@ -529,7 +529,7 @@
       {
         "id": "e1m41",
         "topic": "Do / Does – Short Answers",
-        "question": "Do they play tennis?, No, ___________",
+        "question": "Do they play tennis? _____ (short answer)",
         "options": [
           "No, they don't.",
           "No, they doesn't.",
@@ -542,7 +542,7 @@
       {
         "id": "e1m42",
         "topic": "Do / Does – Short Answers",
-        "question": "Does your sister like chocolate?, Yes, ___________",
+        "question": "Does your sister like chocolate? _____ (short answer)",
         "options": [
           "Yes, she do.",
           "Yes, she does.",
@@ -555,7 +555,7 @@
       {
         "id": "e1m43",
         "topic": "Do / Does – Short Answers",
-        "question": "Do you speak French?, No, ___________",
+        "question": "Do you speak French? _____ (short answer)",
         "options": [
           "No, I doesn't.",
           "No, I aren't.",
@@ -568,7 +568,7 @@
       {
         "id": "e1m44",
         "topic": "Do / Does – Short Answers",
-        "question": "Does Peter live near here?, No, ___________",
+        "question": "Does Peter live near here? _____ (short answer)",
         "options": [
           "No, he doesn't.",
           "No, he don't.",
@@ -841,7 +841,7 @@
       {
         "id": "e1m65",
         "topic": "Nationality / To Be",
-        "question": "Where are you from?, I _____ from Canada.",
+        "question": "Where are you from? I _____ from Canada.",
         "options": [
           "do",
           "does",
@@ -854,7 +854,7 @@
       {
         "id": "e1m66",
         "topic": "Nationality / To Be",
-        "question": "Is Paulo Spanish?, No, he _____ Spanish. He's Portuguese.",
+        "question": "Is Paulo Spanish? No, he _____ Spanish. He's Portuguese.",
         "options": [
           "isn't",
           "doesn't",
@@ -867,7 +867,7 @@
       {
         "id": "e1m67",
         "topic": "Nationality / To Be",
-        "question": "What is Mia's nationality?, She _____ French.",
+        "question": "What is Mia's nationality? She _____ French.",
         "options": [
           "are",
           "am",
@@ -992,7 +992,7 @@
           "27"
         ],
         "correct": 2,
-        "explanation": "O alfabeto inglês tem 26 letras, de A a Z. É importante memorizar esse número, pois ele é diferente de outros alfabetos, como o do português (com 26 letras também, mas incluindo K, W e Y). Portanto, a resposta correta é '26'."
+        "explanation": "O alfabeto inglês tem 26 letras, de A a Z — o mesmo número do alfabeto português. A diferença não está na quantidade, e sim no NOME das letras, que em inglês é totalmente diferente (H é 'aitch' e W é 'double-u', por exemplo). Portanto, a resposta correta é '26'."
       },
       {
         "id": "e1m77",
@@ -1055,11 +1055,11 @@
       {
         "id": "e1f01",
         "topic": "Past Simple – Did (Regular Verbs)",
-        "question": "Did you watch a comedy last night?, Yes, ___________",
+        "question": "Did you watch a comedy last night? _____ (long answer)",
         "options": [
-          "Yes, I watched.",
-          "Yes, I did watch.",
-          "Yes, I watch.",
+          "Yes, I watch a comedy last night.",
+          "Yes, I did watched a comedy last night.",
+          "Yes, I watching a comedy last night.",
           "Yes, I watched a comedy last night."
         ],
         "correct": 3,
@@ -1068,12 +1068,12 @@
       {
         "id": "e1f02",
         "topic": "Past Simple – Did (Regular Verbs)",
-        "question": "Did she cry during the drama?, No, ___________",
+        "question": "Did she cry during the drama? _____ (long answer)",
         "options": [
           "No, she didn't cry during the drama.",
-          "No, she cried.",
-          "No, she don't cry.",
-          "No, she wasn't cry."
+          "No, she didn't cried during the drama.",
+          "No, she don't cry during the drama.",
+          "No, she wasn't cry during the drama."
         ],
         "correct": 0,
         "explanation": "Quando queremos dizer que não fizemos algo no passado, usamos 'didn't' + o verbo na forma simples, sem -ed. Neste caso, a resposta é negativa sobre chorar durante o drama. Portanto, a resposta correta é 'No, she DIDN'T CRY during the drama'."
@@ -1094,7 +1094,7 @@
       {
         "id": "e1f04",
         "topic": "Past Simple – Irregular Verbs",
-        "question": "Did Sara _____ new clothes last weekend?, Yes, she _____ new clothes.",
+        "question": "Did Sara _____ new clothes last weekend? Yes, she _____ new clothes.",
         "options": [
           "buy / buyed",
           "buy / bought",
@@ -1146,7 +1146,7 @@
       {
         "id": "e1f08",
         "topic": "Be Going To",
-        "question": "I'm _____ travel next summer.",
+        "question": "I'm _____ next summer.",
         "options": [
           "going travel",
           "go to travel",
@@ -1250,9 +1250,9 @@
       {
         "id": "e1f16",
         "topic": "Can – Ability",
-        "question": "Can your mom run 10 kilometers?, Yes, ___________",
+        "question": "Can your mom run 10 kilometers? _____ (short answer)",
         "options": [
-          "Yes, she can run.",
+          "Yes, she is.",
           "Yes, she can.",
           "Yes, she cans.",
           "Yes, she does."
@@ -1276,7 +1276,7 @@
       {
         "id": "e1f18",
         "topic": "Question Words",
-        "question": "_____ is the party?, It's on Friday. (asking about TIME)",
+        "question": "_____ is the party? It's on Friday. (asking about TIME)",
         "options": [
           "Where",
           "Who",
@@ -1289,7 +1289,7 @@
       {
         "id": "e1f19",
         "topic": "Question Words",
-        "question": "_____ do you get up on weekends?, At 9 o'clock. (asking about TIME of day)",
+        "question": "_____ do you get up on weekends? At 9 o'clock. (asking about TIME of day)",
         "options": [
           "When",
           "What time",
@@ -1588,7 +1588,7 @@
       {
         "id": "e1f42",
         "topic": "Question Words",
-        "question": "_____ did you go last weekend?, To the beach.",
+        "question": "_____ did you go last weekend? To the beach.",
         "options": [
           "When",
           "What",
@@ -1601,7 +1601,7 @@
       {
         "id": "e1f43",
         "topic": "Question Words",
-        "question": "_____ did they arrive?, At 9 p.m.",
+        "question": "_____ did they arrive? At 9 p.m.",
         "options": [
           "What",
           "How",
@@ -1614,7 +1614,7 @@
       {
         "id": "e1f44",
         "topic": "Question Words",
-        "question": "_____ did you buy at the store?, Some fruit and milk.",
+        "question": "_____ did you buy at the store? Some fruit and milk.",
         "options": [
           "Where",
           "Who",
@@ -1627,7 +1627,7 @@
       {
         "id": "e1f45",
         "topic": "Past Simple – Did (Irregular Verbs)",
-        "question": "Did you eat lunch?, No, ___________",
+        "question": "Did you eat lunch? _____ (short answer)",
         "options": [
           "No, I didn't.",
           "No, I don't.",
@@ -1835,7 +1835,7 @@
       {
         "id": "e1f61",
         "topic": "Why / Because",
-        "question": "_____ did he leave early?, Because he was tired.",
+        "question": "_____ did he leave early? Because he was tired.",
         "options": [
           "Where",
           "When",
@@ -1848,7 +1848,7 @@
       {
         "id": "e1f62",
         "topic": "Why / Because",
-        "question": "Why do they study French?, _____ they want to live in Paris.",
+        "question": "Why do they study French? _____ they want to live in Paris.",
         "options": [
           "So",
           "For",
@@ -1874,7 +1874,7 @@
       {
         "id": "e1f64",
         "topic": "Why / Because",
-        "question": "Why are you happy?, _____ I got a good grade!",
+        "question": "Why are you happy? _____ I got a good grade!",
         "options": [
           "Why",
           "So",
@@ -2082,7 +2082,7 @@
       {
         "id": "e1f80",
         "topic": "Present Continuous vs Simple Present",
-        "question": "What _____ you doing?, I'm reading a book.",
+        "question": "What _____ you doing? I'm reading a book.",
         "options": [
           "do",
           "does",

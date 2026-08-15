@@ -282,7 +282,7 @@
       {
         "id": "f1m22",
         "topic": "How Long Does It Take",
-        "question": "How long did it take you to finish the book?, It _____ me two hours.",
+        "question": "How long did it take you to finish the book? It _____ me two hours.",
         "options": [
           "takes",
           "take",
@@ -347,7 +347,7 @@
       {
         "id": "f1m27",
         "topic": "Present Perfect vs Continuous",
-        "question": "Why are your hands so dirty?, I _____ the bike.",
+        "question": "Why are your hands so dirty? I _____ the bike.",
         "options": [
           "fixed",
           "have fixed",
@@ -693,7 +693,7 @@
           "deliciousest"
         ],
         "correct": 0,
-        "explanation": "Para adjetivos longos (com mais de duas sílabas), formamos o superlativo com 'the most' antes do adjetivo, nunca adicionamos '-est'. Neste caso, 'delicious' tem quatro sílabas, então o superlativo é 'the most delicious'. Portanto, a resposta correta é 'MOST DELICIOUS'."
+        "explanation": "Para adjetivos longos (de três sílabas ou mais), formamos o superlativo com 'the most' antes do adjetivo, nunca acrescentamos '-est'. Neste caso, 'delicious' tem três sílabas (de-li-cious), então o superlativo é 'the most delicious'. Portanto, a resposta correta é 'MOST DELICIOUS'."
       },
       {
         "id": "f1m54",
@@ -776,7 +776,7 @@
       {
         "id": "f1m60",
         "topic": "Quantifiers",
-        "question": "_____ people like waking up at 5 a.m., but some do.",
+        "question": "_____ people like waking up at 5 a.m. but some do.",
         "options": [
           "A few",
           "Much",
@@ -795,7 +795,7 @@
       {
         "id": "f1f01",
         "topic": "Emphatic Do/Does/Did",
-        "question": "Does your teacher wear formal clothes?, Yes, she _____!",
+        "question": "Does your teacher wear formal clothes? Yes, she _____!",
         "options": [
           "does wear",
           "does",
@@ -1055,7 +1055,7 @@
       {
         "id": "f1f21",
         "topic": "Past Perfect",
-        "question": "We were hungry because we _____ eat all day.",
+        "question": "We were hungry because we _____ eaten all day.",
         "options": [
           "didn't",
           "hadn't",
@@ -1063,7 +1063,7 @@
           "couldn't"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que algo não havia acontecido antes de outro evento passado, usamos 'hadn't' + a forma passada do verbo. Neste caso, eles estavam com fome porque não tinham comido nada o dia todo, primeiro ficaram sem comer, depois ficaram com fome. Portanto, a resposta correta é 'HADN'T'."
+        "explanation": "Quando queremos dizer que algo não havia acontecido antes de outro momento no passado, usamos 'hadn't' + particípio. Neste caso, eles estavam com fome porque não tinham comido nada o dia todo: primeiro ficaram sem comer, depois ficaram com fome. Portanto, a resposta correta é 'HADN'T'."
       },
       {
         "id": "f1f22",

@@ -7,7 +7,7 @@
       {
         "id": "i3m01",
         "topic": "La Forma Impersonal \"Uno\"",
-        "question": "Cuando ___ vive en el extranjero, ___ aprende mucho sobre otras culturas.",
+        "question": "Cuando _____ vive en el extranjero, _____ aprende mucho sobre otras culturas.",
         "options": [
           "tú / tú",
           "uno / uno",
@@ -33,7 +33,7 @@
       {
         "id": "i3m03",
         "topic": "La Forma Impersonal \"Uno\"",
-        "question": "'En España, ___ puede tomar café a cualquier hora del día.' ¿Qué forma completa correctamente esta oración?",
+        "question": "'En España, _____ puede tomar café a cualquier hora del día.' ¿Qué forma completa correctamente esta oración?",
         "options": [
           "solo 'se'",
           "solo 'uno'",
@@ -46,7 +46,7 @@
       {
         "id": "i3m04",
         "topic": "La Forma Impersonal \"Uno\"",
-        "question": "'Si ___ quiere triunfar, ___ debe trabajar duro.' Elige la opción correcta para mantener la coherencia impersonal:",
+        "question": "'Si _____ quiere triunfar, _____ debe trabajar duro.' Elige la opción correcta para mantener la coherencia impersonal:",
         "options": [
           "uno / uno",
           "uno / tú",
@@ -59,7 +59,7 @@
       {
         "id": "i3m05",
         "topic": "Indicativo vs Subjuntivo",
-        "question": "Completa: 'Es importante que todos ___ (llegar) a tiempo.'",
+        "question": "Completa: 'Es importante que todos _____ (llegar) a tiempo.'",
         "options": [
           "llegan",
           "lleguen",
@@ -85,7 +85,7 @@
       {
         "id": "i3m07",
         "topic": "Indicativo vs Subjuntivo",
-        "question": "'No creo que ellos ___ (tener) razón.' ¿Qué forma es correcta?",
+        "question": "'No creo que ellos _____ (tener) razón.' ¿Qué forma es correcta?",
         "options": [
           "tienen",
           "tengan",
@@ -98,7 +98,7 @@
       {
         "id": "i3m08",
         "topic": "Indicativo vs Subjuntivo",
-        "question": "'Ojalá ___ (hacer) buen tiempo mañana.' Completa correctamente:",
+        "question": "'Ojalá _____ (hacer) buen tiempo mañana.' Completa correctamente:",
         "options": [
           "hace",
           "hará",
@@ -111,7 +111,7 @@
       {
         "id": "i3m09",
         "topic": "Indicativo vs Subjuntivo",
-        "question": "'Me alegra que tú ___ (estar) bien.' ¿Qué modo verbal se necesita?",
+        "question": "'Me alegra que tú _____ (estar) bien.' ¿Qué modo verbal se necesita?",
         "options": [
           "estás",
           "estés",
@@ -124,7 +124,7 @@
       {
         "id": "i3m10",
         "topic": "Aunque + Indicativo / Subjuntivo",
-        "question": "'Aunque ___ (llover), voy a salir.' (El hablante sabe que está lloviendo ahora.) ¿Qué forma es correcta?",
+        "question": "'Aunque _____ (llover), voy a salir.' (El hablante sabe que está lloviendo ahora.) ¿Qué forma es correcta?",
         "options": [
           "llueva",
           "llueve",
@@ -137,7 +137,7 @@
       {
         "id": "i3m11",
         "topic": "Aunque + Indicativo / Subjuntivo",
-        "question": "'Aunque ___ (llover) mañana, voy a salir.' (El hablante no sabe si lloverá.) ¿Qué forma es correcta?",
+        "question": "'Aunque _____ (llover) mañana, voy a salir.' (El hablante no sabe si lloverá.) ¿Qué forma es correcta?",
         "options": [
           "llueve",
           "llueva",
@@ -163,7 +163,7 @@
       {
         "id": "i3m13",
         "topic": "Aunque + Indicativo / Subjuntivo",
-        "question": "'Aunque mis padres no ___ (querer), voy a estudiar en el extranjero.' (Situación hipotética futura.) ¿Qué forma es correcta?",
+        "question": "'Aunque mis padres no _____ (querer), voy a estudiar en el extranjero.' (Situación hipotética futura.) ¿Qué forma es correcta?",
         "options": [
           "quieren",
           "quieran",
@@ -176,7 +176,7 @@
       {
         "id": "i3m14",
         "topic": "Perífrasis Verbales",
-        "question": "Voy a terminar mi café y ___ salir. ¿Cuál es la perífrasis que indica que la acción está a punto de ocurrir?",
+        "question": "Voy a terminar mi café y _____ salir. ¿Cuál es la perífrasis que indica que la acción está a punto de ocurrir?",
         "options": [
           "estoy a punto de",
           "acabo de",
@@ -189,7 +189,7 @@
       {
         "id": "i3m15",
         "topic": "Perífrasis Verbales",
-        "question": "'¡___ quejarte tanto y ponte a trabajar!' ¿Cuál es la perífrasis correcta?",
+        "question": "'¡_____ quejarte tanto y ponte a trabajar!' ¿Cuál es la perífrasis correcta?",
         "options": [
           "Empieza a",
           "Deja de",
@@ -202,7 +202,7 @@
       {
         "id": "i3m16",
         "topic": "Perífrasis Verbales",
-        "question": "'El cantante ___ cantar la misma canción en todos sus conciertos.' (Indica costumbre habitual.) ¿Cuál es la opción correcta?",
+        "question": "'El cantante _____ cantar la misma canción en todos sus conciertos.' (Indica costumbre habitual.) ¿Cuál es la opción correcta?",
         "options": [
           "sigue",
           "acaba de",
@@ -215,7 +215,7 @@
       {
         "id": "i3m17",
         "topic": "Perífrasis Verbales",
-        "question": "'Llevamos dos horas esperando y el médico ___ llegar.' (La llegada es inminente.) ¿Cuál es la opción correcta?",
+        "question": "'Llevamos dos horas esperando y el médico _____ llegar.' (La llegada es inminente.) ¿Cuál es la opción correcta?",
         "options": [
           "acaba de",
           "está a punto de",
@@ -228,7 +228,7 @@
       {
         "id": "i3m18",
         "topic": "El de... / El que...",
-        "question": "'¿Cuál es tu coche?' 'El ___ allí, el azul.' ¿Qué forma es correcta?",
+        "question": "'¿Cuál es tu coche?' 'Es _____ allí, el azul.' ¿Qué forma es correcta?",
         "options": [
           "la de",
           "lo de",
@@ -241,7 +241,7 @@
       {
         "id": "i3m19",
         "topic": "El de... / El que...",
-        "question": "'Mi libro es interesante, pero ___ María es mejor.' ¿Cómo completar?",
+        "question": "'Mi libro es interesante, pero _____ María es mejor.' ¿Cómo completar?",
         "options": [
           "la de",
           "el de",
@@ -254,7 +254,7 @@
       {
         "id": "i3m20",
         "topic": "El de... / El que...",
-        "question": "'Prefiero esta propuesta. ___ presentaron ayer era muy confusa.' ¿Cuál es la opción correcta?",
+        "question": "'Prefiero esta propuesta. _____ presentaron ayer era muy confusa.' ¿Cuál es la opción correcta?",
         "options": [
           "El de",
           "La de",
@@ -267,7 +267,7 @@
       {
         "id": "i3m21",
         "topic": "El de... / El que...",
-        "question": "'¿Cuál de las dos blusas te gusta más?' 'Me gusta ___ tiene flores.'",
+        "question": "'¿Cuál de las dos blusas te gusta más?' 'Me gusta _____ tiene flores.'",
         "options": [
           "el que",
           "la que",
@@ -280,7 +280,7 @@
       {
         "id": "i3m22",
         "topic": "Pero / Sino (que)",
-        "question": "'No fui al cine ___ al teatro.' ¿Qué conjunción es correcta?",
+        "question": "'No fui al cine _____ al teatro.' ¿Qué conjunción es correcta?",
         "options": [
           "pero",
           "sino",
@@ -293,7 +293,7 @@
       {
         "id": "i3m23",
         "topic": "Pero / Sino (que)",
-        "question": "'No caminé hasta allí, ___ tomé un taxi.' ¿Cuál es la conjunción correcta?",
+        "question": "'No caminé hasta allí, _____ tomé un taxi.' ¿Cuál es la conjunción correcta?",
         "options": [
           "pero",
           "sino",
@@ -306,7 +306,7 @@
       {
         "id": "i3m24",
         "topic": "Pero / Sino (que)",
-        "question": "'Me gusta el café ___ prefiero el té por la mañana.' ¿Qué conjunción es correcta?",
+        "question": "'Me gusta el café _____ prefiero el té por la mañana.' ¿Qué conjunción es correcta?",
         "options": [
           "sino",
           "sino que",
@@ -319,7 +319,7 @@
       {
         "id": "i3m25",
         "topic": "Pero / Sino (que)",
-        "question": "'No es alemán, ___ holandés.' ¿Qué conjunción es correcta?",
+        "question": "'No es alemán, _____ holandés.' ¿Qué conjunción es correcta?",
         "options": [
           "pero",
           "sino que",
@@ -332,7 +332,7 @@
       {
         "id": "i3m26",
         "topic": "Superlativo",
-        "question": "'Este es ___ restaurante de la ciudad.' ¿Cuál es el superlativo correcto?",
+        "question": "'Este es _____ restaurante de la ciudad.' ¿Cuál es el superlativo correcto?",
         "options": [
           "el más bueno",
           "el mejor",
@@ -345,7 +345,7 @@
       {
         "id": "i3m27",
         "topic": "Superlativo",
-        "question": "'Este edificio es ___ del barrio.' (Se refiere a su gran altura.) ¿Cuál es el superlativo correcto?",
+        "question": "'Este edificio es _____ del barrio.' (Se refiere a su gran altura.) ¿Cuál es el superlativo correcto?",
         "options": [
           "el más alto",
           "el altísimo",
@@ -371,7 +371,7 @@
       {
         "id": "i3m29",
         "topic": "Superlativo",
-        "question": "'Sacó ___ nota de todos los estudiantes.' ¿Cuál es el superlativo correcto?",
+        "question": "'Sacó _____ nota de todos los estudiantes.' ¿Cuál es el superlativo correcto?",
         "options": [
           "la más mala",
           "la menor",
@@ -384,7 +384,7 @@
       {
         "id": "i3m30",
         "topic": "SE Impersonal (avanzado)",
-        "question": "'¿Cómo ___ dice \"obrigado\" en español?' ¿Qué forma es correcta?",
+        "question": "'¿Cómo _____ dice \"obrigado\" en español?' ¿Qué forma es correcta?",
         "options": [
           "te",
           "le",
@@ -397,7 +397,7 @@
       {
         "id": "i3m31",
         "topic": "SE Impersonal (avanzado)",
-        "question": "'___ alquilan apartamentos.' ¿Cuál es la forma correcta del verbo?",
+        "question": "'_____ apartamentos en este edificio.' ¿Cuál es la forma correcta del verbo (alquilar)?",
         "options": [
           "Se alquila",
           "Se alquilan",
@@ -423,7 +423,7 @@
       {
         "id": "i3m33",
         "topic": "SE Impersonal (avanzado)",
-        "question": "'___ necesitan camareros con experiencia.' ¿Qué forma del verbo es correcta?",
+        "question": "'_____ camareros con experiencia.' ¿Qué forma del verbo (necesitar) es correcta?",
         "options": [
           "Se necesita",
           "Se necesitan",
@@ -436,7 +436,7 @@
       {
         "id": "i3m34",
         "topic": "Pretérito Imperfecto de Subjuntivo",
-        "question": "'Quería que tú ___ (hablar) más despacio.' ¿Cuál es la forma correcta?",
+        "question": "'Quería que tú _____ (hablar) más despacio.' ¿Cuál es la forma correcta?",
         "options": [
           "hablas",
           "hablarías",
@@ -449,7 +449,7 @@
       {
         "id": "i3m35",
         "topic": "Pretérito Imperfecto de Subjuntivo",
-        "question": "'Me pidieron que ___ (venir) temprano.' ¿Cuál es la forma correcta?",
+        "question": "'Me pidieron que _____ (venir) temprano.' ¿Cuál es la forma correcta?",
         "options": [
           "venga",
           "vengas",
@@ -462,7 +462,7 @@
       {
         "id": "i3m36",
         "topic": "Pretérito Imperfecto de Subjuntivo",
-        "question": "'El profesor esperaba que los estudiantes ___ (leer) el libro.' ¿Cuál es la forma correcta?",
+        "question": "'El profesor esperaba que los estudiantes _____ (leer) el libro.' ¿Cuál es la forma correcta?",
         "options": [
           "leeran",
           "leyeran",
@@ -488,20 +488,20 @@
       {
         "id": "i3m38",
         "topic": "Pretérito Imperfecto de Subjuntivo",
-        "question": "'Ojalá ___ (tener) más tiempo libre cuando era estudiante.' ¿Cuál es la forma correcta?",
+        "question": "'Ojalá _____ (tener) más tiempo libre cuando era estudiante.' ¿Cuál es la forma correcta?",
         "options": [
           "tenga",
-          "tuviera",
+          "hubiera tenido",
           "tendría",
           "tuve"
         ],
         "correct": 1,
-        "explanation": "'Ojalá' com referência a uma situação passada usa o Pretérito Imperfeito do Subjuntivo: 'ojalá tuviera' = tomara eu tivesse (desejo não realizado no passado)."
+        "explanation": "'Ojalá' sempre pede subjuntivo. Para um desejo que não se realizou no passado, usa-se o Pretérito Mais-que-Perfeito do Subjuntivo: 'ojalá hubiera tenido más tiempo libre'. O imperfeito ('tuviera') serviria para um desejo improvável sobre o presente ou o futuro. Portanto, a resposta correta é 'HUBIERA TENIDO'."
       },
       {
         "id": "i3m39",
         "topic": "Pretérito Imperfecto de Subjuntivo",
-        "question": "'Le aconsejé que ___ (hacer) más ejercicio.' ¿Cuál es la forma correcta?",
+        "question": "'Le aconsejé que _____ (hacer) más ejercicio.' ¿Cuál es la forma correcta?",
         "options": [
           "haga",
           "hiciera",
@@ -514,7 +514,7 @@
       {
         "id": "i3m79",
         "topic": "Pretérito Imperfecto de Subjuntivo",
-        "question": "'Si yo ___ (saber) la respuesta, te la diría.' ¿Cuál es la forma correcta?",
+        "question": "'Si yo _____ (saber) la respuesta, te la diría.' ¿Cuál es la forma correcta?",
         "options": [
           "sabría",
           "supiera",
@@ -540,7 +540,7 @@
       {
         "id": "i3m40",
         "topic": "Si + Pretérito Imperfecto de Subjuntivo + Condicional",
-        "question": "'Si ___ (tener) dinero, ___ (viajar) por el mundo.' ¿Cuál es la forma correcta?",
+        "question": "'Si _____ (tener) dinero, _____ (viajar) por el mundo.' ¿Cuál es la forma correcta?",
         "options": [
           "tengo / viajo",
           "tuviera / viajaría",
@@ -553,7 +553,7 @@
       {
         "id": "i3m41",
         "topic": "Si + Pretérito Imperfecto de Subjuntivo + Condicional",
-        "question": "'Si yo ___ (ser) presidente, ___ (cambiar) muchas cosas.' ¿Cuál es la opción correcta?",
+        "question": "'Si yo _____ (ser) presidente, _____ (cambiar) muchas cosas.' ¿Cuál es la opción correcta?",
         "options": [
           "sea / cambiaría",
           "fuera / cambiaría",
@@ -566,7 +566,7 @@
       {
         "id": "i3m42",
         "topic": "Si + Pretérito Imperfecto de Subjuntivo + Condicional",
-        "question": "'¿Qué ___ (hacer) tú si ___ (ganar) la lotería?' ¿Cuál es la forma correcta?",
+        "question": "'¿Qué _____ (hacer) tú si _____ (ganar) la lotería?' ¿Cuál es la forma correcta?",
         "options": [
           "harías / ganaras",
           "hicieras / ganarías",
@@ -579,7 +579,7 @@
       {
         "id": "i3m43",
         "topic": "Si + Pretérito Imperfecto de Subjuntivo + Condicional",
-        "question": "'Si ___ (poder) elegir, ___ (quedarse) aquí para siempre.' ¿Cuál es la forma correcta?",
+        "question": "'Si _____ (poder) elegir, _____ (quedarse) aquí para siempre.' ¿Cuál es la forma correcta?",
         "options": [
           "puedo / me quedo",
           "pudiera / me quedaría",
@@ -605,7 +605,7 @@
       {
         "id": "i3m45",
         "topic": "El Artículo Neutro \"Lo\"",
-        "question": "'___ importante es la salud.' ¿Cuál es el artículo correcto?",
+        "question": "'_____ importante es la salud.' ¿Cuál es el artículo correcto?",
         "options": [
           "El",
           "La",
@@ -618,7 +618,7 @@
       {
         "id": "i3m46",
         "topic": "El Artículo Neutro \"Lo\"",
-        "question": "'No me gusta ___ que dijiste.' ¿Qué artículo es correcto?",
+        "question": "'No me gusta _____ que dijiste.' ¿Qué artículo es correcto?",
         "options": [
           "el",
           "la",
@@ -631,7 +631,7 @@
       {
         "id": "i3m47",
         "topic": "El Artículo Neutro \"Lo\"",
-        "question": "'___ bueno de vivir aquí es el clima.' ¿Cuál es la opción correcta?",
+        "question": "'_____ bueno de vivir aquí es el clima.' ¿Cuál es la opción correcta?",
         "options": [
           "El",
           "Lo",
@@ -644,7 +644,7 @@
       {
         "id": "i3m48",
         "topic": "El Artículo Neutro \"Lo\"",
-        "question": "'¡No sabes ___ difícil que fue!' ¿Cuál es la opción correcta?",
+        "question": "'¡No sabes _____ difícil que fue!' ¿Cuál es la opción correcta?",
         "options": [
           "el",
           "la",
@@ -683,7 +683,7 @@
       {
         "id": "i3m51",
         "topic": "Cuando + Subjuntivo",
-        "question": "'Te llamaré cuando ___ (llegar) a casa.' ¿Cuál es la forma correcta?",
+        "question": "'Te llamaré cuando _____ (llegar) a casa.' ¿Cuál es la forma correcta?",
         "options": [
           "llego",
           "llegaré",
@@ -696,7 +696,7 @@
       {
         "id": "i3m52",
         "topic": "Cuando + Subjuntivo",
-        "question": "'Cuando ___ (tener) más dinero, compraré un coche.' ¿Qué forma es correcta?",
+        "question": "'Cuando _____ (tener) más dinero, compraré un coche.' ¿Qué forma es correcta?",
         "options": [
           "tengo",
           "tenga",
@@ -709,7 +709,7 @@
       {
         "id": "i3m53",
         "topic": "Cuando + Subjuntivo",
-        "question": "'Cuando era niño, ___ (jugar) en el parque todos los días.' ¿Cuál es la forma correcta?",
+        "question": "'Cuando era niño, _____ (jugar) en el parque todos los días.' ¿Cuál es la forma correcta?",
         "options": [
           "juegue",
           "jugara",
@@ -722,7 +722,7 @@
       {
         "id": "i3m54",
         "topic": "Cuando + Subjuntivo",
-        "question": "'Avísame cuando ___ (estar) listo.' ¿Cuál es la forma correcta?",
+        "question": "'Avísame cuando _____ (estar) listo.' ¿Cuál es la forma correcta?",
         "options": [
           "estás",
           "estarás",
@@ -735,7 +735,7 @@
       {
         "id": "i3m55",
         "topic": "Futuro Compuesto",
-        "question": "'Para el año que viene, ya ___ (terminar) mis estudios.' ¿Cuál es la forma correcta?",
+        "question": "'Para el año que viene, ya _____ (terminar) mis estudios.' ¿Cuál es la forma correcta?",
         "options": [
           "termino",
           "terminaré",
@@ -748,7 +748,7 @@
       {
         "id": "i3m56",
         "topic": "Futuro Compuesto",
-        "question": "'¿___ (llegar) ya Juan? No le veo por ningún lado.' ¿Cuál es la forma que expresa hipótesis sobre el presente?",
+        "question": "'¿_____ (llegar) ya Juan? No le veo por ningún lado.' ¿Cuál es la forma que expresa hipótesis sobre el presente?",
         "options": [
           "Llegó",
           "Ha llegado",
@@ -761,7 +761,7 @@
       {
         "id": "i3m57",
         "topic": "Futuro Compuesto",
-        "question": "'Para cuando llegues, nosotros ya ___ (cenar).' ¿Cuál es la forma correcta?",
+        "question": "'Para cuando llegues, nosotros ya _____ (cenar).' ¿Cuál es la forma correcta?",
         "options": [
           "cenamos",
           "cenaremos",
@@ -787,7 +787,7 @@
       {
         "id": "i3m59",
         "topic": "Demostrativos Neutros",
-        "question": "'¿Qué es ___?' (señalando un objeto desconocido que está cerca del hablante.) ¿Cuál es el demostrativo neutro correcto?",
+        "question": "'¿Qué es _____?' (señalando un objeto desconocido que está cerca del hablante.) ¿Cuál es el demostrativo neutro correcto?",
         "options": [
           "este",
           "esta",
@@ -800,7 +800,7 @@
       {
         "id": "i3m60",
         "topic": "Demostrativos Neutros",
-        "question": "'___ que me dices es increíble.' ¿Cuál es el demostrativo neutro correcto?",
+        "question": "'_____ que me dices es increíble.' ¿Cuál es el demostrativo neutro correcto?",
         "options": [
           "Este",
           "Ese",
@@ -813,7 +813,7 @@
       {
         "id": "i3m61",
         "topic": "Demostrativos Neutros",
-        "question": "'¡___ sí que es una buena noticia!' (reaccionando a algo que acaban de decir.) ¿Cuál es el demostrativo correcto?",
+        "question": "'¡_____ sí que es una buena noticia!' (reaccionando a algo que acaban de decir.) ¿Cuál es el demostrativo correcto?",
         "options": [
           "Este",
           "Ese",
@@ -826,7 +826,7 @@
       {
         "id": "i3m62",
         "topic": "Demostrativos Neutros",
-        "question": "'___ de la reunión de hace años fue muy complicado.' ¿Cuál es el demostrativo neutro correcto para referirse a algo lejano en el tiempo?",
+        "question": "'_____ de la reunión de hace años fue muy complicado.' ¿Cuál es el demostrativo neutro correcto para referirse a algo lejano en el tiempo?",
         "options": [
           "Esto",
           "Eso",
@@ -839,7 +839,7 @@
       {
         "id": "i3m63",
         "topic": "La Forma Impersonal \"Uno\"",
-        "question": "'___ no sabe nunca lo que puede pasar en la vida.' ¿Qué forma impersonal es la más apropiada en un contexto formal o literario?",
+        "question": "'_____ no sabe nunca lo que puede pasar en la vida.' ¿Qué forma impersonal es la más apropiada en un contexto formal o literario?",
         "options": [
           "Se",
           "Uno",
@@ -852,7 +852,7 @@
       {
         "id": "i3m64",
         "topic": "Aunque + Indicativo / Subjuntivo",
-        "question": "'Aunque el examen ___ (ser) muy difícil, todos lo aprobaron.' (El hablante constata un hecho pasado real.) ¿Qué forma es correcta?",
+        "question": "'Aunque el examen _____ (ser) muy difícil, todos lo aprobaron.' (El hablante constata un hecho pasado real.) ¿Qué forma es correcta?",
         "options": [
           "sea",
           "fuera",
@@ -865,7 +865,7 @@
       {
         "id": "i3m65",
         "topic": "Perífrasis Verbales",
-        "question": "'___ leyendo la misma novela desde hace un mes y todavía no la termino.' ¿Cuál es la perífrasis que mejor indica que la acción continúa sin interrupción?",
+        "question": "'_____ leyendo la misma novela desde hace un mes y todavía no la termino.' ¿Cuál es la perífrasis que mejor indica que la acción continúa sin interrupción?",
         "options": [
           "Acabo de",
           "Sigo",
@@ -878,7 +878,7 @@
       {
         "id": "i3m66",
         "topic": "El de... / El que...",
-        "question": "'Hay dos propuestas: la de Ana y la de Luis. Prefiero ___ Luis.' ¿Cuál es la forma correcta?",
+        "question": "'Hay dos propuestas: la de Ana y la de Luis. Prefiero _____ Luis.' ¿Cuál es la forma correcta?",
         "options": [
           "el de",
           "la de",
@@ -891,7 +891,7 @@
       {
         "id": "i3m67",
         "topic": "Pero / Sino (que)",
-        "question": "'El problema no es el dinero, ___ la falta de organización.' ¿Cuál es la conjunción correcta?",
+        "question": "'El problema no es el dinero, _____ la falta de organización.' ¿Cuál es la conjunción correcta?",
         "options": [
           "pero",
           "sino que",
@@ -904,7 +904,7 @@
       {
         "id": "i3m68",
         "topic": "Superlativo",
-        "question": "'¡Esta película es ___! Nunca había visto algo tan aburrido.' (Expresa el grado máximo de forma absoluta, sin comparar con otras películas.) ¿Cuál es la forma correcta?",
+        "question": "'¡Esta película es _____! Nunca había visto algo tan aburrido.' (Expresa el grado máximo de forma absoluta, sin comparar con otras películas.) ¿Cuál es la forma correcta?",
         "options": [
           "la más aburrida de todas",
           "muy aburrida",
@@ -917,7 +917,7 @@
       {
         "id": "i3m69",
         "topic": "SE Impersonal (avanzado)",
-        "question": "'En este país ___ muy bien de fútbol.' ¿Cuál es la forma correcta del verbo 'hablar' con 'se' impersonal?",
+        "question": "'En este país _____ muy bien de fútbol.' ¿Cuál es la forma correcta del verbo 'hablar' con 'se' impersonal?",
         "options": [
           "se habla",
           "se hablan",
@@ -930,7 +930,7 @@
       {
         "id": "i3m77",
         "topic": "SE Impersonal (avanzado)",
-        "question": "'En España ___ mucho a los abuelos.' (cuidar) ¿Cuál es la forma correcta?",
+        "question": "'En España _____ mucho a los abuelos.' (cuidar) ¿Cuál es la forma correcta?",
         "options": [
           "se cuidan",
           "se cuida",
@@ -956,7 +956,7 @@
       {
         "id": "i3m70",
         "topic": "El Artículo Neutro \"Lo\"",
-        "question": "'Me sorprendió ___ rápido que aprendió todo el vocabulario.' ¿Cuál es el artículo correcto?",
+        "question": "'Me sorprendió _____ rápido que aprendió todo el vocabulario.' ¿Cuál es el artículo correcto?",
         "options": [
           "el",
           "la",
@@ -969,7 +969,7 @@
       {
         "id": "i3m71",
         "topic": "Cuando + Subjuntivo",
-        "question": "'Dime cuando ___ (terminar) para que podamos comer juntos.' ¿Cuál es la forma correcta?",
+        "question": "'Dime cuando _____ (terminar) para que podamos comer juntos.' ¿Cuál es la forma correcta?",
         "options": [
           "terminas",
           "termines",
@@ -982,7 +982,7 @@
       {
         "id": "i3m72",
         "topic": "Futuro Compuesto",
-        "question": "'¡María no ha llegado todavía! ¿Qué le ___ (pasar)?' ¿Cuál es la forma que mejor expresa suposición sobre una situación actual?",
+        "question": "'¡María no ha llegado todavía! ¿Qué le _____ (pasar)?' ¿Cuál es la forma que mejor expresa suposición sobre una situación actual?",
         "options": [
           "pasó",
           "pasa",
@@ -1008,7 +1008,7 @@
       {
         "id": "i3m74",
         "topic": "Oraciones Condicionales",
-        "question": "Completa la condicional real (tipo 1): 'Si ___ (estudiar) todos los días, ___ (mejorar) tu español rápidamente.'",
+        "question": "Completa la condicional real (tipo 1): 'Si _____ (estudiar) todos los días, _____ (mejorar) tu español rápidamente.'",
         "options": [
           "estudias / mejorarás",
           "estudiaras / mejorarías",
@@ -1021,7 +1021,7 @@
       {
         "id": "i3m75",
         "topic": "Oraciones Condicionales",
-        "question": "'Si ___ más tiempo, todo sería más fácil.' ¿Cuál es la forma correcta para una situación hipotética en el presente?",
+        "question": "'Si _____ más tiempo, todo sería más fácil.' ¿Cuál es la forma correcta para una situación hipotética en el presente?",
         "options": [
           "hay",
           "hubiera",
@@ -1051,7 +1051,7 @@
       {
         "id": "i3f01",
         "topic": "Condicional Compuesto",
-        "question": "'Si hubiera sabido, ___ (llamar) antes.' ¿Cuál es la forma correcta?",
+        "question": "'Si hubiera sabido, _____ (llamar) antes.' ¿Cuál es la forma correcta?",
         "options": [
           "llamaría",
           "llamara",
@@ -1064,7 +1064,7 @@
       {
         "id": "i3f02",
         "topic": "Condicional Compuesto",
-        "question": "'Con más entrenamiento, ___ (ganar) el campeonato.' (Situación pasada que no ocurrió.) ¿Cuál es la forma correcta?",
+        "question": "'Con más entrenamiento, _____ (ganar) el campeonato.' (Situación pasada que no ocurrió.) ¿Cuál es la forma correcta?",
         "options": [
           "ganaría",
           "habría ganado",
@@ -1090,7 +1090,7 @@
       {
         "id": "i3f04",
         "topic": "Condicional Compuesto",
-        "question": "'¿Por qué no me lo dijiste? Yo te ___ (ayudar) con mucho gusto.' ¿Cuál es la forma correcta?",
+        "question": "'¿Por qué no me lo dijiste? Yo te _____ (ayudar) con mucho gusto.' ¿Cuál es la forma correcta?",
         "options": [
           "ayudaría",
           "ayudara",
@@ -1103,7 +1103,7 @@
       {
         "id": "i3f05",
         "topic": "Condicional Compuesto",
-        "question": "'Si no ___ (perder) el tren, ___ (llegar) a tiempo.' ¿Cuál es la forma correcta de ambos verbos?",
+        "question": "'Si no _____ (perder) el tren, _____ (llegar) a tiempo.' ¿Cuál es la forma correcta de ambos verbos?",
         "options": [
           "perdiera / llegaría",
           "hubiera perdido / habría llegado",
@@ -1116,7 +1116,7 @@
       {
         "id": "i3f06",
         "topic": "Pretérito Pluscuamperfecto de Subjuntivo",
-        "question": "'Si ___ (estudiar) más, habrías aprobado.' ¿Cuál es la forma correcta?",
+        "question": "'Si _____ (estudiar) más, habrías aprobado.' ¿Cuál es la forma correcta?",
         "options": [
           "estudiaras",
           "estudiarías",
@@ -1129,7 +1129,7 @@
       {
         "id": "i3f07",
         "topic": "Pretérito Pluscuamperfecto de Subjuntivo",
-        "question": "'Ojalá ___ (venir) ayer. Fue una fiesta increíble.' ¿Cuál es la forma correcta?",
+        "question": "'Ojalá _____ (venir) ayer. Fue una fiesta increíble.' ¿Cuál es la forma correcta?",
         "options": [
           "vengas",
           "vinieras",
@@ -1142,7 +1142,7 @@
       {
         "id": "i3f08",
         "topic": "Pretérito Pluscuamperfecto de Subjuntivo",
-        "question": "'El médico dudaba de que el paciente ___ (seguir) el tratamiento correctamente.' ¿Cuál es la forma correcta?",
+        "question": "'El médico dudaba de que el paciente _____ (seguir) el tratamiento correctamente.' ¿Cuál es la forma correcta?",
         "options": [
           "siguiera",
           "hubiera seguido",
@@ -1168,7 +1168,7 @@
       {
         "id": "i3f10",
         "topic": "Pretérito Pluscuamperfecto de Subjuntivo",
-        "question": "'Me alegró mucho que ___ (ganar, vosotros) el partido.' (La victoria ocurrió antes de que me alegrara.) ¿Cuál es la forma correcta?",
+        "question": "'Me alegró mucho que _____ (ganar, vosotros) el partido.' (La victoria ocurrió antes de que me alegrara.) ¿Cuál es la forma correcta?",
         "options": [
           "ganaráis",
           "hayáis ganado",
@@ -1194,7 +1194,7 @@
       {
         "id": "i3f12",
         "topic": "Oraciones Condicionales (avanzado)",
-        "question": "'Si ___ (poder) hablar todos los idiomas, sería maravilloso.' ¿Cuál es la forma correcta?",
+        "question": "'Si _____ (poder) hablar todos los idiomas, sería maravilloso.' ¿Cuál es la forma correcta?",
         "options": [
           "puedo",
           "podré",
@@ -1207,7 +1207,7 @@
       {
         "id": "i3f13",
         "topic": "Oraciones Condicionales (avanzado)",
-        "question": "Completa: 'Si ___ (hacer) más ejercicio cuando era joven, ahora ___ (estar) más sano.'",
+        "question": "Completa: 'Si _____ (hacer) más ejercicio cuando era joven, ahora _____ (estar) más sano.'",
         "options": [
           "hiciera / estaría",
           "hubiera hecho / estaría",
@@ -1220,7 +1220,7 @@
       {
         "id": "i3f14",
         "topic": "Verbos de Cambio",
-        "question": "'Después de trabajar tantas horas seguidas, ___ enfermo.' ¿Cuál es el verbo de cambio correcto?",
+        "question": "'Después de trabajar tantas horas seguidas, _____ enfermo.' ¿Cuál es el verbo de cambio correcto?",
         "options": [
           "se volvió",
           "se puso",
@@ -1233,7 +1233,7 @@
       {
         "id": "i3f15",
         "topic": "Verbos de Cambio",
-        "question": "'Después de mucho esfuerzo y años de trabajo, ___ director de la empresa.' ¿Cuál es el verbo de cambio correcto?",
+        "question": "'Después de mucho esfuerzo y años de trabajo, _____ director de la empresa.' ¿Cuál es el verbo de cambio correcto?",
         "options": [
           "se puso",
           "se volvió",
@@ -1246,7 +1246,7 @@
       {
         "id": "i3f16",
         "topic": "Verbos de Cambio",
-        "question": "'Con la edad, mi abuelo ___ muy olvidadizo.' ¿Cuál es el verbo de cambio correcto?",
+        "question": "'Con la edad, mi abuelo _____ muy olvidadizo.' ¿Cuál es el verbo de cambio correcto?",
         "options": [
           "se puso",
           "se hizo",
@@ -1259,7 +1259,7 @@
       {
         "id": "i3f17",
         "topic": "Verbos de Cambio",
-        "question": "'Al recibir la noticia del accidente, ___ sin palabras.' ¿Cuál es el verbo de cambio correcto?",
+        "question": "'Al recibir la noticia del accidente, _____ sin palabras.' ¿Cuál es el verbo de cambio correcto?",
         "options": [
           "se volvió",
           "se quedó",
@@ -1272,7 +1272,7 @@
       {
         "id": "i3f18",
         "topic": "Verbos de Cambio",
-        "question": "'Tras ganar el premio, ___ muy famosa en todo el país.' ¿Cuál es el verbo de cambio más adecuado?",
+        "question": "'Tras ganar el premio, _____ muy famosa en todo el país.' ¿Cuál es el verbo de cambio más adecuado?",
         "options": [
           "se puso",
           "se volvió",
@@ -1285,7 +1285,7 @@
       {
         "id": "i3f19",
         "topic": "Para que / A fin de que + Subjuntivo",
-        "question": "'Te explico esto ___ lo entiendas mejor.' ¿Cuál es la conjunción de finalidad correcta?",
+        "question": "'Te explico esto _____ lo entiendas mejor.' ¿Cuál es la conjunción de finalidad correcta?",
         "options": [
           "para que",
           "porque",
@@ -1298,7 +1298,7 @@
       {
         "id": "i3f20",
         "topic": "Para que / A fin de que + Subjuntivo",
-        "question": "'Hablamos despacio ___ todos pudieran comprender.' ¿Cuál es la conjunción correcta?",
+        "question": "'Hablamos despacio _____ todos pudieran comprender.' ¿Cuál es la conjunción correcta?",
         "options": [
           "para que",
           "a fin de que",
@@ -1311,7 +1311,7 @@
       {
         "id": "i3f21",
         "topic": "Para que / A fin de que + Subjuntivo",
-        "question": "'Te doy este mapa ___ no ___ (perderse).' ¿Cuál es la opción completamente correcta?",
+        "question": "'Te doy este mapa _____ no _____ (perderse).' ¿Cuál es la opción completamente correcta?",
         "options": [
           "para que / te pierdas",
           "para que / no te pierdas",
@@ -1337,7 +1337,7 @@
       {
         "id": "i3f23",
         "topic": "Hace + Presente / Gerundio",
-        "question": "'___ tres años que estudio español.' ¿Cuál es la forma correcta para indicar duración hasta el presente?",
+        "question": "'_____ tres años que estudio español.' ¿Cuál es la forma correcta para indicar duración hasta el presente?",
         "options": [
           "Desde hace",
           "Por",
@@ -1350,7 +1350,7 @@
       {
         "id": "i3f24",
         "topic": "Hace + Presente / Gerundio",
-        "question": "'Estoy trabajando en este proyecto ___ enero.' ¿Cuál es a preposición correcta para un punto específico en el tiempo?",
+        "question": "'Estoy trabajando en este proyecto _____ enero.' ¿Cuál es la preposición correcta para un punto específico en el tiempo?",
         "options": [
           "hace",
           "desde",
@@ -1363,7 +1363,7 @@
       {
         "id": "i3f25",
         "topic": "Hace + Presente / Gerundio",
-        "question": "'¿___ cuánto tiempo vives en esta ciudad?' ¿Cuál es la forma correcta para preguntar por la duración?",
+        "question": "'¿_____ cuánto tiempo vives en esta ciudad?' ¿Cuál es la forma correcta para preguntar por la duración?",
         "options": [
           "Desde",
           "Hace",
@@ -1376,7 +1376,7 @@
       {
         "id": "i3f26",
         "topic": "Llevar + Gerundio",
-        "question": "'Llevo tres horas ___ (esperar) el autobús.' ¿Cuál es la forma correcta?",
+        "question": "'Llevo tres horas _____ (esperar) el autobús.' ¿Cuál es la forma correcta?",
         "options": [
           "esperar",
           "esperando",
@@ -1389,7 +1389,7 @@
       {
         "id": "i3f27",
         "topic": "Llevar + Gerundio",
-        "question": "'¿Cuánto tiempo ___ en España?' ¿Cuál es la forma correcta con 'llevar'?",
+        "question": "'¿Cuánto tiempo _____ en España?' ¿Cuál es la forma correcta con 'llevar'?",
         "options": [
           "llevas viviendo",
           "llevas vivido",
@@ -1402,7 +1402,7 @@
       {
         "id": "i3f28",
         "topic": "Llevar + Gerundio",
-        "question": "'___ un año aprendiendo a tocar la guitarra y todavía me queda mucho.' ¿Cuál es la forma correcta?",
+        "question": "'_____ un año aprendiendo a tocar la guitarra y todavía me queda mucho.' ¿Cuál es la forma correcta?",
         "options": [
           "Tengo",
           "Llevo",
@@ -1410,7 +1410,7 @@
           "Sigo"
         ],
         "correct": 1,
-        "explanation": "'Llevar + tempo + Gerúndio' para enfatizar a duração de uma ação contínua: 'Llevo un año aprendiendo' = estou aprendendo há um ano. 'Sigo' é possível mas sem indicar tempo de duração."
+        "explanation": "'Llevar + tempo + gerúndio' enfatiza a duração de uma ação contínua: 'Llevo un año aprendiendo' = estou aprendendo há um ano. 'Seguir' também pede gerúndio, mas não admite a expressão de tempo nessa posição: diz-se 'sigo aprendiendo', nunca 'sigo un año aprendiendo'. Portanto, a resposta correta é 'LLEVO'."
       },
       {
         "id": "i3f29",
@@ -1519,7 +1519,7 @@
       {
         "id": "i3f35",
         "topic": "Voz Pasiva (Ser + Participio)",
-        "question": "'El nuevo museo ___ (inaugurar) el próximo mes.' ¿Cuál es a voz pasiva correcta?",
+        "question": "'El nuevo museo _____ (inaugurar) el próximo mes.' ¿Cuál es la voz pasiva correcta?",
         "options": [
           "será inaugurado",
           "fue inaugurado",
@@ -1545,7 +1545,7 @@
       {
         "id": "i3f37",
         "topic": "Voz Pasiva (Ser + Participio)",
-        "question": "'Las ventanas ___ (romper) durante la tormenta.' ¿Cuál es la voz pasiva correcta?",
+        "question": "'Las ventanas _____ (romper) durante la tormenta.' ¿Cuál es la voz pasiva correcta?",
         "options": [
           "fueron rotas",
           "fueron rompidas",
@@ -1558,7 +1558,7 @@
       {
         "id": "i3f38",
         "topic": "El Imperativo y los Complementos",
-        "question": "'¡___ (decir, tú) la verdad!' Con el pronombre de objeto directo (la verdad = la), ¿cómo se dice correctamente?",
+        "question": "'¡_____ (decir, tú) la verdad!' Con el pronombre de objeto directo (la verdad = la), ¿cómo se dice correctamente?",
         "options": [
           "Di / ¡Dila!",
           "Dice / ¡Dícela!",
@@ -1571,12 +1571,12 @@
       {
         "id": "i3f39",
         "topic": "El Imperativo y los Complementos",
-        "question": "'¡No ___ (contar, tú) ese secreto a nadie!' Con pronombres OI (a nadie → se) + OD (el secreto → lo), ¿cuál es la forma correcta?",
+        "question": "'¡No cuentes ese secreto a nadie!' Con pronombres OI (a nadie → se) + OD (el secreto → lo), ¿cuál es la forma correcta?",
         "options": [
-          "¡No cuentes / cuéntaselo!",
-          "¡No cuentes / no se lo cuentes!",
-          "¡No cuenta / no se lo cuentes!",
-          "¡No cuentes / no lo cuentes a nadie!"
+          "¡Cuéntaselo!",
+          "¡No se lo cuentes!",
+          "¡No lo cuentes se!",
+          "¡No se lo cuentas!"
         ],
         "correct": 1,
         "explanation": "Imperativo negativo (tú) usa Presente do Subjuntivo: 'no cuentes'. Com OI + OD no negativo: 'no se lo cuentes a nadie', pronomes ANTES do verbo no imperativo negativo."
@@ -1584,7 +1584,7 @@
       {
         "id": "i3f40",
         "topic": "El Imperativo y los Complementos",
-        "question": "'¡___ (poner, vosotros) los libros en la mesa!' Con pronome de OD (los libros = los), ¿cuál es la forma correcta?",
+        "question": "'¡_____ (poner, vosotros) los libros en la mesa!' Con el pronombre de OD (los libros = los), ¿cuál es la forma correcta?",
         "options": [
           "Poned / ¡Ponedlos!",
           "Poned / ¡Los ponéis!",
@@ -1597,7 +1597,7 @@
       {
         "id": "i3f41",
         "topic": "El Imperativo y los Complementos",
-        "question": "'¡___ (dar, usted) el informe al director!' Con OI (al director → se) + OD (el informe → lo), ¿cuál es la opción correcta?",
+        "question": "'¡_____ (dar, usted) el informe al director!' Con OI (al director → se) + OD (el informe → lo), ¿cuál es la opción correcta?",
         "options": [
           "¡Dé! / ¡Déselo!",
           "¡Da! / ¡Dáselo!",
@@ -1675,7 +1675,7 @@
       {
         "id": "i3f47",
         "topic": "Pronombres Relativos",
-        "question": "'La película ___ vimos ayer fue muy buena.' ¿Cuál es el pronombre relativo correcto?",
+        "question": "'La película _____ vimos ayer fue muy buena.' ¿Cuál es el pronombre relativo correcto?",
         "options": [
           "quien",
           "quienes",
@@ -1688,7 +1688,7 @@
       {
         "id": "i3f48",
         "topic": "Pronombres Relativos",
-        "question": "'El libro ___ portada es roja es el mío.' ¿Cuál es el pronombre relativo correcto?",
+        "question": "'El libro _____ portada es roja es el mío.' ¿Cuál es el pronombre relativo correcto?",
         "options": [
           "que",
           "quien",
@@ -1701,7 +1701,7 @@
       {
         "id": "i3f49",
         "topic": "Pronombres Relativos",
-        "question": "'Ese es el café ___ siempre venimos a estudiar.' ¿Cuál es el pronombre relativo correcto?",
+        "question": "'Ese es el café _____ siempre venimos a estudiar.' ¿Cuál es el pronombre relativo correcto?",
         "options": [
           "que",
           "donde",
@@ -1714,7 +1714,7 @@
       {
         "id": "i3f50",
         "topic": "Pronombres Relativos",
-        "question": "'La razón ___ no vine fue la lluvia.' ¿Cuál es el pronombre relativo correcto?",
+        "question": "'La razón _____ no vine fue la lluvia.' ¿Cuál es el pronombre relativo correcto?",
         "options": [
           "que",
           "por la que",
@@ -1774,12 +1774,12 @@
           "Vos venis"
         ],
         "correct": 1,
-        "explanation": "'Venir' no voseo é irregular: 'vos venís' (acento na última sílaba). Atenção: não segue o padrão regular dos '-er' ('venés'). Outros irregulares no voseo: 'sos' (ser), 'vas' (ir)."
+        "explanation": "'Venir' é um verbo em '-ir', e no voseo os verbos em '-ir' terminam em '-ís': 'vos venís', 'vos vivís', 'vos salís'. O que muda em relação ao tuteo é que o voseo desfaz o ditongo: 'tú vienes' vira 'vos venís'. A forma sem acento ('venis') está incorreta. Portanto, a resposta correta é 'VOS VENÍS'."
       },
       {
         "id": "i3f55",
         "topic": "Oraciones Temporales",
-        "question": "'Llámame ___ llegues.' ¿Cuál es la conjunción temporal correcta?",
+        "question": "'Llámame _____ llegues.' ¿Cuál es la conjunción temporal correcta?",
         "options": [
           "cuando",
           "hasta que",
@@ -1792,7 +1792,7 @@
       {
         "id": "i3f56",
         "topic": "Oraciones Temporales",
-        "question": "'No te vayas ___ yo vuelva.' ¿Cuál es la conjunción temporal correcta?",
+        "question": "'No te vayas _____ yo vuelva.' ¿Cuál es la conjunción temporal correcta?",
         "options": [
           "cuando",
           "antes de que",
@@ -1805,7 +1805,7 @@
       {
         "id": "i3f57",
         "topic": "Oraciones Temporales",
-        "question": "'___ termines de comer, lava los platos.' ¿Cuál es la conjunción temporal correcta?",
+        "question": "'_____ termines de comer, lava los platos.' ¿Cuál es la conjunción temporal correcta?",
         "options": [
           "Porque",
           "Después de que",
@@ -1813,12 +1813,12 @@
           "Mientras"
         ],
         "correct": 1,
-        "explanation": "'Después de que + Subjuntivo' indica que uma ação ocorre após outra (futura): 'después de que termines' = depois de você terminar. Há mudança de sujeito, por isso 'después de que' (não 'después de')."
+        "explanation": "'Después de que + Subjuntivo' indica que uma ação acontece depois de outra que ainda não se realizou: 'después de que termines' = depois que você terminar. Como a referência é futura, o verbo vai para o Presente do Subjuntivo, e não para o Indicativo. Portanto, a resposta correta é 'DESPUÉS DE QUE'."
       },
       {
         "id": "i3f58",
         "topic": "Oraciones Temporales",
-        "question": "'___ estudiaba, escuchaba música.' ¿Cuál es la conjunción temporal correcta para expresar simultaneidad en el pasado?",
+        "question": "'_____ estudiaba, escuchaba música.' ¿Cuál es la conjunción temporal correcta para expresar simultaneidad en el pasado?",
         "options": [
           "Cuando",
           "Mientras",
@@ -1857,7 +1857,7 @@
       {
         "id": "i3f61",
         "topic": "El Diminutivo y el Aumentativo",
-        "question": "'¡Espera un ___!' (Un momento muy breve, dicho de forma amable.) ¿Cuál es el diminutivo correcto?",
+        "question": "'¡Espera un _____!' (Un momento muy breve, dicho de forma amable.) ¿Cuál es el diminutivo correcto?",
         "options": [
           "momentazo",
           "momentón",
@@ -1883,7 +1883,7 @@
       {
         "id": "i3f63",
         "topic": "Para que / A fin de que + Subjuntivo",
-        "question": "'El gobierno tomó medidas ___ la situación económica ___ (mejorar).' ¿Cuál es la opción correcta?",
+        "question": "'El gobierno tomó medidas _____ la situación económica _____ (mejorar).' ¿Cuál es la opción correcta?",
         "options": [
           "para que / mejorara",
           "porque / mejoró",
@@ -1896,7 +1896,7 @@
       {
         "id": "i3f64",
         "topic": "Voz Pasiva (Ser + Participio)",
-        "question": "'La novela ___ (escribir) por una autora desconocida en el siglo XIX.' ¿Cuál es la voz pasiva correcta?",
+        "question": "'La novela _____ (escribir) por una autora desconocida en el siglo XIX.' ¿Cuál es la voz pasiva correcta?",
         "options": [
           "fue escrita",
           "fue escribida",
@@ -1948,7 +1948,7 @@
       {
         "id": "i3f65",
         "topic": "El Imperativo y los Complementos",
-        "question": "'¿Compramos el pan ahora?' '¡Sí, ___ ahora mismo!' (el pan → lo.) ¿Cuál es el imperativo afirmativo con pronombre correcto para 'tú'?",
+        "question": "'¿Compramos el pan ahora?' '¡Sí, _____ ahora mismo!' (el pan → lo.) ¿Cuál es el imperativo afirmativo con pronombre correcto para 'tú'?",
         "options": [
           "cómpralo",
           "lo compra",
@@ -1961,7 +1961,7 @@
       {
         "id": "i3f66",
         "topic": "Pronombres Relativos",
-        "question": "'No encontré las llaves, ___ me hizo llegar tarde a la reunión.' ¿Cuál es el pronombre relativo correcto para referirse a toda la situación anterior?",
+        "question": "'No encontré las llaves, _____ me hizo llegar tarde a la reunión.' ¿Cuál es el pronombre relativo correcto para referirse a toda la situación anterior?",
         "options": [
           "que",
           "lo cual",
@@ -1987,7 +1987,7 @@
       {
         "id": "i3f68",
         "topic": "Oraciones Temporales",
-        "question": "'Te lo cuento ___ nos veamos.' ¿Cuál es la conjunción temporal correcta para indicar el momento futuro del encuentro?",
+        "question": "'Te lo cuento _____ nos veamos.' ¿Cuál es la conjunción temporal correcta para indicar el momento futuro del encuentro?",
         "options": [
           "mientras",
           "hasta que",
@@ -2000,7 +2000,7 @@
       {
         "id": "i3f69",
         "topic": "El Diminutivo y el Aumentativo",
-        "question": "'Por favor, habla un poco más ___ (bajo), que hay gente durmiendo.' ¿Cuál es la forma diminutiva más apropiada aquí?",
+        "question": "'Por favor, habla un poco más _____ (bajo), que hay gente durmiendo.' ¿Cuál es la forma diminutiva más apropiada aquí?",
         "options": [
           "bajote",
           "bajísimo",
@@ -2026,7 +2026,7 @@
       {
         "id": "i3f71",
         "topic": "Oraciones Condicionales (avanzado)",
-        "question": "'Si no ___ (haber) tanto tráfico, ___ (llegar) puntual a la reunión.' ¿Cuál es la forma correcta para una situación pasada que no ocurrió?",
+        "question": "'Si no _____ (haber) tanto tráfico, _____ (llegar) puntual a la reunión.' ¿Cuál es la forma correcta para una situación pasada que no ocurrió?",
         "options": [
           "hubiera habido / habría llegado",
           "haya habido / habría llegado",
@@ -2039,7 +2039,7 @@
       {
         "id": "i3f72",
         "topic": "Hace + Presente / Gerundio",
-        "question": "'___ dos meses ___ (esperar) noticias de mi solicitud y todavía no sé nada.' ¿Cuál es la forma correcta con perífrasis de duración?",
+        "question": "'_____ dos meses _____ (esperar) noticias de mi solicitud y todavía no sé nada.' ¿Cuál es la forma correcta con perífrasis de duración?",
         "options": [
           "Hace / estoy esperando",
           "Desde / estoy esperando",
@@ -2052,7 +2052,7 @@
       {
         "id": "i3f73",
         "topic": "Hace + Presente / Gerundio",
-        "question": "'___ mucho tiempo que no ___ (ver, yo) a mis primos.' ¿Cuál es la forma correcta para expresar que ha pasado mucho tiempo sin ese contacto?",
+        "question": "'_____ mucho tiempo que no _____ (ver, yo) a mis primos.' ¿Cuál es la forma correcta para expresar que ha pasado mucho tiempo sin ese contacto?",
         "options": [
           "Hace / veo",
           "Desde / veo",
@@ -2065,7 +2065,7 @@
       {
         "id": "i3f74",
         "topic": "Llevar + Gerundio",
-        "question": "'Mis padres ___ juntos más de treinta años.' ¿Cuál es la perífrasis correcta con 'llevar' para expresar duración de una acción en curso?",
+        "question": "'Mis padres _____ juntos más de treinta años.' ¿Cuál es la perífrasis correcta con 'llevar' para expresar duración de una acción en curso?",
         "options": [
           "llevan viviendo",
           "llevan vivido",

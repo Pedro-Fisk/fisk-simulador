@@ -61,7 +61,7 @@
       {
         "id": "e2m05",
         "topic": "How – Questions",
-        "question": "_____ was your vacation?, It was really nice!",
+        "question": "_____ was your vacation? It was really nice!",
         "options": [
           "What",
           "Where",
@@ -74,7 +74,7 @@
       {
         "id": "e2m06",
         "topic": "How – Transport",
-        "question": "How do you come to school?, I come _____ car.",
+        "question": "How do you come to school? I come _____ car.",
         "options": [
           "in",
           "with",
@@ -139,7 +139,7 @@
       {
         "id": "e2m11",
         "topic": "How Often / Adverbs of Frequency",
-        "question": "How often do you surf the net?, I _____ surf the net.",
+        "question": "How often do you surf the net? I _____ the net.",
         "options": [
           "surf always",
           "always surf",
@@ -178,7 +178,7 @@
       {
         "id": "e2m14",
         "topic": "Past Continuous (Was/Were + -ing)",
-        "question": "What were you doing last night?, I _____ dinner.",
+        "question": "What were you doing last night? I _____ dinner.",
         "options": [
           "cooked",
           "was cooking",
@@ -568,7 +568,7 @@
       {
         "id": "e2m44",
         "topic": "How – Questions",
-        "question": "_____ tall is the Eiffel Tower?, About 330 meters.",
+        "question": "_____ tall is the Eiffel Tower? About 330 meters.",
         "options": [
           "How",
           "What",
@@ -581,7 +581,7 @@
       {
         "id": "e2m45",
         "topic": "How – Questions",
-        "question": "_____ long is the Amazon River?, About 6,400 km.",
+        "question": "_____ long is the Amazon River? About 6,400 km.",
         "options": [
           "How much",
           "What",
@@ -594,7 +594,7 @@
       {
         "id": "e2m46",
         "topic": "How – Questions",
-        "question": "_____ is the movie?, It's two hours long.",
+        "question": "_____ is the movie? It's two hours long.",
         "options": [
           "How long",
           "How tall",
@@ -607,7 +607,7 @@
       {
         "id": "e2m47",
         "topic": "How – Questions",
-        "question": "_____ is it from here to the airport?, About 20 km.",
+        "question": "_____ is it from here to the airport? About 20 km.",
         "options": [
           "How much",
           "How long",
@@ -646,7 +646,7 @@
       {
         "id": "e2m50",
         "topic": "How – Transport",
-        "question": "How do they get to school?, They walk. They go _____ foot.",
+        "question": "How do they get to school? They walk. They go _____ foot.",
         "options": [
           "by",
           "with",
@@ -672,7 +672,7 @@
       {
         "id": "e2m52",
         "topic": "How Often / Adverbs of Frequency",
-        "question": "_____ do you exercise?, Three times a week.",
+        "question": "_____ do you exercise? Three times a week.",
         "options": [
           "How many",
           "How much",
@@ -1094,7 +1094,7 @@
       {
         "id": "e2f09",
         "topic": "Will – Predictions",
-        "question": "Will they win the game?, No, _____. They _____ win.",
+        "question": "Will they win the game? No, _____. They _____ win.",
         "options": [
           "they won't / won't",
           "they will / won't",
@@ -1159,7 +1159,7 @@
       {
         "id": "e2f14",
         "topic": "Too Many / Too Much",
-        "question": "Come on! There really isn't _____ time.",
+        "question": "We are late! There is _____ traffic today.",
         "options": [
           "too many",
           "too much",
@@ -1167,12 +1167,12 @@
           "very many"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dizer que algo que não dá para contar está em excesso ou faltando, usamos TOO MUCH. Neste caso, 'time' não dá para contar, e a frase expressa urgência porque o tempo está acabando. Portanto, a resposta correta é TOO MUCH."
+        "explanation": "Quando queremos dizer que há algo em excesso e esse algo não dá para contar, usamos TOO MUCH. Neste caso, 'traffic' não é contável e o trânsito está além do normal. Portanto, a resposta correta é TOO MUCH."
       },
       {
         "id": "e2f15",
         "topic": "How Often",
-        "question": "How often does your mother go to the supermarket?, _____ a week.",
+        "question": "How often does your mother go to the supermarket? _____ a week.",
         "options": [
           "One time",
           "Once",
@@ -1211,7 +1211,7 @@
       {
         "id": "e2f18",
         "topic": "To Be Past – Short Answers",
-        "question": "Was there a new student in class last week?, Yes, _____.",
+        "question": "Was there a new student in class last week? Yes, _____.",
         "options": [
           "there were",
           "yes there was",
@@ -1224,7 +1224,7 @@
       {
         "id": "e2f19",
         "topic": "A Little / A Few",
-        "question": "How much mustard do you want?, Just _____ little.",
+        "question": "How much mustard do you want? Just _____ little.",
         "options": [
           "a few",
           "much",
@@ -1284,12 +1284,12 @@
           "All the student's"
         ],
         "correct": 1,
-        "explanation": "Quando queremos mostrar que algo pertence a um grupo cujo nome já termina em S, colocamos apenas o apóstrofo, sem o 's extra. Neste caso, 'students' já termina em S, então fica students'. Sem apóstrofo nenhum a frase perde a ideia de posse, e 'All the student's' falaria de um aluno só. Portanto, a resposta correta é 'ALL THE STUDENTS''."
+        "explanation": "Quando queremos mostrar que algo pertence a um grupo cujo nome já termina em S, colocamos apenas o apóstrofo, sem acrescentar outro S. Neste caso, students já termina em S, então fica students seguido do apóstrofo. Sem apóstrofo nenhum a frase perde a ideia de posse, e ALL THE STUDENT'S falaria de um aluno só. Portanto, a resposta correta é ALL THE STUDENTS' (com o apóstrofo no fim)."
       },
       {
         "id": "e2f24",
         "topic": "How – Manner",
-        "question": "How can I get to this city?, You can get there _____ bus.",
+        "question": "How can I get to this city? You can get there _____ bus.",
         "options": [
           "with",
           "in",
@@ -1302,7 +1302,7 @@
       {
         "id": "e2f25",
         "topic": "Possessive Pronouns",
-        "question": "Is this coat yours?, No, _____ is the black one over there.",
+        "question": "Is this coat yours? No, _____ is the black one over there.",
         "options": [
           "my",
           "me",
@@ -1380,7 +1380,7 @@
       {
         "id": "e2f31",
         "topic": "Will – Predictions",
-        "question": "Look at those clouds! It _____ rain this afternoon.",
+        "question": "Look at those clouds! It _____ this afternoon.",
         "options": [
           "rains",
           "rained",
@@ -1562,7 +1562,7 @@
       {
         "id": "e2f45",
         "topic": "Genitive Case ('s)",
-        "question": "Whose book is this?, It's _____.",
+        "question": "Whose book is this? It's _____.",
         "options": [
           "Sara book",
           "the book of Sara",
@@ -1679,7 +1679,7 @@
       {
         "id": "e2f54",
         "topic": "Past Continuous – When/While",
-        "question": "What were you doing when I called?, I _____ in the garden.",
+        "question": "What were you doing when I called? I _____ in the garden.",
         "options": [
           "worked",
           "works",
@@ -1809,7 +1809,7 @@
       {
         "id": "e2f64",
         "topic": "How Often",
-        "question": "How often do you see your grandparents?, _____ a month. (2 times)",
+        "question": "How often do you see your grandparents? _____ a month. (2 times)",
         "options": [
           "One time",
           "Second time",
@@ -1835,7 +1835,7 @@
       {
         "id": "e2f66",
         "topic": "How Often",
-        "question": "How often do you clean your room?, _____ a week. (1 time)",
+        "question": "How often do you clean your room? _____ a week. (1 time)",
         "options": [
           "Twice",
           "Once",
@@ -1861,7 +1861,7 @@
       {
         "id": "e2f68",
         "topic": "To Be Past – Short Answers",
-        "question": "Were they at the party last night?, No, _____.",
+        "question": "Were they at the party last night? No, _____.",
         "options": [
           "they weren't",
           "they wasn't",
@@ -1874,7 +1874,7 @@
       {
         "id": "e2f69",
         "topic": "To Be Past – Short Answers",
-        "question": "Was she happy with the result?, Yes, _____.",
+        "question": "Was she happy with the result? Yes, _____.",
         "options": [
           "she were",
           "yes she is",
@@ -1887,7 +1887,7 @@
       {
         "id": "e2f70",
         "topic": "To Be Past – Short Answers",
-        "question": "Were you tired after the trip?, Yes, _____.",
+        "question": "Were you tired after the trip? Yes, _____.",
         "options": [
           "I were",
           "I was",
@@ -1900,7 +1900,7 @@
       {
         "id": "e2f71",
         "topic": "To Be Past – Short Answers",
-        "question": "Was the food at the restaurant good?, No, _____.",
+        "question": "Was the food at the restaurant good? No, _____.",
         "options": [
           "it weren't",
           "it wasn't",
@@ -2004,7 +2004,7 @@
       {
         "id": "e2f79",
         "topic": "Will – Future",
-        "question": "The negative form of 'she will go' is:",
+        "question": "What is the CONTRACTION of 'she will not go'?",
         "options": [
           "she no will go",
           "she will not go",
@@ -2012,7 +2012,7 @@
           "she willn't go"
         ],
         "correct": 2,
-        "explanation": "A contração de WILL NOT é WON'T. Essa é a forma natural e muito usada na fala. 'She willn't go' não existe em inglês. Portanto, a resposta correta é SHE WON'T GO."
+        "explanation": "A contração de WILL NOT é WON'T, que é a forma natural e muito usada na fala. 'She willn't go' não existe em inglês, e 'she will not go' é a forma completa, sem contração. Portanto, a resposta correta é SHE WON'T GO."
       },
       {
         "id": "e2f80",
@@ -2173,7 +2173,7 @@
       {
         "id": "e2f92",
         "topic": "How – Manner",
-        "question": "How does she sing?, She sings _____.",
+        "question": "How does she sing? She sings _____.",
         "options": [
           "beautiful",
           "beauty",
@@ -2199,7 +2199,7 @@
       {
         "id": "e2f94",
         "topic": "How – Manner",
-        "question": "_____ do you go to work?, I go by train.",
+        "question": "_____ do you go to work? I go by train.",
         "options": [
           "Where",
           "What",

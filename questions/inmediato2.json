@@ -428,10 +428,10 @@
           "El pronombre CI está incorrecto",
           "El pronombre CD está incorrecto",
           "El orden de los pronombres está incorrecto",
-          "Hay una combinación incorrecta: 'se les' no existe"
+          "'Se' ya sustituye a 'les': los dos juntos sobran"
         ],
         "correct": 3,
-        "explanation": "A combinação 'se les' não existe. A regra é: quando CI (le/les) precede CD (lo/la/los/las), usa-se 'se'. Mas aqui 'les' não está antes de um CD com 'l'. Além disso, 'se' já substitui 'le/les'. O correto seria: 'Se lo enviamos ayer' (referindo-se a algo específico)."
+        "explanation": "Quando o pronome de CI ('le' ou 'les') vem antes de 'lo, la, los, las', ele se transforma em 'se' — e aí o 'les' desaparece. Por isso 'Se les enviamos el correo' fica com um pronome sobrando; o correto é 'Se lo enviamos ayer'. Atenção: a combinação 'se les' existe em outros contextos ('Se les olvidó el libro'), só não cabe aqui."
       },
       {
         "id": "i2m70",
@@ -716,8 +716,8 @@
           "Se",
           "Es"
         ],
-        "correct": 2,
-        "explanation": "Com SE impessoal seguido de verbo no infinitivo, usa-se apenas 'Se': 'Se prohíbe fumar' ou 'Se prohibido fumar' não existe. O correto é 'Se prohíbe fumar' ou 'Está prohibido fumar'. Mas 'Se' + verbo conjugado = impessoal: 'Se prohíbe'."
+        "correct": 1,
+        "explanation": "Um aviso desse tipo usa 'estar' + particípio para indicar um estado ou uma regra em vigor: 'Está prohibido fumar en este edificio'. Com o SE impessoal o verbo precisa vir conjugado ('Se prohíbe fumar'), nunca com o particípio. Portanto, a resposta correta é 'ESTÁ'."
       },
       {
         "id": "i2m52",
@@ -1329,10 +1329,10 @@
           "Habla español e inglés muy bien.",
           "¿Quieres café u otra bebida?",
           "Tiene siete u ocho años.",
-          "Es inteligente y honesta."
+          "Compramos siete o ocho libros."
         ],
         "correct": 3,
-        "explanation": "Em 'Es inteligente y honesta', o uso de 'y' está incorreto. 'Honesta' começa com 'ho-', e a regra diz que 'o' muda para 'u' antes de palavras que começam com 'o' ou 'ho'. O correto é 'Es inteligente u honesta'. As demais opções estão corretas: 'e inglés' (começa com i-), 'u otra' (começa com o-), 'u ocho' (começa com o-)."
+        "explanation": "A conjunção 'o' vira 'u' antes de palavras que começam com o som /o/, escritas com 'o-' ou 'ho-'. Em 'Compramos siete o ocho libros', 'ocho' começa com esse som, então o correto seria 'siete u ocho libros'. As outras três estão certas: 'e inglés' (a conjunção 'y' vira 'e' antes do som /i/), 'u otra' e 'u ocho'. Portanto, a frase incorreta é 'COMPRAMOS SIETE O OCHO LIBROS'."
       },
       {
         "id": "i2f16",
@@ -1597,7 +1597,7 @@
       {
         "id": "i2f31",
         "topic": "Apócopes",
-        "question": "¿Cuál es el apócope correcto en: 'Necesito _____ minutos más.'?",
+        "question": "¿Cuál es el apócope correcto en: 'Necesito _____ minuto más.'?",
         "options": [
           "algún",
           "alguno",
@@ -1631,7 +1631,7 @@
           "'Ninguno' se convierte en 'ningún' antes de sustantivos masculinos singulares"
         ],
         "correct": 2,
-        "explanation": "A opção incorreta é C: 'bueno' NÃO se apocopa antes de femininos. Apocopa apenas antes de masculino singular: 'buen libro' (masc. sing.), mas 'buena idea' (sem apócope para feminino). 'Ninguno' → 'ningún' (masc. sing.) também é correto."
+        "explanation": "A afirmação falsa é a que diz que 'bueno' também se apocopa diante de substantivo feminino. 'Bueno' só apocopa antes de masculino singular ('buen libro'); no feminino fica inteiro ('buena idea'). As outras três afirmações estão corretas. Portanto, a resposta correta é a que fala de 'BUENO' antes de femininos."
       },
       {
         "id": "i2f67",

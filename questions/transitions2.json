@@ -191,7 +191,7 @@
       {
         "id": "t2m15",
         "topic": "Phrasal Verbs – On/Off",
-        "question": "Always forget to _____ the light before going out.",
+        "question": "I always forget to _____ the light before going out.",
         "options": [
           "turn on",
           "turn off",
@@ -269,7 +269,7 @@
       {
         "id": "t2m21",
         "topic": "Verbal Combinations – Away",
-        "question": "I feel like _____ my old clothes. (throw away)",
+        "question": "These old clothes are torn and stained. I'm going to _____ the whole bag.",
         "options": [
           "give away",
           "throw away",
@@ -503,10 +503,10 @@
       {
         "id": "t2m39",
         "topic": "Present Perfect vs Simple Past",
-        "question": "We _____ already booked the hotel. No need to worry.",
+        "question": "We _____ the hotel. No need to worry.",
         "options": [
           "have already booked",
-          "already booked",
+          "has already booked",
           "had already booked",
           "already have booked"
         ],
