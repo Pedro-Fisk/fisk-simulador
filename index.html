@@ -188,6 +188,10 @@
     .adv-1     { --accent: #15803D; }
     .adv-2     { --accent: #166534; }
     .adv-3     { --accent: #7C3AED; }
+    /* Teens: a família roxa do Geppetto (o card do programa no Portal) */
+    .tn-1      { --accent: #6D28D9; }
+    .tn-2      { --accent: #5B21B6; }
+    .tn-3      { --accent: #0891B2; }
 
     /* ── Student name field ── */
     .name-field-wrap {
@@ -950,6 +954,24 @@
             <p>Inversion, Subjunctive, Passive Voice, Mixed Conditionals</p>
           </div>
         </div>
+        <div class="section-label">Teens</div>
+        <div class="books-grid">
+          <div class="book-card tn-1" data-book="teensconnect1" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7h6M9 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <h3>Teens Connect 1</h3>
+            <p data-blurb="teensconnect1">To Be, This/That, A/An, Can, There Is/There Are</p>
+          </div>
+          <div class="book-card tn-2" data-book="teensconnect2" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7h6M9 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <h3>Teens Connect 2</h3>
+            <p data-blurb="teensconnect2">Does/Doesn't, Genitive Case, Going To, Past Continuous</p>
+          </div>
+          <div class="book-card tn-3" data-book="teenselementary2" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19.5A2.5 2.5 0 016.5 17H20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 014 19.5v-15A2.5 2.5 0 016.5 2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M9 7h6M9 11h4" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <h3>Teens Elementary 2</h3>
+            <p data-blurb="teenselementary2">Would, There Was/Were, As...As, Tag Questions</p>
+          </div>
+        </div>
       </div><!-- /english-books -->
 
       <!-- Spanish books -->
@@ -1209,6 +1231,13 @@ const BOOKS = {
   fluency2:     { name: 'Fluency 2',     file: 'questions/fluency2.json',     midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
   // In Focus não tem prova formal (a avaliação é o simulado MET): só Practice + Custom
   infocus:      { name: 'In Focus',      file: 'questions/infocus.json',      soPractice: true },
+  /* Teens (15/08/2026): o programa dos 12-14 anos entra no QP. O Teens
+     Connect 3 fica FORA até a tabela de conteúdos dele chegar; o aluno do
+     TC3 pratica os anteriores (ver o degrau fantasma na ESCADA_QP). O
+     Elementary 2 será descontinuado depois deste semestre — banco enxuto. */
+  teensconnect1:    { name: 'Teens Connect 1',    file: 'questions/teensconnect1.json',    midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
+  teensconnect2:    { name: 'Teens Connect 2',    file: 'questions/teensconnect2.json',    midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
+  teenselementary2: { name: 'Teens Elementary 2', file: 'questions/teenselementary2.json', midtermLessons: 'Lessons 1 to 6', finalLessons: 'Lessons 7 to 12' },
   inmediato1:   { name: 'Inmediato 1',   file: 'questions/inmediato1.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
   inmediato2:   { name: 'Inmediato 2',   file: 'questions/inmediato2.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
   inmediato3:   { name: 'Inmediato 3',   file: 'questions/inmediato3.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
@@ -1241,10 +1270,22 @@ const CLOUD = {
   tool: 'qp'
 };
 // "Fluency 2" → "fluency2", "In Focus" → "infocus", "Inmediato 2" → "inmediato2"
+/* Também aceita um degrau FANTASMA da escada (livro sem banco, como o Teens
+   Connect 3): ele não abre card próprio, mas posiciona o aluno na trilha para
+   os anteriores aparecerem. O card do livro escreve o estágio de vários
+   jeitos ("Connect 3", "Teens Connect 3"): a normalização tenta com e sem o
+   prefixo "teens". */
 function bookKeyFromCard(nome) {
   const k = String(nome || '').toLowerCase().normalize('NFD')
     .replace(/[̀-ͯ]/g, '').replace(/[^a-z0-9]/g, '');
-  return BOOKS[k] ? k : null;
+  const candidatos = [k, 'teens' + k];
+  for (const c of candidatos) {
+    if (BOOKS[c]) return c;
+    for (const trilha of Object.keys(ESCADA_QP)) {
+      if (ESCADA_QP[trilha].indexOf(c) >= 0) return c;
+    }
+  }
+  return null;
 }
 /* Escada do curso, na ordem em que o aluno avança. Trilhas diferentes não se
    comparam: quem está em Inmediato não alcança o conteúdo de inglês, e
@@ -1252,13 +1293,22 @@ function bookKeyFromCard(nome) {
    "ainda não está disponível", que é o comportamento seguro. */
 const ESCADA_QP = {
   ingles:   ['essentials1', 'essentials2', 'transitions1', 'transitions2', 'fluency1', 'fluency2', 'infocus'],
-  espanhol: ['inmediato1', 'inmediato2', 'inmediato3']
+  espanhol: ['inmediato1', 'inmediato2', 'inmediato3'],
+  /* Trilhas do programa Teens (15/08/2026). O 'teensconnect3' é um degrau
+     FANTASMA: ainda não tem banco (a tabela de conteúdos não chegou), mas
+     precisa estar na escada para o aluno do TC3 alcançar o 1 e o 2 —
+     revisão é o uso do QP. O mesmo vale para o teensconnect4, de 2027.
+     Degrau sem entrada no BOOKS nunca vira card (o filtro abaixo corta). */
+  teens_connect:    ['teensconnect1', 'teensconnect2', 'teensconnect3', 'teensconnect4'],
+  teens_elementary: ['teenselementary1', 'teenselementary2']
 };
-/** Os livros que este aluno alcança: o dele e os anteriores da trilha dele. */
+/** Os livros que este aluno alcança: o dele e os anteriores da trilha dele.
+    Só devolve degraus que EXISTEM no BOOKS — o degrau fantasma serve para
+    posicionar o aluno na escada, não para virar card. */
 function livrosAteOEstagio(k) {
   for (const trilha of Object.keys(ESCADA_QP)) {
     const i = ESCADA_QP[trilha].indexOf(k);
-    if (i >= 0) return ESCADA_QP[trilha].slice(0, i + 1);
+    if (i >= 0) return ESCADA_QP[trilha].slice(0, i + 1).filter(x => BOOKS[x]);
   }
   return [k];   // livro fora da escada: só ele mesmo
 }
@@ -1266,7 +1316,9 @@ function livrosAteOEstagio(k) {
   if (PORTAL_NOME) state.studentName = PORTAL_NOME;
   if (!PORTAL_BOOK) return;
   const k = bookKeyFromCard(PORTAL_BOOK);
-  if (k) {
+  /* Degrau fantasma cuja escada não tem NENHUM banco antes dele (ex.:
+     Teens Elementary 1) cai na mesma mensagem do livro desconhecido. */
+  if (k && livrosAteOEstagio(k).length) {
     const alcanca = livrosAteOEstagio(k);
     document.querySelectorAll('.book-card').forEach(c => { if (alcanca.indexOf(c.dataset.book) < 0) c.style.display = 'none'; });
     /* Aluno de espanhol: trocar o GRUPO de livros não bastava, porque a
@@ -1482,6 +1534,49 @@ const LESSON_MAP = {
     /* Lección 9 */ 'El Imperativo y los Complementos': 9, 'Estilo Indirecto: Dijo que...': 9, 'Pronombres Relativos': 9,
     /* Lección 10 */ 'El Voseo': 10, 'Oraciones Temporales': 10, 'El Diminutivo y el Aumentativo': 10,
   },
+  /* ── Teens (15/08/2026): bancos gerados das tabelas de conteúdo dos livros
+     (decoupagens em "TABELA DE CONTEÚDOS (for reference)"). Intro Lesson = 0,
+     como o Before You Start do essentials1. ── */
+  teensconnect1: {
+    /* Intro Lesson */ 'Greetings & Introductions': 0, 'Numbers 1–20': 0, 'Alphabet & Spelling': 0, 'Classroom Commands': 0,
+    /* Lesson 1 */ 'Demonstratives: This/That/These/Those': 1, 'To Be – Is/Are': 1, 'Articles: A / An': 1, 'Family & Jobs': 1,
+    /* Lesson 2 */ 'Personal Pronouns': 2, 'Question Word: What': 2, 'School Objects': 2, 'Feelings & Emotions': 2,
+    /* Lesson 3 */ 'To Be – Affirmative / Negative': 3, 'To Be – Questions': 3, 'Question Word: Where': 3, 'Parts of the House': 3,
+    /* Lesson 4 */ 'Countries & Nationalities': 4, 'Where...From?': 4, 'Position of Adjectives': 4,
+    /* Lesson 5 */ 'Do You Like...?': 5, 'Likes & Dislikes': 5, 'Prepositions: In / On (Time)': 5, 'Days, Months & Seasons': 5,
+    /* Lesson 6 */ 'Imperatives': 6, 'What Time Is It?': 6, 'Numbers 21–99': 6, 'Daily Routines & Chores': 6,
+    /* Lesson 7 */ 'Can – Ability': 7, 'There Is / There Are': 7, 'Prepositions of Location': 7,
+    /* Lesson 8 */ 'Transportation: By / On': 8, 'How Do You Get To...?': 8, 'Places Around Town': 8, 'Means of Transportation': 8,
+    /* Lesson 9 */ 'Present Continuous': 9, 'Possessive Adjectives': 9, 'Pets & Actions': 9,
+    /* Lesson 10 */ 'How Many': 10, 'Why / Because': 10, 'Clothes': 10,
+  },
+  teensconnect2: {
+    /* Intro Lesson */ "Can / Can't": 0, 'Prepositions of Place': 0, 'Greetings & Introductions': 0,
+    /* Lesson 1 */ "Simple Present – Does / Doesn't": 1, 'Linking Words – And / But / Or': 1, 'Ordering Food': 1, 'Food Groups': 1,
+    /* Lesson 2 */ 'Simple Present – He/She/It Spelling': 2, 'Parts of the Body': 2, 'Expressions of Disbelief': 2, 'Agreeing & Disagreeing': 2,
+    /* Lesson 3 */ 'Genitive Case': 3, 'Whose': 3, 'Hobbies': 3,
+    /* Lesson 4 */ 'Should – Advice': 4, 'How Often': 4, 'Linking Words – So / Because': 4, 'Health Problems': 4,
+    /* Lesson 5 */ 'Be Going To': 5, 'May – Possibility': 5, 'Vacation Activities': 5,
+    /* Lesson 6 */ 'To Be – Past (Was/Were)': 6, 'Field Trip Places': 6, 'Ordinal Numbers': 6,
+    /* Lesson 7 */ 'Past Continuous': 7, 'Wild Animals': 7, "Saying You Don't Like": 7,
+    /* Lesson 8 */ 'Possessive Pronouns': 8, 'Holidays & Celebrations': 8, 'Dates': 8,
+    /* Lesson 9 */ 'There Was / There Were': 9, 'Places Around the City': 9, 'Giving Directions': 9,
+    /* Lesson 10 */ 'Objective Pronouns': 10, 'Irregular Plural': 10, 'School Subjects': 10, 'Would Rather': 10,
+  },
+  teenselementary2: {
+    /* Lesson 1 */ 'Would': 1,
+    /* Lesson 2 */ 'Verb To Be – Past': 2,
+    /* Lesson 3 */ 'There Was / There Were': 3,
+    /* Lesson 4 */ 'Will': 4,
+    /* Lesson 5 */ 'As...As': 5,
+    /* Lesson 6 */ 'Would Rather': 6, 'How Much / How Many': 6,
+    /* Lesson 7 */ 'Simple Past – Regular Verbs': 7,
+    /* Lesson 8 */ 'Simple Past – Irregular Verbs': 8, 'Some / Any': 8,
+    /* Lesson 9 */ 'Possessive Pronouns': 9,
+    /* Lesson 10 */ 'Past Continuous': 10,
+    /* Lesson 11 */ 'Was / Were Going To': 11,
+    /* Lesson 12 */ 'Tag Questions': 12, 'How Long': 12,
+  },
 };
 
 /* ── Utilities ── */
@@ -1512,7 +1607,10 @@ function ordenarGrupos(keys) {
 }
 function rotuloGrupo(k) {
   if (!ehLicao(k)) return String(k);
-  return Number(k) === 0 ? 'Before You Start' : 'Lesson ' + Number(k);
+  /* A lição 0 tem nome diferente por família de livro: nos Teens Connect o
+     livro chama de "Intro Lesson"; nos regulares, "Before You Start". */
+  if (Number(k) === 0) return /^teens/.test(state.book || '') ? 'Intro Lesson' : 'Before You Start';
+  return 'Lesson ' + Number(k);
 }
 function temPhrasal(data) {
   return !!(data && data.phrasal && data.phrasal.questions && data.phrasal.questions.length);
@@ -2752,7 +2850,7 @@ function marcarTopicos(querEste) {
 async function portalPracticeBoot() {
   if (!VEIO_DO_VIDEO) return;
   const k = bookKeyFromCard(PORTAL_BOOK);
-  if (!k) return;                       // livro sem Quick Practice: portalBoot já avisa
+  if (!k || !BOOKS[k]) return;          // livro sem Quick Practice (ou degrau fantasma): portalBoot já avisa
 
   state.book = k;
   await goToExam();                     // baixa o banco e mostra a tela de exames

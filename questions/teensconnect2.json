@@ -1,0 +1,1577 @@
+{
+  "book": "teensconnect2",
+  "bookName": "Teens Connect 2",
+  "level": "teens",
+  "midterm": {
+    "label": "Prova do Meio do Livro",
+    "topics": "Intro + Lessons 1–5: Can/Can't, Prepositions, Simple Present (he/she/it), Linking Words, Genitive Case, Whose, Should, How Often, Be Going To, May",
+    "questions": [
+      {
+        "id": "tc2m01",
+        "topic": "Can / Can't",
+        "question": "Choose the correct sentence:",
+        "options": [
+          "She can swims very well.",
+          "She can swim very well.",
+          "She cans swim very well.",
+          "She can to swim very well."
+        ],
+        "correct": 1,
+        "explanation": "Quando queremos falar de uma habilidade, usamos 'can' + verbo na forma básica, sem 's', sem 'to' e sem mudar o 'can'. Neste caso, o verbo depois de 'can' fica simplesmente 'swim'. Portanto, a resposta correta é 'She CAN SWIM very well.'"
+      },
+      {
+        "id": "tc2m02",
+        "topic": "Can / Can't",
+        "question": "A: Can you play the piano?  B: No, I _____.",
+        "options": [
+          "don't",
+          "not",
+          "can't",
+          "can"
+        ],
+        "correct": 2,
+        "explanation": "Quando a pergunta começa com 'Can', a resposta curta também usa 'can' ou 'can't'. Como a resposta é 'No', usamos a forma negativa. Portanto, a resposta correta é 'No, I CAN'T.'"
+      },
+      {
+        "id": "tc2m03",
+        "topic": "Prepositions of Place",
+        "question": "Look! The dog is _____ the table, on the floor.",
+        "options": [
+          "in",
+          "on",
+          "under",
+          "at"
+        ],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo está embaixo de outra coisa, usamos 'under'. Neste caso, o cachorro está no chão, embaixo da mesa. Portanto, a resposta correta é 'UNDER the table'."
+      },
+      {
+        "id": "tc2m04",
+        "topic": "Greetings & Introductions",
+        "question": "A friend says: 'Long time no see!' What does it mean?",
+        "options": [
+          "You see very well.",
+          "I haven't seen you for a long time.",
+          "I can't see you.",
+          "See you tomorrow."
+        ],
+        "correct": 1,
+        "explanation": "'Long time no see!' é uma saudação para quando encontramos alguém depois de muito tempo. É como dizer 'Quanto tempo!' em português. Portanto, a resposta correta é 'I haven't seen you for a long time.'"
+      },
+      {
+        "id": "tc2m05",
+        "topic": "Greetings & Introductions",
+        "question": "Choose the correct way to introduce yourself:",
+        "options": [
+          "My name is Lucas and I am 13 years old.",
+          "My name have Lucas and I have 13 years old.",
+          "Me name is Lucas and I are 13 years.",
+          "My name Lucas and I 13 years old."
+        ],
+        "correct": 0,
+        "explanation": "Quando queremos nos apresentar, dizemos 'My name is…' e, para a idade, 'I am… years old', sempre com o verbo. Cuidado: em inglês não usamos 'have' para idade. Portanto, a resposta correta é 'My name IS Lucas and I AM 13 years old.'"
+      },
+      {
+        "id": "tc2m06",
+        "topic": "Simple Present – Does / Doesn't",
+        "question": "_____ Matthew want a cheese sandwich?",
+        "options": [
+          "Do",
+          "Does",
+          "Is",
+          "Are"
+        ],
+        "correct": 1,
+        "explanation": "Quando fazemos uma pergunta no Simple Present sobre 'he', 'she' ou 'it', usamos 'does'. Neste caso, Matthew é 'he'. Portanto, a resposta correta é 'DOES Matthew want a cheese sandwich?'"
+      },
+      {
+        "id": "tc2m07",
+        "topic": "Simple Present – Does / Doesn't",
+        "question": "Does she like pizza? — No, she _____.",
+        "options": [
+          "don't",
+          "doesn't",
+          "isn't",
+          "not"
+        ],
+        "correct": 1,
+        "explanation": "Quando a pergunta usa 'Does', a resposta curta também usa 'does' ou 'doesn't'. Para 'she', a negativa é sempre 'doesn't'. Portanto, a resposta correta é 'No, she DOESN'T.'"
+      },
+      {
+        "id": "tc2m08",
+        "topic": "Simple Present – Does / Doesn't",
+        "question": "He _____ orange juice every morning.",
+        "options": [
+          "drinks",
+          "drink",
+          "drinking",
+          "is drink"
+        ],
+        "correct": 0,
+        "explanation": "Quando falamos do que 'he', 'she' ou 'it' faz todos os dias, o verbo ganha um 's' no final. Neste caso, 'he' + 'drink' vira 'drinks'. Portanto, a resposta correta é 'He DRINKS orange juice every morning.'"
+      },
+      {
+        "id": "tc2m09",
+        "topic": "Simple Present – Does / Doesn't",
+        "question": "Which sentence is WRONG?",
+        "options": [
+          "She doesn't eat fish.",
+          "My dad works on Saturdays.",
+          "Tom don't like vegetables.",
+          "Does Anna study English?"
+        ],
+        "correct": 2,
+        "explanation": "Para 'he', 'she' ou 'it', a negativa do Simple Present é 'doesn't', nunca 'don't'. Como Tom é 'he', o certo seria 'Tom DOESN'T like vegetables'. Portanto, a frase errada é 'Tom don't like vegetables.'"
+      },
+      {
+        "id": "tc2m10",
+        "topic": "Simple Present – Does / Doesn't",
+        "question": "My sister _____ eat meat. She's a vegetarian.",
+        "options": [
+          "don't",
+          "isn't",
+          "doesn't",
+          "not"
+        ],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que 'he', 'she' ou 'it' NÃO faz algo, usamos 'doesn't' + verbo. Neste caso, 'my sister' é 'she'. Portanto, a resposta correta é 'My sister DOESN'T eat meat.'"
+      },
+      {
+        "id": "tc2m11",
+        "topic": "Linking Words – And / But / Or",
+        "question": "My brother likes bananas _____ apples, but I don't.",
+        "options": [
+          "but",
+          "or",
+          "and",
+          "so"
+        ],
+        "correct": 2,
+        "explanation": "Quando queremos somar duas coisas, usamos 'and'. Neste caso, o irmão gosta de bananas E de maçãs, as duas coisas juntas. Portanto, a resposta correta é 'bananas AND apples'."
+      },
+      {
+        "id": "tc2m12",
+        "topic": "Linking Words – And / But / Or",
+        "question": "I like pizza, _____ I don't like hamburgers.",
+        "options": [
+          "and",
+          "but",
+          "or",
+          "because"
+        ],
+        "correct": 1,
+        "explanation": "Quando queremos mostrar um contraste, uma ideia contrária à outra, usamos 'but'. Neste caso, gosto de pizza, MAS não gosto de hambúrguer. Portanto, a resposta correta é 'BUT I don't like hamburgers'."
+      },
+      {
+        "id": "tc2m13",
+        "topic": "Linking Words – And / But / Or",
+        "question": "Would you like juice _____ soda?",
+        "options": [
+          "or",
+          "and",
+          "but",
+          "so"
+        ],
+        "correct": 0,
+        "explanation": "Quando oferecemos uma escolha entre duas opções, usamos 'or'. Neste caso, a pessoa vai escolher suco OU refrigerante, só um dos dois. Portanto, a resposta correta é 'juice OR soda'."
+      },
+      {
+        "id": "tc2m14",
+        "topic": "Ordering Food",
+        "question": "The waiter asks: 'What would you like to order?' You answer:",
+        "options": [
+          "Yes, I like.",
+          "You're welcome.",
+          "No way!",
+          "I'll have a veggie burger, please."
+        ],
+        "correct": 3,
+        "explanation": "Quando o garçom pergunta o que você quer pedir, uma boa resposta é 'I'll have…' + a comida. É a forma educada de fazer o pedido no restaurante. Portanto, a resposta correta é 'I'll have a veggie burger, please.'"
+      },
+      {
+        "id": "tc2m15",
+        "topic": "Ordering Food",
+        "question": "You finish eating at a restaurant and want to pay. You say:",
+        "options": [
+          "Anything else I can get you?",
+          "Can I have the check, please?",
+          "What would you like to order?",
+          "I'll have a pizza, please."
+        ],
+        "correct": 1,
+        "explanation": "Quando terminamos de comer e queremos pagar, pedimos a conta com 'Can I have the check, please?'. As outras frases são do garçom ou servem para pedir comida. Portanto, a resposta correta é 'Can I have the check, please?'"
+      },
+      {
+        "id": "tc2m16",
+        "topic": "Food Groups",
+        "question": "Which word is a vegetable?",
+        "options": [
+          "yogurt",
+          "carrot",
+          "chicken",
+          "bread"
+        ],
+        "correct": 1,
+        "explanation": "Os alimentos se dividem em grupos: 'yogurt' é laticínio, 'chicken' é proteína e 'bread' é do grupo dos grãos. A cenoura é o único vegetal da lista. Portanto, a resposta correta é 'CARROT'."
+      },
+      {
+        "id": "tc2m17",
+        "topic": "Simple Present – He/She/It Spelling",
+        "question": "Helen _____ her teeth after lunch.",
+        "options": [
+          "brush",
+          "brushes",
+          "brushs",
+          "brushing"
+        ],
+        "correct": 1,
+        "explanation": "Quando o verbo termina em 'sh', para 'he', 'she' ou 'it' acrescentamos 'es', não só 's'. Neste caso, 'brush' vira 'brushes'. Portanto, a resposta correta é 'Helen BRUSHES her teeth after lunch.'"
+      },
+      {
+        "id": "tc2m18",
+        "topic": "Simple Present – He/She/It Spelling",
+        "question": "She _____ TV in the evening.",
+        "options": [
+          "watchs",
+          "watch",
+          "watches",
+          "watching"
+        ],
+        "correct": 2,
+        "explanation": "Quando o verbo termina em 'ch', para 'he', 'she' ou 'it' acrescentamos 'es'. Neste caso, 'watch' vira 'watches'. Portanto, a resposta correta é 'She WATCHES TV in the evening.'"
+      },
+      {
+        "id": "tc2m19",
+        "topic": "Simple Present – He/She/It Spelling",
+        "question": "My brother _____ to school at 7 a.m.",
+        "options": [
+          "goes",
+          "gos",
+          "go",
+          "going"
+        ],
+        "correct": 0,
+        "explanation": "O verbo 'go' é especial: para 'he', 'she' ou 'it', ele ganha 'es' e vira 'goes'. Cuidado com 'gos', que não existe. Portanto, a resposta correta é 'My brother GOES to school at 7 a.m.'"
+      },
+      {
+        "id": "tc2m20",
+        "topic": "Simple Present – He/She/It Spelling",
+        "question": "Which sentence is WRONG?",
+        "options": [
+          "He plays soccer on Sundays.",
+          "She studys English every day.",
+          "Mary washes the dishes.",
+          "Tom does his homework."
+        ],
+        "correct": 1,
+        "explanation": "Quando o verbo termina em consoante + 'y', o 'y' vira 'ie' antes do 's': 'study' vira 'studies'. A forma 'studys' não existe. Portanto, a frase errada é 'She studys English every day.'"
+      },
+      {
+        "id": "tc2m21",
+        "topic": "Simple Present – He/She/It Spelling",
+        "question": "My mom _____ breakfast for us every day.",
+        "options": [
+          "make",
+          "is make",
+          "maked",
+          "makes"
+        ],
+        "correct": 3,
+        "explanation": "Quando falamos do que 'he', 'she' ou 'it' faz todos os dias, o verbo ganha 's' no final. Neste caso, 'my mom' é 'she', então 'make' vira 'makes'. Portanto, a resposta correta é 'My mom MAKES breakfast for us every day.'"
+      },
+      {
+        "id": "tc2m22",
+        "topic": "Parts of the Body",
+        "question": "You wear a ring on your _____.",
+        "options": [
+          "toe",
+          "finger",
+          "knee",
+          "ear"
+        ],
+        "correct": 1,
+        "explanation": "Usamos um anel no dedo da mão, que em inglês é 'finger'. 'Toe' é o dedo do pé, 'knee' é o joelho e 'ear' é a orelha. Portanto, a resposta correta é 'FINGER'."
+      },
+      {
+        "id": "tc2m23",
+        "topic": "Parts of the Body",
+        "question": "Which part of the body is on your face?",
+        "options": [
+          "wrist",
+          "knee",
+          "eyebrow",
+          "toe"
+        ],
+        "correct": 2,
+        "explanation": "'Eyebrow' é a sobrancelha, que fica no rosto, acima dos olhos. 'Wrist' é o pulso, 'knee' é o joelho e 'toe' é o dedo do pé. Portanto, a resposta correta é 'EYEBROW'."
+      },
+      {
+        "id": "tc2m24",
+        "topic": "Parts of the Body",
+        "question": "Anna isn't tall and she isn't short. She is _____.",
+        "options": [
+          "shoulder length",
+          "blonde",
+          "long",
+          "average height"
+        ],
+        "correct": 3,
+        "explanation": "Quando alguém não é alto nem baixo, dizemos que tem 'average height', altura média. 'Shoulder length' e 'long' descrevem cabelo, e 'blonde' é a cor loira. Portanto, a resposta correta é 'AVERAGE HEIGHT'."
+      },
+      {
+        "id": "tc2m25",
+        "topic": "Expressions of Disbelief",
+        "question": "Your friend says: 'I met a famous singer yesterday!' You can't believe it. You say:",
+        "options": [
+          "No way!",
+          "You're welcome.",
+          "Good night.",
+          "Here you are."
+        ],
+        "correct": 0,
+        "explanation": "Quando não acreditamos em algo surpreendente, usamos expressões como 'No way!', 'Are you kidding?' ou 'Is this for real?'. É como dizer 'Não acredito!' em português. Portanto, a resposta correta é 'NO WAY!'"
+      },
+      {
+        "id": "tc2m26",
+        "topic": "Agreeing & Disagreeing",
+        "question": "Your friend says: 'Pizza is delicious.' You agree. You say:",
+        "options": [
+          "I don't think so.",
+          "No way!",
+          "I think so too.",
+          "What's the matter?"
+        ],
+        "correct": 2,
+        "explanation": "Quando concordamos com alguém, podemos dizer 'I think so too', 'That's true' ou 'Absolutely'. Neste caso, você também acha a pizza deliciosa. Portanto, a resposta correta é 'I THINK SO TOO.'"
+      },
+      {
+        "id": "tc2m27",
+        "topic": "Agreeing & Disagreeing",
+        "question": "Your friend says: 'Video games are boring.' You disagree. You say:",
+        "options": [
+          "Absolutely.",
+          "I don't agree with you.",
+          "That's true.",
+          "I think so too."
+        ],
+        "correct": 1,
+        "explanation": "Quando discordamos de alguém, usamos 'I don't agree with you' ou 'I don't think so'. As outras opções servem para concordar. Portanto, a resposta correta é 'I DON'T AGREE with you.'"
+      },
+      {
+        "id": "tc2m28",
+        "topic": "Genitive Case",
+        "question": "This is my _____ dog.",
+        "options": [
+          "grandma's",
+          "grandmas",
+          "grandma",
+          "grandma is"
+        ],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que algo pertence a alguém, usamos o nome do dono + apóstrofo + 's'. Neste caso, o cachorro é da vovó. Portanto, a resposta correta é 'my GRANDMA'S dog'."
+      },
+      {
+        "id": "tc2m29",
+        "topic": "Genitive Case",
+        "question": "The dad of the boys is a teacher. → The _____ dad is a teacher.",
+        "options": [
+          "boy's",
+          "boys's",
+          "boys'",
+          "boys"
+        ],
+        "correct": 2,
+        "explanation": "Quando o dono é plural e já termina em 's', colocamos só o apóstrofo depois do 's': boys'. 'Boy's' seria de um menino só. Portanto, a resposta correta é 'The BOYS' dad is a teacher.'"
+      },
+      {
+        "id": "tc2m30",
+        "topic": "Genitive Case",
+        "question": "Choose the correct sentence:",
+        "options": [
+          "That is the bike of Karen.",
+          "That is Karen's bike.",
+          "That is Karens bike.",
+          "That is Karen bike's."
+        ],
+        "correct": 1,
+        "explanation": "Quando o dono é uma pessoa, preferimos o apóstrofo + 's' logo depois do nome: Karen's bike. O apóstrofo vai no dono, não na coisa. Portanto, a resposta correta é 'That is KAREN'S bike.'"
+      },
+      {
+        "id": "tc2m31",
+        "topic": "Whose",
+        "question": "_____ dog is this? It's Amanda's.",
+        "options": [
+          "Who",
+          "Whose",
+          "Who's",
+          "Which"
+        ],
+        "correct": 1,
+        "explanation": "Quando queremos perguntar de quem é alguma coisa, usamos 'Whose'. Cuidado com 'Who's', que significa 'Who is'. Portanto, a resposta correta é 'WHOSE dog is this?'"
+      },
+      {
+        "id": "tc2m32",
+        "topic": "Whose",
+        "question": "Whose hobby costs a lot of money? — _____",
+        "options": [
+          "Paul's.",
+          "Paul is.",
+          "It's the Paul.",
+          "Him."
+        ],
+        "correct": 0,
+        "explanation": "Quando a pergunta é com 'Whose', respondemos com o dono + apóstrofo + 's': 'Paul's', ou seja, o hobby do Paul. Portanto, a resposta correta é 'PAUL'S.'"
+      },
+      {
+        "id": "tc2m33",
+        "topic": "Whose",
+        "question": "Choose the correct question:",
+        "options": [
+          "Whose is cell phone that?",
+          "Who's cell phone is that?",
+          "Whose cell phone is that?",
+          "Whose that cell phone is?"
+        ],
+        "correct": 2,
+        "explanation": "A pergunta de posse segue a ordem: 'Whose' + coisa + 'is that?'. E lembre: 'whose' pergunta de quem é; 'who's' significa 'who is'. Portanto, a resposta correta é 'WHOSE CELL PHONE IS THAT?'"
+      },
+      {
+        "id": "tc2m34",
+        "topic": "Genitive Case",
+        "question": "The dog of my sister → _____",
+        "options": [
+          "my sister dog",
+          "my dog's sister",
+          "my sister's dog",
+          "the dog my sister"
+        ],
+        "correct": 2,
+        "explanation": "Quando queremos dizer 'o cachorro da minha irmã', o dono vem primeiro, com apóstrofo + 's', e depois a coisa. Cuidado para não inverter: 'my dog's sister' seria 'a irmã do meu cachorro'. Portanto, a resposta correta é 'MY SISTER'S DOG'."
+      },
+      {
+        "id": "tc2m35",
+        "topic": "Genitive Case",
+        "question": "Is this _____ guitar? — Yes, it's his.",
+        "options": [
+          "Marks",
+          "Mark is",
+          "the Mark",
+          "Mark's"
+        ],
+        "correct": 3,
+        "explanation": "Quando queremos dizer que algo é de uma pessoa, usamos o nome + apóstrofo + 's'. Neste caso, o violão é do Mark. Portanto, a resposta correta é 'Is this MARK'S guitar?'"
+      },
+      {
+        "id": "tc2m36",
+        "topic": "Hobbies",
+        "question": "Marcela loves plants and flowers. Her hobby is _____.",
+        "options": [
+          "baking",
+          "gardening",
+          "doing puzzles",
+          "playing the guitar"
+        ],
+        "correct": 1,
+        "explanation": "'Gardening' é o hobby de cuidar de plantas e flores no jardim. 'Baking' é assar bolos e pães, e as outras opções não têm relação com plantas. Portanto, a resposta correta é 'GARDENING'."
+      },
+      {
+        "id": "tc2m37",
+        "topic": "Hobbies",
+        "question": "Tom uses a camera in his hobby. His hobby is _____.",
+        "options": [
+          "photography",
+          "writing stories",
+          "building models",
+          "dancing"
+        ],
+        "correct": 0,
+        "explanation": "Quem usa uma câmera como hobby gosta de 'photography', fotografia. As outras opções são hobbies que não precisam de câmera. Portanto, a resposta correta é 'PHOTOGRAPHY'."
+      },
+      {
+        "id": "tc2m38",
+        "topic": "Hobbies",
+        "question": "Your friends invite you to a talent show and you want to participate. You say:",
+        "options": [
+          "I don't believe it.",
+          "What's the matter?",
+          "Count me in!",
+          "Sorry to hear that."
+        ],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que vamos participar de algo, usamos 'Count me in!', 'I'm in' ou 'OK. Let's do it'. É como dizer 'Pode contar comigo!'. Portanto, a resposta correta é 'COUNT ME IN!'"
+      },
+      {
+        "id": "tc2m39",
+        "topic": "Should – Advice",
+        "question": "You have a headache. You _____ rest.",
+        "options": [
+          "should",
+          "shoulds",
+          "don't",
+          "are"
+        ],
+        "correct": 0,
+        "explanation": "Quando queremos dar um conselho, usamos 'should' + verbo. 'Should' nunca muda, nem ganha 's'. Portanto, a resposta correta é 'You SHOULD rest.'"
+      },
+      {
+        "id": "tc2m40",
+        "topic": "Should – Advice",
+        "question": "He _____ eat so much candy. It's bad for his teeth.",
+        "options": [
+          "should",
+          "doesn't",
+          "shouldn't",
+          "isn't"
+        ],
+        "correct": 2,
+        "explanation": "Quando o conselho é para NÃO fazer algo, usamos 'shouldn't' + verbo. Neste caso, comer muito doce faz mal aos dentes. Portanto, a resposta correta é 'He SHOULDN'T eat so much candy.'"
+      },
+      {
+        "id": "tc2m41",
+        "topic": "Should – Advice",
+        "question": "Choose the correct sentence:",
+        "options": [
+          "You should to drink more water.",
+          "You should drink more water.",
+          "You should drinking more water.",
+          "You should drinks more water."
+        ],
+        "correct": 1,
+        "explanation": "Depois de 'should', o verbo vem na forma básica: sem 'to', sem '-ing' e sem 's'. Portanto, a resposta correta é 'You SHOULD DRINK more water.'"
+      },
+      {
+        "id": "tc2m42",
+        "topic": "Should – Advice",
+        "question": "Your friend says: 'I don't feel well.' You say:",
+        "options": [
+          "That's really cool!",
+          "Count me in.",
+          "Awesome idea!",
+          "You should take it easy."
+        ],
+        "correct": 3,
+        "explanation": "Quando alguém diz que não está se sentindo bem, respondemos com um conselho gentil, como 'You should take it easy' (você deveria pegar leve). As outras opções são para boas notícias. Portanto, a resposta correta é 'You SHOULD take it easy.'"
+      },
+      {
+        "id": "tc2m43",
+        "topic": "How Often",
+        "question": "_____ do you brush your teeth? — Three times a day.",
+        "options": [
+          "How much",
+          "How often",
+          "How old",
+          "How many"
+        ],
+        "correct": 1,
+        "explanation": "Quando queremos perguntar com que frequência alguém faz algo, usamos 'How often'. A resposta 'three times a day' fala de frequência. Portanto, a resposta correta é 'HOW OFTEN do you brush your teeth?'"
+      },
+      {
+        "id": "tc2m44",
+        "topic": "How Often",
+        "question": "I go to the gym _____ — on Mondays and Thursdays.",
+        "options": [
+          "twice a week",
+          "once a week",
+          "every day",
+          "never"
+        ],
+        "correct": 0,
+        "explanation": "Segundas E quintas são dois dias por semana, e 'duas vezes por semana' em inglês é 'twice a week'. 'Once' é uma vez, 'every day' é todo dia. Portanto, a resposta correta é 'TWICE A WEEK'."
+      },
+      {
+        "id": "tc2m45",
+        "topic": "How Often",
+        "question": "How often does Lia eat fast food? — _____",
+        "options": [
+          "One time for month.",
+          "Once for a month.",
+          "Once a month.",
+          "A month once."
+        ],
+        "correct": 2,
+        "explanation": "Quando falamos de frequência, dizemos 'once a month' (uma vez por mês), 'twice a week' e assim por diante, sempre com 'a' antes do período. Portanto, a resposta correta é 'ONCE A MONTH.'"
+      },
+      {
+        "id": "tc2m46",
+        "topic": "Linking Words – So / Because",
+        "question": "Iris has toothaches _____ she doesn't brush her teeth very often.",
+        "options": [
+          "so",
+          "because",
+          "but",
+          "or"
+        ],
+        "correct": 1,
+        "explanation": "Quando queremos dar o motivo, a causa de algo, usamos 'because'. Neste caso, a causa da dor de dente é não escovar os dentes. Portanto, a resposta correta é 'BECAUSE she doesn't brush her teeth very often'."
+      },
+      {
+        "id": "tc2m47",
+        "topic": "Linking Words – So / Because",
+        "question": "We eat healthy and exercise, _____ we don't get sick often.",
+        "options": [
+          "because",
+          "but",
+          "or",
+          "so"
+        ],
+        "correct": 3,
+        "explanation": "Quando queremos mostrar o resultado, a consequência de algo, usamos 'so'. Neste caso, comer bem e se exercitar tem como resultado não ficar doente. Portanto, a resposta correta é 'SO we don't get sick often'."
+      },
+      {
+        "id": "tc2m48",
+        "topic": "Health Problems",
+        "question": "My throat hurts and it's difficult to talk. I have a _____.",
+        "options": [
+          "backache",
+          "sore throat",
+          "stiff neck",
+          "stomachache"
+        ],
+        "correct": 1,
+        "explanation": "Quando a garganta dói, temos uma 'sore throat'. 'Backache' é dor nas costas, 'stiff neck' é torcicolo e 'stomachache' é dor de estômago. Portanto, a resposta correta é 'SORE THROAT'."
+      },
+      {
+        "id": "tc2m49",
+        "topic": "Health Problems",
+        "question": "Ben ate too much pizza. Now he has a _____.",
+        "options": [
+          "stomachache",
+          "toothache",
+          "cough",
+          "fever"
+        ],
+        "correct": 0,
+        "explanation": "Quem come demais fica com dor de estômago, que em inglês é 'stomachache'. 'Toothache' é dor de dente, 'cough' é tosse e 'fever' é febre. Portanto, a resposta correta é 'STOMACHACHE'."
+      },
+      {
+        "id": "tc2m50",
+        "topic": "Be Going To",
+        "question": "Helen _____ get a summer job on her vacation.",
+        "options": [
+          "are going to",
+          "going to",
+          "is going to",
+          "is going"
+        ],
+        "correct": 2,
+        "explanation": "Quando falamos de planos futuros, usamos o verbo 'be' + 'going to' + verbo. Para 'she', o 'be' é 'is'. Portanto, a resposta correta é 'Helen IS GOING TO get a summer job.'"
+      },
+      {
+        "id": "tc2m51",
+        "topic": "Be Going To",
+        "question": "_____ you going to do a digital detox on the weekend?",
+        "options": [
+          "Are",
+          "Is",
+          "Do",
+          "Does"
+        ],
+        "correct": 0,
+        "explanation": "Nas perguntas com 'going to', o verbo 'be' vem antes da pessoa. Para 'you', o 'be' é 'are'. Portanto, a resposta correta é 'ARE you going to do a digital detox?'"
+      },
+      {
+        "id": "tc2m52",
+        "topic": "Be Going To",
+        "question": "They _____ going to travel in July.",
+        "options": [
+          "is",
+          "am",
+          "be",
+          "are"
+        ],
+        "correct": 3,
+        "explanation": "No 'going to', o verbo 'be' muda com a pessoa: I am, he/she/it is, we/you/they are. Neste caso, 'they' pede 'are'. Portanto, a resposta correta é 'They ARE going to travel in July.'"
+      },
+      {
+        "id": "tc2m53",
+        "topic": "Be Going To",
+        "question": "I _____ watch TV tonight. I have a lot of homework.",
+        "options": [
+          "am not going to",
+          "not going to",
+          "don't going to",
+          "am not go to"
+        ],
+        "correct": 0,
+        "explanation": "A negativa do 'going to' é feita no verbo 'be': 'I am not going to' + verbo. Não usamos 'don't' com 'going to'. Portanto, a resposta correta é 'I AM NOT GOING TO watch TV tonight.'"
+      },
+      {
+        "id": "tc2m54",
+        "topic": "Be Going To",
+        "question": "Is Bia going to visit a theme park? — Yes, she _____.",
+        "options": [
+          "does",
+          "is",
+          "goes",
+          "was"
+        ],
+        "correct": 1,
+        "explanation": "Quando a pergunta começa com 'Is', a resposta curta também usa 'is'. Neste caso, a resposta é afirmativa. Portanto, a resposta correta é 'Yes, she IS.'"
+      },
+      {
+        "id": "tc2m55",
+        "topic": "Be Going To",
+        "question": "Which sentence is WRONG?",
+        "options": [
+          "She is going to rest on Sunday.",
+          "We are going to hang out with friends.",
+          "He is going to plays soccer.",
+          "I am going to read a book."
+        ],
+        "correct": 2,
+        "explanation": "Depois de 'going to', o verbo fica na forma básica, sem 's'. O certo seria 'He is going to PLAY soccer'. Portanto, a frase errada é 'He is going to plays soccer.'"
+      },
+      {
+        "id": "tc2m56",
+        "topic": "May – Possibility",
+        "question": "I'm not sure about my vacation yet. I _____ go hiking.",
+        "options": [
+          "going to",
+          "may",
+          "do",
+          "am"
+        ],
+        "correct": 1,
+        "explanation": "Quando algo é uma possibilidade, mas não é certeza, usamos 'may' + verbo. Neste caso, a pessoa ainda não decidiu. Portanto, a resposta correta é 'I MAY go hiking.'"
+      },
+      {
+        "id": "tc2m57",
+        "topic": "May – Possibility",
+        "question": "'I may travel in January.' This sentence means:",
+        "options": [
+          "I am sure I will travel.",
+          "I never travel in January.",
+          "It is possible, but not certain.",
+          "I traveled last January."
+        ],
+        "correct": 2,
+        "explanation": "'May' mostra possibilidade: talvez aconteça, talvez não. A pessoa ainda não tem certeza se vai viajar. Portanto, a resposta correta é 'It is possible, but not certain.'"
+      },
+      {
+        "id": "tc2m58",
+        "topic": "May – Possibility",
+        "question": "Choose the correct sentence:",
+        "options": [
+          "She may to visit her grandparents.",
+          "She mays visit her grandparents.",
+          "She may visiting her grandparents.",
+          "She may visit her grandparents."
+        ],
+        "correct": 3,
+        "explanation": "Depois de 'may', o verbo vem na forma básica: sem 'to', sem 's' e sem '-ing'. Portanto, a resposta correta é 'She MAY VISIT her grandparents.'"
+      },
+      {
+        "id": "tc2m59",
+        "topic": "Vacation Activities",
+        "question": "Pedro wants to stay away from his phone and social media on vacation. He is going to _____.",
+        "options": [
+          "become a content creator",
+          "do a digital detox",
+          "visit theme parks",
+          "get a summer job"
+        ],
+        "correct": 1,
+        "explanation": "'Do a digital detox' é ficar um tempo longe do celular e das redes sociais. 'Become a content creator' é o contrário: criar conteúdo na internet. Portanto, a resposta correta é 'DO A DIGITAL DETOX'."
+      },
+      {
+        "id": "tc2m60",
+        "topic": "Vacation Activities",
+        "question": "Lucas is going to work in December to make some money. He is going to _____.",
+        "options": [
+          "get a summer job",
+          "do a digital detox",
+          "rest",
+          "start a new hobby"
+        ],
+        "correct": 0,
+        "explanation": "Trabalhar nas férias para ganhar dinheiro é 'get a summer job'. As outras opções não têm relação com trabalho. Portanto, a resposta correta é 'GET A SUMMER JOB'."
+      }
+    ]
+  },
+  "final": {
+    "label": "Prova do Final do Livro",
+    "topics": "Lessons 6–10: Was/Were, Past Continuous, Possessive Pronouns, There Was/Were, Objective Pronouns, Irregular Plural, ordinais, datas e lugares",
+    "questions": [
+      {
+        "id": "tc2f01",
+        "topic": "To Be – Past (Was/Were)",
+        "question": "_____ your mom tired on Friday? — Yes, she was.",
+        "options": [
+          "Was",
+          "Were",
+          "Is",
+          "Did"
+        ],
+        "correct": 0,
+        "explanation": "Quando perguntamos sobre o passado com o verbo 'be', usamos 'was' para 'he', 'she' e 'it'. Neste caso, 'your mom' é 'she'. Portanto, a resposta correta é 'WAS your mom tired on Friday?'"
+      },
+      {
+        "id": "tc2f02",
+        "topic": "To Be – Past (Was/Were)",
+        "question": "Where _____ you and your family last weekend?",
+        "options": [
+          "was",
+          "were",
+          "are",
+          "did"
+        ],
+        "correct": 1,
+        "explanation": "No passado, o verbo 'be' é 'were' para 'you', 'we' e 'they'. 'You and your family' é mais de uma pessoa. Portanto, a resposta correta é 'Where WERE you and your family last weekend?'"
+      },
+      {
+        "id": "tc2f03",
+        "topic": "To Be – Past (Was/Were)",
+        "question": "We _____ at the planetarium yesterday.",
+        "options": [
+          "was",
+          "is",
+          "were",
+          "are"
+        ],
+        "correct": 2,
+        "explanation": "Quando falamos de onde estávamos no passado, usamos 'was' ou 'were'. Para 'we', a forma certa é 'were'. Portanto, a resposta correta é 'We WERE at the planetarium yesterday.'"
+      },
+      {
+        "id": "tc2f04",
+        "topic": "To Be – Past (Was/Were)",
+        "question": "The museum _____ closed last Monday.",
+        "options": [
+          "were",
+          "is",
+          "was",
+          "are"
+        ],
+        "correct": 2,
+        "explanation": "'The museum' é uma coisa só, ou seja, 'it'. No passado, 'it' usa 'was'. Portanto, a resposta correta é 'The museum WAS closed last Monday.'"
+      },
+      {
+        "id": "tc2f05",
+        "topic": "To Be – Past (Was/Were)",
+        "question": "Were the kids at the zoo? — No, they _____.",
+        "options": [
+          "wasn't",
+          "aren't",
+          "didn't",
+          "weren't"
+        ],
+        "correct": 3,
+        "explanation": "Quando a pergunta usa 'Were', a resposta curta também usa 'were' ou 'weren't'. Como a resposta é 'No' e o sujeito é 'they', usamos a negativa. Portanto, a resposta correta é 'No, they WEREN'T.'"
+      },
+      {
+        "id": "tc2f06",
+        "topic": "To Be – Past (Was/Were)",
+        "question": "Which sentence is WRONG?",
+        "options": [
+          "They was at the farm on Saturday.",
+          "I was at the theater last night.",
+          "She was at the fire station.",
+          "You were at the local park."
+        ],
+        "correct": 0,
+        "explanation": "Para 'they', o passado do verbo 'be' é 'were', nunca 'was'. O certo seria 'They WERE at the farm'. Portanto, a frase errada é 'They was at the farm on Saturday.'"
+      },
+      {
+        "id": "tc2f07",
+        "topic": "Field Trip Places",
+        "question": "You can see stars and planets in this place. It's a _____.",
+        "options": [
+          "farm",
+          "planetarium",
+          "botanical garden",
+          "theater"
+        ],
+        "correct": 1,
+        "explanation": "O lugar onde vemos estrelas e planetas é o 'planetarium', o planetário. 'Farm' é fazenda, 'botanical garden' é jardim botânico e 'theater' é teatro. Portanto, a resposta correta é 'PLANETARIUM'."
+      },
+      {
+        "id": "tc2f08",
+        "topic": "Field Trip Places",
+        "question": "You can see fish and sharks in this place. It's an _____.",
+        "options": [
+          "aquarium",
+          "art museum",
+          "old farm",
+          "ice rink"
+        ],
+        "correct": 0,
+        "explanation": "O lugar com peixes e tubarões é o 'aquarium', o aquário. Os outros lugares não têm animais marinhos. Portanto, a resposta correta é 'AQUARIUM'."
+      },
+      {
+        "id": "tc2f09",
+        "topic": "Field Trip Places",
+        "question": "In this place, you can see statues of famous people, like singers and actors. It's a _____.",
+        "options": [
+          "fire station",
+          "gas station",
+          "grocery store",
+          "wax museum"
+        ],
+        "correct": 3,
+        "explanation": "O museu com estátuas de cera de pessoas famosas é o 'wax museum'. 'Fire station' é o corpo de bombeiros e as outras opções são lojas e postos. Portanto, a resposta correta é 'WAX MUSEUM'."
+      },
+      {
+        "id": "tc2f10",
+        "topic": "Ordinal Numbers",
+        "question": "May is the _____ month of the year.",
+        "options": [
+          "five",
+          "fifth",
+          "fiveth",
+          "fifteen"
+        ],
+        "correct": 1,
+        "explanation": "Para dizer a posição de algo, usamos os números ordinais. O ordinal de 'five' é 'fifth', com essa mudança na escrita. Portanto, a resposta correta é 'May is the FIFTH month of the year.'"
+      },
+      {
+        "id": "tc2f11",
+        "topic": "Ordinal Numbers",
+        "question": "Choose the correct word for '3rd':",
+        "options": [
+          "third",
+          "three",
+          "threeth",
+          "thirteen"
+        ],
+        "correct": 0,
+        "explanation": "Os três primeiros ordinais são especiais: first (1st), second (2nd) e third (3rd). 'Three' é o número normal e 'thirteen' é treze. Portanto, a resposta correta é 'THIRD'."
+      },
+      {
+        "id": "tc2f12",
+        "topic": "Ordinal Numbers",
+        "question": "Ana finished the race in position number one. She was _____.",
+        "options": [
+          "one",
+          "the once",
+          "first",
+          "oneth"
+        ],
+        "correct": 2,
+        "explanation": "Para posições, usamos os ordinais, e o ordinal de 'one' é 'first'. Formas como 'oneth' não existem. Portanto, a resposta correta é 'She was FIRST.'"
+      },
+      {
+        "id": "tc2f13",
+        "topic": "Past Continuous",
+        "question": "The lions _____ resting in the cave.",
+        "options": [
+          "were",
+          "was",
+          "are",
+          "did"
+        ],
+        "correct": 0,
+        "explanation": "O Past Continuous usa 'was' ou 'were' + verbo com '-ing'. 'The lions' é plural, ou seja, 'they', que pede 'were'. Portanto, a resposta correta é 'The lions WERE resting in the cave.'"
+      },
+      {
+        "id": "tc2f14",
+        "topic": "Past Continuous",
+        "question": "Bob _____ walking his dog at 8 a.m.",
+        "options": [
+          "were",
+          "was",
+          "is",
+          "did"
+        ],
+        "correct": 1,
+        "explanation": "No Past Continuous, usamos 'was' para 'he', 'she' e 'it'. Bob é 'he'. Portanto, a resposta correta é 'Bob WAS walking his dog at 8 a.m.'"
+      },
+      {
+        "id": "tc2f15",
+        "topic": "Past Continuous",
+        "question": "What _____ you doing at 9 p.m. yesterday?",
+        "options": [
+          "was",
+          "did",
+          "were",
+          "are"
+        ],
+        "correct": 2,
+        "explanation": "Nas perguntas do Past Continuous, o 'was/were' vem antes da pessoa. Para 'you', usamos 'were'. Portanto, a resposta correta é 'What WERE you doing at 9 p.m. yesterday?'"
+      },
+      {
+        "id": "tc2f16",
+        "topic": "Past Continuous",
+        "question": "I _____ TV when you called.",
+        "options": [
+          "was watching",
+          "watching",
+          "were watching",
+          "am watching"
+        ],
+        "correct": 0,
+        "explanation": "Quando queremos dizer o que estava acontecendo em um momento do passado, usamos 'was/were' + verbo com '-ing'. Para 'I', a forma é 'was watching'. Portanto, a resposta correta é 'I WAS WATCHING TV when you called.'"
+      },
+      {
+        "id": "tc2f17",
+        "topic": "Past Continuous",
+        "question": "The monkeys _____ sleeping. They were playing!",
+        "options": [
+          "wasn't",
+          "don't",
+          "aren't",
+          "weren't"
+        ],
+        "correct": 3,
+        "explanation": "A negativa do Past Continuous é 'wasn't' ou 'weren't' + verbo com '-ing'. 'The monkeys' é plural, então usamos 'weren't'. Portanto, a resposta correta é 'The monkeys WEREN'T sleeping.'"
+      },
+      {
+        "id": "tc2f18",
+        "topic": "Past Continuous",
+        "question": "Which sentence is WRONG?",
+        "options": [
+          "He was feeding the animals.",
+          "She were reading a book.",
+          "We were watching the elephants.",
+          "I was taking photos."
+        ],
+        "correct": 1,
+        "explanation": "Para 'she', o Past Continuous usa 'was', nunca 'were'. O certo seria 'She WAS reading a book'. Portanto, a frase errada é 'She were reading a book.'"
+      },
+      {
+        "id": "tc2f19",
+        "topic": "Past Continuous",
+        "question": "Was the tiger sleeping? — Yes, it _____.",
+        "options": [
+          "was",
+          "were",
+          "did",
+          "is"
+        ],
+        "correct": 0,
+        "explanation": "Quando a pergunta começa com 'Was', a resposta curta também usa 'was'. Neste caso, a resposta é afirmativa e o sujeito é 'it'. Portanto, a resposta correta é 'Yes, it WAS.'"
+      },
+      {
+        "id": "tc2f20",
+        "topic": "Wild Animals",
+        "question": "This animal has a long trunk and big ears. Which animal is it?",
+        "options": [
+          "lion",
+          "zebra",
+          "elephant",
+          "snake"
+        ],
+        "correct": 2,
+        "explanation": "O animal com tromba comprida ('trunk') e orelhas grandes é o 'elephant', o elefante. Nenhum dos outros animais tem tromba. Portanto, a resposta correta é 'ELEPHANT'."
+      },
+      {
+        "id": "tc2f21",
+        "topic": "Wild Animals",
+        "question": "This animal has black and white stripes. It's a _____.",
+        "options": [
+          "bear",
+          "zebra",
+          "monkey",
+          "giraffe"
+        ],
+        "correct": 1,
+        "explanation": "O animal com listras ('stripes') pretas e brancas é a 'zebra'. A girafa tem manchas ('spots'), não listras. Portanto, a resposta correta é 'ZEBRA'."
+      },
+      {
+        "id": "tc2f22",
+        "topic": "Wild Animals",
+        "question": "A crocodile is dangerous because it has sharp _____.",
+        "options": [
+          "fur",
+          "stripes",
+          "spots",
+          "teeth"
+        ],
+        "correct": 3,
+        "explanation": "O crocodilo é perigoso por causa dos dentes afiados, 'sharp teeth'. 'Fur' é pelo, 'stripes' são listras e 'spots' são manchas. Portanto, a resposta correta é 'sharp TEETH'."
+      },
+      {
+        "id": "tc2f23",
+        "topic": "Saying You Don't Like",
+        "question": "You don't like snakes. Choose a different way to say that:",
+        "options": [
+          "I'm not a big fan of snakes.",
+          "Snakes are so cool!",
+          "I love snakes.",
+          "That sounds like fun!"
+        ],
+        "correct": 0,
+        "explanation": "Quando queremos dizer que não gostamos de algo de um jeito mais leve, usamos 'I'm not a big fan of…' ou 'I'm not really into…'. As outras opções mostram que a pessoa gosta. Portanto, a resposta correta é 'I'M NOT A BIG FAN OF snakes.'"
+      },
+      {
+        "id": "tc2f24",
+        "topic": "Saying You Don't Like",
+        "question": "Leo says: 'I'm not really into zoos.' This means:",
+        "options": [
+          "Leo loves zoos.",
+          "Leo works at a zoo.",
+          "Leo doesn't like zoos very much.",
+          "Leo is inside a zoo."
+        ],
+        "correct": 2,
+        "explanation": "'I'm not really into…' é um jeito de dizer que não gostamos muito de algo. Não tem nada a ver com estar dentro de um lugar. Portanto, a resposta correta é 'Leo doesn't like zoos very much.'"
+      },
+      {
+        "id": "tc2f25",
+        "topic": "Possessive Pronouns",
+        "question": "This bag is yours and that one is _____.",
+        "options": [
+          "my",
+          "mine",
+          "me",
+          "I"
+        ],
+        "correct": 1,
+        "explanation": "Quando não repetimos a coisa, usamos os pronomes possessivos: mine, yours, his, hers, ours, theirs. 'My' precisaria vir antes de 'bag'. Portanto, a resposta correta é 'that one is MINE'."
+      },
+      {
+        "id": "tc2f26",
+        "topic": "Possessive Pronouns",
+        "question": "Gina's favorite celebration is Easter. _____ is Christmas.",
+        "options": [
+          "Mine",
+          "My",
+          "Me",
+          "I"
+        ],
+        "correct": 0,
+        "explanation": "Aqui, 'Mine' substitui 'my favorite celebration' para não repetir tudo de novo. 'My' sozinho não funciona sem a coisa depois. Portanto, a resposta correta é 'MINE is Christmas.'"
+      },
+      {
+        "id": "tc2f27",
+        "topic": "Possessive Pronouns",
+        "question": "That skateboard belongs to Leo. It's _____.",
+        "options": [
+          "him",
+          "her",
+          "his",
+          "he"
+        ],
+        "correct": 2,
+        "explanation": "Quando queremos dizer que algo é dele, usamos o pronome possessivo 'his'. 'Him' é pronome objeto e 'he' é sujeito. Portanto, a resposta correta é 'It's HIS.'"
+      },
+      {
+        "id": "tc2f28",
+        "topic": "Possessive Pronouns",
+        "question": "These books belong to my brother and me. They are _____.",
+        "options": [
+          "us",
+          "our",
+          "we",
+          "ours"
+        ],
+        "correct": 3,
+        "explanation": "Quando algo pertence a nós e não repetimos a coisa, usamos 'ours'. 'Our' precisaria vir antes de 'books'. Portanto, a resposta correta é 'They are OURS.'"
+      },
+      {
+        "id": "tc2f29",
+        "topic": "Possessive Pronouns",
+        "question": "This isn't my pencil. Is it _____?",
+        "options": [
+          "yours",
+          "your",
+          "you",
+          "yous"
+        ],
+        "correct": 0,
+        "explanation": "No final da frase, sem repetir 'pencil', usamos o pronome possessivo 'yours'. 'Your' só aparece antes de uma coisa, como em 'your pencil'. Portanto, a resposta correta é 'Is it YOURS?'"
+      },
+      {
+        "id": "tc2f30",
+        "topic": "Possessive Pronouns",
+        "question": "Which sentence is WRONG?",
+        "options": [
+          "The red bike is hers.",
+          "This is mine notebook.",
+          "The blue car is ours.",
+          "Those seats are theirs."
+        ],
+        "correct": 1,
+        "explanation": "'Mine' nunca vem antes da coisa; antes de 'notebook' usamos 'my'. O certo seria 'This is MY notebook'. Portanto, a frase errada é 'This is mine notebook.'"
+      },
+      {
+        "id": "tc2f31",
+        "topic": "Holidays & Celebrations",
+        "question": "Children wear costumes and go trick or treating on _____.",
+        "options": [
+          "Easter",
+          "Thanksgiving",
+          "Halloween",
+          "New Year's Day"
+        ],
+        "correct": 2,
+        "explanation": "No 'Halloween', as crianças usam fantasias ('costumes') e saem pedindo doces ('go trick or treating'). Nas outras datas isso não acontece. Portanto, a resposta correta é 'HALLOWEEN'."
+      },
+      {
+        "id": "tc2f32",
+        "topic": "Holidays & Celebrations",
+        "question": "In the USA, people eat turkey and pumpkin pie with their family in November. This celebration is _____.",
+        "options": [
+          "Thanksgiving",
+          "Valentine's Day",
+          "April Fool's Day",
+          "St. Patrick's Day"
+        ],
+        "correct": 0,
+        "explanation": "O 'Thanksgiving' é a festa americana de novembro em que a família se reúne para comer peru ('turkey') e torta de abóbora ('pumpkin pie'). Portanto, a resposta correta é 'THANKSGIVING'."
+      },
+      {
+        "id": "tc2f33",
+        "topic": "Holidays & Celebrations",
+        "question": "On this holiday, children look for eggs in an egg hunt. It's _____.",
+        "options": [
+          "Independence Day",
+          "Christmas",
+          "Mother's Day",
+          "Easter"
+        ],
+        "correct": 3,
+        "explanation": "A caça aos ovos ('egg hunt') é uma tradição da Páscoa, que em inglês é 'Easter'. As outras datas têm outras tradições. Portanto, a resposta correta é 'EASTER'."
+      },
+      {
+        "id": "tc2f34",
+        "topic": "Dates",
+        "question": "When is your mom's birthday? — It's _____ January twelfth.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "of"
+        ],
+        "correct": 1,
+        "explanation": "Quando falamos de uma data completa, com dia e mês, usamos 'on'. 'In' seria só para o mês: 'in January'. Portanto, a resposta correta é 'It's ON January twelfth.'"
+      },
+      {
+        "id": "tc2f35",
+        "topic": "Dates",
+        "question": "How do you say the date 10/25 (October 25)?",
+        "options": [
+          "October twenty-five",
+          "October two-five",
+          "October twenty-fifth",
+          "October twenty-fiveth"
+        ],
+        "correct": 2,
+        "explanation": "Nas datas, o dia é dito com número ordinal: 25 vira 'twenty-fifth'. Formas como 'twenty-fiveth' não existem. Portanto, a resposta correta é 'October TWENTY-FIFTH'."
+      },
+      {
+        "id": "tc2f36",
+        "topic": "Dates",
+        "question": "Choose the correct word for '20th':",
+        "options": [
+          "twentieth",
+          "twenty",
+          "twentyth",
+          "twelfth"
+        ],
+        "correct": 0,
+        "explanation": "O ordinal de 'twenty' é 'twentieth': o 'y' vira 'ie' antes do 'th'. Cuidado com 'twelfth', que é 12th. Portanto, a resposta correta é 'TWENTIETH'."
+      },
+      {
+        "id": "tc2f37",
+        "topic": "There Was / There Were",
+        "question": "_____ a woman at the corner.",
+        "options": [
+          "There was",
+          "There were",
+          "There is",
+          "There are"
+        ],
+        "correct": 0,
+        "explanation": "Quando falamos que existia UMA coisa ou pessoa no passado, usamos 'there was'. 'A woman' é uma pessoa só. Portanto, a resposta correta é 'THERE WAS a woman at the corner.'"
+      },
+      {
+        "id": "tc2f38",
+        "topic": "There Was / There Were",
+        "question": "_____ four cars on the street.",
+        "options": [
+          "There was",
+          "There were",
+          "There is",
+          "It were"
+        ],
+        "correct": 1,
+        "explanation": "Quando falamos que existiam VÁRIAS coisas no passado, usamos 'there were'. 'Four cars' é plural. Portanto, a resposta correta é 'THERE WERE four cars on the street.'"
+      },
+      {
+        "id": "tc2f39",
+        "topic": "There Was / There Were",
+        "question": "_____ there a pet shop here in 2010? — Yes, there was.",
+        "options": [
+          "Were",
+          "Is",
+          "Was",
+          "Did"
+        ],
+        "correct": 2,
+        "explanation": "Na pergunta, o 'was' vem antes de 'there': 'Was there…?'. Como é 'a pet shop', uma coisa só, usamos 'was'. Portanto, a resposta correta é 'WAS there a pet shop here in 2010?'"
+      },
+      {
+        "id": "tc2f40",
+        "topic": "There Was / There Were",
+        "question": "There _____ any gyms in this neighborhood twenty years ago.",
+        "options": [
+          "wasn't",
+          "was",
+          "were",
+          "weren't"
+        ],
+        "correct": 3,
+        "explanation": "'Gyms' é plural, então usamos 'were' na forma negativa: 'weren't'. E o 'any' é o sinal de frase negativa. Portanto, a resposta correta é 'There WEREN'T any gyms in this neighborhood.'"
+      },
+      {
+        "id": "tc2f41",
+        "topic": "There Was / There Were",
+        "question": "Which sentence is WRONG?",
+        "options": [
+          "There was three hotels near the beach.",
+          "There was a bakery on this street.",
+          "There were two gas stations here.",
+          "There was a stadium in my city."
+        ],
+        "correct": 0,
+        "explanation": "'Three hotels' é plural, então o certo é 'there were', não 'there was'. O correto seria 'There WERE three hotels near the beach'. Portanto, a frase errada é 'There was three hotels near the beach.'"
+      },
+      {
+        "id": "tc2f42",
+        "topic": "There Was / There Were",
+        "question": "Were there many people at the stadium? — Yes, _____.",
+        "options": [
+          "they were",
+          "there were",
+          "there was",
+          "it was"
+        ],
+        "correct": 1,
+        "explanation": "Quando a pergunta começa com 'Were there', a resposta curta repete o 'there': 'Yes, there were'. Não trocamos o 'there' por 'they'. Portanto, a resposta correta é 'Yes, THERE WERE.'"
+      },
+      {
+        "id": "tc2f43",
+        "topic": "Places Around the City",
+        "question": "You can buy bread and cakes in this place. It's a _____.",
+        "options": [
+          "gym",
+          "gas station",
+          "bakery",
+          "pet shop"
+        ],
+        "correct": 2,
+        "explanation": "O lugar onde compramos pão e bolo é a 'bakery', a padaria. 'Gym' é academia, 'gas station' é posto e 'pet shop' é loja de animais. Portanto, a resposta correta é 'BAKERY'."
+      },
+      {
+        "id": "tc2f44",
+        "topic": "Places Around the City",
+        "question": "Your dad's car needs gas. He goes to the _____.",
+        "options": [
+          "gas station",
+          "grocery store",
+          "hotel",
+          "movie theater"
+        ],
+        "correct": 0,
+        "explanation": "O lugar onde abastecemos o carro é a 'gas station', o posto de gasolina. 'Grocery store' é mercado, 'hotel' é hotel e 'movie theater' é cinema. Portanto, a resposta correta é 'GAS STATION'."
+      },
+      {
+        "id": "tc2f45",
+        "topic": "Places Around the City",
+        "question": "You want to watch a new movie. You go to the _____.",
+        "options": [
+          "bus station",
+          "stadium",
+          "bakery",
+          "movie theater"
+        ],
+        "correct": 3,
+        "explanation": "O lugar onde assistimos a filmes é o 'movie theater', o cinema. 'Bus station' é rodoviária e 'stadium' é estádio. Portanto, a resposta correta é 'MOVIE THEATER'."
+      },
+      {
+        "id": "tc2f46",
+        "topic": "Giving Directions",
+        "question": "You are lost and want to find the museum. You ask:",
+        "options": [
+          "What a bummer!",
+          "How can I get to the museum?",
+          "Whose museum is this?",
+          "How often do you visit the museum?"
+        ],
+        "correct": 1,
+        "explanation": "Quando queremos pedir informação de como chegar a um lugar, perguntamos 'How can I get to…?' ou 'Can you tell me the way to…?'. Portanto, a resposta correta é 'HOW CAN I GET TO the museum?'"
+      },
+      {
+        "id": "tc2f47",
+        "topic": "Giving Directions",
+        "question": "The bakery is on the other side of the street. You need to _____ the street.",
+        "options": [
+          "cross",
+          "turn",
+          "go back",
+          "block"
+        ],
+        "correct": 0,
+        "explanation": "Quando o lugar está do outro lado da rua, precisamos atravessar, e 'atravessar a rua' é 'cross the street'. 'Turn' é virar e 'go back' é voltar. Portanto, a resposta correta é 'CROSS the street'."
+      },
+      {
+        "id": "tc2f48",
+        "topic": "Giving Directions",
+        "question": "Don't turn right or left. Just go _____.",
+        "options": [
+          "opposite",
+          "next to",
+          "straight ahead",
+          "the corner"
+        ],
+        "correct": 2,
+        "explanation": "Quando alguém deve seguir em frente, sem virar, dizemos 'go straight ahead'. 'Opposite' é 'em frente a' e 'next to' é 'ao lado de'. Portanto, a resposta correta é 'go STRAIGHT AHEAD'."
+      },
+      {
+        "id": "tc2f49",
+        "topic": "Objective Pronouns",
+        "question": "The students are cleaning the classroom. → They are cleaning _____.",
+        "options": [
+          "he",
+          "it",
+          "its",
+          "them"
+        ],
+        "correct": 1,
+        "explanation": "Quando não queremos repetir a coisa, usamos um pronome objeto depois do verbo. 'The classroom' é uma coisa só, então vira 'it'. Portanto, a resposta correta é 'They are cleaning IT.'"
+      },
+      {
+        "id": "tc2f50",
+        "topic": "Objective Pronouns",
+        "question": "I love my grandparents. I visit _____ every Sunday.",
+        "options": [
+          "them",
+          "they",
+          "their",
+          "us"
+        ],
+        "correct": 0,
+        "explanation": "Depois do verbo, usamos o pronome objeto. 'My grandparents' são várias pessoas, então viram 'them'. 'They' só funciona como sujeito. Portanto, a resposta correta é 'I visit THEM every Sunday.'"
+      },
+      {
+        "id": "tc2f51",
+        "topic": "Objective Pronouns",
+        "question": "That's my sister. Can you help _____?",
+        "options": [
+          "she",
+          "hers",
+          "her",
+          "him"
+        ],
+        "correct": 2,
+        "explanation": "Depois do verbo 'help', usamos o pronome objeto. Para 'she', o pronome objeto é 'her'. Portanto, a resposta correta é 'Can you help HER?'"
+      },
+      {
+        "id": "tc2f52",
+        "topic": "Objective Pronouns",
+        "question": "Mr. Lopez is our teacher. We always listen to _____.",
+        "options": [
+          "he",
+          "his",
+          "we",
+          "him"
+        ],
+        "correct": 3,
+        "explanation": "Depois de 'listen to', usamos o pronome objeto. Para 'he', o pronome objeto é 'him'. Portanto, a resposta correta é 'We always listen to HIM.'"
+      },
+      {
+        "id": "tc2f53",
+        "topic": "Objective Pronouns",
+        "question": "Ana and I are in the school play. Come watch _____!",
+        "options": [
+          "us",
+          "we",
+          "our",
+          "they"
+        ],
+        "correct": 0,
+        "explanation": "'Ana and I' somos 'we', e depois do verbo o 'we' vira o pronome objeto 'us'. Portanto, a resposta correta é 'Come watch US!'"
+      },
+      {
+        "id": "tc2f54",
+        "topic": "Irregular Plural",
+        "question": "Kids usually have 20 _____.",
+        "options": [
+          "tooth",
+          "teeth",
+          "tooths",
+          "teeths"
+        ],
+        "correct": 1,
+        "explanation": "'Tooth' (dente) tem plural irregular: não ganha 's', muda para 'teeth'. Formas como 'tooths' e 'teeths' não existem. Portanto, a resposta correta é 'Kids usually have 20 TEETH.'"
+      },
+      {
+        "id": "tc2f55",
+        "topic": "Irregular Plural",
+        "question": "One man, two _____.",
+        "options": [
+          "mans",
+          "mens",
+          "men",
+          "man"
+        ],
+        "correct": 2,
+        "explanation": "'Man' tem plural irregular: o 'a' vira 'e' e a palavra fica 'men'. Não existe 'mans' nem 'mens'. Portanto, a resposta correta é 'two MEN'."
+      },
+      {
+        "id": "tc2f56",
+        "topic": "Irregular Plural",
+        "question": "What is the plural of 'child'?",
+        "options": [
+          "children",
+          "childs",
+          "childrens",
+          "childes"
+        ],
+        "correct": 0,
+        "explanation": "'Child' (criança) tem plural irregular: 'children'. E cuidado: 'children' já é plural, então 'childrens' não existe. Portanto, a resposta correta é 'CHILDREN'."
+      },
+      {
+        "id": "tc2f57",
+        "topic": "Irregular Plural",
+        "question": "Which sentence is WRONG?",
+        "options": [
+          "My feet are cold.",
+          "The children are at school.",
+          "Two men are at the door.",
+          "There are five womans in the photo."
+        ],
+        "correct": 3,
+        "explanation": "'Woman' tem plural irregular: 'women'. A forma 'womans' não existe. O certo seria 'There are five WOMEN in the photo'. Portanto, a frase errada é 'There are five womans in the photo.'"
+      },
+      {
+        "id": "tc2f58",
+        "topic": "School Subjects",
+        "question": "In this school subject, you work with numbers and calculations. It's _____.",
+        "options": [
+          "music",
+          "math",
+          "science",
+          "social studies"
+        ],
+        "correct": 1,
+        "explanation": "A matéria de números e cálculos é 'math', a matemática. 'Science' é ciências e 'social studies' é estudos sociais. Portanto, a resposta correta é 'MATH'."
+      },
+      {
+        "id": "tc2f59",
+        "topic": "School Subjects",
+        "question": "In this school subject, you play sports and do exercises. It's _____.",
+        "options": [
+          "computer science",
+          "English Language Arts",
+          "physical education",
+          "foreign languages"
+        ],
+        "correct": 2,
+        "explanation": "A matéria de esportes e exercícios é 'physical education', a educação física. As outras opções são matérias de sala de aula. Portanto, a resposta correta é 'PHYSICAL EDUCATION'."
+      },
+      {
+        "id": "tc2f60",
+        "topic": "Would Rather",
+        "question": "_____ you rather play soccer or video games? — I'd rather play soccer.",
+        "options": [
+          "Would",
+          "Do",
+          "Are",
+          "Should"
+        ],
+        "correct": 0,
+        "explanation": "Quando perguntamos qual das duas opções a pessoa prefere, usamos 'Would you rather… or…?'. A resposta usa 'I'd rather', que é 'I would rather'. Portanto, a resposta correta é 'WOULD you rather play soccer or video games?'"
+      }
+    ]
+  }
+}

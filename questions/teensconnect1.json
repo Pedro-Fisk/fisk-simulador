@@ -1,0 +1,1577 @@
+{
+  "book": "teensconnect1",
+  "bookName": "Teens Connect 1",
+  "level": "teens",
+  "midterm": {
+    "label": "Prova do Meio do Livro",
+    "topics": "Intro + Lessons 1–5: Greetings, Numbers, This/That/These/Those, To Be, A/An, Pronouns, Where...From?, Do You Like...?",
+    "questions": [
+      {
+        "id": "tc1m01",
+        "topic": "Greetings & Introductions",
+        "question": "It is 8 a.m. and you see your teacher at school. You say:",
+        "options": [
+          "Good night!",
+          "Good morning!",
+          "Goodbye!",
+          "See you!"
+        ],
+        "correct": 1,
+        "explanation": "Quando encontramos alguém de manhã, usamos 'Good morning'. 'Good night' é para se despedir à noite, e 'Goodbye' e 'See you' são para ir embora. Portanto, a resposta correta é 'Good morning!'"
+      },
+      {
+        "id": "tc1m02",
+        "topic": "Greetings & Introductions",
+        "question": "A new student asks: \"How old are you?\" You answer:",
+        "options": [
+          "I'm fine, thanks.",
+          "I'm from Brazil.",
+          "I'm 12 years old.",
+          "My name is Leo."
+        ],
+        "correct": 2,
+        "explanation": "Quando alguém pergunta 'How old are you?', quer saber a sua idade. A resposta usa 'I'm... years old'. Portanto, a resposta correta é 'I'm 12 years old'."
+      },
+      {
+        "id": "tc1m03",
+        "topic": "Greetings & Introductions",
+        "question": "\"Hi, I'm Ana. _____?\" \"My name is Pedro.\"",
+        "options": [
+          "How are you",
+          "What's your name",
+          "How old are you",
+          "What's your phone number"
+        ],
+        "correct": 1,
+        "explanation": "A resposta foi um nome: 'My name is Pedro'. Então a pergunta só pode ser sobre o nome. Portanto, a resposta correta é 'What's your name?'"
+      },
+      {
+        "id": "tc1m04",
+        "topic": "Numbers 1–20",
+        "question": "What number comes after fourteen?",
+        "options": [
+          "thirteen",
+          "forty",
+          "fifty",
+          "fifteen"
+        ],
+        "correct": 3,
+        "explanation": "Depois do número 14 (fourteen) vem o 15, que em inglês é 'fifteen'. Cuidado para não confundir com 'fifty', que é 50. Portanto, a resposta correta é 'fifteen'."
+      },
+      {
+        "id": "tc1m05",
+        "topic": "Numbers 1–20",
+        "question": "Choose the correct number: 12 = _____",
+        "options": [
+          "twelve",
+          "twenty",
+          "twenty-one",
+          "two"
+        ],
+        "correct": 0,
+        "explanation": "O número 12 em inglês é 'twelve'. 'Twenty' é 20 e 'two' é 2 — os sons parecem, mas os números são diferentes. Portanto, a resposta correta é 'twelve'."
+      },
+      {
+        "id": "tc1m06",
+        "topic": "Alphabet & Spelling",
+        "question": "\"What's your last name?\" \"It's Silva.\" \"_____, please.\" \"S-I-L-V-A.\"",
+        "options": [
+          "Read it",
+          "Close it",
+          "Spell it",
+          "Write it"
+        ],
+        "correct": 2,
+        "explanation": "Quando queremos que alguém fale as letras de uma palavra, uma por uma, pedimos 'Spell it, please'. Foi exatamente o que a pessoa fez: S-I-L-V-A. Portanto, a resposta correta é 'Spell it'."
+      },
+      {
+        "id": "tc1m07",
+        "topic": "Alphabet & Spelling",
+        "question": "Your friend spells his name: \"J-A-C-K\". What is his name?",
+        "options": [
+          "Jock",
+          "Jake",
+          "Jack",
+          "Jeck"
+        ],
+        "correct": 2,
+        "explanation": "As letras J-A-C-K formam o nome 'Jack'. Para acertar, é só juntar as letras na ordem que a pessoa falou. Portanto, a resposta correta é 'Jack'."
+      },
+      {
+        "id": "tc1m08",
+        "topic": "Classroom Commands",
+        "question": "The teacher wants to start the class. She says: \"_____ your books.\"",
+        "options": [
+          "Open",
+          "Sit",
+          "Stand",
+          "Spell"
+        ],
+        "correct": 0,
+        "explanation": "Para começar a aula, a professora pede para abrir os livros: 'Open your books'. 'Sit' e 'Stand' são para sentar e levantar, não combinam com 'books'. Portanto, a resposta correta é 'Open'."
+      },
+      {
+        "id": "tc1m09",
+        "topic": "Classroom Commands",
+        "question": "The teacher says: \"Work in pairs.\" What do you do?",
+        "options": [
+          "You work alone.",
+          "You work with one classmate.",
+          "You stand up.",
+          "You close your book."
+        ],
+        "correct": 1,
+        "explanation": "'Work in pairs' quer dizer trabalhar em duplas, ou seja, com um colega. 'Pair' é um par, duas pessoas. Portanto, a resposta correta é 'You work with one classmate'."
+      },
+      {
+        "id": "tc1m10",
+        "topic": "Classroom Commands",
+        "question": "The students are standing. The teacher says: \"_____, please.\"",
+        "options": [
+          "Stand up",
+          "Open",
+          "Sit down",
+          "Spell"
+        ],
+        "correct": 2,
+        "explanation": "Os alunos já estão em pé, então a professora pede para sentarem: 'Sit down, please'. 'Stand up' seria para levantar, o contrário. Portanto, a resposta correta é 'Sit down'."
+      },
+      {
+        "id": "tc1m11",
+        "topic": "Demonstratives: This/That/These/Those",
+        "question": "You are pointing to a photo in your hand. You say: \"_____ is my mom.\"",
+        "options": [
+          "This",
+          "These",
+          "Those",
+          "They"
+        ],
+        "correct": 0,
+        "explanation": "Quando falamos de uma coisa só que está perto de nós, usamos 'this'. A foto está na sua mão, bem perto. Portanto, a resposta correta é 'THIS is my mom'."
+      },
+      {
+        "id": "tc1m12",
+        "topic": "Demonstratives: This/That/These/Those",
+        "question": "Your grandparents are far, on the other side of the park. You say:",
+        "options": [
+          "These are my grandparents.",
+          "This is my grandparents.",
+          "That is my grandparents.",
+          "Those are my grandparents."
+        ],
+        "correct": 3,
+        "explanation": "Quando falamos de duas ou mais pessoas que estão longe, usamos 'those'. São dois avós e eles estão do outro lado do parque. Portanto, a resposta correta é 'THOSE are my grandparents'."
+      },
+      {
+        "id": "tc1m13",
+        "topic": "Demonstratives: This/That/These/Those",
+        "question": "\"_____ that your dad in the car?\" \"Yes, it is.\"",
+        "options": [
+          "Are",
+          "Is",
+          "Am",
+          "This"
+        ],
+        "correct": 1,
+        "explanation": "'That' fala de uma pessoa só, então o verbo é 'is'. A pergunta fica 'Is that your dad?'. Portanto, a resposta correta é 'IS that your dad in the car?'"
+      },
+      {
+        "id": "tc1m14",
+        "topic": "To Be – Is/Are",
+        "question": "My brother and my sister _____ students.",
+        "options": [
+          "is",
+          "am",
+          "are",
+          "be"
+        ],
+        "correct": 2,
+        "explanation": "Quando falamos de duas ou mais pessoas, usamos 'are'. Aqui temos duas pessoas: o irmão e a irmã. Portanto, a resposta correta é 'My brother and my sister ARE students'."
+      },
+      {
+        "id": "tc1m15",
+        "topic": "To Be – Is/Are",
+        "question": "Choose the correct sentence:",
+        "options": [
+          "My grandma are retired.",
+          "My grandma is retired.",
+          "My grandma am retired.",
+          "My grandma be retired."
+        ],
+        "correct": 1,
+        "explanation": "'My grandma' é uma pessoa só, então o verbo é 'is'. 'Are' é para mais de uma pessoa, e 'am' só combina com 'I'. Portanto, a resposta correta é 'My grandma IS retired'."
+      },
+      {
+        "id": "tc1m16",
+        "topic": "Articles: A / An",
+        "question": "My mom is _____ architect.",
+        "options": [
+          "a",
+          "an",
+          "the",
+          "–"
+        ],
+        "correct": 1,
+        "explanation": "Antes de palavra que começa com som de vogal, usamos 'an'. 'Architect' começa com o som de 'a', que é vogal. Portanto, a resposta correta é 'My mom is AN architect'."
+      },
+      {
+        "id": "tc1m17",
+        "topic": "Articles: A / An",
+        "question": "Find the mistake: \"My uncle is an doctor.\"",
+        "options": [
+          "It should be 'a doctor'.",
+          "It should be 'an doctors'.",
+          "It should be 'my uncles'.",
+          "The sentence is correct."
+        ],
+        "correct": 0,
+        "explanation": "'Doctor' começa com som de consoante (d), então o artigo certo é 'a', não 'an'. 'An' só aparece antes de som de vogal, como em 'an engineer'. Portanto, a resposta correta é que devia ser 'A doctor'."
+      },
+      {
+        "id": "tc1m18",
+        "topic": "Family & Jobs",
+        "question": "Your mom's mother is your _____.",
+        "options": [
+          "sister",
+          "daughter",
+          "aunt",
+          "grandma"
+        ],
+        "correct": 3,
+        "explanation": "A mãe da sua mãe é a sua avó, que em inglês é 'grandma' (ou 'grandmother'). 'Daughter' é filha e 'sister' é irmã. Portanto, a resposta correta é 'grandma'."
+      },
+      {
+        "id": "tc1m19",
+        "topic": "Family & Jobs",
+        "question": "\"Who is that woman?\" \"She's my aunt. She _____ a lawyer.\"",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "have"
+        ],
+        "correct": 1,
+        "explanation": "Para dizer a profissão de alguém, usamos o verbo to be: 'She is a lawyer'. Com 'she', o verbo é sempre 'is'. Portanto, a resposta correta é 'She IS a lawyer'."
+      },
+      {
+        "id": "tc1m20",
+        "topic": "Family & Jobs",
+        "question": "\"_____ is this boy in the photo?\" \"He's my brother.\"",
+        "options": [
+          "What",
+          "Where",
+          "Who",
+          "How"
+        ],
+        "correct": 2,
+        "explanation": "A resposta fala de uma pessoa: 'He's my brother'. Quando queremos saber quem é alguém, perguntamos com 'Who'. Portanto, a resposta correta é 'WHO is this boy in the photo?'"
+      },
+      {
+        "id": "tc1m21",
+        "topic": "Personal Pronouns",
+        "question": "My dad is an engineer. _____ is 40 years old.",
+        "options": [
+          "She",
+          "It",
+          "They",
+          "He"
+        ],
+        "correct": 3,
+        "explanation": "Para falar de um homem sem repetir o nome, usamos 'he'. 'She' é para mulher e 'it' é para coisa ou animal. Portanto, a resposta correta é 'HE is 40 years old'."
+      },
+      {
+        "id": "tc1m22",
+        "topic": "Personal Pronouns",
+        "question": "Look at my crayons! _____ are new.",
+        "options": [
+          "It",
+          "They",
+          "He",
+          "She"
+        ],
+        "correct": 1,
+        "explanation": "'Crayons' são várias coisas, então usamos 'they'. 'It' seria para uma coisa só. Portanto, a resposta correta é 'THEY are new'."
+      },
+      {
+        "id": "tc1m23",
+        "topic": "Personal Pronouns",
+        "question": "Choose the correct sentence about your sister:",
+        "options": [
+          "He is happy.",
+          "It is happy.",
+          "She is happy.",
+          "They is happy."
+        ],
+        "correct": 2,
+        "explanation": "Para falar de uma menina ou mulher, o pronome é 'she'. 'He' é para homem e 'it' é para coisa ou animal. Portanto, a resposta correta é 'SHE is happy'."
+      },
+      {
+        "id": "tc1m24",
+        "topic": "Personal Pronouns",
+        "question": "Marcos and I are in the classroom. _____ are students.",
+        "options": [
+          "They",
+          "You",
+          "He",
+          "We"
+        ],
+        "correct": 3,
+        "explanation": "'Marcos and I' inclui você, então o pronome é 'we' (nós). 'They' seria para outras pessoas, sem incluir você. Portanto, a resposta correta é 'WE are students'."
+      },
+      {
+        "id": "tc1m25",
+        "topic": "Question Word: What",
+        "question": "\"_____ is this?\" \"It's an eraser.\"",
+        "options": [
+          "What",
+          "Who",
+          "Where",
+          "When"
+        ],
+        "correct": 0,
+        "explanation": "A resposta fala de uma coisa: 'It's an eraser'. Para perguntar o que é uma coisa, usamos 'What'. Portanto, a resposta correta é 'WHAT is this?'"
+      },
+      {
+        "id": "tc1m26",
+        "topic": "Question Word: What",
+        "question": "Choose the correct question for this answer: \"They are markers.\"",
+        "options": [
+          "Who are they?",
+          "What are these?",
+          "Where are you?",
+          "What is this?"
+        ],
+        "correct": 1,
+        "explanation": "A resposta está no plural ('They are markers'), então a pergunta também precisa estar: 'What are these?'. 'What is this?' seria para uma coisa só. Portanto, a resposta correta é 'What are these?'"
+      },
+      {
+        "id": "tc1m27",
+        "topic": "School Objects",
+        "question": "You write in it. It has many pages. What is it?",
+        "options": [
+          "a chair",
+          "an eraser",
+          "a notebook",
+          "a backpack"
+        ],
+        "correct": 2,
+        "explanation": "A coisa em que escrevemos e que tem muitas páginas é o caderno, 'notebook' em inglês. 'Backpack' é a mochila e 'eraser' é a borracha. Portanto, a resposta correta é 'a notebook'."
+      },
+      {
+        "id": "tc1m28",
+        "topic": "School Objects",
+        "question": "The teacher writes on the _____.",
+        "options": [
+          "pencil case",
+          "board",
+          "desk",
+          "backpack"
+        ],
+        "correct": 1,
+        "explanation": "A professora escreve na lousa, que em inglês é 'board'. 'Desk' é a carteira e 'pencil case' é o estojo. Portanto, a resposta correta é 'board'."
+      },
+      {
+        "id": "tc1m29",
+        "topic": "Feelings & Emotions",
+        "question": "\"How are you feeling?\" \"I want to drink water. I'm _____.\"",
+        "options": [
+          "sleepy",
+          "angry",
+          "happy",
+          "thirsty"
+        ],
+        "correct": 3,
+        "explanation": "Quem quer beber água está com sede, e 'com sede' em inglês é 'thirsty'. 'Sleepy' é com sono e 'angry' é bravo. Portanto, a resposta correta é 'I'm THIRSTY'."
+      },
+      {
+        "id": "tc1m30",
+        "topic": "Feelings & Emotions",
+        "question": "It is 11 p.m. and Bia wants to go to bed. She is _____.",
+        "options": [
+          "sleepy",
+          "hungry",
+          "relaxed",
+          "worried"
+        ],
+        "correct": 0,
+        "explanation": "Quem quer ir para a cama à noite está com sono, que em inglês é 'sleepy'. 'Hungry' é com fome e 'worried' é preocupado. Portanto, a resposta correta é 'sleepy'."
+      },
+      {
+        "id": "tc1m31",
+        "topic": "To Be – Affirmative / Negative",
+        "question": "The kitchen is small, but it _____ beautiful.",
+        "options": [
+          "are",
+          "is",
+          "am",
+          "aren't"
+        ],
+        "correct": 1,
+        "explanation": "'It' fala de uma coisa só (a cozinha), então o verbo é 'is'. A frase é afirmativa: a cozinha É bonita. Portanto, a resposta correta é 'it IS beautiful'."
+      },
+      {
+        "id": "tc1m32",
+        "topic": "To Be – Affirmative / Negative",
+        "question": "Choose the NEGATIVE sentence:",
+        "options": [
+          "My bedroom is big.",
+          "Is my bedroom big?",
+          "My bedroom isn't big.",
+          "My bedroom is very big."
+        ],
+        "correct": 2,
+        "explanation": "A frase negativa usa 'isn't', que é 'is not'. Ela diz que o quarto NÃO é grande. Portanto, a resposta correta é 'My bedroom ISN'T big'."
+      },
+      {
+        "id": "tc1m33",
+        "topic": "To Be – Affirmative / Negative",
+        "question": "Find the mistake: \"We am in the living room.\"",
+        "options": [
+          "It should be 'We is'.",
+          "It should be 'We are'.",
+          "It should be 'We be'.",
+          "The sentence is correct."
+        ],
+        "correct": 1,
+        "explanation": "Com 'we', o verbo to be é sempre 'are'. 'Am' só aparece com 'I'. Portanto, a resposta correta é que devia ser 'We ARE in the living room'."
+      },
+      {
+        "id": "tc1m34",
+        "topic": "To Be – Questions",
+        "question": "_____ your parents at home?",
+        "options": [
+          "Is",
+          "Am",
+          "Are",
+          "Be"
+        ],
+        "correct": 2,
+        "explanation": "Para fazer pergunta com o verbo to be, ele vem antes da pessoa. 'Your parents' são duas pessoas, então usamos 'are'. Portanto, a resposta correta é 'ARE your parents at home?'"
+      },
+      {
+        "id": "tc1m35",
+        "topic": "To Be – Questions",
+        "question": "\"Is your house big?\" Choose the correct short answer:",
+        "options": [
+          "Yes, it is.",
+          "Yes, is.",
+          "Yes, it are.",
+          "Yes, she is."
+        ],
+        "correct": 0,
+        "explanation": "A resposta curta repete o pronome e o verbo da pergunta: 'Yes, it is'. A casa é uma coisa, então o pronome é 'it', não 'she'. Portanto, a resposta correta é 'Yes, it is'."
+      },
+      {
+        "id": "tc1m36",
+        "topic": "To Be – Questions",
+        "question": "Find the correct question:",
+        "options": [
+          "You are in the garage?",
+          "Are you in the garage?",
+          "Is you in the garage?",
+          "Am you in the garage?"
+        ],
+        "correct": 1,
+        "explanation": "Na pergunta, o verbo to be vem antes da pessoa, e com 'you' o verbo é 'are'. 'Is you' é um erro comum, mas 'is' não combina com 'you'. Portanto, a resposta correta é 'ARE you in the garage?'"
+      },
+      {
+        "id": "tc1m37",
+        "topic": "Question Word: Where",
+        "question": "\"_____ is the dog?\" \"It's in the backyard.\"",
+        "options": [
+          "Who",
+          "What",
+          "When",
+          "Where"
+        ],
+        "correct": 3,
+        "explanation": "A resposta fala de um lugar: 'in the backyard'. Para perguntar em que lugar algo está, usamos 'Where'. Portanto, a resposta correta é 'WHERE is the dog?'"
+      },
+      {
+        "id": "tc1m38",
+        "topic": "Question Word: Where",
+        "question": "Choose the correct question for this answer: \"Mom is in the kitchen.\"",
+        "options": [
+          "Who is in the kitchen?",
+          "Where is Mom?",
+          "What is Mom?",
+          "How old is Mom?"
+        ],
+        "correct": 1,
+        "explanation": "A resposta diz o lugar onde a mãe está: na cozinha. A pergunta sobre lugar usa 'Where'. Portanto, a resposta correta é 'WHERE is Mom?'"
+      },
+      {
+        "id": "tc1m39",
+        "topic": "Parts of the House",
+        "question": "We cook dinner in the _____.",
+        "options": [
+          "bathroom",
+          "garage",
+          "kitchen",
+          "bedroom"
+        ],
+        "correct": 2,
+        "explanation": "Cozinhamos na cozinha, que em inglês é 'kitchen'. 'Bathroom' é o banheiro e 'bedroom' é o quarto. Portanto, a resposta correta é 'kitchen'."
+      },
+      {
+        "id": "tc1m40",
+        "topic": "Parts of the House",
+        "question": "The couch and the coffee table are in the _____.",
+        "options": [
+          "living room",
+          "bathroom",
+          "garage",
+          "backyard"
+        ],
+        "correct": 0,
+        "explanation": "O sofá ('couch') e a mesinha de centro ('coffee table') ficam na sala, que em inglês é 'living room'. Portanto, a resposta correta é 'living room'."
+      },
+      {
+        "id": "tc1m41",
+        "topic": "Countries & Nationalities",
+        "question": "Keiko is from Japan. She is _____.",
+        "options": [
+          "Japan",
+          "Japanese",
+          "Chinese",
+          "German"
+        ],
+        "correct": 1,
+        "explanation": "Quem é do Japão ('Japan') é japonês, e a nacionalidade em inglês é 'Japanese'. O nome do país e a nacionalidade são palavras diferentes. Portanto, a resposta correta é 'She is JAPANESE'."
+      },
+      {
+        "id": "tc1m42",
+        "topic": "Countries & Nationalities",
+        "question": "Hans is German. He is from _____.",
+        "options": [
+          "France",
+          "England",
+          "Spain",
+          "Germany"
+        ],
+        "correct": 3,
+        "explanation": "'German' é a nacionalidade de quem vem da Alemanha, que em inglês é 'Germany'. Portanto, a resposta correta é 'He is from GERMANY'."
+      },
+      {
+        "id": "tc1m43",
+        "topic": "Countries & Nationalities",
+        "question": "Find the mistake: \"Lucas is from Brazil. He is Brazil.\"",
+        "options": [
+          "It should be 'He is Brazilian'.",
+          "It should be 'He is from Brazilian'.",
+          "It should be 'He is Brazils'.",
+          "The sentence is correct."
+        ],
+        "correct": 0,
+        "explanation": "Depois de 'He is', usamos a nacionalidade, não o nome do país. Quem é do Brasil é 'Brazilian'. Portanto, a resposta correta é que devia ser 'He is BRAZILIAN'."
+      },
+      {
+        "id": "tc1m44",
+        "topic": "Countries & Nationalities",
+        "question": "Sushi is a typical food from _____.",
+        "options": [
+          "Italy",
+          "Japan",
+          "Spain",
+          "England"
+        ],
+        "correct": 1,
+        "explanation": "O sushi é uma comida típica do Japão. A paella é da Espanha e a pizza é da Itália. Portanto, a resposta correta é 'Japan'."
+      },
+      {
+        "id": "tc1m45",
+        "topic": "Where...From?",
+        "question": "\"_____ are you from?\" \"I'm from Canada.\"",
+        "options": [
+          "Who",
+          "What",
+          "Where",
+          "How"
+        ],
+        "correct": 2,
+        "explanation": "Para perguntar de que país uma pessoa é, usamos 'Where are you from?'. A resposta diz o país: Canadá. Portanto, a resposta correta é 'WHERE are you from?'"
+      },
+      {
+        "id": "tc1m46",
+        "topic": "Where...From?",
+        "question": "\"Where is Sofía from?\" Choose the correct answer:",
+        "options": [
+          "She is Spain from.",
+          "She is from Spain.",
+          "She from Spain.",
+          "She is of Spain."
+        ],
+        "correct": 1,
+        "explanation": "A resposta usa 'from' antes do país: 'She is from Spain'. Não podemos esquecer o verbo 'is' nem trocar a ordem das palavras. Portanto, a resposta correta é 'She is FROM Spain'."
+      },
+      {
+        "id": "tc1m47",
+        "topic": "Where...From?",
+        "question": "Find the correct question:",
+        "options": [
+          "Where your friends are from?",
+          "Where is your friends from?",
+          "Where are your friends from?",
+          "Your friends are from where?"
+        ],
+        "correct": 2,
+        "explanation": "'Your friends' são várias pessoas, então o verbo é 'are', e na pergunta ele vem antes de 'your friends'. Portanto, a resposta correta é 'Where ARE your friends from?'"
+      },
+      {
+        "id": "tc1m48",
+        "topic": "Position of Adjectives",
+        "question": "Choose the correct sentence:",
+        "options": [
+          "It's a car German.",
+          "It's a German car.",
+          "It's German a car.",
+          "It's a car of German."
+        ],
+        "correct": 1,
+        "explanation": "Em inglês, o adjetivo vem ANTES da palavra que ele descreve: 'a German car', e não 'a car German'. É diferente do português. Portanto, a resposta correta é 'It's a GERMAN CAR'."
+      },
+      {
+        "id": "tc1m49",
+        "topic": "Position of Adjectives",
+        "question": "Fish and chips is a typical _____ dish.",
+        "options": [
+          "England",
+          "English",
+          "in English",
+          "of England"
+        ],
+        "correct": 1,
+        "explanation": "Antes de 'dish' (prato), usamos o adjetivo de nacionalidade: 'English'. 'England' é o nome do país e não pode descrever o prato. Portanto, a resposta correta é 'a typical ENGLISH dish'."
+      },
+      {
+        "id": "tc1m50",
+        "topic": "Position of Adjectives",
+        "question": "The flag is green and yellow. It is a _____ flag.",
+        "options": [
+          "flag colorful",
+          "colorful",
+          "colorfuls",
+          "color"
+        ],
+        "correct": 1,
+        "explanation": "O adjetivo 'colorful' vem antes de 'flag' e nunca ganha 's', mesmo falando de coisas no plural. Portanto, a resposta correta é 'It is a COLORFUL flag'."
+      },
+      {
+        "id": "tc1m51",
+        "topic": "Do You Like...?",
+        "question": "\"_____ you like basketball?\" \"Yes, I do.\"",
+        "options": [
+          "Are",
+          "Is",
+          "Do",
+          "Does"
+        ],
+        "correct": 2,
+        "explanation": "Para perguntar se alguém gosta de algo, usamos 'Do you like...?'. A resposta 'Yes, I do' confirma que a pergunta é com 'do'. Portanto, a resposta correta é 'DO you like basketball?'"
+      },
+      {
+        "id": "tc1m52",
+        "topic": "Do You Like...?",
+        "question": "\"Do you like swimming?\" Choose the correct short answer:",
+        "options": [
+          "No, I not.",
+          "No, I don't.",
+          "No, I am not.",
+          "No, I no like."
+        ],
+        "correct": 1,
+        "explanation": "A resposta curta negativa de 'Do you like...?' é 'No, I don't'. 'Don't' é a forma curta de 'do not'. Portanto, a resposta correta é 'No, I DON'T'."
+      },
+      {
+        "id": "tc1m53",
+        "topic": "Do You Like...?",
+        "question": "Find the correct question:",
+        "options": [
+          "You do like tennis?",
+          "Do you like tennis?",
+          "Like you tennis?",
+          "Are you like tennis?"
+        ],
+        "correct": 1,
+        "explanation": "A pergunta começa com 'Do', depois vem a pessoa e o verbo: 'Do you like tennis?'. 'Are you like' mistura dois verbos e está errado. Portanto, a resposta correta é 'DO you like tennis?'"
+      },
+      {
+        "id": "tc1m54",
+        "topic": "Likes & Dislikes",
+        "question": "Complete: \"I love soccer, but I _____ volleyball.\"",
+        "options": [
+          "don't like",
+          "no like",
+          "not like",
+          "doesn't like"
+        ],
+        "correct": 0,
+        "explanation": "Para dizer que não gostamos de algo, usamos 'don't like'. 'No like' e 'not like' são erros comuns, e 'doesn't' é para he/she/it, não para 'I'. Portanto, a resposta correta é 'I DON'T LIKE volleyball'."
+      },
+      {
+        "id": "tc1m55",
+        "topic": "Likes & Dislikes",
+        "question": "Your friend says: \"I like skateboarding!\" You like it too. You say:",
+        "options": [
+          "Me too.",
+          "I don't.",
+          "No, thanks.",
+          "You're welcome."
+        ],
+        "correct": 0,
+        "explanation": "Quando alguém diz que gosta de algo e você também gosta, você responde 'Me too' (eu também). Portanto, a resposta correta é 'Me too'."
+      },
+      {
+        "id": "tc1m56",
+        "topic": "Prepositions: In / On (Time)",
+        "question": "My birthday is _____ July.",
+        "options": [
+          "on",
+          "at",
+          "in",
+          "from"
+        ],
+        "correct": 2,
+        "explanation": "Com meses do ano, usamos 'in': in July, in December. 'On' é para os dias da semana. Portanto, a resposta correta é 'My birthday is IN July'."
+      },
+      {
+        "id": "tc1m57",
+        "topic": "Prepositions: In / On (Time)",
+        "question": "I play soccer _____ Saturdays.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correct": 1,
+        "explanation": "Com dias da semana, usamos 'on': on Saturdays, on Monday. 'In' é para os meses e para as partes do dia. Portanto, a resposta correta é 'I play soccer ON Saturdays'."
+      },
+      {
+        "id": "tc1m58",
+        "topic": "Prepositions: In / On (Time)",
+        "question": "The tennis class is _____ Monday _____ Friday.",
+        "options": [
+          "from / to",
+          "in / on",
+          "on / in",
+          "to / from"
+        ],
+        "correct": 0,
+        "explanation": "Para dizer que algo vai de um dia até outro, usamos 'from... to...': de segunda a sexta. Portanto, a resposta correta é 'FROM Monday TO Friday'."
+      },
+      {
+        "id": "tc1m59",
+        "topic": "Days, Months & Seasons",
+        "question": "What day comes after Tuesday?",
+        "options": [
+          "Monday",
+          "Thursday",
+          "Wednesday",
+          "Sunday"
+        ],
+        "correct": 2,
+        "explanation": "Depois de terça-feira ('Tuesday') vem quarta-feira, que em inglês é 'Wednesday'. Cuidado para não confundir com 'Thursday', que é quinta. Portanto, a resposta correta é 'Wednesday'."
+      },
+      {
+        "id": "tc1m60",
+        "topic": "Days, Months & Seasons",
+        "question": "It is very hot and we go to the beach. What season is it?",
+        "options": [
+          "winter",
+          "fall",
+          "spring",
+          "summer"
+        ],
+        "correct": 3,
+        "explanation": "A estação quente, de praia, é o verão, que em inglês é 'summer'. 'Winter' é o inverno, a estação fria. Portanto, a resposta correta é 'summer'."
+      }
+    ]
+  },
+  "final": {
+    "label": "Prova do Final do Livro",
+    "topics": "Lessons 6–10: Imperatives, What Time Is It?, Can, There Is/There Are, Prepositions, By/On, Present Continuous, Possessives, How Many, Why/Because",
+    "questions": [
+      {
+        "id": "tc1f01",
+        "topic": "Imperatives",
+        "question": "Your room is a mess. Your mom says: \"_____ your room, please!\"",
+        "options": [
+          "Cleans",
+          "Clean",
+          "Cleaning",
+          "To clean"
+        ],
+        "correct": 1,
+        "explanation": "Para dar uma ordem ou instrução, usamos o verbo na forma básica, sem 's' e sem 'to': 'Clean your room!'. Portanto, a resposta correta é 'CLEAN your room, please!'"
+      },
+      {
+        "id": "tc1f02",
+        "topic": "Imperatives",
+        "question": "The floor is wet. The teacher says:",
+        "options": [
+          "Don't run!",
+          "No run!",
+          "Not run!",
+          "Doesn't run!"
+        ],
+        "correct": 0,
+        "explanation": "Para dizer que alguém NÃO deve fazer algo, usamos 'Don't' antes do verbo: 'Don't run!'. 'No run' e 'not run' são erros comuns. Portanto, a resposta correta é 'DON'T run!'"
+      },
+      {
+        "id": "tc1f03",
+        "topic": "Imperatives",
+        "question": "You want your brother to help with the dishes, in a polite way. You say:",
+        "options": [
+          "Wash the dishes now!",
+          "You wash dishes!",
+          "Can you please wash the dishes?",
+          "Washing the dishes?"
+        ],
+        "correct": 2,
+        "explanation": "Para pedir algo de forma educada, usamos 'Can you please...?'. É mais gentil do que dar uma ordem direta. Portanto, a resposta correta é 'CAN YOU PLEASE wash the dishes?'"
+      },
+      {
+        "id": "tc1f04",
+        "topic": "Imperatives",
+        "question": "Find the mistake: \"Please, dusts the furniture.\"",
+        "options": [
+          "It should be 'dusting'.",
+          "It should be 'dust'.",
+          "It should be 'to dust'.",
+          "The sentence is correct."
+        ],
+        "correct": 1,
+        "explanation": "No imperativo, o verbo fica na forma básica, sem 's': 'dust the furniture'. O 's' só aparece com he/she/it em frases normais. Portanto, a resposta correta é que devia ser 'DUST the furniture'."
+      },
+      {
+        "id": "tc1f05",
+        "topic": "What Time Is It?",
+        "question": "\"_____?\" \"It's ten o'clock.\"",
+        "options": [
+          "What day is it",
+          "How old are you",
+          "What time is it",
+          "Where are you"
+        ],
+        "correct": 2,
+        "explanation": "A resposta fala das horas: 'It's ten o'clock'. Para perguntar as horas, usamos 'What time is it?'. Portanto, a resposta correta é 'WHAT TIME is it?'"
+      },
+      {
+        "id": "tc1f06",
+        "topic": "What Time Is It?",
+        "question": "I have breakfast _____ seven o'clock.",
+        "options": [
+          "in",
+          "on",
+          "at",
+          "to"
+        ],
+        "correct": 2,
+        "explanation": "Com as horas, usamos 'at': at seven o'clock, at midnight. 'In' é para meses e 'on' é para dias. Portanto, a resposta correta é 'AT seven o'clock'."
+      },
+      {
+        "id": "tc1f07",
+        "topic": "What Time Is It?",
+        "question": "It is 12 o'clock at night. We say it is _____.",
+        "options": [
+          "midday",
+          "midnight",
+          "morning",
+          "afternoon"
+        ],
+        "correct": 1,
+        "explanation": "Meia-noite em inglês é 'midnight'. 'Midday' é o meio-dia, 12 horas do dia. Portanto, a resposta correta é 'midnight'."
+      },
+      {
+        "id": "tc1f08",
+        "topic": "Numbers 21–99",
+        "question": "Choose the correct number: 40 = _____",
+        "options": [
+          "fourteen",
+          "four",
+          "forty-four",
+          "forty"
+        ],
+        "correct": 3,
+        "explanation": "O número 40 em inglês é 'forty'. Cuidado com 'fourteen', que é 14 — o som parece, mas o número é outro. Portanto, a resposta correta é 'forty'."
+      },
+      {
+        "id": "tc1f09",
+        "topic": "Numbers 21–99",
+        "question": "My grandpa is sixty-eight years old. How old is he?",
+        "options": [
+          "86",
+          "68",
+          "78",
+          "88"
+        ],
+        "correct": 1,
+        "explanation": "'Sixty-eight' é 60 + 8, ou seja, 68. Em inglês, falamos primeiro a dezena ('sixty') e depois a unidade ('eight'). Portanto, a resposta correta é '68'."
+      },
+      {
+        "id": "tc1f10",
+        "topic": "Daily Routines & Chores",
+        "question": "In the morning, I get up, I _____ a shower and I go to school.",
+        "options": [
+          "make",
+          "do",
+          "take",
+          "get"
+        ],
+        "correct": 2,
+        "explanation": "Em inglês, dizemos 'take a shower' para tomar banho. 'Make' e 'do' não combinam com 'shower'. Portanto, a resposta correta é 'I TAKE a shower'."
+      },
+      {
+        "id": "tc1f11",
+        "topic": "Daily Routines & Chores",
+        "question": "After dinner, my sister and I _____ the dishes.",
+        "options": [
+          "wash",
+          "brush",
+          "walk",
+          "dust"
+        ],
+        "correct": 0,
+        "explanation": "Lavar a louça em inglês é 'wash the dishes'. 'Brush' é para escovar os dentes e 'walk' é para passear com o cachorro. Portanto, a resposta correta é 'WASH the dishes'."
+      },
+      {
+        "id": "tc1f12",
+        "topic": "Daily Routines & Chores",
+        "question": "Before dinner, I put the plates on the table. I _____ the table.",
+        "options": [
+          "clear",
+          "set",
+          "dust",
+          "do"
+        ],
+        "correct": 1,
+        "explanation": "Colocar os pratos na mesa antes da refeição é 'set the table'. 'Clear the table' é o contrário: tirar tudo da mesa depois de comer. Portanto, a resposta correta é 'I SET the table'."
+      },
+      {
+        "id": "tc1f13",
+        "topic": "Can – Ability",
+        "question": "\"Can you swim?\" Choose the correct short answer:",
+        "options": [
+          "Yes, I can.",
+          "Yes, I can swim very good.",
+          "Yes, I do.",
+          "Yes, I am."
+        ],
+        "correct": 0,
+        "explanation": "A pergunta com 'can' pede uma resposta curta com 'can': 'Yes, I can'. 'Yes, I do' seria para perguntas com 'do'. Portanto, a resposta correta é 'Yes, I CAN'."
+      },
+      {
+        "id": "tc1f14",
+        "topic": "Can – Ability",
+        "question": "My little brother is two years old. He _____ ride a bike.",
+        "options": [
+          "can",
+          "cans",
+          "can't",
+          "don't can"
+        ],
+        "correct": 2,
+        "explanation": "Um bebê de dois anos não sabe andar de bicicleta, então usamos a forma negativa 'can't' (can not). 'Don't can' não existe em inglês. Portanto, a resposta correta é 'He CAN'T ride a bike'."
+      },
+      {
+        "id": "tc1f15",
+        "topic": "Can – Ability",
+        "question": "Find the mistake: \"She cans play the guitar.\"",
+        "options": [
+          "It should be 'She can plays'.",
+          "It should be 'She can play'.",
+          "It should be 'She can to play'.",
+          "The sentence is correct."
+        ],
+        "correct": 1,
+        "explanation": "'Can' nunca ganha 's', nem com he/she/it, e o verbo depois dele fica na forma básica. Portanto, a resposta correta é que devia ser 'She CAN PLAY the guitar'."
+      },
+      {
+        "id": "tc1f16",
+        "topic": "Can – Ability",
+        "question": "I can dance really _____.",
+        "options": [
+          "good",
+          "well",
+          "best",
+          "nice"
+        ],
+        "correct": 1,
+        "explanation": "Para dizer que fazemos algo bem, usamos 'well' depois do verbo: 'I can dance really well'. 'Good' descreve coisas, não o jeito de fazer. Portanto, a resposta correta é 'really WELL'."
+      },
+      {
+        "id": "tc1f17",
+        "topic": "There Is / There Are",
+        "question": "_____ a big couch in the living room.",
+        "options": [
+          "There are",
+          "There is",
+          "Is there",
+          "There have"
+        ],
+        "correct": 1,
+        "explanation": "Para dizer que existe UMA coisa, usamos 'There is': um sofá só. 'There have' é um erro comum, mas não existe em inglês. Portanto, a resposta correta é 'THERE IS a big couch'."
+      },
+      {
+        "id": "tc1f18",
+        "topic": "There Is / There Are",
+        "question": "_____ two bathrooms in my house.",
+        "options": [
+          "There is",
+          "It has",
+          "There are",
+          "They are"
+        ],
+        "correct": 2,
+        "explanation": "Para dizer que existem duas ou mais coisas, usamos 'There are': dois banheiros. 'There is' seria para uma coisa só. Portanto, a resposta correta é 'THERE ARE two bathrooms'."
+      },
+      {
+        "id": "tc1f19",
+        "topic": "There Is / There Are",
+        "question": "\"_____ a park near your house?\" \"No, there isn't.\"",
+        "options": [
+          "There is",
+          "Is there",
+          "Are there",
+          "Is it"
+        ],
+        "correct": 1,
+        "explanation": "Na pergunta, a ordem muda: 'Is there...?'. A resposta 'No, there isn't' mostra que é uma coisa só (a park). Portanto, a resposta correta é 'IS THERE a park near your house?'"
+      },
+      {
+        "id": "tc1f20",
+        "topic": "There Is / There Are",
+        "question": "Choose the NEGATIVE sentence:",
+        "options": [
+          "There are many chairs here.",
+          "Are there many chairs here?",
+          "There aren't many chairs here.",
+          "There are five chairs here."
+        ],
+        "correct": 2,
+        "explanation": "A frase negativa usa 'aren't', que é 'are not': não há muitas cadeiras. Portanto, a resposta correta é 'There AREN'T many chairs here'."
+      },
+      {
+        "id": "tc1f21",
+        "topic": "Prepositions of Location",
+        "question": "The cat is _____ the table. You can't see it!",
+        "options": [
+          "on",
+          "under",
+          "between",
+          "in front of"
+        ],
+        "correct": 1,
+        "explanation": "Se você não consegue ver o gato, ele está embaixo da mesa, e 'embaixo de' em inglês é 'under'. 'On' seria em cima. Portanto, a resposta correta é 'UNDER the table'."
+      },
+      {
+        "id": "tc1f22",
+        "topic": "Prepositions of Location",
+        "question": "The school is _____ the park and the supermarket.",
+        "options": [
+          "under",
+          "on",
+          "between",
+          "in"
+        ],
+        "correct": 2,
+        "explanation": "Quando algo está no meio de duas coisas, usamos 'between': entre o parque e o supermercado. Portanto, a resposta correta é 'BETWEEN the park and the supermarket'."
+      },
+      {
+        "id": "tc1f23",
+        "topic": "Prepositions of Location",
+        "question": "The books are _____ the backpack.",
+        "options": [
+          "in",
+          "between",
+          "behind",
+          "at"
+        ],
+        "correct": 0,
+        "explanation": "Os livros estão dentro da mochila, e 'dentro de' em inglês é 'in'. 'Behind' seria atrás. Portanto, a resposta correta é 'IN the backpack'."
+      },
+      {
+        "id": "tc1f24",
+        "topic": "Prepositions of Location",
+        "question": "My house is _____ the school. The school is behind my house.",
+        "options": [
+          "under",
+          "between",
+          "in",
+          "in front of"
+        ],
+        "correct": 3,
+        "explanation": "Se a escola está atrás ('behind') da casa, a casa está na frente da escola. 'Na frente de' em inglês é 'in front of'. Portanto, a resposta correta é 'IN FRONT OF the school'."
+      },
+      {
+        "id": "tc1f25",
+        "topic": "Transportation: By / On",
+        "question": "I go to school _____ bus.",
+        "options": [
+          "on",
+          "by",
+          "in",
+          "with"
+        ],
+        "correct": 1,
+        "explanation": "Com meios de transporte, usamos 'by': by bus, by car, by train. Portanto, a resposta correta é 'I go to school BY bus'."
+      },
+      {
+        "id": "tc1f26",
+        "topic": "Transportation: By / On",
+        "question": "The park is near my house, so I go _____.",
+        "options": [
+          "by foot",
+          "on foot",
+          "by walk",
+          "on feet"
+        ],
+        "correct": 1,
+        "explanation": "Para dizer que vamos a pé, a expressão certa é 'on foot', não 'by foot'. É a única exceção que não usa 'by'. Portanto, a resposta correta é 'I go ON FOOT'."
+      },
+      {
+        "id": "tc1f27",
+        "topic": "Transportation: By / On",
+        "question": "Find the mistake: \"My dad goes to work by the car.\"",
+        "options": [
+          "It should be 'by car'.",
+          "It should be 'on car'.",
+          "It should be 'in by car'.",
+          "The sentence is correct."
+        ],
+        "correct": 0,
+        "explanation": "Com meios de transporte, usamos 'by' sem 'the': by car, by bus. Portanto, a resposta correta é que devia ser 'by CAR', sem o 'the'."
+      },
+      {
+        "id": "tc1f28",
+        "topic": "Transportation: By / On",
+        "question": "Choose the correct sentence:",
+        "options": [
+          "She goes to the mall by subway.",
+          "She goes to the mall on subway.",
+          "She goes to the mall with subway.",
+          "She goes to the mall in subway."
+        ],
+        "correct": 0,
+        "explanation": "Para dizer que usamos o metrô como transporte, dizemos 'by subway'. A regra é 'by' + meio de transporte. Portanto, a resposta correta é 'She goes to the mall BY subway'."
+      },
+      {
+        "id": "tc1f29",
+        "topic": "How Do You Get To...?",
+        "question": "\"_____ do you get to school?\" \"By bike.\"",
+        "options": [
+          "What",
+          "Who",
+          "How",
+          "Where"
+        ],
+        "correct": 2,
+        "explanation": "A resposta fala de um meio de transporte: 'By bike'. Para perguntar de que jeito alguém vai a um lugar, usamos 'How'. Portanto, a resposta correta é 'HOW do you get to school?'"
+      },
+      {
+        "id": "tc1f30",
+        "topic": "How Do You Get To...?",
+        "question": "You are lost and want to go to the hospital. You ask:",
+        "options": [
+          "How can I get to the hospital?",
+          "What is the hospital?",
+          "Who is in the hospital?",
+          "How old is the hospital?"
+        ],
+        "correct": 0,
+        "explanation": "Para pedir informação sobre como chegar a um lugar, usamos 'How can I get to...?'. As outras perguntas não pedem o caminho. Portanto, a resposta correta é 'HOW CAN I GET TO the hospital?'"
+      },
+      {
+        "id": "tc1f31",
+        "topic": "How Do You Get To...?",
+        "question": "Find the correct question:",
+        "options": [
+          "How you get to the park?",
+          "How do you get to the park?",
+          "How does you get to the park?",
+          "How you do get to the park?"
+        ],
+        "correct": 1,
+        "explanation": "A pergunta usa 'do' antes de 'you': 'How do you get to...?'. 'Does' é só para he/she/it, e sem o 'do' a pergunta fica incompleta. Portanto, a resposta correta é 'How DO YOU get to the park?'"
+      },
+      {
+        "id": "tc1f32",
+        "topic": "How Do You Get To...?",
+        "question": "\"How does your mom get to work?\" Choose the correct answer:",
+        "options": [
+          "She get by taxi.",
+          "By taxi.",
+          "In the work.",
+          "Yes, she does."
+        ],
+        "correct": 1,
+        "explanation": "A pergunta é sobre o meio de transporte, então a resposta natural é 'By taxi'. 'Yes, she does' seria para uma pergunta de sim ou não. Portanto, a resposta correta é 'By taxi'."
+      },
+      {
+        "id": "tc1f33",
+        "topic": "Places Around Town",
+        "question": "My grandma is sick. She is in the _____.",
+        "options": [
+          "mall",
+          "park",
+          "hospital",
+          "restaurant"
+        ],
+        "correct": 2,
+        "explanation": "Quem está doente ('sick') vai para o hospital, que em inglês também é 'hospital'. 'Mall' é o shopping e 'park' é o parque. Portanto, a resposta correta é 'hospital'."
+      },
+      {
+        "id": "tc1f34",
+        "topic": "Places Around Town",
+        "question": "We buy food and fruit at the _____.",
+        "options": [
+          "drugstore",
+          "school",
+          "park",
+          "supermarket"
+        ],
+        "correct": 3,
+        "explanation": "Compramos comida e frutas no supermercado, 'supermarket' em inglês. Na 'drugstore' compramos remédios. Portanto, a resposta correta é 'supermarket'."
+      },
+      {
+        "id": "tc1f35",
+        "topic": "Means of Transportation",
+        "question": "It travels on water. It is a _____.",
+        "options": [
+          "boat",
+          "plane",
+          "bus",
+          "subway"
+        ],
+        "correct": 0,
+        "explanation": "O transporte que anda na água é o barco, 'boat' em inglês. O avião ('plane') voa e o metrô ('subway') anda embaixo da terra. Portanto, a resposta correta é 'boat'."
+      },
+      {
+        "id": "tc1f36",
+        "topic": "Means of Transportation",
+        "question": "It flies and it is very big. Many people travel in it. It is a _____.",
+        "options": [
+          "bike",
+          "plane",
+          "taxi",
+          "train"
+        ],
+        "correct": 1,
+        "explanation": "O transporte grande que voa e leva muitas pessoas é o avião, 'plane' em inglês. O trem ('train') e o táxi ('taxi') não voam. Portanto, a resposta correta é 'plane'."
+      },
+      {
+        "id": "tc1f37",
+        "topic": "Present Continuous",
+        "question": "Look! The dog _____ in the pool right now!",
+        "options": [
+          "swim",
+          "swims",
+          "is swimming",
+          "are swimming"
+        ],
+        "correct": 2,
+        "explanation": "Para falar de algo que está acontecendo AGORA, usamos o verbo to be + verbo com -ing: 'is swimming'. 'The dog' é um só, então usamos 'is'. Portanto, a resposta correta é 'The dog IS SWIMMING'."
+      },
+      {
+        "id": "tc1f38",
+        "topic": "Present Continuous",
+        "question": "The parrots _____ right now.",
+        "options": [
+          "is flying",
+          "are flying",
+          "flying",
+          "flys"
+        ],
+        "correct": 1,
+        "explanation": "'The parrots' são vários, então o verbo to be é 'are': 'are flying'. Não podemos usar o -ing sozinho, sem o verbo to be. Portanto, a resposta correta é 'The parrots ARE FLYING'."
+      },
+      {
+        "id": "tc1f39",
+        "topic": "Present Continuous",
+        "question": "\"Is the cat sleeping?\" Choose the correct short answer:",
+        "options": [
+          "No, it isn't.",
+          "No, it doesn't.",
+          "No, is not.",
+          "No, he don't."
+        ],
+        "correct": 0,
+        "explanation": "A pergunta usa o verbo to be ('Is'), então a resposta curta também usa: 'No, it isn't'. 'Doesn't' seria para perguntas com 'does'. Portanto, a resposta correta é 'No, it ISN'T'."
+      },
+      {
+        "id": "tc1f40",
+        "topic": "Present Continuous",
+        "question": "Find the mistake: \"They are play with the hamster now.\"",
+        "options": [
+          "It should be 'They is playing'.",
+          "It should be 'They are playing'.",
+          "It should be 'They are plays'.",
+          "The sentence is correct."
+        ],
+        "correct": 1,
+        "explanation": "No present continuous, o verbo depois de 'are' precisa do -ing: 'are playing'. 'Are play', sem o -ing, está incompleto. Portanto, a resposta correta é que devia ser 'They are PLAYING'."
+      },
+      {
+        "id": "tc1f41",
+        "topic": "Present Continuous",
+        "question": "\"What is the rabbit doing?\" \"It _____ a carrot.\"",
+        "options": [
+          "eat",
+          "eats",
+          "is eating",
+          "eating"
+        ],
+        "correct": 2,
+        "explanation": "A pergunta é sobre o que o coelho está fazendo agora, então a resposta usa o present continuous: 'is eating'. Portanto, a resposta correta é 'It IS EATING a carrot'."
+      },
+      {
+        "id": "tc1f42",
+        "topic": "Possessive Adjectives",
+        "question": "This is my sister. _____ name is Laura.",
+        "options": [
+          "His",
+          "Her",
+          "Its",
+          "Their"
+        ],
+        "correct": 1,
+        "explanation": "Para falar de algo que é da minha irmã (uma menina), usamos 'her': 'her name'. 'His' seria para menino. Portanto, a resposta correta é 'HER name is Laura'."
+      },
+      {
+        "id": "tc1f43",
+        "topic": "Possessive Adjectives",
+        "question": "My brother has a dog. _____ dog is very friendly.",
+        "options": [
+          "Her",
+          "Its",
+          "His",
+          "Your"
+        ],
+        "correct": 2,
+        "explanation": "O cachorro é do meu irmão, um menino, então usamos 'his': 'his dog'. 'Her' seria se fosse de uma menina. Portanto, a resposta correta é 'HIS dog is very friendly'."
+      },
+      {
+        "id": "tc1f44",
+        "topic": "Possessive Adjectives",
+        "question": "We have a turtle. _____ turtle is 10 years old.",
+        "options": [
+          "Our",
+          "Their",
+          "Its",
+          "My"
+        ],
+        "correct": 0,
+        "explanation": "A tartaruga é nossa ('we have'), então usamos 'our': 'our turtle'. 'Their' seria se fosse deles, de outras pessoas. Portanto, a resposta correta é 'OUR turtle is 10 years old'."
+      },
+      {
+        "id": "tc1f45",
+        "topic": "Possessive Adjectives",
+        "question": "The cat is sleeping in _____ bed. The bed is the cat's.",
+        "options": [
+          "his",
+          "her",
+          "its",
+          "their"
+        ],
+        "correct": 2,
+        "explanation": "Para falar de algo que é de um animal, usamos 'its': 'its bed'. 'His' e 'her' são para pessoas. Portanto, a resposta correta é 'The cat is sleeping in ITS bed'."
+      },
+      {
+        "id": "tc1f46",
+        "topic": "Pets & Actions",
+        "question": "Parrots can _____, but dogs can't.",
+        "options": [
+          "run",
+          "sleep",
+          "eat",
+          "talk"
+        ],
+        "correct": 3,
+        "explanation": "O papagaio ('parrot') consegue falar, imitar palavras, e o cachorro não. Correr, dormir e comer os dois fazem. Portanto, a resposta correta é 'talk'."
+      },
+      {
+        "id": "tc1f47",
+        "topic": "Pets & Actions",
+        "question": "\"_____, snakes are not good pets for children.\" Choose the option that gives an OPINION:",
+        "options": [
+          "In my opinion",
+          "Where",
+          "There are",
+          "How many"
+        ],
+        "correct": 0,
+        "explanation": "Para dar uma opinião, usamos expressões como 'In my opinion', 'I think' ou 'For me'. As outras opções não servem para opinar. Portanto, a resposta correta é 'IN MY OPINION'."
+      },
+      {
+        "id": "tc1f48",
+        "topic": "Pets & Actions",
+        "question": "My cat doesn't need much attention. It is very _____.",
+        "options": [
+          "exotic",
+          "independent",
+          "colorful",
+          "hungry"
+        ],
+        "correct": 1,
+        "explanation": "Um animal que não precisa de muita atenção é independente, 'independent' em inglês. 'Colorful' é colorido e 'exotic' é exótico. Portanto, a resposta correta é 'independent'."
+      },
+      {
+        "id": "tc1f49",
+        "topic": "How Many",
+        "question": "\"_____ T-shirts do you have?\" \"I have ten.\"",
+        "options": [
+          "How much",
+          "How many",
+          "What many",
+          "How old"
+        ],
+        "correct": 1,
+        "explanation": "Para perguntar a quantidade de coisas que podemos contar, como camisetas, usamos 'How many'. A resposta é um número: dez. Portanto, a resposta correta é 'HOW MANY T-shirts do you have?'"
+      },
+      {
+        "id": "tc1f50",
+        "topic": "How Many",
+        "question": "Choose the correct question:",
+        "options": [
+          "How many sneakers you have?",
+          "How many sneakers does you have?",
+          "How many sneakers do you have?",
+          "How many you have sneakers?"
+        ],
+        "correct": 2,
+        "explanation": "Depois de 'How many' + a coisa, a pergunta continua com 'do you have'. 'Does' é só para he/she/it. Portanto, a resposta correta é 'How many sneakers DO YOU have?'"
+      },
+      {
+        "id": "tc1f51",
+        "topic": "How Many",
+        "question": "\"How many caps does your brother have?\" Choose the correct answer:",
+        "options": [
+          "Yes, he does.",
+          "He has three caps.",
+          "He is three.",
+          "By bus."
+        ],
+        "correct": 1,
+        "explanation": "'How many' pergunta a quantidade, então a resposta diz um número de bonés: três. 'Yes, he does' seria para pergunta de sim ou não. Portanto, a resposta correta é 'He has THREE CAPS'."
+      },
+      {
+        "id": "tc1f52",
+        "topic": "How Many",
+        "question": "_____ students are there in your classroom?",
+        "options": [
+          "How many",
+          "How much",
+          "Who many",
+          "What"
+        ],
+        "correct": 0,
+        "explanation": "'Students' é algo que podemos contar (um, dois, três alunos), então usamos 'How many'. Portanto, a resposta correta é 'HOW MANY students are there in your classroom?'"
+      },
+      {
+        "id": "tc1f53",
+        "topic": "Why / Because",
+        "question": "\"_____ are you happy?\" \"Because it's my birthday!\"",
+        "options": [
+          "Who",
+          "What",
+          "Why",
+          "Where"
+        ],
+        "correct": 2,
+        "explanation": "A resposta começa com 'Because', que dá um motivo. A pergunta que pede um motivo é com 'Why'. Portanto, a resposta correta é 'WHY are you happy?'"
+      },
+      {
+        "id": "tc1f54",
+        "topic": "Why / Because",
+        "question": "\"Why is Tom sad?\" \"_____ he can't go skateboarding today.\"",
+        "options": [
+          "Why",
+          "Because",
+          "So",
+          "And"
+        ],
+        "correct": 1,
+        "explanation": "Para responder uma pergunta com 'Why', damos o motivo com 'Because'. 'Why' pergunta, 'because' responde. Portanto, a resposta correta é 'BECAUSE he can't go skateboarding today'."
+      },
+      {
+        "id": "tc1f55",
+        "topic": "Why / Because",
+        "question": "Choose the correct answer for \"Why do you like this store?\":",
+        "options": [
+          "Because the T-shirts are beautiful.",
+          "Yes, I like it.",
+          "In the mall.",
+          "Two T-shirts."
+        ],
+        "correct": 0,
+        "explanation": "'Why' pede um motivo, e o motivo vem com 'because': porque as camisetas são bonitas. As outras opções não explicam o porquê. Portanto, a resposta correta é 'BECAUSE the T-shirts are beautiful'."
+      },
+      {
+        "id": "tc1f56",
+        "topic": "Why / Because",
+        "question": "Find the mistake: \"Why you are wearing a jacket?\"",
+        "options": [
+          "It should be 'Why are you wearing...?'",
+          "It should be 'Why you wearing...?'",
+          "It should be 'Why is you wearing...?'",
+          "The sentence is correct."
+        ],
+        "correct": 0,
+        "explanation": "Na pergunta, o verbo 'are' vem antes de 'you': 'Why are you wearing...?'. Deixar o verbo depois da pessoa é um erro comum. Portanto, a resposta correta é 'Why ARE YOU wearing a jacket?'"
+      },
+      {
+        "id": "tc1f57",
+        "topic": "Clothes",
+        "question": "It is winter and it is very cold. What do you wear?",
+        "options": [
+          "flip-flops and shorts",
+          "a sweater and boots",
+          "a cap and a top",
+          "socks and flip-flops"
+        ],
+        "correct": 1,
+        "explanation": "No frio do inverno, usamos roupas quentes: um suéter ('sweater') e botas ('boots'). Chinelos ('flip-flops') e shorts são para o calor. Portanto, a resposta correta é 'a sweater and boots'."
+      },
+      {
+        "id": "tc1f58",
+        "topic": "Clothes",
+        "question": "You wear them on your feet, inside your shoes. They are _____.",
+        "options": [
+          "hats",
+          "jeans",
+          "socks",
+          "jackets"
+        ],
+        "correct": 2,
+        "explanation": "As meias vão nos pés, dentro dos sapatos, e em inglês são 'socks'. 'Hats' vão na cabeça e 'jackets' no corpo. Portanto, a resposta correta é 'socks'."
+      },
+      {
+        "id": "tc1f59",
+        "topic": "Clothes",
+        "question": "Ana is wearing a beautiful _____ at the party. It is like a long skirt with a top, one piece.",
+        "options": [
+          "dress",
+          "sock",
+          "sneaker",
+          "cap"
+        ],
+        "correct": 0,
+        "explanation": "A roupa de uma peça só, parecida com saia e blusa juntas, é o vestido, 'dress' em inglês. Portanto, a resposta correta é 'dress'."
+      },
+      {
+        "id": "tc1f60",
+        "topic": "Clothes",
+        "question": "Complete: \"I like this jacket, but I like that sweatshirt _____.\" (it is your favorite!)",
+        "options": [
+          "the least",
+          "the most",
+          "at all",
+          "too many"
+        ],
+        "correct": 1,
+        "explanation": "Para dizer que algo é o que mais gostamos, usamos 'the most'. 'The least' é o contrário, o que menos gostamos. Portanto, a resposta correta é 'I like that sweatshirt THE MOST'."
+      }
+    ]
+  }
+}

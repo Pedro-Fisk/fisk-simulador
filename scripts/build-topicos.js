@@ -51,7 +51,11 @@ const ESCADA = eval('(' + html.slice(iniE, fimE + 2).replace(/^const ESCADA_QP\s
 const nomes = {};
 const reBooks = /(\w+):\s*\{\s*name:\s*'([^']+)'/g;
 let m;
-while ((m = reBooks.exec(html))) { if (ESCADA.ingles.concat(ESCADA.espanhol).indexOf(m[1]) >= 0) nomes[m[2]] = m[1]; }
+/* Todas as trilhas da escada, não uma lista fixa: quando os teens entraram
+   (15/08/2026), a lista escrita à mão deixava os nomes deles de fora e o
+   diagnóstico não resolvia "Teens Connect 1" para a chave do livro. */
+const TODAS = Object.keys(ESCADA).reduce((a, t) => a.concat(ESCADA[t]), []);
+while ((m = reBooks.exec(html))) { if (TODAS.indexOf(m[1]) >= 0) nomes[m[2]] = m[1]; }
 
 /* ── capítulo do MET → o que praticar no Quick Practice ───────────────────────
    Sem isto, o botão "praticar" de um erro do simulado cairia na home da
