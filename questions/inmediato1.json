@@ -7,7 +7,7 @@
       {
         "id": "i1m01",
         "topic": "Artículos Determinados",
-        "question": "¿Cuál es el artículo determinado correcto para la palabra 'libro'?",
+        "question": "_____ libro de español está en la mesa.",
         "options": [
           "la",
           "los",
@@ -15,7 +15,7 @@
           "las"
         ],
         "correct": 2,
-        "explanation": "'Livro' em espanhol é masculino singular. O artigo determinado masculino singular é 'el'."
+        "explanation": "'Libro' é masculino singular, e o artigo determinado masculino singular é 'el'. Portanto, a resposta correta é 'el'."
       },
       {
         "id": "i1m02",
@@ -293,15 +293,15 @@
       {
         "id": "i1m23",
         "topic": "Demostrativos",
-        "question": "(Señalando algo cuyo nombre no sabes) ¿Qué es _____?",
+        "question": "_____ coches que están allá son de mis vecinos.",
         "options": [
-          "ese",
-          "este",
-          "esto",
-          "esa"
+          "Aquellos",
+          "Aquellas",
+          "Esos",
+          "Estos"
         ],
-        "correct": 2,
-        "explanation": "Quando não sabemos o nome nem o gênero do objeto apontado, usamos a forma neutra 'esto' (isto). Os demonstrativos neutros são 'esto', 'eso' e 'aquello': não têm gênero nem plural. 'Este', 'ese' e 'esa' só cabem quando já se conhece o substantivo a que se referem. Portanto, a resposta correta é 'esto'."
+        "correct": 0,
+        "explanation": "'Coches' é masculino plural e 'allá' marca a distância maior. O demonstrativo masculino plural para algo longe é 'aquellos'. 'Aquellas' é feminino, e 'esos' e 'estos' indicam distâncias menores. Portanto, a resposta correta é 'aquellos'."
       },
       {
         "id": "i1m24",
@@ -400,12 +400,12 @@
         "question": "Nosotros _____ el problema perfectamente. (entender)",
         "options": [
           "entendemos",
-          "entendimos",
-          "entendiemos",
-          "entendamos"
+          "entiendemos",
+          "entendamos",
+          "entiendo"
         ],
         "correct": 0,
-        "explanation": "Com 'nosotros', os verbos E>IE NÃO sofrem a mudança na raiz. 'Entendemos' = nós entendemos. A mudança E>IE só ocorre nas formas com raiz tônica (yo, tú, él/ella, ellos/ellas)."
+        "explanation": "Com 'nosotros', os verbos E>IE não sofrem a mudança na raiz, porque a raiz é átona: 'entendemos'. A forma 'entiendemos' não existe, e 'entiendo' é de 'yo'. Portanto, a resposta correta é 'entendemos'."
       },
       {
         "id": "i1m32",
@@ -438,13 +438,13 @@
         "topic": "Expresiones de Tiempo y Frecuencia",
         "question": "¿Con qué frecuencia estudias español? Estudio _____ los martes y jueves.",
         "options": [
-          "nunca",
-          "a veces",
+          "todo",
+          "cada",
           "los",
           "todos"
         ],
         "correct": 3,
-        "explanation": "'Todos los' + dia da semana indica uma frequência semanal regular: 'Estudio todos los martes y jueves' = estudo todas as terças e quintas. Sozinho, 'los' não cabe aqui porque o artigo já está escrito na frase. Portanto, a resposta correta é 'TODOS'."
+        "explanation": "'Todos los' + dia da semana indica uma frequência semanal regular: 'Estudio todos los martes y jueves'. 'Cada' não se usa com artigo ('cada martes'), e 'los' sozinho dobraria o artigo que já está na frase. Portanto, a resposta correta é 'todos'."
       },
       {
         "id": "i1m35",
@@ -522,7 +522,7 @@
           "te acuestas"
         ],
         "correct": 3,
-        "explanation": "Com 'tú', o pronome reflexivo é 'te'. Além disso, 'acostarse' é irregular O>UE: 'te acuestas' = você vai se deitar."
+        "explanation": "Com 'tú', o pronome reflexivo é 'te'. Além disso, 'acostarse' é irregular O>UE: 'te acuestas' = você se deita. Portanto, a resposta correta é 'te acuestas'."
       },
       {
         "id": "i1m41",
@@ -587,7 +587,7 @@
           "juegan"
         ],
         "correct": 1,
-        "explanation": "Com 'nosotros', os verbos O>UE NÃO sofrem a mudança na raiz. 'Jugamos' = nós jogamos. A mudança só ocorre nas formas com raiz tônica."
+        "explanation": "'Jugar' muda a raiz como os verbos O>UE, mas no caso dele é U>UE: 'juego', 'juegas', 'juega'. Com 'nosotros' não há mudança, porque a raiz não é tônica: 'jugamos'. 'Jogamos' é português. Portanto, a resposta correta é 'jugamos'."
       },
       {
         "id": "i1m46",
@@ -670,15 +670,15 @@
       {
         "id": "i1m52",
         "topic": "Posesivos (mi, tu, su...)",
-        "question": "_____ casa es muy grande y bonita.",
+        "question": "_____ casa es muy grande y bonita. (de mí)",
         "options": [
-          "Mío",
-          "Mía",
           "Mi",
-          "Mis"
+          "Mis",
+          "Tu",
+          "Nuestra"
         ],
-        "correct": 2,
-        "explanation": "Antes de um substantivo singular, usamos a forma curta do possessivo: 'mi' (meu/minha). 'Mi casa' = minha casa."
+        "correct": 0,
+        "explanation": "O possessivo de 'yo' é 'mi', que concorda só em número com o substantivo: 'casa' é singular, então fica 'mi casa'. 'Mis' é plural, e 'tu' e 'nuestra' são de outras pessoas. Portanto, a resposta correta é 'mi'."
       },
       {
         "id": "i1m53",
@@ -696,7 +696,7 @@
       {
         "id": "i1m54",
         "topic": "Posesivos (mi, tu, su...)",
-        "question": "Ellos fueron de vacaciones con _____ familia. (de ellos)",
+        "question": "Ellos van de vacaciones con _____ familia. (de ellos)",
         "options": [
           "mi",
           "tu",
@@ -704,7 +704,7 @@
           "su"
         ],
         "correct": 3,
-        "explanation": "'Su' é o possessivo para él/ella/ellos/ustedes. Aqui, 'su familia' = a família deles."
+        "explanation": "'Su' é o possessivo de él/ella/ellos/ellas/ustedes e concorda só em número com o substantivo: 'su familia' = a família deles. 'Mi' e 'tu' são de outras pessoas, e 'nuestro' seria de nosotros e ainda não concorda com 'familia'. Portanto, a resposta correta é 'su'."
       },
       {
         "id": "i1m55",
@@ -722,7 +722,7 @@
       {
         "id": "i1m56",
         "topic": "Comparación",
-        "question": "Las dos películas me gustaron exactamente igual. Esta película es _____ interesante _____ la otra.",
+        "question": "Para mí, las dos películas son igualmente buenas. Esta película es _____ interesante _____ la otra.",
         "options": [
           "más...que",
           "tan...como",
@@ -730,20 +730,20 @@
           "más...de"
         ],
         "correct": 1,
-        "explanation": "Quando os dois elementos estão no mesmo nível, a comparação é de igualdade: 'tan + adjetivo + como'. Como os dois filmes agradaram igualmente, a frase é 'Esta película es tan interesante como la otra'. 'Más... que' e 'menos... que' marcam diferença, o que contraria o enunciado, e 'más... de' só cabe diante de quantidades. Portanto, a resposta correta é 'tan...como'."
+        "explanation": "Quando os dois elementos estão no mesmo nível, a comparação é de igualdade: 'tan + adjetivo + como'. Como os dois filmes são igualmente bons, a frase é 'Esta película es tan interesante como la otra'. 'Más... que' e 'menos... que' marcam diferença, o que contraria o enunciado, e 'más... de' só cabe diante de quantidades. Portanto, a resposta correta é 'tan...como'."
       },
       {
         "id": "i1m57",
         "topic": "Comparación",
-        "question": "Carlos es el _____ estudiante de la clase. (el número uno)",
+        "question": "Carlos saca notas más altas que Luis. Carlos es _____ estudiante _____ Luis.",
         "options": [
-          "más bueno",
-          "buenísimo",
-          "muy bueno",
-          "mejor"
+          "mejor...que",
+          "más bueno...que",
+          "tan bueno...como",
+          "menos bueno...que"
         ],
-        "correct": 3,
-        "explanation": "'Mejor' é o comparativo e o superlativo irregular de 'bueno': o número um da turma é 'el mejor estudiante'. Com 'bueno' não se diz 'el más bueno estudiante'; 'buenísimo' e 'muy bueno' são intensificadores e não podem ficar entre o artigo e o substantivo. Portanto, a resposta correta é 'mejor'."
+        "correct": 0,
+        "explanation": "Na comparação de superioridade, 'bueno' não usa 'más bueno': a forma é o comparativo irregular 'mejor', seguido de 'que'. Como Carlos tira notas mais altas, a frase é 'Carlos es mejor estudiante que Luis'. 'Tan... como' indicaria igualdade e 'menos bueno... que' inverteria o dado do enunciado. Portanto, a resposta correta é 'mejor...que'."
       },
       {
         "id": "i1m58",
@@ -880,39 +880,39 @@
         "topic": "Presente Continuo",
         "question": "Ella _____ en este momento. (estudiar)",
         "options": [
-          "estudia",
+          "estás estudiando",
           "está estudiado",
           "está estudiar",
           "está estudiando"
         ],
         "correct": 3,
-        "explanation": "O presente contínuo se forma com 'estar' + gerúndio (-ando/-iendo). 'Está estudiando' = está estudando (agora). O gerúndio de verbos '-ar' termina em '-ando'."
+        "explanation": "O presente contínuo se forma com 'estar' conjugado + gerúndio: com 'ella', 'está', e o gerúndio dos verbos em '-ar' termina em '-ando'. 'Estás' é a forma de 'tú', 'estudiado' é particípio e 'estudiar' é infinitivo, que nunca acompanha 'estar' nessa estrutura. Portanto, a resposta correta é 'está estudiando'."
       },
       {
         "id": "i1m69",
         "topic": "Presente Continuo",
         "question": "¿Qué _____ tú ahora? (hacer)",
         "options": [
-          "haces",
+          "estás haciendo",
           "estás hecho",
-          "estás hacer",
-          "estás haciendo"
+          "está haciendo",
+          "estás hacendo"
         ],
-        "correct": 3,
-        "explanation": "O gerúndio de 'hacer' é 'haciendo'. Com 'tú', 'estar' é 'estás'. '¿Estás haciendo?' = você está fazendo?"
+        "correct": 0,
+        "explanation": "O gerúndio de 'hacer' é 'haciendo', com o ditongo '-iendo' dos verbos em '-er'. 'Hacendo' é interferência do português, 'hecho' é particípio e 'está' é a forma de 'él/ella', não de 'tú'. Portanto, a resposta correta é 'estás haciendo'."
       },
       {
         "id": "i1m70",
         "topic": "Presente Continuo",
-        "question": "Ellos _____ en el parque. (correr)",
+        "question": "Ellos _____ en el parque ahora mismo. (correr)",
         "options": [
-          "corren",
-          "están correr",
+          "están correndo",
+          "están corriendo",
           "están corrido",
-          "están corriendo"
+          "está corriendo"
         ],
-        "correct": 3,
-        "explanation": "O gerúndio de verbos '-er' termina em '-iendo'. 'Correr' → 'corriendo'. Com 'ellos', 'estar' é 'están'. 'Están corriendo' = eles estão correndo."
+        "correct": 1,
+        "explanation": "O gerúndio dos verbos em '-er' termina em '-iendo': 'correr' vira 'corriendo'. 'Correndo' é a forma do português, 'corrido' é particípio e 'está' é singular, não combina com 'ellos'. Portanto, a resposta correta é 'están corriendo'."
       },
       {
         "id": "i1m71",
@@ -1021,7 +1021,7 @@
       {
         "id": "i1m79",
         "topic": "Artículos Determinados",
-        "question": "_____ niños están jugando en el jardín.",
+        "question": "_____ niños cantan en el jardín.",
         "options": [
           "La",
           "El",
@@ -1029,7 +1029,7 @@
           "Los"
         ],
         "correct": 3,
-        "explanation": "'Niños' é masculino plural. O artigo determinado masculino plural é 'los'. Em espanhol, grupos mistos de pessoas também usam o artigo masculino plural."
+        "explanation": "'Niños' é masculino plural, e o artigo determinado masculino plural é 'los'. Em espanhol, grupos mistos de pessoas também usam o masculino plural. Portanto, a resposta correta é 'Los'."
       },
       {
         "id": "i1m80",
@@ -1047,15 +1047,15 @@
       {
         "id": "i1m81",
         "topic": "Masculino / Femenino",
-        "question": "¿Cuál de estas palabras es masculina en español?",
+        "question": "Lucía escribe para el 'Diario de la Nación'. Ella es _____.",
         "options": [
-          "ciudad",
-          "noche",
-          "mano",
-          "problema"
+          "periodisto",
+          "periodista",
+          "periodistas",
+          "periodistos"
         ],
-        "correct": 3,
-        "explanation": "'Problema' é masculino em espanhol, apesar de terminar em '-a'. Palavras de origem grega com terminação '-ma' geralmente são masculinas: el problema, el tema, el sistema, el idioma."
+        "correct": 1,
+        "explanation": "Algumas profissões têm a mesma forma para os dois gêneros; o que muda é só o artigo: 'el periodista', 'la periodista'. Como o sujeito é 'ella', singular, a forma é 'periodista'. Portanto, a resposta correta é 'periodista'."
       },
       {
         "id": "i1m82",
@@ -1068,7 +1068,7 @@
           "cafés"
         ],
         "correct": 3,
-        "explanation": "Palavras terminadas em vogal acentuada formam o plural com '-s', mantendo o acento. 'Café' → 'cafés'. O acento é necessário para preservar a pronúncia original."
+        "explanation": "Palavras terminadas em vogal recebem '-s' no plural, e 'café' mantém o acento: 'cafés'. Só as terminadas em '-í' tônico fazem o plural com '-es' (iraní, iraníes). Portanto, a resposta correta é 'cafés'."
       },
       {
         "id": "i1m83",
@@ -1081,7 +1081,7 @@
           "martes"
         ],
         "correct": 3,
-        "explanation": "Palavras esdrúxulas terminadas em '-s' são invariáveis no plural. 'El martes' → 'los martes'. O plural é indicado apenas pelo artigo. Outros exemplos: el/los lunes, el/los miércoles."
+        "explanation": "Palavras não agudas terminadas em '-s' não mudam no plural; quem marca o plural é o artigo: 'el martes', 'los martes', 'el lunes', 'los lunes'. Portanto, a resposta correta é 'martes'."
       },
       {
         "id": "i1m84",
@@ -1281,41 +1281,41 @@
       {
         "id": "i1m99",
         "topic": "Comparación",
-        "question": "Este restaurante es _____ de toda la ciudad. (bueno, superlativo)",
+        "question": "La comida de aquel restaurante es _____ que la de este. (malo, superioridad)",
         "options": [
-          "muy bueno",
-          "más bueno",
-          "buenísimo",
-          "el mejor"
+          "más mala",
+          "peor",
+          "más peor",
+          "tan mala"
         ],
-        "correct": 3,
-        "explanation": "'El mejor' é o superlativo de 'bueno'. Significa 'o melhor'. Em espanhol, 'bueno' tem formas irregulares: comparativo 'mejor', superlativo 'el mejor'."
+        "correct": 1,
+        "explanation": "'Malo' tem comparativo irregular: em vez de 'más malo', usa-se 'peor' seguido de 'que', como a caixa do livro lembra ('mejor ≠ peor'). 'Más peor' dobra a comparação e 'tan mala' pediria 'como', não 'que'. Portanto, a resposta correta é 'peor'."
       },
       {
         "id": "i1m100",
         "topic": "Localizadores",
-        "question": "La panadería está _____ la ferretería y la librería.",
+        "question": "La panadería está _____ la ferretería y la librería, una a cada lado.",
         "options": [
-          "encima de",
-          "enfrente de",
+          "entre",
           "detrás de",
-          "entre"
+          "encima de",
+          "debajo de"
         ],
-        "correct": 3,
-        "explanation": "'Entre' significa 'entre'. 'La panadería está entre la ferretería y la librería' = a padaria fica entre a loja de ferragens e a livraria."
+        "correct": 0,
+        "explanation": "Quando algo fica no meio de dois lugares, um de cada lado, usamos 'entre': 'La panadería está entre la ferretería y la librería'. 'Detrás de', 'encima de' e 'debajo de' colocariam a padaria atrás, em cima ou embaixo das lojas, o que contradiz 'una a cada lado'. Portanto, a resposta correta é 'entre'."
       },
       {
         "id": "i1m101",
         "topic": "Localizadores",
-        "question": "El cine está justo _____ del banco, al otro lado de la calle.",
+        "question": "La escuela está _____ mi casa: tardo casi una hora en llegar.",
         "options": [
-          "al lado",
-          "debajo",
-          "detrás",
-          "enfrente"
+          "cerca de",
+          "al lado de",
+          "lejos de",
+          "delante de"
         ],
-        "correct": 3,
-        "explanation": "'Enfrente de' significa 'em frente a'. 'El cine está enfrente del banco' = o cinema fica em frente ao banco. Também se pode dizer 'frente a'."
+        "correct": 2,
+        "explanation": "Se leva quase uma hora para chegar, a escola fica longe de casa: 'lejos de'. 'Cerca de', 'al lado de' e 'delante de' colocariam a escola perto, ao lado ou na frente da casa, e aí ninguém levaria uma hora para chegar. Portanto, a resposta correta é 'lejos de'."
       },
       {
         "id": "i1m102",
@@ -1328,7 +1328,7 @@
           "nuestras"
         ],
         "correct": 3,
-        "explanation": "'Nuestras' é a forma feminina plural do possessivo tônico de 'nosotros'. Como 'mochilas' é feminino plural, usamos 'nuestras'. 'Son nuestras' = são nossas."
+        "explanation": "'Nuestras' é a forma feminina plural do possessivo tônico de 'nosotros'. Como 'mochilas' é feminino plural, o possessivo concorda: 'son nuestras'. 'Tuyas' seria de 'tú', 'mías' de quem fala e 'suyas' de outras pessoas. Portanto, a resposta correta é 'nuestras'."
       },
       {
         "id": "i1m103",
@@ -1346,28 +1346,743 @@
       {
         "id": "i1m104",
         "topic": "Presente Continuo",
-        "question": "Yo _____ un libro muy interesante. (leer)",
+        "question": "Yo _____ un libro muy interesante en este momento. (leer)",
         "options": [
-          "leo",
-          "estoy leer",
+          "estoy leendo",
           "estoy leído",
+          "está leyendo",
           "estoy leyendo"
         ],
         "correct": 3,
-        "explanation": "O gerúndio de 'leer' é irregular: 'leyendo' (não 'leendo'). Verbos com raiz terminada em vogal mudam '-iendo' para '-yendo'. 'Estoy leyendo' = estou lendo."
+        "explanation": "O gerúndio de 'leer' é irregular: como a raiz termina em vogal, '-iendo' vira '-yendo', 'leyendo'. 'Leendo' ignora essa mudança, 'leído' é particípio e 'está' é a forma de 'él/ella', não de 'yo'. Portanto, a resposta correta é 'estoy leyendo'."
       },
       {
         "id": "i1m105",
         "topic": "Presente Continuo",
         "question": "¿_____ tú un correo electrónico ahora? (escribir)",
         "options": [
-          "Escribes",
-          "Estás escribido",
-          "Estás escribir",
-          "Estás escribiendo"
+          "Estás escribindo",
+          "Estás escribiendo",
+          "Está escribiendo",
+          "Estás escribido"
+        ],
+        "correct": 1,
+        "explanation": "O gerúndio dos verbos em '-ir' termina em '-iendo': 'escribir' vira 'escribiendo'. 'Escribindo' segue o modelo do português, 'escribido' é particípio e 'está' é a forma de 'él/ella', não de 'tú'. Portanto, a resposta correta é 'estás escribiendo'."
+      },
+      {
+        "id": "i1m106",
+        "topic": "Tratamientos Formal e Informal (tú / usted)",
+        "question": "Buenas tardes, señora Ruiz. ¿Cómo _____?",
+        "options": [
+          "está",
+          "estás",
+          "te va",
+          "te llamas"
+        ],
+        "correct": 0,
+        "explanation": "'Buenas tardes' e 'señora Ruiz' mostram que a situação é formal, e no tratamento formal usa-se 'usted' com o verbo na terceira pessoa: '¿Cómo está?'. 'Estás' e 'te va' pertencem ao tratamento informal com 'tú'. Portanto, a resposta correta é 'está'."
+      },
+      {
+        "id": "i1m107",
+        "topic": "Tratamientos Formal e Informal (tú / usted)",
+        "question": "¡Hola, Marta! ¡Cuánto tiempo! ¿Cómo _____?",
+        "options": [
+          "está",
+          "le va",
+          "estás",
+          "se llama"
+        ],
+        "correct": 2,
+        "explanation": "'¡Hola!' e o nome sem 'señora' indicam uma conversa informal, com 'tú': '¿Cómo estás?'. 'Está' e 'le va' são formas do tratamento formal com 'usted'. Portanto, a resposta correta é 'estás'."
+      },
+      {
+        "id": "i1m108",
+        "topic": "Tratamientos Formal e Informal (tú / usted)",
+        "question": "Encantado, señor Díaz. ¿De dónde _____ usted?",
+        "options": [
+          "eres",
+          "soy",
+          "son",
+          "es"
         ],
         "correct": 3,
-        "explanation": "O gerúndio de 'escribir' é 'escribiendo'. Com 'tú', 'estar' é 'estás'. A estrutura correta é 'estás escribiendo' = você está escrevendo. Nunca se usa infinitivo com 'estar'."
+        "explanation": "Com 'usted' o verbo vai na terceira pessoa do singular, como com 'él' ou 'ella': '¿De dónde es usted?'. 'Eres' é a forma de 'tú', do tratamento informal. Portanto, a resposta correta é 'es'."
+      },
+      {
+        "id": "i1m109",
+        "topic": "Tratamientos Formal e Informal (tú / usted)",
+        "question": "¡Hola! Yo soy Pablo, ¿y tú? ¿Cómo _____?",
+        "options": [
+          "se llama",
+          "te llamas",
+          "me llamo",
+          "os llamáis"
+        ],
+        "correct": 1,
+        "explanation": "A pergunta é dirigida a 'tú', o tratamento informal, e por isso o verbo 'llamarse' vai na segunda pessoa do singular: '¿Cómo te llamas?'. 'Se llama' é a forma usada com 'usted' no tratamento formal. Portanto, a resposta correta é 'te llamas'."
+      },
+      {
+        "id": "i1m110",
+        "topic": "Tratamientos Formal e Informal (tú / usted)",
+        "question": "– Buenos días, doctor Ramos. ¿Cómo está?\n– Muy bien, gracias, ¿y _____?",
+        "options": [
+          "tú",
+          "vosotros",
+          "usted",
+          "él"
+        ],
+        "correct": 2,
+        "explanation": "O diálogo é formal ('Buenos días', 'doctor', '¿Cómo está?'), então a resposta devolve a pergunta com o pronome formal: '¿y usted?'. '¿Y tú?' só serve no tratamento informal. Portanto, a resposta correta é 'usted'."
+      },
+      {
+        "id": "i1m111",
+        "topic": "Tratamientos Formal e Informal (tú / usted)",
+        "question": "¿Cuál es la pregunta formal para saber la profesión de alguien?",
+        "options": [
+          "¿En qué trabajas?",
+          "¿A qué te dedicas?",
+          "¿De dónde es?",
+          "¿A qué se dedica?"
+        ],
+        "correct": 3,
+        "explanation": "No tratamento formal a pergunta sobre a profissão usa a forma de 'usted': '¿A qué se dedica?' ou '¿En qué trabaja?'. '¿A qué te dedicas?' e '¿En qué trabajas?' são informais, e '¿De dónde es?' pergunta a origem, não a profissão. Portanto, a resposta correta é '¿A qué se dedica?'."
+      },
+      {
+        "id": "i1m112",
+        "topic": "Artículos Determinados",
+        "question": "_____ agua de la fuente está muy fría.",
+        "options": [
+          "La",
+          "El",
+          "Los",
+          "Las"
+        ],
+        "correct": 1,
+        "explanation": "'Agua' é feminina, mas diante de palavra feminina singular que começa por 'a' tônico usa-se o artigo 'el': 'el agua', 'el hada'. No plural volta o feminino: 'las aguas'. Portanto, a resposta correta é 'El'."
+      },
+      {
+        "id": "i1m113",
+        "topic": "Artículos Determinados",
+        "question": "¿Cuál es la oración correcta?",
+        "options": [
+          "La Carolina vive en la Colombia.",
+          "Carolina vive en la Colombia.",
+          "Carolina vive en Colombia.",
+          "La Carolina vive en Colombia."
+        ],
+        "correct": 2,
+        "explanation": "Em espanhol, normalmente não se usa artigo diante de nomes próprios de pessoas e de países: 'Carolina vive en Colombia'. Portanto, a resposta correta é 'Carolina vive en Colombia.'."
+      },
+      {
+        "id": "i1m114",
+        "topic": "Singular / Plural",
+        "question": "Los vecinos de Ana son _____. (marroquí)",
+        "options": [
+          "marroquies",
+          "marroquíes",
+          "marroquines",
+          "marroquíses"
+        ],
+        "correct": 1,
+        "explanation": "As palavras terminadas em '-í' tônico formam o plural com '-es' e conservam o acento: 'iraní', 'iraníes'; 'marroquí', 'marroquíes'. Portanto, a resposta correta é 'marroquíes'."
+      },
+      {
+        "id": "i1m115",
+        "topic": "Verbos Irregulares (-GO)",
+        "question": "Yo _____ de casa a las ocho de la mañana. (salir)",
+        "options": [
+          "salgo",
+          "salo",
+          "sales",
+          "sale"
+        ],
+        "correct": 0,
+        "explanation": "'Salir' é irregular só na primeira pessoa do singular: com 'yo' a forma ganha um 'g' e fica 'salgo'. Nas outras pessoas o verbo é regular ('sales', 'sale'). Portanto, a resposta correta é 'salgo'."
+      },
+      {
+        "id": "i1m116",
+        "topic": "Verbos Irregulares (-GO)",
+        "question": "¿Tú _____ a mi casa el sábado? (venir)",
+        "options": [
+          "venes",
+          "vienes",
+          "vengo",
+          "viene"
+        ],
+        "correct": 1,
+        "explanation": "'Venir' tem duas irregularidades: com 'yo' é 'vengo', e com 'tú', 'él' e 'ellos' a raiz muda E>IE. Com 'tú' a forma é 'vienes'; 'viene' é de 'él/ella/usted'. Portanto, a resposta correta é 'vienes'."
+      },
+      {
+        "id": "i1m117",
+        "topic": "Verbos Irregulares (-GO)",
+        "question": "Nosotros _____ dos perros y tres gatos. (tener)",
+        "options": [
+          "tengo",
+          "tienen",
+          "tenemos",
+          "tienemos"
+        ],
+        "correct": 2,
+        "explanation": "Com 'nosotros' o verbo 'tener' é regular: a raiz fica átona e não muda para 'ie', e a terminação é '-emos'. 'Tenemos' = nós temos. Portanto, a resposta correta é 'tenemos'."
+      },
+      {
+        "id": "i1m118",
+        "topic": "Verbos Irregulares (-GO)",
+        "question": "Mi hermana _____ la tarea por la noche. (hacer)",
+        "options": [
+          "hago",
+          "hace",
+          "haces",
+          "hacen"
+        ],
+        "correct": 1,
+        "explanation": "'Hacer' só é irregular com 'yo' ('hago'). Com 'mi hermana', que equivale a 'ella', a forma é a regular de '-er': 'hace'. Portanto, a resposta correta é 'hace'."
+      },
+      {
+        "id": "i1m119",
+        "topic": "Verbos Irregulares (-GO)",
+        "question": "Yo _____ un curso de español en Madrid. (hacer)",
+        "options": [
+          "hace",
+          "hacemos",
+          "haco",
+          "hago"
+        ],
+        "correct": 3,
+        "explanation": "Com 'yo', o verbo 'hacer' recebe a terminação '-go' em vez de '-o': 'hago'. É o mesmo padrão de 'tengo', 'vengo' e 'salgo'. Portanto, a resposta correta é 'hago'."
+      },
+      {
+        "id": "i1m120",
+        "topic": "Verbos Irregulares (-GO)",
+        "question": "¿Cuántos años _____ usted? (tener)",
+        "options": [
+          "tienes",
+          "tengo",
+          "tenéis",
+          "tiene"
+        ],
+        "correct": 3,
+        "explanation": "'Usted' é tratamento formal e usa a mesma forma de 'él/ella'. Em 'tener', essa forma tem a mudança E>IE: 'tiene'. 'Tienes' é a forma informal de 'tú'. Portanto, a resposta correta é 'tiene'."
+      },
+      {
+        "id": "i1m121",
+        "topic": "Números Cardinales (0–100)",
+        "question": "Mi abuelo tiene _____ años. (75)",
+        "options": [
+          "setenta cinco",
+          "sesenta y cinco",
+          "setenta y cinco",
+          "setentaicinco"
+        ],
+        "correct": 2,
+        "explanation": "A partir de 31, a dezena e a unidade se ligam pela conjunção 'y', escritas separadas: 'setenta y cinco'. 'Sesenta y cinco' é 65. Portanto, a resposta correta é 'setenta y cinco'."
+      },
+      {
+        "id": "i1m122",
+        "topic": "Números Cardinales (0–100)",
+        "question": "Mi clase tiene _____ alumnos. (25)",
+        "options": [
+          "veinticinco",
+          "veinte y cinco",
+          "vinte y cinco",
+          "veintecinco"
+        ],
+        "correct": 0,
+        "explanation": "Os números de 21 a 29 se escrevem numa palavra só, com a forma 'veinti-': 'veinticinco'. Atenção à grafia: é 'veinti', não 'veinte' nem o português 'vinte'. Portanto, a resposta correta é 'veinticinco'."
+      },
+      {
+        "id": "i1m123",
+        "topic": "Números Cardinales (0–100)",
+        "question": "Mi casa es el número _____. (43)",
+        "options": [
+          "quarenta y tres",
+          "cuarenta y tres",
+          "cuarenta e tres",
+          "cuarenta tres"
+        ],
+        "correct": 1,
+        "explanation": "'Cuarenta' se escreve com 'c', não com 'q' como em português, e a ligação com a unidade é feita pelo 'y': 'cuarenta y tres'. Portanto, a resposta correta é 'cuarenta y tres'."
+      },
+      {
+        "id": "i1m124",
+        "topic": "Números Cardinales (0–100)",
+        "question": "Tengo _____ hermanas. (2)",
+        "options": [
+          "duas",
+          "dois",
+          "doce",
+          "dos"
+        ],
+        "correct": 3,
+        "explanation": "Em espanhol o número 2 não tem feminino: é 'dos' tanto para 'dos niños' como para 'dos niñas'. 'Doce' é o número 12. Portanto, a resposta correta é 'dos'."
+      },
+      {
+        "id": "i1m125",
+        "topic": "Números Cardinales (0–100)",
+        "question": "La clase dura _____ minutos. (50)",
+        "options": [
+          "cinquenta",
+          "cincuenta",
+          "quince",
+          "cincoenta"
+        ],
+        "correct": 1,
+        "explanation": "O livro lembra que 'cincuenta' se escreve sempre com 'c', diferente do português 'cinquenta'. 'Quince' é o número 15. Portanto, a resposta correta é 'cincuenta'."
+      },
+      {
+        "id": "i1m126",
+        "topic": "Números Cardinales (0–100)",
+        "question": "Mi primo cumple _____ años en marzo. (13)",
+        "options": [
+          "treze",
+          "trece",
+          "tres",
+          "treinta"
+        ],
+        "correct": 1,
+        "explanation": "O número 13 é 'trece', com 'c', não 'treze' como em português. 'Tres' é 3 e 'treinta' é 30. Portanto, a resposta correta é 'trece'."
+      },
+      {
+        "id": "i1m127",
+        "topic": "Demostrativos",
+        "question": "_____ revistas que tienes ahí son de Marta.",
+        "options": [
+          "Esos",
+          "Estas",
+          "Esas",
+          "Aquellas"
+        ],
+        "correct": 2,
+        "explanation": "'Revistas' é feminino plural e 'ahí' marca a distância média. O demonstrativo feminino plural para essa distância é 'esas'. 'Esos' é masculino, e 'estas' e 'aquellas' indicam perto e longe. Portanto, a resposta correta é 'esas'."
+      },
+      {
+        "id": "i1m128",
+        "topic": "Presente de Indicativo (-er / -ir)",
+        "question": "Vosotros _____ mucho en clase. (discutir)",
+        "options": [
+          "discutís",
+          "discutéis",
+          "discuten",
+          "discutimos"
+        ],
+        "correct": 0,
+        "explanation": "Com 'vosotros', os verbos em '-ir' terminam em '-ís', com acento: 'discutís'. A terminação '-éis' é a dos verbos em '-er' ('bebéis'). Portanto, a resposta correta é 'discutís'."
+      },
+      {
+        "id": "i1m129",
+        "topic": "Verbos Irregulares (E>I)",
+        "question": "Nosotras nunca _____ la misma ropa dos días seguidos. (repetir)",
+        "options": [
+          "repitimos",
+          "repetimos",
+          "repiten",
+          "repites"
+        ],
+        "correct": 1,
+        "explanation": "Nos verbos E>I, a mudança na raiz acontece só nas formas com raiz tônica; 'nosotros' e 'vosotros' mantêm o 'e': 'repetimos'. Portanto, a resposta correta é 'repetimos'."
+      },
+      {
+        "id": "i1m130",
+        "topic": "Verbos Irregulares (E>I)",
+        "question": "Ustedes siempre _____ pizza cuando salimos a cenar. (pedir)",
+        "options": [
+          "pedís",
+          "pedimos",
+          "piden",
+          "pides"
+        ],
+        "correct": 2,
+        "explanation": "'Pedir' é irregular E>I. Com 'ustedes', a raiz muda e a terminação é '-en': 'piden'. 'Pedís' é a forma de 'vosotros' e 'pides' é a de 'tú'. Portanto, a resposta correta é 'piden'."
+      },
+      {
+        "id": "i1m131",
+        "topic": "Verbos Irregulares (E>I)",
+        "question": "El camarero _____ la cena a las nueve. (servir)",
+        "options": [
+          "sirve",
+          "serve",
+          "servimos",
+          "sirvo"
+        ],
+        "correct": 0,
+        "explanation": "'Servir' é irregular E>I. Com 'él', a raiz muda: 'sirve'. 'Serve' é português, e 'sirvo' é a forma de 'yo'. Portanto, a resposta correta é 'sirve'."
+      },
+      {
+        "id": "i1m132",
+        "topic": "Verbos Irregulares (E>I)",
+        "question": "¿Tú _____ las instrucciones del profesor? (seguir)",
+        "options": [
+          "seguís",
+          "sigo",
+          "segues",
+          "sigues"
+        ],
+        "correct": 3,
+        "explanation": "'Seguir' é irregular E>I. Com 'tú', a raiz muda e a terminação é '-es': 'sigues'. 'Sigo' é a forma de 'yo' e 'seguís' é a de 'vosotros'. Portanto, a resposta correta é 'sigues'."
+      },
+      {
+        "id": "i1m133",
+        "topic": "Verbos Irregulares (E>I)",
+        "question": "Yo _____ en el campeonato de natación este año. (competir)",
+        "options": [
+          "competo",
+          "compito",
+          "compite",
+          "competimos"
+        ],
+        "correct": 1,
+        "explanation": "'Competir' é irregular E>I. Com 'yo', a raiz muda e a terminação é '-o': 'compito'. 'Competo' vem da interferência do português. Portanto, a resposta correta é 'compito'."
+      },
+      {
+        "id": "i1m134",
+        "topic": "Verbos Irregulares (E>I)",
+        "question": "Vosotros siempre _____ buenas entradas para el concierto. (conseguir)",
+        "options": [
+          "consiguen",
+          "consiguís",
+          "conseguís",
+          "conseguimos"
+        ],
+        "correct": 2,
+        "explanation": "Com 'vosotros', os verbos E>I não mudam a raiz: 'conseguís', com acento no 'í'. 'Consiguís' aplica a mudança onde ela não existe, e 'consiguen' é a forma de 'ellos'. Portanto, a resposta correta é 'conseguís'."
+      },
+      {
+        "id": "i1m135",
+        "topic": "La Hora",
+        "question": "13:15 → _____ la una y cuarto.",
+        "options": [
+          "Son",
+          "Es",
+          "Está",
+          "Hay"
+        ],
+        "correct": 1,
+        "explanation": "Para dizer a hora usamos o verbo 'ser'. Com 'la una' (uma hora) o verbo vai no singular: 'Es la una y cuarto'. 'Son' é para as outras horas. Portanto, a resposta correta é 'Es'."
+      },
+      {
+        "id": "i1m136",
+        "topic": "La Hora",
+        "question": "15:30 → Son las tres _____.",
+        "options": [
+          "y medio",
+          "y mitad",
+          "y media",
+          "menos media"
+        ],
+        "correct": 2,
+        "explanation": "A meia hora se diz 'y media', no feminino, concordando com 'hora'. 'Y medio' e 'y mitad' vêm da interferência do português. Portanto, a resposta correta é 'y media'."
+      },
+      {
+        "id": "i1m137",
+        "topic": "La Hora",
+        "question": "17:45 → Son las seis _____ cuarto.",
+        "options": [
+          "y",
+          "menos",
+          "para",
+          "sin"
+        ],
+        "correct": 1,
+        "explanation": "Depois da meia hora, contamos os minutos que faltam para a hora seguinte com 'menos': 'Son las seis menos cuarto' (17:45). 'Las seis y cuarto' seria 18:15. Portanto, a resposta correta é 'menos'."
+      },
+      {
+        "id": "i1m138",
+        "topic": "La Hora",
+        "question": "02:40 → Son _____ para las tres.",
+        "options": [
+          "veinte",
+          "cuarenta",
+          "menos veinte",
+          "veinte menos"
+        ],
+        "correct": 0,
+        "explanation": "Na forma com 'para', dizemos os minutos que faltam e depois a hora seguinte: 'Son veinte para las tres' (02:40). Nessa construção não se usa 'menos'. Portanto, a resposta correta é 'veinte'."
+      },
+      {
+        "id": "i1m139",
+        "topic": "La Hora",
+        "question": "12:00 → Son las doce _____.",
+        "options": [
+          "en ponto",
+          "al punto",
+          "de punto",
+          "en punto"
+        ],
+        "correct": 3,
+        "explanation": "A hora exata se diz 'en punto': 'Son las doce en punto'. 'En ponto' é português. Portanto, a resposta correta é 'en punto'."
+      },
+      {
+        "id": "i1m140",
+        "topic": "La Hora",
+        "question": "14:15 → _____ las dos y cuarto.",
+        "options": [
+          "Está",
+          "Están",
+          "Es",
+          "Son"
+        ],
+        "correct": 3,
+        "explanation": "Para as horas de duas em diante, o verbo 'ser' vai no plural: 'Son las dos y cuarto'. 'Es' só se usa com 'la una'. Portanto, a resposta correta é 'Son'."
+      },
+      {
+        "id": "i1m141",
+        "topic": "Verbos Reflexivos",
+        "question": "Tú nunca _____ de apagar la luz. (acordarse)",
+        "options": [
+          "te acordas",
+          "te acuerdas",
+          "se acuerda",
+          "me acuerdo"
+        ],
+        "correct": 1,
+        "explanation": "Com 'tú', o pronome reflexivo é 'te'. Além disso, 'acordarse' é irregular O>UE: 'te acuerdas'. 'Te acordas' vem do português. Portanto, a resposta correta é 'te acuerdas'."
+      },
+      {
+        "id": "i1m142",
+        "topic": "Verbos Irregulares (O>UE)",
+        "question": "Mis padres _____ en casa a las doce. (almorzar)",
+        "options": [
+          "almorzan",
+          "almuerzan",
+          "almuerzamos",
+          "almorzáis"
+        ],
+        "correct": 1,
+        "explanation": "'Almorzar' é irregular O>UE. Com 'ellos' ('mis padres'), a raiz muda: 'almuerzan'. 'Almorzan' mantém a raiz sem a mudança obrigatória. Portanto, a resposta correta é 'almuerzan'."
+      },
+      {
+        "id": "i1m143",
+        "topic": "La Familia",
+        "question": "El hijo de mi hermana es mi _____.",
+        "options": [
+          "sobrino",
+          "primo",
+          "nieto",
+          "cuñado"
+        ],
+        "correct": 0,
+        "explanation": "O filho do irmão ou da irmã é o 'sobrino'. 'Primo' é o filho dos tios, 'nieto' é o filho dos filhos e 'cuñado' é o marido da irmã ou o irmão do cônjuge. Portanto, a resposta correta é 'sobrino'."
+      },
+      {
+        "id": "i1m144",
+        "topic": "La Familia",
+        "question": "La madre de mi madre es mi _____.",
+        "options": [
+          "tía",
+          "suegra",
+          "abuela",
+          "nuera"
+        ],
+        "correct": 2,
+        "explanation": "A mãe do pai ou da mãe é a 'abuela'. 'Tía' é a irmã dos pais, 'suegra' é a mãe do cônjuge e 'nuera' é a esposa do filho. Portanto, a resposta correta é 'abuela'."
+      },
+      {
+        "id": "i1m145",
+        "topic": "La Familia",
+        "question": "El marido de mi hermana es mi _____.",
+        "options": [
+          "yerno",
+          "cuñado",
+          "suegro",
+          "sobrino"
+        ],
+        "correct": 1,
+        "explanation": "O marido da irmã (ou o irmão do cônjuge) é o 'cuñado'. 'Yerno' é o marido da filha, 'suegro' é o pai do cônjuge e 'sobrino' é o filho do irmão ou da irmã. Portanto, a resposta correta é 'cuñado'."
+      },
+      {
+        "id": "i1m146",
+        "topic": "La Familia",
+        "question": "Los padres de mi marido son mis _____.",
+        "options": [
+          "abuelos",
+          "cuñados",
+          "nietos",
+          "suegros"
+        ],
+        "correct": 3,
+        "explanation": "Os pais do marido ou da esposa são os 'suegros'. 'Abuelos' são os pais dos pais, 'cuñados' são os irmãos do cônjuge e 'nietos' são os filhos dos filhos. Portanto, a resposta correta é 'suegros'."
+      },
+      {
+        "id": "i1m147",
+        "topic": "La Familia",
+        "question": "La mujer de mi hijo es mi _____.",
+        "options": [
+          "nieta",
+          "nuera",
+          "cuñada",
+          "sobrina"
+        ],
+        "correct": 1,
+        "explanation": "A esposa do filho é a 'nuera' (em português, nora). 'Nieta' é a filha dos filhos, 'cuñada' é a esposa do irmão ou a irmã do cônjuge e 'sobrina' é a filha do irmão ou da irmã. Portanto, a resposta correta é 'nuera'."
+      },
+      {
+        "id": "i1m148",
+        "topic": "La Familia",
+        "question": "Los hijos de mis tíos son mis _____.",
+        "options": [
+          "sobrinos",
+          "hermanos",
+          "primos",
+          "nietos"
+        ],
+        "correct": 2,
+        "explanation": "Os filhos dos tios são os 'primos'. 'Sobrinos' são os filhos dos irmãos, 'hermanos' são os filhos dos mesmos pais e 'nietos' são os filhos dos filhos. Portanto, a resposta correta é 'primos'."
+      },
+      {
+        "id": "i1m149",
+        "topic": "Verbos Irregulares (-ZCO)",
+        "question": "Yo _____ mucho a mi padre. (parecerse)",
+        "options": [
+          "me parezco",
+          "me pareco",
+          "se parece",
+          "te pareces"
+        ],
+        "correct": 0,
+        "explanation": "'Parecerse' é reflexivo e segue o padrão -ZCO na primeira pessoa do singular: 'yo me parezco'. O pronome tem que ser 'me', porque o sujeito é 'yo', e a forma 'pareco' não existe. Portanto, a resposta correta é 'me parezco'."
+      },
+      {
+        "id": "i1m150",
+        "topic": "Verbos Irregulares (-ZCO)",
+        "question": "Mi hermana _____ a nuestra madre. (parecerse)",
+        "options": [
+          "me parezco",
+          "se parezce",
+          "se parece",
+          "se parezca"
+        ],
+        "correct": 2,
+        "explanation": "A irregularidade -ZCO aparece só na primeira pessoa do singular ('yo me parezco'). Com 'mi hermana', a forma é regular: 'se parece'. 'Parezce' não existe e 'parezca' não é forma do presente de indicativo. Portanto, a resposta correta é 'se parece'."
+      },
+      {
+        "id": "i1m151",
+        "topic": "Posesivos (mi, tu, su...)",
+        "question": "_____ casa está muy lejos de aquí. (de vosotros)",
+        "options": [
+          "Vuestro",
+          "Vuestra",
+          "Nuestra",
+          "Su"
+        ],
+        "correct": 1,
+        "explanation": "O possessivo de 'vosotros' é 'vuestro/a/os/as', e ele concorda em gênero e número com o substantivo: 'casa' é feminino singular, então fica 'vuestra'. 'Vuestro' é masculino, 'nuestra' é de nosotros e 'su' é de ellos/ustedes. Portanto, a resposta correta é 'vuestra'."
+      },
+      {
+        "id": "i1m152",
+        "topic": "Números Ordinales",
+        "question": "Mi abuela vive en el _____ piso de este edificio. (3º)",
+        "options": [
+          "tercero",
+          "tercer",
+          "tres",
+          "tercera"
+        ],
+        "correct": 1,
+        "explanation": "Os ordinais 'primero' e 'tercero' perdem o 'o' final quando vêm antes de um substantivo masculino singular: 'el tercer piso'. 'Tercero' completo só fica quando não há substantivo logo depois, 'tercera' é feminino e 'tres' é o número cardinal. Portanto, a resposta correta é 'tercer'."
+      },
+      {
+        "id": "i1m153",
+        "topic": "Números Ordinales",
+        "question": "¡Ya basta! Es la _____ vez que te llamo hoy. (2ª)",
+        "options": [
+          "segundo",
+          "dos",
+          "segunda",
+          "segundas"
+        ],
+        "correct": 2,
+        "explanation": "Os ordinais concordam em gênero e número com o substantivo: 'vez' é feminino singular, então usamos 'segunda'. 'Segundo' é masculino, 'segundas' é plural e 'dos' é o cardinal, que não indica ordem. Portanto, a resposta correta é 'segunda'."
+      },
+      {
+        "id": "i1m154",
+        "topic": "Números Ordinales",
+        "question": "Mi hermano está en _____ lugar en el campeonato de natación. (5º)",
+        "options": [
+          "cinco",
+          "quinto",
+          "quinta",
+          "quintos"
+        ],
+        "correct": 1,
+        "explanation": "Para indicar posição numa classificação usamos o ordinal, que concorda com o substantivo: 'lugar' é masculino singular, logo 'quinto lugar'. 'Cinco' é o cardinal, 'quinta' é feminino e 'quintos' é plural. Portanto, a resposta correta é 'quinto'."
+      },
+      {
+        "id": "i1m155",
+        "topic": "Números Ordinales",
+        "question": "Hoy es el _____ día de vacaciones y estamos muy contentos. (1º)",
+        "options": [
+          "primero",
+          "uno",
+          "primer",
+          "primera"
+        ],
+        "correct": 2,
+        "explanation": "Antes de substantivo masculino singular, 'primero' perde o 'o' final: 'el primer día'. 'Primero' completo só aparece sem substantivo logo depois, 'primera' é feminino e 'uno' é cardinal. Portanto, a resposta correta é 'primer'."
+      },
+      {
+        "id": "i1m156",
+        "topic": "Números Ordinales",
+        "question": "¿En qué piso vives? Mi tía vive en el décimo y yo, en el _____. (1º)",
+        "options": [
+          "primero",
+          "primer",
+          "primera",
+          "uno"
+        ],
+        "correct": 0,
+        "explanation": "Quando o ordinal não vem seguido de substantivo, ele mantém a forma completa: 'Vivo en el primero' (o substantivo 'piso' fica subentendido). A forma curta 'primer' só se usa diretamente antes de substantivo masculino singular, como em 'el primer piso'. Portanto, a resposta correta é 'primero'."
+      },
+      {
+        "id": "i1m157",
+        "topic": "Números Ordinales",
+        "question": "¿Cuál es la oración correcta?",
+        "options": [
+          "Usted es el octava en la lista de espera.",
+          "Vivo en el tercero piso.",
+          "Mi madre vive en la séptima planta.",
+          "Es la tercer vez que me haces eso."
+        ],
+        "correct": 2,
+        "explanation": "O ordinal concorda em gênero com o substantivo: 'planta' é feminino, então 'la séptima planta' está certo. 'El octava' mistura masculino com feminino, 'el tercero piso' deveria ser 'el tercer piso' e 'la tercer vez' deveria ser 'la tercera vez', porque a forma curta só vale antes de masculino singular. Portanto, a resposta correta é 'Mi madre vive en la séptima planta.'."
+      },
+      {
+        "id": "i1m158",
+        "topic": "Presente Continuo",
+        "question": "Manuel _____ de pie en la parada del autobús. (dormir)",
+        "options": [
+          "está dormiendo",
+          "está durmiendo",
+          "están durmiendo",
+          "está dormindo"
+        ],
+        "correct": 1,
+        "explanation": "Alguns verbos mudam a raiz no gerúndio, e 'dormir' é um deles: 'durmiendo', com 'u' no lugar do 'o'. 'Dormiendo' ignora essa mudança, 'dormindo' é a forma do português e 'están' é plural, não combina com 'Manuel'. Portanto, a resposta correta é 'está durmiendo'."
+      },
+      {
+        "id": "i1m159",
+        "topic": "Presente Continuo",
+        "question": "Paulina _____ para la fiesta de esta noche. (arreglarse)",
+        "options": [
+          "está se arreglando",
+          "se está arreglar",
+          "está arreglando se",
+          "se está arreglando"
+        ],
+        "correct": 3,
+        "explanation": "Entre 'estar' e o gerúndio nada se interpõe: o pronome reflexivo vai antes de 'estar' ('se está arreglando') ou grudado ao gerúndio ('está arreglándose'). 'Está se arreglando' é a ordem do português, 'está arreglando se' separa o pronome indevidamente e 'se está arreglar' usa infinitivo no lugar do gerúndio. Portanto, a resposta correta é 'se está arreglando'."
+      },
+      {
+        "id": "i1m160",
+        "topic": "Localizadores",
+        "question": "Las llaves están _____ la mochila, en el bolsillo pequeño.",
+        "options": [
+          "fuera de",
+          "dentro de",
+          "encima de",
+          "debajo de"
+        ],
+        "correct": 1,
+        "explanation": "Se as chaves estão no bolso da mochila, elas estão dentro dela: 'dentro de'. 'Fuera de' é o oposto, fora da mochila; 'encima de' seria sobre ela e 'debajo de' seria sob ela. Portanto, a resposta correta é 'dentro de'."
       }
     ]
   },
@@ -1376,7 +2091,7 @@
       {
         "id": "i1f01",
         "topic": "Artículos Indeterminados",
-        "question": "Quiero _____ café, por favor.",
+        "question": "En el bar: Quiero _____ café, por favor. (no es un café específico)",
         "options": [
           "el",
           "la",
@@ -1384,7 +2099,7 @@
           "una"
         ],
         "correct": 2,
-        "explanation": "'Café' é masculino singular. O artigo indeterminado masculino singular é 'un'. 'Un café' = um café."
+        "explanation": "'Café' é masculino singular e, quando não falamos de algo específico, usamos o artigo indeterminado: 'un café'. Portanto, a resposta correta é 'un'."
       },
       {
         "id": "i1f02",
@@ -1415,7 +2130,7 @@
       {
         "id": "i1f04",
         "topic": "Verbo Gustar",
-        "question": "A mí _____ el chocolate.",
+        "question": "A mí me _____ el chocolate.",
         "options": [
           "gusto",
           "gustas",
@@ -1423,12 +2138,12 @@
           "gustan"
         ],
         "correct": 2,
-        "explanation": "O verbo 'gustar' concorda com a coisa que agrada, não com a pessoa. 'El chocolate' é singular, então usamos 'gusta'. A frase completa é 'Me gusta el chocolate'."
+        "explanation": "O verbo 'gustar' concorda com a coisa que agrada, não com a pessoa. 'El chocolate' é singular, então usamos 'gusta'. Portanto, a resposta correta é 'gusta'."
       },
       {
         "id": "i1f05",
         "topic": "Verbo Gustar",
-        "question": "A ella _____ los deportes.",
+        "question": "A ella le _____ los deportes.",
         "options": [
           "gusta",
           "gusto",
@@ -1436,7 +2151,7 @@
           "gustan"
         ],
         "correct": 3,
-        "explanation": "'Los deportes' é plural, então o verbo 'gustar' deve estar no plural: 'gustan'. A frase completa é 'Le gustan los deportes' = ela gosta de esportes."
+        "explanation": "'Los deportes' é plural, então o verbo 'gustar' fica no plural: 'gustan'. Portanto, a resposta correta é 'gustan'."
       },
       {
         "id": "i1f06",
@@ -1467,7 +2182,7 @@
       {
         "id": "i1f08",
         "topic": "Acuerdo y Desacuerdo",
-        "question": "A mí me gusta el fútbol. ¿Y a ti? _____.",
+        "question": "— A mí me gusta el fútbol, ¿y a ti? — _____. (a mí me gusta igual que a ti)",
         "options": [
           "A mí no",
           "A mí tampoco",
@@ -1475,7 +2190,7 @@
           "A mí también"
         ],
         "correct": 3,
-        "explanation": "Para concordar com uma frase afirmativa, usamos 'a mí también' (a mim também). 'A mí también me gusta' = eu também gosto."
+        "explanation": "Para concordar com uma frase afirmativa, o espanhol usa 'a mí también'. 'A mí tampoco' concorda com negativas, e 'a mí no' expressaria desacordo. Portanto, a resposta correta é 'A mí también'."
       },
       {
         "id": "i1f09",
@@ -1519,7 +2234,7 @@
       {
         "id": "i1f12",
         "topic": "Preposiciones (desde, hasta, hacia)",
-        "question": "El avión vuela _____ el norte.",
+        "question": "El avión sale de Madrid y vuela _____ el norte, pero no sé exactamente adónde.",
         "options": [
           "desde",
           "hasta",
@@ -1527,7 +2242,7 @@
           "hacia"
         ],
         "correct": 3,
-        "explanation": "'Hacia' indica direção aproximada, sem ponto de chegada definido. 'Vuela hacia el norte' = voa em direção ao norte."
+        "explanation": "'Hacia' indica o sentido do movimento, sem um ponto de chegada definido, como em 'esta es la principal ruta hacia el sur'. 'Desde' marcaria a origem, que já é Madrid, e 'hasta' marcaria o ponto final, que a frase diz não conhecer. Portanto, a resposta correta é 'hacia'."
       },
       {
         "id": "i1f13",
@@ -1644,7 +2359,7 @@
           "Gire"
         ],
         "correct": 3,
-        "explanation": "O imperativo afirmativo de 'usted' é igual ao presente do subjuntivo. 'Girar' → 'Gire'. = vire (o senhor/a senhora). É diferente do imperativo de 'tú' (gira)."
+        "explanation": "No imperativo formal ('usted'), os verbos em '-ar' trocam a vogal final 'a' do informal por 'e': 'gira' (tú) → 'gire' (usted). 'Girad' é uma forma de 'vosotros', que o livro não ensina, e 'giré' não é imperativo. Portanto, a resposta correta é 'Gire'."
       },
       {
         "id": "i1f22",
@@ -1662,15 +2377,15 @@
       {
         "id": "i1f23",
         "topic": "Imperativo Afirmativo",
-        "question": "_____ la puerta, chicos. (cerrar - vosotros)",
+        "question": "_____ a la izquierda en la esquina. (doblar - tú)",
         "options": [
-          "Cierren",
-          "Cierrad",
-          "Cierra",
-          "Cerrad"
+          "Dobla",
+          "Doble",
+          "Doblas",
+          "Doblan"
         ],
-        "correct": 3,
-        "explanation": "O imperativo afirmativo de 'vosotros' se forma substituindo o '-r' do infinitivo por '-d'. 'Cerrar' → 'Cerrad'. Não há mudança de raiz (nem E>IE) no imperativo de vosotros."
+        "correct": 0,
+        "explanation": "O imperativo informal ('tú') dos verbos regulares em '-ar' termina em 'a': 'doblar' → 'dobla'. 'Doble' é a forma de 'usted', e 'doblas' e 'doblan' são formas do presente, não ordens. Portanto, a resposta correta é 'Dobla'."
       },
       {
         "id": "i1f24",
@@ -1722,46 +2437,46 @@
           "los"
         ],
         "correct": 3,
-        "explanation": "'Tus padres' é masculino plural. O pronome de complemento direto masculino plural é 'los'. 'Los llamo' = eu os ligo."
+        "explanation": "'Tus padres' é masculino plural. O pronome de complemento direto masculino plural é 'los'. 'Los llamo' = eu ligo para eles. Portanto, a resposta correta é 'los'."
       },
       {
         "id": "i1f28",
         "topic": "Verbo Quedar",
-        "question": "¿_____ con tus amigos esta tarde? (tú)",
-        "options": [
-          "Quedo",
-          "Queda",
-          "Quedas",
-          "Quedamos"
-        ],
-        "correct": 2,
-        "explanation": "O verbo 'quedar' (no sentido de combinar de se encontrar) é regular. Com 'tú', a forma é 'quedas'. '¿Quedas con tus amigos?' = você vai se encontrar com seus amigos?"
-      },
-      {
-        "id": "i1f29",
-        "topic": "Verbo Quedar",
-        "question": "Ella _____ con su novio los sábados por la tarde.",
+        "question": "Esta chaqueta me _____ muy bien. Me la llevo.",
         "options": [
           "quedo",
           "quedas",
           "queda",
-          "quedamos"
+          "quedan"
         ],
         "correct": 2,
-        "explanation": "Com 'ella', o verbo 'quedar' é 'queda'. 'Queda con su novio' = ela se encontra com o namorado."
+        "explanation": "'Quedar bien/mal' funciona como 'gustar': o sujeito é a peça de roupa e a pessoa aparece com 'me, te, le...'. Como 'esta chaqueta' é singular, o verbo vai para 'queda'. Portanto, a resposta correta é 'queda'."
+      },
+      {
+        "id": "i1f29",
+        "topic": "Verbo Quedar",
+        "question": "Los pantalones te _____ un poco largos.",
+        "options": [
+          "queda",
+          "quedan",
+          "quedas",
+          "quedo"
+        ],
+        "correct": 1,
+        "explanation": "Com 'quedar bien/mal', o verbo concorda com a peça de roupa, não com a pessoa. 'Los pantalones' é plural, então o verbo é 'quedan'; a pessoa aparece só no pronome 'te'. Portanto, a resposta correta é 'quedan'."
       },
       {
         "id": "i1f30",
         "topic": "Verbo Quedar",
-        "question": "¿A qué hora _____ vosotros esta noche?",
+        "question": "¿Cómo _____ quedan los zapatos nuevos a Luis?",
         "options": [
-          "quedamos",
-          "quedan",
-          "queda",
-          "quedáis"
+          "le",
+          "lo",
+          "se",
+          "te"
         ],
-        "correct": 3,
-        "explanation": "Com 'vosotros', o verbo 'quedar' é 'quedáis'. '¿A qué hora quedáis?' = a que horas vocês vão se encontrar?"
+        "correct": 0,
+        "explanation": "Com 'quedar bien/mal', a pessoa a quem a roupa fica bem ou mal aparece com o pronome 'me, te, le...', como em 'gustar'. Como a frase fala de Luis (a Luis), o pronome é 'le'. 'Lo' é pronome de complemento direto e não serve aqui. Portanto, a resposta correta é 'le'."
       },
       {
         "id": "i1f31",
@@ -1952,11 +2667,11 @@
         "options": [
           "Esta semana",
           "Mañana",
-          "Ayer",
+          "Ahora",
           "La semana pasada"
         ],
         "correct": 3,
-        "explanation": "'La semana pasada' significa 'na semana passada'. É um marcador temporal do passado fechado que acompanha o pretérito indefinido."
+        "explanation": "'La semana pasada' é um marcador de passado fechado e acompanha o pretérito perfeito simples ('fuimos'). Com 'esta semana', o livro pede o pretérito perfeito composto ('hemos ido'); 'ahora' é presente e 'mañana' é futuro. Portanto, a resposta correta é 'La semana pasada'."
       },
       {
         "id": "i1f46",
@@ -2000,7 +2715,7 @@
       {
         "id": "i1f49",
         "topic": "Pretérito Imperfecto de Indicativo",
-        "question": "Ella siempre _____ café con leche por la mañana. (tomar)",
+        "question": "Antes ella siempre _____ café con leche por la mañana, pero ahora toma té. (tomar)",
         "options": [
           "toma",
           "ha tomado",
@@ -2008,7 +2723,7 @@
           "tomaba"
         ],
         "correct": 3,
-        "explanation": "Com 'siempre' e descrição de hábito passado, usamos o imperfeito. 'Tomaba' = ela tomava (costume do passado)."
+        "explanation": "'Antes' com 'siempre' descreve um costume do passado, e o contraste com 'ahora toma té' deixa claro que já não é assim. Costume do passado vai no imperfeito: 'tomaba'. 'Tomó' contaria um fato único e 'toma' é o hábito de agora. Portanto, a resposta correta é 'tomaba'."
       },
       {
         "id": "i1f50",
@@ -2104,15 +2819,15 @@
       {
         "id": "i1f57",
         "topic": "Imperativo Afirmativo",
-        "question": "_____ el libro en la página veinte, chicos. (abrir - vosotros)",
+        "question": "_____ su nombre aquí, señora. (escribir - usted)",
         "options": [
-          "Abran",
-          "Abre",
-          "Abra",
-          "Abrid"
+          "Escribe",
+          "Escriba",
+          "Escribes",
+          "Escribimos"
         ],
-        "correct": 3,
-        "explanation": "O imperativo afirmativo de 'vosotros' se forma substituindo o '-r' do infinitivo por '-d'. 'Abrir' → 'Abrid'. É diferente do imperativo de 'tú' (abre) e 'usted' (abra)."
+        "correct": 1,
+        "explanation": "No imperativo formal ('usted'), os verbos em '-er' e '-ir' trocam a vogal final 'e' do informal por 'a': 'escribe' (tú) → 'escriba' (usted). 'Escribes' e 'escribimos' são formas do presente, não ordens. Portanto, a resposta correta é 'Escriba'."
       },
       {
         "id": "i1f58",
@@ -2156,7 +2871,7 @@
       {
         "id": "i1f61",
         "topic": "Pretérito Imperfecto de Indicativo",
-        "question": "Ellos _____ mucho dinero cuando eran jóvenes. (ganar)",
+        "question": "Antes ellos _____ mucho dinero, pero ahora ganan poco. (ganar, costumbre del pasado)",
         "options": [
           "ganaron",
           "han ganado",
@@ -2164,7 +2879,7 @@
           "ganaban"
         ],
         "correct": 3,
-        "explanation": "Com 'ellos' no imperfeito, os verbos '-ar' terminam em '-aban'. 'Ganaban' = eles ganhavam. O imperfeito descreve hábitos ou estados contínuos no passado sem ponto final definido."
+        "explanation": "O contraste 'antes... ahora', como na tabela de Tatiana do livro, pede o imperfeito para o costume do passado: 'ganaban'. Com 'ellos', os verbos em '-ar' terminam em '-aban'. 'Ganaron' fecharia o fato num ponto, e 'han ganado' exige ligação com o presente. Portanto, a resposta correta é 'ganaban'."
       },
       {
         "id": "i1f81",
@@ -2247,7 +2962,7 @@
       {
         "id": "i1f63",
         "topic": "Artículos Indeterminados",
-        "question": "Ella compró _____ piso nuevo en el centro de la ciudad.",
+        "question": "Ella está comprando _____ piso nuevo en el centro. (hablo de ese piso por primera vez)",
         "options": [
           "el",
           "la",
@@ -2255,7 +2970,7 @@
           "un"
         ],
         "correct": 3,
-        "explanation": "'Piso' é masculino singular. O artigo indeterminado masculino singular é 'un'. Usamos artigo indeterminado quando o substantivo é mencionado pela primeira vez ou de forma não específica."
+        "explanation": "'Piso' é masculino singular e, quando falamos de algo pela primeira vez, usamos o artigo indeterminado: 'un piso'. Portanto, a resposta correta é 'un'."
       },
       {
         "id": "i1f64",
@@ -2299,28 +3014,28 @@
       {
         "id": "i1f67",
         "topic": "Preposiciones (desde, hasta, hacia)",
-        "question": "La tienda está abierta _____ las 9 de la mañana.",
+        "question": "La tienda está abierta _____ las 9 de la mañana hasta las 6 de la tarde.",
         "options": [
           "hacia",
           "hasta",
-          "de",
+          "en",
           "desde"
         ],
         "correct": 3,
-        "explanation": "'Desde' indica o ponto de partida temporal. 'Desde las 9' = a partir das 9 / desde as 9. Geralmente acompanha 'hasta' para indicar o término: 'desde las 9 hasta las 6'."
+        "explanation": "'Desde' indica o ponto de partida, aqui o começo do horário, e forma par com 'hasta', que marca o limite: 'desde las 9 hasta las 6'. 'Hacia' indicaria hora aproximada, 'hasta' já está na frase marcando o fim e 'en' não se usa para marcar o início de um período. Portanto, a resposta correta é 'desde'."
       },
       {
         "id": "i1f68",
         "topic": "Preposiciones (desde, hasta, hacia)",
-        "question": "El tren va _____ el norte del país.",
+        "question": "Llego a tu casa _____ las nueve, más o menos; no sé la hora exacta.",
         "options": [
-          "desde",
           "hasta",
-          "de",
-          "hacia"
+          "hacia",
+          "desde",
+          "de"
         ],
-        "correct": 3,
-        "explanation": "'Hacia' indica direção aproximada, sem especificar o destino final exato. 'El tren va hacia el norte' = o trem vai em direção ao norte."
+        "correct": 1,
+        "explanation": "Com horas, 'hacia' indica um tempo aproximado, como no exemplo do livro 'nos encontramos hacia las 7, o sea, más o menos a las 7'. 'Desde' e 'hasta' marcam começo e limite de um período, o que não combina com 'más o menos' e 'no sé la hora exacta'. Portanto, a resposta correta é 'hacia'."
       },
       {
         "id": "i1f69",
@@ -2377,28 +3092,28 @@
       {
         "id": "i1f73",
         "topic": "Verbo Quedar",
-        "question": "Nosotros _____ en el café de la plaza a las seis.",
+        "question": "Estos pantalones _____ quedan estrechos. Necesito otra talla. (yo)",
         "options": [
-          "quedo",
-          "quedan",
-          "quedáis",
-          "quedamos"
+          "mi",
+          "yo",
+          "le",
+          "me"
         ],
         "correct": 3,
-        "explanation": "Com 'nosotros', o verbo 'quedar' é 'quedamos'. 'Quedamos en el café' = combinamos de nos encontrar no café. 'Quedar' é um verbo regular."
+        "explanation": "Com 'quedar bien/mal', quem experimenta a roupa aparece com o pronome 'me, te, le...' antes do verbo, como em 'gustar'. Para 'yo', o pronome é 'me'. 'Mi' é possessivo e 'yo' é sujeito. Portanto, a resposta correta é 'me'."
       },
       {
         "id": "i1f74",
         "topic": "Verbo Quedar",
-        "question": "¿Cuándo _____ tú con el médico?",
+        "question": "¿Cuál es la oración correcta?",
         "options": [
-          "queda",
-          "quedamos",
-          "quedáis",
-          "quedas"
+          "Este vestido me quedo bien.",
+          "Este vestido me quedan bien.",
+          "Este vestido me queda bien.",
+          "Este vestido quedo bien a mí."
         ],
-        "correct": 3,
-        "explanation": "Com 'tú', o verbo 'quedar' é 'quedas'. '¿Cuándo quedas con el médico?' = quando você tem consulta com o médico? 'Quedar con alguien' = combinar de se encontrar com alguém."
+        "correct": 2,
+        "explanation": "'Quedar bien/mal' se constrói como 'gustar': a roupa é o sujeito e concorda com o verbo, e a pessoa aparece com 'me, te, le...'. 'Este vestido' é singular, então o verbo é 'queda'. Portanto, a resposta correta é 'Este vestido me queda bien.'."
       },
       {
         "id": "i1f75",
@@ -2477,6 +3192,695 @@
         ],
         "correct": 3,
         "explanation": "'Ayer' (ontem) é um marcador de passado fechado e pede o pretérito indefinido. Com 'esta mañana/semana/mes/año', usaríamos o pretérito perfeito composto."
+      },
+      {
+        "id": "i1f86",
+        "topic": "Presente de Indicativo (querer / preferir)",
+        "question": "Yo _____ un café con leche, por favor.",
+        "options": [
+          "quiero",
+          "quero",
+          "quiere",
+          "queremos"
+        ],
+        "correct": 0,
+        "explanation": "O verbo 'querer' muda 'e' para 'ie' nas formas do singular e na terceira do plural. Para 'yo', a forma é 'quiero'; 'quero' é interferência do português. Portanto, a resposta correta é 'quiero'."
+      },
+      {
+        "id": "i1f87",
+        "topic": "Presente de Indicativo (querer / preferir)",
+        "question": "¿Tú _____ pescado o carne para la cena?",
+        "options": [
+          "prefiere",
+          "preferes",
+          "prefieres",
+          "preferís"
+        ],
+        "correct": 2,
+        "explanation": "'Preferir' é um verbo E>IE: com 'tú', a forma é 'prefieres'. 'Prefiere' é de 'él/ella', 'preferís' é de 'vosotros' e 'preferes' é interferência do português. Portanto, a resposta correta é 'prefieres'."
+      },
+      {
+        "id": "i1f88",
+        "topic": "Presente de Indicativo (querer / preferir)",
+        "question": "Nosotros _____ comer en un restaurante italiano hoy.",
+        "options": [
+          "quieren",
+          "quieremos",
+          "quiero",
+          "queremos"
+        ],
+        "correct": 3,
+        "explanation": "Nas formas de 'nosotros' e 'vosotros', o verbo 'querer' não muda a vogal: 'queremos', 'queréis'. 'Quieremos' aplica a mudança onde ela não existe. Portanto, a resposta correta é 'queremos'."
+      },
+      {
+        "id": "i1f89",
+        "topic": "Presente de Indicativo (querer / preferir)",
+        "question": "Mi madre _____ cenar en casa los domingos.",
+        "options": [
+          "prefiero",
+          "prefiere",
+          "prefere",
+          "preferimos"
+        ],
+        "correct": 1,
+        "explanation": "Com 'mi madre' (ella), o verbo 'preferir' fica 'prefiere', com a mudança 'e' > 'ie'. 'Prefere' é a forma do português e 'prefiero' é de 'yo'. Portanto, a resposta correta é 'prefiere'."
+      },
+      {
+        "id": "i1f90",
+        "topic": "Presente de Indicativo (querer / preferir)",
+        "question": "Vosotros _____ la paella con mariscos, ¿verdad?",
+        "options": [
+          "prefieren",
+          "preferimos",
+          "preferís",
+          "prefierís"
+        ],
+        "correct": 2,
+        "explanation": "'Preferir' termina em -ir, então a forma de 'vosotros' é 'preferís', sem mudança de vogal. 'Prefieren' é de 'ellos/ustedes' e 'preferimos' é de 'nosotros'. Portanto, a resposta correta é 'preferís'."
+      },
+      {
+        "id": "i1f91",
+        "topic": "Presente de Indicativo (querer / preferir)",
+        "question": "¿Cuál es la oración correcta?",
+        "options": [
+          "Ellos queren una mesa para cuatro.",
+          "Ellos quiere una mesa para cuatro.",
+          "Ellos quieremos una mesa para cuatro.",
+          "Ellos quieren una mesa para cuatro."
+        ],
+        "correct": 3,
+        "explanation": "Com 'ellos', o verbo 'querer' fica 'quieren', com a mudança 'e' > 'ie' e a terminação do plural. 'Queren' é interferência do português, 'quiere' é singular e 'quieremos' mistura a forma de 'nosotros'. Portanto, a resposta correta é 'Ellos quieren una mesa para cuatro.'."
+      },
+      {
+        "id": "i1f92",
+        "topic": "Números Cardinales (de 100 en adelante)",
+        "question": "Este queso cuesta _____ pesos. (150)",
+        "options": [
+          "ciento cincuenta",
+          "cien cincuenta",
+          "ciento y cincuenta",
+          "cien y cincuenta"
+        ],
+        "correct": 0,
+        "explanation": "De 101 a 199 usamos 'ciento', e o 'y' só aparece entre dezena e unidade, nunca depois da centena. Portanto, a resposta correta é 'ciento cincuenta'."
+      },
+      {
+        "id": "i1f93",
+        "topic": "Números Cardinales (de 100 en adelante)",
+        "question": "En la fiesta hay exactamente _____ personas. (100)",
+        "options": [
+          "ciento",
+          "cientos",
+          "cien",
+          "ciento uno"
+        ],
+        "correct": 2,
+        "explanation": "O número 100 exato é 'cien'; 'ciento' só aparece quando vem seguido de outro número, como em 'ciento dos'. Portanto, a resposta correta é 'cien'."
+      },
+      {
+        "id": "i1f94",
+        "topic": "Números Cardinales (de 100 en adelante)",
+        "question": "El libro tiene _____ páginas. (332)",
+        "options": [
+          "trescientos y treinta y dos",
+          "trescientos treinta dos",
+          "trecientos treinta y dos",
+          "trescientos treinta y dos"
+        ],
+        "correct": 3,
+        "explanation": "A conjunção 'y' só aparece entre a dezena e a unidade: 'treinta y dos'. Entre a centena e a dezena não se usa 'y', e a grafia de 300 é 'trescientos', com 's'. Portanto, a resposta correta é 'trescientos treinta y dos'."
+      },
+      {
+        "id": "i1f95",
+        "topic": "Números Cardinales (de 100 en adelante)",
+        "question": "La cena para todos cuesta _____ pesos. (500)",
+        "options": [
+          "cincocientos",
+          "quinientos",
+          "quinhentos",
+          "quiñentos"
+        ],
+        "correct": 1,
+        "explanation": "O número 500 é irregular em espanhol: 'quinientos', e não se forma com 'cinco'. 'Quinhentos' é a forma do português. Portanto, a resposta correta é 'quinientos'."
+      },
+      {
+        "id": "i1f96",
+        "topic": "Números Cardinales (de 100 en adelante)",
+        "question": "Este abrigo cuesta _____ euros. (700)",
+        "options": [
+          "setecentos",
+          "seiscientos",
+          "sietecientos",
+          "setecientos"
+        ],
+        "correct": 3,
+        "explanation": "O número 700 é 'setecientos', forma irregular que não usa 'siete'. 'Setecentos' é a grafia do português e 'seiscientos' é 600. Portanto, a resposta correta é 'setecientos'."
+      },
+      {
+        "id": "i1f97",
+        "topic": "Números Cardinales (de 100 en adelante)",
+        "question": "Este coche es del año _____. (2.004)",
+        "options": [
+          "dos mil y cuatro",
+          "dos mil cuatro",
+          "dos miles cuatro",
+          "dos mil cuatros"
+        ],
+        "correct": 1,
+        "explanation": "'Mil' não vai para o plural e não leva 'y' depois: 2.004 é 'dos mil cuatro'. O 'y' só aparece entre dezena e unidade. Portanto, a resposta correta é 'dos mil cuatro'."
+      },
+      {
+        "id": "i1f98",
+        "topic": "Verbo Gustar",
+        "question": "A Lucía _____ los deportes de invierno. (encantar)",
+        "options": [
+          "le encanta",
+          "les encantan",
+          "le encanto",
+          "le encantan"
+        ],
+        "correct": 3,
+        "explanation": "'Encantar' funciona como 'gustar': o pronome vai com a pessoa ('a Lucía' = 'le') e o verbo concorda com a coisa, 'los deportes de invierno', que é plural. Portanto, a resposta correta é 'le encantan'."
+      },
+      {
+        "id": "i1f99",
+        "topic": "Artículos Indeterminados",
+        "question": "En el zoo hay _____ águila enorme.",
+        "options": [
+          "una",
+          "unos",
+          "un",
+          "unas"
+        ],
+        "correct": 2,
+        "explanation": "Diante de substantivo feminino singular que começa com 'a' tônico, como 'águila', usa-se o artigo 'un', e não 'una'. No plural volta a forma feminina: 'unas águilas'. Portanto, a resposta correta é 'un'."
+      },
+      {
+        "id": "i1f100",
+        "topic": "Dar Direcciones",
+        "question": "Para llegar al banco, _____ todo recto y cruza la calle.",
+        "options": [
+          "sigues",
+          "siga",
+          "sigue",
+          "seguir"
+        ],
+        "correct": 2,
+        "explanation": "Para dar uma direção a alguém que tratamos por 'tú', usamos o imperativo informal, igual ao 'cruza' da mesma frase. A expressão do livro é 'sigue todo recto' (siga em frente). 'Sigues' é o presente, 'siga' é a forma de 'usted', que não combina com 'cruza', e o infinitivo não serve para dar uma ordem. Portanto, a resposta correta é 'sigue'."
+      },
+      {
+        "id": "i1f101",
+        "topic": "Dar Direcciones",
+        "question": "Perdone, señora, ¿cómo llego al hospital? - _____ dos cuadras y gire a la derecha. (caminar - usted)",
+        "options": [
+          "Camine",
+          "Camina",
+          "Caminas",
+          "Camino"
+        ],
+        "correct": 0,
+        "explanation": "O diálogo é formal ('Perdone, señora') e a outra ordem da frase já está em 'usted' ('gire'), então a direção vai no imperativo formal. Nos verbos em '-ar', a vogal final 'a' do informal ('camina') vira 'e' no formal ('camine'). 'Caminas' e 'camino' são formas do presente, não ordens. Portanto, a resposta correta é 'Camine'."
+      },
+      {
+        "id": "i1f102",
+        "topic": "Dar Direcciones",
+        "question": "Camina tres _____ y cruza la calle: el supermercado está ahí.",
+        "options": [
+          "esquinas",
+          "aceras",
+          "rotondas",
+          "cuadras"
+        ],
+        "correct": 3,
+        "explanation": "A distância a pé, nas direções, se conta em quarteirões: 'camina (nº) cuadras'. 'Esquina' é o canto da rua, 'acera' é a calçada e 'rotonda' é a rotatória, que se contorna ('da la vuelta a la rotonda'), não se conta como distância caminhada. Portanto, a resposta correta é 'cuadras'."
+      },
+      {
+        "id": "i1f103",
+        "topic": "Dar Direcciones",
+        "question": "¿Cuál es la oración correcta para indicar el camino a un amigo (tú)?",
+        "options": [
+          "Cruce la calle y doble a la izquierda.",
+          "Cruza la calle y dobla a la izquierda.",
+          "Cruza la calle y doble a la izquierda.",
+          "Cruce la calle y dobla a la izquierda."
+        ],
+        "correct": 1,
+        "explanation": "Quando falamos com um amigo, as duas ordens precisam ir no imperativo informal de 'tú': 'cruza' e 'dobla'. 'Cruce' e 'doble' são formas de 'usted', e misturar as duas pessoas na mesma frase está errado. Portanto, a resposta correta é 'Cruza la calle y dobla a la izquierda.'."
+      },
+      {
+        "id": "i1f104",
+        "topic": "Dar Direcciones",
+        "question": "Por favor, ¿cómo voy _____ museo a la universidad?",
+        "options": [
+          "de el",
+          "al",
+          "del",
+          "desde"
+        ],
+        "correct": 2,
+        "explanation": "Para perguntar o caminho, o livro usa 'ir de... a...': 'de' + 'el' forma obrigatoriamente a contração 'del', e 'de el' separado não existe. 'Al' indicaria o destino, não o ponto de partida, e 'desde' precisaria do artigo ('desde el museo'). Portanto, a resposta correta é 'del'."
+      },
+      {
+        "id": "i1f105",
+        "topic": "Dar Direcciones",
+        "question": "Sigue todo _____ hasta la rotonda y después gira a la izquierda.",
+        "options": [
+          "recta",
+          "derecha",
+          "recto",
+          "reto"
+        ],
+        "correct": 2,
+        "explanation": "A expressão para 'siga em frente' é 'sigue todo recto' (ou 'todo derecho'), sempre no masculino. 'Reto' é interferência do português, 'recta' está no feminino e não entra na expressão, e 'derecha' é o lado direito, o que aqui contradiz a ordem de virar à esquerda. Portanto, a resposta correta é 'recto'."
+      },
+      {
+        "id": "i1f106",
+        "topic": "Expresiones de Opinión",
+        "question": "_____ que el tráfico es el gran problema de esta ciudad.",
+        "options": [
+          "Creo de",
+          "Me parezco",
+          "Creo",
+          "Pienso de"
+        ],
+        "correct": 2,
+        "explanation": "Para dar opinião, o livro ensina 'Creo que...', 'Me parece que...' e 'Pienso que...': o verbo vem seguido direto de 'que', sem preposição. 'Me parezco' é outro verbo ('parecerse', parecer-se com alguém). Portanto, a resposta correta é 'Creo'."
+      },
+      {
+        "id": "i1f107",
+        "topic": "Expresiones de Opinión",
+        "question": "¿Qué _____ parece este vestido para la fiesta?",
+        "options": [
+          "te",
+          "tú",
+          "ti",
+          "tu"
+        ],
+        "correct": 0,
+        "explanation": "'¿Qué te parece...?' pede opinião e funciona como 'gustar': a pessoa aparece com o pronome 'me, te, le...' antes do verbo. 'Tú' é sujeito, 'ti' só se usa depois de preposição e 'tu' é possessivo. Portanto, a resposta correta é 'te'."
+      },
+      {
+        "id": "i1f108",
+        "topic": "Expresiones de Opinión",
+        "question": "Me _____ que Luis necesita una chaqueta nueva para la boda.",
+        "options": [
+          "parezco",
+          "parece",
+          "pareces",
+          "parecen"
+        ],
+        "correct": 1,
+        "explanation": "Em 'Me parece que...', o verbo fica sempre na terceira pessoa do singular, porque o sujeito é a ideia que vem depois de 'que', e não quem opina. 'Me parezco' seria interferência do português 'me pareço'. Portanto, a resposta correta é 'parece'."
+      },
+      {
+        "id": "i1f109",
+        "topic": "Expresiones de Opinión",
+        "question": "Pienso _____ los pantalones anaranjados están de moda.",
+        "options": [
+          "de que",
+          "en que",
+          "a que",
+          "que"
+        ],
+        "correct": 3,
+        "explanation": "Os verbos de opinião 'creer', 'pensar' e 'parecer' ligam a ideia com 'que', sem preposição: 'Pienso que...'. 'Pienso de que' é um erro muito comum, em espanhol e em português. Portanto, a resposta correta é 'que'."
+      },
+      {
+        "id": "i1f110",
+        "topic": "Expresiones de Opinión",
+        "question": "¿Qué _____ de teñirme el pelo de verde? (tú)",
+        "options": [
+          "piensas",
+          "pienso",
+          "piensa",
+          "pensáis"
+        ],
+        "correct": 0,
+        "explanation": "Para perguntar a opinião de alguém, o livro usa '¿Qué piensas...?'. 'Pensar' muda E>IE nas formas do singular e em 'ellos': com 'tú' é 'piensas'. Portanto, a resposta correta é 'piensas'."
+      },
+      {
+        "id": "i1f111",
+        "topic": "Expresiones de Opinión",
+        "question": "¿Cuál es la oración correcta para dar una opinión?",
+        "options": [
+          "Creo el coche está muy viejo.",
+          "Creo que el coche está muy viejo.",
+          "Me parezco que el coche está muy viejo.",
+          "Pienso de que el coche está muy viejo."
+        ],
+        "correct": 1,
+        "explanation": "A opinião se expressa com 'Creo que', 'Me parece que' ou 'Pienso que', sempre com 'que' e sem preposição. Falta o 'que' em 'Creo el coche', sobra o 'de' em 'Pienso de que' e 'Me parezco' é outro verbo. Portanto, a resposta correta é 'Creo que el coche está muy viejo.'."
+      },
+      {
+        "id": "i1f112",
+        "topic": "Pretérito Perfecto Compuesto",
+        "question": "Hoy _____ muy tarde. (levantarse, yo)",
+        "options": [
+          "he me levantado",
+          "me ha levantado",
+          "me he levantado",
+          "he levantado me"
+        ],
+        "correct": 2,
+        "explanation": "Nos verbos reflexivos, o pronome ('me, te, se...') vem antes de 'haber', e entre 'haber' e o particípio nada se interpõe: 'Me he levantado tarde hoy'. Com 'yo', o auxiliar é 'he'. Portanto, a resposta correta é 'me he levantado'."
+      },
+      {
+        "id": "i1f113",
+        "topic": "Pretérito Perfecto Compuesto",
+        "question": "Mis primos _____ la ventana del garaje esta mañana. (romper)",
+        "options": [
+          "han rompido",
+          "han roto",
+          "han rompado",
+          "ha roto"
+        ],
+        "correct": 1,
+        "explanation": "O particípio de 'romper' é irregular: 'roto', e não 'rompido'. Com 'mis primos', o auxiliar é 'han'. Portanto, a resposta correta é 'han roto'."
+      },
+      {
+        "id": "i1f114",
+        "topic": "Pretérito Perfecto Compuesto",
+        "question": "No encuentro mi móvil. No sé dónde lo _____. (poner, yo)",
+        "options": [
+          "he puesto",
+          "he ponido",
+          "ha puesto",
+          "has puesto"
+        ],
+        "correct": 0,
+        "explanation": "O particípio de 'poner' é irregular: 'puesto'. Como quem fala é 'yo', o auxiliar é 'he'. Portanto, a resposta correta é 'he puesto'."
+      },
+      {
+        "id": "i1f115",
+        "topic": "Es que / Porque",
+        "question": "No salí anoche _____ trabajé hasta muy tarde.",
+        "options": [
+          "porque",
+          "por qué",
+          "por eso",
+          "porqué"
+        ],
+        "correct": 0,
+        "explanation": "Para ligar a causa ao que aconteceu dentro da mesma frase, usamos 'porque', escrito junto e sem acento. 'Por qué' separado e com acento serve para perguntar, 'porqué' com acento é o substantivo (o motivo) e 'por eso' indica consequência, não causa. Portanto, a resposta correta é 'porque'."
+      },
+      {
+        "id": "i1f116",
+        "topic": "Es que / Porque",
+        "question": "¿Quedamos el viernes para cenar? Lo siento, no puedo. _____ ese día trabajo hasta tarde.",
+        "options": [
+          "Porqué",
+          "Es que",
+          "Por qué",
+          "Por eso"
+        ],
+        "correct": 1,
+        "explanation": "Quando recusamos um convite e damos a desculpa, a justificativa começa com 'es que'. 'Por qué' serve para perguntar o motivo, 'porqué' com acento é o substantivo e 'por eso' indica consequência. Portanto, a resposta correta é 'Es que'."
+      },
+      {
+        "id": "i1f117",
+        "topic": "Es que / Porque",
+        "question": "¿_____ no fuiste a la reunión de ayer?",
+        "options": [
+          "Porque",
+          "Por que",
+          "Porqué",
+          "Por qué"
+        ],
+        "correct": 3,
+        "explanation": "Para perguntar o motivo, usamos 'por qué', em duas palavras e com acento. 'Porque' junto e sem acento é a resposta, 'porqué' com acento é o substantivo (o motivo) e 'por que' separado e sem acento não serve para perguntar. Portanto, a resposta correta é 'Por qué'."
+      },
+      {
+        "id": "i1f118",
+        "topic": "Es que / Porque",
+        "question": "¿Cuál es la oración correcta?",
+        "options": [
+          "No fui a la fiesta porqué estuve enfermo.",
+          "No fui a la fiesta por qué estuve enfermo.",
+          "No fui a la fiesta porque estuve enfermo.",
+          "No fui a la fiesta es que estuve enfermo."
+        ],
+        "correct": 2,
+        "explanation": "A causa dentro da frase vai com 'porque', junto e sem acento. 'Por qué' é só para perguntar, 'porqué' com acento é o substantivo (o motivo), e 'es que' abre uma desculpa depois de uma pausa, não pode ficar colado no meio da frase. Portanto, a resposta correta é 'No fui a la fiesta porque estuve enfermo'."
+      },
+      {
+        "id": "i1f119",
+        "topic": "Es que / Porque",
+        "question": "Te llamé anoche y no me contestaste. Perdón, _____ dejé el celular en casa.",
+        "options": [
+          "Es que",
+          "Por qué",
+          "Porqué",
+          "Por eso"
+        ],
+        "correct": 0,
+        "explanation": "Depois de um pedido de desculpas, a justificativa começa com 'es que'. 'Por qué' é a pergunta sobre o motivo, 'porqué' com acento é o substantivo e 'por eso' indica consequência, não causa. Portanto, a resposta correta é 'Es que'."
+      },
+      {
+        "id": "i1f120",
+        "topic": "Es que / Porque",
+        "question": "¿Qué expresa 'es que' en la frase 'No puedo ir al teatro, es que no tengo plata'?",
+        "options": [
+          "Una excusa o justificación",
+          "Una pregunta sobre el motivo",
+          "Un plan para el futuro",
+          "Una invitación"
+        ],
+        "correct": 0,
+        "explanation": "'Es que' é a forma mais comum de apresentar uma desculpa ou justificar por que não podemos fazer algo. Para perguntar o motivo, usamos '¿por qué?'. Portanto, a resposta correta é 'Una excusa o justificación'."
+      },
+      {
+        "id": "i1f121",
+        "topic": "Pretérito Perfecto Simple",
+        "question": "Ayer Marta _____ tarde y no desayunó. (levantarse)",
+        "options": [
+          "se ha levantado",
+          "se levantó",
+          "se levanta",
+          "levantó"
+        ],
+        "correct": 1,
+        "explanation": "Com 'ayer', usamos o pretérito perfeito simples, e nos verbos reflexivos o pronome vai antes do verbo conjugado: 'se levantó'. Sem o 'se', a frase perde o sentido de levantar-se, e 'se ha levantado' acompanha marcadores como 'hoy'. Portanto, a resposta correta é 'se levantó'."
+      },
+      {
+        "id": "i1f122",
+        "topic": "Pretérito Perfecto Simple",
+        "question": "Nosotros no _____ al cine el domingo pasado. (ir)",
+        "options": [
+          "hemos ido",
+          "fuimos",
+          "vamos",
+          "fuisteis"
+        ],
+        "correct": 1,
+        "explanation": "'Ir' é irregular no pretérito perfeito simples: fui, fuiste, fue, fuimos, fuisteis, fueron. Com 'el domingo pasado' e o sujeito 'nosotros', a forma é 'fuimos'; 'fuisteis' é de 'vosotros'. Portanto, a resposta correta é 'fuimos'."
+      },
+      {
+        "id": "i1f123",
+        "topic": "Marcadores Temporales (pasado)",
+        "question": "Mis abuelos _____ en el siglo pasado. (nacer)",
+        "options": [
+          "han nacido",
+          "nacen",
+          "nacieron",
+          "nacido"
+        ],
+        "correct": 2,
+        "explanation": "'En el siglo pasado' marca um período já fechado, e por isso pede o pretérito perfeito simples: 'nacieron'. O pretérito perfeito composto ('han nacido') acompanha marcadores como 'hoy', 'este año' ou 'siempre'. Portanto, a resposta correta é 'nacieron'."
+      },
+      {
+        "id": "i1f124",
+        "topic": "Posición de los Pronombres de Complemento Directo",
+        "question": "¿Has traído los cuadernos? Sí, _____.",
+        "options": [
+          "los he traído",
+          "he traído los",
+          "he los traído",
+          "lo he traído"
+        ],
+        "correct": 0,
+        "explanation": "Com um verbo conjugado, o pronome de complemento direto vai antes dele, e 'los cuadernos' pede 'los'. No pretérito perfeito composto o pronome fica antes de 'he': 'los he traído'. Portanto, a resposta correta é 'los he traído'."
+      },
+      {
+        "id": "i1f125",
+        "topic": "Posición de los Pronombres de Complemento Directo",
+        "question": "Los deberes, ¿cuándo vas a _____?",
+        "options": [
+          "hacerlo",
+          "los hacer",
+          "hacerlos",
+          "hacerlas"
+        ],
+        "correct": 2,
+        "explanation": "Com o verbo no infinitivo, o pronome de complemento direto vai depois dele e colado: 'hacerlos'. Como 'los deberes' é masculino plural, o pronome é 'los'. Colocar o pronome solto antes do infinitivo ('los hacer') é interferência do português. Portanto, a resposta correta é 'hacerlos'."
+      },
+      {
+        "id": "i1f126",
+        "topic": "Posición de los Pronombres de Complemento Directo",
+        "question": "La cena, ya _____ preparando.",
+        "options": [
+          "estoy la",
+          "la estoy",
+          "lo estoy",
+          "las estoy"
+        ],
+        "correct": 1,
+        "explanation": "Com 'estar' + gerúndio, o pronome pode ir antes do verbo conjugado ('la estoy preparando') ou colado ao gerúndio ('estoy preparándola'); nunca solto entre os dois. 'La cena' é feminino singular, então o pronome é 'la'. Portanto, a resposta correta é 'la estoy'."
+      },
+      {
+        "id": "i1f127",
+        "topic": "Posición de los Pronombres de Complemento Directo",
+        "question": "El coche está sucio. ¡_____ hoy, por favor!",
+        "options": [
+          "Lo lava",
+          "Lávala",
+          "Lávalos",
+          "Lávalo"
+        ],
+        "correct": 3,
+        "explanation": "Com o imperativo, o pronome de complemento direto vai depois do verbo e unido a ele: 'lávalo'. 'El coche' é masculino singular, então o pronome é 'lo'. Portanto, a resposta correta é 'Lávalo'."
+      },
+      {
+        "id": "i1f128",
+        "topic": "Posición de los Pronombres de Complemento Directo",
+        "question": "¿Cuál es la oración correcta?",
+        "options": [
+          "Voy a la comprar mañana.",
+          "Voy a comprarla mañana.",
+          "La voy a comprarla mañana.",
+          "Voy la a comprar mañana."
+        ],
+        "correct": 1,
+        "explanation": "Com 'ir a' + infinitivo, o pronome vai antes de 'voy' ('la voy a comprar') ou colado ao infinitivo ('voy a comprarla'), mas só em um dos lugares, nunca nos dois nem no meio. Portanto, a resposta correta é 'Voy a comprarla mañana.'."
+      },
+      {
+        "id": "i1f129",
+        "topic": "Posición de los Pronombres de Complemento Directo",
+        "question": "La impresora de la oficina, ¿ya están _____?",
+        "options": [
+          "arreglando la",
+          "la arreglando",
+          "arreglándolo",
+          "arreglándola"
+        ],
+        "correct": 3,
+        "explanation": "Quando o pronome vai depois do gerúndio, ele fica colado ao verbo e o gerúndio ganha acento: 'arreglándola'. 'La impresora' é feminino singular, por isso 'la'; 'arreglándolo' erra o gênero. Portanto, a resposta correta é 'arreglándola'."
+      },
+      {
+        "id": "i1f130",
+        "topic": "Hacer un Pedido",
+        "question": "(a tu amigo) ¿Me _____ un bolígrafo, por favor?",
+        "options": [
+          "presto",
+          "prestar",
+          "prestas",
+          "prestamos"
+        ],
+        "correct": 2,
+        "explanation": "Para pedir algo emprestado a um amigo, o verbo vai na forma de 'tú' do presente: '¿Me prestas un bolígrafo?'. 'Presto' seria 'eu empresto', que inverte quem pede e quem dá. Portanto, a resposta correta é 'prestas'."
+      },
+      {
+        "id": "i1f131",
+        "topic": "Hacer un Pedido",
+        "question": "¿Me _____ prestar tu lápiz?",
+        "options": [
+          "puedes",
+          "puedo",
+          "pueden",
+          "podemos"
+        ],
+        "correct": 0,
+        "explanation": "O pedido '¿Me puedes prestar...?' usa 'poder' na forma de 'tú', combinando com 'tu lápiz'. 'Puedo' seria a pessoa que pede falando de si mesma. Portanto, a resposta correta é 'puedes'."
+      },
+      {
+        "id": "i1f132",
+        "topic": "Hacer un Pedido",
+        "question": "¿Me dejas tu cuaderno? _____ Aquí lo tienes.",
+        "options": [
+          "Lo siento.",
+          "No, no puedo.",
+          "¡Claro que sí!",
+          "No sé, tal vez..."
+        ],
+        "correct": 2,
+        "explanation": "'Aquí lo tienes' entrega o objeto, então a frase anterior tem que aceitar o pedido: '¡Claro que sí! Aquí lo tienes.'. As outras opções negam ou deixam em dúvida. Portanto, a resposta correta é '¡Claro que sí!'."
+      },
+      {
+        "id": "i1f133",
+        "topic": "Hacer un Pedido",
+        "question": "¿Me prestas tu diccionario? Lo siento, no te lo puedo prestar porque _____.",
+        "options": [
+          "aquí lo tienes",
+          "lo estoy usando",
+          "te lo presto ahorita",
+          "cómo no"
+        ],
+        "correct": 1,
+        "explanation": "Para negar um pedido, o livro dá a justificativa 'porque lo estoy usando'. As outras expressões servem para aceitar, e não combinam com 'Lo siento, no te lo puedo prestar'. Portanto, a resposta correta é 'lo estoy usando'."
+      },
+      {
+        "id": "i1f134",
+        "topic": "Hacer un Pedido",
+        "question": "¿Me puedes _____ la casa?",
+        "options": [
+          "muestras",
+          "muestro",
+          "mostrando",
+          "mostrar"
+        ],
+        "correct": 3,
+        "explanation": "Depois de 'puedes' o verbo fica no infinitivo: '¿Me puedes mostrar la casa?'. É o mesmo modelo de '¿Me puedes prestar...?'. Portanto, a resposta correta é 'mostrar'."
+      },
+      {
+        "id": "i1f135",
+        "topic": "Hacer un Pedido",
+        "question": "¿Cuál es la respuesta correcta para ACEPTAR un pedido?",
+        "options": [
+          "Lo siento, lo estoy usando.",
+          "¡Sí, cómo no! Te lo presto ahorita.",
+          "No sé, tal vez... ¿Cuándo lo necesitas?",
+          "No, no puedo."
+        ],
+        "correct": 1,
+        "explanation": "'¡Sí, cómo no!' é uma forma de dizer 'claro que sim', e 'te lo presto ahorita' confirma o empréstimo. As outras opções negam ou adiam a resposta. Portanto, a resposta correta é '¡Sí, cómo no! Te lo presto ahorita.'."
+      },
+      {
+        "id": "i1f136",
+        "topic": "Pretérito Imperfecto de Indicativo",
+        "question": "De pequeños, mis primos y yo _____ dibujos animados todos los sábados. (ver)",
+        "options": [
+          "vimos",
+          "veíamos",
+          "vemos",
+          "veremos"
+        ],
+        "correct": 1,
+        "explanation": "'Ver' é um dos três irregulares do imperfeito: veía, veías, veía, veíamos, veíais, veían. 'Todos los sábados' e 'de pequeños' marcam hábito do passado. Portanto, a resposta correta é 'veíamos'."
+      },
+      {
+        "id": "i1f137",
+        "topic": "Pretérito Imperfecto de Indicativo",
+        "question": "Antes mi hermana _____ a las seis, pero ahora se levanta a las ocho. (levantarse)",
+        "options": [
+          "se levanta",
+          "se levantó",
+          "se levantaba",
+          "levantaba se"
+        ],
+        "correct": 2,
+        "explanation": "Com verbo reflexivo, o pronome vem antes e o verbo vai ao imperfeito: 'se levantaba'. O contraste 'antes... pero ahora' marca um costume do passado que já mudou; 'se levantó' contaria um fato único. Portanto, a resposta correta é 'se levantaba'."
+      },
+      {
+        "id": "i1f138",
+        "topic": "Pretérito Imperfecto de Indicativo",
+        "question": "En aquel entonces, nosotros _____ cenar después de las nueve. (soler)",
+        "options": [
+          "solíamos",
+          "solemos",
+          "solimos",
+          "solamos"
+        ],
+        "correct": 0,
+        "explanation": "Os verbos em '-er' formam o imperfeito com '-ía, -ías, -ía, -íamos...': 'solíamos'. 'Soler' + infinitivo expressa costume, e 'en aquel entonces' situa esse costume no passado, o que exclui o presente 'solemos'. Portanto, a resposta correta é 'solíamos'."
       }
     ]
   }

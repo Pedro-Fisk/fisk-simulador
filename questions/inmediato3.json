@@ -7,15 +7,15 @@
       {
         "id": "i3m01",
         "topic": "La Forma Impersonal \"Uno\"",
-        "question": "Cuando _____ vive en el extranjero, _____ aprende mucho sobre otras culturas.",
+        "question": "Con el tiempo, _____ se acostumbra a vivir en una ciudad grande.",
         "options": [
-          "tú / tú",
-          "uno / uno",
-          "se / se",
-          "usted / usted"
+          "uno",
+          "se",
+          "nosotros",
+          "las personas"
         ],
-        "correct": 1,
-        "explanation": "A forma impessoal 'uno' é usada para fazer afirmações gerais sem especificar o sujeito, equivalente ao 'a gente' impessoal em português. O verbo fica na 3ª pessoa do singular."
+        "correct": 0,
+        "explanation": "A forma impessoal 'uno' serve para generalizar e leva o verbo à 3ª pessoa do singular: 'uno se acostumbra'. Com 'se' a frase dobraria o pronome ('se se acostumbra'), e 'nosotros' e 'las personas' não concordam com 'se acostumbra'. Portanto, a resposta correta é 'uno'."
       },
       {
         "id": "i3m02",
@@ -33,28 +33,28 @@
       {
         "id": "i3m03",
         "topic": "La Forma Impersonal \"Uno\"",
-        "question": "'En España, _____ puede tomar café a cualquier hora del día.' ¿Qué forma completa correctamente esta oración?",
+        "question": "En la playa, _____ se relaja y se olvida de los problemas.",
         "options": [
-          "solo 'se'",
-          "solo 'uno'",
-          "solo 'tú'",
-          "Tanto 'se' como 'uno' son correctas"
+          "se",
+          "ellos",
+          "uno",
+          "nosotros"
         ],
-        "correct": 3,
-        "explanation": "Tanto 'se' quanto 'uno' podem ser usados como formas impessoais em espanhol. A diferença é de registro/estilo: 'uno' é mais formal e literário; 'se' é mais neutro."
+        "correct": 2,
+        "explanation": "Para generalizar, o livro ensina 'uno' + verbo na 3ª pessoa do singular: 'uno se relaja'. Com um verbo reflexivo, 'se' como sujeito dobraria o pronome, e 'ellos' e 'nosotros' não concordam com 'se relaja'. Portanto, a resposta correta é 'uno'."
       },
       {
         "id": "i3m04",
         "topic": "La Forma Impersonal \"Uno\"",
-        "question": "'Si _____ quiere triunfar, _____ debe trabajar duro.' Elige la opción correcta para mantener la coherencia impersonal:",
+        "question": "Si _____ quiere triunfar, _____ debe trabajar duro.",
         "options": [
-          "uno / uno",
           "uno / tú",
           "tú / uno",
-          "se / uno"
+          "nosotros / uno",
+          "uno / uno"
         ],
-        "correct": 0,
-        "explanation": "Quando usamos 'uno' como sujeito impessoal, mantemos 'uno' ao longo da frase para garantir coerência: 'Si uno quiere triunfar, uno debe trabajar duro.'"
+        "correct": 3,
+        "explanation": "Com 'uno' como sujeito impessoal, o verbo fica na 3ª pessoa do singular e a mesma forma se mantém ao longo da frase: 'Si uno quiere triunfar, uno debe trabajar duro'. Misturar com 'tú' ou 'nosotros' quebra a concordância. Portanto, a resposta correta é 'uno / uno'."
       },
       {
         "id": "i3m05",
@@ -98,15 +98,15 @@
       {
         "id": "i3m08",
         "topic": "Indicativo vs Subjuntivo",
-        "question": "'Ojalá _____ (hacer) buen tiempo mañana.' Completa correctamente:",
+        "question": "Ojalá _____ buen tiempo mañana.",
         "options": [
           "hace",
           "hará",
           "haga",
-          "hiciera"
+          "hizo"
         ],
         "correct": 2,
-        "explanation": "'Ojalá' sempre é seguido de Subjuntivo. Para expressar desejo sobre o presente ou futuro, usamos o Presente do Subjuntivo: 'ojalá haga buen tiempo'."
+        "explanation": "'Ojalá' é sempre seguido de Subjuntivo, e para um desejo sobre o presente ou o futuro usamos o Presente do Subjuntivo: 'ojalá haga buen tiempo'. Portanto, a resposta correta é 'haga'."
       },
       {
         "id": "i3m09",
@@ -306,15 +306,15 @@
       {
         "id": "i3m24",
         "topic": "Pero / Sino (que)",
-        "question": "'Me gusta el café _____ prefiero el té por la mañana.' ¿Qué conjunción es correcta?",
+        "question": "'Me gusta el café, _____ prefiero el té por la mañana.' ¿Qué conjunción es correcta?",
         "options": [
           "sino",
           "sino que",
           "pero",
-          "aunque"
+          "sino también"
         ],
         "correct": 2,
-        "explanation": "'Pero' expressa contraste sem negar a primeira parte. A frase não começa com negação: 'Me gusta el café, pero prefiero el té'. Não há substituição, apenas contraste."
+        "explanation": "'Pero' expressa contraste sem que a primeira parte seja negada: 'Me gusta el café, pero prefiero el té'. 'Sino' e 'sino que' só aparecem depois de uma negação, para corrigir uma informação. Portanto, a resposta correta é 'pero'."
       },
       {
         "id": "i3m25",
@@ -340,7 +340,7 @@
           "el buenísimo"
         ],
         "correct": 1,
-        "explanation": "'Mejor' é o superlativo relativo irregular de 'bueno'. Usa-se 'el mejor' (não 'el más bueno', que é redundante e não recomendado): 'el mejor restaurante de la ciudad'."
+        "explanation": "'Bueno' tem superlativo relativo irregular: 'el mejor', como 'malo' tem 'el peor'. 'Más bueno' só se usa para a bondade de uma pessoa, não para a qualidade de um restaurante; 'bien' é advérbio e não qualifica substantivo; e a forma em '-ísimo' não leva artigo para comparar com os demais. Portanto, a resposta correta é 'el mejor'."
       },
       {
         "id": "i3m27",
@@ -358,15 +358,15 @@
       {
         "id": "i3m28",
         "topic": "Superlativo",
-        "question": "¿Cuál de estas formas es un superlativo absoluto?",
+        "question": "'El discurso fue _____, de apenas cinco minutos.' (Usa la forma en -ísimo.) ¿Cuál es la opción correcta?",
         "options": [
-          "el más cansado",
-          "muy cansado",
-          "cansadísimo",
-          "el más cansado de todos"
+          "cortísima",
+          "el más corto",
+          "cortísimo",
+          "muy cortísimo"
         ],
         "correct": 2,
-        "explanation": "O superlativo absoluto expressa o máximo grau sem comparação. Forma-se com o sufixo '-ísimo/a': 'cansadísimo' = extremamente cansado. 'El más cansado' é superlativo relativo."
+        "explanation": "O superlativo absoluto em '-ísimo/a' substitui 'muy' + adjetivo e concorda com o substantivo: 'un discurso muy corto' → 'un discurso cortísimo'. A forma em '-ísimo' nunca se combina com 'muy', e 'el más corto' compara com outros discursos. Portanto, a resposta correta é 'cortísimo'."
       },
       {
         "id": "i3m29",
@@ -470,7 +470,7 @@
           "lean"
         ],
         "correct": 1,
-        "explanation": "O Pretérito Imperfeito do Subjuntivo de 'leer' é irregular: 'leyera, leyeras, leyera...' (com -y-, igual ao pretérito indefinido: 'leyeron → leyera'). 'Leeran' não existe."
+        "explanation": "O Pretérito Imperfeito do Subjuntivo se forma a partir da 3ª pessoa do plural do Pretérito Perfecto Simple: 'leyeron' vira 'leyera, leyeras, leyera...', com o '-y-' da raiz. 'Leeran' não existe, 'leían' é Pretérito Imperfeito do Indicativo e 'lean' é Presente do Subjuntivo, que não combina com 'esperaba'. Portanto, a resposta correta é 'leyeran'."
       },
       {
         "id": "i3m37",
@@ -488,15 +488,15 @@
       {
         "id": "i3m38",
         "topic": "Pretérito Imperfecto de Subjuntivo",
-        "question": "'Ojalá _____ (tener) más tiempo libre cuando era estudiante.' ¿Cuál es la forma correcta?",
+        "question": "'Cuando era estudiante, mis padres querían que yo _____ (tener) más tiempo libre.' ¿Cuál es la forma correcta?",
         "options": [
           "tenga",
-          "hubiera tenido",
+          "tuviera",
           "tendría",
           "tuve"
         ],
         "correct": 1,
-        "explanation": "'Ojalá' sempre pede subjuntivo. Para um desejo que não se realizou no passado, usa-se o Pretérito Mais-que-Perfeito do Subjuntivo: 'ojalá hubiera tenido más tiempo libre'. O imperfeito ('tuviera') serviria para um desejo improvável sobre o presente ou o futuro. Portanto, a resposta correta é 'HUBIERA TENIDO'."
+        "explanation": "'Querían' está no passado, então a oração com 'que' pede o Pretérito Imperfeito do Subjuntivo, formado a partir de 'tuvieron': 'tuviera' ou 'tuviese'. 'Tenga' é Presente do Subjuntivo e não combina com um verbo no passado, 'tendría' é Condicional e 'tuve' é Pretérito Perfecto Simple. Portanto, a resposta correta é 'tuviera'."
       },
       {
         "id": "i3m39",
@@ -660,25 +660,25 @@
         "question": "¿Cuál de estas es una oración condicional real (probable)?",
         "options": [
           "Si tuviera dinero, viajaría.",
-          "Si hubiera tenido dinero, habría viajado.",
+          "Si pudiera, iría contigo.",
           "Si tienes tiempo, llámame.",
           "Si lloviera, me quedaría en casa."
         ],
         "correct": 2,
-        "explanation": "A condicional real (tipo 1) usa 'si + Presente do Indicativo + futuro/imperativo', indicando uma situação possível e provável: 'Si tienes tiempo, llámame'."
+        "explanation": "A condicional real (tipo 1) usa 'si + Presente do Indicativo', com a consequência no futuro ou no imperativo, e indica uma situação possível e provável. As outras frases usam o Imperfeito do Subjuntivo e o Condicional, que expressam hipótese improvável. Portanto, a resposta correta é 'Si tienes tiempo, llámame.'."
       },
       {
         "id": "i3m50",
         "topic": "Oraciones Condicionales",
-        "question": "¿Qué tipo de condicional es: 'Si hubiera estudiado más, habría aprobado'?",
+        "question": "(condición real, posible) 'Si _____ (llover) mañana, nos quedaremos en casa.' ¿Cuál es la forma correcta?",
         "options": [
-          "Condicional real (tipo 1)",
-          "Condicional hipotética de presente (tipo 2)",
-          "Condicional imposible de pasado (tipo 3)",
-          "No es una oración condicional."
+          "llueve",
+          "lloviera",
+          "llovería",
+          "llueva"
         ],
-        "correct": 2,
-        "explanation": "Esta é a condicional impossível (tipo 3), sobre o passado: 'si hubiera + participio + habría + participio'. Expressa algo que não aconteceu e que agora é impossível mudar."
+        "correct": 0,
+        "explanation": "Quando a condição é real e possível, depois de 'si' usamos o Presente do Indicativo, e a consequência vai no futuro: 'Si llueve mañana, nos quedaremos en casa'. O Imperfeito do Subjuntivo ('lloviera') serviria para uma hipótese improvável, e o Condicional e o Presente do Subjuntivo nunca aparecem depois de 'si'. Portanto, a resposta correta é 'llueve'."
       },
       {
         "id": "i3m51",
@@ -800,15 +800,15 @@
       {
         "id": "i3m60",
         "topic": "Demostrativos Neutros",
-        "question": "'_____ que me dices es increíble.' ¿Cuál es el demostrativo neutro correcto?",
+        "question": "'¿Qué es _____ que tienes ahí en el bolsillo?' ¿Cuál es el demostrativo neutro correcto?",
         "options": [
-          "Este",
-          "Ese",
-          "Eso",
-          "Esto"
+          "este",
+          "ese",
+          "eso",
+          "esto"
         ],
         "correct": 2,
-        "explanation": "'Eso' é o demostrativo neutro que se refere a algo próximo do interlocutor (o que a outra pessoa disse ou mencionou): 'eso que me dices' = isso que você me diz."
+        "explanation": "'Eso' é o demonstrativo neutro para algo que está perto do interlocutor, marcado por 'ahí'; 'esto' seria para algo 'aquí', perto de quem fala. Como não sabemos o que é o objeto, usa-se o neutro, e não 'este' ou 'ese', que acompanham substantivo. Portanto, a resposta correta é 'eso'."
       },
       {
         "id": "i3m61",
@@ -826,20 +826,20 @@
       {
         "id": "i3m62",
         "topic": "Demostrativos Neutros",
-        "question": "'_____ de la reunión de hace años fue muy complicado.' ¿Cuál es el demostrativo neutro correcto para referirse a algo lejano en el tiempo?",
+        "question": "'¿Sabes qué es _____ que brilla allá, al fondo del museo?' ¿Cuál es el demostrativo neutro correcto?",
         "options": [
-          "Esto",
-          "Eso",
-          "Aquello",
-          "Ese"
+          "esto",
+          "eso",
+          "aquello",
+          "ese"
         ],
         "correct": 2,
-        "explanation": "'Aquello' é o demostrativo neutro para algo distante no espaço ou no tempo: 'aquello de la reunión de hace años' = aquilo da reunião de anos atrás. É sempre neutro, sem variação de gênero/número."
+        "explanation": "'Aquello' é o demonstrativo neutro para algo distante de quem fala e de quem ouve, marcado por 'allá'; 'esto' vai com 'aquí' e 'eso' com 'ahí'. Como não sabemos o que é o objeto, usa-se o neutro, e não 'ese', que acompanha substantivo. Portanto, a resposta correta é 'aquello'."
       },
       {
         "id": "i3m63",
         "topic": "La Forma Impersonal \"Uno\"",
-        "question": "'_____ no sabe nunca lo que puede pasar en la vida.' ¿Qué forma impersonal es la más apropiada en un contexto formal o literario?",
+        "question": "_____ no sabe nunca lo que puede pasar en la vida.",
         "options": [
           "Se",
           "Uno",
@@ -847,7 +847,7 @@
           "Nosotros"
         ],
         "correct": 1,
-        "explanation": "Em contextos formais ou literários, 'uno' é preferido ao 'se' impessoal ou ao 'tú' coloquial: 'Uno no sabe nunca...' = nunca se sabe... A forma 'uno' transmite uma afirmação geral com tom mais elevado e reflexivo."
+        "explanation": "Para generalizar, usamos 'uno' com o verbo na 3ª pessoa do singular: 'uno no sabe nunca'. Com 'se' a frase teria de ser 'no se sabe nunca', e 'tú' e 'nosotros' não concordam com 'sabe'. Portanto, a resposta correta é 'Uno'."
       },
       {
         "id": "i3m64",
@@ -904,15 +904,15 @@
       {
         "id": "i3m68",
         "topic": "Superlativo",
-        "question": "'¡Esta película es _____! Nunca había visto algo tan aburrido.' (Expresa el grado máximo de forma absoluta, sin comparar con otras películas.) ¿Cuál es la forma correcta?",
+        "question": "'¡Esta película es _____! Nunca había visto algo tan aburrido.' (Usa la forma en -ísimo.) ¿Cuál es la forma correcta?",
         "options": [
           "la más aburrida de todas",
-          "muy aburrida",
+          "aburridísimo",
           "aburridísima",
           "la peor"
         ],
         "correct": 2,
-        "explanation": "O superlativo absoluto '-ísimo/a' expressa o grau máximo sem comparação com outros elementos: 'aburridísima' = muitíssimo chata. As formas com 'la más' e 'la peor' são superlativos relativos, que comparam a película com outras."
+        "explanation": "O superlativo em '-ísimo/a' expressa o grau máximo sem comparar com outros elementos e concorda com o substantivo: 'película' pede 'aburridísima'. As formas com 'la más' e 'la peor' comparam a película com outras. Portanto, a resposta correta é 'aburridísima'."
       },
       {
         "id": "i3m69",
@@ -969,7 +969,7 @@
       {
         "id": "i3m71",
         "topic": "Cuando + Subjuntivo",
-        "question": "'Dime cuando _____ (terminar) para que podamos comer juntos.' ¿Cuál es la forma correcta?",
+        "question": "'Cuando _____ (terminar) el informe, saldremos a comer juntos.' ¿Cuál es la forma correcta?",
         "options": [
           "terminas",
           "termines",
@@ -977,7 +977,7 @@
           "terminabas"
         ],
         "correct": 1,
-        "explanation": "Mesmo em frases como 'dime cuando...', se a referência é futura, 'cuando' exige o Presente do Subjuntivo: 'cuando termines' = quando você terminar. O valor futuro da ação determina o modo, independentemente da estrutura da frase principal."
+        "explanation": "Quando 'cuando' se refere a uma ação futura, o verbo vai no Presente do Subjuntivo: 'cuando termines el informe' = quando você terminar o relatório. O Presente e o Futuro do Indicativo não se usam com 'cuando' de valor futuro, e 'terminabas' é passado, que não combina com 'saldremos'. Portanto, a resposta correta é 'termines'."
       },
       {
         "id": "i3m72",
@@ -1012,11 +1012,11 @@
         "options": [
           "estudias / mejorarás",
           "estudiaras / mejorarías",
-          "hubieras estudiado / habrías mejorado",
+          "estudies / mejorarás",
           "estudias / mejorarías"
         ],
         "correct": 0,
-        "explanation": "A condicional real ou provável (tipo 1) usa 'si + Presente do Indicativo + Futuro Simples': 'si estudias, mejorarás'. Expressa uma condição concreta e possível com o resultado esperado no futuro."
+        "explanation": "A condicional real ou provável (tipo 1) usa 'si + Presente do Indicativo + Futuro Simples': 'si estudias, mejorarás'. Depois de 'si' não se usa o Presente do Subjuntivo ('estudies'), e o par 'estudiaras / mejorarías' expressa uma hipótese improvável, não uma condição real. Portanto, a resposta correta é 'estudias / mejorarás'."
       },
       {
         "id": "i3m75",
@@ -1038,11 +1038,388 @@
         "options": [
           "Si tienes hambre, come algo.",
           "Si tuviera más paciencia, sería mejor profesor.",
-          "Si hubiera llegado antes, habría visto el espectáculo.",
+          "Si llegas antes, verás el espectáculo.",
           "Si estudias, aprobarás el examen."
         ],
         "correct": 1,
-        "explanation": "A condicional hipotética (tipo 2) usa 'si + Pretérito Imperfeito do Subjuntivo + Condicional Simples': 'si tuviera más paciencia, sería mejor profesor'. A situação é improvável ou contrária à realidade presente do falante."
+        "explanation": "A condicional hipotética (tipo 2) usa 'si + Pretérito Imperfeito do Subjuntivo + Condicional Simples': 'si tuviera más paciencia, sería mejor profesor'. A situação é improvável ou contrária à realidade presente de quem fala, enquanto as frases com 'si + Presente' expressam condições reais. Portanto, a resposta correta é 'Si tuviera más paciencia, sería mejor profesor.'."
+      },
+      {
+        "id": "i3m81",
+        "topic": "Indicativo vs Subjuntivo",
+        "question": "Mi primo nunca tiene dinero. A lo mejor _____ todo el sueldo en ropa.",
+        "options": [
+          "gasta",
+          "gaste",
+          "gastar",
+          "gastando"
+        ],
+        "correct": 0,
+        "explanation": "A expressão 'a lo mejor' indica probabilidade, mas, ao contrário de 'quizá' ou 'tal vez', o livro ensina que ela é sempre seguida de Indicativo: 'a lo mejor gasta'. Portanto, a resposta correta é 'gasta'."
+      },
+      {
+        "id": "i3m82",
+        "topic": "Indicativo vs Subjuntivo",
+        "question": "Mi hermano siempre se siente cansado. Le recomiendo que _____ al doctor.",
+        "options": [
+          "va",
+          "irá",
+          "ve",
+          "vaya"
+        ],
+        "correct": 3,
+        "explanation": "Depois de 'le recomiendo que' e 'le aconsejo que' usamos o Presente do Subjuntivo, e o verbo 'ir' é irregular nesse modo: 'vaya, vayas, vaya...'. Portanto, a resposta correta é 'vaya'."
+      },
+      {
+        "id": "i3m83",
+        "topic": "Perífrasis Verbales",
+        "question": "Mi tío dejó el cigarrillo hace tres años, pero el mes pasado _____ fumar.",
+        "options": [
+          "dejó de",
+          "siguió",
+          "volvió a",
+          "está a punto de"
+        ],
+        "correct": 2,
+        "explanation": "'Volver a + infinitivo' expressa a retomada de uma ação que tinha sido interrompida: 'volvió a fumar' = voltou a fumar. 'Dejar de' marca a interrupção, 'seguir' pede gerúndio e 'estar a punto de' indica que a ação ainda vai acontecer. Portanto, a resposta correta é 'volvió a'."
+      },
+      {
+        "id": "i3m84",
+        "topic": "Localizadores (adelante / atrás...)",
+        "question": "Sigue por esta calle: más _____ hay una farmacia.",
+        "options": [
+          "adelante",
+          "delante",
+          "dentro",
+          "encima"
+        ],
+        "correct": 0,
+        "explanation": "Quando a ideia é de avanço no caminho, o espanhol usa as formas em 'a-': 'adelante', 'atrás', 'adentro', 'afuera'. 'Delante' serve para localização fixa ('delante de la casa') e não forma 'más delante'. Portanto, a resposta correta é 'adelante'."
+      },
+      {
+        "id": "i3m85",
+        "topic": "Localizadores (adelante / atrás...)",
+        "question": "Siempre me pongo nerviosa _____ de mi jefe. (localización)",
+        "options": [
+          "adelante",
+          "arriba",
+          "delante",
+          "afuera"
+        ],
+        "correct": 2,
+        "explanation": "Para indicar onde alguém está, sem movimento, o livro usa 'delante de', 'detrás de', 'debajo de', 'dentro de'. Na caixa do livro, 'adelante', 'arriba' e 'afuera' são formas de movimento e não entram nessa construção com 'de'. Portanto, a resposta correta é 'delante'."
+      },
+      {
+        "id": "i3m86",
+        "topic": "Localizadores (adelante / atrás...)",
+        "question": "No quiero al perro en la sala. Llévalo para _____. (movimiento)",
+        "options": [
+          "fuera",
+          "enfrente",
+          "afuera",
+          "delante"
+        ],
+        "correct": 2,
+        "explanation": "Com verbos de movimento e com 'para', o livro usa as formas 'afuera', 'adentro', 'arriba', 'abajo': 'mandé al perro para afuera'. 'Fuera' marca localização ('está sucio por fuera'). Portanto, a resposta correta é 'afuera'."
+      },
+      {
+        "id": "i3m87",
+        "topic": "Localizadores (adelante / atrás...)",
+        "question": "El gato se escondió _____ de la cama y no quiere salir. (localización)",
+        "options": [
+          "abajo",
+          "debajo",
+          "adentro",
+          "afuera"
+        ],
+        "correct": 1,
+        "explanation": "'Debajo de' indica a posição fixa de algo que está embaixo de outra coisa: 'se escondió debajo del refrigerador'. Na caixa do livro, 'abajo', 'adentro' e 'afuera' indicam direção ou movimento e não se usam com 'de' para localizar. Portanto, a resposta correta é 'debajo'."
+      },
+      {
+        "id": "i3m88",
+        "topic": "Localizadores (adelante / atrás...)",
+        "question": "_____ de mi casa hay un parque muy bonito.",
+        "options": [
+          "Enfrente",
+          "Frente",
+          "Adelante",
+          "Adentro"
+        ],
+        "correct": 0,
+        "explanation": "As duas formas do livro são 'enfrente de' e 'frente a': a preposição muda com a palavra. Com 'de', só cabe 'enfrente'; 'frente' pediria 'a'. 'Adelante' e 'adentro' indicam movimento. Portanto, a resposta correta é 'Enfrente'."
+      },
+      {
+        "id": "i3m89",
+        "topic": "Pretérito Perfecto de Subjuntivo",
+        "question": "Marta no contestó. No creo que _____ el mensaje todavía. (leer)",
+        "options": [
+          "ha leído",
+          "haya leído",
+          "hayas leído",
+          "haya leido"
+        ],
+        "correct": 1,
+        "explanation": "Depois de 'no creo que' vai subjuntivo, e para uma ação já acabada usa-se o Pretérito Perfecto de Subjuntivo: 'haya' + particípio. 'Ha leído' é indicativo, 'hayas' é a forma de 'tú', não de Marta, e o particípio 'leído' leva acento no 'i'. Portanto, a resposta correta é 'haya leído'."
+      },
+      {
+        "id": "i3m90",
+        "topic": "Pretérito Perfecto de Subjuntivo",
+        "question": "Cuando _____ la casa, os invitaremos a una fiesta. (pintar / nosotros)",
+        "options": [
+          "hayamos pintado",
+          "hemos pintado",
+          "hayan pintado",
+          "habemos pintado"
+        ],
+        "correct": 0,
+        "explanation": "Como no exercício do livro ('cuando hayamos terminado todo, podremos salir'), a ação que estará concluída antes de outra no futuro vai no Pretérito Perfecto de Subjuntivo: 'haber' em Presente de Subjuntivo + particípio. 'Hemos pintado' é indicativo, 'hayan' é a forma de 'ellos' e 'habemos' não existe na conjugação de 'haber'. Portanto, a resposta correta é 'hayamos pintado'."
+      },
+      {
+        "id": "i3m91",
+        "topic": "Pretérito Perfecto de Subjuntivo",
+        "question": "Es una pena que Luis no _____ venir a mi cumpleaños. (poder)",
+        "options": [
+          "ha podido",
+          "hayas podido",
+          "haya puesto",
+          "haya podido"
+        ],
+        "correct": 3,
+        "explanation": "Expressões de sentimento como 'es una pena que' ou 'me parece raro que' pedem subjuntivo, e o fato já passado vai no Pretérito Perfecto de Subjuntivo: 'haya podido'. 'Ha podido' é indicativo, 'hayas' é a forma de 'tú' e 'puesto' é o particípio de 'poner', não de 'poder'. Portanto, a resposta correta é 'haya podido'."
+      },
+      {
+        "id": "i3m92",
+        "topic": "Pretérito Perfecto de Subjuntivo",
+        "question": "Mis padres están felices de que yo _____ el examen de conducir. (aprobar)",
+        "options": [
+          "he aprobado",
+          "hayan aprobado",
+          "haya aprobado",
+          "hayas aprobado"
+        ],
+        "correct": 2,
+        "explanation": "'Están felices de que' expressa sentimento e pede subjuntivo; como o exame já aconteceu, usa-se o Pretérito Perfecto de Subjuntivo na forma de 'yo': 'haya aprobado'. 'He aprobado' é indicativo, 'hayan' é 'ellos' e 'hayas' é 'tú'. Portanto, a resposta correta é 'haya aprobado'."
+      },
+      {
+        "id": "i3m93",
+        "topic": "Pretérito Perfecto de Subjuntivo",
+        "question": "No firmes un contrato que no _____ bien. (entender / tú)",
+        "options": [
+          "has entendido",
+          "hayas entendido",
+          "haya entendido",
+          "habías entendido"
+        ],
+        "correct": 1,
+        "explanation": "Quando a oração de relativo fala de algo ainda não identificado ('un contrato que no...'), o verbo vai no subjuntivo, aqui no Pretérito Perfecto: 'hayas entendido'. 'Has entendido' e 'habías entendido' são indicativo, e 'haya' é a forma de 'él', não de 'tú'. Portanto, a resposta correta é 'hayas entendido'."
+      },
+      {
+        "id": "i3m94",
+        "topic": "Pretérito Perfecto de Subjuntivo",
+        "question": "¿Cuál es la oración correcta?",
+        "options": [
+          "Espero que hayas hacido la tarea.",
+          "Espero que has hecho la tarea.",
+          "Espero que hayas hecha la tarea.",
+          "Espero que hayas hecho la tarea."
+        ],
+        "correct": 3,
+        "explanation": "'Espero que' pede subjuntivo, e o Pretérito Perfecto de Subjuntivo se forma com 'haya, hayas, haya...' + particípio, que é invariável. O particípio de 'hacer' é irregular: 'hecho'. Portanto, a resposta correta é 'Espero que hayas hecho la tarea.'."
+      },
+      {
+        "id": "i3m95",
+        "topic": "Superlativo",
+        "question": "¡Esta paella está _____! ¿Quién la hizo?",
+        "options": [
+          "ricísima",
+          "riquísima",
+          "riquísimo",
+          "muy riquísima"
+        ],
+        "correct": 1,
+        "explanation": "Ao acrescentar '-ísimo/a' a 'rico', o 'c' vira 'qu' para manter o som: 'riquísimo/a'. O superlativo concorda com 'paella', feminino, e não se combina com 'muy'. Portanto, a resposta correta é 'riquísima'."
+      },
+      {
+        "id": "i3m96",
+        "topic": "Superlativo",
+        "question": "Fue un viaje _____, de casi veinte horas.",
+        "options": [
+          "largísimo",
+          "larguísima",
+          "larguísimo",
+          "más larguísimo"
+        ],
+        "correct": 2,
+        "explanation": "Em 'largo', o 'g' vira 'gu' antes do '-ísimo' para conservar o som: 'larguísimo'. Concorda com 'viaje', masculino, e o superlativo em '-ísimo' não leva 'más'. Portanto, a resposta correta é 'larguísimo'."
+      },
+      {
+        "id": "i3m97",
+        "topic": "Superlativo",
+        "question": "Tu abuela es una persona _____.",
+        "options": [
+          "amabilísima",
+          "amablísima",
+          "amabilísimo",
+          "amableísima"
+        ],
+        "correct": 0,
+        "explanation": "Os adjetivos terminados em '-ble' formam o superlativo com '-bilísimo/a': 'agradable' → 'agradabilísima', 'amable' → 'amabilísima'. Concorda com 'persona', feminino. Portanto, a resposta correta é 'amabilísima'."
+      },
+      {
+        "id": "i3m98",
+        "topic": "Pretérito Imperfecto de Subjuntivo",
+        "question": "'Mi jefe esperaba que tú le _____ (traer) el informe antes de la reunión.' ¿Cuál es la forma correcta?",
+        "options": [
+          "trajeras",
+          "traieras",
+          "traerías",
+          "traigas"
+        ],
+        "correct": 0,
+        "explanation": "O Pretérito Imperfeito do Subjuntivo sai da 3ª pessoa do plural do Pretérito Perfecto Simple: 'trajeron' vira 'trajera, trajeras...'. 'Traieras' inventa uma raiz regular que não existe, 'traerías' é Condicional e 'traigas' é Presente do Subjuntivo, que não combina com 'esperaba', no passado. Portanto, a resposta correta é 'trajeras'."
+      },
+      {
+        "id": "i3m99",
+        "topic": "Pretérito Imperfecto de Subjuntivo",
+        "question": "'El médico me prohibió que _____ (usar) el móvil antes de dormir.' ¿Cuál es la forma correcta?",
+        "options": [
+          "use",
+          "usase",
+          "usaría",
+          "usé"
+        ],
+        "correct": 1,
+        "explanation": "'Prohibió' está no passado, então a oração com 'que' pede o Pretérito Imperfeito do Subjuntivo, que tem duas terminações válidas: 'usara' ou 'usase'. 'Use' é Presente do Subjuntivo, 'usaría' é Condicional e 'usé' é Pretérito Perfecto Simple. Portanto, a resposta correta é 'usase'."
+      },
+      {
+        "id": "i3m100",
+        "topic": "Pretérito Imperfecto de Subjuntivo",
+        "question": "'Ayer quería que vosotros me _____ (decir) la verdad.' ¿Cuál es la forma correcta?",
+        "options": [
+          "digáis",
+          "diríais",
+          "dijerais",
+          "decierais"
+        ],
+        "correct": 2,
+        "explanation": "Com 'quería' no passado, usamos o Pretérito Imperfeito do Subjuntivo, formado a partir de 'dijeron': 'dijera, dijeras, dijera, dijéramos, dijerais, dijeran'. 'Digáis' é Presente do Subjuntivo, 'diríais' é Condicional e 'decierais' usa uma raiz regular que 'decir' não tem. Portanto, a resposta correta é 'dijerais'."
+      },
+      {
+        "id": "i3m101",
+        "topic": "Preposiciones (de... a / desde... hasta)",
+        "question": "Trabajo _____ nueve _____ cinco, de lunes a viernes.",
+        "options": [
+          "desde / hasta",
+          "de / hasta",
+          "de / a",
+          "desde / a"
+        ],
+        "correct": 2,
+        "explanation": "Para indicar o início e o fim de um horário sem artigo, o par é 'de... a': 'de nueve a cinco', como em 'de lunes a viernes'. O par 'desde... hasta' pede o artigo ('desde las nueve hasta las cinco'), e 'de... hasta' ou 'desde... a' não formam o par que o livro ensina. Portanto, a resposta correta é 'de / a'."
+      },
+      {
+        "id": "i3m102",
+        "topic": "Preposiciones (de... a / desde... hasta)",
+        "question": "La gasolinera está abierta _____ las seis de la mañana _____ las once de la noche.",
+        "options": [
+          "desde / hasta",
+          "desde / para",
+          "por / hasta",
+          "en / a"
+        ],
+        "correct": 0,
+        "explanation": "Quando o ponto de partida e o ponto de chegada vêm com artigo ('las seis', 'las once'), usamos o par 'desde... hasta', que marca com ênfase o começo e o fim. 'Para' indica destino ou finalidade, não o limite final. Portanto, a resposta correta é 'desde / hasta'."
+      },
+      {
+        "id": "i3m103",
+        "topic": "Preposiciones (de... a / desde... hasta)",
+        "question": "Hay un autobús directo _____ aeropuerto _____ centro de la ciudad.",
+        "options": [
+          "de el / a el",
+          "desde el / a el",
+          "desde el / hasta al",
+          "del / al"
+        ],
+        "correct": 3,
+        "explanation": "O percurso vai 'de... a', e as preposições 'de' e 'a' se contraem com o artigo 'el': 'del aeropuerto al centro'. Em espanhol as formas 'de el' e 'a el' separadas não existem, e 'hasta' nunca se junta a 'al'. Portanto, a resposta correta é 'del / al'."
+      },
+      {
+        "id": "i3m104",
+        "topic": "Preposiciones (de... a / desde... hasta)",
+        "question": "Hicimos la ruta 40 en coche _____ Mendoza _____ Bariloche, parando en varios pueblos.",
+        "options": [
+          "de / en",
+          "desde / hasta",
+          "por / a",
+          "desde / en"
+        ],
+        "correct": 1,
+        "explanation": "Para destacar o ponto de partida e o ponto final de um trajeto longo, o espanhol usa o par 'desde... hasta': 'desde Mendoza hasta Bariloche'. 'En' indica o lugar onde se está, não o fim do percurso, e 'por' marca passagem, não origem. Portanto, a resposta correta é 'desde / hasta'."
+      },
+      {
+        "id": "i3m105",
+        "topic": "Preposiciones (de... a / desde... hasta)",
+        "question": "Las clases de español son _____ lunes _____ jueves.",
+        "options": [
+          "de / a",
+          "desde / hasta",
+          "de / para",
+          "en / hasta"
+        ],
+        "correct": 0,
+        "explanation": "Com dias da semana sem artigo, o par usado é 'de... a': 'de lunes a jueves'. O par 'desde... hasta' exigiria o artigo ('desde el lunes hasta el jueves'), e 'para' não marca o fim de um período. Portanto, a resposta correta é 'de / a'."
+      },
+      {
+        "id": "i3m106",
+        "topic": "Preposiciones (de... a / desde... hasta)",
+        "question": "¿Cuál es la oración correcta?",
+        "options": [
+          "Fuimos en coche desde Lima en Cusco.",
+          "Fuimos en coche de Lima en Cusco.",
+          "Fuimos en coche desde Lima hasta Cusco.",
+          "Fuimos en coche en Lima a Cusco."
+        ],
+        "correct": 2,
+        "explanation": "O ponto de partida se indica com 'de' ou 'desde', e o ponto de chegada com 'a' ou 'hasta', formando os pares 'de... a' e 'desde... hasta'. 'En' indica o lugar onde algo está, por isso não serve nem para a origem nem para o destino do percurso. Portanto, a resposta correta é 'Fuimos en coche desde Lima hasta Cusco.'."
+      },
+      {
+        "id": "i3m107",
+        "topic": "Futuro Compuesto",
+        "question": "Pedro tiene ojeras. ¿_____ (hacer) la tarea hasta muy tarde? (conjetura sobre el pasado)",
+        "options": [
+          "Habrá hacido",
+          "Habrá hecho",
+          "Hará",
+          "Ha hecho"
+        ],
+        "correct": 1,
+        "explanation": "Para supor o que talvez já tenha acontecido, usa-se o Futuro Composto: 'habrá' + particípio. O particípio de 'hacer' é irregular: 'hecho', nunca 'hacido'. 'Ha hecho' pergunta por um fato, sem marca de hipótese, e 'hará' fala do futuro. Portanto, a resposta correta é 'Habrá hecho'."
+      },
+      {
+        "id": "i3m108",
+        "topic": "Futuro Compuesto",
+        "question": "Ya no veo a los vecinos de enfrente. ¿_____ (mudarse)? (conjetura sobre el pasado)",
+        "options": [
+          "Habrán se mudado",
+          "Se mudarán",
+          "Se habrán mudado",
+          "Se habrán mudados"
+        ],
+        "correct": 2,
+        "explanation": "Com verbos reflexivos no Futuro Composto, o pronome vai antes de 'haber' e o particípio fica invariável: 'se habrán mudado'. O pronome nunca fica entre 'haber' e o particípio, e 'se mudarán' fala do futuro, não supõe algo já ocorrido. Portanto, a resposta correta é 'Se habrán mudado'."
+      },
+      {
+        "id": "i3m109",
+        "topic": "Cuando + Subjuntivo",
+        "question": "Iremos a la playa cuando _____ (hacer) buen tiempo.",
+        "options": [
+          "hace",
+          "hará",
+          "hacía",
+          "haga"
+        ],
+        "correct": 3,
+        "explanation": "Quando 'cuando' se refere a uma ação futura, o verbo vai no Presente do Subjuntivo, e 'hacer' tem a forma irregular 'haga'. O Indicativo não serve aqui: 'hace' e 'hará' não se usam com 'cuando' de valor futuro, e 'hacía' é passado, que não combina com 'iremos'. Portanto, a resposta correta é 'haga'."
       }
     ]
   },
@@ -1068,11 +1445,11 @@
         "options": [
           "ganaría",
           "habría ganado",
-          "hubiera ganado",
+          "habré ganado",
           "ganara"
         ],
         "correct": 1,
-        "explanation": "O Condicional Composto 'habría + participio' expressa o que teria acontecido no passado se uma condição tivesse sido cumprida: 'habría ganado' = teria ganhado."
+        "explanation": "O Condicional Composto 'habría + participio' expressa o que teria acontecido no passado se uma condição tivesse sido cumprida. 'Ganaría' fala de uma hipótese presente ou futura, e 'habré ganado' é futuro. Portanto, a resposta correta é 'habría ganado'."
       },
       {
         "id": "i3f03",
@@ -1170,13 +1547,13 @@
         "topic": "Pretérito Pluscuamperfecto de Subjuntivo",
         "question": "'Me alegró mucho que _____ (ganar, vosotros) el partido.' (La victoria ocurrió antes de que me alegrara.) ¿Cuál es la forma correcta?",
         "options": [
-          "ganaráis",
+          "ganasteis",
           "hayáis ganado",
           "hubierais ganado",
           "ganaríais"
         ],
         "correct": 2,
-        "explanation": "Quando a ação subordinada aconteceu antes da principal (ambas no passado), usa-se o Pretérito Mais-que-Perfeito do Subjuntivo: 'que hubierais ganado' (2ª pessoa do plural)."
+        "explanation": "Depois de 'me alegró que' o verbo vai no subjuntivo, e como a vitória aconteceu antes da alegria, com as duas ações no passado, usa-se o Pretérito Mais-que-Perfeito do Subjuntivo. 'Ganasteis' é indicativo e 'hayáis ganado' combina com um verbo principal no presente. Portanto, a resposta correta é 'hubierais ganado'."
       },
       {
         "id": "i3f11",
@@ -1272,15 +1649,15 @@
       {
         "id": "i3f18",
         "topic": "Verbos de Cambio",
-        "question": "'Tras años de esfuerzo y tras ganar el premio, _____ una de las escritoras más respetadas del país.' ¿Cuál es el verbo de cambio más adecuado?",
+        "question": "'Tras la reforma, la antigua fábrica _____ en un centro cultural.' ¿Cuál es el verbo de cambio correcto?",
         "options": [
           "se puso",
           "se volvió",
-          "se quedó",
+          "se convirtió",
           "se hizo"
         ],
-        "correct": 3,
-        "explanation": "'Hacerse' indica uma mudança conquistada com esforço e tempo, sobretudo de status profissional ou social: 'se hizo una de las escritoras más respetadas'. 'Volverse' marca mudança involuntária ou de caráter, 'ponerse' um estado passageiro ('se puso nerviosa') e 'quedarse' o resultado de uma perda ('se quedó sola'). Portanto, a resposta correta é 'se hizo'."
+        "correct": 2,
+        "explanation": "'Convertirse en' expressa uma mudança radical de função ou de natureza: 'la fábrica se convirtió en un centro cultural', como no livro 'su casa se convirtió en un museo'. É o único verbo de mudança que se constrói com 'en'; 'ponerse', 'volverse' e 'hacerse' não admitem essa preposição. Portanto, a resposta correta é 'se convirtió'."
       },
       {
         "id": "i3f19",
@@ -1298,15 +1675,15 @@
       {
         "id": "i3f20",
         "topic": "Para que / A fin de que + Subjuntivo",
-        "question": "'Hablamos despacio _____ todos pudieran comprender.' ¿Cuál es la conjunción correcta?",
+        "question": "'Hablamos despacio _____ todos pudieran comprender.' ¿Cuál es la opción correcta?",
         "options": [
-          "para que",
-          "a fin de que",
+          "para",
           "porque",
-          "Tanto 'para que' como 'a fin de que' son correctas"
+          "para que",
+          "a fin de"
         ],
-        "correct": 3,
-        "explanation": "'Para que' e 'a fin de que' têm o mesmo significado (finalidade) e ambas exigem Subjuntivo. São intercambiáveis. 'A fin de que' é ligeiramente mais formal."
+        "correct": 2,
+        "explanation": "Quando o sujeito das duas orações é diferente (nosotros hablamos, todos comprenden), a finalidade se expressa com 'para que' ou 'a fin de que' + Subjuntivo. 'Para' e 'a fin de' sem 'que' pedem infinitivo e só servem quando o sujeito é o mesmo; 'porque' indica causa. Portanto, a resposta correta é 'para que'."
       },
       {
         "id": "i3f21",
@@ -1566,7 +1943,7 @@
           "Di / ¡Díla!"
         ],
         "correct": 0,
-        "explanation": "O imperativo de 'decir' (tú) é 'di'. Com o pronome de OD (la = la verdad), o pronome se une ao imperativo afirmativo: '¡Dila!' O acento original do imperativo pode desaparecer com pronomes monossilábicos."
+        "explanation": "O imperativo afirmativo de 'decir' para 'tú' é 'di', forma irregular e sem acento. No imperativo afirmativo o pronome de objeto direto se une ao verbo: 'di' + 'la' = 'dila', que continua sendo paroxítona terminada em vogal e por isso não leva acento. 'Dice' e 'dices' são formas do Presente do Indicativo, não do imperativo, e 'díla' inventa um acento que a palavra não tem. Portanto, a resposta correta é 'Di / ¡Dila!'."
       },
       {
         "id": "i3f39",
@@ -1631,7 +2008,7 @@
           "Juan dijo que venga mañana."
         ],
         "correct": 1,
-        "explanation": "Com 'dijo' (passado), o Futuro Simples vira Condicional Simples: 'vendré → vendría'. E a expressão de tempo anda junto, para a frente: 'mañana → al día siguiente'. 'El día anterior' aponta para trás e desmente o original; 'vino' é passado e 'venga' é subjuntivo. Portanto, a resposta correta é 'JUAN DIJO QUE VENDRÍA AL DÍA SIGUIENTE'."
+        "explanation": "Com 'dijo' (passado), o Futuro Simples vira Condicional Simples: 'vendré' passa a 'vendría'. E a expressão de tempo anda junto, para a frente: 'mañana' vira 'al día siguiente'. 'El día anterior' aponta para trás e desmente o original; 'vino' é passado e 'venga' é subjuntivo. Portanto, a resposta correta é 'Juan dijo que vendría al día siguiente'."
       },
       {
         "id": "i3f44",
@@ -1701,15 +2078,15 @@
       {
         "id": "i3f49",
         "topic": "Pronombres Relativos",
-        "question": "'Ese es el café _____ siempre venimos a estudiar.' ¿Cuál es el pronombre relativo correcto?",
+        "question": "'Este es el despacho _____ vas a trabajar.' ¿Cuál es el relativo correcto?",
         "options": [
+          "en el que",
           "que",
-          "donde",
           "quien",
-          "cual"
+          "cuyo"
         ],
-        "correct": 1,
-        "explanation": "'Donde' é o relativo de lugar: 'el café donde siempre venimos a estudiar' = o café em que a gente sempre vem estudar. Sem 'donde' seria preciso usar preposição mais artigo: 'el café al que venimos'. 'Que' sozinho não introduz lugar depois de um verbo de movimento, 'quien' só se refere a pessoas e 'cual' exige artigo ('el cual'). Portanto, a resposta correta é 'donde'."
+        "correct": 0,
+        "explanation": "Quando o relativo se refere a um lugar e o verbo pede preposição ('trabajar en el despacho'), o livro usa preposição + artigo + 'que': 'el despacho en el que vas a trabajar'. 'Que' sozinho deixa a frase sem a preposição, 'quien' só se refere a pessoas e 'cuyo' indica posse. Portanto, a resposta correta é 'en el que'."
       },
       {
         "id": "i3f50",
@@ -1753,15 +2130,15 @@
       {
         "id": "i3f53",
         "topic": "El Voseo",
-        "question": "En el voseo, ¿cuál es el imperativo afirmativo correcto para 'habla (tú)'?",
+        "question": "Che, _____ más despacio, que no te entiendo. (hablar, vos, imperativo)",
         "options": [
           "Habla",
           "Hablad",
           "Hablá",
-          "Habler"
+          "Hablás"
         ],
         "correct": 2,
-        "explanation": "O imperativo no voseo se forma com o radical + á/é/í (sem o '-d' final do vosotros e sem o acento da penúltima sílaba do tuteo): 'hablá' (fala), 'comé' (come), 'vení' (vem)."
+        "explanation": "No voseo, o imperativo afirmativo se forma com o radical + 'á/é/í', com acento na última sílaba: 'hablá', 'comé', 'escribí'. 'Habla' é o imperativo do 'tú', 'hablad' é o do 'vosotros' e 'hablás' é o presente do voseo, não o imperativo. Portanto, a resposta correta é 'Hablá'."
       },
       {
         "id": "i3f54",
@@ -1779,28 +2156,28 @@
       {
         "id": "i3f55",
         "topic": "Oraciones Temporales",
-        "question": "'Llámame _____ llegues.' ¿Cuál es la conjunción temporal correcta?",
+        "question": "'Llámame _____ llegues a casa esta noche, para que no me preocupe.' (acción inmediatamente posterior) ¿Cuál es la conjunción temporal correcta?",
         "options": [
-          "cuando",
+          "en cuanto",
           "hasta que",
-          "antes de que",
-          "mientras que"
+          "mientras",
+          "cada vez que"
         ],
         "correct": 0,
-        "explanation": "'Cuando + Presente do Subjuntivo' para ações futuras: 'cuando llegues' = quando você chegar. Com referência futura, 'cuando' nunca usa o Futuro do Indicativo."
+        "explanation": "'En cuanto' (como 'apenas' e 'así que') indica uma ação que acontece logo depois da outra: 'en cuanto llegues' = assim que você chegar. Com referência futura, o verbo vai no Presente do Subjuntivo; 'hasta que' marcaria um limite, 'mientras' simultaneidade e 'cada vez que' uma ação habitual, o que 'esta noche' exclui. Portanto, a resposta correta é 'en cuanto'."
       },
       {
         "id": "i3f56",
         "topic": "Oraciones Temporales",
-        "question": "'No te vayas _____ yo vuelva.' ¿Cuál es la conjunción temporal correcta?",
+        "question": "'Quédate aquí y no te vayas _____ yo vuelva con las llaves.' (límite de la acción) ¿Cuál es la conjunción temporal correcta?",
         "options": [
           "cuando",
-          "antes de que",
           "hasta que",
-          "mientras"
+          "mientras",
+          "cada vez que"
         ],
-        "correct": 2,
-        "explanation": "'Hasta que + Subjuntivo' (com valor futuro) expressa o limite de uma ação: 'no te vayas hasta que yo vuelva' = não vá embora até eu voltar. Com valor futuro, 'hasta que' pede Subjuntivo."
+        "correct": 1,
+        "explanation": "'Hasta que' indica o limite de uma ação: 'no te vayas hasta que yo vuelva' = não vá embora até eu voltar. Com valor futuro, 'hasta que' pede Subjuntivo; 'mientras' marca simultaneidade e 'cada vez que' uma ação habitual. Portanto, a resposta correta é 'hasta que'."
       },
       {
         "id": "i3f57",
@@ -1935,15 +2312,15 @@
       {
         "id": "i3f80",
         "topic": "Voz Pasiva (Ser + Participio)",
-        "question": "¿Cuándo se prefiere la pasiva con 'se' en lugar de 'ser + participio'?",
+        "question": "'Los vecinos eligieron a la nueva presidenta del club.' → 'La nueva presidenta del club _____.'",
         "options": [
-          "Cuando no interesa decir quién hizo la acción",
-          "Cuando el agente es una persona famosa",
-          "Cuando el verbo es irregular",
-          "Cuando la frase está en futuro"
+          "fue elegida de los vecinos",
+          "fue elegida por los vecinos",
+          "fue eligida por los vecinos",
+          "fue elegido por los vecinos"
         ],
-        "correct": 0,
-        "explanation": "A passiva com 'se' serve justamente para deixar o agente de fora: 'se construyó el puente en 1950'. Quando se quer dizer quem fez, usa-se 'ser + particípio' com 'por'."
+        "correct": 1,
+        "explanation": "Na passiva com 'ser', o particípio concorda com o sujeito ('la nueva presidenta' pede 'elegida') e o agente entra sempre com 'por', nunca com 'de'. O particípio de 'elegir' é 'elegido', não 'eligido'. Portanto, a resposta correta é 'fue elegida por los vecinos'."
       },
       {
         "id": "i3f65",
@@ -2078,15 +2455,535 @@
       {
         "id": "i3f75",
         "topic": "Llevar + Gerundio",
-        "question": "¿Cuál es la diferencia entre 'Llevo dos horas esperando' y 'Hace dos horas que espero'?",
+        "question": "¿Qué tienen en común 'Llevo dos horas esperando' y 'Hace dos horas que espero'?",
         "options": [
-          "Son intercambiables y expresan exactamente lo mismo sin ninguna diferencia.",
-          "'Llevo' solo se usa en el pasado; 'hace' solo en el presente.",
-          "Ambas expresan una acción que comenzó hace dos horas y continúa; 'llevar + gerundio' pone más énfasis en la continuidad y el esfuerzo de la acción.",
-          "'Hace' es más formal que 'llevar'."
+          "'Llevo dos horas esperando' indica que la acción ya terminó.",
+          "Las dos expresan una acción que empezó hace dos horas y continúa en el presente.",
+          "'Hace dos horas que espero' solo se usa en el pasado.",
+          "'Llevar' solo puede combinarse con infinitivo."
+        ],
+        "correct": 1,
+        "explanation": "'Llevar + tempo + gerúndio' e 'hace + tempo + que + Presente' são as duas construções que o livro apresenta para uma ação que começou no passado e dura até agora: 'Llevo dos horas esperando' = 'Hace dos horas que espero'. Portanto, a resposta correta é 'Las dos expresan una acción que empezó hace dos horas y continúa en el presente.'."
+      },
+      {
+        "id": "i3f81",
+        "topic": "Contraste Condicional Simple y Compuesto",
+        "question": "Tienes fiebre desde esta mañana y sigues en casa. Yo que tú, _____ (ir) al médico ahora mismo.",
+        "options": [
+          "iría",
+          "habría ido",
+          "fuera",
+          "hubiera ido"
+        ],
+        "correct": 0,
+        "explanation": "O conselho 'yo que tú' se refere a uma situação presente ('sigues en casa', 'ahora mismo'), e para isso usamos o Condicional Simples. O Condicional Composto só serve para algo que já passou e não aconteceu. Portanto, a resposta correta é 'iría'."
+      },
+      {
+        "id": "i3f82",
+        "topic": "Contraste Condicional Simple y Compuesto",
+        "question": "Ayer te esperé dos horas en el bar. Yo en tu lugar te _____ (avisar) por teléfono.",
+        "options": [
+          "avisaría",
+          "habría avisado",
+          "avisara",
+          "he avisado"
+        ],
+        "correct": 1,
+        "explanation": "A situação já aconteceu ('ayer te esperé'), então o que a pessoa faria no lugar do outro fica no passado e não se realizou: isso pede o Condicional Composto, 'habría + participio'. O Condicional Simples 'avisaría' serviria para uma situação presente ou futura. Portanto, a resposta correta é 'habría avisado'."
+      },
+      {
+        "id": "i3f83",
+        "topic": "Contraste Condicional Simple y Compuesto",
+        "question": "Con un poco más de tiempo, _____ (terminar, yo) el informe mañana, pero no lo tengo.",
+        "options": [
+          "habría terminado",
+          "terminara",
+          "terminaría",
+          "terminaré"
         ],
         "correct": 2,
-        "explanation": "Tanto 'Llevo dos horas esperando' quanto 'Hace dos horas que espero' expressam a duração de uma ação contínua. 'Llevar + gerúndio' enfatiza a continuidade e o esforço em curso; 'hace + que' é uma construção mais neutra para situar o início da ação no tempo. Ambas são corretas e frequentes."
+        "explanation": "'Mañana' situa a hipótese no futuro, e 'pero no lo tengo' mostra que é só uma hipótese: para uma hipótese presente ou futura o espanhol usa o Condicional Simples. 'Habría terminado' falaria de algo que já ficou no passado, e 'terminaré' afirmaria um fato. Portanto, a resposta correta é 'terminaría'."
+      },
+      {
+        "id": "i3f84",
+        "topic": "Contraste Condicional Simple y Compuesto",
+        "question": "El año pasado, con más dinero, _____ (viajar, nosotros) a Chile.",
+        "options": [
+          "viajaríamos",
+          "habremos viajado",
+          "viajáramos",
+          "habríamos viajado"
+        ],
+        "correct": 3,
+        "explanation": "'El año pasado' marca um passado que já fechou: a viagem não aconteceu e não pode mais acontecer. Para esse tipo de hipótese usamos o Condicional Composto, 'habríamos + participio'. Portanto, a resposta correta é 'habríamos viajado'."
+      },
+      {
+        "id": "i3f85",
+        "topic": "Contraste Condicional Simple y Compuesto",
+        "question": "Mi vecino siempre deja la basura en la calle. Yo en su lugar la _____ (llevar) al contenedor.",
+        "options": [
+          "habría llevado",
+          "llevaría",
+          "llevara",
+          "llevaré"
+        ],
+        "correct": 1,
+        "explanation": "'Siempre deja' descreve um hábito presente, então o que a pessoa faria no lugar do vizinho é uma hipótese atual e vai no Condicional Simples. O Condicional Composto 'habría llevado' só serve para uma situação que já passou e não aconteceu, e 'llevaré' afirma um fato futuro, não uma hipótese. Portanto, a resposta correta é 'llevaría'."
+      },
+      {
+        "id": "i3f86",
+        "topic": "Contraste Condicional Simple y Compuesto",
+        "question": "¿Cuál es la oración correcta?",
+        "options": [
+          "Ayer, en tu lugar, yo llamaría a la policía.",
+          "Ayer, en tu lugar, yo habría llamado a la policía.",
+          "Ayer, en tu lugar, yo habré llamado a la policía.",
+          "Ayer, en tu lugar, yo he llamado a la policía."
+        ],
+        "correct": 1,
+        "explanation": "A frase fala do que a pessoa teria feito em uma situação que já passou ('ayer'), e para isso o espanhol usa o Condicional Composto. 'Llamaría' serve para uma situação presente ou futura, e 'habré llamado' e 'he llamado' não expressam hipótese. Portanto, a resposta correta é 'Ayer, en tu lugar, yo habría llamado a la policía'."
+      },
+      {
+        "id": "i3f87",
+        "topic": "Condicional Compuesto",
+        "question": "Rechacé el trabajo que me ofrecieron la semana pasada. Mi hermana, en mi lugar, _____ (hacer) lo contrario.",
+        "options": [
+          "habría hacido",
+          "haría",
+          "habría hecho",
+          "haya hecho"
+        ],
+        "correct": 2,
+        "explanation": "A situação já aconteceu ('la semana pasada'), então o que a irmã teria feito no lugar do outro vai no Condicional Composto, 'habría + participio'. O particípio de 'hacer' é irregular: 'hecho'. Portanto, a resposta correta é 'habría hecho'."
+      },
+      {
+        "id": "i3f88",
+        "topic": "Pretérito Pluscuamperfecto de Subjuntivo",
+        "question": "Si _____ (ponerse, nosotros) protector solar, no nos habríamos quemado en la playa.",
+        "options": [
+          "nos hubiéramos puesto",
+          "nos hayamos puesto",
+          "nos pusiéramos",
+          "nos habríamos puesto"
+        ],
+        "correct": 0,
+        "explanation": "A condição é passada e não aconteceu, por isso depois de 'si' vai o Pretérito Mais-que-Perfeito do Subjuntivo, 'hubiera + participio'; em verbos reflexivos o pronome fica antes de 'hubiera'. O condicional nunca entra na oração com 'si'. Portanto, a resposta correta é 'nos hubiéramos puesto'."
+      },
+      {
+        "id": "i3f89",
+        "topic": "Preposiciones (ante / bajo / tras)",
+        "question": "'Hoy la temperatura en la ciudad está _____ cero.' ¿Cuál es la preposición correcta?",
+        "options": [
+          "ante",
+          "tras",
+          "bajo",
+          "debajo"
+        ],
+        "correct": 2,
+        "explanation": "'Bajo' é a preposição usada para temperaturas negativas: 'bajo cero'. 'Debajo' precisaria de 'de' e não se usa com temperaturas; 'ante' e 'tras' não têm esse sentido. Portanto, a resposta correta é 'bajo'."
+      },
+      {
+        "id": "i3f90",
+        "topic": "Preposiciones (ante / bajo / tras)",
+        "question": "'_____ la cena, salimos a dar un paseo por el centro.' ¿Cuál es la preposición correcta?",
+        "options": [
+          "Tras",
+          "Bajo",
+          "Ante",
+          "Después"
+        ],
+        "correct": 0,
+        "explanation": "'Tras' equivale a 'después de' quando indica o que vem depois de um acontecimento: 'tras la cena' = depois do jantar. 'Después' sozinho precisaria de 'de' ('después de la cena'); 'bajo' e 'ante' não indicam tempo. Portanto, a resposta correta é 'Tras'."
+      },
+      {
+        "id": "i3f91",
+        "topic": "Preposiciones (ante / bajo / tras)",
+        "question": "'No sé qué hacer _____ tantas opciones de dieta.' ¿Cuál es la preposición correcta?",
+        "options": [
+          "bajo",
+          "tras",
+          "frente",
+          "ante"
+        ],
+        "correct": 3,
+        "explanation": "'Ante' equivale a 'frente a' quando a pessoa se vê diante de uma situação, um problema ou muitas opções: 'ante tantas opciones'. 'Frente' sozinho precisaria de 'a'; 'bajo' e 'tras' não cabem nesse sentido. Portanto, a resposta correta é 'ante'."
+      },
+      {
+        "id": "i3f92",
+        "topic": "Preposiciones (ante / bajo / tras)",
+        "question": "'Trabajó muchos años _____ las órdenes de un jefe muy exigente.' ¿Cuál es la preposición correcta?",
+        "options": [
+          "bajo",
+          "ante",
+          "sobre",
+          "tras"
+        ],
+        "correct": 0,
+        "explanation": "'Bajo' também expressa submissão ou dependência, como em 'bajo las órdenes de', 'bajo la dominación de'. 'Sobre las órdenes' não existe com esse sentido, e 'ante' e 'tras' não indicam submissão. Portanto, a resposta correta é 'bajo'."
+      },
+      {
+        "id": "i3f93",
+        "topic": "Preposiciones (ante / bajo / tras)",
+        "question": "'Se quedó callado ante las críticas.' ¿Qué expresión puede sustituir a 'ante' en esta frase?",
+        "options": [
+          "después de",
+          "frente a",
+          "debajo de",
+          "detrás de"
+        ],
+        "correct": 1,
+        "explanation": "Nesse uso, 'ante' não é espacial: indica a situação com que a pessoa se depara, e equivale a 'frente a' ('frente a las críticas'). 'Después de' corresponderia a 'tras', 'debajo de' a 'bajo' e 'detrás de' ao sentido espacial de 'tras'. Portanto, a resposta correta é 'frente a'."
+      },
+      {
+        "id": "i3f94",
+        "topic": "Preposiciones (ante / bajo / tras)",
+        "question": "'_____ su mudanza a Madrid, cambió por completo sus hábitos de alimentación.' ¿Cuál es la preposición correcta?",
+        "options": [
+          "Bajo",
+          "Ante",
+          "Tras",
+          "Luego"
+        ],
+        "correct": 2,
+        "explanation": "'Tras' indica que algo aconteceu depois de um fato: 'tras su mudanza' = depois da mudança. 'Luego' sozinho é advérbio e precisaria de 'de' ('luego de su mudanza'); 'bajo' e 'ante' não têm valor temporal. Portanto, a resposta correta é 'Tras'."
+      },
+      {
+        "id": "i3f95",
+        "topic": "Llevar + Gerundio",
+        "question": "'_____ dos meses sin comer dulces y me siento mucho mejor.' ¿Cuál es la forma correcta?",
+        "options": [
+          "Llevo",
+          "Hace",
+          "Estoy",
+          "Desde hace"
+        ],
+        "correct": 0,
+        "explanation": "'Llevar + tempo + sin + infinitivo' expressa há quanto tempo algo não acontece: 'Llevo dos meses sin comer dulces'. 'Hace' e 'desde hace' precisariam de 'que no como', e 'estoy' não forma essa estrutura. Portanto, a resposta correta é 'Llevo'."
+      },
+      {
+        "id": "i3f96",
+        "topic": "Llevar + Gerundio",
+        "question": "'Llevo una semana sin _____ (hacer) ejercicio.' ¿Cuál es la forma correcta?",
+        "options": [
+          "haciendo",
+          "hacer",
+          "hecho",
+          "haga"
+        ],
+        "correct": 1,
+        "explanation": "Depois de 'llevar + tempo + sin' o verbo vai sempre no infinitivo: 'sin hacer ejercicio'. O gerúndio aparece na forma afirmativa ('llevo una semana haciendo ejercicio'), mas nunca depois de 'sin'. Portanto, a resposta correta é 'hacer'."
+      },
+      {
+        "id": "i3f97",
+        "topic": "Usos de \"Apenas\"",
+        "question": "Mi vecino _____ habla portugués, pero habla muy bien el inglés.",
+        "options": [
+          "apenas",
+          "solamente",
+          "tan solo",
+          "así que"
+        ],
+        "correct": 0,
+        "explanation": "Quando 'apenas' é advérbio, pode significar 'casi no': o vizinho quase não fala português, mas fala bem outro idioma. 'Solamente' e 'tan solo' diriam que ele só fala português e nenhum outro, o que contradiz o resto da frase, e 'así que' é conjunção e precisa ligar duas ações. Portanto, a resposta correta é 'apenas'."
+      },
+      {
+        "id": "i3f98",
+        "topic": "Usos de \"Apenas\"",
+        "question": "_____ recibió el mensaje, nos llamó a todos. (= apenas)",
+        "options": [
+          "Casi no",
+          "Luego que",
+          "Solamente",
+          "Tan solo"
+        ],
+        "correct": 1,
+        "explanation": "Aqui 'apenas' é conjunção e indica que uma ação aconteceu logo depois da outra: equivale a 'luego que', 'así que' ou 'tan pronto como'. 'Casi no', 'solamente' e 'tan solo' são os sentidos de advérbio e não servem para ligar as duas orações. Portanto, a resposta correta é 'Luego que'."
+      },
+      {
+        "id": "i3f99",
+        "topic": "Usos de \"Apenas\"",
+        "question": "'Este mes apenas salimos: hay mucho trabajo.' Aquí 'apenas' equivale a _____.",
+        "options": [
+          "tan pronto como",
+          "luego que",
+          "casi no",
+          "así que"
+        ],
+        "correct": 2,
+        "explanation": "Como advérbio, 'apenas' pode significar 'casi no': neste mês quase não saímos porque há muito trabalho. 'Tan pronto como', 'luego que' e 'así que' são os valores de conjunção, que pedem duas ações em sequência. Portanto, a resposta correta é 'casi no'."
+      },
+      {
+        "id": "i3f100",
+        "topic": "Usos de \"Apenas\"",
+        "question": "Hace _____ diez minutos que salió el tren. (= apenas)",
+        "options": [
+          "casi no",
+          "luego que",
+          "así que",
+          "tan solo"
+        ],
+        "correct": 3,
+        "explanation": "Diante de uma quantidade ('diez minutos'), 'apenas' é advérbio com o sentido de 'tan solo' ou 'solamente': faz só dez minutos. 'Casi no' não combina com um número, e 'luego que' e 'así que' são conjunções e precisam ligar duas ações. Portanto, a resposta correta é 'tan solo'."
+      },
+      {
+        "id": "i3f101",
+        "topic": "Usos de \"Apenas\"",
+        "question": "Te escribo _____ llegue al hotel. (= apenas)",
+        "options": [
+          "casi no",
+          "tan pronto como",
+          "solamente",
+          "tan solo"
+        ],
+        "correct": 1,
+        "explanation": "Quando 'apenas' liga duas orações, é conjunção e equivale a 'tan pronto como', 'luego que' ou 'así que'. Os outros termos são os sentidos de advérbio ('casi no', 'solamente', 'tan solo') e deixariam a frase sem sentido. Portanto, a resposta correta é 'tan pronto como'."
+      },
+      {
+        "id": "i3f102",
+        "topic": "Usos de \"Apenas\"",
+        "question": "¿En cuál de estas oraciones 'apenas' significa 'solamente'?",
+        "options": [
+          "Dormí apenas tres horas.",
+          "Apenas entró, sonó el teléfono.",
+          "Mi abuelo apenas oye.",
+          "Apenas termine, te llamo."
+        ],
+        "correct": 0,
+        "explanation": "Com uma quantidade, 'apenas' significa 'solamente' ou 'tan solo': dormi só três horas. Em 'mi abuelo apenas oye' o sentido é 'casi no', e em 'apenas entró' e 'apenas termine' é conjunção, equivalente a 'tan pronto como'. Portanto, a resposta correta é 'Dormí apenas tres horas.'."
+      },
+      {
+        "id": "i3f103",
+        "topic": "Estilo Indirecto: Dice que...",
+        "question": "Marta me dice: 'Puedes usar mi cuaderno, ese que tienes ahí.' Yo cuento: 'Marta dice que puedo usar _____ cuaderno, este que tengo aquí.'",
+        "options": [
+          "mi",
+          "su",
+          "tu",
+          "mío"
+        ],
+        "correct": 1,
+        "explanation": "Ao transmitir uma informação, além do verbo mudam outros elementos da frase: o caderno é de Marta, então 'mi' na fala dela vira 'su' na boca de quem conta, assim como 'ese' e 'ahí' viram 'este' e 'aquí'. Portanto, a resposta correta é 'su'."
+      },
+      {
+        "id": "i3f104",
+        "topic": "Voz Pasiva (Ser + Participio)",
+        "question": "'Los turistas admiran la arquitectura de esta ciudad.' → 'La arquitectura de esta ciudad _____ por los turistas.' (mismo tiempo verbal)",
+        "options": [
+          "fue admirada",
+          "está admirada",
+          "es admirada",
+          "es admirado"
+        ],
+        "correct": 2,
+        "explanation": "Na passiva, 'ser' fica no mesmo tempo do verbo da frase ativa: 'admiran' está no presente, então 'es admirada', com o particípio concordando com 'la arquitectura'. 'Fue admirada' muda o tempo, 'está admirada' usa 'estar' e 'es admirado' não concorda com o sujeito feminino. Portanto, a resposta correta é 'es admirada'."
+      },
+      {
+        "id": "i3f105",
+        "topic": "Voz Pasiva (Ser + Participio)",
+        "question": "'La policía ha detenido a los ladrones.' → 'Los ladrones _____ por la policía.' (mismo tiempo verbal)",
+        "options": [
+          "han sido detenidos",
+          "fueron detenidos",
+          "han detenidos",
+          "ha sido detenido"
+        ],
+        "correct": 0,
+        "explanation": "Com a frase ativa no Pretérito Perfecto Compuesto ('ha detenido'), a passiva leva 'ser' nesse mesmo tempo: 'han sido detenidos', com o particípio no masculino plural concordando com 'los ladrones'. 'Fueron detenidos' muda o tempo, 'han detenidos' perde o 'sido' e 'ha sido detenido' está no singular. Portanto, a resposta correta é 'han sido detenidos'."
+      },
+      {
+        "id": "i3f106",
+        "topic": "Conectores",
+        "question": "_____ el niño tenía mucha hambre, no quiso comer nada.",
+        "options": [
+          "Aunque",
+          "Porque",
+          "Por eso",
+          "Ya que"
+        ],
+        "correct": 0,
+        "explanation": "A frase junta duas ideias que se opõem: o menino estava com fome, mas não quis comer. Quem marca oposição ou contraste é 'aunque' (ou 'a pesar de que'). 'Porque' e 'ya que' indicam causa, e 'por eso' indica consequência, o que deixaria a frase sem lógica. Portanto, a resposta correta é 'Aunque'."
+      },
+      {
+        "id": "i3f107",
+        "topic": "Conectores",
+        "question": "No teníamos dinero en efectivo, _____ pagamos con tarjeta de crédito.",
+        "options": [
+          "ya que",
+          "para que",
+          "por eso",
+          "aunque"
+        ],
+        "correct": 2,
+        "explanation": "Pagar com cartão é a consequência de não ter dinheiro vivo, e os conectores de consequência são 'por eso', 'por lo tanto', 'en consecuencia'. 'Ya que' inverteria a relação (a causa ficaria no lugar errado), 'para que' exige subjuntivo e indica finalidade, e 'aunque' marca oposição. Portanto, a resposta correta é 'por eso'."
+      },
+      {
+        "id": "i3f108",
+        "topic": "Conectores",
+        "question": "_____ es un examen muy difícil, es mejor que estudies un poco más.",
+        "options": [
+          "Sin embargo",
+          "Por lo tanto",
+          "Además",
+          "Como"
+        ],
+        "correct": 3,
+        "explanation": "Quando a causa vem no começo da frase, o livro usa 'como', 'ya que' ou 'puesto que': 'Como es un examen muy difícil, es mejor que estudies'. 'Sin embargo' marca contraste, 'por lo tanto' marca consequência e 'además' só acrescenta uma ideia, e nenhum deles explica o motivo de estudar mais. Portanto, a resposta correta é 'Como'."
+      },
+      {
+        "id": "i3f109",
+        "topic": "Conectores",
+        "question": "Estamos ahorrando dinero _____ nuestros hijos puedan estudiar en el extranjero.",
+        "options": [
+          "porque",
+          "para que",
+          "por eso",
+          "ya que"
+        ],
+        "correct": 1,
+        "explanation": "A frase expressa finalidade, o objetivo de economizar, e o verbo está no Presente do Subjuntivo ('puedan'), que é justamente o que 'para que' pede. 'Porque' e 'ya que' indicam causa e 'por eso' indica consequência; nenhum deles vai seguido de subjuntivo nessa construção. Portanto, a resposta correta é 'para que'."
+      },
+      {
+        "id": "i3f110",
+        "topic": "Conectores",
+        "question": "Compré una camisa nueva y _____ un par de zapatos.",
+        "options": [
+          "sin embargo",
+          "por eso",
+          "también",
+          "aunque"
+        ],
+        "correct": 2,
+        "explanation": "Aqui só estamos acrescentando uma compra à outra, e os conectores que servem para adicionar ideias são 'también', 'además', 'asimismo'. 'Sin embargo' e 'aunque' marcam oposição, e 'por eso' marca consequência, o que não faz sentido entre uma camisa e um par de sapatos. Portanto, a resposta correta é 'también'."
+      },
+      {
+        "id": "i3f111",
+        "topic": "Conectores",
+        "question": "Marta estudió muchísimo; _____, no le fue bien en el examen.",
+        "options": [
+          "por eso",
+          "es decir",
+          "ya que",
+          "sin embargo"
+        ],
+        "correct": 3,
+        "explanation": "Estudar muito e ir mal na prova são ideias opostas, e entre vírgulas o conector de contraste é 'sin embargo' (também 'no obstante'). 'Por eso' apresentaria o resultado ruim como consequência natural de estudar, 'es decir' serve para explicar com outras palavras e 'ya que' indica causa. Portanto, a resposta correta é 'sin embargo'."
+      },
+      {
+        "id": "i3f112",
+        "topic": "Perífrasis Verbales (andar / ir + gerundio, acabar de...)",
+        "question": "Mi prima no ha podido visitarnos: _____ mucho últimamente. (acción repetida, en curso)",
+        "options": [
+          "anda trabajando",
+          "acaba de trabajar",
+          "anda trabajado",
+          "echó a trabajar"
+        ],
+        "correct": 0,
+        "explanation": "'Andar + gerundio' indica uma ação que se repete ou que está em curso num período: 'anda trabajando mucho' = anda trabalhando muito. 'Acabar de' marca algo recém-acontecido, e depois de 'andar' o verbo vai no gerúndio, não no particípio. Portanto, a resposta correta é 'anda trabajando'."
+      },
+      {
+        "id": "i3f113",
+        "topic": "Perífrasis Verbales (andar / ir + gerundio, acabar de...)",
+        "question": "Ve _____ la mesa mientras yo termino la sopa.",
+        "options": [
+          "puesto",
+          "puesta",
+          "poniendo",
+          "poner"
+        ],
+        "correct": 2,
+        "explanation": "'Ir + gerundio' expressa uma ação que vai sendo feita aos poucos, ao mesmo tempo que outra: 've poniendo la mesa' = vá pondo a mesa. Depois de 'ir', nessa perífrase, o verbo vai sempre no gerúndio. Portanto, a resposta correta é 'poniendo'."
+      },
+      {
+        "id": "i3f114",
+        "topic": "Perífrasis Verbales (andar / ir + gerundio, acabar de...)",
+        "question": "Mi hermana _____ de llegar del aeropuerto; todavía no ha deshecho la maleta.",
+        "options": [
+          "lleva",
+          "anda",
+          "queda",
+          "acaba"
+        ],
+        "correct": 3,
+        "explanation": "'Acabar de + infinitivo' indica uma ação que acaba de acontecer: 'acaba de llegar' = acabou de chegar. 'Llevar', 'andar' e 'quedar' não se combinam com 'de + infinitivo' nas perífrases do livro. Portanto, a resposta correta é 'acaba'."
+      },
+      {
+        "id": "i3f115",
+        "topic": "Perífrasis Verbales (andar / ir + gerundio, acabar de...)",
+        "question": "Ya _____ vendidas casi todas las entradas del concierto.",
+        "options": [
+          "acabamos",
+          "llevamos",
+          "andamos",
+          "nos damos"
+        ],
+        "correct": 1,
+        "explanation": "'Llevar + participio' expressa a quantidade acumulada até o momento, e o particípio concorda com o objeto: 'llevamos vendidas casi todas las entradas' = já vendemos quase todos os ingressos até agora. Portanto, a resposta correta é 'llevamos'."
+      },
+      {
+        "id": "i3f116",
+        "topic": "Perífrasis Verbales (andar / ir + gerundio, acabar de...)",
+        "question": "Después de buscar el anillo toda la tarde, lo _____ perdido.",
+        "options": [
+          "eché a",
+          "quedé por",
+          "di por",
+          "llevé"
+        ],
+        "correct": 2,
+        "explanation": "'Dar(se) por + participio' indica que alguém considera algo como encerrado ou resolvido: 'lo di por perdido' = dei o anel por perdido. 'Echar a' se usa com infinitivo, e 'quedar' não se combina com 'por' nessa perífrase. Portanto, a resposta correta é 'di por'."
+      },
+      {
+        "id": "i3f117",
+        "topic": "Perífrasis Verbales (andar / ir + gerundio, acabar de...)",
+        "question": "Cuando le contaron la noticia, mi abuelo se _____ helado.",
+        "options": [
+          "dio",
+          "quedó",
+          "acabó",
+          "anduvo"
+        ],
+        "correct": 1,
+        "explanation": "'Quedar(se) + participio' expressa o estado em que alguém fica depois de algo: 'se quedó helado' = ficou gelado, paralisado. 'Darse' pede 'por' e 'andar' pede gerúndio nas perífrases do livro. Portanto, a resposta correta é 'quedó'."
+      },
+      {
+        "id": "i3f118",
+        "topic": "El Voseo",
+        "question": "Che, vos _____ de Montevideo, ¿no?",
+        "options": [
+          "eres",
+          "sos",
+          "sois",
+          "es"
+        ],
+        "correct": 1,
+        "explanation": "No voseo, o verbo 'ser' tem a forma própria 'sos': 'vos sos de Montevideo' = você é de Montevidéu. 'Eres' é a forma do 'tú', 'sois' é a do 'vosotros' e 'es' é a de 'él/ella/usted', e nenhuma se combina com 'vos'. Portanto, a resposta correta é 'sos'."
+      },
+      {
+        "id": "i3f119",
+        "topic": "Oraciones Temporales",
+        "question": "Tenemos que comprar los regalos _____ empiece la fiesta de despedida. (acción anterior)",
+        "options": [
+          "antes de que",
+          "después de que",
+          "mientras",
+          "cada vez que"
+        ],
+        "correct": 0,
+        "explanation": "'Antes de que' indica uma ação anterior a outra: 'antes de que empiece la fiesta' = antes que a festa comece. Com referência futura, o verbo vai no Presente do Subjuntivo; 'después de que' marcaria posterioridade, 'mientras' simultaneidade e 'cada vez que' uma ação habitual. Portanto, a resposta correta é 'antes de que'."
+      },
+      {
+        "id": "i3f120",
+        "topic": "El Diminutivo y el Aumentativo",
+        "question": "¿Quieres un _____ después de comer? (café)",
+        "options": [
+          "cafecito",
+          "cafito",
+          "cafeíto",
+          "cafón"
+        ],
+        "correct": 0,
+        "explanation": "As palavras terminadas em E, N ou R formam o diminutivo com '-cito/-cita': 'café' > 'cafecito', 'avión' > 'avioncito', 'flor' > 'florcita'. 'Cafón' seria um aumentativo, não um diminutivo. Portanto, a resposta correta é 'cafecito'."
       }
     ]
   }

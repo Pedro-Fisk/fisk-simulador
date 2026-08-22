@@ -4,9 +4,9 @@ Este documento é o **estado** da ferramenta e o **porquê** das decisões. Como
 mexe no código, as convenções e as armadilhas de escrita de questão estão no
 `CLAUDE.md` da raiz, que continua sendo a primeira leitura de quem vai editar.
 
-## O catálogo hoje (12/08/2026)
+## O catálogo hoje (22/08/2026)
 
-**1.874 questões em 10 bancos**, um por estágio.
+**2.109 questões em 10 bancos**, um por estágio (sem contar os três bancos de teens).
 
 | Estágio | Blocos | Total |
 |---|---|---|
@@ -17,9 +17,9 @@ mexe no código, as convenções e as armadilhas de escrita de questão estão n
 | Fluency 1 | midterm 60 + final 70 + phrasal 79 | 209 |
 | Fluency 2 | midterm 65 + final 55 + phrasal 80 | 200 |
 | In Focus | midterm 110 + final 150 + met 65 | 325 |
-| Inmediato 1 | midterm 105 + final 85 | 190 |
-| Inmediato 2 | midterm 75 + final 75 | 150 |
-| Inmediato 3 | midterm 80 + final 80 | 160 |
+| Inmediato 1 | midterm 160 + final 138 | 298 |
+| Inmediato 2 | midterm 102 + final 106 | 208 |
+| Inmediato 3 | midterm 109 + final 120 | 229 |
 
 Cada bloco é uma coisa diferente e nem todos entram em todo lugar: `midterm` e
 `final` são o que cai na prova do livro e alimentam o card Practice; `phrasal` e
@@ -27,7 +27,13 @@ Cada bloco é uma coisa diferente e nem todos entram em todo lugar: `midterm` e
 
 ## O espanhol saiu do mínimo (agosto/2026)
 
-As três trilhas de Inmediato somam **500 questões**. Elas nasceram magras e
+⭐ **Em 22/08/2026 os três bancos foram revisados contra o livro** (tabela de
+conteúdos e apêndice com gabarito, digitalizados nesse dia): 27 tópicos novos,
+235 questões novas e 120 consertos, para **735 questões**. O relato, a lista
+dos tópicos e as três famílias de defeito que só o livro revela estão em
+`docs/revisao-inmediato-livro-2026-08.md`. O que segue é a história anterior.
+
+As três trilhas de Inmediato somavam **500 questões**. Elas nasceram magras e
 cresceram em três rodadas de agosto: seis questões novas de Futuro Simple no
 Inmediato 2, a correção de um distrator que era espanhol correto na `i2f03`, e
 48 questões novas espalhadas pelos três estágios até **nenhuma lição ficar
