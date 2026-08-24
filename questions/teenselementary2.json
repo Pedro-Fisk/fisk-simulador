@@ -317,6 +317,474 @@
         ],
         "correct": 2,
         "explanation": "Quando a quantidade é de algo que não dá para contar em unidades, como água, usamos 'how much'. 'Water' não tem plural, então 'many' não serve. Portanto, a resposta correta é 'How MUCH water does a camel drink?'"
+      },
+      {
+        "id": "te2m25",
+        "topic": "Would",
+        "question": "My sister _____ like to watch a comedy tonight.",
+        "options": [
+          "woulds",
+          "would to",
+          "would",
+          "will to"
+        ],
+        "correct": 2,
+        "explanation": "Para dizer que alguém gostaria de fazer algo, usamos 'would like'. O 'would' nunca ganha '-s' e nunca vem seguido de 'to'. Portanto, a resposta correta é 'My sister WOULD like to watch a comedy tonight.'"
+      },
+      {
+        "id": "te2m26",
+        "topic": "Would",
+        "question": "'Would you like to see a horror movie?' You refuse politely. You say: 'No, I _____, thanks.'",
+        "options": [
+          "wouldn't",
+          "don't",
+          "won't",
+          "am not"
+        ],
+        "correct": 0,
+        "explanation": "A resposta curta repete a mesma palavra da pergunta. Se a pergunta começa com 'would', a recusa educada é 'No, I wouldn't'. Portanto, a resposta correta é 'No, I WOULDN'T, thanks.'"
+      },
+      {
+        "id": "te2m27",
+        "topic": "Would",
+        "question": "Would they _____ to go to the video game store first?",
+        "options": [
+          "liking",
+          "like",
+          "likes",
+          "liked"
+        ],
+        "correct": 1,
+        "explanation": "Depois de 'would', o verbo fica sempre na forma básica, sem '-s', sem '-ing' e sem '-ed'. Por isso dizemos 'would like'. Portanto, a resposta correta é 'Would they LIKE to go to the video game store first?'"
+      },
+      {
+        "id": "te2m28",
+        "topic": "Would",
+        "question": "I would like _____ some nachos before the movie starts.",
+        "options": [
+          "to eat",
+          "eating",
+          "eat",
+          "ate"
+        ],
+        "correct": 0,
+        "explanation": "Quando dizemos o que queremos fazer, a estrutura é 'would like + to + verbo'. É o 'to' que liga 'would like' ao segundo verbo. Portanto, a resposta correta é 'I would like TO EAT some nachos before the movie starts.'"
+      },
+      {
+        "id": "te2m29",
+        "topic": "Would",
+        "question": "'Would your parents like to come with us?' 'Yes, they _____.'",
+        "options": [
+          "do",
+          "are",
+          "would",
+          "will"
+        ],
+        "correct": 2,
+        "explanation": "Na resposta curta, usamos a mesma palavra que abriu a pergunta. A pergunta começou com 'would', então a resposta também traz 'would'. Portanto, a resposta correta é 'Yes, they WOULD.'"
+      },
+      {
+        "id": "te2m30",
+        "topic": "Would",
+        "question": "'Would you like a ticket for the eight o'clock movie?' In this question, 'would you like' is used to:",
+        "options": [
+          "talk about last weekend",
+          "offer something politely",
+          "ask for directions",
+          "describe a place in the mall"
+        ],
+        "correct": 1,
+        "explanation": "A expressão 'would you like' serve para oferecer alguma coisa de um jeito gentil, como um ingresso ou um refrigerante. Portanto, a resposta correta é 'offer something politely'."
+      },
+      {
+        "id": "te2m31",
+        "topic": "Verb To Be – Past",
+        "question": "My friends _____ at the bus stop yesterday morning.",
+        "options": [
+          "was",
+          "are",
+          "were",
+          "did"
+        ],
+        "correct": 2,
+        "explanation": "A palavra 'yesterday' mostra que a frase está no passado. Com 'my friends', que é plural, o passado do verbo to be é 'were'. Portanto, a resposta correta é 'My friends WERE at the bus stop yesterday morning.'"
+      },
+      {
+        "id": "te2m32",
+        "topic": "Verb To Be – Past",
+        "question": "It _____ a long trip by bike last Sunday.",
+        "options": [
+          "were",
+          "was",
+          "is",
+          "did"
+        ],
+        "correct": 1,
+        "explanation": "A expressão 'last Sunday' coloca a frase no passado. Com 'it', a forma certa do verbo to be no passado é 'was'. Portanto, a resposta correta é 'It WAS a long trip by bike last Sunday.'"
+      },
+      {
+        "id": "te2m33",
+        "topic": "Verb To Be – Past",
+        "question": "You and your brother _____ on the subway at eight o'clock last night.",
+        "options": [
+          "were",
+          "was",
+          "are",
+          "is"
+        ],
+        "correct": 0,
+        "explanation": "O sujeito 'you and your brother' fala de duas pessoas, então é plural. No passado, o verbo to be no plural é 'were'. Portanto, a resposta correta é 'You and your brother WERE on the subway at eight o'clock last night.'"
+      },
+      {
+        "id": "te2m34",
+        "topic": "Verb To Be – Past",
+        "question": "The taxi _____ expensive. It was cheap.",
+        "options": [
+          "weren't",
+          "didn't",
+          "wasn't",
+          "isn't"
+        ],
+        "correct": 2,
+        "explanation": "Para negar no passado com o verbo to be, usamos 'wasn't' ou 'weren't'. Como 'the taxi' é uma coisa só, a forma certa é 'wasn't'. Portanto, a resposta correta é 'The taxi WASN'T expensive.'"
+      },
+      {
+        "id": "te2m35",
+        "topic": "Verb To Be – Past",
+        "question": "_____ your friends at the train station last night?",
+        "options": [
+          "Was",
+          "Did",
+          "Are",
+          "Were"
+        ],
+        "correct": 3,
+        "explanation": "Na pergunta com o verbo to be no passado, ele vai para o começo da frase. Como 'your friends' está no plural, usamos 'were'. Portanto, a resposta correta é 'WERE your friends at the train station last night?'"
+      },
+      {
+        "id": "te2m36",
+        "topic": "Verb To Be – Past",
+        "question": "'Were you at the bakery this morning?' 'No, I _____. I was at the post office.'",
+        "options": [
+          "weren't",
+          "wasn't",
+          "didn't",
+          "am not"
+        ],
+        "correct": 1,
+        "explanation": "Na resposta curta, o sujeito muda e o verbo acompanha. Com 'I', a negativa do verbo to be no passado é 'wasn't'. Portanto, a resposta correta é 'No, I WASN'T.'"
+      },
+      {
+        "id": "te2m37",
+        "topic": "There Was / There Were",
+        "question": "_____ a big library on this corner in 2010.",
+        "options": [
+          "There were",
+          "There was",
+          "There are",
+          "Were there"
+        ],
+        "correct": 1,
+        "explanation": "Para dizer que uma coisa só existia no passado, usamos 'there was'. A frase fala de uma biblioteca, no singular, e do ano de 2010. Portanto, a resposta correta é 'THERE WAS a big library on this corner in 2010.'"
+      },
+      {
+        "id": "te2m38",
+        "topic": "There Was / There Were",
+        "question": "_____ three bakeries in my neighborhood last year.",
+        "options": [
+          "There is",
+          "There was",
+          "There were",
+          "There been"
+        ],
+        "correct": 2,
+        "explanation": "Quando falamos de mais de uma coisa no passado, usamos 'there were'. São três padarias e o tempo é 'last year'. Portanto, a resposta correta é 'THERE WERE three bakeries in my neighborhood last year.'"
+      },
+      {
+        "id": "te2m39",
+        "topic": "There Was / There Were",
+        "question": "There _____ a hospital near the park ten years ago, but now there is one.",
+        "options": [
+          "wasn't",
+          "weren't",
+          "isn't",
+          "didn't"
+        ],
+        "correct": 0,
+        "explanation": "Para dizer que algo não existia no passado, usamos 'there wasn't' no singular. A frase fala de um hospital só, dez anos atrás. Portanto, a resposta correta é 'There WASN'T a hospital near the park ten years ago.'"
+      },
+      {
+        "id": "te2m40",
+        "topic": "There Was / There Were",
+        "question": "_____ there many stores on this street in 1990?",
+        "options": [
+          "Was",
+          "Did",
+          "Were",
+          "Is"
+        ],
+        "correct": 2,
+        "explanation": "Na pergunta, invertemos a ordem e usamos 'was there' ou 'were there'. Como 'many stores' está no plural, a forma certa é 'were'. Portanto, a resposta correta é 'WERE there many stores on this street in 1990?'"
+      },
+      {
+        "id": "te2m41",
+        "topic": "There Was / There Were",
+        "question": "How many gas stations _____ there in this town ten years ago?",
+        "options": [
+          "was",
+          "are",
+          "did",
+          "were"
+        ],
+        "correct": 3,
+        "explanation": "A pergunta fala de várias coisas, 'gas stations', e de um tempo que já passou. Para plural no passado, a forma é 'were there'. Portanto, a resposta correta é 'How many gas stations WERE there in this town ten years ago?'"
+      },
+      {
+        "id": "te2m42",
+        "topic": "There Was / There Were",
+        "question": "We use 'there were' to talk about:",
+        "options": [
+          "one thing in the past",
+          "more than one thing in the past",
+          "one thing in the future",
+          "one thing right now"
+        ],
+        "correct": 1,
+        "explanation": "A forma 'there were' é o plural de 'there was' e sempre fala do passado. Ela aparece quando existia mais de uma coisa. Portanto, a resposta correta é 'more than one thing in the past'."
+      },
+      {
+        "id": "te2m43",
+        "topic": "Will",
+        "question": "Look at those dark clouds! I think there _____ be a storm tonight.",
+        "options": [
+          "wills",
+          "will",
+          "is",
+          "are"
+        ],
+        "correct": 1,
+        "explanation": "Quando fazemos uma previsão sobre o que ainda vai acontecer, usamos 'will' antes do verbo. O 'will' nunca ganha '-s'. Portanto, a resposta correta é 'I think there WILL be a storm tonight.'"
+      },
+      {
+        "id": "te2m44",
+        "topic": "Will",
+        "question": "_____ you wear a coat next winter?",
+        "options": [
+          "Do",
+          "Are",
+          "Will",
+          "Wills"
+        ],
+        "correct": 2,
+        "explanation": "A expressão 'next winter' fala de um tempo que ainda vem, então a pergunta é sobre o futuro e começa com 'will'. Portanto, a resposta correta é 'WILL you wear a coat next winter?'"
+      },
+      {
+        "id": "te2m45",
+        "topic": "Will",
+        "question": "It will _____ windy this afternoon.",
+        "options": [
+          "be",
+          "is",
+          "being",
+          "was"
+        ],
+        "correct": 0,
+        "explanation": "Depois de 'will', o verbo fica na forma básica. A forma básica do verbo to be é 'be'. Portanto, a resposta correta é 'It will BE windy this afternoon.'"
+      },
+      {
+        "id": "te2m46",
+        "topic": "Will",
+        "question": "Don't worry. It _____ rain during our picnic.",
+        "options": [
+          "willn't",
+          "doesn't will",
+          "won't",
+          "not will"
+        ],
+        "correct": 2,
+        "explanation": "A negativa de 'will' é 'will not', que encurtamos para 'won't'. Não existe 'willn't' em inglês. Portanto, a resposta correta é 'It WON'T rain during our picnic.'"
+      },
+      {
+        "id": "te2m47",
+        "topic": "Will",
+        "question": "_____ the weather be nice next weekend?",
+        "options": [
+          "Does",
+          "Did",
+          "Is",
+          "Will"
+        ],
+        "correct": 3,
+        "explanation": "Para perguntar sobre o futuro, colocamos 'will' no começo da frase, antes do sujeito. A expressão 'next weekend' mostra que ainda vai acontecer. Portanto, a resposta correta é 'WILL the weather be nice next weekend?'"
+      },
+      {
+        "id": "te2m48",
+        "topic": "Will",
+        "question": "We use 'will' to talk about:",
+        "options": [
+          "something that happened yesterday",
+          "something in the future",
+          "something we do every day",
+          "something we did last year"
+        ],
+        "correct": 1,
+        "explanation": "O 'will' é a palavra do futuro: ela mostra o que ainda vai acontecer, como uma previsão do tempo. Portanto, a resposta correta é 'something in the future'."
+      },
+      {
+        "id": "te2m49",
+        "topic": "As...As",
+        "question": "Rio is as _____ as São Paulo.",
+        "options": [
+          "more exciting",
+          "exciting",
+          "excitinger",
+          "most exciting"
+        ],
+        "correct": 1,
+        "explanation": "Entre 'as' e 'as', o adjetivo fica na forma normal, sem 'more' e sem '-est'. A própria estrutura já mostra que as duas cidades são iguais nisso. Portanto, a resposta correta é 'Rio is as EXCITING as São Paulo.'"
+      },
+      {
+        "id": "te2m50",
+        "topic": "As...As",
+        "question": "My town is _____ modern as Belo Horizonte.",
+        "options": [
+          "than",
+          "more",
+          "as",
+          "most"
+        ],
+        "correct": 2,
+        "explanation": "A comparação de igualdade tem dois 'as', um antes e outro depois do adjetivo. O primeiro deles abre a estrutura. Portanto, a resposta correta é 'My town is AS modern as Belo Horizonte.'"
+      },
+      {
+        "id": "te2m51",
+        "topic": "As...As",
+        "question": "This village isn't as _____ as the capital.",
+        "options": [
+          "crowded",
+          "crowdeder",
+          "more crowded",
+          "most crowded"
+        ],
+        "correct": 0,
+        "explanation": "Na forma negativa, a estrutura continua 'not as + adjetivo + as', com o adjetivo na forma normal. Portanto, a resposta correta é 'This village isn't as CROWDED as the capital.'"
+      },
+      {
+        "id": "te2m52",
+        "topic": "As...As",
+        "question": "'This city isn't as clean as your city.' This sentence means:",
+        "options": [
+          "The two cities are equally clean.",
+          "Your city is cleaner.",
+          "This city is cleaner.",
+          "The two cities are dirty."
+        ],
+        "correct": 1,
+        "explanation": "Quando dizemos que algo 'isn't as clean as' outra coisa, mostramos que a segunda é mais limpa. A negativa quebra a igualdade. Portanto, a resposta correta é 'Your city is cleaner.'"
+      },
+      {
+        "id": "te2m53",
+        "topic": "As...As",
+        "question": "The park here is as beautiful _____ the one in your city.",
+        "options": [
+          "than",
+          "as",
+          "so",
+          "like"
+        ],
+        "correct": 1,
+        "explanation": "O segundo 'as' é que fecha a comparação de igualdade, logo depois do adjetivo. O 'than' só aparece com comparativos como 'more beautiful than'. Portanto, a resposta correta é 'as beautiful AS the one in your city.'"
+      },
+      {
+        "id": "te2m54",
+        "topic": "As...As",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "My city is as bigger as your city.",
+          "My city is as big than your city.",
+          "My city is as big as your city.",
+          "My city is big as as your city."
+        ],
+        "correct": 2,
+        "explanation": "A estrutura certa é 'as + adjetivo na forma normal + as', nessa ordem. Portanto, a resposta correta é 'My city is as big as your city.'"
+      },
+      {
+        "id": "te2m55",
+        "topic": "Would Rather",
+        "question": "_____ you rather have a cat or a parrot?",
+        "options": [
+          "Do",
+          "Would",
+          "Are",
+          "Will"
+        ],
+        "correct": 1,
+        "explanation": "Para perguntar o que a pessoa prefere, usamos 'would rather'. A palavra 'rather' anda sempre junto com 'would'. Portanto, a resposta correta é 'WOULD you rather have a cat or a parrot?'"
+      },
+      {
+        "id": "te2m56",
+        "topic": "Would Rather",
+        "question": "We would rather visit the aquarium _____ the zoo.",
+        "options": [
+          "that",
+          "than",
+          "then",
+          "as"
+        ],
+        "correct": 1,
+        "explanation": "Quando dizemos que preferimos uma coisa a outra, a estrutura é 'would rather... than...'. É o 'than' que separa as duas opções. Portanto, a resposta correta é 'We would rather visit the aquarium THAN the zoo.'"
+      },
+      {
+        "id": "te2m57",
+        "topic": "Would Rather",
+        "question": "'Would you rather have a dog or a rabbit?' 'I'd rather have a rabbit.' This means the girl _____ rabbits.",
+        "options": [
+          "prefers",
+          "doesn't like",
+          "never sees",
+          "is afraid of"
+        ],
+        "correct": 0,
+        "explanation": "A expressão 'would rather' mostra preferência: entre as duas opções, a pessoa escolhe uma. Portanto, a resposta correta é 'prefers'."
+      },
+      {
+        "id": "te2m58",
+        "topic": "How Much / How Many",
+        "question": "How _____ monkeys can you see in that tree?",
+        "options": [
+          "much",
+          "many",
+          "long",
+          "tall"
+        ],
+        "correct": 1,
+        "explanation": "Para perguntar a quantidade de coisas que dá para contar uma a uma, usamos 'how many'. 'Monkeys' está no plural. Portanto, a resposta correta é 'How MANY monkeys can you see in that tree?'"
+      },
+      {
+        "id": "te2m59",
+        "topic": "How Much / How Many",
+        "question": "How _____ food do you give your dog every day?",
+        "options": [
+          "many",
+          "few",
+          "much",
+          "long"
+        ],
+        "correct": 2,
+        "explanation": "Quando a quantidade é de algo que não se conta em unidades, como comida, usamos 'how much'. A palavra 'food' não tem plural. Portanto, a resposta correta é 'How MUCH food do you give your dog every day?'"
+      },
+      {
+        "id": "te2m60",
+        "topic": "How Much / How Many",
+        "question": "'How much does the ticket to the zoo cost?' This question asks about:",
+        "options": [
+          "the price",
+          "the number of animals",
+          "the time",
+          "the size"
+        ],
+        "correct": 0,
+        "explanation": "A pergunta 'how much does it cost' quer saber quanto uma coisa custa, ou seja, o preço. Portanto, a resposta correta é 'the price'."
       }
     ]
   },
@@ -635,6 +1103,474 @@
         ],
         "correct": 2,
         "explanation": "A pergunta 'how long' quer saber a duração, ou seja, quanto tempo algo levou. A única resposta que fala de tempo de duração é 'two hours'. Portanto, a resposta correta é 'Two hours.'"
+      },
+      {
+        "id": "te2f25",
+        "topic": "Simple Past – Regular Verbs",
+        "question": "We _____ the concert a lot last night.",
+        "options": [
+          "enjoy",
+          "enjoyed",
+          "enjoys",
+          "enjoying"
+        ],
+        "correct": 1,
+        "explanation": "A expressão 'last night' mostra que a frase está no passado. O verbo 'enjoy' é regular e ganha '-ed'. Portanto, a resposta correta é 'We ENJOYED the concert a lot last night.'"
+      },
+      {
+        "id": "te2f26",
+        "topic": "Simple Past – Regular Verbs",
+        "question": "My cousin _____ a new game on his tablet yesterday.",
+        "options": [
+          "download",
+          "downloads",
+          "downloaded",
+          "downloading"
+        ],
+        "correct": 2,
+        "explanation": "A palavra 'yesterday' coloca a frase no passado. Com verbos regulares, o passado se forma acrescentando '-ed'. Portanto, a resposta correta é 'My cousin DOWNLOADED a new game on his tablet yesterday.'"
+      },
+      {
+        "id": "te2f27",
+        "topic": "Simple Past – Regular Verbs",
+        "question": "She _____ the new episode of that series last night.",
+        "options": [
+          "didn't liked",
+          "didn't like",
+          "doesn't liked",
+          "not liked"
+        ],
+        "correct": 1,
+        "explanation": "Na negativa do passado, usamos 'didn't' e o verbo volta para a forma básica, sem '-ed'. O 'didn't' já marca o passado sozinho. Portanto, a resposta correta é 'She DIDN'T LIKE the new episode of that series last night.'"
+      },
+      {
+        "id": "te2f28",
+        "topic": "Simple Past – Regular Verbs",
+        "question": "What time _____ the movie start last night?",
+        "options": [
+          "did",
+          "does",
+          "was",
+          "do"
+        ],
+        "correct": 0,
+        "explanation": "Nas perguntas do passado, usamos 'did' e o verbo principal fica na forma básica, 'start'. A expressão 'last night' mostra que já passou. Portanto, a resposta correta é 'What time DID the movie start last night?'"
+      },
+      {
+        "id": "te2f29",
+        "topic": "Simple Past – Regular Verbs",
+        "question": "We _____ a new online game last Saturday.",
+        "options": [
+          "try",
+          "tryed",
+          "tryied",
+          "tried"
+        ],
+        "correct": 3,
+        "explanation": "Quando o verbo regular termina em consoante mais 'y', o 'y' vira 'i' antes do '-ed'. Assim, 'try' fica 'tried'. Portanto, a resposta correta é 'We TRIED a new online game last Saturday.'"
+      },
+      {
+        "id": "te2f30",
+        "topic": "Simple Past – Regular Verbs",
+        "question": "The music _____ suddenly at the end of the concert yesterday.",
+        "options": [
+          "stopped",
+          "stoped",
+          "stops",
+          "stoping"
+        ],
+        "correct": 0,
+        "explanation": "Alguns verbos regulares dobram a última consoante antes do '-ed', e 'stop' é um deles. A palavra 'yesterday' pede o passado. Portanto, a resposta correta é 'The music STOPPED suddenly at the end of the concert yesterday.'"
+      },
+      {
+        "id": "te2f31",
+        "topic": "Simple Past – Irregular Verbs",
+        "question": "We _____ a poster about recycling yesterday.",
+        "options": [
+          "maked",
+          "made",
+          "make",
+          "makes"
+        ],
+        "correct": 1,
+        "explanation": "O verbo 'make' é irregular, então o passado dele não ganha '-ed': ele muda de forma e vira 'made'. Portanto, a resposta correta é 'We MADE a poster about recycling yesterday.'"
+      },
+      {
+        "id": "te2f32",
+        "topic": "Simple Past – Irregular Verbs",
+        "question": "He _____ the paper in the recycling bin this morning.",
+        "options": [
+          "throw",
+          "throwed",
+          "threw",
+          "throwing"
+        ],
+        "correct": 2,
+        "explanation": "O verbo 'throw' é irregular e no passado vira 'threw'. A forma 'throwed' não existe em inglês. Portanto, a resposta correta é 'He THREW the paper in the recycling bin this morning.'"
+      },
+      {
+        "id": "te2f33",
+        "topic": "Simple Past – Irregular Verbs",
+        "question": "They _____ to the park to collect trash last Sunday.",
+        "options": [
+          "went",
+          "goed",
+          "gone",
+          "go"
+        ],
+        "correct": 0,
+        "explanation": "O verbo 'go' é irregular e o passado dele é 'went'. A expressão 'last Sunday' mostra que a ação já aconteceu. Portanto, a resposta correta é 'They WENT to the park to collect trash last Sunday.'"
+      },
+      {
+        "id": "te2f34",
+        "topic": "Some / Any",
+        "question": "Are there _____ plastic bags in the kitchen?",
+        "options": [
+          "much",
+          "some",
+          "any",
+          "a"
+        ],
+        "correct": 2,
+        "explanation": "Em perguntas, usamos 'any' para falar de uma quantidade que não sabemos. Portanto, a resposta correta é 'Are there ANY plastic bags in the kitchen?'"
+      },
+      {
+        "id": "te2f35",
+        "topic": "Some / Any",
+        "question": "My school collects _____ old batteries every month.",
+        "options": [
+          "some",
+          "any",
+          "much",
+          "a"
+        ],
+        "correct": 0,
+        "explanation": "Em frases afirmativas, usamos 'some' quando não queremos dizer o número exato. O 'any' fica para negativas e perguntas. Portanto, a resposta correta é 'My school collects SOME old batteries every month.'"
+      },
+      {
+        "id": "te2f36",
+        "topic": "Some / Any",
+        "question": "We usually use 'any' in:",
+        "options": [
+          "affirmative sentences",
+          "negative sentences and questions",
+          "short answers",
+          "questions about the weather"
+        ],
+        "correct": 1,
+        "explanation": "O 'any' é a palavra das frases negativas e das perguntas, enquanto o 'some' aparece nas afirmativas. Portanto, a resposta correta é 'negative sentences and questions'."
+      },
+      {
+        "id": "te2f37",
+        "topic": "Possessive Pronouns",
+        "question": "This trumpet isn't mine. It's _____. Paulo plays it every day.",
+        "options": [
+          "he",
+          "his",
+          "him",
+          "hers"
+        ],
+        "correct": 1,
+        "explanation": "Como não há substantivo depois do pronome, usamos a forma possessiva que fica sozinha. Falando de Paulo, essa forma é 'his'. Portanto, a resposta correta é 'It's HIS.'"
+      },
+      {
+        "id": "te2f38",
+        "topic": "Possessive Pronouns",
+        "question": "Those CDs are _____. We bought them together.",
+        "options": [
+          "us",
+          "our",
+          "ours",
+          "we"
+        ],
+        "correct": 2,
+        "explanation": "O pronome está sozinho na frase, sem substantivo depois, então usamos 'ours'. O 'our' precisaria vir acompanhado, como em 'our CDs'. Portanto, a resposta correta é 'Those CDs are OURS.'"
+      },
+      {
+        "id": "te2f39",
+        "topic": "Possessive Pronouns",
+        "question": "My guitar is old. _____ is new.",
+        "options": [
+          "Yours",
+          "Your",
+          "You",
+          "You're"
+        ],
+        "correct": 0,
+        "explanation": "Aqui o pronome faz o papel de 'your guitar' sozinho, sem repetir o substantivo, e a forma para isso é 'yours'. Portanto, a resposta correta é 'YOURS is new.'"
+      },
+      {
+        "id": "te2f40",
+        "topic": "Possessive Pronouns",
+        "question": "That is _____ piano. We play it every day.",
+        "options": [
+          "ours",
+          "our",
+          "us",
+          "we"
+        ],
+        "correct": 1,
+        "explanation": "Quando o substantivo aparece logo depois, usamos a forma que acompanha, 'our piano'. A forma 'ours' só fica bem quando está sozinha. Portanto, a resposta correta é 'That is OUR piano.'"
+      },
+      {
+        "id": "te2f41",
+        "topic": "Possessive Pronouns",
+        "question": "Choose the correct sentence.",
+        "options": [
+          "This guitar is my.",
+          "This guitar is mines.",
+          "This guitar is mine.",
+          "This guitar is me."
+        ],
+        "correct": 2,
+        "explanation": "Sem substantivo depois, o pronome possessivo certo é 'mine', que nunca ganha '-s'. Portanto, a resposta correta é 'This guitar is mine.'"
+      },
+      {
+        "id": "te2f42",
+        "topic": "Possessive Pronouns",
+        "question": "These instruments are ours, and those are _____.",
+        "options": [
+          "their",
+          "them",
+          "they",
+          "theirs"
+        ],
+        "correct": 3,
+        "explanation": "O pronome fecha a frase sozinho, sem substantivo depois, então usamos 'theirs'. O 'their' pede um substantivo junto, como 'their instruments'. Portanto, a resposta correta é 'those are THEIRS.'"
+      },
+      {
+        "id": "te2f43",
+        "topic": "Past Continuous",
+        "question": "We _____ wearing our helmets when we fell off our bikes.",
+        "options": [
+          "was",
+          "were",
+          "are",
+          "did"
+        ],
+        "correct": 1,
+        "explanation": "O past continuous mostra o que estava acontecendo quando outra coisa aconteceu. Com 'we', a forma do verbo to be no passado é 'were'. Portanto, a resposta correta é 'We WERE wearing our helmets when we fell off our bikes.'"
+      },
+      {
+        "id": "te2f44",
+        "topic": "Past Continuous",
+        "question": "He _____ running in the park when he hurt his knee.",
+        "options": [
+          "is",
+          "were",
+          "did",
+          "was"
+        ],
+        "correct": 3,
+        "explanation": "A ação estava em andamento no passado, então usamos o verbo to be no passado com o verbo em '-ing'. Com 'he', a forma certa é 'was'. Portanto, a resposta correta é 'He WAS running in the park when he hurt his knee.'"
+      },
+      {
+        "id": "te2f45",
+        "topic": "Past Continuous",
+        "question": "They were _____ their skateboards in the park.",
+        "options": [
+          "ride",
+          "rode",
+          "riding",
+          "rides"
+        ],
+        "correct": 2,
+        "explanation": "Depois de 'was' ou 'were', o verbo principal ganha '-ing'. É essa dupla que forma o past continuous. Portanto, a resposta correta é 'They were RIDING their skateboards in the park.'"
+      },
+      {
+        "id": "te2f46",
+        "topic": "Past Continuous",
+        "question": "I _____ paying attention, so I dropped my tennis racket.",
+        "options": [
+          "weren't",
+          "wasn't",
+          "didn't",
+          "am not"
+        ],
+        "correct": 1,
+        "explanation": "Na negativa do past continuous, a negação vai no verbo to be. Com 'I', a forma é 'wasn't' seguida do verbo em '-ing'. Portanto, a resposta correta é 'I WASN'T paying attention.'"
+      },
+      {
+        "id": "te2f47",
+        "topic": "Past Continuous",
+        "question": "_____ she wearing knee pads when she fell?",
+        "options": [
+          "Did",
+          "Was",
+          "Were",
+          "Does"
+        ],
+        "correct": 1,
+        "explanation": "Na pergunta do past continuous, o verbo to be no passado vai para o começo da frase. Com 'she', usamos 'was'. Portanto, a resposta correta é 'WAS she wearing knee pads when she fell?'"
+      },
+      {
+        "id": "te2f48",
+        "topic": "Past Continuous",
+        "question": "'I was playing volleyball when I hurt my finger.' The past continuous shows:",
+        "options": [
+          "an action that was in progress",
+          "an action that will happen",
+          "something we do every day",
+          "a plan for tomorrow"
+        ],
+        "correct": 0,
+        "explanation": "O past continuous mostra uma ação que já estava rolando quando outra coisa aconteceu no meio. Portanto, a resposta correta é 'an action that was in progress'."
+      },
+      {
+        "id": "te2f49",
+        "topic": "Was / Were Going To",
+        "question": "My mom _____ going to sell her old books, but she gave them to the library.",
+        "options": [
+          "were",
+          "was",
+          "is",
+          "did"
+        ],
+        "correct": 1,
+        "explanation": "Usamos 'was/were going to' para um plano do passado que acabou mudando. Com 'my mom', que é uma pessoa só, a forma certa é 'was'. Portanto, a resposta correta é 'My mom WAS going to sell her old books.'"
+      },
+      {
+        "id": "te2f50",
+        "topic": "Was / Were Going To",
+        "question": "We _____ going to put a price on every toy, but we didn't have enough stickers.",
+        "options": [
+          "are",
+          "was",
+          "were",
+          "will"
+        ],
+        "correct": 2,
+        "explanation": "O plano era do passado e não deu certo, então usamos 'was/were going to'. Com 'we', a forma do verbo to be é 'were'. Portanto, a resposta correta é 'We WERE going to put a price on every toy.'"
+      },
+      {
+        "id": "te2f51",
+        "topic": "Was / Were Going To",
+        "question": "They were going to _____ a yard sale last Saturday.",
+        "options": [
+          "have",
+          "had",
+          "having",
+          "has"
+        ],
+        "correct": 0,
+        "explanation": "Depois de 'going to', o verbo fica sempre na forma básica, sem '-ing' e sem passado. Portanto, a resposta correta é 'They were going to HAVE a yard sale last Saturday.'"
+      },
+      {
+        "id": "te2f52",
+        "topic": "Was / Were Going To",
+        "question": "We _____ going to sell the old sofa, because it was my grandma's.",
+        "options": [
+          "wasn't",
+          "weren't",
+          "didn't",
+          "aren't"
+        ],
+        "correct": 1,
+        "explanation": "Na negativa, a negação vai no verbo to be no passado. Com 'we', a forma certa é 'weren't going to'. Portanto, a resposta correta é 'We WEREN'T going to sell the old sofa.'"
+      },
+      {
+        "id": "te2f53",
+        "topic": "Was / Were Going To",
+        "question": "_____ you going to buy that guitar at the yard sale?",
+        "options": [
+          "Did",
+          "Do",
+          "Were",
+          "Was"
+        ],
+        "correct": 2,
+        "explanation": "Na pergunta, o verbo to be no passado abre a frase, antes do sujeito. Com 'you', usamos 'were'. Portanto, a resposta correta é 'WERE you going to buy that guitar at the yard sale?'"
+      },
+      {
+        "id": "te2f54",
+        "topic": "Was / Were Going To",
+        "question": "'She was going to pay with a five-dollar bill, but she used coins.' This means she _____ pay with the bill.",
+        "options": [
+          "didn't",
+          "did",
+          "always",
+          "will"
+        ],
+        "correct": 0,
+        "explanation": "A estrutura 'was going to' fala de um plano que não se realizou: ela pensou em usar a nota, mas pagou com moedas. Portanto, a resposta correta é 'This means she DIDN'T pay with the bill.'"
+      },
+      {
+        "id": "te2f55",
+        "topic": "Tag Questions",
+        "question": "You aren't afraid of flying, _____?",
+        "options": [
+          "are you",
+          "aren't you",
+          "do you",
+          "don't you"
+        ],
+        "correct": 0,
+        "explanation": "A tag question inverte o sinal da frase. Como a frase é negativa e usa 'aren't', a tag fica afirmativa com o mesmo verbo. Portanto, a resposta correta é 'You aren't afraid of flying, ARE YOU?'"
+      },
+      {
+        "id": "te2f56",
+        "topic": "Tag Questions",
+        "question": "The hotel was near the beach, _____?",
+        "options": [
+          "was it",
+          "didn't it",
+          "wasn't it",
+          "isn't it"
+        ],
+        "correct": 2,
+        "explanation": "A frase é afirmativa e usa 'was', então a tag repete o mesmo verbo na forma negativa e no mesmo tempo. Portanto, a resposta correta é 'The hotel was near the beach, WASN'T IT?'"
+      },
+      {
+        "id": "te2f57",
+        "topic": "Tag Questions",
+        "question": "She doesn't like camping, _____?",
+        "options": [
+          "does she",
+          "doesn't she",
+          "is she",
+          "did she"
+        ],
+        "correct": 0,
+        "explanation": "Quando a frase é negativa, a tag fica afirmativa, com o mesmo auxiliar e o mesmo tempo da frase. Portanto, a resposta correta é 'She doesn't like camping, DOES SHE?'"
+      },
+      {
+        "id": "te2f58",
+        "topic": "How Long",
+        "question": "How _____ was your vacation? It was two weeks.",
+        "options": [
+          "much",
+          "long",
+          "many",
+          "old"
+        ],
+        "correct": 1,
+        "explanation": "Para perguntar a duração de algo, quanto tempo durou, usamos 'how long'. A resposta fala de duas semanas, que é tempo. Portanto, a resposta correta é 'How LONG was your vacation?'"
+      },
+      {
+        "id": "te2f59",
+        "topic": "How Long",
+        "question": "Which question asks about time?",
+        "options": [
+          "How much is the ticket?",
+          "How many bags do you have?",
+          "How long is the trip?",
+          "How far is the hotel?"
+        ],
+        "correct": 2,
+        "explanation": "A expressão 'how long' é a que pergunta a duração, ou seja, quanto tempo algo leva. Portanto, a resposta correta é 'How long is the trip?'"
+      },
+      {
+        "id": "te2f60",
+        "topic": "How Long",
+        "question": "How long _____ your parents going to travel?",
+        "options": [
+          "are",
+          "is",
+          "do",
+          "did"
+        ],
+        "correct": 0,
+        "explanation": "Depois de 'how long' vem o verbo to be, que combina com o sujeito. Como 'your parents' está no plural e o plano é futuro, usamos 'are going to'. Portanto, a resposta correta é 'How long ARE your parents going to travel?'"
       }
     ]
   }

@@ -1289,8 +1289,13 @@ function bookKeyFromCard(nome) {
 }
 /* Escada do curso, na ordem em que o aluno avança. Trilhas diferentes não se
    comparam: quem está em Inmediato não alcança o conteúdo de inglês, e
-   vice-versa. Kids e teens não têm Quick Practice e caem na mensagem de
-   "ainda não está disponível", que é o comportamento seguro. */
+   vice-versa. Livro fora de qualquer escada (ou degrau fantasma sem nenhum
+   banco antes dele) cai na mensagem de "ainda não está disponível", que é o
+   comportamento seguro: não expõe o conteúdo de outro estágio.
+   ⚠️ Até 15/08/2026 este comentário dizia que "kids e teens não têm Quick
+   Practice", e isso deixou de ser verdade no mesmo dia em que as trilhas
+   teens entraram aqui embaixo. Quem tem banco hoje: os sete de inglês, os
+   três Inmediato, os dois Teens Connect e o Teens Elementary 2. */
 const ESCADA_QP = {
   ingles:   ['essentials1', 'essentials2', 'transitions1', 'transitions2', 'fluency1', 'fluency2', 'infocus'],
   espanhol: ['inmediato1', 'inmediato2', 'inmediato3'],
@@ -1558,29 +1563,41 @@ const LESSON_MAP = {
      (decoupagens em "TABELA DE CONTEÚDOS (for reference)"). Intro Lesson = 0,
      como o Before You Start do essentials1. ── */
   teensconnect1: {
-    /* Intro Lesson */ 'Greetings & Introductions': 0, 'Numbers 1–20': 0, 'Alphabet & Spelling': 0, 'Classroom Commands': 0,
-    /* Lesson 1 */ 'Demonstratives: This/That/These/Those': 1, 'To Be – Is/Are': 1, 'Articles: A / An': 1, 'Family & Jobs': 1,
-    /* Lesson 2 */ 'Personal Pronouns': 2, 'Question Word: What': 2, 'School Objects': 2, 'Feelings & Emotions': 2,
-    /* Lesson 3 */ 'To Be – Affirmative / Negative': 3, 'To Be – Questions': 3, 'Question Word: Where': 3, 'Parts of the House': 3,
+    /* Intro Lesson */ 'Greetings & Introductions': 0, 'Numbers 1–20': 0, 'Alphabet & Spelling': 0,
+    'Classroom Commands': 0,
+    /* Lesson 1 */ 'Demonstratives: This/That/These/Those': 1, 'To Be – Is/Are': 1, 'Articles: A / An': 1,
+    'Family & Jobs': 1, 'Question Word: Who': 1,
+    /* Lesson 2 */ 'Personal Pronouns': 2, 'Question Word: What': 2, 'School Objects': 2,
+    'Feelings & Emotions': 2,
+    /* Lesson 3 */ 'To Be – Affirmative / Negative': 3, 'To Be – Questions': 3, 'Question Word: Where': 3,
+    'Parts of the House': 3, 'How Old Are You?': 3,
     /* Lesson 4 */ 'Countries & Nationalities': 4, 'Where...From?': 4, 'Position of Adjectives': 4,
-    /* Lesson 5 */ 'Do You Like...?': 5, 'Likes & Dislikes': 5, 'Prepositions: In / On (Time)': 5, 'Days, Months & Seasons': 5,
+    /* Lesson 5 */ 'Do You Like...?': 5, 'Likes & Dislikes': 5, 'Prepositions: In / On (Time)': 5,
+    'Days, Months & Seasons': 5, 'Question Word: When': 5,
     /* Lesson 6 */ 'Imperatives': 6, 'What Time Is It?': 6, 'Numbers 21–99': 6, 'Daily Routines & Chores': 6,
     /* Lesson 7 */ 'Can – Ability': 7, 'There Is / There Are': 7, 'Prepositions of Location': 7,
-    /* Lesson 8 */ 'Transportation: By / On': 8, 'How Do You Get To...?': 8, 'Places Around Town': 8, 'Means of Transportation': 8,
+    /* Lesson 8 */ 'Transportation: By / On': 8, 'How Do You Get To...?': 8, 'Places Around Town': 8,
+    'Means of Transportation': 8,
     /* Lesson 9 */ 'Present Continuous': 9, 'Possessive Adjectives': 9, 'Pets & Actions': 9,
     /* Lesson 10 */ 'How Many': 10, 'Why / Because': 10, 'Clothes': 10,
   },
   teensconnect2: {
-    /* Intro Lesson */ "Can / Can't": 0, 'Prepositions of Place': 0, 'Greetings & Introductions': 0,
-    /* Lesson 1 */ "Simple Present – Does / Doesn't": 1, 'Linking Words – And / But / Or': 1, 'Ordering Food': 1, 'Food Groups': 1,
-    /* Lesson 2 */ 'Simple Present – He/She/It Spelling': 2, 'Parts of the Body': 2, 'Expressions of Disbelief': 2, 'Agreeing & Disagreeing': 2,
-    /* Lesson 3 */ 'Genitive Case': 3, 'Whose': 3, 'Hobbies': 3,
+    /* Intro Lesson */ 'Can / Can\'t': 0, 'Prepositions of Place': 0, 'Greetings & Introductions': 0,
+    'Numbers & the Alphabet': 0,
+    /* Lesson 1 */ 'Simple Present – Does / Doesn\'t': 1, 'Linking Words – And / But / Or': 1,
+    'Ordering Food': 1, 'Food Groups': 1,
+    /* Lesson 2 */ 'Simple Present – He/She/It Spelling': 2, 'Parts of the Body': 2,
+    'Expressions of Disbelief': 2, 'Agreeing & Disagreeing': 2,
+    /* Lesson 3 */ 'Genitive Case': 3, 'Whose': 3, 'Hobbies': 3, 'Showing Interest & Joining In': 3,
     /* Lesson 4 */ 'Should – Advice': 4, 'How Often': 4, 'Linking Words – So / Because': 4, 'Health Problems': 4,
     /* Lesson 5 */ 'Be Going To': 5, 'May – Possibility': 5, 'Vacation Activities': 5,
     /* Lesson 6 */ 'To Be – Past (Was/Were)': 6, 'Field Trip Places': 6, 'Ordinal Numbers': 6,
-    /* Lesson 7 */ 'Past Continuous': 7, 'Wild Animals': 7, "Saying You Don't Like": 7,
+    'Making Statements & Guesses': 6,
+    /* Lesson 7 */ 'Past Continuous': 7, 'Wild Animals': 7, 'Saying You Don\'t Like': 7, 'Describing Animals': 7,
     /* Lesson 8 */ 'Possessive Pronouns': 8, 'Holidays & Celebrations': 8, 'Dates': 8,
+    'Ordinal Numbers – 10th to 100th': 8,
     /* Lesson 9 */ 'There Was / There Were': 9, 'Places Around the City': 9, 'Giving Directions': 9,
+    'Giving Suggestions & Showing Disappointment': 9,
     /* Lesson 10 */ 'Objective Pronouns': 10, 'Irregular Plural': 10, 'School Subjects': 10, 'Would Rather': 10,
   },
   teenselementary2: {

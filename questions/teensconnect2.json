@@ -785,6 +785,396 @@
         ],
         "correct": 0,
         "explanation": "Trabalhar nas férias para ganhar dinheiro é 'get a summer job'. As outras opções não têm relação com trabalho. Portanto, a resposta correta é 'GET A SUMMER JOB'."
+      },
+      {
+        "id": "tc2m61",
+        "topic": "Can / Can't",
+        "question": "My baby brother is only two years old. He _____ read.",
+        "options": [
+          "cans",
+          "can't",
+          "can to",
+          "don't can"
+        ],
+        "correct": 1,
+        "explanation": "Quando queremos dizer que alguém não consegue fazer algo, usamos 'can't' e o verbo na forma básica. Formas como 'cans' e 'can to' não existem em inglês. Portanto, a resposta correta é 'He CAN'T read.'"
+      },
+      {
+        "id": "tc2m62",
+        "topic": "Can / Can't",
+        "question": "_____ your sister ride a bike? — Yes, she can.",
+        "options": [
+          "Does",
+          "Is",
+          "Do",
+          "Can"
+        ],
+        "correct": 3,
+        "explanation": "A resposta 'Yes, she can' mostra que a pergunta é sobre habilidade, e perguntas de habilidade começam com 'Can'. Portanto, a resposta correta é 'CAN your sister ride a bike?'"
+      },
+      {
+        "id": "tc2m63",
+        "topic": "Can / Can't",
+        "question": "Fish can swim, but they _____ walk.",
+        "options": [
+          "can't",
+          "don't can",
+          "can",
+          "aren't"
+        ],
+        "correct": 0,
+        "explanation": "Os peixes nadam, mas não conseguem andar, e a habilidade que falta é marcada com 'can't' antes do verbo. Portanto, a resposta correta é 'they CAN'T walk'."
+      },
+      {
+        "id": "tc2m64",
+        "topic": "Prepositions of Place",
+        "question": "The cat is sleeping _____ the sofa and the TV.",
+        "options": [
+          "under",
+          "between",
+          "on",
+          "behind"
+        ],
+        "correct": 1,
+        "explanation": "Quando alguma coisa fica no meio de duas outras, usamos 'between'. Neste caso, o gato está no meio do sofá e da TV. Portanto, a resposta correta é 'BETWEEN the sofa and the TV'."
+      },
+      {
+        "id": "tc2m65",
+        "topic": "Prepositions of Place",
+        "question": "My pencils are _____ my pencil case.",
+        "options": [
+          "between",
+          "under",
+          "in",
+          "behind"
+        ],
+        "correct": 2,
+        "explanation": "Quando alguma coisa está dentro de outra, usamos 'in'. Os lápis estão dentro do estojo. Portanto, a resposta correta é 'IN my pencil case'."
+      },
+      {
+        "id": "tc2m66",
+        "topic": "Greetings & Introductions",
+        "question": "You meet your friend at school in the morning. You say:",
+        "options": [
+          "Good night!",
+          "Hey! What's up?",
+          "Here you are.",
+          "You're welcome."
+        ],
+        "correct": 1,
+        "explanation": "Para cumprimentar um amigo de um jeito informal, usamos 'Hey! What's up?'. 'Good night' é despedida da noite e as outras frases servem para entregar algo ou responder a um agradecimento. Portanto, a resposta correta é 'HEY! WHAT'S UP?'"
+      },
+      {
+        "id": "tc2m67",
+        "topic": "Greetings & Introductions",
+        "question": "Your new classmate asks: 'What's your name?' You answer:",
+        "options": [
+          "I am ten years old.",
+          "I am fine, thank you.",
+          "My name is Bianca.",
+          "I study at Fisk."
+        ],
+        "correct": 2,
+        "explanation": "A pergunta é sobre o nome, e o nome se diz com 'My name is…'. As outras respostas falam da idade, de como você está e de onde estuda. Portanto, a resposta correta é 'MY NAME IS Bianca.'"
+      },
+      {
+        "id": "tc2m68",
+        "topic": "Numbers & the Alphabet",
+        "question": "How do you say the number 13?",
+        "options": [
+          "thirty",
+          "three",
+          "thirteen",
+          "thirtieth"
+        ],
+        "correct": 2,
+        "explanation": "O número 13 é 'thirteen'. Cuidado para não confundir com 'thirty', que é 30, nem com 'three', que é 3. Portanto, a resposta correta é 'THIRTEEN'."
+      },
+      {
+        "id": "tc2m69",
+        "topic": "Numbers & the Alphabet",
+        "question": "Which letter comes after 'M' in the alphabet?",
+        "options": [
+          "L",
+          "N",
+          "O",
+          "P"
+        ],
+        "correct": 1,
+        "explanation": "No alfabeto, a ordem das letras é L, M, N, O, P. Logo depois do 'M' vem o 'N'. Portanto, a resposta correta é 'N'."
+      },
+      {
+        "id": "tc2m70",
+        "topic": "Numbers & the Alphabet",
+        "question": "Sara says: 'My name is Kim. K-I-M.' She is _____ her name.",
+        "options": [
+          "counting",
+          "spelling",
+          "reading",
+          "drawing"
+        ],
+        "correct": 1,
+        "explanation": "Quando dizemos as letras de uma palavra uma por uma, estamos soletrando, e soletrar em inglês é 'spelling'. Portanto, a resposta correta é 'She is SPELLING her name.'"
+      },
+      {
+        "id": "tc2m71",
+        "topic": "Simple Present – Does / Doesn't",
+        "question": "_____ your parents like fish? — Yes, they do.",
+        "options": [
+          "Does",
+          "Do",
+          "Is",
+          "Are"
+        ],
+        "correct": 1,
+        "explanation": "Usamos 'does' só com 'he', 'she' e 'it'. Como 'your parents' são várias pessoas, ou seja, 'they', a pergunta começa com 'do', e a resposta curta confirma isso. Portanto, a resposta correta é 'DO your parents like fish?'"
+      },
+      {
+        "id": "tc2m72",
+        "topic": "Linking Words – And / But / Or",
+        "question": "My mom drinks coffee, _____ she doesn't like tea.",
+        "options": [
+          "and",
+          "or",
+          "but",
+          "so"
+        ],
+        "correct": 2,
+        "explanation": "Quando a segunda ideia vai no sentido contrário da primeira, usamos 'but'. A mãe toma café, mas não gosta de chá. Portanto, a resposta correta é 'BUT she doesn't like tea'."
+      },
+      {
+        "id": "tc2m73",
+        "topic": "Ordering Food",
+        "question": "The waiter asks: 'Anything else I can get you?' You don't want anything else. You answer:",
+        "options": [
+          "No, thank you.",
+          "Here you are.",
+          "Whose pizza is this?",
+          "Long time no see!"
+        ],
+        "correct": 0,
+        "explanation": "Quando o garçom pergunta se você quer mais alguma coisa e você não quer, a resposta educada é 'No, thank you'. Portanto, a resposta correta é 'NO, THANK YOU.'"
+      },
+      {
+        "id": "tc2m74",
+        "topic": "Food Groups",
+        "question": "Milk, cheese and yogurt are in the _____ group.",
+        "options": [
+          "protein",
+          "grains",
+          "fruit",
+          "dairy"
+        ],
+        "correct": 3,
+        "explanation": "Leite, queijo e iogurte vêm do leite e formam o grupo dos laticínios, que em inglês é 'dairy'. Portanto, a resposta correta é 'the DAIRY group'."
+      },
+      {
+        "id": "tc2m75",
+        "topic": "Simple Present – He/She/It Spelling",
+        "question": "My baby sister _____ a lot when she is hungry.",
+        "options": [
+          "crys",
+          "cry",
+          "cries",
+          "cryes"
+        ],
+        "correct": 2,
+        "explanation": "Quando o verbo termina em consoante mais 'y', para 'he', 'she' ou 'it' o 'y' vira 'ie' antes do 's': 'cry' vira 'cries'. Portanto, a resposta correta é 'My baby sister CRIES a lot.'"
+      },
+      {
+        "id": "tc2m76",
+        "topic": "Parts of the Body",
+        "question": "You wear a watch on your _____.",
+        "options": [
+          "knee",
+          "wrist",
+          "eyebrow",
+          "neck"
+        ],
+        "correct": 1,
+        "explanation": "O relógio fica no pulso, que em inglês é 'wrist'. 'Knee' é joelho, 'eyebrow' é sobrancelha e 'neck' é pescoço. Portanto, a resposta correta é 'WRIST'."
+      },
+      {
+        "id": "tc2m77",
+        "topic": "Expressions of Disbelief",
+        "question": "Your friend says: 'My dog can open the door!' You can't believe it. You say:",
+        "options": [
+          "You're welcome.",
+          "See you later.",
+          "Are you kidding?",
+          "I think so too."
+        ],
+        "correct": 2,
+        "explanation": "Quando ouvimos algo surpreendente e não acreditamos, usamos 'Are you kidding?', que é como perguntar 'Você está brincando?'. Portanto, a resposta correta é 'ARE YOU KIDDING?'"
+      },
+      {
+        "id": "tc2m78",
+        "topic": "Agreeing & Disagreeing",
+        "question": "Nina says: 'Our teacher is very funny.' You agree completely. You say:",
+        "options": [
+          "Absolutely!",
+          "I don't think so.",
+          "I don't agree with you.",
+          "Are you kidding?"
+        ],
+        "correct": 0,
+        "explanation": "Para concordar de forma bem forte, dizemos 'Absolutely!'. As outras frases servem para discordar ou para mostrar surpresa. Portanto, a resposta correta é 'ABSOLUTELY!'"
+      },
+      {
+        "id": "tc2m79",
+        "topic": "Genitive Case",
+        "question": "My _____ hobby is baking. She makes great cakes.",
+        "options": [
+          "sisters",
+          "sister's",
+          "sisters'",
+          "sister"
+        ],
+        "correct": 1,
+        "explanation": "O hobby é de uma irmã só, e a dona vem com apóstrofo mais 's'. A forma 'sisters'' seria de várias irmãs. Portanto, a resposta correta é 'My SISTER'S hobby is baking.'"
+      },
+      {
+        "id": "tc2m80",
+        "topic": "Showing Interest & Joining In",
+        "question": "Your friend tells you about her new hobby and you want to show interest. You say:",
+        "options": [
+          "Sorry to hear that.",
+          "What's the matter?",
+          "That's really cool!",
+          "No, thank you."
+        ],
+        "correct": 2,
+        "explanation": "Para mostrar interesse no que o outro conta, usamos 'That's really cool!' ou 'That's awesome!'. As outras frases servem para más notícias ou para recusar algo. Portanto, a resposta correta é 'THAT'S REALLY COOL!'"
+      },
+      {
+        "id": "tc2m81",
+        "topic": "Showing Interest & Joining In",
+        "question": "Beto says: 'Let's do a fund raising event at school!' You want to participate. You say:",
+        "options": [
+          "I'm in!",
+          "I don't think so.",
+          "No way!",
+          "Not today."
+        ],
+        "correct": 0,
+        "explanation": "Para dizer que você entra na ideia, usamos 'I'm in!'. As outras respostas mostram que a pessoa não quer participar. Portanto, a resposta correta é 'I'M IN!'"
+      },
+      {
+        "id": "tc2m82",
+        "topic": "Showing Interest & Joining In",
+        "question": "Ana invites you to the talent show. Which answer means you will take part?",
+        "options": [
+          "Maybe tomorrow.",
+          "No, thanks.",
+          "I don't want to.",
+          "OK. Let's do it!"
+        ],
+        "correct": 3,
+        "explanation": "Para dizer que você vai participar, usamos 'OK. Let's do it!', 'I'm in' ou 'Count me in'. As outras respostas adiam ou recusam o convite. Portanto, a resposta correta é 'OK. LET'S DO IT!'"
+      },
+      {
+        "id": "tc2m83",
+        "topic": "Should – Advice",
+        "question": "Ana has a sore throat. Which advice is good for her?",
+        "options": [
+          "You should sing very loud.",
+          "You should drink warm tea.",
+          "You should eat ice cream all day.",
+          "You should play in the rain."
+        ],
+        "correct": 1,
+        "explanation": "Para dor de garganta, o conselho que ajuda é beber algo quente, como um chá. As outras opções só pioram a garganta. Portanto, a resposta correta é 'You should drink warm tea.'"
+      },
+      {
+        "id": "tc2m84",
+        "topic": "How Often",
+        "question": "How often do you go to the dentist? — _____",
+        "options": [
+          "At the dentist.",
+          "Yes, I do.",
+          "Twice a year.",
+          "Very well."
+        ],
+        "correct": 2,
+        "explanation": "A pergunta com 'How often' pede uma frequência, e 'twice a year' quer dizer duas vezes por ano. As outras respostas falam de lugar ou não respondem à pergunta. Portanto, a resposta correta é 'TWICE A YEAR.'"
+      },
+      {
+        "id": "tc2m85",
+        "topic": "Linking Words – So / Because",
+        "question": "Leo is very tired, _____ he wants to sleep now.",
+        "options": [
+          "because",
+          "but",
+          "so",
+          "or"
+        ],
+        "correct": 2,
+        "explanation": "Quando a segunda parte é a consequência da primeira, usamos 'so'. Ele está cansado e o resultado é querer dormir. Portanto, a resposta correta é 'SO he wants to sleep now'."
+      },
+      {
+        "id": "tc2m86",
+        "topic": "Health Problems",
+        "question": "Mia has a fever, a cough and a headache. She has _____.",
+        "options": [
+          "a stiff neck",
+          "the flu",
+          "a backache",
+          "a toothache"
+        ],
+        "correct": 1,
+        "explanation": "Febre, tosse e dor de cabeça juntas são sinais de gripe, que em inglês é 'the flu'. As outras opções são dores em uma parte só do corpo. Portanto, a resposta correta é 'THE FLU'."
+      },
+      {
+        "id": "tc2m87",
+        "topic": "Be Going To",
+        "question": "My parents _____ going to travel this year. They are going to stay home.",
+        "options": [
+          "isn't",
+          "don't",
+          "weren't",
+          "aren't"
+        ],
+        "correct": 3,
+        "explanation": "A negativa do 'going to' é feita no verbo 'be', e 'my parents' é 'they', que pede 'are'. A forma negativa fica 'aren't'. Portanto, a resposta correta é 'My parents AREN'T going to travel this year.'"
+      },
+      {
+        "id": "tc2m88",
+        "topic": "May – Possibility",
+        "question": "It's cloudy, so we _____ stay at home this afternoon. We are not sure yet.",
+        "options": [
+          "may",
+          "are",
+          "do",
+          "were"
+        ],
+        "correct": 0,
+        "explanation": "Quando ainda não temos certeza, usamos 'may' e o verbo na forma básica. A própria frase diz que a decisão não está tomada. Portanto, a resposta correta é 'we MAY stay at home this afternoon'."
+      },
+      {
+        "id": "tc2m89",
+        "topic": "Vacation Activities",
+        "question": "On vacation, Julia wants to make videos for the internet. She is going to _____.",
+        "options": [
+          "do a digital detox",
+          "become a content creator",
+          "rest",
+          "fish in the countryside"
+        ],
+        "correct": 1,
+        "explanation": "Quem faz vídeos para a internet vira criador de conteúdo, que em inglês é 'become a content creator'. Portanto, a resposta correta é 'BECOME A CONTENT CREATOR'."
+      },
+      {
+        "id": "tc2m90",
+        "topic": "Vacation Activities",
+        "question": "Rafa is going to _____ with his friends at the mall on Saturday.",
+        "options": [
+          "travel",
+          "fish",
+          "hang out",
+          "read books"
+        ],
+        "correct": 2,
+        "explanation": "Passar um tempo junto com os amigos, sem compromisso, é 'hang out'. As outras opções não combinam com estar no shopping com os amigos. Portanto, a resposta correta é 'HANG OUT with his friends'."
       }
     ]
   },
@@ -1571,6 +1961,201 @@
         ],
         "correct": 0,
         "explanation": "Quando perguntamos qual das duas opções a pessoa prefere, usamos 'Would you rather… or…?'. A resposta usa 'I'd rather', que é 'I would rather'. Portanto, a resposta correta é 'WOULD you rather play soccer or video games?'"
+      },
+      {
+        "id": "tc2f61",
+        "topic": "Making Statements & Guesses",
+        "question": "Your friend says: 'Our class is going to the aquarium on Friday.' You answer:",
+        "options": [
+          "That sounds like fun!",
+          "Sorry to hear that.",
+          "What's the matter?",
+          "No, thank you."
+        ],
+        "correct": 0,
+        "explanation": "Quando alguém conta um plano legal, reagimos com 'That sounds like fun!'. As outras frases servem para más notícias ou para recusar algo. Portanto, a resposta correta é 'THAT SOUNDS LIKE FUN!'"
+      },
+      {
+        "id": "tc2f62",
+        "topic": "Making Statements & Guesses",
+        "question": "The teacher asks a difficult question and you don't know the answer. You say:",
+        "options": [
+          "I totally agree.",
+          "Count me in.",
+          "I'm not sure.",
+          "That's true."
+        ],
+        "correct": 2,
+        "explanation": "Quando não temos certeza da resposta, dizemos 'I'm not sure'. As outras frases servem para concordar ou para aceitar um convite. Portanto, a resposta correta é 'I'M NOT SURE.'"
+      },
+      {
+        "id": "tc2f63",
+        "topic": "Making Statements & Guesses",
+        "question": "Look at that big round building. It _____ be the planetarium.",
+        "options": [
+          "does",
+          "may",
+          "were",
+          "is going"
+        ],
+        "correct": 1,
+        "explanation": "Quando fazemos um palpite, sem certeza, usamos 'may' e o verbo na forma básica. A pessoa está só imaginando qual é o prédio. Portanto, a resposta correta é 'It MAY BE the planetarium.'"
+      },
+      {
+        "id": "tc2f64",
+        "topic": "Describing Animals",
+        "question": "A bear has thick _____ on its body to stay warm.",
+        "options": [
+          "stripes",
+          "teeth",
+          "fur",
+          "spots"
+        ],
+        "correct": 2,
+        "explanation": "O pelo que cobre o corpo de alguns animais e os deixa aquecidos é 'fur'. 'Stripes' são listras e 'spots' são manchas. Portanto, a resposta correta é 'thick FUR'."
+      },
+      {
+        "id": "tc2f65",
+        "topic": "Describing Animals",
+        "question": "A monkey uses its long _____ to hold on to the branches.",
+        "options": [
+          "tail",
+          "ear",
+          "paw",
+          "trunk"
+        ],
+        "correct": 0,
+        "explanation": "A parte comprida que o macaco usa para se segurar nos galhos é o rabo, que em inglês é 'tail'. 'Trunk' é a tromba do elefante. Portanto, a resposta correta é 'its long TAIL'."
+      },
+      {
+        "id": "tc2f66",
+        "topic": "Describing Animals",
+        "question": "The elephant is very _____. It can carry heavy things.",
+        "options": [
+          "slow",
+          "small",
+          "playful",
+          "strong"
+        ],
+        "correct": 3,
+        "explanation": "Quem consegue carregar coisas pesadas é forte, e forte em inglês é 'strong'. As outras palavras não explicam essa força. Portanto, a resposta correta é 'The elephant is very STRONG.'"
+      },
+      {
+        "id": "tc2f67",
+        "topic": "Ordinal Numbers – 10th to 100th",
+        "question": "Halloween is on October _____.",
+        "options": [
+          "thirty-one",
+          "thirty-first",
+          "thirtieth-one",
+          "thirty-oneth"
+        ],
+        "correct": 1,
+        "explanation": "Nas datas, o dia é dito com número ordinal, e o ordinal de 31 é 'thirty-first'. Portanto, a resposta correta é 'Halloween is on October THIRTY-FIRST.'"
+      },
+      {
+        "id": "tc2f68",
+        "topic": "Ordinal Numbers – 10th to 100th",
+        "question": "December is the _____ month of the year.",
+        "options": [
+          "twelve",
+          "twelveth",
+          "twentieth",
+          "twelfth"
+        ],
+        "correct": 3,
+        "explanation": "O ordinal de 'twelve' é 'twelfth', com essa mudança na escrita. Cuidado com 'twentieth', que é 20th. Portanto, a resposta correta é 'December is the TWELFTH month of the year.'"
+      },
+      {
+        "id": "tc2f69",
+        "topic": "Ordinal Numbers – 10th to 100th",
+        "question": "Our school is 100 years old this year. We are celebrating its _____ anniversary.",
+        "options": [
+          "hundredth",
+          "hundred",
+          "hundreth",
+          "hundreds"
+        ],
+        "correct": 0,
+        "explanation": "O ordinal de 100 é 'hundredth', escrito com o 'd' antes do 'th'. 'Hundred' é o número normal. Portanto, a resposta correta é 'its HUNDREDTH anniversary'."
+      },
+      {
+        "id": "tc2f70",
+        "topic": "Giving Suggestions & Showing Disappointment",
+        "question": "Your friend doesn't know what to do on Saturday. You give a suggestion. You say:",
+        "options": [
+          "How can I get to the park?",
+          "Why don't you go to the park?",
+          "What a bummer!",
+          "That's too bad."
+        ],
+        "correct": 1,
+        "explanation": "Para sugerir alguma coisa, usamos 'Why don't you…?' ou 'You could…'. A primeira frase pede informação de caminho e as duas últimas mostram decepção. Portanto, a resposta correta é 'WHY DON'T YOU go to the park?'"
+      },
+      {
+        "id": "tc2f71",
+        "topic": "Giving Suggestions & Showing Disappointment",
+        "question": "Pedro says: 'The movie theater is closed today.' You are disappointed. You say:",
+        "options": [
+          "Count me in!",
+          "You're welcome.",
+          "Oh no! That's too bad!",
+          "That sounds like fun!"
+        ],
+        "correct": 2,
+        "explanation": "Quando algo dá errado e ficamos decepcionados, usamos 'Oh no! That's too bad!' ou 'What a bummer!'. As outras frases servem para boas notícias. Portanto, a resposta correta é 'OH NO! THAT'S TOO BAD!'"
+      },
+      {
+        "id": "tc2f72",
+        "topic": "Giving Suggestions & Showing Disappointment",
+        "question": "The stadium is far from here. You _____ take the bus.",
+        "options": [
+          "are",
+          "could",
+          "do",
+          "were"
+        ],
+        "correct": 1,
+        "explanation": "Para sugerir uma ideia de um jeito gentil, usamos 'could' e o verbo na forma básica. Portanto, a resposta correta é 'You COULD take the bus.'"
+      },
+      {
+        "id": "tc2f73",
+        "topic": "Would Rather",
+        "question": "I _____ rather eat pizza than salad.",
+        "options": [
+          "am",
+          "do",
+          "would",
+          "have"
+        ],
+        "correct": 2,
+        "explanation": "Para dizer o que preferimos, usamos 'would rather' e o verbo na forma básica. Na fala, isso costuma virar 'I'd rather'. Portanto, a resposta correta é 'I WOULD rather eat pizza than salad.'"
+      },
+      {
+        "id": "tc2f74",
+        "topic": "Would Rather",
+        "question": "Would you rather watch a movie or read a book? — _____",
+        "options": [
+          "Yes, I would.",
+          "I'd rather watch a movie.",
+          "I rather a movie.",
+          "I'd rather to watch a movie."
+        ],
+        "correct": 1,
+        "explanation": "A pergunta oferece duas opções, então a resposta escolhe uma com 'I'd rather' e o verbo na forma básica, sem 'to'. Portanto, a resposta correta é 'I'D RATHER WATCH a movie.'"
+      },
+      {
+        "id": "tc2f75",
+        "topic": "School Subjects",
+        "question": "In this school subject, you study plants, animals and the human body. It's _____.",
+        "options": [
+          "math",
+          "music",
+          "science",
+          "social studies"
+        ],
+        "correct": 2,
+        "explanation": "A matéria que estuda plantas, animais e o corpo humano é 'science', ciências. 'Social studies' estuda história e sociedade. Portanto, a resposta correta é 'SCIENCE'."
       }
     ]
   }

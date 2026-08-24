@@ -118,8 +118,9 @@ sem erro nenhum.
 
 ## Próximos passos
 
-- **Kids e teens não têm Quick Practice** e caem na mensagem de indisponível.
-  É o comportamento certo hoje, e é também a maior lacuna do catálogo.
+- **Os teens ganharam banco em 15/08/2026** e foram para a régua da casa em
+  22/08 (ver abaixo). Quem segue sem Quick Practice é a trilha **kids**, e essa
+  continua sendo a maior lacuna do catálogo.
 - **O piso de 15 questões por lição** já vale no espanhol. O inglês não foi
   medido com essa régua; vale conferir estágio por estágio.
 - **Nenhum teste automático** cobre o banco. O que existe é o script que confere

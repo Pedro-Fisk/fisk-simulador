@@ -42,8 +42,15 @@ espanhol: Inmediato 1 → Inmediato 2 → Inmediato 3
 ```
 
 O aluno alcança o estágio dele **e os anteriores da mesma trilha** — nunca os
-seguintes, e nunca a outra trilha. Kids e teens não têm Quick Practice e caem na
-mensagem de "ainda não está disponível", que é o comportamento certo.
+seguintes, e nunca a outra trilha. Livro sem banco cai na mensagem de "ainda não
+está disponível", que é o comportamento certo: não expõe o conteúdo de outro
+estágio.
+
+⚠️ **As trilhas teens TÊM Quick Practice desde 15/08/2026** (Teens Connect 1 e 2
+e Teens Elementary 2). Três lugares diziam o contrário até 22/08 — este arquivo,
+o comentário do `ESCADA_QP` e o roadmap. Quem continua sem banco é a trilha kids,
+mais os degraus fantasmas `teensconnect3`, `teensconnect4` e `teenselementary1`,
+que existem na escada só para posicionar o aluno e alcançar os anteriores.
 
 ## In Focus — o último estágio
 
