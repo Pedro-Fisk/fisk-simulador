@@ -1262,7 +1262,25 @@ const BOOKS = {
      Videos no portal)
    - raf: anexado ao resultado enviado à nuvem (histórico do aluno)
 ══════════════════════════════════════════════ */
-const _pq = new URLSearchParams(location.search);
+/* ⚠️ A IDENTIDADE VEM DO FRAGMENTO (#raf=&nome=), não da query (01/09/2026).
+   Este repositório é servido pelo GitHub Pages, que é DOMÍNIO DE TERCEIRO: com
+   a identidade na query, o RAF e o nome completo de um menor de idade entravam
+   no log de acesso do GitHub e no `Referer` de tudo o que esta página busca
+   depois. Fragmento o navegador nunca envia ao servidor.
+   A query continua sendo lida por compatibilidade: há link antigo em favorito,
+   em atalho de PWA e no Dossiê do professor, e aluno que chegue por um deles
+   não pode perder a identidade — perder identidade aqui é atividade feita que
+   não é registrada, e some calado.
+   Não é criptografia e não vira: o RAF segue legível para quem tem o link. O
+   que muda é ele parar de ser espalhado por servidores que não precisam vê-lo. */
+const _pq = (function(){
+  const p = new URLSearchParams(location.search);
+  /* copia a chave MESMO VAZIA: a presença do `raf` é o sinal de "veio do
+     Portal", e a Direção entra com ele em branco */
+  new URLSearchParams(String(location.hash||'').replace(/^#/,''))
+    .forEach(function(v,k){ p.set(k,v); });
+  return p;
+})();
 const PORTAL_RAF  = (_pq.get('raf')  || '').trim();
 const PORTAL_NOME = (_pq.get('nome') || '').trim();
 const PORTAL_BOOK = (_pq.get('book') || '').trim();
@@ -3000,13 +3018,18 @@ portalPracticeBoot();
      o lugar errado. Quando há RAF, ele vai junto no href, porque a aba sem
      histórico (link colado, PWA aberto do zero) cairia no formulário de login
      do Portal, e o aluno leria isso como ter sido deslogado. */
-  var qsp = new URLSearchParams(location.search);
+  /* ⚠️ LÊ O FRAGMENTO TAMBÉM (01/09/2026). A identidade saiu da query e foi
+     para o `#`; um leitor só-da-query aqui faria `qsp.has('raf')` dar falso e
+     mandaria o ALUNO para a tela de login do PROFESSOR, que é exatamente o
+     defeito que o comentário acima descreve. `_pq`, no topo do arquivo, já
+     junta as duas portas. */
+  var qsp = _pq;
   var raf = (qsp.get('raf') || '').trim();
   ['hub-back', 'hub-back-exam', 'hub-back-quiz', 'hub-back-results', 'logo-home'].forEach(function (id) {
     var el = document.getElementById(id);
     if (!el) return;
     if (qsp.has('raf')) {
-      el.href = 'https://portalfisk.com.br/' + (raf ? '?raf=' + encodeURIComponent(raf) : '');
+      el.href = 'https://portalfisk.com.br/' + (raf ? '#raf=' + encodeURIComponent(raf) : '');
       /* O logo entra por causa do href e do history.back(), mas NUNCA pelo
          texto: reescrever o innerHTML dele apagaria a imagem e deixaria a
          seta escrita no lugar do logo da escola. */

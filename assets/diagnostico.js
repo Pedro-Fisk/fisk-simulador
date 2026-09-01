@@ -97,23 +97,28 @@
   /* A porta do Quick Practice, num lugar so: o botao de UM ponto (aqui embaixo)
      e a fila de revisao (mais abaixo) abrem a mesma tela, e montar a URL duas
      vezes e o jeito conhecido de um dos dois parar de levar o RAF junto. */
+  /* ⚠️ A IDENTIDADE VAI NO FRAGMENTO (#), o conteúdo na query (01/09/2026).
+     Query string chega ao servidor e ao Referer, e o Quick Practice mora no
+     GitHub Pages, domínio de terceiro: o RAF e o nome completo de um menor
+     entravam no log de acesso do GitHub. Fragmento o navegador nunca envia.
+     Vale para os dois lugares que chamam daqui, o botão de UM ponto do painel
+     e a fila da revisão espaçada. */
+  /* ⚠️ Com `aluno` na mão, sai SEMPRE, inclusive com o RAF vazio: as
+     ferramentas usam a presença do `raf` como sinal de "veio do Portal", e é
+     por ele que o botão de voltar aponta para o Portal do Aluno em vez do Fisk
+     Hub. Sem `aluno` nenhum (chamador que não passou), não há o que carimbar. */
+  function identHash(aluno) {
+    if (!aluno) return '';
+    return '#raf=' + encodeURIComponent(aluno.raf || '') +
+           '&nome=' + encodeURIComponent(aluno.nome || '');
+  }
   function urlQp(topicos, estagio, aluno) {
-    var ident = '';
-    if (aluno && aluno.raf) {
-      ident = '&raf=' + encodeURIComponent(aluno.raf) +
-              '&nome=' + encodeURIComponent(aluno.nome || '');
-    }
     return URL_QP + '?book=' + encodeURIComponent(estagio) +
-           '&topicos=' + encodeURIComponent(topicos.join('|')) + ident;
+           '&topicos=' + encodeURIComponent(topicos.join('|')) + identHash(aluno);
   }
 
   function praticar(ponto, estagio, mapa, aluno) {
     if (!mapa) return null;
-    var ident = '';
-    if (aluno && aluno.raf) {
-      ident = '&raf=' + encodeURIComponent(aluno.raf) +
-              '&nome=' + encodeURIComponent(aluno.nome || '');
-    }
     var topico = ponto.topico;
     var chave = mapa.chaveDoNome && mapa.chaveDoNome[estagio];
     var doLivro = chave && mapa.licoes && mapa.licoes[chave] && (topico in mapa.licoes[chave]);
@@ -133,7 +138,7 @@
       }
     }
     if (topico.indexOf('Listening · ') === 0 || topico.indexOf('Reading · ') === 0) {
-      return { onde: 'met', rotulo: 'Treinar no MET', url: URL_MET + '?' + ident.slice(1) };
+      return { onde: 'met', rotulo: 'Treinar no MET', url: URL_MET + identHash(aluno) };
     }
     return null;
   }

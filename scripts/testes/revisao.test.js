@@ -19,8 +19,26 @@ let r = D.revisao({ hoje:HOJE, mapa, estagio:'Transitions 1',
   provas:[ p(dias(1), [{topico:'Simple Past', c:2, q:10}]) ] });
 ok('ponto fraco de ontem entra na fila', r.fila.length===1 && r.fila[0].topico==='Simple Past', r.fila);
 ok('caixa zera quando errou', r.fila[0] && r.fila[0].caixa===0, r.fila[0]);
-ok('a URL leva o topico e o livro',
-   /book=Transitions%201/.test(r.url||'') && /topicos=Simple%20Past/.test(r.url||''), r.url);
+ok('a URL leva o topico e o livro na QUERY',
+   /\?book=Transitions%201/.test(r.url||'') && /topicos=Simple%20Past/.test(r.url||''), r.url);
+/* ⚠️ A IDENTIDADE TEM DE FICAR NO FRAGMENTO. Query string chega ao servidor do
+   GitHub Pages e ao Referer; o `nome` e o nome completo de um menor. Este caso
+   existe para o proximo que mexer na URL nao devolver o raf para a query sem
+   perceber. */
+const comAluno = D.revisao({ hoje:HOJE, mapa, estagio:'Transitions 1', aluno:{raf:'1234-567', nome:'Ana Silva'},
+  provas:[ p(dias(1), [{topico:'Simple Past', c:2, q:10}]) ] });
+const u = comAluno.url || '';
+ok('o raf e o nome vao no fragmento, nunca na query',
+   /#raf=1234-567&nome=Ana%20Silva$/.test(u) && !/[?&]raf=/.test(u.split('#')[0]) && !/[?&]nome=/.test(u.split('#')[0]),
+   u);
+ok('sem objeto `aluno`, nao sobra fragmento', !(r.url||'').includes('#'), r.url);
+/* ⚠️ COM aluno e RAF VAZIO, o carimbo SAI: as ferramentas usam a presenca do
+   `raf` como sinal de "veio do Portal", e e por ele que o botao de voltar leva
+   ao Portal do Aluno em vez do Fisk Hub. A Direcao entra com o RAF em branco. */
+const semRaf = D.revisao({ hoje:HOJE, mapa, estagio:'Transitions 1', aluno:{raf:'', nome:'Direção'},
+  provas:[ p(dias(1), [{topico:'Simple Past', c:2, q:10}]) ] });
+ok('a Direcao (RAF vazio) ainda leva o sinal no fragmento',
+   /#raf=&nome=/.test(semRaf.url||''), semRaf.url);
 
 /* ── 2. mesmo ponto visto HOJE: nao vence ── */
 r = D.revisao({ hoje:HOJE, mapa, estagio:'Transitions 1',
