@@ -1,0 +1,3137 @@
+{
+ "book": "pathways3",
+ "bookName": "Pathways 3",
+ "level": "advanced",
+ "midterm": {
+  "label": "Units 1–5",
+  "topics": "Units 1 to 5: Shopping Psychology, It’s in My DNA, On the Move, People and the Planet, Rise to the Top",
+  "questions": [
+   {
+    "id": "pw3u01v01",
+    "topic": "Shopping Psychology",
+    "question": "The report ______ on three habits that make people spend more than they planned.",
+    "options": [
+     "focused",
+     "relied",
+     "depended",
+     "insisted"
+    ],
+    "correct": 0,
+    "explanation": "To focus on something é concentrar a atenção naquele assunto, que é o que um relatório faz com os temas que escolhe tratar. To rely on e to depend on são precisar de algo para funcionar, e to insist on é bater o pé numa exigência. Portanto, a resposta correta é FOCUSED."
+   },
+   {
+    "id": "pw3u01v02",
+    "topic": "Shopping Psychology",
+    "question": "How much people spend in a store is strongly ______ by the music playing in the background.",
+    "options": [
+     "reacted",
+     "influenced",
+     "assumed",
+     "limited"
+    ],
+    "correct": 1,
+    "explanation": "To be influenced by é sofrer efeito de algo, mesmo sem perceber, e é exatamente o que a música ambiente faz com o gasto do cliente. To react é responder a alguma coisa, não sofrer efeito dela. Portanto, a resposta correta é INFLUENCED."
+   },
+   {
+    "id": "pw3u01v03",
+    "topic": "Shopping Psychology",
+    "question": "I ______ the store would accept returns, but they told me that all sales were final.",
+    "options": [
+     "noticed",
+     "proved",
+     "assumed",
+     "admitted"
+    ],
+    "correct": 2,
+    "explanation": "To assume é dar algo como certo sem ter conferido, e a frase mostra justamente alguém que tomou isso como verdade e se enganou. To notice é perceber algo que está diante de você, e to prove é demonstrar com evidência. Portanto, a resposta correta é ASSUMED."
+   },
+   {
+    "id": "pw3u01v04",
+    "topic": "Shopping Psychology",
+    "question": "Price, quality, and brand are the three ______ that most shoppers weigh before buying.",
+    "options": [
+     "results",
+     "consequences",
+     "shortages",
+     "factors"
+    ],
+    "correct": 3,
+    "explanation": "Factors são os elementos que entram na decisão, aquilo que a pessoa pesa antes de escolher. Results e consequences são o que vem depois da decisão, não o que a produz. Portanto, a resposta correta é FACTORS."
+   },
+   {
+    "id": "pw3u01v05",
+    "topic": "Shopping Psychology",
+    "question": "Buying a house is the largest ______ most people will ever make.",
+    "options": [
+     "purchase",
+     "bargain",
+     "access",
+     "refund"
+    ],
+    "correct": 0,
+    "explanation": "Purchase é a compra em si, aquilo que se adquire pagando, e combina com o verbo make. Bargain seria uma pechincha, algo comprado bem abaixo do preço, o que não é o caso de uma casa cara. Portanto, a resposta correta é PURCHASE."
+   },
+   {
+    "id": "pw3u01v06",
+    "topic": "Shopping Psychology",
+    "question": "The jacket was selling for half its usual price, so Lucas felt he had found a real ______.",
+    "options": [
+     "purchase",
+     "bargain",
+     "budget",
+     "payment"
+    ],
+    "correct": 1,
+    "explanation": "Bargain é a pechincha, o produto que sai bem mais barato do que valeria, e é isso que a metade do preço indica. Purchase seria só a compra, sem dizer nada sobre o preço ser vantajoso. Portanto, a resposta correta é BARGAIN."
+   },
+   {
+    "id": "pw3u01v07",
+    "topic": "Shopping Psychology",
+    "question": "Companies study what ______ want long before they design a new product.",
+    "options": [
+     "commercials",
+     "factors",
+     "consumers",
+     "bargains"
+    ],
+    "correct": 2,
+    "explanation": "Consumers são as pessoas que compram e usam os produtos, e são elas que têm desejos a serem estudados. Commercials são os anúncios de propaganda, que não querem nada. Portanto, a resposta correta é CONSUMERS."
+   },
+   {
+    "id": "pw3u01v08",
+    "topic": "Shopping Psychology",
+    "question": "When the brand raised its prices overnight, customers ______ angrily on social media.",
+    "options": [
+     "affected",
+     "adapted",
+     "assumed",
+     "reacted"
+    ],
+    "correct": 3,
+    "explanation": "To react é responder a alguma coisa que aconteceu, e o aumento de preço é justamente o que provocou a resposta dos clientes. To adapt seria se acostumar com a nova situação, o oposto de reclamar. Portanto, a resposta correta é REACTED."
+   },
+   {
+    "id": "pw3u01v09",
+    "topic": "Shopping Psychology",
+    "question": "The ground floor of the building is ______ space, while the upper floors are apartments.",
+    "options": [
+     "commercial",
+     "complex",
+     "productive",
+     "residential"
+    ],
+    "correct": 0,
+    "explanation": "Commercial é o que se destina ao comércio, a lojas e negócios, em oposição aos apartamentos dos andares de cima. Residential seria exatamente o contrário, o espaço de moradia. Portanto, a resposta correta é COMMERCIAL."
+   },
+   {
+    "id": "pw3u01v10",
+    "topic": "Shopping Psychology",
+    "question": "The refund rules were so ______ that most customers gave up trying to understand them.",
+    "options": [
+     "commercial",
+     "complex",
+     "productive",
+     "fascinating"
+    ],
+    "correct": 1,
+    "explanation": "Complex é o que tem muitas partes e é difícil de entender, e é por isso que os clientes desistiram. Fascinating seria fascinante, algo que prende a atenção em vez de afastar. Portanto, a resposta correta é COMPLEX."
+   },
+   {
+    "id": "pw3u01v11",
+    "topic": "Shopping Psychology",
+    "question": "I could listen to her talk about consumer habits for hours. Her research is ______.",
+    "options": [
+     "confusing",
+     "exhausting",
+     "fascinating",
+     "disappointing"
+    ],
+    "correct": 2,
+    "explanation": "Fascinating é o que desperta muito interesse e prende a atenção, e alguém que ouviria por horas está descrevendo isso. Confusing e exhausting seriam motivos para parar de ouvir, não para continuar. Portanto, a resposta correta é FASCINATING."
+   },
+   {
+    "id": "pw3u01v12",
+    "topic": "Shopping Psychology",
+    "question": "A smartphone gives shoppers instant ______ to thousands of online stores.",
+    "options": [
+     "entrance",
+     "admission",
+     "approach",
+     "access"
+    ],
+    "correct": 3,
+    "explanation": "Access é a possibilidade de chegar a algo e usá-lo, que é o que o celular dá em relação às lojas online. Entrance é a entrada física de um prédio e admission é a permissão de entrar num lugar ou numa instituição. Portanto, a resposta correta é ACCESS."
+   },
+   {
+    "id": "pw3u01v13",
+    "topic": "Shopping Psychology",
+    "question": "Put your wallet away. Dinner is on me tonight, I'll ______ you.",
+    "options": [
+     "treat",
+     "present",
+     "gift",
+     "offer"
+    ],
+    "correct": 0,
+    "explanation": "To treat someone é pagar alguma coisa para a outra pessoa, oferecer o programa. Present e gift funcionam com o objeto que se dá, não com a pessoa, e offer sozinho pede que se diga o que está sendo oferecido. Portanto, a resposta correta é TREAT."
+   },
+   {
+    "id": "pw3u01v14",
+    "topic": "Shopping Psychology",
+    "question": "When she stopped buying coffee on the way to work, she found a cheap ______: making it at home.",
+    "options": [
+     "shortage",
+     "substitute",
+     "bargain",
+     "consequence"
+    ],
+    "correct": 1,
+    "explanation": "Substitute é aquilo que se põe no lugar de outra coisa e cumpre a mesma função, como o café feito em casa no lugar do comprado. Shortage seria falta de um produto, e não uma alternativa a ele. Portanto, a resposta correta é SUBSTITUTE."
+   },
+   {
+    "id": "pw3u01v15",
+    "topic": "Shopping Psychology",
+    "question": "One ______ of spending without a plan is reaching the end of the month with nothing saved.",
+    "options": [
+     "factor",
+     "purpose",
+     "consequence",
+     "access"
+    ],
+    "correct": 2,
+    "explanation": "Consequence é o que vem depois como resultado de uma ação, e ficar sem economias é o resultado de gastar sem plano. Factor seria uma das causas, e purpose seria o objetivo, ou seja, o contrário do que a frase descreve. Portanto, a resposta correta é CONSEQUENCE."
+   },
+   {
+    "id": "pw3u01v16",
+    "topic": "Shopping Psychology",
+    "question": "Before the trip, try to ______ how much money you will need for food.",
+    "options": [
+     "assume",
+     "limit",
+     "spend",
+     "estimate"
+    ],
+    "correct": 3,
+    "explanation": "To estimate é calcular um valor aproximado, sem ter o número exato, que é o que se faz ao planejar uma viagem. To limit seria pôr um teto no gasto, e não calcular quanto ele será. Portanto, a resposta correta é ESTIMATE."
+   },
+   {
+    "id": "pw3u01v17",
+    "topic": "Shopping Psychology",
+    "question": "She feels most ______ in the morning, when she gets the hardest tasks done in an hour.",
+    "options": [
+     "productive",
+     "expensive",
+     "aware",
+     "commercial"
+    ],
+    "correct": 0,
+    "explanation": "Productive é render bastante, produzir muito no tempo que se tem, e resolver as tarefas difíceis numa hora é exatamente isso. Aware é estar consciente de alguma coisa, o que não fala de rendimento. Portanto, a resposta correta é PRODUCTIVE."
+   },
+   {
+    "id": "pw3u01v18",
+    "topic": "Shopping Psychology",
+    "question": "Many shoppers are not ______ of how much they spend on small daily purchases.",
+    "options": [
+     "curious",
+     "aware",
+     "honest",
+     "patient"
+    ],
+    "correct": 1,
+    "explanation": "To be aware of é ter consciência de alguma coisa, e a frase fala de gente que não percebe o próprio gasto miúdo. Curious, honest e patient não se combinam com of nesse sentido. Portanto, a resposta correta é AWARE."
+   },
+   {
+    "id": "pw3u01v19",
+    "topic": "Shopping Psychology",
+    "question": "To save money, she decided to ______ herself to one new item of clothing per month.",
+    "options": [
+     "reduce",
+     "control",
+     "limit",
+     "stop"
+    ],
+    "correct": 2,
+    "explanation": "To limit oneself to something é se impor um teto, aceitar só aquela quantidade, e é a estrutura que a frase pede. Reduce e stop falam de diminuir ou parar, mas não aparecem com to nessa construção. Portanto, a resposta correta é LIMIT."
+   },
+   {
+    "id": "pw3u01v20",
+    "topic": "Shopping Psychology",
+    "question": "Because of a ______ of delivery drivers, many online orders arrived a week late.",
+    "options": [
+     "substitute",
+     "consequence",
+     "bargain",
+     "shortage"
+    ],
+    "correct": 3,
+    "explanation": "Shortage é a falta de algo que se precisa, e é a falta de entregadores que atrasou os pedidos. Consequence seria o efeito, ou seja, o próprio atraso, e não a causa dele. Portanto, a resposta correta é SHORTAGE."
+   },
+   {
+    "id": "pw3u01p1",
+    "topic": "Pronunciation – Primary Stress in Words",
+    "question": "Which word has its primary stress on the FIRST syllable?",
+    "options": [
+     "bargain",
+     "consumer",
+     "commercial",
+     "productive"
+    ],
+    "correct": 0,
+    "explanation": "Em BARgain a força da voz cai na primeira sílaba. Nas outras três a força cai na segunda: conSUmer, comMERcial, proDUCtive. Portanto, a resposta correta é BARGAIN."
+   },
+   {
+    "id": "pw3u01p2",
+    "topic": "Pronunciation – Primary Stress in Words",
+    "question": "In which word does the primary stress fall on the SECOND syllable?",
+    "options": [
+     "substitute",
+     "consumer",
+     "consequence",
+     "fascinating"
+    ],
+    "correct": 1,
+    "explanation": "Consumer se pronuncia conSUmer, com a força na segunda sílaba. As outras três são fortes na primeira: SUBstitute, CONsequence, FAScinating. Portanto, a resposta correta é CONSUMER."
+   },
+   {
+    "id": "pw3u01p3",
+    "topic": "Pronunciation – Primary Stress in Words",
+    "question": "Which word is stressed on a DIFFERENT syllable from the other three?",
+    "options": [
+     "access",
+     "estimate",
+     "productive",
+     "factor"
+    ],
+    "correct": 2,
+    "explanation": "Productive é proDUCtive, com a força na segunda sílaba, enquanto ACcess, EStimate e FACtor têm a força na primeira. Vale reparar que os adjetivos terminados em ive costumam puxar a força para a sílaba anterior ao sufixo. Portanto, a resposta correta é PRODUCTIVE."
+   },
+   {
+    "id": "pw3u02v01",
+    "topic": "It’s in My DNA",
+    "question": "Scientists want to know how much a child's environment can ______ his or her personality.",
+    "options": [
+     "adapt",
+     "expose",
+     "exceed",
+     "affect"
+    ],
+    "correct": 3,
+    "explanation": "To affect é ter efeito sobre alguma coisa, mudá-la de algum modo, que é a pergunta que os cientistas se fazem sobre o ambiente. To adapt é se ajustar a uma situação nova, e to expose é deixar exposto a algo. Portanto, a resposta correta é AFFECT."
+   },
+   {
+    "id": "pw3u02v02",
+    "topic": "It’s in My DNA",
+    "question": "Whether the experiment works depends on the ______ in which it is carried out.",
+    "options": [
+     "circumstances",
+     "traits",
+     "samples",
+     "consequences"
+    ],
+    "correct": 0,
+    "explanation": "Circumstances são as condições que cercam um fato, o contexto em que ele acontece. Traits são características de personalidade e samples são amostras coletadas, nenhuma das duas é o contexto do experimento. Portanto, a resposta correta é CIRCUMSTANCES."
+   },
+   {
+    "id": "pw3u02v03",
+    "topic": "It’s in My DNA",
+    "question": "Every fingerprint is ______. Not even twins share the same pattern.",
+    "options": [
+     "identical",
+     "unique",
+     "typical",
+     "common"
+    ],
+    "correct": 1,
+    "explanation": "Unique é o que não se repete em ninguém mais, e a segunda frase confirma isso ao dizer que nem gêmeos têm o mesmo desenho. Identical seria justamente o contrário, dois iguais. Portanto, a resposta correta é UNIQUE."
+   },
+   {
+    "id": "pw3u02v04",
+    "topic": "It’s in My DNA",
+    "question": "Researchers are still ______ whether shyness is inherited from our parents.",
+    "options": [
+     "adapting",
+     "rejecting",
+     "investigating",
+     "assuming"
+    ],
+    "correct": 2,
+    "explanation": "To investigate é estudar a fundo para descobrir a verdade, e é o que se faz com uma questão ainda em aberto. To reject seria já ter descartado a ideia, o que a palavra still contradiz. Portanto, a resposta correta é INVESTIGATING."
+   },
+   {
+    "id": "pw3u02v05",
+    "topic": "It’s in My DNA",
+    "question": "Children who are ______ to two languages at home usually speak both without effort.",
+    "options": [
+     "attached",
+     "reduced",
+     "compared",
+     "exposed"
+    ],
+    "correct": 3,
+    "explanation": "To be exposed to é ter contato frequente com alguma coisa, e é esse contato diário que faz a criança aprender as duas línguas. To be attached to é ter apego afetivo, e to be compared to é ser posto lado a lado com outra coisa. Portanto, a resposta correta é EXPOSED."
+   },
+   {
+    "id": "pw3u02v06",
+    "topic": "It’s in My DNA",
+    "question": "Curiosity and patience are two personality ______ that good scientists tend to share.",
+    "options": [
+     "traits",
+     "samples",
+     "circumstances",
+     "myths"
+    ],
+    "correct": 0,
+    "explanation": "Traits são os traços de personalidade, as características que definem alguém. Samples são amostras de material coletado e circumstances são as condições de uma situação. Portanto, a resposta correta é TRAITS."
+   },
+   {
+    "id": "pw3u02v07",
+    "topic": "It’s in My DNA",
+    "question": "A single test cannot ______ how intelligent a person is.",
+    "options": [
+     "reject",
+     "determine",
+     "expose",
+     "adapt"
+    ],
+    "correct": 1,
+    "explanation": "To determine é estabelecer com segurança qual é a resposta, e a frase diz que um teste sozinho não consegue fazer isso. To reject é recusar uma ideia, e não decidir um resultado. Portanto, a resposta correta é DETERMINE."
+   },
+   {
+    "id": "pw3u02v08",
+    "topic": "It’s in My DNA",
+    "question": "The twins look almost ______, but their personalities are completely different.",
+    "options": [
+     "unique",
+     "precise",
+     "identical",
+     "specific"
+    ],
+    "correct": 2,
+    "explanation": "Identical é ser igual a outro em tudo, e é assim que os gêmeos parecem por fora, apesar da diferença de personalidade. Unique seria não ter semelhante, o oposto do que a frase descreve. Portanto, a resposta correta é IDENTICAL."
+   },
+   {
+    "id": "pw3u02v09",
+    "topic": "It’s in My DNA",
+    "question": "It took him a few months to ______ to life in a country where he knew no one.",
+    "options": [
+     "affect",
+     "expose",
+     "determine",
+     "adapt"
+    ],
+    "correct": 3,
+    "explanation": "To adapt to é se ajustar a uma situação nova até se sentir à vontade nela, que é o que acontece com quem se muda de país. To affect é causar efeito em algo, e não se ajustar a algo. Portanto, a resposta correta é ADAPT."
+   },
+   {
+    "id": "pw3u02v10",
+    "topic": "It’s in My DNA",
+    "question": "She is very ______ with her savings and never puts money into anything risky.",
+    "options": [
+     "cautious",
+     "generous",
+     "curious",
+     "confident"
+    ],
+    "correct": 0,
+    "explanation": "Cautious é ser cuidadoso, evitar riscos antes de agir, e é isso que a segunda parte da frase mostra. Confident seria justamente a segurança de quem se arrisca sem medo. Portanto, a resposta correta é CAUTIOUS."
+   },
+   {
+    "id": "pw3u02v11",
+    "topic": "It’s in My DNA",
+    "question": "After ten years of practice, she is extremely ______ at reading people's emotions.",
+    "options": [
+     "aware",
+     "skilled",
+     "precise",
+     "exposed"
+    ],
+    "correct": 1,
+    "explanation": "Skilled at é ser muito bom em fazer alguma coisa, uma habilidade construída com prática, como diz a frase. Aware é apenas estar consciente de algo, sem falar em competência. Portanto, a resposta correta é SKILLED."
+   },
+   {
+    "id": "pw3u02v12",
+    "topic": "It’s in My DNA",
+    "question": "The idea that we use only ten percent of our brain is a popular ______.",
+    "options": [
+     "sample",
+     "trait",
+     "myth",
+     "consequence"
+    ],
+    "correct": 2,
+    "explanation": "Myth é a crença repetida por muita gente mas que não é verdadeira, exatamente o caso dos dez por cento do cérebro. Sample é uma amostra e trait é um traço de personalidade. Portanto, a resposta correta é MYTH."
+   },
+   {
+    "id": "pw3u02v13",
+    "topic": "It’s in My DNA",
+    "question": "His memory is ______. He can recall every phone number he has ever seen.",
+    "options": [
+     "identical",
+     "cautious",
+     "controversial",
+     "exceptional"
+    ],
+    "correct": 3,
+    "explanation": "Exceptional é o que está muito acima do comum, e lembrar de todos os números que já viu é bem fora do normal. Controversial seria algo que divide opiniões, o que não é o caso de uma memória boa. Portanto, a resposta correta é EXCEPTIONAL."
+   },
+   {
+    "id": "pw3u02v14",
+    "topic": "It’s in My DNA",
+    "question": "Most scientists ______ the claim that talent is entirely genetic.",
+    "options": [
+     "reject",
+     "adapt",
+     "expose",
+     "affect"
+    ],
+    "correct": 0,
+    "explanation": "To reject é recusar uma ideia por não considerá-la verdadeira, e é essa a posição da maioria dos cientistas na frase. To affect seria causar efeito na afirmação, o que não faz sentido aqui. Portanto, a resposta correta é REJECT."
+   },
+   {
+    "id": "pw3u02v15",
+    "topic": "It’s in My DNA",
+    "question": "He would never lie about his results. He is not a ______ researcher.",
+    "options": [
+     "cautious",
+     "dishonest",
+     "controversial",
+     "unique"
+    ],
+    "correct": 1,
+    "explanation": "Dishonest é quem mente ou engana, e a primeira frase diz justamente que ele nunca mentiria. Controversial seria alguém que gera polêmica, o que é outra coisa. Portanto, a resposta correta é DISHONEST."
+   },
+   {
+    "id": "pw3u02v16",
+    "topic": "It’s in My DNA",
+    "question": "The study is highly ______: some scientists call it brilliant and others call it dangerous.",
+    "options": [
+     "identical",
+     "precise",
+     "controversial",
+     "specific"
+    ],
+    "correct": 2,
+    "explanation": "Controversial é o que divide opiniões e gera discussão, e a frase mostra os dois lados brigando. Precise seria exato nos detalhes, algo que não tem a ver com a divisão de opiniões. Portanto, a resposta correta é CONTROVERSIAL."
+   },
+   {
+    "id": "pw3u02v17",
+    "topic": "It’s in My DNA",
+    "question": "The doctor could not give a ______ answer, only a general idea of what might be wrong.",
+    "options": [
+     "extreme",
+     "unique",
+     "skilled",
+     "precise"
+    ],
+    "correct": 3,
+    "explanation": "Precise é exato, com detalhe certo, e a frase opõe isso justamente a uma ideia geral. Extreme seria muito intenso, uma qualidade de grau e não de exatidão. Portanto, a resposta correta é PRECISE."
+   },
+   {
+    "id": "pw3u02v18",
+    "topic": "It’s in My DNA",
+    "question": "The lab needs a small blood ______ before it can run the genetic test.",
+    "options": [
+     "sample",
+     "trait",
+     "myth",
+     "circumstance"
+    ],
+    "correct": 0,
+    "explanation": "Sample é a amostra, a pequena quantidade retirada para ser analisada no laboratório. Trait é um traço de personalidade e não tem como ser coletado num tubo. Portanto, a resposta correta é SAMPLE."
+   },
+   {
+    "id": "pw3u02v19",
+    "topic": "It’s in My DNA",
+    "question": "Temperatures in the desert are so ______ that very few animals can survive there.",
+    "options": [
+     "precise",
+     "extreme",
+     "identical",
+     "controversial"
+    ],
+    "correct": 1,
+    "explanation": "Extreme é o que chega ao limite, muito além do normal, e é por isso que quase nada sobrevive no deserto. Precise fala de exatidão, e não de intensidade. Portanto, a resposta correta é EXTREME."
+   },
+   {
+    "id": "pw3u02v20",
+    "topic": "It’s in My DNA",
+    "question": "The test looks for one ______ gene, not for general health problems.",
+    "options": [
+     "extreme",
+     "exceptional",
+     "specific",
+     "dishonest"
+    ],
+    "correct": 2,
+    "explanation": "Specific é aquele e não outro, um caso determinado, e a frase o opõe a algo geral. Exceptional seria fora do comum em qualidade, que é outro sentido. Portanto, a resposta correta é SPECIFIC."
+   },
+   {
+    "id": "pw3u02p1",
+    "topic": "Pronunciation – Final Consonants -t and -d",
+    "question": "In which word does the -ed ending sound like /t/?",
+    "options": [
+     "determined",
+     "exposed",
+     "adapted",
+     "watched"
+    ],
+    "correct": 3,
+    "explanation": "Depois de um som surdo, como o ch de watch, o ed sai como /t/. Determined e exposed terminam em som sonoro e o ed vira /d/, e adapted ganha uma sílaba a mais, /ɪd/, porque a palavra já termina em t. Portanto, a resposta correta é WATCHED."
+   },
+   {
+    "id": "pw3u02p2",
+    "topic": "Pronunciation – Final Consonants -t and -d",
+    "question": "In which word is the final consonant sound /t/?",
+    "options": [
+     "trait",
+     "trade",
+     "tread",
+     "thread"
+    ],
+    "correct": 0,
+    "explanation": "Trait termina com /t/, sem vibração das cordas vocais. Trade, tread e thread terminam com /d/, que sai com a garganta vibrando. Portanto, a resposta correta é TRAIT."
+   },
+   {
+    "id": "pw3u02p3",
+    "topic": "Pronunciation – Final Consonants -t and -d",
+    "question": "Which word ends with the same final consonant sound as \"affect\"?",
+    "options": [
+     "exposed",
+     "adapt",
+     "determined",
+     "skilled"
+    ],
+    "correct": 1,
+    "explanation": "Affect termina em /t/, e adapt também. As outras três terminam em /d/, que é o mesmo ponto de articulação mas com som sonoro. Portanto, a resposta correta é ADAPT."
+   },
+   {
+    "id": "pw3u03v01",
+    "topic": "On the Move",
+    "question": "Historians study the ______ of entire populations across continents in search of safer land.",
+    "options": [
+     "migration",
+     "tourism",
+     "commute",
+     "vacation"
+    ],
+    "correct": 0,
+    "explanation": "Migration é o deslocamento de pessoas de um lugar para outro para viver, não para passear. Tourism e vacation são viagens de lazer, com volta marcada, e commute é o trajeto diário de casa para o trabalho. Portanto, a resposta correta é MIGRATION."
+   },
+   {
+    "id": "pw3u03v02",
+    "topic": "On the Move",
+    "question": "Her decision to leave the country came from a ______ of low wages and political instability.",
+    "options": [
+     "collection",
+     "combination",
+     "category",
+     "conflict"
+    ],
+    "correct": 1,
+    "explanation": "Combination é a soma de dois ou mais fatores agindo juntos, que é exatamente o caso de salário baixo mais instabilidade política. Category seria um grupo de coisas do mesmo tipo, e collection é um conjunto reunido de propósito, como uma coleção. Portanto, a resposta correta é COMBINATION."
+   },
+   {
+    "id": "pw3u03v03",
+    "topic": "On the Move",
+    "question": "The researchers divided the reasons for moving into three broad ______: economic, political, and environmental.",
+    "options": [
+     "conflicts",
+     "citizens",
+     "categories",
+     "combinations"
+    ],
+    "correct": 2,
+    "explanation": "Categories são os grupos em que classificamos coisas do mesmo tipo, e é isso que os pesquisadores fizeram com os motivos de mudança. Combinations seriam misturas de motivos, não grupos separados. Portanto, a resposta correta é CATEGORIES."
+   },
+   {
+    "id": "pw3u03v04",
+    "topic": "On the Move",
+    "question": "Thousands of families left the region because of armed ______ between rival groups.",
+    "options": [
+     "alliances",
+     "treaties",
+     "negotiations",
+     "conflicts"
+    ],
+    "correct": 3,
+    "explanation": "Conflicts são brigas ou guerras, e a palavra armed só combina com esse sentido. Alliances, treaties e negotiations descrevem acordos ou conversas entre os lados, ou seja, o contrário de uma guerra. Portanto, a resposta correta é CONFLICTS."
+   },
+   {
+    "id": "pw3u03v05",
+    "topic": "On the Move",
+    "question": "Earthquakes, floods, and hurricanes are ______ that can force an entire town to move.",
+    "options": [
+     "natural disasters",
+     "natural resources",
+     "natural habitats",
+     "natural sciences"
+    ],
+    "correct": 0,
+    "explanation": "Natural disasters são catástrofes da natureza, como terremotos, enchentes e furacões. Natural resources são riquezas como água e minério, e natural habitats são os ambientes onde vivem plantas e animais. Portanto, a resposta correta é NATURAL DISASTERS."
+   },
+   {
+    "id": "pw3u03v06",
+    "topic": "On the Move",
+    "question": "When the factories closed, unemployment rose and many families fell into ______.",
+    "options": [
+     "migration",
+     "poverty",
+     "agriculture",
+     "potential"
+    ],
+    "correct": 1,
+    "explanation": "Poverty é a pobreza, a condição de quem não tem dinheiro para o básico, e é o resultado natural do desemprego em alta. As outras palavras aparecem na mesma unidade, mas nomeiam a lavoura, a capacidade de crescer e o deslocamento de pessoas. Portanto, a resposta correta é POVERTY."
+   },
+   {
+    "id": "pw3u03v07",
+    "topic": "On the Move",
+    "question": "Let me ______ this point with the story of a family that moved three times in ten years.",
+    "options": [
+     "establish",
+     "settle",
+     "illustrate",
+     "ignore"
+    ],
+    "correct": 2,
+    "explanation": "Illustrate é deixar uma ideia mais clara dando um exemplo, que é a função da história citada. Ignore seria fingir que o assunto não existe, e establish seria fundar ou criar algo do zero. Portanto, a resposta correta é ILLUSTRATE."
+   },
+   {
+    "id": "pw3u03v08",
+    "topic": "On the Move",
+    "question": "After arriving, the couple used their savings to ______ a small bakery in the neighborhood.",
+    "options": [
+     "settle",
+     "ignore",
+     "illustrate",
+     "establish"
+    ],
+    "correct": 3,
+    "explanation": "Establish é fundar, montar um negócio ou uma instituição pela primeira vez. Settle tem a ver com se fixar num lugar para morar, não com abrir uma empresa. Portanto, a resposta correta é ESTABLISH."
+   },
+   {
+    "id": "pw3u03v09",
+    "topic": "On the Move",
+    "question": "In which sentence is <b>settle</b> used correctly?",
+    "options": [
+     "After years of moving from city to city, they finally settled in a quiet coastal town.",
+     "They settled a two-week vacation in Peru and came back happy.",
+     "He settles the bus to work every morning at eight.",
+     "She settled her friends at the airport before the flight."
+    ],
+    "correct": 0,
+    "explanation": "Settle significa se fixar de vez num lugar e fazer dele a sua casa, o oposto de visitar. Por isso ele combina com quem parou de se mudar e escolheu uma cidade para morar, e não com viagem, transporte ou encontro de amigos. Portanto, a resposta correta é a frase da cidade litorânea."
+   },
+   {
+    "id": "pw3u03v10",
+    "topic": "On the Move",
+    "question": "After living in the country for five years, they applied for a passport and became ______.",
+    "options": [
+     "consultants",
+     "citizens",
+     "tourists",
+     "consumers"
+    ],
+    "correct": 1,
+    "explanation": "Citizens são as pessoas que passam a ser membros legais de um país, com direitos como o passaporte. Tourists são visitantes de passagem, e consumers e consultants dizem respeito a comprar e a assessorar. Portanto, a resposta correta é CITIZENS."
+   },
+   {
+    "id": "pw3u03v11",
+    "topic": "On the Move",
+    "question": "In the highlands, most families still earn their living from ______, growing corn and potatoes.",
+    "options": [
+     "commerce",
+     "tourism",
+     "agriculture",
+     "industry"
+    ],
+    "correct": 2,
+    "explanation": "Agriculture é o trabalho de plantar e criar animais, e a frase deixa isso explícito ao falar de milho e batata. Industry é a produção em fábricas e commerce é a compra e venda. Portanto, a resposta correta é AGRICULTURE."
+   },
+   {
+    "id": "pw3u03v12",
+    "topic": "On the Move",
+    "question": "Before writing the report, the group spent twenty minutes ______ every idea they could think of.",
+    "options": [
+     "proofreading",
+     "summarizing",
+     "memorizing",
+     "brainstorming"
+    ],
+    "correct": 3,
+    "explanation": "Brainstorming é jogar ideias no papel sem filtro, no começo de um trabalho. Proofreading e summarizing acontecem depois que o texto já existe, e memorizing é decorar. Portanto, a resposta correta é BRAINSTORMING."
+   },
+   {
+    "id": "pw3u03v13",
+    "topic": "On the Move",
+    "question": "In the sentence \"There has been <b>enormous</b> growth in immigration in the last few years\", the word <b>enormous</b> is closest in meaning to:",
+    "options": [
+     "very large",
+     "very slow",
+     "very recent",
+     "very unusual"
+    ],
+    "correct": 0,
+    "explanation": "Enormous fala de tamanho, quer dizer imenso, muito grande. Ele não diz nada sobre velocidade, época ou raridade do crescimento. Portanto, a resposta correta é VERY LARGE."
+   },
+   {
+    "id": "pw3u03v14",
+    "topic": "On the Move",
+    "question": "You should not ______ the warning signs on the trail; they are there for your safety.",
+    "options": [
+     "respect",
+     "ignore",
+     "notice",
+     "follow"
+    ],
+    "correct": 1,
+    "explanation": "Ignore é fazer de conta que algo não existe, e é justamente isso que a frase proíbe com should not. Notice, follow e respect deixariam a frase com o sentido invertido, mandando desprezar a segurança. Portanto, a resposta correta é IGNORE."
+   },
+   {
+    "id": "pw3u03v15",
+    "topic": "On the Move",
+    "question": "The government plans to ______ in schools and hospitals to stop young people from leaving.",
+    "options": [
+     "pay",
+     "buy",
+     "invest",
+     "spend"
+    ],
+    "correct": 2,
+    "explanation": "Invest é aplicar dinheiro em algo esperando um retorno no futuro, e vem sempre acompanhado de in. Spend e pay pedem outras preposições, e buy exigiria um objeto direto, como buy equipment. Portanto, a resposta correta é INVEST."
+   },
+   {
+    "id": "pw3u03v16",
+    "topic": "On the Move",
+    "question": "The bank liked the business plan and said the project had enormous ______ for growth.",
+    "options": [
+     "pressure",
+     "poverty",
+     "purpose",
+     "potential"
+    ],
+    "correct": 3,
+    "explanation": "Potential é a capacidade que algo tem de dar certo mais adiante, mesmo que ainda não tenha acontecido. Pressure é a força que empurra ou a cobrança, e purpose é a finalidade, o motivo pelo qual algo existe. Portanto, a resposta correta é POTENTIAL."
+   },
+   {
+    "id": "pw3u03v17",
+    "topic": "On the Move",
+    "question": "In the sentence \"In his presentation, Omar <b>referred to</b> several recent studies\", the phrase <b>referred to</b> is closest in meaning to:",
+    "options": [
+     "mentioned",
+     "criticized",
+     "published",
+     "translated"
+    ],
+    "correct": 0,
+    "explanation": "Refer to é citar algo de passagem, trazer para a conversa. Não diz se a pessoa gostou ou não do que citou, então criticized muda o sentido, e publicar ou traduzir são outras ações. Portanto, a resposta correta é MENTIONED."
+   },
+   {
+    "id": "pw3u03v18",
+    "topic": "On the Move",
+    "question": "Doctors are trying to slow the ______ of the disease to neighboring towns.",
+    "options": [
+     "risk",
+     "spread",
+     "cure",
+     "source"
+    ],
+    "correct": 1,
+    "explanation": "Spread é o alastramento, o avanço de algo de um lugar para outro, que é o que se tenta frear. Source seria a origem da doença e cure seria a cura, coisas que ninguém quer desacelerar. Portanto, a resposta correta é SPREAD."
+   },
+   {
+    "id": "pw3u03v19",
+    "topic": "On the Move",
+    "question": "Many workers move abroad hoping for a higher ______ for their children.",
+    "options": [
+     "point of view",
+     "way of thinking",
+     "standard of living",
+     "cost of living"
+    ],
+    "correct": 2,
+    "explanation": "Standard of living é o padrão de vida, ou seja, o conforto e as condições que uma família tem. Cost of living é o custo de vida, e ninguém emigra sonhando com um custo de vida mais alto. Portanto, a resposta correta é STANDARD OF LIVING."
+   },
+   {
+    "id": "pw3u03v20",
+    "topic": "On the Move",
+    "question": "The town has had a ______ flow of new residents: about two hundred every year for a decade.",
+    "options": [
+     "sudden",
+     "rare",
+     "uneven",
+     "steady"
+    ],
+    "correct": 3,
+    "explanation": "Steady descreve algo constante, que se mantém no mesmo ritmo, exatamente como duzentas pessoas por ano durante dez anos. Sudden seria repentino e uneven seria irregular, o oposto do que os números mostram. Portanto, a resposta correta é STEADY."
+   },
+   {
+    "id": "pw3u03p1",
+    "topic": "Pronunciation – Recognize Linking",
+    "question": "In natural speech, in which pair does the final consonant link to the next word and sound like one word?",
+    "options": [
+     "settle in",
+     "steady growth",
+     "brain drain",
+     "high potential"
+    ],
+    "correct": 0,
+    "explanation": "A ligação mais comum acontece quando uma palavra termina em consoante e a seguinte começa com vogal: settle in soa como se fosse settlin. Nos outros pares a segunda palavra começa com consoante, então não há esse encaixe. Portanto, a resposta correta é SETTLE IN."
+   },
+   {
+    "id": "pw3u03p2",
+    "topic": "Pronunciation – Recognize Linking",
+    "question": "When two words meet and both have the same consonant sound, speakers say it only once, a bit longer. In which phrase does that happen?",
+    "options": [
+     "become a citizen",
+     "this spread",
+     "this area",
+     "the answer"
+    ],
+    "correct": 1,
+    "explanation": "Em this spread o som /s/ termina uma palavra e começa a outra, então sai um /s/ só, mais alongado. Nos outros exemplos a segunda palavra começa com vogal, o que produz outro tipo de ligação. Portanto, a resposta correta é THIS SPREAD."
+   },
+   {
+    "id": "pw3u03p3",
+    "topic": "Pronunciation – Recognize Linking",
+    "question": "Which phrase adds a small /w/ sound between the two words when spoken naturally?",
+    "options": [
+     "far away",
+     "great effort",
+     "go abroad",
+     "my idea"
+    ],
+    "correct": 2,
+    "explanation": "Quando a primeira palavra termina em som de u, como em go, o falante emenda com um pequeno /w/: go/w/abroad. Em my idea o som que aparece é /y/, e nos outros casos a ligação vem da consoante final. Portanto, a resposta correta é GO ABROAD."
+   },
+   {
+    "id": "pw3u04v01",
+    "topic": "People and the Planet",
+    "question": "Heavy boots and a helmet are the ______ equipment for walking through these caves.",
+    "options": [
+     "approximate",
+     "apparent",
+     "appreciative",
+     "appropriate"
+    ],
+    "correct": 3,
+    "explanation": "Appropriate quer dizer adequado, certo para a situação. Approximate é aproximado, apparent é aparente ou visível, e appreciative descreve quem demonstra gratidão. Portanto, a resposta correta é APPROPRIATE."
+   },
+   {
+    "id": "pw3u04v02",
+    "topic": "People and the Planet",
+    "question": "Engineers warned that the old bridge could ______ if the flooding continued.",
+    "options": [
+     "collapse",
+     "dissolve",
+     "expand",
+     "float"
+    ],
+    "correct": 0,
+    "explanation": "Collapse é desabar, cair de uma vez por não aguentar mais o peso. Dissolve é se desfazer em líquido, expand é aumentar de tamanho e float é boiar. Portanto, a resposta correta é COLLAPSE."
+   },
+   {
+    "id": "pw3u04v03",
+    "topic": "People and the Planet",
+    "question": "Tourists come to the valley for the ______: green hills, waterfalls, and snow on the peaks.",
+    "options": [
+     "pressure",
+     "scenery",
+     "surface",
+     "erosion"
+    ],
+    "correct": 1,
+    "explanation": "Scenery é o conjunto da paisagem natural que se vê num lugar, que é o que a frase descreve. Surface é a superfície de algo, erosion é o desgaste do solo e pressure é a pressão. Portanto, a resposta correta é SCENERY."
+   },
+   {
+    "id": "pw3u04v04",
+    "topic": "People and the Planet",
+    "question": "Years of wind and rain caused ______ that slowly wore the cliff away.",
+    "options": [
+     "evaporation",
+     "expansion",
+     "erosion",
+     "eruption"
+    ],
+    "correct": 2,
+    "explanation": "Erosion é o desgaste lento da rocha e do solo pela água e pelo vento, e a frase confirma isso com slowly wore away. Eruption é a explosão de um vulcão e evaporation é a água virando vapor. Portanto, a resposta correta é EROSION."
+   },
+   {
+    "id": "pw3u04v05",
+    "topic": "People and the Planet",
+    "question": "The climbers were ______ by helicopter after spending two nights on the mountain.",
+    "options": [
+     "released",
+     "reported",
+     "removed",
+     "rescued"
+    ],
+    "correct": 3,
+    "explanation": "Rescue é salvar alguém de uma situação de perigo, que é o caso dos alpinistas presos na montanha. Released é soltar quem estava preso e reported é relatar um fato. Portanto, a resposta correta é RESCUED."
+   },
+   {
+    "id": "pw3u04v06",
+    "topic": "People and the Planet",
+    "question": "He returned to the team six weeks after the ______ to his knee.",
+    "options": [
+     "injury",
+     "illness",
+     "infection",
+     "allergy"
+    ],
+    "correct": 0,
+    "explanation": "Injury é o machucado causado por um acidente ou uma pancada, e combina com uma parte do corpo como o joelho. Illness, infection e allergy são problemas de saúde causados por doença, micro-organismo ou reação do corpo. Portanto, a resposta correta é INJURY."
+   },
+   {
+    "id": "pw3u04v07",
+    "topic": "People and the Planet",
+    "question": "The canyon wall shows different ______ of rock, each one formed in a different period.",
+    "options": [
+     "edges",
+     "layers",
+     "fragments",
+     "surfaces"
+    ],
+    "correct": 1,
+    "explanation": "Layers são as camadas empilhadas umas sobre as outras, que é como os geólogos leem a idade de um terreno. Fragments são pedaços soltos, surfaces são superfícies e edges são as bordas. Portanto, a resposta correta é LAYERS."
+   },
+   {
+    "id": "pw3u04v08",
+    "topic": "People and the Planet",
+    "question": "Deep underground, rock can break because of the ______ from everything above it.",
+    "options": [
+     "impact",
+     "harm",
+     "pressure",
+     "balance"
+    ],
+    "correct": 2,
+    "explanation": "Pressure é a força que aperta algo de forma contínua, como o peso das rochas de cima. Impact seria uma batida de uma vez só, e balance é equilíbrio. Portanto, a resposta correta é PRESSURE."
+   },
+   {
+    "id": "pw3u04v09",
+    "topic": "People and the Planet",
+    "question": "Before the hike, the guide explained the ______: sudden storms, loose rocks, and wild animals.",
+    "options": [
+     "rules",
+     "rewards",
+     "results",
+     "risks"
+    ],
+    "correct": 3,
+    "explanation": "Risks são os perigos possíveis, e a lista da frase é toda de coisas que podem dar errado. Rules seriam normas a seguir e rewards seriam recompensas. Portanto, a resposta correta é RISKS."
+   },
+   {
+    "id": "pw3u04v10",
+    "topic": "People and the Planet",
+    "question": "Around seventy percent of the earth's ______ is covered by ocean.",
+    "options": [
+     "surface",
+     "layer",
+     "scenery",
+     "atmosphere"
+    ],
+    "correct": 0,
+    "explanation": "Surface é a superfície, a parte de fora da Terra, e é dela que falamos ao medir quanto está coberto de água. Layer seria uma camada interna e atmosphere é o ar em volta do planeta. Portanto, a resposta correta é SURFACE."
+   },
+   {
+    "id": "pw3u04v11",
+    "topic": "People and the Planet",
+    "question": "The report begins with a careful ______ of the data collected over five years.",
+    "options": [
+     "agreement",
+     "analysis",
+     "assumption",
+     "announcement"
+    ],
+    "correct": 1,
+    "explanation": "Analysis é o exame detalhado de informações para entender o que elas mostram. Assumption é o que se supõe sem provar, announcement é um aviso público e agreement é um acordo. Portanto, a resposta correta é ANALYSIS."
+   },
+   {
+    "id": "pw3u04v12",
+    "topic": "People and the Planet",
+    "question": "I have not seen the official numbers, but ______ visitor numbers doubled last summer.",
+    "options": [
+     "certainly",
+     "exactly",
+     "apparently",
+     "obviously"
+    ],
+    "correct": 2,
+    "explanation": "Apparently marca uma informação que a pessoa ouviu falar e não confirmou, que é o caso de quem admite não ter visto os números. Obviously e certainly passariam certeza total, contradizendo o começo da frase. Portanto, a resposta correta é APPARENTLY."
+   },
+   {
+    "id": "pw3u04v13",
+    "topic": "People and the Planet",
+    "question": "Too many visitors can upset the delicate ______ of life on the island.",
+    "options": [
+     "compromise",
+     "analysis",
+     "impact",
+     "balance"
+    ],
+    "correct": 3,
+    "explanation": "Balance é o equilíbrio entre forças ou seres que dependem uns dos outros, e é isso que o excesso de turistas ameaça. Compromise é um acordo entre pessoas que cedem um pouco cada uma, e não se aplica à natureza. Portanto, a resposta correta é BALANCE."
+   },
+   {
+    "id": "pw3u04v14",
+    "topic": "People and the Planet",
+    "question": "Neither side got everything it wanted, but after long talks they reached a ______.",
+    "options": [
+     "compromise",
+     "commitment",
+     "competition",
+     "complaint"
+    ],
+    "correct": 0,
+    "explanation": "Compromise é o acordo em que cada lado abre mão de uma parte, exatamente o que a frase descreve. Commitment é um compromisso assumido, competition é disputa e complaint é reclamação. Portanto, a resposta correta é COMPROMISE."
+   },
+   {
+    "id": "pw3u04v15",
+    "topic": "People and the Planet",
+    "question": "The city hired outside ______ to advise it on how to manage tourism.",
+    "options": [
+     "contributors",
+     "consultants",
+     "customers",
+     "competitors"
+    ],
+    "correct": 1,
+    "explanation": "Consultants são especialistas contratados de fora para analisar uma situação e dar conselhos. Customers são clientes, competitors são concorrentes e contributors são quem colabora com algo. Portanto, a resposta correta é CONSULTANTS."
+   },
+   {
+    "id": "pw3u04v16",
+    "topic": "People and the Planet",
+    "question": "Walking off the marked path can do serious ______ to these rare plants.",
+    "options": [
+     "effort",
+     "service",
+     "harm",
+     "injury"
+    ],
+    "correct": 2,
+    "explanation": "Harm é o dano causado a algo vivo ou ao ambiente, e aparece na expressão do harm. Injury também é machucado, mas se usa para pessoas e animais, não para plantas de uma reserva. Portanto, a resposta correta é HARM."
+   },
+   {
+    "id": "pw3u04v17",
+    "topic": "People and the Planet",
+    "question": "The study measures the ______ of new hotels on the local water supply.",
+    "options": [
+     "instance",
+     "interest",
+     "increase",
+     "impact"
+    ],
+    "correct": 3,
+    "explanation": "Impact é o efeito forte que uma coisa provoca em outra, e vem com a preposição on. Increase seria só o aumento do número de hotéis, sem falar do efeito na água, e instance é um exemplo. Portanto, a resposta correta é IMPACT."
+   },
+   {
+    "id": "pw3u04v18",
+    "topic": "People and the Planet",
+    "question": "______, the plan should work, but nobody has tried it in a real park yet.",
+    "options": [
+     "In theory",
+     "In fact",
+     "In return",
+     "At last"
+    ],
+    "correct": 0,
+    "explanation": "In theory apresenta o que deveria funcionar no papel, ainda sem teste na prática, e a segunda metade da frase confirma isso. In fact serviria para trazer o que realmente acontece, e in return fala de troca. Portanto, a resposta correta é IN THEORY."
+   },
+   {
+    "id": "pw3u04v19",
+    "topic": "People and the Planet",
+    "question": "The council promised to ______ the complaints about noise from tour buses.",
+    "options": [
+     "look out for",
+     "look into",
+     "look after",
+     "look up"
+    ],
+    "correct": 1,
+    "explanation": "Look into é investigar um assunto para descobrir o que está acontecendo. Look after é cuidar de alguém, look up é procurar uma informação numa lista ou dicionário e look out for é ficar atento a um perigo. Portanto, a resposta correta é LOOK INTO."
+   },
+   {
+    "id": "pw3u04v20",
+    "topic": "People and the Planet",
+    "question": "In the sentence \"The goal is to <b>preserve</b> the region's environment\", the word <b>preserve</b> is closest in meaning to:",
+    "options": [
+     "purchase",
+     "predict",
+     "protect",
+     "promote"
+    ],
+    "correct": 2,
+    "explanation": "Preserve é manter algo como está, protegendo do estrago, e por isso equivale a protect. Promote é divulgar ou incentivar, purchase é comprar e predict é prever. Portanto, a resposta correta é PROTECT."
+   },
+   {
+    "id": "pw3u04p1",
+    "topic": "Pronunciation – Determine Which Word to Stress",
+    "question": "A: I heard the park opened in 2010.  B: No, it opened in 2020.  Which word does B stress most strongly?",
+    "options": [
+     "opened",
+     "park",
+     "it",
+     "2020"
+    ],
+    "correct": 3,
+    "explanation": "Quando corrigimos alguém, a força da voz cai sobre a palavra que muda a informação. Aqui tudo já foi dito antes, menos a data nova, então o peso vai para 2020. Portanto, a resposta correta é 2020."
+   },
+   {
+    "id": "pw3u04p2",
+    "topic": "Pronunciation – Determine Which Word to Stress",
+    "question": "A: Where did the group camp?  B: They camped near the river.  Which word carries the main stress in B's answer?",
+    "options": [
+     "river",
+     "camped",
+     "they",
+     "near"
+    ],
+    "correct": 0,
+    "explanation": "A pergunta já trouxe a ideia de acampar, então essa parte é informação velha. O que é novo na resposta é o lugar, e é nele que a voz sobe. Portanto, a resposta correta é RIVER."
+   },
+   {
+    "id": "pw3u04p3",
+    "topic": "Pronunciation – Determine Which Word to Stress",
+    "question": "In the sentence \"We must preserve the balance of the island\", which word is normally unstressed in natural speech?",
+    "options": [
+     "island",
+     "of",
+     "preserve",
+     "balance"
+    ],
+    "correct": 1,
+    "explanation": "Palavras de ligação como of, to e the passam rápido e quase sem som próprio. O acento fica nas palavras que carregam o sentido, como preserve, balance e island. Portanto, a resposta correta é OF."
+   },
+   {
+    "id": "pw3u05v01",
+    "topic": "Rise to the Top",
+    "question": "It took him fifteen years, but he ______ became the head of the department.",
+    "options": [
+     "eventually",
+     "immediately",
+     "instantly",
+     "rarely"
+    ],
+    "correct": 0,
+    "explanation": "EVENTUALLY quer dizer que algo acontece depois de muito tempo, no fim de um processo longo. Aqui foram quinze anos até ele chegar ao topo. IMMEDIATELY e INSTANTLY diriam o contrário, que foi na hora."
+   },
+   {
+    "id": "pw3u05v02",
+    "topic": "Rise to the Top",
+    "question": "Her first job at the airport involved ______ passengers' luggage.",
+    "options": [
+     "hiring",
+     "handling",
+     "retiring",
+     "promoting"
+    ],
+    "correct": 1,
+    "explanation": "HANDLING é lidar com algo com as mãos, pegar e mover. Falando de bagagem no aeroporto, é o verbo certo. HIRING seria contratar gente, não carregar malas."
+   },
+   {
+    "id": "pw3u05v03",
+    "topic": "Rise to the Top",
+    "question": "After forty years at the airline, she ______ and now spends her mornings gardening.",
+    "options": [
+     "recruited",
+     "relocated",
+     "retired",
+     "rejected"
+    ],
+    "correct": 2,
+    "explanation": "RETIRED é se aposentar, parar de trabalhar de vez depois de uma carreira inteira. Quarenta anos na empresa e as manhãs livres mostram exatamente isso. RECRUITED seria recrutar alguém para um cargo."
+   },
+   {
+    "id": "pw3u05v04",
+    "topic": "Rise to the Top",
+    "question": "Before becoming CEO, he studied ______ so he could understand the company's budgets and investments.",
+    "options": [
+     "marketing",
+     "logistics",
+     "recruitment",
+     "finance"
+    ],
+    "correct": 3,
+    "explanation": "FINANCE é a área que cuida de dinheiro: orçamentos, investimentos, lucro. Foi isso que ele precisou estudar. MARKETING trataria de divulgação e de vender a marca, não de entender os números."
+   },
+   {
+    "id": "pw3u05v05",
+    "topic": "Rise to the Top",
+    "question": "When Marta was given a new ______ in the company, she became responsible for training staff.",
+    "options": [
+     "role",
+     "salary",
+     "degree",
+     "shift"
+    ],
+    "correct": 0,
+    "explanation": "ROLE é a função que a pessoa ocupa, o conjunto de responsabilidades do cargo. Treinar a equipe passou a ser a função dela. SALARY seria só o valor que ela recebe."
+   },
+   {
+    "id": "pw3u05v06",
+    "topic": "Rise to the Top",
+    "question": "Instead of raising prices, the airline chose an ______: cheaper flights with fewer services.",
+    "options": [
+     "identical routine",
+     "alternative approach",
+     "extra requirement",
+     "official complaint"
+    ],
+    "correct": 1,
+    "explanation": "ALTERNATIVE APPROACH é um jeito diferente de resolver o mesmo problema. Voos mais baratos com menos serviços são justamente o outro caminho, no lugar de aumentar preços. IDENTICAL ROUTINE seria repetir o que já se fazia."
+   },
+   {
+    "id": "pw3u05v07",
+    "topic": "Rise to the Top",
+    "question": "The company ______ its new service on social media to attract younger customers.",
+    "options": [
+     "prevented",
+     "postponed",
+     "promoted",
+     "protested"
+    ],
+    "correct": 2,
+    "explanation": "PROMOTED aqui é divulgar, mostrar o serviço ao público para atrair clientes. PREVENTED seria impedir e POSTPONED seria adiar, o oposto de colocar o serviço na frente das pessoas."
+   },
+   {
+    "id": "pw3u05v08",
+    "topic": "Rise to the Top",
+    "question": "Good managers ______ with their staff every day instead of staying alone in their offices.",
+    "options": [
+     "interfere",
+     "intervene",
+     "interrupt",
+     "interact"
+    ],
+    "correct": 3,
+    "explanation": "INTERACT é conviver e trocar com as pessoas, conversar de igual para igual. INTERFERE tem sentido negativo, de se meter onde não foi chamado, e não é o que um bom gestor faz."
+   },
+   {
+    "id": "pw3u05v09",
+    "topic": "Rise to the Top",
+    "question": "Reviewers often ______ the airline for its lack of comfort, but passengers still like the low prices.",
+    "options": [
+     "criticize",
+     "congratulate",
+     "recommend",
+     "appreciate"
+    ],
+    "correct": 0,
+    "explanation": "CRITICIZE é apontar defeitos, dizer o que está ruim. A falta de conforto é uma reclamação, então é criticar. CONGRATULATE seria elogiar, o contrário do que o BUT da frase pede."
+   },
+   {
+    "id": "pw3u05v10",
+    "topic": "Rise to the Top",
+    "question": "The new director was hired to ______ the company's finances after two difficult years.",
+    "options": [
+     "weaken",
+     "strengthen",
+     "waste",
+     "spend"
+    ],
+    "correct": 1,
+    "explanation": "STRENGTHEN é deixar mais forte, mais sólido. Depois de dois anos ruins, é isso que se espera de um novo diretor. WEAKEN seria enfraquecer, exatamente o problema que ele foi contratado para resolver."
+   },
+   {
+    "id": "pw3u05v11",
+    "topic": "Rise to the Top",
+    "question": "Most graduates start in an ______ position and move up after a few years.",
+    "options": [
+     "top-level",
+     "executive",
+     "entry-level",
+     "managerial"
+    ],
+    "correct": 2,
+    "explanation": "ENTRY-LEVEL é o cargo de entrada, aquele que não exige experiência e fica na base da carreira. As outras opções descrevem cargos altos, e ninguém sobe a partir do topo."
+   },
+   {
+    "id": "pw3u05v12",
+    "topic": "Rise to the Top",
+    "question": "After three successful years, Ana got a ______ and became team leader.",
+    "options": [
+     "resignation",
+     "vacation",
+     "complaint",
+     "promotion"
+    ],
+    "correct": 3,
+    "explanation": "PROMOTION é subir de cargo dentro da empresa. Virar líder de equipe é exatamente isso. RESIGNATION seria pedir demissão, e aí ela não assumiria cargo nenhum."
+   },
+   {
+    "id": "pw3u05v13",
+    "topic": "Rise to the Top",
+    "question": "The teacher asked the quieter students to ______ more in class discussions.",
+    "options": [
+     "participate",
+     "disappear",
+     "hesitate",
+     "apologize"
+    ],
+    "correct": 0,
+    "explanation": "PARTICIPATE é tomar parte, falar e se envolver na atividade. É o que se pede a quem fica calado. HESITATE seria justamente titubear e falar menos ainda."
+   },
+   {
+    "id": "pw3u05v14",
+    "topic": "Rise to the Top",
+    "question": "Two colleagues always ______ the meeting, so nobody else gets a chance to speak.",
+    "options": [
+     "decorate",
+     "dominate",
+     "delegate",
+     "moderate"
+    ],
+    "correct": 1,
+    "explanation": "DOMINATE é ocupar todo o espaço, controlar a conversa sozinho. Por isso ninguém mais consegue falar. MODERATE seria conduzir a reunião dando a vez a cada um, o oposto do que a frase descreve."
+   },
+   {
+    "id": "pw3u05v15",
+    "topic": "Rise to the Top",
+    "question": "Everyone at the meeting is expected to ______ at least one idea.",
+    "options": [
+     "consume",
+     "conclude",
+     "contribute",
+     "confuse"
+    ],
+    "correct": 2,
+    "explanation": "CONTRIBUTE é dar a sua parte, trazer algo para o grupo. Uma ideia é o que cada um oferece. CONSUME seria consumir, receber em vez de dar."
+   },
+   {
+    "id": "pw3u05v16",
+    "topic": "Rise to the Top",
+    "question": "My manager gave me useful ______ on my report and suggested three improvements.",
+    "options": [
+     "reputation",
+     "promotion",
+     "permission",
+     "feedback"
+    ],
+    "correct": 3,
+    "explanation": "FEEDBACK é o retorno que alguém dá sobre o seu trabalho, dizendo o que funcionou e o que melhorar. As três sugestões são feedback. REPUTATION é a imagem que os outros têm de você, não um comentário sobre um relatório."
+   },
+   {
+    "id": "pw3u05v17",
+    "topic": "Rise to the Top",
+    "question": "The company has an excellent ______: everyone in the industry respects its work.",
+    "options": [
+     "reputation",
+     "description",
+     "occupation",
+     "invitation"
+    ],
+    "correct": 0,
+    "explanation": "REPUTATION é a fama, o que as pessoas pensam de você. O respeito do mercado inteiro é a reputação da empresa. OCCUPATION seria a profissão de alguém."
+   },
+   {
+    "id": "pw3u05v18",
+    "topic": "Rise to the Top",
+    "question": "She became a doctor because she wanted to ______ in people's lives.",
+    "options": [
+     "make a living",
+     "make a difference",
+     "take a chance",
+     "keep a promise"
+    ],
+    "correct": 1,
+    "explanation": "MAKE A DIFFERENCE é ter um impacto real, mudar algo para melhor na vida dos outros. MAKE A LIVING é só ganhar o sustento, e a frase fala de propósito, não de salário."
+   },
+   {
+    "id": "pw3u05v19",
+    "topic": "Rise to the Top",
+    "question": "This medicine is more ______ than the old one: patients recover twice as fast.",
+    "options": [
+     "expensive",
+     "attractive",
+     "effective",
+     "sensitive"
+    ],
+    "correct": 2,
+    "explanation": "EFFECTIVE é aquilo que dá resultado, que funciona de verdade. Curar em metade do tempo é ser mais eficaz. EXPENSIVE falaria só do preço, que não é o que a frase mede."
+   },
+   {
+    "id": "pw3u05v20",
+    "topic": "Rise to the Top",
+    "question": "To work in international law, you need ______ courses that ordinary law programs do not offer.",
+    "options": [
+     "general",
+     "basic",
+     "introductory",
+     "specialized"
+    ],
+    "correct": 3,
+    "explanation": "SPECIALIZED é o curso voltado para uma área específica, com conteúdo que os cursos comuns não têm. GENERAL, BASIC e INTRODUCTORY dizem o contrário, que o conteúdo é amplo ou inicial."
+   },
+   {
+    "id": "pw3u05p1",
+    "topic": "Pronunciation – Vowel Sound /ɜr/",
+    "question": "In which word do you hear the vowel sound /ɜr/, as in her?",
+    "options": [
+     "work",
+     "hard",
+     "born",
+     "car"
+    ],
+    "correct": 0,
+    "explanation": "O som /ɜr/ é aquele do meio de WORK, igual ao de HER. HARD, BORN e CAR têm vogais diferentes, mais abertas e sem esse timbre."
+   },
+   {
+    "id": "pw3u05p2",
+    "topic": "Pronunciation – Vowel Sound /ɜr/",
+    "question": "Three of these words have the vowel sound /ɜr/. Which one does NOT?",
+    "options": [
+     "learn",
+     "career",
+     "first",
+     "service"
+    ],
+    "correct": 1,
+    "explanation": "LEARN, FIRST e a primeira sílaba de SERVICE trazem o som /ɜr/. Em CAREER a sílaba forte soa /ɪr/, como em NEAR, e não /ɜr/."
+   },
+   {
+    "id": "pw3u05p3",
+    "topic": "Pronunciation – Vowel Sound /ɜr/",
+    "question": "Which pair has the same vowel sound as in work?",
+    "options": [
+     "far / part",
+     "more / four",
+     "term / early",
+     "care / air"
+    ],
+    "correct": 2,
+    "explanation": "TERM e EARLY repetem o /ɜr/ de WORK. Os outros pares têm vogais diferentes entre si e diferentes de WORK."
+   }
+  ]
+ },
+ "final": {
+  "label": "Units 6–10",
+  "topics": "Units 6 to 10: Design with Purpose, Inspired to Protect, Traditional and Modern Medicine, Uncovering the Past, Feelings & Emotions",
+  "questions": [
+   {
+    "id": "pw3u06v01",
+    "topic": "Design with Purpose",
+    "question": "Bright colors and unusual shapes help ______ this studio's buildings from every other office in the city.",
+    "options": [
+     "disguise",
+     "distribute",
+     "dismiss",
+     "distinguish"
+    ],
+    "correct": 3,
+    "explanation": "DISTINGUISH é separar uma coisa das outras, deixar claro que ela é diferente. As cores e as formas fazem esse papel. DISGUISE seria disfarçar, esconder o que a coisa é."
+   },
+   {
+    "id": "pw3u06v02",
+    "topic": "Design with Purpose",
+    "question": "The ______ of natural light in the old building made the rooms feel cold and unwelcoming.",
+    "options": [
+     "absence",
+     "presence",
+     "arrival",
+     "appearance"
+    ],
+    "correct": 0,
+    "explanation": "ABSENCE é a falta de algo, aquilo que não está lá. Salas frias e sem acolhimento vêm da falta de luz natural. PRESENCE diria justamente o contrário."
+   },
+   {
+    "id": "pw3u06v03",
+    "topic": "Design with Purpose",
+    "question": "The architects were ______ to using local materials, and they never changed their minds about it.",
+    "options": [
+     "connected",
+     "committed",
+     "compared",
+     "confused"
+    ],
+    "correct": 1,
+    "explanation": "COMMITTED TO é estar comprometido com algo, assumir aquilo e não abrir mão. Por isso eles nunca mudaram de ideia. CONNECTED TO seria apenas ter ligação com algo, sem o compromisso."
+   },
+   {
+    "id": "pw3u06v04",
+    "topic": "Design with Purpose",
+    "question": "A chair may look beautiful, but its main ______ is to be comfortable to sit on.",
+    "options": [
+     "decoration",
+     "material",
+     "function",
+     "opinion"
+    ],
+    "correct": 2,
+    "explanation": "FUNCTION é para que a coisa serve, o uso que ela tem. Sentar é a função da cadeira. DECORATION seria só o lado visual, que a frase opõe à função com o BUT."
+   },
+   {
+    "id": "pw3u06v05",
+    "topic": "Design with Purpose",
+    "question": "Before drawing anything, the team discussed the general ______ behind the museum.",
+    "options": [
+     "ceiling",
+     "contract",
+     "complaint",
+     "concept"
+    ],
+    "correct": 3,
+    "explanation": "CONCEPT é a ideia central que orienta o projeto, aquilo que vem antes do desenho. CEILING é o teto, uma parte física do prédio, não uma ideia."
+   },
+   {
+    "id": "pw3u06v06",
+    "topic": "Design with Purpose",
+    "question": "The curved roof ______ the shape of the mountains behind the building.",
+    "options": [
+     "reflects",
+     "refuses",
+     "repairs",
+     "replaces"
+    ],
+    "correct": 0,
+    "explanation": "REFLECTS aqui é espelhar, repetir na construção uma forma que existe fora dela. O telhado curvo repete a linha das montanhas. REPLACES seria substituir as montanhas, o que não faz sentido."
+   },
+   {
+    "id": "pw3u06v07",
+    "topic": "Design with Purpose",
+    "question": "The most impressive ______ of the design is the way the old tiles were reused.",
+    "options": [
+     "absence",
+     "aspect",
+     "accident",
+     "addition"
+    ],
+    "correct": 1,
+    "explanation": "ASPECT é um lado, um detalhe de algo maior que se pode destacar. O reaproveitamento das telhas é um desses lados do projeto. ABSENCE seria a falta de alguma coisa."
+   },
+   {
+    "id": "pw3u06v08",
+    "topic": "Design with Purpose",
+    "question": "The stones used in this wall ______ the seventeenth century.",
+    "options": [
+     "look for",
+     "come across",
+     "date from",
+     "take after"
+    ],
+    "correct": 2,
+    "explanation": "DATE FROM diz de que época algo vem, qual a idade da coisa. As pedras são do século dezessete. COME ACROSS seria encontrar algo por acaso."
+   },
+   {
+    "id": "pw3u06v09",
+    "topic": "Design with Purpose",
+    "question": "Visitors were ______ with the architect's name until he won an international prize.",
+    "options": [
+     "unfriendly",
+     "unfair",
+     "uncomfortable",
+     "unfamiliar"
+    ],
+    "correct": 3,
+    "explanation": "UNFAMILIAR WITH é não conhecer, nunca ter ouvido falar. Só depois do prêmio o nome dele ficou conhecido. UNFRIENDLY seria antipático, uma qualidade da pessoa, não falta de conhecimento."
+   },
+   {
+    "id": "pw3u06v10",
+    "topic": "Design with Purpose",
+    "question": "She works for the ______ design studio in the country: no other firm wins as many prizes.",
+    "options": [
+     "leading",
+     "following",
+     "missing",
+     "remaining"
+    ],
+    "correct": 0,
+    "explanation": "LEADING é o que está na frente, o principal da área. Ganhar mais prêmios que todos mostra isso. FOLLOWING seria vir atrás, justamente o oposto."
+   },
+   {
+    "id": "pw3u06v11",
+    "topic": "Design with Purpose",
+    "question": "For this company, user safety is the top ______: everything else comes later.",
+    "options": [
+     "possibility",
+     "priority",
+     "property",
+     "procedure"
+    ],
+    "correct": 1,
+    "explanation": "PRIORITY é o que vem em primeiro lugar, antes de tudo. A própria frase diz que o resto vem depois. POSSIBILITY seria apenas uma opção entre outras."
+   },
+   {
+    "id": "pw3u06v12",
+    "topic": "Design with Purpose",
+    "question": "The survey measures customer ______: how happy people are with the product.",
+    "options": [
+     "subscription",
+     "suggestion",
+     "satisfaction",
+     "separation"
+    ],
+    "correct": 2,
+    "explanation": "SATISFACTION é o quanto a pessoa ficou contente com o que recebeu. A própria frase explica o sentido. SUBSCRIPTION seria a assinatura de um serviço."
+   },
+   {
+    "id": "pw3u06v13",
+    "topic": "Design with Purpose",
+    "question": "The new layout is more ______: users can find what they need in two clicks.",
+    "options": [
+     "decorative",
+     "historical",
+     "theoretical",
+     "practical"
+    ],
+    "correct": 3,
+    "explanation": "PRACTICAL é aquilo que funciona bem no uso do dia a dia, sem complicação. Achar tudo em dois cliques é ser prático. DECORATIVE falaria só da aparência."
+   },
+   {
+    "id": "pw3u06v14",
+    "topic": "Design with Purpose",
+    "question": "The new app ______ users to book a flight in less than a minute.",
+    "options": [
+     "enables",
+     "prevents",
+     "forbids",
+     "delays"
+    ],
+    "correct": 0,
+    "explanation": "ENABLES é tornar algo possível, dar a alguém a condição de fazer aquilo. O aplicativo permite reservar rápido. PREVENTS e FORBIDS diriam que ele impede."
+   },
+   {
+    "id": "pw3u06v15",
+    "topic": "Design with Purpose",
+    "question": "The main ______ of the course is to teach students the principles of design.",
+    "options": [
+     "obstacle",
+     "objective",
+     "opinion",
+     "occasion"
+    ],
+    "correct": 1,
+    "explanation": "OBJECTIVE é o alvo, o que se quer alcançar. Ensinar os princípios é a meta do curso. OBSTACLE seria um obstáculo, algo que atrapalha em vez de orientar."
+   },
+   {
+    "id": "pw3u06v16",
+    "topic": "Design with Purpose",
+    "question": "Designers must ______ the problems users face before they can fix them.",
+    "options": [
+     "imagine",
+     "imitate",
+     "identify",
+     "ignore"
+    ],
+    "correct": 2,
+    "explanation": "IDENTIFY é reconhecer e apontar com clareza qual é o problema real. Só depois disso dá para resolver. IMAGINE seria supor sem verificar, e IGNORE seria fingir que o problema não existe."
+   },
+   {
+    "id": "pw3u06v17",
+    "topic": "Design with Purpose",
+    "question": "A ______ user spends less than ten seconds on a home page, so the design must be clear.",
+    "options": [
+     "unique",
+     "rare",
+     "loyal",
+     "typical"
+    ],
+    "correct": 3,
+    "explanation": "TYPICAL é o caso comum, o que representa a maioria. O projeto é pensado para esse usuário médio. UNIQUE e RARE apontariam para a exceção, que não serve de régua."
+   },
+   {
+    "id": "pw3u06v18",
+    "topic": "Design with Purpose",
+    "question": "Most people ______ several websites before deciding what to buy.",
+    "options": [
+     "browse",
+     "borrow",
+     "bury",
+     "bother"
+    ],
+    "correct": 0,
+    "explanation": "BROWSE é passar os olhos, navegar sem compromisso pelas páginas. É o que se faz antes de decidir a compra. BORROW seria pegar emprestado."
+   },
+   {
+    "id": "pw3u06v19",
+    "topic": "Design with Purpose",
+    "question": "A confusing menu ______ that users will get lost and leave the site.",
+    "options": [
+     "questions",
+     "guarantees",
+     "prevents",
+     "doubts"
+    ],
+    "correct": 1,
+    "explanation": "GUARANTEES é ter certeza do resultado, dizer que aquilo vai acontecer sem falta. Um menu confuso garante a desistência do usuário. PREVENTS diria que o menu impede a pessoa de se perder."
+   },
+   {
+    "id": "pw3u06v20",
+    "topic": "Design with Purpose",
+    "question": "One ______ change, moving the button to the top, doubled the number of sales.",
+    "options": [
+     "careless",
+     "casual",
+     "crucial",
+     "curious"
+    ],
+    "correct": 2,
+    "explanation": "CRUCIAL é decisivo, aquilo que muda tudo. Dobrar as vendas mostra o peso da mudança. CARELESS seria uma mudança feita sem cuidado, que dificilmente traria esse resultado."
+   },
+   {
+    "id": "pw3u06v21",
+    "topic": "Design with Purpose",
+    "question": "The designers made a few small ______ to the colors, and the page looked much clearer.",
+    "options": [
+     "arguments",
+     "appointments",
+     "achievements",
+     "adjustments"
+    ],
+    "correct": 3,
+    "explanation": "ADJUSTMENTS são ajustes pequenos, retoques em algo que já existe. Mexer um pouco nas cores é isso. ARGUMENTS seriam discussões entre pessoas."
+   },
+   {
+    "id": "pw3u06v22",
+    "topic": "Design with Purpose",
+    "question": "The team released a new ______ of the app with a faster search tool.",
+    "options": [
+     "version",
+     "vision",
+     "volume",
+     "venue"
+    ],
+    "correct": 0,
+    "explanation": "VERSION é cada nova edição de um produto, com mudanças em relação à anterior. VENUE é o local onde acontece um evento, e VISION é a visão ou a capacidade de enxergar."
+   },
+   {
+    "id": "pw3u06p1",
+    "topic": "Pronunciation – Consonant Clusters with Three Sounds",
+    "question": "Which word ends with three consonant sounds together?",
+    "options": [
+     "reflect",
+     "reflects",
+     "reflected",
+     "reflecting"
+    ],
+    "correct": 1,
+    "explanation": "Em REFLECTS o final junta /k/, /t/ e /s/, três consoantes seguidas. REFLECT para em /kt/, e as outras formas terminam em vogal ou em /ɪŋ/."
+   },
+   {
+    "id": "pw3u06p2",
+    "topic": "Pronunciation – Consonant Clusters with Three Sounds",
+    "question": "In which word do you hear three consonant sounds together at the beginning?",
+    "options": [
+     "sport",
+     "trust",
+     "strong",
+     "song"
+    ],
+    "correct": 2,
+    "explanation": "STRONG começa com /s/, /t/ e /r/, três consoantes coladas. SPORT e TRUST começam com apenas duas, e SONG com uma só."
+   },
+   {
+    "id": "pw3u06p3",
+    "topic": "Pronunciation – Consonant Clusters with Three Sounds",
+    "question": "Which word has three consonant sounds together in the middle?",
+    "options": [
+     "requirements",
+     "improvements",
+     "developments",
+     "adjustments"
+    ],
+    "correct": 3,
+    "explanation": "Em ADJUSTMENTS os sons /s/, /t/ e /m/ vêm um atrás do outro. Nas outras palavras só há duas consoantes nesse ponto, como o /vm/ de IMPROVEMENTS."
+   },
+   {
+    "id": "pw3u07v01",
+    "topic": "Inspired to Protect",
+    "question": "The reef has recovered a little every year since 2015, so the biologists are ______ about its future.",
+    "options": [
+     "paralyzed",
+     "pessimistic",
+     "discouraged",
+     "optimistic"
+    ],
+    "correct": 3,
+    "explanation": "Optimistic é quem espera um resultado bom. A frase diz que o recife melhora a cada ano, e essa notícia boa só combina com a expectativa positiva. Pessimistic seria o contrário, esperar o pior."
+   },
+   {
+    "id": "pw3u07v02",
+    "topic": "Inspired to Protect",
+    "question": "Three beach cleanups in a row were canceled by storms, and now the volunteers feel ______ about the next one.",
+    "options": [
+     "curious",
+     "optimistic",
+     "pessimistic",
+     "passionate"
+    ],
+    "correct": 2,
+    "explanation": "Pessimistic é quem espera que dê errado. Depois de três tentativas frustradas, é essa a expectativa que cabe. Optimistic diria justamente o contrário do que a frase prepara."
+   },
+   {
+    "id": "pw3u07v03",
+    "topic": "Inspired to Protect",
+    "question": "After months of bad news about the climate, many readers stop paying attention. This reaction is called environmental fatigue. Here, fatigue means:",
+    "options": [
+     "an angry response to false information",
+     "a tiredness that makes people give up on the subject",
+     "a sudden fear of what will happen next",
+     "a lack of scientific knowledge about the planet"
+    ],
+    "correct": 1,
+    "explanation": "Fatigue é cansaço, e no livro aparece como o cansaço de ouvir sempre o mesmo assunto até a pessoa desligar. Não é medo nem raiva, é esgotamento."
+   },
+   {
+    "id": "pw3u07v04",
+    "topic": "Inspired to Protect",
+    "question": "When she saw how close the fire was, she stood ______ and could not move or speak.",
+    "options": [
+     "renewable",
+     "discouraged",
+     "paralyzed",
+     "perceived"
+    ],
+    "correct": 2,
+    "explanation": "Paralyzed é ficar sem conseguir se mexer, travado. A frase explica isso logo em seguida, could not move or speak. Discouraged é desanimado, o que não impede ninguém de andar."
+   },
+   {
+    "id": "pw3u07v05",
+    "topic": "Inspired to Protect",
+    "question": "Which sentence uses got over correctly?",
+    "options": [
+     "They got over money before the end of the expedition.",
+     "She got over the report to the director last Friday.",
+     "He got over that the whole plan had been a mistake.",
+     "It took a month, but she finally got over her disappointment and came back to the group."
+    ],
+    "correct": 3,
+    "explanation": "Get over é superar algo ruim, uma doença, uma decepção, um susto. As outras frases pedem outros verbos: entregar o relatório, ficar sem dinheiro, admitir o erro."
+   },
+   {
+    "id": "pw3u07v06",
+    "topic": "Inspired to Protect",
+    "question": "Water, forests, and minerals are ______ , and a country that wastes them today leaves nothing for tomorrow.",
+    "options": [
+     "natural resources",
+     "public crises",
+     "daily remedies",
+     "personal factors"
+    ],
+    "correct": 0,
+    "explanation": "Natural resources são os recursos que vêm da natureza e que a gente usa: água, floresta, minério. É exatamente a lista que a frase dá."
+   },
+   {
+    "id": "pw3u07v07",
+    "topic": "Inspired to Protect",
+    "question": "In the sentence \"Recycling is often perceived as a small gesture\", the word perceived is closest in meaning to:",
+    "options": [
+     "seen",
+     "measured",
+     "refused",
+     "proven"
+    ],
+    "correct": 0,
+    "explanation": "Perceive é enxergar de um certo jeito, é como as pessoas veem a coisa, não como ela é comprovadamente. Por isso seen serve e proven não: ninguém provou nada aqui."
+   },
+   {
+    "id": "pw3u07v08",
+    "topic": "Inspired to Protect",
+    "question": "Ana is so ______ about sea turtles that she spends every weekend counting nests on the beach.",
+    "options": [
+     "pessimistic",
+     "harmless",
+     "passionate",
+     "predictable"
+    ],
+    "correct": 2,
+    "explanation": "Passionate é quem tem paixão por um assunto e se dedica a ele. Passar todo fim de semana contando ninhos é a prova dessa paixão."
+   },
+   {
+    "id": "pw3u07v09",
+    "topic": "Inspired to Protect",
+    "question": "Thanks to the park's ______ program, the wolf population has grown from fewer than twenty animals to more than two hundred.",
+    "options": [
+     "conservation",
+     "confusion",
+     "construction",
+     "consumption"
+    ],
+    "correct": 0,
+    "explanation": "Conservation é o trabalho de proteger a natureza e as espécies. Consumption seria o oposto do que o programa faz, gastar em vez de preservar."
+   },
+   {
+    "id": "pw3u07v10",
+    "topic": "Inspired to Protect",
+    "question": "Stories about young activists ______ other students to start projects in their own neighborhoods.",
+    "options": [
+     "feature",
+     "inspire",
+     "deny",
+     "perceive"
+    ],
+    "correct": 1,
+    "explanation": "Inspire é dar vontade em alguém de fazer alguma coisa, e vem seguido de to mais verbo, como na frase. Feature seria mostrar ou destacar alguém, não levar a pessoa a agir."
+   },
+   {
+    "id": "pw3u07v11",
+    "topic": "Inspired to Protect",
+    "question": "When the river dried up in January, the town faced a water ______ that lasted the whole summer.",
+    "options": [
+     "routine",
+     "reminder",
+     "fatigue",
+     "crisis"
+    ],
+    "correct": 3,
+    "explanation": "Crisis é uma situação grave e urgente, que exige decisão rápida. Ficar sem água por um verão inteiro é exatamente isso."
+   },
+   {
+    "id": "pw3u07v12",
+    "topic": "Inspired to Protect",
+    "question": "The company continued to ______ that its factory had polluted the river, even after the photographs appeared in the newspaper.",
+    "options": [
+     "give in",
+     "deny",
+     "stand for",
+     "discourage"
+    ],
+    "correct": 1,
+    "explanation": "Deny é negar, dizer que não é verdade. A frase mostra a empresa insistindo no não mesmo com as fotos na mão."
+   },
+   {
+    "id": "pw3u07v13",
+    "topic": "Inspired to Protect",
+    "question": "The report on plastic in the ocean was so ______ that some students did not want to finish reading it.",
+    "options": [
+     "renewable",
+     "depressed",
+     "harmless",
+     "depressing"
+    ],
+    "correct": 3,
+    "explanation": "Depressing é o que deixa a gente para baixo, e é assim que se descreve a coisa, o relatório. Depressed descreve a pessoa que se sente mal, então serviria para os alunos, não para o texto."
+   },
+   {
+    "id": "pw3u07v14",
+    "topic": "Inspired to Protect",
+    "question": "After collecting only ten signatures in a whole afternoon, Marco felt ______ and almost gave up the campaign.",
+    "options": [
+     "discouraging",
+     "optimistic",
+     "passionate",
+     "discouraged"
+    ],
+    "correct": 3,
+    "explanation": "Discouraged é desanimado, é como a pessoa se sente. Discouraging descreveria o resultado, não o Marco."
+   },
+   {
+    "id": "pw3u07v15",
+    "topic": "Inspired to Protect",
+    "question": "The museum's new exhibit ______ photographs taken by local children during the drought.",
+    "options": [
+     "inspires",
+     "perceives",
+     "denies",
+     "features"
+    ],
+    "correct": 3,
+    "explanation": "Feature aqui é trazer em destaque, apresentar como atração principal. É o que uma exposição faz com as fotos."
+   },
+   {
+    "id": "pw3u07v16",
+    "topic": "Inspired to Protect",
+    "question": "The mayor refused to ______ to the pressure from the factory owners and kept the new rules.",
+    "options": [
+     "give in",
+     "stand for",
+     "run out",
+     "get over"
+    ],
+    "correct": 0,
+    "explanation": "Give in to é ceder à pressão de alguém. O refused mostra que ele não cedeu. Get over seria superar alguma coisa, o que não cabe com pressure."
+   },
+   {
+    "id": "pw3u07v17",
+    "topic": "Inspired to Protect",
+    "question": "The students are ______ for new solar panels by selling plants at the school gate.",
+    "options": [
+     "giving in",
+     "raising money",
+     "standing for",
+     "running out"
+    ],
+    "correct": 1,
+    "explanation": "Raise money é levantar dinheiro para alguma coisa, arrecadar. Vender plantas na porta da escola é como eles arrecadam."
+   },
+   {
+    "id": "pw3u07v18",
+    "topic": "Inspired to Protect",
+    "question": "The group ______ daylight before they could plant the last trees, so they came back the following weekend.",
+    "options": [
+     "got over",
+     "ran out of",
+     "stood for",
+     "gave in to"
+    ],
+    "correct": 1,
+    "explanation": "Run out of é acabar o que se tinha, ficar sem. Aqui acabou a luz do dia antes de terminarem o trabalho."
+   },
+   {
+    "id": "pw3u07v19",
+    "topic": "Inspired to Protect",
+    "question": "Wind and solar power are ______ , which means they will not disappear the way oil and coal will.",
+    "options": [
+     "renewable",
+     "poisonous",
+     "predictable",
+     "affordable"
+    ],
+    "correct": 0,
+    "explanation": "Renewable é o que se renova sozinho e não acaba, como sol e vento. A própria frase explica isso ao dizer que não vão desaparecer."
+   },
+   {
+    "id": "pw3u07v20",
+    "topic": "Inspired to Protect",
+    "question": "\"What do the letters WWF ______ ?\" \"I think it is the name of a conservation group.\"",
+    "options": [
+     "give in",
+     "stand for",
+     "get over",
+     "run out of"
+    ],
+    "correct": 1,
+    "explanation": "Stand for é significar, é o que uma sigla representa. A resposta da conversa entrega o sentido: as letras representam o nome do grupo."
+   },
+   {
+    "id": "pw3u07p1",
+    "topic": "Pronunciation – Commonly Confused Consonant Sounds",
+    "question": "The sounds /p/ and /b/ are easy to confuse. In which pair do the two words differ ONLY in this /p/ and /b/ contrast?",
+    "options": [
+     "pear / bear",
+     "coat / code",
+     "tie / die",
+     "class / glass"
+    ],
+    "correct": 0,
+    "explanation": "Em pear e bear tudo é igual menos o primeiro som: /p/ é surdo, a garganta não vibra, e /b/ é sonoro, a garganta vibra. Os outros pares trazem contrastes diferentes, /t/ com /d/ e /k/ com /g/."
+   },
+   {
+    "id": "pw3u07p2",
+    "topic": "Pronunciation – Commonly Confused Consonant Sounds",
+    "question": "Your classmate reads a word out loud and it ends with the voiced sound /d/, not with /t/. Which word did he read?",
+    "options": [
+     "coat",
+     "code",
+     "goat",
+     "cope"
+    ],
+    "correct": 1,
+    "explanation": "Code termina com /d/, som sonoro, feito com vibração na garganta. Coat e goat terminam com /t/, que é surdo, e cope termina com /p/."
+   },
+   {
+    "id": "pw3u07p3",
+    "topic": "Pronunciation – Commonly Confused Consonant Sounds",
+    "question": "Which of these words from the unit begins with the VOICED sound /g/?",
+    "options": [
+     "crisis",
+     "guard",
+     "conservation",
+     "card"
+    ],
+    "correct": 1,
+    "explanation": "Guard começa com /g/, o par sonoro. Card, crisis e conservation começam com /k/, que é o par surdo do mesmo ponto da boca."
+   },
+   {
+    "id": "pw3u08v01",
+    "topic": "Traditional and Modern Medicine",
+    "question": "Ginger tea and honey are traditional ______ for a sore throat in many countries.",
+    "options": [
+     "approvals",
+     "symptoms",
+     "variables",
+     "remedies"
+    ],
+    "correct": 3,
+    "explanation": "Remedy é o que se toma ou se faz para melhorar de alguma coisa, o remédio caseiro incluído. Symptoms seriam os sinais da doença, não o que a combate."
+   },
+   {
+    "id": "pw3u08v02",
+    "topic": "Traditional and Modern Medicine",
+    "question": "The clinic sells the medicine at an ______ price so that families with low incomes can also buy it.",
+    "options": [
+     "approved",
+     "addicted",
+     "available",
+     "affordable"
+    ],
+    "correct": 3,
+    "explanation": "Affordable é o que cabe no bolso, o preço que a pessoa consegue pagar. É esse o sentido que a segunda parte da frase pede."
+   },
+   {
+    "id": "pw3u08v03",
+    "topic": "Traditional and Modern Medicine",
+    "question": "The patient described her ______ to the nurse: a headache, a fever, and pain in her back.",
+    "options": [
+     "symptoms",
+     "remedies",
+     "opinions",
+     "variables"
+    ],
+    "correct": 0,
+    "explanation": "Symptoms são os sinais que o corpo dá quando algo está errado, e a frase lista três deles. Remedies seriam os tratamentos, não os sinais."
+   },
+   {
+    "id": "pw3u08v04",
+    "topic": "Traditional and Modern Medicine",
+    "question": "In the sentence \"The therapy may restore movement to the patient's hand\", the word restore is closest in meaning to:",
+    "options": [
+     "measure",
+     "bring back",
+     "replace",
+     "explain"
+    ],
+    "correct": 1,
+    "explanation": "Restore é devolver algo que existia antes e se perdeu, aqui o movimento da mão. Replace seria trocar por outra coisa, o que é bem diferente."
+   },
+   {
+    "id": "pw3u08v05",
+    "topic": "Traditional and Modern Medicine",
+    "question": "The leaves of that plant are ______ and can make a person very ill if they are eaten.",
+    "options": [
+     "poisonous",
+     "harmless",
+     "predictable",
+     "affordable"
+    ],
+    "correct": 0,
+    "explanation": "Poisonous é venenoso, o que faz mal se for ingerido. Harmless seria o contrário exato, aquilo que não causa dano nenhum."
+   },
+   {
+    "id": "pw3u08v06",
+    "topic": "Traditional and Modern Medicine",
+    "question": "It sounds strange at first, but the doctor's advice is perfectly ______ once you understand how the drug works in the body.",
+    "options": [
+     "logical",
+     "emotional",
+     "optional",
+     "accidental"
+    ],
+    "correct": 0,
+    "explanation": "Logical é o que faz sentido quando a gente segue o raciocínio até o fim. A frase mostra justamente isso: parece estranho, mas a explicação organiza tudo."
+   },
+   {
+    "id": "pw3u08v07",
+    "topic": "Traditional and Modern Medicine",
+    "question": "Once chemists identify the useful substance in the plant, they can ______ it in a laboratory instead of harvesting more plants.",
+    "options": [
+     "reproduce",
+     "restore",
+     "prescribe",
+     "release"
+    ],
+    "correct": 0,
+    "explanation": "Reproduce é fazer de novo, produzir uma cópia da substância. É o que permite parar de colher a planta."
+   },
+   {
+    "id": "pw3u08v08",
+    "topic": "Traditional and Modern Medicine",
+    "question": "This medicine is used to ______ high blood pressure, but it does not make the problem go away forever.",
+    "options": [
+     "cure",
+     "reproduce",
+     "deny",
+     "treat"
+    ],
+    "correct": 3,
+    "explanation": "Treat é cuidar de um problema de saúde, controlar os efeitos. Cure seria acabar de vez com a doença, e a frase diz que isso não acontece."
+   },
+   {
+    "id": "pw3u08v09",
+    "topic": "Traditional and Modern Medicine",
+    "question": "The study measured the ______ of the new drug by comparing the results with those of an older one.",
+    "options": [
+     "coincidence",
+     "effectiveness",
+     "approval",
+     "relief"
+    ],
+    "correct": 1,
+    "explanation": "Effectiveness é o quanto uma coisa funciona de verdade. Um estudo que compara resultados está medindo exatamente isso."
+   },
+   {
+    "id": "pw3u08v10",
+    "topic": "Traditional and Modern Medicine",
+    "question": "A careful experiment controls the ______ , such as the temperature of the room, the time of day, and the amount given.",
+    "options": [
+     "approvals",
+     "variables",
+     "remedies",
+     "symptoms"
+    ],
+    "correct": 1,
+    "explanation": "Variables são os fatores que mudam de uma vez para a outra e podem alterar o resultado. A frase lista três deles."
+   },
+   {
+    "id": "pw3u08v11",
+    "topic": "Traditional and Modern Medicine",
+    "question": "The results were not ______ at all: two patients improved in a week and two did not change in a month.",
+    "options": [
+     "poisonous",
+     "affordable",
+     "harmless",
+     "predictable"
+    ],
+    "correct": 3,
+    "explanation": "Predictable é o que dá para prever, o que se comporta sempre do mesmo jeito. Resultados tão diferentes entre si mostram o contrário."
+   },
+   {
+    "id": "pw3u08v12",
+    "topic": "Traditional and Modern Medicine",
+    "question": "The vaccine cannot be sold to the public until it receives government ______ .",
+    "options": [
+     "approval",
+     "effectiveness",
+     "relief",
+     "coincidence"
+    ],
+    "correct": 0,
+    "explanation": "Approval é a autorização oficial, o sinal verde do governo. Sem ela o remédio não chega à farmácia."
+   },
+   {
+    "id": "pw3u08v13",
+    "topic": "Traditional and Modern Medicine",
+    "question": "She drinks eight cups of coffee a day and cannot stop, so her friends joke that she is ______ to caffeine.",
+    "options": [
+     "addicted",
+     "poisonous",
+     "harmless",
+     "predictable"
+    ],
+    "correct": 0,
+    "explanation": "Be addicted to é ser viciado em alguma coisa, não conseguir parar. O cannot stop da frase é o sinal disso."
+   },
+   {
+    "id": "pw3u08v14",
+    "topic": "Traditional and Modern Medicine",
+    "question": "Exercise helps the body ______ chemicals that reduce pain and improve mood.",
+    "options": [
+     "relieve",
+     "release",
+     "restore",
+     "reproduce"
+    ],
+    "correct": 1,
+    "explanation": "Release é soltar, liberar alguma coisa que estava guardada. O corpo libera essas substâncias durante o exercício."
+   },
+   {
+    "id": "pw3u08v15",
+    "topic": "Traditional and Modern Medicine",
+    "question": "The pill gave him quick ______ from the headache, and he was back at work in half an hour.",
+    "options": [
+     "relief",
+     "cure",
+     "approval",
+     "remedy"
+    ],
+    "correct": 0,
+    "explanation": "Relief é o alívio, a sensação de que a dor passou. Relief from pain é a combinação usada em inglês, e cure e remedy pediriam a antes da palavra."
+   },
+   {
+    "id": "pw3u08v16",
+    "topic": "Traditional and Modern Medicine",
+    "question": "The cut on his arm was deep, and it took almost three weeks to ______ completely.",
+    "options": [
+     "heal",
+     "cure",
+     "restore",
+     "treat"
+    ],
+    "correct": 0,
+    "explanation": "Heal é o ferimento fechar sozinho, o corpo se recuperando. Treat e cure seriam o que o médico faz com o paciente, e aqui quem age é o próprio corte."
+   },
+   {
+    "id": "pw3u08v17",
+    "topic": "Traditional and Modern Medicine",
+    "question": "Which sentence uses harmless correctly?",
+    "options": [
+     "The doctor harmless the patient's fears about the surgery.",
+     "The snake bite was harmless, so she went to the hospital immediately.",
+     "The tea probably will not help you, but it is harmless, so you can drink it.",
+     "He felt harmless for two days after taking the medicine."
+    ],
+    "correct": 2,
+    "explanation": "Harmless é aquilo que não faz mal a ninguém. Por isso combina com um chá que não cura mas também não prejudica, e não com uma picada de cobra que manda a pessoa para o hospital."
+   },
+   {
+    "id": "pw3u08v18",
+    "topic": "Traditional and Modern Medicine",
+    "question": "\"Take the medicine with food so that it does not upset your stomach.\" \"That ______ . I will do it that way.\"",
+    "options": [
+     "stands for",
+     "runs out",
+     "gives in",
+     "makes sense"
+    ],
+    "correct": 3,
+    "explanation": "Make sense é fazer sentido, ser uma explicação que a gente aceita. A resposta mostra a pessoa concordando e mudando o que ia fazer."
+   },
+   {
+    "id": "pw3u08v19",
+    "topic": "Traditional and Modern Medicine",
+    "question": "Two neighbors developed the same rare illness in the same month. Doctors are still not sure whether it was a ______ or something in the water.",
+    "options": [
+     "remedy",
+     "symptom",
+     "variable",
+     "coincidence"
+    ],
+    "correct": 3,
+    "explanation": "Coincidence é quando duas coisas acontecem juntas sem uma causar a outra. A frase opõe justamente essa possibilidade à água contaminada."
+   },
+   {
+    "id": "pw3u08v20",
+    "topic": "Traditional and Modern Medicine",
+    "question": "There is still no ______ for the common cold, only ways to feel a little better while it lasts.",
+    "options": [
+     "approval",
+     "variable",
+     "symptom",
+     "cure"
+    ],
+    "correct": 3,
+    "explanation": "Cure é o que acaba de vez com a doença. A frase diz que isso não existe para o resfriado, só há maneiras de aliviar."
+   },
+   {
+    "id": "pw3u08v21",
+    "topic": "Traditional and Modern Medicine",
+    "question": "\"I read online that hot water burns body fat.\" \"That is complete ______ . There is no evidence for it at all.\"",
+    "options": [
+     "approval",
+     "coincidence",
+     "nonsense",
+     "relief"
+    ],
+    "correct": 2,
+    "explanation": "Nonsense é bobagem, uma ideia sem pé nem cabeça. A segunda frase confirma: não existe nenhuma evidência."
+   },
+   {
+    "id": "pw3u08v22",
+    "topic": "Traditional and Modern Medicine",
+    "question": "In the sentence \"The placebo study highlights the power of the mind over the body\", the word highlights is closest in meaning to:",
+    "options": [
+     "shows clearly",
+     "hides",
+     "questions",
+     "measures"
+    ],
+    "correct": 0,
+    "explanation": "Highlight é chamar atenção para alguma coisa, deixar um ponto bem visível. Questions seria o oposto, colocar a ideia em dúvida."
+   },
+   {
+    "id": "pw3u08p1",
+    "topic": "Pronunciation – Linking Vowel Sounds with /y/ and /w/",
+    "question": "In natural speech, \"We always work on Saturdays\" sounds like \"Weyalways\". Which pair below is linked with the same /y/ sound?",
+    "options": [
+     "too old",
+     "who is",
+     "so easy",
+     "I am"
+    ],
+    "correct": 3,
+    "explanation": "O /y/ aparece quando a primeira palavra termina com o som /i/ ou /aɪ/. I termina em /aɪ/, então I am sai como Iyam. Os outros pares terminam em /o/ ou /u/ e pedem o /w/."
+   },
+   {
+    "id": "pw3u08p2",
+    "topic": "Pronunciation – Linking Vowel Sounds with /y/ and /w/",
+    "question": "Which pair of words is linked with a /w/ sound when someone speaks quickly?",
+    "options": [
+     "she asked",
+     "my arm",
+     "be able",
+     "too easy"
+    ],
+    "correct": 3,
+    "explanation": "O /w/ aparece depois dos sons /o/ e /u/. Too termina em /u/, então too easy sai como toweasy. Nos outros pares a primeira palavra termina em /i/ ou /aɪ/, e o som que aparece é o /y/."
+   },
+   {
+    "id": "pw3u08p3",
+    "topic": "Pronunciation – Linking Vowel Sounds with /y/ and /w/",
+    "question": "Listen to the sentence \"Joe is only trying to avoid an accident.\" What happens between Joe and is?",
+    "options": [
+     "A /y/ sound links them, because Joe ends with the /i/ sound.",
+     "A /w/ sound links them, because Joe ends with the /o/ sound.",
+     "Nothing links them, because is begins with a vowel sound.",
+     "A /d/ sound links them, because the next word is short."
+    ],
+    "correct": 1,
+    "explanation": "Joe termina com o som /o/ e a palavra seguinte começa com vogal, então na fala rápida entra um /w/ no meio: Jowis. Quando a primeira palavra termina em /i/ ou /aɪ/ o som que entra é o /y/."
+   },
+   {
+    "id": "pw3u09v01",
+    "topic": "Uncovering the Past",
+    "question": "The excavation was led by an ______ who had spent twenty years digging at sites in Peru.",
+    "options": [
+     "archaeologist",
+     "architect",
+     "astronomer",
+     "accountant"
+    ],
+    "correct": 0,
+    "explanation": "Archaeologist é o cientista que estuda o passado escavando objetos e construções antigas. Architect projeta prédios e astronomer estuda os astros, então nenhum dos dois passaria vinte anos escavando um sítio."
+   },
+   {
+    "id": "pw3u09v02",
+    "topic": "Uncovering the Past",
+    "question": "Two researchers ______ to have found the oldest map in the world, but nobody has been able to confirm it.",
+    "options": [
+     "denied",
+     "claimed",
+     "refused",
+     "promised"
+    ],
+    "correct": 1,
+    "explanation": "To claim é afirmar alguma coisa sem apresentar prova, exatamente o que a segunda parte da frase descreve. Refuse e deny seriam o contrário, negar ou recusar, e promise não combina com uma descoberta já feita."
+   },
+   {
+    "id": "pw3u09v03",
+    "topic": "Uncovering the Past",
+    "question": "It took the workers almost a year to ______ a full-size replica of the ancient boat.",
+    "options": [
+     "restore",
+     "remove",
+     "construct",
+     "collect"
+    ],
+    "correct": 2,
+    "explanation": "Construct é construir alguma coisa peça por peça, que é o que se faz com uma réplica nova. Restore seria recuperar um objeto original que já existe, e não é o caso de uma cópia feita do zero."
+   },
+   {
+    "id": "pw3u09v04",
+    "topic": "Uncovering the Past",
+    "question": "This pottery belongs to an ______ when people had just begun to farm the land.",
+    "options": [
+     "event",
+     "area",
+     "hour",
+     "era"
+    ],
+    "correct": 3,
+    "explanation": "Era é um período longo da história, marcado por alguma característica, como o começo da agricultura. Area é espaço e não tempo, e event é um acontecimento pontual, curto demais para o que a frase descreve."
+   },
+   {
+    "id": "pw3u09v05",
+    "topic": "Uncovering the Past",
+    "question": "Nobody can explain the ______ lines carved into the desert floor thousands of years ago.",
+    "options": [
+     "mysterious",
+     "obvious",
+     "ordinary",
+     "familiar"
+    ],
+    "correct": 0,
+    "explanation": "Mysterious descreve algo que ninguém consegue explicar, que é justamente o que a frase diz sobre as linhas. Obvious e familiar seriam o contrário, algo claro ou já conhecido."
+   },
+   {
+    "id": "pw3u09v06",
+    "topic": "Uncovering the Past",
+    "question": "When the family moved abroad, they sold most of their ______ and took only two suitcases.",
+    "options": [
+     "professions",
+     "possessions",
+     "memories",
+     "opinions"
+    ],
+    "correct": 1,
+    "explanation": "Possessions são os bens materiais que uma pessoa tem, e são eles que podem ser vendidos antes de uma mudança. Memories e opinions não se vendem, e professions é a profissão, não o que se guarda em casa."
+   },
+   {
+    "id": "pw3u09v07",
+    "topic": "Uncovering the Past",
+    "question": "The age of the bones found in the cave ______ from 3,000 to 5,000 years.",
+    "options": [
+     "counts",
+     "weighs",
+     "ranges",
+     "reaches"
+    ],
+    "correct": 2,
+    "explanation": "To range from ... to ... é ir de um limite a outro dentro de um intervalo, a forma usada para dar mínimo e máximo. Reach indica chegar a um ponto só, sem a ideia de intervalo."
+   },
+   {
+    "id": "pw3u09v08",
+    "topic": "Uncovering the Past",
+    "question": "In this cave painting, the two circles ______ the sun and the moon.",
+    "options": [
+     "imagine",
+     "replace",
+     "prefer",
+     "represent"
+    ],
+    "correct": 3,
+    "explanation": "Represent é servir de imagem ou sinal de outra coisa, que é o papel dos círculos na pintura. Replace seria substituir de fato o sol e a lua, o que não faz sentido em um desenho."
+   },
+   {
+    "id": "pw3u09v09",
+    "topic": "Uncovering the Past",
+    "question": "The olive branch is a well-known ______ of peace in many cultures.",
+    "options": [
+     "symbol",
+     "summary",
+     "sample",
+     "statue"
+    ],
+    "correct": 0,
+    "explanation": "Symbol é um objeto ou imagem que carrega um significado maior, como o ramo de oliveira para a paz. Sample é uma amostra e summary é um resumo, e nenhum dos dois representa uma ideia."
+   },
+   {
+    "id": "pw3u09v10",
+    "topic": "Uncovering the Past",
+    "question": "Early humans made a simple stone ______ for cutting meat and skins.",
+    "options": [
+     "task",
+     "tool",
+     "trade",
+     "toy"
+    ],
+    "correct": 1,
+    "explanation": "Tool é o instrumento usado para fazer um trabalho, e é isso que uma pedra cortante era. Toy é brinquedo e task é tarefa, ou seja, o trabalho em si e não o objeto."
+   },
+   {
+    "id": "pw3u09v11",
+    "topic": "Uncovering the Past",
+    "question": "The building was ______ a temple, but it later became a museum.",
+    "options": [
+     "recently",
+     "rarely",
+     "originally",
+     "hardly"
+    ],
+    "correct": 2,
+    "explanation": "Originally indica como a coisa era no começo, antes de mudar, e a frase contrasta esse começo com o que veio depois. Recently apontaria para o passado próximo, o que contraria o later became."
+   },
+   {
+    "id": "pw3u09v12",
+    "topic": "Uncovering the Past",
+    "question": "Visiting the temples at sunrise was the ______ of the whole trip.",
+    "options": [
+     "schedule",
+     "souvenir",
+     "headline",
+     "highlight"
+    ],
+    "correct": 3,
+    "explanation": "Highlight é a melhor parte de uma experiência, o momento que mais marcou. Headline é a manchete de uma notícia e souvenir é a lembrancinha que se traz de viagem."
+   },
+   {
+    "id": "pw3u09v13",
+    "topic": "Uncovering the Past",
+    "question": "Archaeologists still discuss how an entire ______ could disappear in less than a century.",
+    "options": [
+     "civilization",
+     "competition",
+     "conversation",
+     "construction"
+    ],
+    "correct": 0,
+    "explanation": "Civilization é uma sociedade inteira, com suas cidades, sua língua e seus costumes, e é dela que se fala quando um povo some da história. As outras opções nomeiam coisas pequenas demais para desaparecer com um povo inteiro."
+   },
+   {
+    "id": "pw3u09v14",
+    "topic": "Uncovering the Past",
+    "question": "The excavation is still ______, so parts of the site are closed to visitors.",
+    "options": [
+     "canceled",
+     "ongoing",
+     "finished",
+     "ancient"
+    ],
+    "correct": 1,
+    "explanation": "Ongoing é o que continua acontecendo agora, e é por isso que parte do sítio segue fechada. Finished e canceled diriam que o trabalho acabou ou nem vai acontecer, o que não explicaria a área fechada."
+   },
+   {
+    "id": "pw3u09v15",
+    "topic": "Uncovering the Past",
+    "question": "At the meeting she is ______ a new study of the smaller temples, and she hopes the university will fund it.",
+    "options": [
+     "forgetting",
+     "delaying",
+     "proposing",
+     "refusing"
+    ],
+    "correct": 2,
+    "explanation": "To propose é apresentar uma ideia para que outras pessoas aprovem, que é o que ela faz ao pedir financiamento. Refusing e delaying seriam recusar ou adiar o estudo, o oposto de quem quer vê-lo começar."
+   },
+   {
+    "id": "pw3u09v16",
+    "topic": "Uncovering the Past",
+    "question": "The ______ of a Roman bath were found under a parking lot in the city center.",
+    "options": [
+     "repairs",
+     "results",
+     "reasons",
+     "remains"
+    ],
+    "correct": 3,
+    "explanation": "Remains são os restos do que sobrou de uma construção ou de um corpo antigo. Results são resultados de uma pesquisa e repairs são consertos, e nada disso fica enterrado sob um estacionamento."
+   },
+   {
+    "id": "pw3u09v17",
+    "topic": "Uncovering the Past",
+    "question": "The discovery was not made by a research team but by a single ______ walking his dog.",
+    "options": [
+     "individual",
+     "instrument",
+     "industry",
+     "institution"
+    ],
+    "correct": 0,
+    "explanation": "Individual é uma pessoa sozinha, e a frase justamente contrapõe essa pessoa a uma equipe. Institution seria uma organização, um grupo, exatamente o que a frase está negando."
+   },
+   {
+    "id": "pw3u09v18",
+    "topic": "Uncovering the Past",
+    "question": "The dig is a ______ between the local villagers and a museum in Lisbon.",
+    "options": [
+     "competition",
+     "collaboration",
+     "celebration",
+     "correction"
+    ],
+    "correct": 1,
+    "explanation": "Collaboration é o trabalho feito em conjunto por dois lados, que é a relação entre os moradores e o museu. Competition seria disputa, o contrário de trabalhar junto."
+   },
+   {
+    "id": "pw3u09v19",
+    "topic": "Uncovering the Past",
+    "question": "His ______ about the strange marks on the rock led him to study archaeology.",
+    "options": [
+     "honesty",
+     "memory",
+     "curiosity",
+     "patience"
+    ],
+    "correct": 2,
+    "explanation": "Curiosity é a vontade de saber, o impulso que faz alguém investigar e, no caso, escolher uma carreira. Patience e honesty são qualidades de caráter que não explicam o interesse por uma marca na pedra."
+   },
+   {
+    "id": "pw3u09v20",
+    "topic": "Uncovering the Past",
+    "question": "Learning the language of his grandparents gave him a stronger sense of ______.",
+    "options": [
+     "quantity",
+     "activity",
+     "publicity",
+     "identity"
+    ],
+    "correct": 3,
+    "explanation": "Identity é o senso de quem a pessoa é e de onde ela vem, e é isso que se fortalece ao recuperar a língua da família. As outras palavras têm terminação parecida, mas falam de quantidade, de ação e de divulgação."
+   },
+   {
+    "id": "pw3u09v21",
+    "topic": "Uncovering the Past",
+    "question": "The fragile documents were cleaned by ______ trained to handle ancient paper.",
+    "options": [
+     "specialists",
+     "beginners",
+     "strangers",
+     "visitors"
+    ],
+    "correct": 0,
+    "explanation": "Specialists são as pessoas com formação específica para um tipo de trabalho, e documentos frágeis exigem exatamente isso. Beginners seria o contrário, gente sem experiência."
+   },
+   {
+    "id": "pw3u09p1",
+    "topic": "Pronunciation – Commonly Confused Consonant Sounds, Part 2",
+    "question": "In which word do the letters CH make the /k/ sound?",
+    "options": [
+     "chance",
+     "archaeologist",
+     "research",
+     "challenge"
+    ],
+    "correct": 1,
+    "explanation": "Em archaeologist o ch vem do grego e soa /k/, como em school. Nas outras três palavras o ch tem o som /tʃ/, o mesmo de chair."
+   },
+   {
+    "id": "pw3u09p2",
+    "topic": "Pronunciation – Commonly Confused Consonant Sounds, Part 2",
+    "question": "Which word contains the /dʒ/ sound, as in JOB?",
+    "options": [
+     "possessions",
+     "specialists",
+     "individual",
+     "civilization"
+    ],
+    "correct": 2,
+    "explanation": "Em individual o grupo du soa /dʒ/, então a palavra é dita in-di-VI-dju-al com o mesmo som inicial de job. As outras três trazem o som /ʃ/ ou /s/, que é o erro comum de troca aqui."
+   },
+   {
+    "id": "pw3u09p3",
+    "topic": "Pronunciation – Commonly Confused Consonant Sounds, Part 2",
+    "question": "Which word ends with the /z/ sound?",
+    "options": [
+     "artifacts",
+     "specialists",
+     "objects",
+     "remains"
+    ],
+    "correct": 3,
+    "explanation": "Depois de um som sonoro como o /n/ de remain, o s do plural sai como /z/. Nas outras palavras o s vem depois de /t/, que é surdo, e por isso o final soa /s/."
+   },
+   {
+    "id": "pw3u10v01",
+    "topic": "Feelings & Emotions",
+    "question": "Fear, joy, and anger are ______ that show on the human face in similar ways.",
+    "options": [
+     "emotions",
+     "opinions",
+     "instructions",
+     "decisions"
+    ],
+    "correct": 0,
+    "explanation": "Emotions são os sentimentos que a pessoa vive por dentro e que aparecem no rosto. Opinions são o que alguém pensa, e pensamento não se lê na expressão facial."
+   },
+   {
+    "id": "pw3u10v02",
+    "topic": "Feelings & Emotions",
+    "question": "Some researchers argue that a smile is ______: it means the same thing in every culture.",
+    "options": [
+     "artificial",
+     "universal",
+     "personal",
+     "temporary"
+    ],
+    "correct": 1,
+    "explanation": "Universal é o que vale em todo lugar, para todas as pessoas, e a segunda parte da frase explica isso. Personal seria o contrário, próprio de cada um."
+   },
+   {
+    "id": "pw3u10v03",
+    "topic": "Feelings & Emotions",
+    "question": "The answers ______ a lot from one country to another, which surprised the team.",
+    "options": [
+     "repeated",
+     "remained",
+     "varied",
+     "agreed"
+    ],
+    "correct": 2,
+    "explanation": "To vary é mudar de um caso para outro, e é isso que respostas diferentes por país fazem. Agreed diria que as respostas coincidiam, justamente o oposto da surpresa da equipe."
+   },
+   {
+    "id": "pw3u10v04",
+    "topic": "Feelings & Emotions",
+    "question": "The author explains the historical ______ of the debate before presenting her own data.",
+    "options": [
+     "backbone",
+     "foreground",
+     "backup",
+     "background"
+    ],
+    "correct": 3,
+    "explanation": "Background é o contexto que existe por trás de um assunto e ajuda a entendê-lo. Foreground é o primeiro plano, o que está à frente, e não o pano de fundo de uma discussão."
+   },
+   {
+    "id": "pw3u10v05",
+    "topic": "Feelings & Emotions",
+    "question": "In the final chapter the author ______ the question of whether animals feel shame.",
+    "options": [
+     "addressed",
+     "attached",
+     "admired",
+     "arranged"
+    ],
+    "correct": 0,
+    "explanation": "To address a question é tratar de uma questão, discuti-la a sério. Arrange é organizar e attach é anexar, verbos que não combinam com uma pergunta a ser examinada."
+   },
+   {
+    "id": "pw3u10v06",
+    "topic": "Feelings & Emotions",
+    "question": "The team needed permission from the university before they could ______ the experiment.",
+    "options": [
+     "get along",
+     "carry out",
+     "look after",
+     "carry over"
+    ],
+    "correct": 1,
+    "explanation": "Carry out é realizar, colocar em prática um estudo ou experimento. Carry over é transferir para depois e look after é cuidar de alguém, sentidos diferentes do de executar a pesquisa."
+   },
+   {
+    "id": "pw3u10v07",
+    "topic": "Feelings & Emotions",
+    "question": "She ______ her anger by slamming the door instead of shouting.",
+    "options": [
+     "suppressed",
+     "impressed",
+     "expressed",
+     "pressed"
+    ],
+    "correct": 2,
+    "explanation": "To express é pôr o sentimento para fora, e bater a porta é uma forma de fazer isso. Suppress seria segurar a raiva por dentro, o contrário do que a frase descreve."
+   },
+   {
+    "id": "pw3u10v08",
+    "topic": "Feelings & Emotions",
+    "question": "Even though he said nothing, his ______ showed that he was uncomfortable.",
+    "options": [
+     "tone of voice",
+     "sign language",
+     "mother tongue",
+     "body language"
+    ],
+    "correct": 3,
+    "explanation": "Body language é o que o corpo comunica sem palavras, como postura e gestos. Tone of voice depende de a pessoa falar, e a frase diz que ele não disse nada."
+   },
+   {
+    "id": "pw3u10v09",
+    "topic": "Feelings & Emotions",
+    "question": "Babies learn to read ______ long before they can understand words.",
+    "options": [
+     "facial expressions",
+     "facial features",
+     "formal expressions",
+     "fixed expressions"
+    ],
+    "correct": 0,
+    "explanation": "Facial expressions são os movimentos do rosto que mostram o que a pessoa sente. Facial features são os traços do rosto, como o formato do nariz, que não mudam com a emoção."
+   },
+   {
+    "id": "pw3u10v10",
+    "topic": "Feelings & Emotions",
+    "question": "After ten minutes it was ______ to everyone that she was not enjoying the party.",
+    "options": [
+     "imaginary",
+     "evident",
+     "evidence",
+     "secret"
+    ],
+    "correct": 1,
+    "explanation": "Evident é o adjetivo, aquilo que fica claro para quem observa, e é o que a estrutura it was ... to everyone pede. Evidence é substantivo, a prova em si, e não caberia nessa posição."
+   },
+   {
+    "id": "pw3u10v11",
+    "topic": "Feelings & Emotions",
+    "question": "Panic attacks usually ______ without any warning.",
+    "options": [
+     "arrange",
+     "occupy",
+     "occur",
+     "achieve"
+    ],
+    "correct": 2,
+    "explanation": "To occur é acontecer, e é o verbo usado para eventos que surgem por conta própria. Occupy é ocupar um espaço ou um tempo, apesar da semelhança na escrita."
+   },
+   {
+    "id": "pw3u10v12",
+    "topic": "Feelings & Emotions",
+    "question": "His first ______ to the bad news was to laugh, which surprised everybody.",
+    "options": [
+     "relation",
+     "reason",
+     "region",
+     "reaction"
+    ],
+    "correct": 3,
+    "explanation": "Reaction é a resposta imediata a alguma coisa que aconteceu, e rir de uma má notícia é exatamente isso. Reason seria o motivo, e a frase fala do que ele fez, não do porquê."
+   },
+   {
+    "id": "pw3u10v13",
+    "topic": "Feelings & Emotions",
+    "question": "The joke was meant to be funny, but many people found it ______.",
+    "options": [
+     "offensive",
+     "impressive",
+     "defensive",
+     "expensive"
+    ],
+    "correct": 0,
+    "explanation": "Offensive é o que ofende, o que magoa quem escuta, e o but marca esse contraste com a intenção de ser engraçado. Defensive descreve quem se protege de uma crítica, não a piada em si."
+   },
+   {
+    "id": "pw3u10v14",
+    "topic": "Feelings & Emotions",
+    "question": "Before every exam he feels a strong ______ that keeps him awake at night.",
+    "options": [
+     "accuracy",
+     "anxiety",
+     "audience",
+     "ambition"
+    ],
+    "correct": 1,
+    "explanation": "Anxiety é a angústia diante de algo que ainda vai acontecer, e ela tira o sono. Ambition é o desejo de conquistar alguma coisa, que não é o que impede a pessoa de dormir aqui."
+   },
+   {
+    "id": "pw3u10v15",
+    "topic": "Feelings & Emotions",
+    "question": "______ is more than sadness: it can last for months and change how a person eats and sleeps.",
+    "options": [
+     "Impression",
+     "Expression",
+     "Depression",
+     "Compression"
+    ],
+    "correct": 2,
+    "explanation": "Depression é o quadro de tristeza profunda e duradoura, com efeitos no sono e no apetite. As outras palavras compartilham a terminação, mas falam de impressão, expressão e compressão."
+   },
+   {
+    "id": "pw3u10v16",
+    "topic": "Feelings & Emotions",
+    "question": "The doctor said her tiredness was caused by a ______ of iron in her diet.",
+    "options": [
+     "load",
+     "limit",
+     "layer",
+     "lack"
+    ],
+    "correct": 3,
+    "explanation": "A lack of é a falta de alguma coisa, e é a falta de ferro que causa o cansaço. Limit seria um teto imposto e load seria uma carga, ou seja, excesso e não ausência."
+   },
+   {
+    "id": "pw3u10v17",
+    "topic": "Feelings & Emotions",
+    "question": "Children who feel ______ at home find it easier to deal with problems at school.",
+    "options": [
+     "secure",
+     "ashamed",
+     "curious",
+     "jealous"
+    ],
+    "correct": 0,
+    "explanation": "To feel secure é sentir-se protegido e confiante, e essa base ajuda a enfrentar dificuldades fora de casa. Ashamed e jealous descrevem sentimentos negativos, que não explicariam essa facilidade."
+   },
+   {
+    "id": "pw3u10v18",
+    "topic": "Feelings & Emotions",
+    "question": "The clinic reported a big ______ in the number of patients with sleep problems.",
+    "options": [
+     "invitation",
+     "reduction",
+     "production",
+     "addition"
+    ],
+    "correct": 1,
+    "explanation": "Reduction é a queda de um número, o resultado de reduce. Addition seria aumento, e a escolha entre as duas muda completamente o que a clínica está relatando."
+   },
+   {
+    "id": "pw3u10v19",
+    "topic": "Feelings & Emotions",
+    "question": "When she is nervous she loses her ______ and skips lunch.",
+    "options": [
+     "agreement",
+     "ability",
+     "appetite",
+     "attitude"
+    ],
+    "correct": 2,
+    "explanation": "Appetite é a vontade de comer, e é ela que se perde quando alguém pula a refeição por nervosismo. Attitude é postura diante das coisas e não tem relação com deixar de almoçar."
+   },
+   {
+    "id": "pw3u10v20",
+    "topic": "Feelings & Emotions",
+    "question": "Nurses often work ______ during the night shift, with very little time to rest.",
+    "options": [
+     "under control",
+     "on purpose",
+     "in advance",
+     "under pressure"
+    ],
+    "correct": 3,
+    "explanation": "Under pressure é trabalhar sob pressão, com muita exigência e pouco tempo. Under control descreve uma situação dominada, o oposto do que a frase pinta."
+   },
+   {
+    "id": "pw3u10v21",
+    "topic": "Feelings & Emotions",
+    "question": "A short walk outside can ______ the brain and make studying easier.",
+    "options": [
+     "stimulate",
+     "separate",
+     "simulate",
+     "sacrifice"
+    ],
+    "correct": 0,
+    "explanation": "To stimulate é ativar, dar mais energia a alguma coisa. Simulate parece igual na escrita mas significa fingir ou imitar, e é a troca mais comum entre as duas."
+   },
+   {
+    "id": "pw3u10v22",
+    "topic": "Feelings & Emotions",
+    "question": "The treatment ______ talking to a therapist once a week.",
+    "options": [
+     "invests",
+     "involves",
+     "invites",
+     "invents"
+    ],
+    "correct": 1,
+    "explanation": "To involve é incluir alguma coisa como parte do processo, e conversar com o terapeuta é parte do tratamento. Invite pediria uma pessoa como objeto, não uma atividade."
+   },
+   {
+    "id": "pw3u10v23",
+    "topic": "Feelings & Emotions",
+    "question": "The good news ______ the team's confidence right before the final game.",
+    "options": [
+     "balanced",
+     "blocked",
+     "boosted",
+     "borrowed"
+    ],
+    "correct": 2,
+    "explanation": "To boost é aumentar, dar um impulso, e é o que uma boa notícia faz com a confiança. Blocked seria travar, o efeito contrário do que a frase sugere."
+   },
+   {
+    "id": "pw3u10v24",
+    "topic": "Feelings & Emotions",
+    "question": "The difference between the two groups was small but ______: it was too big to be a coincidence.",
+    "options": [
+     "similar",
+     "silent",
+     "insignificant",
+     "significant"
+    ],
+    "correct": 3,
+    "explanation": "Significant é aquilo que importa, que tem peso mesmo sendo pequeno, e a segunda parte da frase confirma isso. Insignificant diria o contrário, que a diferença não vale nada."
+   },
+   {
+    "id": "pw3u10v25",
+    "topic": "Feelings & Emotions",
+    "question": "Doctors advise eating fresh vegetables instead of ______ full of sugar and salt.",
+    "options": [
+     "processed food",
+     "protected food",
+     "produced food",
+     "preserved fruit"
+    ],
+    "correct": 0,
+    "explanation": "Processed food é o alimento industrializado, que passou por fábrica e costuma vir carregado de sal e açúcar. As outras combinações existem como palavras soltas mas não nomeiam esse tipo de comida em inglês."
+   },
+   {
+    "id": "pw3u10p1",
+    "topic": "Pronunciation – Recognize Weak Forms of Words",
+    "question": "In natural speech, how is TO pronounced in \"We're all under pressure to do homework\"?",
+    "options": [
+     "/toʊ/",
+     "/tə/",
+     "/tuː/",
+     "/tɔː/"
+    ],
+    "correct": 1,
+    "explanation": "To é uma palavra funcional e, quando não recebe acento, a vogal vira o schwa e sai /tə/. A forma forte /tuː/ só aparece quando a palavra é dita isolada ou com ênfase."
+   },
+   {
+    "id": "pw3u10p2",
+    "topic": "Pronunciation – Recognize Weak Forms of Words",
+    "question": "In fast speech, how does CAN sound in \"Can you explain the difference?\"",
+    "options": [
+     "/kæn/",
+     "/keɪn/",
+     "/kən/",
+     "/kɑːn/"
+    ],
+    "correct": 2,
+    "explanation": "No começo de uma pergunta o can não é acentuado, então a vogal se reduz e a palavra soa /kən/. A forma forte /kæn/ aparece em respostas curtas como Yes, I can."
+   },
+   {
+    "id": "pw3u10p3",
+    "topic": "Pronunciation – Recognize Weak Forms of Words",
+    "question": "In the sentence \"They were under a lot of pressure\", which word keeps its full, strong pronunciation?",
+    "options": [
+     "were",
+     "of",
+     "a",
+     "pressure"
+    ],
+    "correct": 3,
+    "explanation": "Pressure é palavra de conteúdo e carrega o sentido da frase, por isso mantém a vogal cheia e o acento. Were, of e a são palavras funcionais e aparecem reduzidas com schwa na fala corrida."
+   }
+  ]
+ }
+}

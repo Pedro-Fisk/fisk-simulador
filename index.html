@@ -963,6 +963,15 @@
             <h3>In Focus</h3>
             <p>Inversion, Subjunctive, Passive Voice, Mixed Conditionals</p>
           </div>
+          <!-- PATHWAYS 3 (PÓS) — o único card cujo resumo NÃO lista gramática,
+               porque o livro não ensina gramática lição a lição. O resumo diz o
+               que ele de fato traz, para o aluno não abrir esperando outra
+               coisa. Ver o comentário do `pathways3` no BOOKS. -->
+          <div class="book-card adv-3" data-book="pathways3" onclick="selectBook(this)">
+            <div class="book-icon"><svg viewBox="0 0 24 24" fill="none"><path d="M4 19V6a2 2 0 012-2h9l5 5v10a2 2 0 01-2 2H6a2 2 0 01-2-2z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><path d="M14 4v5h5M8 13h8M8 16h5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <h3>Pathways 3</h3>
+            <p>Academic vocabulary and pronunciation, unit by unit</p>
+          </div>
         </div>
         <div class="section-label">Teens</div>
         <div class="books-grid">
@@ -1248,6 +1257,17 @@ const BOOKS = {
   teensconnect1:    { name: 'Teens Connect 1',    file: 'questions/teensconnect1.json',    midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
   teensconnect2:    { name: 'Teens Connect 2',    file: 'questions/teensconnect2.json',    midtermLessons: 'Lessons 1 to 5', finalLessons: 'Lessons 6 to 10' },
   teenselementary2: { name: 'Teens Elementary 2', file: 'questions/teenselementary2.json', midtermLessons: 'Lessons 1 to 6', finalLessons: 'Lessons 7 to 12' },
+  /* PATHWAYS 3 — o PÓS, e o único banco que NÃO é de gramática (01/09/2026).
+     O livro é o Pathways Listening & Speaking 3 da National Geographic, e ele
+     não ensina gramática lição a lição: ensina VOCABULÁRIO acadêmico (as
+     seções MEANING FROM CONTEXT) e PRONÚNCIA, uma por unidade. Inventar uma
+     sequência de gramática aqui seria escrever um estágio que não existe —
+     a mesma decisão que o catálogo de fala já tinha tomado, usando a seção de
+     pronúncia DO LIVRO em vez de um foco escolhido por nós.
+     `soPractice` porque o PÓS não tem prova da Fisk: o curso acontece na
+     plataforma da National Geographic, e aqui é revisão. `divisao` porque o
+     livro conta UNITS, não lessons. */
+  pathways3:    { name: 'Pathways 3',    file: 'questions/pathways3.json',    soPractice: true, divisao: 'Unit', vocab: true },
   inmediato1:   { name: 'Inmediato 1',   file: 'questions/inmediato1.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
   inmediato2:   { name: 'Inmediato 2',   file: 'questions/inmediato2.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
   inmediato3:   { name: 'Inmediato 3',   file: 'questions/inmediato3.json',   midtermLessons: 'Lecciones 1 a 5', finalLessons: 'Lecciones 6 a 10' },
@@ -1313,6 +1333,17 @@ function bookKeyFromCard(nome) {
       if (ESCADA_QP[trilha].indexOf(c) >= 0) return c;
     }
   }
+  /* ⚠️ QUANDO A IGUALDADE NÃO BASTA (01/09/2026). O card não escreve o estágio
+     padronizado, e o PÓS é o caso extremo: "PÓS - Pathways 3", "Pós Pathways",
+     "Pathways". Normalizado, o primeiro vira `pospathways3`, que não casa com
+     chave nenhuma — e o aluno do PÓS lia "este livro ainda não está
+     disponível" com o banco publicado ao lado. Os outros estágios casam por
+     igualdade porque o card os escreve limpos ("Essentials 2"), então a
+     exceção fica numa tabela explícita, e não num `contains` genérico que um
+     dia casaria o livro errado. É a mesma regra que o Portal e o Speaking Lab
+     já usavam para este estágio. */
+  const PADROES = [[/pathways/, 'pathways3']];
+  for (const [rx, chave] of PADROES) if (rx.test(k) && BOOKS[chave]) return chave;
   return null;
 }
 /* Escada do curso, na ordem em que o aluno avança. Trilhas diferentes não se
@@ -1325,7 +1356,10 @@ function bookKeyFromCard(nome) {
    teens entraram aqui embaixo. Quem tem banco hoje: os sete de inglês, os
    três Inmediato, os dois Teens Connect e o Teens Elementary 2. */
 const ESCADA_QP = {
-  ingles:   ['essentials1', 'essentials2', 'transitions1', 'transitions2', 'fluency1', 'fluency2', 'infocus'],
+  /* O Pathways 3 fecha a escada do inglês em 01/09/2026, e a posição dele é o
+     que faz sentido do banco dele: quem está no PÓS alcança os sete anteriores
+     para revisar, que é o uso do Quick Practice. */
+  ingles:   ['essentials1', 'essentials2', 'transitions1', 'transitions2', 'fluency1', 'fluency2', 'infocus', 'pathways3'],
   espanhol: ['inmediato1', 'inmediato2', 'inmediato3'],
   /* Trilhas do programa Teens (15/08/2026). O 'teensconnect3' é um degrau
      FANTASMA: ainda não tem banco (a tabela de conteúdos não chegou), mas
@@ -1474,6 +1508,33 @@ const LESSON_MAP = {
   /* In Focus segue a tabela de conteúdos do livro do aluno (10 lições), e não
      mais as seções do Study Guide — que agrupavam pontos de lições diferentes
      sob o mesmo nome. Os itens marcados (vocab) vêm dos Vocabulary Files. */
+  /* PATHWAYS 3 — o PÓS. Aqui o "grupo" é a UNIT do livro, e o tópico não é
+     ponto de gramática: é o TEMA da unidade (o campo semântico do vocabulário
+     que ela ensina) e o foco de pronúncia dela. Ver o comentário do
+     `pathways3` no BOOKS para o porquê de este banco não ser de gramática.
+     Gerado a partir do conteúdo real do livro; ao mexer no banco, regerar. */
+  pathways3: {
+    /* Unit 1 · Shopping Psychology */
+    'Pronunciation – Primary Stress in Words': 1, 'Shopping Psychology': 1,
+    /* Unit 2 · It’s in My DNA */
+    'It’s in My DNA': 2, 'Pronunciation – Final Consonants -t and -d': 2,
+    /* Unit 3 · On the Move */
+    'On the Move': 3, 'Pronunciation – Recognize Linking': 3,
+    /* Unit 4 · People and the Planet */
+    'People and the Planet': 4, 'Pronunciation – Determine Which Word to Stress': 4,
+    /* Unit 5 · Rise to the Top */
+    'Pronunciation – Vowel Sound /ɜr/': 5, 'Rise to the Top': 5,
+    /* Unit 6 · Design with Purpose */
+    'Design with Purpose': 6, 'Pronunciation – Consonant Clusters with Three Sounds': 6,
+    /* Unit 7 · Inspired to Protect */
+    'Inspired to Protect': 7, 'Pronunciation – Commonly Confused Consonant Sounds': 7,
+    /* Unit 8 · Traditional and Modern Medicine */
+    'Pronunciation – Linking Vowel Sounds with /y/ and /w/': 8, 'Traditional and Modern Medicine': 8,
+    /* Unit 9 · Uncovering the Past */
+    'Pronunciation – Commonly Confused Consonant Sounds, Part 2': 9, 'Uncovering the Past': 9,
+    /* Unit 10 · Feelings & Emotions */
+    'Feelings & Emotions': 10, 'Pronunciation – Recognize Weak Forms of Words': 10,
+  },
   infocus: {
     /* Lesson 1 · Education — Present & Past */
     'Present Tenses': 1, 'Present Tenses – State Verbs': 1,
@@ -1675,7 +1736,12 @@ function rotuloGrupo(k) {
   /* A lição 0 tem nome diferente por família de livro: nos Teens Connect o
      livro chama de "Intro Lesson"; nos regulares, "Before You Start". */
   if (Number(k) === 0) return /^teens/.test(state.book || '') ? 'Intro Lesson' : 'Before You Start';
-  return 'Lesson ' + Number(k);
+  /* O NOME DA DIVISÃO É O DO LIVRO, não o nosso (01/09/2026). O Pathways 3
+     divide o conteúdo em UNITS, não em lessons: chamar de "Lesson 4" o que o
+     aluno vê impresso como "Unit 4" é mandá-lo procurar no lugar errado. Os
+     outros livros seguem em "Lesson" porque é assim que eles se chamam. */
+  const B = BOOKS[state.book] || {};
+  return (B.divisao || 'Lesson') + ' ' + Number(k);
 }
 function temPhrasal(data) {
   return !!(data && data.phrasal && data.phrasal.questions && data.phrasal.questions.length);
@@ -1719,6 +1785,11 @@ const UI_STRINGS = {
     phrasalDesc: 'The phrasal verbs from your Activity Book',
     custom:      'Custom Practice',
     customDesc:  'Select specific grammar topics to practice',
+    /* O PÓS não tem gramática lição a lição, e o livro conta UNITS: dizer
+       "grammar topics" e "lessons" nele manda o aluno procurar o que não
+       existe. Ver o comentário do `pathways3` no BOOKS. */
+    practiceDescVocab:'Random questions from all 10 units of the book',
+    customDescVocab:  'Select specific vocabulary and pronunciation topics',
     startBtn:    'Start Quiz →',
     quizSub:     n => `${n} question${n!==1?'s':''} · answer all and submit`,
     profSub:     n => `Professor Mode · ${n} question${n!==1?'s':''}`,
@@ -1763,6 +1834,8 @@ const UI_STRINGS = {
     phrasalDesc: 'Los phrasal verbs de tu Activity Book',
     custom:      'Práctica Libre',
     customDesc:  'Selecciona los temas gramaticales para practicar',
+    practiceDescVocab:'Preguntas aleatorias de las 10 unidades del libro',
+    customDescVocab:  'Elige los temas de vocabulario y pronunciación',
     startBtn:    'Iniciar →',
     quizSub:     n => `${n} pregunta${n!==1?'s':''} · responde todas y envía`,
     profSub:     n => `Modo Profesor · ${n} pregunta${n!==1?'s':''}`,
@@ -1810,11 +1883,14 @@ function applyLang(lang) {
   set('midterm-h3',   S.midterm);
   set('final-h3',     S.final);
   set('practice-h3',  S.practice);
-  set('practice-desc',S.practiceDesc);
+  /* O livro decide o texto: `vocab: true` no BOOKS troca as duas frases que
+     falam de gramática e de lições. Livro sem a marca segue como sempre. */
+  const _B = BOOKS[state.book] || {};
+  set('practice-desc', (_B.vocab && S.practiceDescVocab) || S.practiceDesc);
   set('phrasal-h3',  S.phrasal);
   set('phrasal-desc',S.phrasalDesc);
   set('custom-h3',    S.custom);
-  set('custom-desc',  S.customDesc);
+  set('custom-desc',  (_B.vocab && S.customDescVocab) || S.customDesc);
   set('btn-start',    S.startBtn);
   set('btn-submit',   S.submitBtn);
   set('btn-clear',    S.clearBtn);
