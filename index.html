@@ -886,6 +886,12 @@
        09/2026). Sem `&casa=` no fragmento, nada muda nesta tela. -->
   <link rel="stylesheet" href="assets/casa-tema.css?v=1">
   <script src="assets/casa-tema.js?v=2"></script>
+  <!-- A MANA DA TAÇA DAS CASAS (campanha de 09/2026). Carregado do portal, e
+       não copiado: o fator (quanto vale um Fisk Dólar em mana) não pode ter
+       duas versões. Esta ferramenta mora no github.io, outra origem, então a
+       casa do aluno chega pelo fragmento da URL — o mesmo `&casa=` que veste a
+       faixa do topo. Sem casa, nada muda nesta tela. -->
+  <script src="https://portalfisk.com.br/assets/mana.js"></script>
 </head>
 <body>
 <script>try{if(localStorage.getItem('fisk_theme')==='dark')document.body.classList.add('theme-dark');}catch(e){}</script>
@@ -2942,7 +2948,8 @@ function fdToast(valor) {
     'background:#161414;color:#f5c563;border:2px solid #c9922e;border-radius:999px;' +
     'padding:.7rem 1.4rem;font-family:Poppins,sans-serif;font-weight:800;font-size:1rem;' +
     'box-shadow:0 6px 20px rgba(0,0,0,.35);transition:opacity .4s';
-  el.textContent = '💵 +F$ ' + valor + ' na sua carteira!';
+  var mn = (window.FiskMana && window.FiskMana.texto(valor)) || '';
+  el.innerHTML = '💵 +F$ ' + valor + ' na sua carteira!' + mn;
   document.body.appendChild(el);
   try { // barulhinho de moedas
     var AC = window.AudioContext || window.webkitAudioContext;
