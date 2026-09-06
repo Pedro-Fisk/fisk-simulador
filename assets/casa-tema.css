@@ -1,0 +1,62 @@
+/* ══ A ESTÉTICA DA CASA · a faixa do topo veste a casa do aluno ═════════════
+   ⚠️ ESTE ARQUIVO É CÓPIA. O original vive em
+   `portal-aluno-fisk/assets/casa-tema.css`, junto do quiz que atribui a casa.
+   Ele está duplicado aqui porque o Quick Practice mora no github.io, outra
+   ORIGEM: não enxerga o `localStorage` do Portal nem seus arquivos, e a casa
+   chega pelo fragmento da URL (`#raf=…&casa=g`, montado pelo `fiskIdentHash`
+   do config.js do Portal). Mexeu numa cópia, mexa na outra: são as cores das
+   casas, e casa que muda de cor entre duas telas do mesmo aluno lê como erro.
+
+   Quem PINTA é o `data-casa` no <body>, posto pelo assets/casa-tema.js.
+
+   ⚠️ A COR DE FUNDO É SEMPRE A ESCURA DO PAR, e a clara vira o padrão por
+   cima. Hufflepuff é amarelo: faixa amarela com o texto branco que já mora
+   ali seria ilegível, e trocar a cor do texto por casa espalharia a decisão
+   por meia folha de estilo.
+
+   O padrão é gradiente, não imagem: é a leitura da textura das casas,
+   desenhada aqui, e custa zero requisição.
+
+   ⚠️ A especificidade não é enfeite. As ferramentas declaram `.hero{...}` no
+   próprio arquivo; `body[data-casa]:not(.hw-sem-casa) .hero` ganha delas sem
+   `!important`. Baixar isso para `.hero` faria a faixa voltar a preta em três
+   páginas, e só ali.
+
+   Some com `body.hw-sem-casa` (o interruptor no menu do aluno).
+   ⚠️ AO MEXER AQUI, rode `node scripts/bump-version.js`. */
+
+/* ══ A ESTÉTICA DA CASA NO PORTAL INTEIRO ═══════════════════════════════
+   A faixa preta do topo (`.hero`) passa a vestir as cores da casa do aluno.
+   Ela aparece em TODAS as telas do portal, então uma regra aqui veste o
+   portal todo sem tocar em tela nenhuma.
+
+   ⚠️ A COR DE FUNDO É SEMPRE A ESCURA DO PAR, e a clara vira o padrão por
+   cima. Hufflepuff é amarelo: faixa amarela com o texto branco que já mora
+   ali seria ilegível, e trocar a cor do texto por casa espalharia a decisão
+   por meia folha de estilo.
+
+   O padrão é feito com gradiente (listra diagonal e losango), não com imagem:
+   é a leitura da textura das casas, desenhada aqui, e custa zero requisição.
+
+   Some com `body.hw-sem-casa` (o botão no menu do aluno). */
+body[data-casa]:not(.hw-sem-casa) .hero{
+  background:
+    /* véu escuro no alto: o logo da Fisk é VERMELHO e vive ali. Sobre o
+       carmim da Grifinória ele quase sumia, e trocar o logo por casa seria
+       espalhar a decisão por meia folha de estilo. */
+    radial-gradient(130% 90% at 50% -25%, rgba(0,0,0,.55), transparent 62%),
+    repeating-linear-gradient(48deg,
+      transparent 0 26px, var(--casa-listra) 26px 52px),
+    linear-gradient(160deg, var(--casa-base) 0%, var(--casa-fundo) 100%);
+  border-bottom-color:var(--casa-luz);
+}
+/* o brilho de cima segue a casa, para a faixa não ficar chapada */
+body[data-casa]:not(.hw-sem-casa) .hero::after{
+  content:'';position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(80% 60% at 50% 0%, rgba(255,255,255,.10), transparent 70%);
+}
+body[data-casa="g"]{--casa-base:#7a0c0c;--casa-fundo:#40060a;--casa-luz:#d3a625;--casa-listra:rgba(211,166,37,.16)}
+body[data-casa="r"]{--casa-base:#17265a;--casa-fundo:#0a1130;--casa-luz:#c9a45a;--casa-listra:rgba(201,164,90,.15)}
+body[data-casa="h"]{--casa-base:#4a3c14;--casa-fundo:#241d09;--casa-luz:#ecb939;--casa-listra:rgba(236,185,57,.18)}
+body[data-casa="s"]{--casa-base:#15452a;--casa-fundo:#08210f;--casa-luz:#b9c2c0;--casa-listra:rgba(185,194,192,.14)}
+
