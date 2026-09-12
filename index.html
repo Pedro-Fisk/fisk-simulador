@@ -2428,7 +2428,11 @@ function sendResultToCloud(score) {
         method: 'POST', headers: { 'Content-Type': 'text/plain;charset=utf-8' },
         body: JSON.stringify({ action: 'alunoAtividade', key: CLOUD.appKey, raf: PORTAL_RAF,
                                activityId: CLOUD.tool + ':' + rotulo, respostas: respostas,
-                               test: state.exam || 'custom', book: info.name || '' })
+                               test: state.exam || 'custom', book: info.name || '',
+                               /* a lição que abriu esta tentativa (veio do planner ou
+                                  do vídeo): o servidor grava a evidência da lição
+                                  para o Planner Digital (fase 1, 12/09/2026) */
+                               licao: PORTAL_LICAO })
       }).then(function (r) { return r.json(); }).then(function (res) {
         if (res && res.fd && res.fd.credito > 0) fdToast(res.fd.credito);
       }).catch(function () {});
