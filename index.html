@@ -780,22 +780,46 @@
       display: flex; flex-direction: column; justify-content: center;
       min-height: calc(100vh - 9rem);
     }
+    body.prof-mode .q-num  { margin-bottom: calc(2.5vw * var(--pf)) !important; }
+    body.prof-mode .q-text { margin-bottom: calc(3vw * var(--pf)) !important; }
+    /* a troca de modo, para o professor que chegou pelo Portal do Aluno */
+    .modo-troca {
+      display: none; align-items: center; gap: .3rem;
+      margin: .25rem 0 0 .4rem; padding: .22rem .8rem; border-radius: 999px;
+      border: 1.5px solid #7C3AED; color: #7C3AED; background: transparent;
+      font: 700 .7rem var(--font-h); letter-spacing: .04em; white-space: nowrap;
+      text-decoration: none; cursor: pointer;
+    }
+    .modo-troca:hover { background: rgba(124,58,237,.1); }
+    body.theme-dark .modo-troca { color: #c4b5fd; border-color: #a78bfa; }
+    body.tem-troca .modo-troca { display: inline-flex; }
+    .prof-atalhos {
+      display: none; font: 600 clamp(.7rem, .8vw, 1.1rem) var(--font-b, inherit);
+      color: var(--gray); text-align: center; margin-top: .5vw;
+    }
+    body.prof-mode .prof-atalhos { display: block; }
+    /* ⚠️ O TAMANHO NA TV É ENCAIXADO, NÃO FIXO (16/09/2026). As fontes eram
+       só proporcionais à LARGURA, e a questão mais longa de cada banco, com a
+       explicação aberta, descia para baixo da barra de botões numa TV 1080p
+       (o Inmediato 3 passava 270 px): a turma não via a explicação sem o
+       professor rolar. Agora (1) a fonte também respeita a ALTURA (`vh`) e
+       (2) `profEncaixa()` reduz o fator `--pf` até a questão caber acima da
+       barra. */
+    body.prof-mode #questions-list { --pf: 1; }
     body.prof-mode .q-num {
-      font-size: clamp(.85rem, 1.3vw, 1.8rem);
-      margin-bottom: 2.5vw;
+      font-size: calc(clamp(.85rem, min(1.3vw, 2.3vh), 1.8rem) * var(--pf));
     }
     body.prof-mode .q-text {
-      font-size: clamp(1.7rem, 3.2vw, 6rem) !important;
+      font-size: calc(clamp(1.5rem, min(3.2vw, 5.6vh), 6rem) * var(--pf)) !important;
       line-height: 1.3 !important;
-      margin-bottom: 3vw !important;
     }
     body.prof-mode .opts-grid {
       gap: 1.2vw;
       grid-template-columns: 1fr 1fr;
     }
     body.prof-mode .opt-btn {
-      font-size: clamp(1.2rem, 2vw, 3.4rem) !important;
-      padding: 2.1vw 2.2vw !important;
+      font-size: calc(clamp(1.1rem, min(2vw, 3.5vh), 3.4rem) * var(--pf)) !important;
+      padding: calc(min(2.1vw, 3.4vh) * var(--pf)) 2.2vw !important;
       border-radius: 1vw;
       gap: 1.8vw;
       line-height: 1.3;
@@ -808,8 +832,8 @@
       flex-shrink: 0;
     }
     body.prof-mode .prof-explanation {
-      font-size: clamp(1.1rem, 1.8vw, 2.8rem);
-      padding: 1.5vw 2vw;
+      font-size: calc(clamp(1rem, min(1.8vw, 3.2vh), 2.8rem) * var(--pf));
+      padding: calc(1.5vw * var(--pf)) 2vw;
       border-radius: 1vw;
       margin-top: 2vw;
       line-height: 1.5;
@@ -915,7 +939,7 @@
          onerror="this.style.display='none';this.insertAdjacentHTML('afterend','<div style=\'font-family:var(--font-h);font-size:1.8rem;font-weight:800;letter-spacing:-.02em;margin-bottom:.9rem;\'>FISK</div>')">
     </a>
     <h1 id="main-title">Quick Practice</h1>
-    <span id="prof-badge-books" class="prof-badge">&#128250; Professor Mode</span>
+    <span id="prof-badge-books" class="prof-badge">&#128250; Professor Mode</span><a id="modo-troca" class="modo-troca" href="#"></a>
     <p id="main-sub">Mini tests focused on the key grammar structures of each stage, so you can review and reinforce the content before your exam.</p>
     <div class="lang-toggle">
       <button id="lang-en" class="lang-btn active" onclick="selectLang('en')">English</button>
@@ -1161,6 +1185,7 @@
         <button id="btn-revelar" onclick="profReveal()">Reveal Answer &#10003;</button>
         <button class="prof-step-btn" id="btn-prof-next" onclick="profNext()">Next &#8594;</button>
       </div>
+      <div class="prof-atalhos" id="prof-atalhos">Keyboard or clicker: → next · ← back · Space reveals · A–D marks the class answer</div>
     </div>
   </div>
 </div>
@@ -1238,6 +1263,25 @@
 /* ── Professor / Classroom mode flag ── */
 const PROF_MODE = new URLSearchParams(location.search).get('modo') === 'professor';
 if (PROF_MODE) document.body.classList.add('prof-mode');
+
+/* ── A troca de modo (16/09/2026) ──
+   O Quick Practice saiu da home do Fisk Hub e passou a morar no Portal do
+   Aluno, na visão do professor: o card de lá abre com `?modo=professor`. Quem
+   chega assim (ou com `?modo=aluno`, depois de trocar) ganha o botão que
+   alterna os dois modos sem sair da ferramenta. O aluno comum, que chega sem
+   `modo`, não vê botão nenhum. O fragmento (#raf=&nome=) viaja junto. */
+(function () {
+  const qs = new URLSearchParams(location.search);
+  if (!qs.has('modo')) return;
+  document.body.classList.add('tem-troca');
+  document.addEventListener('DOMContentLoaded', function () {
+    const a = document.getElementById('modo-troca');
+    if (!a) return;
+    qs.set('modo', PROF_MODE ? 'aluno' : 'professor');
+    a.href = location.pathname + '?' + qs.toString() + location.hash;
+    if (!a.textContent) a.textContent = UI_STRINGS.en[PROF_MODE ? 'trocaAluno' : 'trocaProf'];
+  });
+})();
 
 /* ══════════════════════════════════════════════
    Global state
@@ -1816,6 +1860,9 @@ const UI_STRINGS = {
     chooseBook:  'Choose another book',
     weakBtn:     n => `Practice Weak Points (${n} topic${n!==1?'s':''})`,
     profBadge:   '📺 Professor Mode',
+    trocaAluno:  '👤 Switch to Student Mode',
+    trocaProf:   '📺 Switch to Teacher Mode',
+    atalhos:     'Keyboard or clicker: → next · ← back · Space reveals · A–D marks the class answer',
     revealBtn:   'Reveal Answer ✓',
     revealedBtn: '✓ Revealed',
     nextBtn:     'Next →',
@@ -1862,6 +1909,9 @@ const UI_STRINGS = {
     chooseBook:  'Elegir otro libro',
     weakBtn:     n => `Repasar puntos débiles (${n} tema${n!==1?'s':''})`,
     profBadge:   '📺 Modo Profesor',
+    trocaAluno:  '👤 Pasar al Modo Alumno',
+    trocaProf:   '📺 Pasar al Modo Profesor',
+    atalhos:     'Teclado o puntero: → siguiente · ← atrás · Espacio revela · A–D marca la respuesta del grupo',
     revealBtn:   'Revelar Respuesta ✓',
     revealedBtn: '✓ Revelada',
     nextBtn:     'Siguiente →',
@@ -1911,6 +1961,8 @@ function applyLang(lang) {
   set('btn-retake',     S.retakeBtn);
   set('btn-choose-book', S.chooseBook);
   ['prof-badge','prof-badge-books','prof-badge-exam','prof-badge-results'].forEach(id => set(id, S.profBadge));
+  set('modo-troca', PROF_MODE ? S.trocaAluno : S.trocaProf);
+  set('prof-atalhos', S.atalhos);
   set('btn-revelar',    state.profRevealed ? S.revealedBtn : S.revealBtn);
   set('btn-prof-prev',  S.prevBtn);
   const nx = document.getElementById('btn-prof-next');
@@ -1962,7 +2014,51 @@ function profRender() {
 
   const scrollEl = list.parentElement;
   if (scrollEl) scrollEl.scrollTop = 0;
+  profEncaixa();
 }
+
+/* Reduz o fator de tamanho até a questão (com a explicação, se aberta)
+   terminar acima da barra de botões. Ver o comentário do `--pf` no CSS. */
+function profEncaixa() {
+  const list = document.getElementById('questions-list');
+  const nav = document.getElementById('prof-nav');
+  const card = document.getElementById('qcard-0');
+  if (!PROF_MODE || !list || !nav || !card) return;
+  let pf = 1;
+  list.style.setProperty('--pf', pf);
+  const fundo = () => {
+    const ex = document.getElementById('prof-expl');
+    const alvo = (ex && ex.style.display !== 'none') ? ex : card.querySelector('.opts-grid');
+    return alvo ? alvo.getBoundingClientRect().bottom + window.scrollY : 0;
+  };
+  const teto = () => nav.closest('.action-bar').getBoundingClientRect().top + window.scrollY - 12;
+  window.scrollTo(0, 0);
+  while (pf > 0.55 && fundo() > teto()) {
+    pf = Math.round((pf - 0.05) * 100) / 100;
+    list.style.setProperty('--pf', pf);
+  }
+}
+window.addEventListener('resize', () => { if (PROF_MODE) profEncaixa(); });
+
+/* O professor passa as questões pelo teclado ou pelo passador de slides
+   (que manda PageDown/PageUp ou as setas): a mão não precisa ir ao mouse no
+   meio da explicação. */
+document.addEventListener('keydown', ev => {
+  if (!PROF_MODE || ev.ctrlKey || ev.metaKey || ev.altKey) return;
+  const tela = document.getElementById('screen-quiz');
+  if (!tela || !tela.classList.contains('active')) return;
+  if (/^(INPUT|TEXTAREA|SELECT)$/.test((ev.target && ev.target.tagName) || '')) return;
+  const k = ev.key;
+  if (k === 'ArrowRight' || k === 'PageDown') { ev.preventDefault(); profNext(); }
+  else if (k === 'ArrowLeft' || k === 'PageUp') { ev.preventDefault(); profPrev(); }
+  else if (k === ' ' || k === 'Enter') { ev.preventDefault(); profReveal(); }
+  else {
+    const n = 'abcd'.indexOf(k.toLowerCase());
+    const d = '1234'.indexOf(k);
+    const j = n >= 0 ? n : d;
+    if (j >= 0 && document.getElementById('prof-opt-' + j)) { ev.preventDefault(); profSelect(j); }
+  }
+});
 
 function profSelect(j) {
   if (state.profRevealed) return;
@@ -1993,6 +2089,7 @@ function profReveal() {
     expl.textContent = '💡 ' + q.explanation;
     expl.style.display = 'block';
   }
+  profEncaixa();
 
   const revBtn = document.getElementById('btn-revelar');
   revBtn.disabled = true;
@@ -3043,6 +3140,9 @@ portalPracticeBoot();
      já pulou a escolha de livro e os tópicos estão marcados. O tour, que
      começa apontando para a lista de livros, só atrapalharia. */
   if(VEIO_DO_VIDEO) return;
+  /* No modo professor a tela está na TV: o tour é do aluno ("pratique por
+     conta própria") e cobriria a questão na frente da turma. */
+  if(PROF_MODE) return;
   function firstVisible(sel){
     var els=document.querySelectorAll(sel);
     for(var i=0;i<els.length;i++){ if(els[i].offsetParent!==null) return els[i]; }

@@ -15,7 +15,14 @@ Chega gente por três portas, e isso muda a tela:
 |---|---|---|
 | Aluno, pelo Portal | `?raf=&nome=&book=` | nome preenchido e travado; só vê o livro dele e os anteriores da trilha; resultado vai para a nuvem com o RAF |
 | Aluno, direto de um vídeo de explicação | `…&topicos=A\|B&licao=5` | já abre no Custom Practice com as caixas marcadas |
-| Professor, pelo Fisk Hub | `?modo=professor` | uma questão por vez, para projetar na TV; sem nome, sem timer |
+| Professor, pelo Portal do Aluno (visão do professor, RAF `0000-000` ou Direção) | `?modo=professor#raf=…` | uma questão por vez, para projetar na TV; sem nome, sem timer, sem tour; teclado/passador (→ ← Espaço A–D) |
+
+⚠️ **Desde 16/09/2026 o Quick Practice não tem mais card na home do Fisk Hub**:
+o professor chega pelo card do Portal do Aluno, que abre em `?modo=professor`.
+Quem chega com `modo` (professor ou aluno) vê o botão de troca de modo; o
+aluno comum, sem `modo`, não vê. No modo professor o tamanho do texto é
+encaixado (`profEncaixa`, fator `--pf`): a questão com a explicação aberta tem
+de terminar acima da barra de botões.
 
 ## Como o conteúdo é organizado
 
