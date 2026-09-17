@@ -839,6 +839,19 @@
       line-height: 1.5;
     }
 
+    /* a tela do "Agora vocês": a questão fica como lembrete, pequena */
+    body.prof-mode .prof-na-conversa .opts-grid,
+    body.prof-mode .prof-na-conversa .prof-explanation { display: none !important; }
+    body.prof-mode .prof-na-conversa .q-text { font-size: calc(clamp(1.1rem, min(2vw, 3.4vh), 3rem) * var(--pf)) !important; opacity: .7; }
+    body.prof-mode .prof-na-conversa .prof-conversa { font-size: calc(clamp(1.4rem, min(3vw, 5.2vh), 4.6rem) * var(--pf)); }
+    body.prof-mode .prof-conversa {
+      font-size: calc(clamp(1rem, min(1.7vw, 3vh), 2.6rem) * var(--pf));
+      padding: calc(1.2vw * var(--pf)) 2vw; border-radius: 1vw; margin-top: calc(1.2vw * var(--pf));
+      background: #FFF7ED; border: 2px solid #FDBA74; border-left: 8px solid #EA580C; color: #1c1917; line-height: 1.4;
+    }
+    .prof-conv-t { font-weight: 800; font-size: .8em; text-transform: uppercase; letter-spacing: .04em; color: #C2410C; }
+    .prof-conv-q { font-weight: 700; margin-top: .2em; }
+    .prof-conv-a { font-style: italic; opacity: .8; font-size: .85em; margin-top: .2em; }
     /* prof-nav base (hidden outside prof-mode) */
     #prof-nav { display: none; }
     body.prof-mode #prof-nav {
@@ -1996,6 +2009,7 @@ function profRender() {
           </button>`).join('')}
       </div>
       <div class="prof-explanation" id="prof-expl" style="display:none;"></div>
+      <div class="prof-conversa" id="prof-conv" style="display:none;"></div>
     </div>`;
 
   state.profChosen = null;
@@ -2017,6 +2031,32 @@ function profRender() {
   profEncaixa();
 }
 
+/* ── "Agora vocês" (17/09/2026) ──
+   Pedido do Pedro: na TV o exercício vira conversa. Depois de revelar, uma
+   proposta curta para as DUPLAS usarem o ponto gramatical daquela questão
+   falando da própria vida. O conteúdo mora em questions/tv-conversa/<livro>.js
+   (window.QP_CONVERSA[livro][topic]); só o modo professor carrega. */
+const _profConvPedidos = {};
+function profCarregaConversa(book) {
+  if (!PROF_MODE || !book || _profConvPedidos[book]) return;
+  _profConvPedidos[book] = true;
+  const sc = document.createElement('script');
+  sc.src = 'questions/tv-conversa/' + book + '.js?v=20260917';
+  document.head.appendChild(sc);
+}
+function profMostraConversa(q) {
+  const box = document.getElementById('prof-conv');
+  if (!box) return;
+  const c = ((window.QP_CONVERSA || {})[state.book] || {})[q.topic];
+  if (!c || !c.q) { box.style.display = 'none'; return; }
+  const esp = bookLang(state.book) === 'es';
+  const esc = t => String(t).replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[ch]);
+  box.innerHTML = '<div class="prof-conv-t">' + (esp ? '💬 Ahora ustedes, en parejas' : '💬 Now you, in pairs') + '</div>' +
+    '<div class="prof-conv-q">' + esc(c.q) + '</div>' +
+    ((c.apoio || []).length ? '<div class="prof-conv-a">' + c.apoio.map(esc).join('  ·  ') + '</div>' : '');
+  box.style.display = 'block';
+}
+
 /* Reduz o fator de tamanho até a questão (com a explicação, se aberta)
    terminar acima da barra de botões. Ver o comentário do `--pf` no CSS. */
 function profEncaixa() {
@@ -2028,7 +2068,9 @@ function profEncaixa() {
   list.style.setProperty('--pf', pf);
   const fundo = () => {
     const ex = document.getElementById('prof-expl');
-    const alvo = (ex && ex.style.display !== 'none') ? ex : card.querySelector('.opts-grid');
+    const cv = document.getElementById('prof-conv');
+    const alvo = (cv && cv.style.display !== 'none') ? cv
+      : (ex && ex.style.display !== 'none') ? ex : card.querySelector('.opts-grid');
     return alvo ? alvo.getBoundingClientRect().bottom + window.scrollY : 0;
   };
   const teto = () => nav.closest('.action-bar').getBoundingClientRect().top + window.scrollY - 12;
@@ -2102,6 +2144,17 @@ function profPrev() {
 }
 
 function profNext() {
+  /* depois de revelar, o "Agora vocês" ganha tela própria antes da próxima
+     questão: junto da explicação, ele derrubava o texto para 0,6x */
+  const q = state.questions[state.profIdx];
+  const card = document.getElementById('qcard-0');
+  if (state.profRevealed && q && card && !card.classList.contains('prof-na-conversa') &&
+      ((window.QP_CONVERSA || {})[state.book] || {})[q.topic]) {
+    card.classList.add('prof-na-conversa');
+    profMostraConversa(q);
+    profEncaixa();
+    return;
+  }
   if (state.profIdx < state.questions.length - 1) {
     state.profIdx++;
     profRender();
@@ -2138,6 +2191,7 @@ function selectBook(card) {
   document.querySelectorAll('.book-card').forEach(c => c.classList.remove('selected'));
   card.classList.add('selected');
   state.book = card.dataset.book;
+  profCarregaConversa(state.book);
   goToExam();
 }
 
@@ -2145,6 +2199,7 @@ function selectBook(card) {
 async function goToExam() {
   const info = BOOKS[state.book];
   if (!info) return;
+  profCarregaConversa(state.book);
 
   if (!state.cache[state.book]) {
     try {

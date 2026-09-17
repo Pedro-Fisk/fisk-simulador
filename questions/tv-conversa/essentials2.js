@@ -1,0 +1,38 @@
+/* QP_CONVERSA · essentials2 (gerado em 17/09/2026). O "Agora vocês" do modo
+ * professor: uma proposta em duplas por ponto gramatical. O aluno não vê. */
+window.QP_CONVERSA = window.QP_CONVERSA || {};
+window.QP_CONVERSA['essentials2'] = {
+  'To Be – Past (Was/Were)': { q: 'Ask your partner: Where were you last night at eight? Who were you with?', apoio: ['I was at home with my family.', 'I was at ___ because ___.'] },
+  'There Was / There Were': { q: 'Tell your partner about your first school. What was there? What were there?', apoio: ['There was a big playground.', 'There were ___.'] },
+  'How – Questions': { q: 'Ask your partner three questions with How: How are you? How is your family? How was your weekend?', apoio: ['It was great.', 'It was ___ because ___.'] },
+  'How – Transport': { q: 'Ask your partner: How do you get to school? How do you go to the beach?', apoio: ['I go by bus.', 'I go on foot because ___.'] },
+  'Countable / Uncountable': { q: 'Tell your partner what there is in your fridge today.', apoio: ['There is some milk.', 'There are some eggs.'] },
+  'A lot of / Some / Many / Much': { q: 'Tell your partner what you eat a lot of and what you don\'t eat much of.', apoio: ['I eat a lot of rice.', 'I don\'t eat much ___ because ___.'] },
+  'How Often / Adverbs of Frequency': { q: 'Ask your partner: How often do you go to the movies? How often do you play sports?', apoio: ['I usually go once a month.', 'I never ___ because ___.'] },
+  'Too Many / Too Much': { q: 'Tell your partner two things there are too many of, or too much of, in your city.', apoio: ['There are too many cars.', 'There is too much noise.'] },
+  'Past Continuous (Was/Were + -ing)': { q: 'Ask your partner: What were you doing yesterday at nine p.m.?', apoio: ['I was watching TV.', 'I was ___ing because ___.'] },
+  'Numbers / Years': { q: 'Tell your partner the year you were born and one important year in your life.', apoio: ['I was born in 2008.', 'In ___ I ___.'] },
+  'Numbers': { q: 'Say a phone number or a price. Your partner writes it and reads it back.', apoio: ['It\'s nine nine eight...', 'It costs ___ reais.'] },
+  'Adverbs of Frequency': { q: 'Tell your partner one thing you always do, one you sometimes do and one you never do.', apoio: ['I always ___.', 'I never ___ because ___.'] },
+  'When / While': { q: 'Tell your partner what happened while you were coming to school today.', apoio: ['While I was walking, I saw ___.', 'When I arrived, ___.'] },
+  'Can / Could – Ability': { q: 'Tell your partner one thing you could do as a child and one thing you can do now.', apoio: ['When I was a child, I could ___.', 'Now I can ___.'] },
+  'How Old': { q: 'Ask your partner: How old are you? How old is your best friend?', apoio: ['I\'m ___ years old.', 'My best friend is ___.'] },
+  'Can / Could / May – Permission': { q: 'Ask your partner for permission to use three things. Your partner says yes or no.', apoio: ['Yes, you can.', 'Sorry, you can\'t.'] },
+  'Possessive Pronouns': { q: 'Put two objects on the desk. Ask your partner: Is this yours or mine?', apoio: ['It\'s mine.', 'It\'s yours.'] },
+  'Plural of Nouns': { q: 'Tell your partner what you can see in the classroom. Use plurals.', apoio: ['I can see twelve chairs.', 'I can see two ___.'] },
+  'Genitive Case (\'s)': { q: 'Tell your partner about the things of people in your family.', apoio: ['My brother\'s bike is blue.', 'My mother\'s favorite food is ___.'] },
+  'Verb + To + Verb / Verb + V-ing': { q: 'Tell your partner one thing you want to do this year and one thing you enjoy doing.', apoio: ['I want to ___.', 'I enjoy ___ing because ___.'] },
+  'Will – Predictions': { q: 'Tell your partner two predictions about your life in ten years.', apoio: ['I will live in ___.', 'I think I will ___ because ___.'] },
+  'Which vs What': { q: 'Ask your partner: Which do you prefer, pizza or hamburger? What is your favorite movie?', apoio: ['I prefer pizza.', 'My favorite movie is ___ because ___.'] },
+  'Past Continuous – When/While': { q: 'Tell your partner about a surprise: what were you doing when something happened?', apoio: ['I was sleeping when the phone rang.', 'I was ___ing when ___.'] },
+  'Can / Could – Request': { q: 'Ask your partner for three small favors, politely.', apoio: ['Could you lend me your pen?', 'Sure, here you are.'] },
+  'How Often': { q: 'Ask your partner: How often do you use your phone? How often do you eat fast food?', apoio: ['Every day.', 'Once a week, because ___.'] },
+  'Some / Any': { q: 'Ask your partner: Do you have any pets? Do you have any brothers or sisters?', apoio: ['Yes, I have some ___.', 'No, I don\'t have any ___.'] },
+  'To Be Past – Short Answers': { q: 'Ask your partner: Were you at home last night? Was your weekend good?', apoio: ['Yes, I was.', 'No, it wasn\'t.'] },
+  'A Little / A Few': { q: 'Tell your partner what you have a little of and a few of in your bag or your house.', apoio: ['I have a few pens.', 'I have a little money.'] },
+  'Will – Future': { q: 'Tell your partner two things you will do after class today.', apoio: ['I will go home.', 'I will ___ because ___.'] },
+  'Numbers – Years': { q: 'Say an important year for you. Your partner asks: What happened in that year?', apoio: ['In 2020 I ___.', 'In ___ I ___ because ___.'] },
+  'Verb + V-ing': { q: 'Tell your partner two things you love doing and one thing you hate doing.', apoio: ['I love ___ing.', 'I hate ___ing because ___.'] },
+  'Genitive Case': { q: 'Tell your partner about your best friend\'s family and your best friend\'s favorite things.', apoio: ['My friend\'s sister is ___.', 'My friend\'s favorite game is ___.'] },
+  'How – Manner': { q: 'Ask your partner: How do you speak English? How does your best friend drive or dance?', apoio: ['I speak slowly.', 'She dances very well because ___.'] }
+};

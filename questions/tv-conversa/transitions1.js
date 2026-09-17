@@ -1,0 +1,35 @@
+/* QP_CONVERSA · transitions1 (gerado em 17/09/2026). O "Agora vocês" do modo
+ * professor: uma proposta em duplas por ponto gramatical. O aluno não vê. */
+window.QP_CONVERSA = window.QP_CONVERSA || {};
+window.QP_CONVERSA['transitions1'] = {
+  'Tag Questions': { q: 'Guess three things about your partner and check with tag questions.', apoio: ['You like coffee, don\'t you?'] },
+  'Future Arrangements (Be + -ing)': { q: 'Tell your partner what you are doing this weekend. Say where and with whom.', apoio: [] },
+  'Zero Conditional': { q: 'Tell your partner what usually happens to you if you don\'t sleep well or if you drink too much coffee.', apoio: ['If I don\'t sleep well, I...'] },
+  'Zero Conditional (If + Imperative)': { q: 'Give your partner three tips for a visitor in your city, starting with if.', apoio: [] },
+  'Comparatives (as...as)': { q: 'Compare yourself with a family member. Use as ... as and not as ... as.', apoio: [] },
+  'Comparatives (-er + than)': { q: 'Compare two cities you know. Say which is bigger, older and cheaper.', apoio: ['I think ___ is ___er than ___ because...'] },
+  'Comparatives (more/less + than)': { q: 'Compare two apps you use. Which one is more useful and less expensive?', apoio: [] },
+  'Comparatives (-er/-ier)': { q: 'Compare your life now with your life five years ago. Is it easier or busier?', apoio: [] },
+  'Used To': { q: 'Tell your partner three things you used to do as a child that you don\'t do anymore.', apoio: ['When I was a kid, I used to...'] },
+  'Prepositions + V-ing': { q: 'Tell your partner what you are good at, bad at and interested in doing.', apoio: [] },
+  'Should / Had Better': { q: 'Your partner tells you a small problem (tired, bored, late). Give advice with should and had better.', apoio: ['You should... / You\'d better...'] },
+  'Was/Were Going To (Past Plans)': { q: 'Tell your partner about a plan you had that didn\'t happen. What were you going to do?', apoio: [] },
+  'Gerund as Subject': { q: 'Tell your partner three activities you think are relaxing, boring or exciting.', apoio: ['I think that ___ing is ___ because...'] },
+  'Some / Any / No': { q: 'Ask your partner about his or her street: Is there any bakery? Are there any parks?', apoio: [] },
+  'Must / Have To / Mustn\'t': { q: 'Tell your partner the rules in your house or at your job: what you have to do and what you mustn\'t do.', apoio: [] },
+  'Have / Has Got': { q: 'Tell your partner what you have got in your bag and on your phone.', apoio: ['I\'ve got...'] },
+  'Be Able To': { q: 'Tell your partner one thing you were able to do last year and one thing you want to be able to do.', apoio: [] },
+  'Present Perfect (Ever/Never)': { q: 'Ask your partner three Have you ever...? questions about travel, food and sports.', apoio: ['I\'ve never... but I\'d like to because...'] },
+  'Present Perfect (Already/Yet)': { q: 'Tell your partner what you have already done today and what you haven\'t done yet.', apoio: [] },
+  'Present Perfect (For/Since)': { q: 'Tell your partner how long you have lived in your house, known your best friend and studied English.', apoio: [] },
+  'Do or Make': { q: 'Tell your partner three things you usually do on Saturdays and one thing you like to make.', apoio: ['On Saturdays I usually...'] },
+  'Comparatives (Irregular)': { q: 'Tell your partner which is better or worse for you: summer or winter, morning or night.', apoio: [] },
+  'Must / Have To': { q: 'Tell your partner two things you have to do this week and one thing you must remember.', apoio: [] },
+  'Present Perfect (Ever/Already/Never/Yet)': { q: 'Ask your partner about the series or movies of the moment: Have you seen it yet?', apoio: ['I haven\'t seen it yet, but...'] },
+  'As...As (Equal Comparisons)': { q: 'Compare two friends or two places you like using as ... as.', apoio: [] },
+  'Be Able To – Future/Conditional': { q: 'Tell your partner what you will be able to do when your English is really good.', apoio: ['When my English is better, I\'ll be able to...'] },
+  'Prepositions + V-ing (Interest/Opinion)': { q: 'Tell your partner what you are excited about doing and what you are tired of doing.', apoio: [] },
+  'Should – Advice': { q: 'Your partner wants to learn a new skill. Give three pieces of advice with should.', apoio: [] },
+  'Verb + V-ing (Avoid/Enjoy/Consider/Finish)': { q: 'Tell your partner one thing you enjoy, one you avoid and one you are considering doing.', apoio: ['I\'m considering... because...'] },
+  'Future Arrangements': { q: 'Ask your partner: What are you doing after class today? And tomorrow?', apoio: [] }
+};

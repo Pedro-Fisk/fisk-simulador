@@ -1,0 +1,38 @@
+/* QP_CONVERSA · fluency1 (gerado em 17/09/2026). O "Agora vocês" do modo
+ * professor: uma proposta em duplas por ponto gramatical. O aluno não vê. */
+window.QP_CONVERSA = window.QP_CONVERSA || {};
+window.QP_CONVERSA['fluency1'] = {
+  'A Friend of Mine': { q: 'Tell your partner about a friend of yours and a hobby of his or hers that surprises people.', apoio: [] },
+  'Present Perfect vs Continuous': { q: 'Tell your partner something you have been working on lately and how much of it you have done so far.', apoio: [] },
+  'Some/Any/No Words': { q: 'Tell your partner about a place where there is nothing to do, and somewhere you would take anyone who visits.', apoio: [] },
+  'How Long Does It Take': { q: 'Ask your partner how long it takes to get to school, to get ready in the morning and to cook a favorite dish.', apoio: [] },
+  'Superlative + Have Ever': { q: 'Tell your partner about the best trip you have ever taken and the strangest food you have ever tried.', apoio: [] },
+  'Past Perfect': { q: 'Tell your partner about a day when things went wrong: what had already happened when you arrived?', apoio: [] },
+  'Tag Questions': { q: 'Make three guesses about your partner\'s weekend and check them with tag questions.', apoio: [] },
+  'Third Conditional': { q: 'Tell your partner about a small decision in your past. What would have happened if you had chosen differently?', apoio: [] },
+  'Adjective Order': { q: 'Describe your favorite piece of clothing or object using two or three adjectives in the right order.', apoio: [] },
+  'Subject Questions': { q: 'Ask your partner questions like: Who taught you to ride a bike? What makes you laugh?', apoio: [] },
+  'Should Have / Could Have': { q: 'Tell your partner about a time you were late or forgot something. What should you have done?', apoio: [] },
+  'Quantifiers': { q: 'Talk about your class or your friends: do most of them, a few of them or none of them like the same music as you?', apoio: [] },
+  'Emphatic Do/Does/Did': { q: 'Tell your partner one thing people think you don\'t like, but you do like. Use do for emphasis.', apoio: [] },
+  'Wish + Simple Past': { q: 'Tell your partner three things you wish were different in your daily routine.', apoio: [] },
+  'Have/Get Something Done': { q: 'Tell your partner what you have done by professionals and what you prefer to do yourself.', apoio: [] },
+  'Verb + Object + Infinitive': { q: 'Tell your partner what your parents or teachers wanted you to do, and what they told you not to do, when you were younger.', apoio: [] },
+  'Intensifiers': { q: 'Describe the last movie you watched and the last meal you ate using really, extremely, absolutely or quite.', apoio: [] },
+  'Double Comparatives': { q: 'Tell your partner something that is getting better and better, or more and more expensive, where you live.', apoio: [] },
+  'Prefixes': { q: 'Say three adjectives or verbs. Your partner adds a prefix (un-, im-, dis-, mis-, over-) and uses the new word in a sentence about their life.', apoio: [] },
+  'Reported Speech': { q: 'Tell your partner something interesting a friend or relative told you recently. Report what they said.', apoio: [] },
+  'Passive Voice': { q: 'Tell your partner about something made or produced in your city or region. Where is it sold?', apoio: [] },
+  'Connectors (Add/Contrast)': { q: 'Give your opinion on studying online. Use in addition, however and although.', apoio: [] },
+  'Connectors (Pairs)': { q: 'Tell your partner about your ideal weekend using both ... and, either ... or and neither ... nor.', apoio: [] },
+  'Phrasal Verbs – Relationships': { q: 'Tell your partner about a friend you get along with, a habit you can\'t put up with and a friend you drifted apart from.', apoio: [] },
+  'Phrasal Verbs – Food': { q: 'Ask your partner: How often do you eat out? What food do you pig out on? Is there any food you just pick at?', apoio: [] },
+  'Phrasal Verbs – Traveling': { q: 'Plan a trip with your partner: who will pick you up, drop you off and see you off at the airport?', apoio: [] },
+  'Phrasal Verbs – Sports': { q: 'Tell your partner how you work off stress and about a time you almost gave up but didn\'t.', apoio: [] },
+  'Phrasal Verbs – Fashion': { q: 'Tell your partner when you like to dress up and the last thing you tried on but didn\'t buy.', apoio: [] },
+  'Phrasal Verbs – Technology': { q: 'Tell your partner about an app you signed up for recently and what you do when your phone runs out of battery.', apoio: [] },
+  'Phrasal Verbs – Health': { q: 'Tell your partner what you do to fight off a cold and how long it usually takes you to get over one.', apoio: [] },
+  'Phrasal Verbs – Time': { q: 'Tell your partner something you keep putting off and how you fit in time for exercise or hobbies.', apoio: [] },
+  'Phrasal Verbs – Consumerism': { q: 'Tell your partner what you are saving up for and a time you felt ripped off.', apoio: [] },
+  'Phrasal Verbs – Games': { q: 'Tell your partner about a game or match you watched: who played against whom and how did it play out?', apoio: [] }
+};

@@ -1,0 +1,35 @@
+/* QP_CONVERSA · essentials1 (gerado em 17/09/2026). O "Agora vocês" do modo
+ * professor: uma proposta em duplas por ponto gramatical. O aluno não vê. */
+window.QP_CONVERSA = window.QP_CONVERSA || {};
+window.QP_CONVERSA['essentials1'] = {
+  'Articles: A / AN': { q: 'Look around the classroom. Take turns: say one thing you see with a or an.', apoio: ['I see a ___.', 'I see an ___.'] },
+  'This / That / These / Those': { q: 'Point to things in the room. Ask your partner: What is this? What are those?', apoio: ['This is a ___.', 'Those are ___.'] },
+  'Do / Does – Questions': { q: 'Ask your partner three questions about a friend or family member: Does he/she like...? Does he/she play...?', apoio: ['Yes, he does.', 'No, she doesn\'t.'] },
+  'Do / Does – Short Answers': { q: 'Ask your partner: Do you like pizza? Do you play video games? Your partner answers with a short answer.', apoio: ['Yes, I do.', 'No, I don\'t.'] },
+  'To Be – Am / Is / Are': { q: 'Tell your partner three things about you with I am, and one thing about your best friend with he is or she is.', apoio: ['I am ___.', 'My best friend is ___.'] },
+  'Present Continuous (Be + -ing)': { q: 'Look at the class. Tell your partner what three people are doing right now.', apoio: ['The teacher is ___ing.', '___ is ___ing.'] },
+  'Question Words': { q: 'Ask your partner three questions with What, Where and When about his or her weekend.', apoio: ['What do you do on Saturdays? I ___.', 'Where do you go? I go to ___ because ___.'] },
+  'Ordinal Numbers': { q: 'Ask your partner: When is your birthday? Then say the birthday of a friend.', apoio: ['My birthday is on May 3rd.', 'Her birthday is on the ___ of ___.'] },
+  'Possessive Adjectives': { q: 'Tell your partner about your family: the name of your mother, your father or your pet.', apoio: ['My mother\'s name is ___.', 'Her name is ___ and his name is ___.'] },
+  'Objective Pronouns': { q: 'Tell your partner about two people you like and why. Use him, her or them.', apoio: ['I like my sister. I talk to her every day.', 'I like ___ because ___.'] },
+  'Do/Does – Long Answers': { q: 'Ask your partner: Do you like soccer? Does your friend like music? Answer with long answers.', apoio: ['Yes, I like soccer.', 'No, my friend doesn\'t like music.'] },
+  'The Time': { q: 'Ask your partner: What time do you wake up? What time do you have lunch?', apoio: ['I wake up at seven o\'clock.', 'I have lunch at ___.'] },
+  'Nationality / To Be': { q: 'Say the name of a famous person. Your partner says the nationality.', apoio: ['She is American.', 'He is ___.'] },
+  'Useful Expressions': { q: 'Take turns: say a classroom expression and your partner does it or answers it.', apoio: ['Can you repeat, please?', 'Open your books to page 10.'] },
+  'Alphabet / Spelling': { q: 'Spell your full name for your partner. Your partner writes it and spells it back.', apoio: ['My name is ___. It\'s spelled ___.', 'How do you spell that?'] },
+  'Do – We/You/They': { q: 'Ask your partner: What do you and your friends do on weekends?', apoio: ['We play ___.', 'We go to ___ because ___.'] },
+  'Past Simple – Did (Regular Verbs)': { q: 'Tell your partner three things you watched, played or cooked yesterday.', apoio: ['Yesterday I watched ___.', 'I played ___ because ___.'] },
+  'Past Simple – Did (Irregular Verbs)': { q: 'Ask your partner: What did you eat yesterday? Where did you go last weekend?', apoio: ['I ate ___.', 'I went to ___.'] },
+  'Past Simple – Irregular Verbs': { q: 'Tell your partner about last Sunday. Use went, ate, saw and had.', apoio: ['Last Sunday I went to ___.', 'I saw ___ because ___.'] },
+  'Time Expressions (Past)': { q: 'Tell your partner one thing you did yesterday, one last week and one two years ago.', apoio: ['Last week I ___.', 'Two years ago I ___.'] },
+  'Be Going To': { q: 'Ask your partner: What are you going to do tonight? And next weekend?', apoio: ['I\'m going to ___ tonight.', 'Next weekend I\'m going to ___ because ___.'] },
+  'Prepositions of Place': { q: 'Describe your bedroom to your partner. Say where three things are.', apoio: ['My bed is next to the window.', 'My phone is on ___.'] },
+  'There Is / There Are': { q: 'Tell your partner what there is in your neighborhood.', apoio: ['There is a ___ near my house.', 'There are two ___.'] },
+  'Imperative': { q: 'Give your partner three instructions. Your partner does them.', apoio: ['Stand up, please.', 'Open your book.'] },
+  'Why / Because': { q: 'Ask your partner: Why do you study English?', apoio: ['I study English because ___.', 'Because I want to ___.'] },
+  'Can – Ability': { q: 'Ask your partner: Can you swim? Can you cook? Can you play an instrument?', apoio: ['Yes, I can.', 'No, I can\'t.'] },
+  'Plural Forms': { q: 'Tell your partner how many things you have in your bag. Use plurals.', apoio: ['I have two pens.', 'I have three ___.'] },
+  'Numbers (100-999)': { q: 'Say a number between 100 and 999. Your partner writes it. Then change roles.', apoio: ['Three hundred and twenty.', 'Is it ___?'] },
+  'Past Simple – To Be': { q: 'Ask your partner: Where were you last Saturday night? Was it fun?', apoio: ['I was at home.', 'Yes, it was. / No, it wasn\'t.'] },
+  'Present Continuous vs Simple Present': { q: 'Tell your partner what you usually do on Fridays and what you are doing right now.', apoio: ['On Fridays I usually ___.', 'Right now I am ___ing.'] }
+};

@@ -1,0 +1,31 @@
+/* QP_CONVERSA · inmediato2 (gerado em 17/09/2026). O "Agora vocês" do modo
+ * professor: uma proposta em duplas por ponto gramatical. O aluno não vê. */
+window.QP_CONVERSA = window.QP_CONVERSA || {};
+window.QP_CONVERSA['inmediato2'] = {
+  'Pronombres de Complemento Indirecto': { q: 'Cuéntale a tu pareja qué le regalaste a alguien en su último cumpleaños.', apoio: ['Le regalé ___ porque ___.'] },
+  'Pretérito Perfecto Simple (irregulares)': { q: 'Cuéntale a tu pareja qué hiciste, adónde fuiste y qué tuviste que hacer la semana pasada.', apoio: [] },
+  'Verbos de Valoración': { q: 'Dile a tu pareja qué te encanta, qué te molesta y qué te parece aburrido de tu ciudad.', apoio: ['Me encanta ___, pero me molesta ___.'] },
+  'Indefinidos': { q: 'Pregúntale a tu pareja: ¿Alguien de tu familia habla otro idioma? ¿Tienes algún plan para mañana?', apoio: [] },
+  'Pronombres CD e CI': { q: 'Pregúntale a tu pareja qué hace con su celular, sus llaves y sus libros cuando llega a casa.', apoio: [] },
+  'Contraste Pretérito Perfecto Simple y Compuesto': { q: 'Cuéntale a tu pareja algo que has hecho esta semana y algo que hiciste el mes pasado.', apoio: ['Esta semana he ___, y el mes pasado ___.'] },
+  'Combinación de Pronombres (CI + CD)': { q: 'Pregúntale a tu pareja: ¿Quién te regaló tu objeto favorito? ¿Se lo prestarías a un amigo?', apoio: [] },
+  'Pretérito Pluscuamperfecto de Indicativo': { q: 'Cuéntale a tu pareja algo que ya habías hecho antes de cumplir quince años.', apoio: ['Antes de los quince años, ya había ___.'] },
+  'Verbo Doler': { q: 'Haz la mímica de un dolor. Tu pareja pregunta qué te duele y te da un consejo.', apoio: [] },
+  'Tener que / Hay que': { q: 'Dile a tu pareja qué tienes que hacer esta semana y qué hay que hacer para aprender bien un idioma.', apoio: ['Esta semana tengo que ___.'] },
+  'SE Impersonal': { q: 'Explícale a tu pareja qué se come y qué se hace en una fiesta típica de tu región.', apoio: [] },
+  'Verbo Tocar': { q: 'Pregúntale a tu pareja: ¿A quién le toca lavar los platos en tu casa? ¿Tocas algún instrumento?', apoio: [] },
+  'Muy / Mucho(a)(s)': { q: 'Describe tu barrio a tu pareja usando muy y mucho.', apoio: ['Mi barrio es muy ___ y tiene muchos ___.'] },
+  'El Cuerpo Humano': { q: 'Elige un deporte y explícale a tu pareja qué partes del cuerpo se usan más en él.', apoio: [] },
+  'Futuro Simple': { q: 'Cuéntale a tu pareja cómo imaginas tu vida dentro de diez años.', apoio: ['Dentro de diez años, viviré ___.'] },
+  'Condicional Simple': { q: 'Pregúntale a tu pareja: ¿Qué harías con un mes entero de vacaciones?', apoio: [] },
+  'Conjunciones (y/e – o/u)': { q: 'Dile a tu pareja dos cosas que te gustan con y/e, y hazle una pregunta con o/u: ¿Duermes siete u ocho horas?', apoio: [] },
+  'Presente de Subjuntivo': { q: 'Dile a tu pareja tres deseos para esta semana.', apoio: ['Espero que ___.'] },
+  'Introductores de Subjuntivo': { q: 'Cuéntale a tu pareja qué te pide tu profesor o tu jefe y qué quieres que pase este año.', apoio: [] },
+  'Apócopes': { q: 'Cuéntale a tu pareja cómo es un buen día y un mal día para ti, y cuál fue tu primer viaje.', apoio: [] },
+  'Imperativo Afirmativo (irregulares)': { q: 'Dale a tu pareja tres consejos para su primer día en un trabajo nuevo, con ven, ten, haz o sé.', apoio: ['Ven temprano y ___.'] },
+  'Imperativo Negativo': { q: 'Dile a tu pareja tres cosas que no debe hacer antes de un examen.', apoio: [] },
+  'Si + Presente de Indicativo': { q: 'Pregúntale a tu pareja: ¿Qué haces si llueve el fin de semana?', apoio: ['Si llueve, ___.'] },
+  'Introductores de Condicional (yo que tú...)': { q: 'Cuéntale a tu pareja un pequeño problema. Tu pareja te da un consejo con "yo que tú" o "yo en tu lugar".', apoio: [] },
+  'Conmigo / Contigo / Consigo': { q: 'Invita a tu pareja a hacer algo el sábado. Tu pareja responde si va contigo o no, y por qué.', apoio: ['¿Quieres ir conmigo a ___?'] },
+  'Posición de los Pronombres con Imperativo': { q: 'Pídele cosas a tu pareja (tu lápiz, tu cuaderno). Tu pareja responde con imperativo y pronombre: tómalo, dámelo, no lo toques.', apoio: [] },
+};
