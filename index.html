@@ -843,7 +843,7 @@
     body.prof-mode .prof-na-conversa .opts-grid,
     body.prof-mode .prof-na-conversa .prof-explanation { display: none !important; }
     body.prof-mode .prof-na-conversa .q-text { font-size: calc(clamp(1.1rem, min(2vw, 3.4vh), 3rem) * var(--pf)) !important; opacity: .7; }
-    body.prof-mode .prof-na-conversa .prof-conversa { font-size: calc(clamp(1.4rem, min(3vw, 5.2vh), 4.6rem) * var(--pf)); }
+    body.prof-mode .prof-na-conversa .prof-conversa { font-size: calc(clamp(1.1rem, min(2.2vw, 3.8vh), 3.4rem) * var(--pf)); }
     body.prof-mode .prof-conversa {
       font-size: calc(clamp(1rem, min(1.7vw, 3vh), 2.6rem) * var(--pf));
       padding: calc(1.2vw * var(--pf)) 2vw; border-radius: 1vw; margin-top: calc(1.2vw * var(--pf));
@@ -851,6 +851,8 @@
     }
     .prof-conv-t { font-weight: 800; font-size: .8em; text-transform: uppercase; letter-spacing: .04em; color: #C2410C; }
     .prof-conv-q { font-weight: 700; margin-top: .2em; }
+    .prof-conv-l { margin: .35em 0 0 1.3em; padding: 0; display: flex; flex-direction: column; gap: .45em; }
+    .prof-conv-l .prof-conv-a { display: block; }
     .prof-conv-a { font-style: italic; opacity: .8; font-size: .85em; margin-top: .2em; }
     /* prof-nav base (hidden outside prof-mode) */
     #prof-nav { display: none; }
@@ -2041,19 +2043,42 @@ function profCarregaConversa(book) {
   if (!PROF_MODE || !book || _profConvPedidos[book]) return;
   _profConvPedidos[book] = true;
   const sc = document.createElement('script');
-  sc.src = 'questions/tv-conversa/' + book + '.js?v=20260917';
+  sc.src = 'questions/tv-conversa/' + book + '.js?v=20260918';
   document.head.appendChild(sc);
+}
+/* AMPLIADO EM 18/09/2026 (pedido do Pedro, "no mínimo seis perguntas", no
+   estilo do Conversation Maker): cada ponto traz `perguntas`, seis, em dois
+   trios. A tela mostra UM trio e alterna a cada vez que o mesmo ponto volta
+   na rodada (`state.convVez`), então a turma vê as seis. O `apoio` é o
+   modelo de resposta, pela régua de nível do Conversation Maker. O formato
+   antigo ({ q, apoio }) continua valendo. */
+function profPerguntasConversa(c) {
+  if (!c) return [];
+  if (Array.isArray(c.perguntas)) return c.perguntas.filter(p => p && p.q);
+  return c.q ? [{ q: c.q, apoio: c.apoio || [] }] : [];
 }
 function profMostraConversa(q) {
   const box = document.getElementById('prof-conv');
   if (!box) return;
   const c = ((window.QP_CONVERSA || {})[state.book] || {})[q.topic];
-  if (!c || !c.q) { box.style.display = 'none'; return; }
+  const todas = profPerguntasConversa(c);
+  if (!todas.length) { box.style.display = 'none'; return; }
+  state.convVez = state.convVez || {};
+  const chave = state.profIdx + '|' + q.topic;
+  if (state.convTela !== chave) {
+    state.convTela = chave;
+    state.convVez[q.topic] = (state.convVez[q.topic] || 0) + 1;
+  }
+  const trios = Math.max(1, Math.ceil(todas.length / 3));
+  const k = (state.convVez[q.topic] - 1) % trios;
+  const vez = todas.slice(k * 3, k * 3 + 3);
   const esp = bookLang(state.book) === 'es';
   const esc = t => String(t).replace(/[&<>"]/g, ch => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'})[ch]);
   box.innerHTML = '<div class="prof-conv-t">' + (esp ? '💬 Ahora ustedes, en parejas' : '💬 Now you, in pairs') + '</div>' +
-    '<div class="prof-conv-q">' + esc(c.q) + '</div>' +
-    ((c.apoio || []).length ? '<div class="prof-conv-a">' + c.apoio.map(esc).join('  ·  ') + '</div>' : '');
+    '<ol class="prof-conv-l" start="' + (k * 3 + 1) + '">' + vez.map(p =>
+      '<li><span class="prof-conv-q">' + esc(p.q) + '</span>' +
+      ((p.apoio || []).length ? '<span class="prof-conv-a">' + p.apoio.map(esc).join('  ·  ') + '</span>' : '') +
+      '</li>').join('') + '</ol>';
   box.style.display = 'block';
 }
 
