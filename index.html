@@ -931,6 +931,26 @@
        casa do aluno chega pelo fragmento da URL — o mesmo `&casa=` que veste a
        faixa do topo. Sem casa, nada muda nesta tela. -->
   <script src="https://portalfisk.com.br/assets/mana.js"></script>
+<style>
+/* O MODO OUVIR (22/09/2026): a escolha antes de começar, o selo travado e o enunciado em áudio */
+.modo-escolha{margin:1.2rem 0 .4rem;padding:1rem;border:2px solid var(--border,#e5e5e5);border-radius:16px;background:var(--surface,#fff)}
+.modo-tit{font-family:Poppins,sans-serif;font-weight:800;margin-bottom:.6rem}
+.modo-ops{display:grid;grid-template-columns:1fr 1fr;gap:.6rem}
+@media (max-width:520px){.modo-ops{grid-template-columns:1fr}}
+.modo-op{position:relative;display:flex;flex-direction:column;align-items:flex-start;gap:.15rem;text-align:left;border:2px solid var(--border,#e5e5e5);background:var(--surface,#fff);color:inherit;border-radius:14px;padding:.8rem .9rem;cursor:pointer;font:inherit}
+.modo-op .ic{font-size:1.5rem}.modo-op b{font-family:Poppins,sans-serif;font-size:1rem}.modo-op small{opacity:.75;font-size:.8rem}
+.modo-op.sel{border-color:#2563eb;box-shadow:0 0 0 2px #2563eb inset;background:rgba(37,99,235,.06)}
+.modo-op .selo{position:absolute;top:.6rem;right:.6rem;background:#16a34a;color:#fff;font-weight:800;font-size:.72rem;border-radius:99px;padding:.15rem .55rem}
+.modo-aviso{font-size:.78rem;opacity:.7;margin-top:.55rem}
+.modo-badge{display:inline-block;background:#2563eb;color:#fff;font-weight:800;font-size:.72rem;border-radius:99px;padding:.15rem .6rem;margin-top:.2rem}
+.q-ouvir{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin:.35rem 0 .6rem}
+.q-ouvir button.tocar{display:inline-flex;align-items:center;gap:.45rem;border:0;border-radius:99px;padding:.6rem 1.1rem;font-weight:800;cursor:pointer;color:#fff;background:linear-gradient(120deg,#1e40af,#2563eb);font:inherit;font-weight:800}
+.q-ouvir button.tocar.tocando{background:linear-gradient(120deg,#0f766e,#14b8a6)}
+.q-ouvir .conta{font-size:.78rem;opacity:.7;font-weight:700}
+.q-ouvir button.revelar{border:1.5px dashed currentColor;background:none;border-radius:99px;padding:.3rem .75rem;font-size:.78rem;font-weight:800;opacity:.75;cursor:pointer;color:inherit}
+.q-dica{font-size:.85rem;font-weight:700;opacity:.8;margin-bottom:.4rem}
+.modo-resumo{margin:.8rem auto 0;max-width:520px;padding:.7rem .9rem;border-radius:12px;background:rgba(37,99,235,.08);font-weight:700;font-size:.9rem;text-align:center}
+</style>
 </head>
 <body>
 <script>try{if(localStorage.getItem('fisk_theme')==='dark')document.body.classList.add('theme-dark');}catch(e){}</script>
@@ -1141,6 +1161,17 @@
         <div class="topic-counter" id="topic-counter">Choose at least one topic below</div>
         <div id="topic-list"></div>
       </div>
+
+      <!-- O MODO OUVIR (22/09/2026): escolhido AQUI, antes de começar, e travado até o fim da prova.
+           Só aparece para o aluno que veio do Portal (o bônus é de Fisk Dólares). -->
+      <div id="modo-escolha" class="modo-escolha" hidden>
+        <div class="modo-tit" id="modo-tit"></div>
+        <div class="modo-ops">
+          <button type="button" class="modo-op" data-modo="ouvir" onclick="escolheModo('ouvir')"><span class="ic">&#127911;</span><b id="modo-ouvir-t"></b><small id="modo-ouvir-d"></small><span class="selo" id="modo-selo"></span></button>
+          <button type="button" class="modo-op" data-modo="ler" onclick="escolheModo('ler')"><span class="ic">&#128214;</span><b id="modo-ler-t"></b><small id="modo-ler-d"></small></button>
+        </div>
+        <div class="modo-aviso" id="modo-aviso"></div>
+      </div>
     </div>
   </div>
 
@@ -1161,6 +1192,7 @@
       <strong id="quiz-title"></strong>
       <span id="quiz-subtitle">10 questions &middot; answer all and submit</span>
       <span id="prof-badge" class="prof-badge">&#128250; Professor Mode</span>
+      <span id="modo-badge" class="modo-badge" hidden></span>
     </div>
     <div style="display:flex;align-items:center;gap:.6rem;">
       <div style="display:flex;flex-direction:column;align-items:flex-end;gap:2px;">
@@ -1308,6 +1340,11 @@ const state = {
   questions:    [],
   answers:      {},
   studentName:  '',
+  /* modo ouvir: a escolha na tela da prova (`modo`) e a travada ao começar (`modoAtivo`) */
+  modo:         'ouvir',
+  modoAtivo:    'ler',
+  plays:        {},
+  reveladas:    {},
 };
 
 const BOOKS = {
@@ -1861,6 +1898,19 @@ const UI_STRINGS = {
     customDescVocab:  'Select specific vocabulary and pronunciation topics',
     startBtn:    'Start Quiz →',
     quizSub:     n => `${n} question${n!==1?'s':''} · answer all and submit`,
+    modoTit:     'How do you want to do it?',
+    modoOuvir:   'Listen',
+    modoOuvirD:  'The questions are spoken, not written. Train your ear!',
+    modoLer:     'Read',
+    modoLerD:    'The questions are written, as always.',
+    modoSelo:    '+30% F$',
+    modoAviso:   'The mode is locked when you start. To change it, you start a new test.',
+    modoBadge:   '🎧 Listening mode · +30% F$',
+    ouvirBtn:    'Listen to the question',
+    ouvirDeNovo: 'Listen again',
+    ouviuN:      n => n === 1 ? 'heard once' : `heard ${n} times`,
+    mostrar:     'Show the text (no bonus for this question)',
+    resumoOuvir: (n, m) => `🎧 Listening mode: ${n} of ${m} questions answered only by listening. They earn 30% more Fisk Dollars.`,
     profSub:     n => `Professor Mode · ${n} question${n!==1?'s':''}`,
     submitBtn:   'Submit Quiz',
     clearBtn:    '✖ Clear',
@@ -1910,6 +1960,19 @@ const UI_STRINGS = {
     customDescVocab:  'Elige los temas de vocabulario y pronunciación',
     startBtn:    'Iniciar →',
     quizSub:     n => `${n} pregunta${n!==1?'s':''} · responde todas y envía`,
+    modoTit:     '¿Cómo quieres hacerlo?',
+    modoOuvir:   'Escuchar',
+    modoOuvirD:  'Las preguntas son habladas, no escritas. ¡Entrena el oído!',
+    modoLer:     'Leer',
+    modoLerD:    'Las preguntas son escritas, como siempre.',
+    modoSelo:    '+30% F$',
+    modoAviso:   'El modo queda fijo al empezar. Para cambiarlo, empiezas una prueba nueva.',
+    modoBadge:   '🎧 Modo escuchar · +30% F$',
+    ouvirBtn:    'Escuchar la pregunta',
+    ouvirDeNovo: 'Escuchar de nuevo',
+    ouviuN:      n => n === 1 ? 'escuchaste 1 vez' : `escuchaste ${n} veces`,
+    mostrar:     'Mostrar el texto (sin bono en esta pregunta)',
+    resumoOuvir: (n, m) => `🎧 Modo escuchar: ${n} de ${m} preguntas respondidas solo escuchando. Rinden 30% más Fisk Dólares.`,
     profSub:     n => `Modo Profesor · ${n} pregunta${n!==1?'s':''}`,
     submitBtn:   'Enviar',
     clearBtn:    '✖ Limpiar',
@@ -2220,6 +2283,84 @@ function selectBook(card) {
   goToExam();
 }
 
+/* ══ O MODO OUVIR (22/09/2026) ═══════════════════════════════════════════
+   Pedido do Pedro: a escuta atravessando o portal, e responder ouvindo vale
+   30% a mais de Fisk Dólares. Três travas contra a troca que ele descreveu
+   ("está no modo ouvir, troca para ler a pergunta e volta para pontuar"):
+   1. o modo é escolhido ANTES da primeira questão e fica travado: não existe
+      botão de trocar durante a prova, só recomeçando;
+   2. no modo ouvir o enunciado NÃO está na página, nem escondido: aparece no
+      resultado, depois de corrigido;
+   3. no Essentials e nos teens o texto pode ser aberto depois de 2 escutas
+      (regra do Pedro), mas a questão aberta sai da lista de "só ouvidas" e
+      perde o bônus. Quem paga e confere é o servidor (escutaDaProva_).
+   O áudio e a dica escrita saem de questions/escuta.json (scripts/audios-escuta.py). */
+let ESCUTA_QP = null;
+function carregaEscutaQp() {
+  if (ESCUTA_QP !== null) return Promise.resolve(ESCUTA_QP);
+  return fetch('questions/escuta.json').then(r => r.json()).then(j => (ESCUTA_QP = j || {})).catch(() => (ESCUTA_QP = {}));
+}
+function escutaDisponivel() {
+  return !!(PORTAL_RAF && !PROF_MODE && ESCUTA_QP && ESCUTA_QP[state.book] && Object.keys(ESCUTA_QP[state.book]).length);
+}
+function escutaDe(q) { return (ESCUTA_QP && ESCUTA_QP[state.book] && q && ESCUTA_QP[state.book][q.id]) || null; }
+function escutaRevela() { return /^(essentials|teens)/.test(state.book || ''); }
+function pintaModo() {
+  const box = document.getElementById('modo-escolha');
+  if (!box) return;
+  box.hidden = !escutaDisponivel();
+  if (box.hidden) return;
+  const S = UI_STRINGS[bookLang(state.book)] || UI_STRINGS.en;
+  [['modo-tit', 'modoTit'], ['modo-ouvir-t', 'modoOuvir'], ['modo-ouvir-d', 'modoOuvirD'], ['modo-ler-t', 'modoLer'],
+   ['modo-ler-d', 'modoLerD'], ['modo-selo', 'modoSelo'], ['modo-aviso', 'modoAviso']].forEach(([id, k]) => {
+    const el = document.getElementById(id); if (el) el.textContent = S[k];
+  });
+  box.querySelectorAll('.modo-op').forEach(b => b.classList.toggle('sel', b.dataset.modo === state.modo));
+}
+function escolheModo(m) { state.modo = m; pintaModo(); }
+const escPlayer = new Audio();
+function tocaQ(i) {
+  const q = state.questions[i], e = escutaDe(q);
+  if (!e) return;
+  const b = document.getElementById('ouvir-' + i);
+  if (b) b.classList.add('tocando');
+  escPlayer.pause(); escPlayer.src = e.a; escPlayer.currentTime = 0;
+  escPlayer.onended = function () {
+    state.plays[i] = (state.plays[i] || 0) + 1;
+    pintaOuvir(i);
+  };
+  escPlayer.play().catch(function () { if (b) b.classList.remove('tocando'); });
+}
+function pintaOuvir(i) {
+  const S = UI_STRINGS[bookLang(state.book)] || UI_STRINGS.en, n = state.plays[i] || 0;
+  const b = document.getElementById('ouvir-' + i), c = document.getElementById('conta-' + i);
+  if (b) { b.classList.remove('tocando'); b.innerHTML = '&#128266; ' + (n ? S.ouvirDeNovo : S.ouvirBtn); }
+  if (c) c.textContent = n ? S.ouviuN(n) : '';
+  if (escutaRevela() && n >= 2 && !document.getElementById('revelar-' + i) && !state.reveladas[i]) {
+    const r = document.createElement('button'); r.type = 'button'; r.className = 'revelar'; r.id = 'revelar-' + i;
+    r.textContent = '👀 ' + S.mostrar; r.onclick = function () { revelaQ(i); };
+    const linha = document.getElementById('linha-ouvir-' + i); if (linha) linha.appendChild(r);
+  }
+}
+function revelaQ(i) {
+  state.reveladas[i] = true;   /* sai da lista de "só ouvidas": sem bônus nesta questão */
+  const box = document.getElementById('enunciado-' + i);
+  if (box) box.innerHTML = `<div class="q-text">${state.questions[i].question}</div>`;
+}
+function blocoEnunciado(q, i) {
+  const e = state.modoAtivo === 'ouvir' ? escutaDe(q) : null;
+  if (!e) return `<div class="q-text">${q.question}</div>`;
+  const S = UI_STRINGS[bookLang(state.book)] || UI_STRINGS.en;
+  return `<div id="enunciado-${i}"><div class="q-ouvir" id="linha-ouvir-${i}">` +
+    `<button type="button" class="tocar" id="ouvir-${i}" onclick="tocaQ(${i})">&#128266; ${S.ouvirBtn}</button>` +
+    `<span class="conta" id="conta-${i}"></span></div>` +
+    (e.dica ? `<div class="q-dica">${e.dica}</div>` : '') + `</div>`;
+}
+function ouvidasDaProva() {
+  if (state.modoAtivo !== 'ouvir') return [];
+  return state.questions.filter((q, i) => escutaDe(q) && state.plays[i] && !state.reveladas[i] && state.answers[i] != null).map(q => q.id);
+}
+
 /* ── Load data and show exam screen ── */
 async function goToExam() {
   const info = BOOKS[state.book];
@@ -2237,6 +2378,8 @@ async function goToExam() {
   }
 
   document.getElementById('exam-book-name').textContent = info.name;
+  if (PORTAL_RAF && !PROF_MODE) { await carregaEscutaQp(); }
+  pintaModo();
   const soPractice = !!info.soPractice;
   document.getElementById('card-practice').hidden = !soPractice;
   document.getElementById('card-midterm').hidden  = soPractice;
@@ -2425,6 +2568,14 @@ function startQuiz() {
   });
 
   state.answers = {};
+  /* o modo TRAVA aqui e não muda até o fim desta prova */
+  state.modoAtivo = (escutaDisponivel() && state.modo === 'ouvir') ? 'ouvir' : 'ler';
+  state.plays = {}; state.reveladas = {};
+  try { escPlayer.pause(); } catch (e) {}
+  {
+    const mb = document.getElementById('modo-badge');
+    if (mb) { mb.hidden = state.modoAtivo !== 'ouvir'; mb.textContent = (UI_STRINGS[bookLang(state.book)] || UI_STRINGS.en).modoBadge; }
+  }
 
   const bookName = BOOKS[state.book].name;
   const S = UI_STRINGS[bookLang(state.book)];
@@ -2448,7 +2599,7 @@ function startQuiz() {
   renderQuiz();
   updateCounter();
   document.getElementById('btn-submit').disabled = true;
-  startTimer(total * 60);
+  startTimer(total * (state.modoAtivo === 'ouvir' ? 90 : 60));
 
   const btn = document.getElementById('translator-btn');
   if (false && state.book === 'essentials1') {
@@ -2469,7 +2620,7 @@ function renderQuiz() {
   list.innerHTML = state.questions.map((q, i) => `
     <div class="q-card" id="qcard-${i}">
       <div class="q-num">${S.questionLbl} ${i + 1} &middot; <span style="text-transform:none;letter-spacing:0;font-weight:700;color:var(--black);">${q.topic}</span></div>
-      <div class="q-text">${q.question}</div>
+      ${blocoEnunciado(q, i)}
       <div class="opts-grid">
         ${q._opts.map((opt, j) => `
           <button class="opt-btn" id="opt-${i}-${j}" onclick="selectOption(${i}, ${j})">
@@ -2609,9 +2760,11 @@ function sendResultToCloud(score) {
                                /* a lição que abriu esta tentativa (veio do planner ou
                                   do vídeo): o servidor grava a evidência da lição
                                   para o Planner Digital (fase 1, 12/09/2026) */
-                               licao: PORTAL_LICAO })
+                               licao: PORTAL_LICAO,
+                               /* modo ouvir: as questões respondidas SÓ ouvindo (o servidor confere e paga +30%) */
+                               ouvidas: ouvidasDaProva() })
       }).then(function (r) { return r.json(); }).then(function (res) {
-        if (res && res.fd && res.fd.credito > 0) fdToast(res.fd.credito);
+        if (res && res.fd && res.fd.credito > 0) fdToast(res.fd.credito, res.fd.bonusEscuta || 0);
       }).catch(function () {});
       return;
     }
@@ -2744,6 +2897,7 @@ function renderResults(score) {
     </div>
     <div class="score-msg">${msg}</div>
     <div class="score-sub">${sub(score === total)}</div>
+    ${state.modoAtivo === 'ouvir' ? `<div class="modo-resumo">${S.resumoOuvir(ouvidasDaProva().length, total)}</div>` : ''}
   `;
 
   // Collect correct and wrong topics for feedback
@@ -3123,14 +3277,15 @@ initTheme();
 </script>
 <script>
 /* Aviso de Fisk Dólares ganhos (aparece quando o backend da carteira responde) */
-function fdToast(valor) {
+function fdToast(valor, bonusEscuta) {
   var el = document.createElement('div');
   el.style.cssText = 'position:fixed;left:50%;bottom:1.4rem;transform:translateX(-50%);z-index:999;' +
     'background:#161414;color:#f5c563;border:2px solid #c9922e;border-radius:999px;' +
     'padding:.7rem 1.4rem;font-family:Poppins,sans-serif;font-weight:800;font-size:1rem;' +
     'box-shadow:0 6px 20px rgba(0,0,0,.35);transition:opacity .4s';
   var mn = (window.FiskMana && window.FiskMana.texto(valor)) || '';
-  el.innerHTML = '💵 +F$ ' + valor + ' na sua carteira!' + mn;
+  el.innerHTML = '💵 +F$ ' + valor + ' na sua carteira!' + mn +
+    (bonusEscuta > 0 ? '<br><span style="font-size:.85rem;color:#86efac">🎧 F$ ' + bonusEscuta + ' vieram do modo ouvir (+30%)</span>' : '');
   document.body.appendChild(el);
   try { // barulhinho de moedas
     var AC = window.AudioContext || window.webkitAudioContext;
