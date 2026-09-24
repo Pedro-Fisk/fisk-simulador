@@ -1271,7 +1271,7 @@
 </div>
 
 <footer>
-  <p>Quick Practice · Fisk Taubaté &amp; Caçapava</p>
+  <p id="foot-nome">Quick Practice · Fisk Taubaté &amp; Caçapava</p>
 </footer>
 
 <script>
@@ -1842,6 +1842,12 @@ const PRESA_NO_FIM = /^(all|none|any) of the (above|others)\b|^(todas|ninguna) (
 const UI_STRINGS = {
   en: {
     mainTitle:   'Quick Practice',
+    /* ⚠️ O NOME DA FERRAMENTA TAMBÉM É TRADUZIDO (23/09/2026, pedido do Pedro:
+       "tirando a palavra planner, TUDO no portal de espanhol deve estar em
+       espanhol"). O card do Portal do Aluno já diz "Práctica Rápida"; aqui
+       dentro precisam dizer o mesmo o rodapé e o título da aba. */
+    rodape:      'Quick Practice · Fisk Taubaté & Caçapava',
+    aba:         'Quick Practice - Fisk',
     mainSub:     'Mini tests focused on the key grammar structures of each stage, so you can review and reinforce the content before your exam.',
     chooseExam:  'Choose your exam',
     nameLabel:   'Your name',
@@ -1894,6 +1900,8 @@ const UI_STRINGS = {
   },
   es: {
     mainTitle:   'Práctica Rápida',
+    rodape:      'Práctica Rápida · Fisk Taubaté & Caçapava',
+    aba:         'Práctica Rápida - Fisk',
     mainSub:     'Mini tests enfocados en las estructuras gramaticales principales de cada nivel, para que puedas repasar y fijar los contenidos antes de tu examen.',
     chooseExam:  'Elige tu examen',
     nameLabel:   'Tu nombre',
@@ -1951,6 +1959,8 @@ function applyLang(lang) {
   const S = UI_STRINGS[lang] || UI_STRINGS.en;
   function set(id, txt) { const el = document.getElementById(id); if (el) el.textContent = txt; }
   set('main-title',             S.mainTitle);
+  set('foot-nome',              S.rodape);
+  if (S.aba) document.title = S.aba;
   set('main-sub',               S.mainSub);
   set('exam-subtitle',          S.chooseExam);
   set('name-field-label-text',  S.nameLabel);
@@ -3244,14 +3254,14 @@ portalPracticeBoot();
              'After choosing the book, you pick <b>Midterm</b>, <b>Final</b> or <b>free practice by topic</b>. At the end you see your score and the explanation for every question. Tap <b>❓</b> to see this tour again.']
     },
     es: {
-      bem:  ['¡Bienvenido a Quick Practice! 📝',
+      bem:  ['¡Bienvenido a la Práctica Rápida! 📝',
              'Aquí practicas los ejercicios de tu libro por tu cuenta, con corrección automática al instante. Te muestro en 30 segundos.'],
       livro:['Elige tu libro 📚',
              'Toca tu nivel para empezar. Ves el libro de tu etapa y, al tocarlo, vas directo a la elección del tipo de ejercicio.'],
       idioma:['Inglés o Español 🌎',
-             '¿Estudias español? Cambia aquí entre <b>Inglês</b> y <b>Español</b> antes de elegir el libro.'],
+             '¿Estudias español? Cambia aquí entre <b>English</b> y <b>Español</b> antes de elegir el libro.'],
       como: ['Cómo funciona 🎯',
-             'Después de elegir el libro, seleccionas <b>Prova do Meio</b>, <b>Prova do Fim</b> o <b>práctica libre por tema</b>. Al final ves la nota y la explicación de cada pregunta. Toca <b>❓</b> para volver a ver este tour.']
+             'Después de elegir el libro, seleccionas <b>Examen Parcial</b>, <b>Examen Final</b> o <b>práctica libre por tema</b>. Al final ves la nota y la explicación de cada pregunta. Toca <b>❓</b> para volver a ver este tour.']
     },
     pt: {
       bem:  ['Bem-vindo ao Quick Practice! 📝',
@@ -3264,7 +3274,16 @@ portalPracticeBoot();
              'Depois de escolher o livro, você seleciona <b>Prova do Meio</b>, <b>Prova do Fim</b> ou <b>prática livre por tópico</b>. No fim, você vê a nota e a explicação de cada questão. Toque no <b>❓</b> para rever este tour.']
     }
   };
-  var TT = TOUR[(state && state.lang) || 'en'] || TOUR.en;
+  /* ⚠️ O LIVRO VEM ANTES DO `state.lang` (23/09/2026). Quem chega do Portal
+     com `?book=Inmediato…` tem a língua trocada pelo `selectLang('es')` que o
+     portalBoot agenda num `setTimeout(0)` — e este bloco roda ANTES disso,
+     ainda na leitura da página. Resultado medido: a tela inteira em espanhol
+     e o tour abrindo "Welcome to Quick Practice!". Ler o livro aqui resolve
+     sem mexer na ordem do arranque. */
+  var TLANG = (state && state.lang)
+    || (PORTAL_BOOK ? (/^inmediato/i.test(bookKeyFromCard(PORTAL_BOOK) || '') ? 'es' : 'en') : '')
+    || 'en';
+  var TT = TOUR[TLANG] || TOUR.en;
   var steps=[
     { el:null, title:TT.bem[0], html:TT.bem[1] },
     { el: firstVisible('.book-card') || '#english-books', title:TT.livro[0], html:TT.livro[1] }
