@@ -1583,78 +1583,78 @@
         "topic": "Phrasal Verbs – Reinvention",
         "question": "The concert was _____ two hours before it started.",
         "options": [
+          "turned down",
           "called off",
-          "carried on",
-          "held on to",
-          "turned down"
+          "looked into",
+          "seen to"
         ],
-        "correct": 0,
-        "explanation": "CALL OFF é cancelar um evento que já estava marcado. Portanto, a resposta correta é CALLED OFF."
+        "correct": 1,
+        "explanation": "'Call off' é cancelar um evento que já estava marcado: o show foi cancelado antes de começar. 'Turn down' é recusar uma proposta (ou abaixar o volume) e 'look into' é investigar; nenhum dos dois explica um show que não aconteceu. Portanto, a resposta correta é 'called off'."
       },
       {
         "id": "f2pv02",
         "topic": "Phrasal Verbs – Reinvention",
         "question": "Despite the noise outside, she _____ her presentation.",
         "options": [
-          "carried on with",
-          "called off",
-          "turned down",
-          "looked into"
+          "did away with",
+          "made up for",
+          "got away with",
+          "carried on with"
         ],
-        "correct": 0,
-        "explanation": "CARRY ON (WITH) é continuar o que se estava fazendo. Portanto, a resposta correta é CARRIED ON WITH."
+        "correct": 3,
+        "explanation": "'Carry on with' é continuar o que se estava fazendo, e o 'despite' (apesar de) pede exatamente isso: ela não parou por causa do barulho. 'Do away with' é eliminar algo e 'make up for' é compensar um erro, sentidos que não combinam com seguir apresentando. Portanto, a resposta correta é 'carried on with'."
       },
       {
         "id": "f2pv03",
         "topic": "Phrasal Verbs – Reinvention",
         "question": "Even after three rejections, he _____ his idea.",
         "options": [
-          "held on to",
-          "called off",
-          "turned down",
-          "saw to"
+          "gave up on",
+          "did away with",
+          "caught up with",
+          "held on to"
         ],
-        "correct": 0,
-        "explanation": "HOLD ON TO é não largar, insistir em manter alguma coisa. Portanto, a resposta correta é HELD ON TO."
+        "correct": 3,
+        "explanation": "'Hold on to' é não largar, continuar defendendo algo. O 'even after' (mesmo depois de três recusas) pede insistência, e não desistência: 'gave up on' seria desistir da ideia e 'did away with' seria eliminá-la. Portanto, a resposta correta é 'held on to'."
       },
       {
         "id": "f2pv04",
         "topic": "Phrasal Verbs – Reinvention",
         "question": "The committee is _____ the causes of the delay.",
         "options": [
-          "looking into",
-          "holding on to",
+          "turning down",
           "calling off",
-          "turning down"
+          "looking into",
+          "making up"
         ],
-        "correct": 0,
-        "explanation": "LOOK INTO é investigar, examinar os fatos de um problema. Portanto, a resposta correta é LOOKING INTO."
+        "correct": 2,
+        "explanation": "'Look into' é investigar, examinar um problema para entender o que aconteceu, que é o que um comitê faz com as causas de um atraso. 'Turn down' é recusar e 'make up' é inventar: o comitê não recusa nem inventa as causas. Portanto, a resposta correta é 'looking into'."
       },
       {
         "id": "f2pv05",
         "topic": "Phrasal Verbs – Reinvention",
         "question": "Don't worry about the catering — I'll _____ it.",
         "options": [
-          "see to",
-          "call off",
-          "turn down",
-          "carry on"
+          "go without",
+          "do away with",
+          "hold on to",
+          "see to"
         ],
-        "correct": 0,
-        "explanation": "SEE TO é cuidar de algo, providenciar para que seja feito. Portanto, a resposta correta é SEE TO."
+        "correct": 3,
+        "explanation": "'See to' é cuidar de algo, providenciar para que seja feito: 'deixa o bufê comigo'. 'Go without' é ficar sem alguma coisa e 'do away with' é eliminá-la, o contrário de tranquilizar alguém sobre o bufê. Portanto, a resposta correta é 'see to'."
       },
       {
         "id": "f2pv06",
         "topic": "Phrasal Verbs – Reinvention",
         "question": "She _____ the offer because it meant moving abroad.",
         "options": [
+          "called off",
+          "made up",
           "turned down",
-          "held on to",
-          "saw to",
-          "carried on"
+          "carried out"
         ],
-        "correct": 0,
-        "explanation": "TURN DOWN é recusar uma proposta. Portanto, a resposta correta é TURNED DOWN."
+        "correct": 2,
+        "explanation": "'Turn down' é recusar uma proposta: ela disse não porque teria de se mudar. 'Call off' é cancelar um evento marcado e 'carry out' é executar uma tarefa; uma oferta de emprego não se cancela nem se executa. Portanto, a resposta correta é 'turned down'."
       },
       {
         "id": "f2pv07",
@@ -1664,10 +1664,10 @@
           "for a change",
           "at a crossroads",
           "on hold",
-          "to see to"
+          "in the long run"
         ],
         "correct": 0,
-        "explanation": "FOR A CHANGE é para variar, diferente do de costume. Portanto, a resposta correta é FOR A CHANGE."
+        "explanation": "'For a change' é 'para variar', fazer algo diferente do costume, como jantar em casa em vez de sair. 'On hold' é 'em espera' e 'in the long run' é 'a longo prazo', ideias que não cabem num convite para hoje à noite. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'for a change'."
       },
       {
         "id": "f2pv08",
@@ -1676,24 +1676,24 @@
         "options": [
           "at a crossroads",
           "for a change",
-          "called off",
-          "turned down"
+          "over the moon",
+          "on the house"
         ],
         "correct": 0,
-        "explanation": "BE AT A CROSSROADS é estar numa encruzilhada, na hora de escolher. Portanto, a resposta correta é AT A CROSSROADS."
+        "explanation": "'At a crossroads' é estar numa encruzilhada, num momento de escolher o caminho, o que acontece a quem acaba de perder o emprego. 'Over the moon' é estar radiante e 'on the house' é 'cortesia da casa': nada disso descreve alguém depois de uma demissão. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'at a crossroads'."
       },
       {
         "id": "f2pv09",
         "topic": "Phrasal Verbs – Animals",
         "question": "He was going to sing, but he _____ when he saw the audience — he was too scared to go on stage.",
         "options": [
-          "chickened out",
-          "ducked out",
+          "loosened up",
+          "showed off",
           "horsed around",
-          "wolfed down"
+          "chickened out"
         ],
-        "correct": 0,
-        "explanation": "CHICKEN OUT é desistir na última hora por medo. Portanto, a resposta correta é CHICKENED OUT."
+        "correct": 3,
+        "explanation": "'Chicken out' é desistir na última hora por medo, e o próprio enunciado explica que ele estava assustado demais. 'Loosen up' é relaxar, o contrário do medo, e 'show off' é se exibir, algo que ele não fez porque nem subiu ao palco. Portanto, a resposta correta é 'chickened out'."
       },
       {
         "id": "f2pv10",
@@ -1701,25 +1701,25 @@
         "question": "Stop _____ compliments and just say what you want.",
         "options": [
           "fishing for",
-          "ducking out of",
-          "monkeying around with",
-          "bugging"
+          "turning down",
+          "holding on to",
+          "looking into"
         ],
         "correct": 0,
-        "explanation": "FISH FOR é tentar conseguir alguma coisa de forma indireta. Portanto, a resposta correta é FISHING FOR."
+        "explanation": "'Fish for' é tentar conseguir algo de forma indireta; 'fish for compliments' é jogar verde para receber elogios. 'Turn down' é recusar e 'look into' é investigar, e nenhum dos dois combina com 'diga logo o que você quer'. Portanto, a resposta correta é 'fishing for'."
       },
       {
         "id": "f2pv11",
         "topic": "Phrasal Verbs – Animals",
         "question": "The boys were _____ in the living room and broke the lamp.",
         "options": [
+          "chickening out",
           "horsing around",
-          "fishing for",
-          "wolfing down",
-          "ducking out"
+          "ducking out",
+          "tuning out"
         ],
-        "correct": 0,
-        "explanation": "HORSE AROUND é brincar de forma barulhenta e descuidada. Portanto, a resposta correta é HORSING AROUND."
+        "correct": 1,
+        "explanation": "'Horse around' é brincar de forma agitada e descuidada, o tipo de bagunça que quebra um abajur. 'Duck out' é sair de fininho e 'tune out' é parar de prestar atenção; nenhum dos dois explica o abajur quebrado. Portanto, a resposta correta é 'horsing around'."
       },
       {
         "id": "f2pv12",
@@ -1727,38 +1727,38 @@
         "question": "You've been playing games for an hour! Quit _____ and finish your homework.",
         "options": [
           "monkeying around",
-          "wolfing down your lunch",
-          "fishing for compliments",
-          "chickening out"
+          "knuckling down",
+          "chickening out",
+          "speaking up"
         ],
         "correct": 0,
-        "explanation": "MONKEY AROUND é ficar de bobagem, perder tempo em vez de fazer o que precisa ser feito. Portanto, a resposta correta é MONKEYING AROUND."
+        "explanation": "'Monkey around' é ficar de bobeira, perdendo tempo em vez de fazer o que precisa, como jogar videogame por uma hora. 'Knuckle down' é o oposto, meter a cara no trabalho, e 'speak up' é falar o que pensa: ninguém mandaria parar com isso para fazer a lição. Portanto, a resposta correta é 'monkeying around'."
       },
       {
         "id": "f2pv13",
         "topic": "Phrasal Verbs – Animals",
         "question": "He _____ the meeting early, without saying goodbye to anyone.",
         "options": [
+          "did away with",
           "ducked out of",
-          "fished for",
-          "horsed around",
-          "wolfed down"
+          "got away with",
+          "looked into"
         ],
-        "correct": 0,
-        "explanation": "DUCK OUT OF é sair discretamente de algum lugar, sem avisar ninguém. Portanto, a resposta correta é DUCKED OUT OF."
+        "correct": 1,
+        "explanation": "'Duck out of' é sair de um lugar discretamente, sem avisar ninguém, exatamente como diz o fim da frase. 'Do away with' é eliminar algo e 'get away with' é fazer algo errado sem ser punido; ninguém elimina uma reunião indo embora cedo. Portanto, a resposta correta é 'ducked out of'."
       },
       {
         "id": "f2pv14",
         "topic": "Phrasal Verbs – Animals",
         "question": "He was starving and _____ two sandwiches in a minute.",
         "options": [
+          "turned down",
           "wolfed down",
-          "fished for",
-          "ducked out",
-          "monkeyed around"
+          "gave up",
+          "made up"
         ],
-        "correct": 0,
-        "explanation": "WOLF DOWN é devorar, comer muito rápido. Portanto, a resposta correta é WOLFED DOWN."
+        "correct": 1,
+        "explanation": "'Wolf down' é devorar, comer muito depressa, o que combina com estar morrendo de fome. 'Turn down' seria recusar os sanduíches e 'give up' seria abrir mão deles, o contrário do que faz quem está faminto. Portanto, a resposta correta é 'wolfed down'."
       },
       {
         "id": "f2pv15",
@@ -1766,64 +1766,64 @@
         "question": "The noise from the construction site really _____ me.",
         "options": [
           "bugs",
-          "ducks out",
-          "fishes for",
-          "horses around"
+          "looks after",
+          "takes after",
+          "runs into"
         ],
         "correct": 0,
-        "explanation": "BUG SOMEONE é irritar, incomodar a pessoa. Portanto, a resposta correta é BUGS."
+        "explanation": "'Bug' (someone) é irritar, incomodar alguém, como faz o barulho de uma obra. 'Look after' é cuidar de alguém e 'take after' é puxar a um parente; um barulho não cuida de ninguém nem se parece com alguém. Atenção: 'bug' é um verbo simples e informal, não um phrasal verb. Portanto, a resposta correta é 'bugs'."
       },
       {
         "id": "f2pv16",
         "topic": "Phrasal Verbs – Animals",
         "question": "In that company, she is the _____ — nothing happens without her.",
         "options": [
-          "top dog",
           "black sheep",
-          "chicken",
-          "wallflower"
+          "top dog",
+          "dark horse",
+          "night owl"
         ],
-        "correct": 0,
-        "explanation": "TOP DOG é a pessoa mais importante de uma organização. Portanto, a resposta correta é TOP DOG."
+        "correct": 1,
+        "explanation": "'Top dog' é a pessoa mais importante e poderosa de um grupo, sem quem nada acontece. 'Black sheep' é a ovelha negra, quem destoa do grupo, e 'dark horse' é o azarão que surpreende; nenhum dos dois manda na empresa. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'top dog'."
       },
       {
         "id": "f2pv17",
         "topic": "Phrasal Verbs – Regrets",
-        "question": "Her grandparents _____ her after her parents moved abroad.",
+        "question": "Her grandparents _____ both children after the parents moved abroad.",
         "options": [
           "brought up",
           "gave up",
-          "gave in",
-          "did away with"
+          "went without",
+          "figured out"
         ],
         "correct": 0,
-        "explanation": "BRING UP é criar uma criança até a vida adulta. Portanto, a resposta correta é BROUGHT UP."
+        "explanation": "'Bring up' é criar uma criança até ela crescer, o que os avós fizeram quando os pais se mudaram. 'Give up' uma criança é abrir mão dela, e 'go without' é ficar sem alguma coisa, o oposto de assumir as crianças. Portanto, a resposta correta é 'brought up'."
       },
       {
         "id": "f2pv18",
         "topic": "Phrasal Verbs – Regrets",
         "question": "The new law _____ the old registration fee.",
         "options": [
-          "did away with",
           "brought up",
+          "did away with",
           "went without",
-          "gave in"
+          "gave in to"
         ],
-        "correct": 0,
-        "explanation": "DO AWAY WITH é eliminar, acabar com alguma coisa. Portanto, a resposta correta é DID AWAY WITH."
+        "correct": 1,
+        "explanation": "'Do away with' é eliminar, acabar com uma regra ou cobrança, algo que uma lei nova faz. 'Bring up' é mencionar um assunto e 'give in to' é ceder a uma pressão; uma lei não menciona nem cede a uma taxa antiga. Portanto, a resposta correta é 'did away with'."
       },
       {
         "id": "f2pv19",
         "topic": "Phrasal Verbs – Regrets",
         "question": "It took us all night to _____ what was wrong with the code.",
         "options": [
-          "figure out",
-          "give in",
-          "go without",
-          "bring up"
+          "bring up",
+          "make up",
+          "hold back",
+          "figure out"
         ],
-        "correct": 0,
-        "explanation": "FIGURE OUT é descobrir a solução de um problema. Portanto, a resposta correta é FIGURE OUT."
+        "correct": 3,
+        "explanation": "'Figure out' é descobrir, entender a solução de um problema depois de pensar muito, como achar o erro de um código. 'Make up' é inventar e 'hold back' é esconder ou segurar uma informação; ninguém passa a noite inventando o defeito que procura. Portanto, a resposta correta é 'figure out'."
       },
       {
         "id": "f2pv20",
@@ -1831,25 +1831,25 @@
         "question": "The children begged for a dog until their father _____.",
         "options": [
           "gave in",
-          "figured out",
-          "brought up",
-          "went without"
+          "moved on",
+          "dropped out",
+          "fell through"
         ],
         "correct": 0,
-        "explanation": "GIVE IN é ceder à vontade de outra pessoa. Portanto, a resposta correta é GAVE IN."
+        "explanation": "'Give in' é ceder à insistência de alguém, e é o que o pai fez depois de tanto pedido. 'Move on' é seguir em frente depois de algo ruim e 'fall through' é um plano que não se concretiza, e nenhum dos dois é um pai dizendo sim. Portanto, a resposta correta é 'gave in'."
       },
       {
         "id": "f2pv21",
         "topic": "Phrasal Verbs – Regrets",
         "question": "After two failed attempts he _____ learning the violin.",
         "options": [
+          "took up",
           "gave up",
-          "gave in",
           "brought up",
-          "figured out"
+          "looked into"
         ],
-        "correct": 0,
-        "explanation": "GIVE UP é abandonar algo que se estava fazendo ou tentando. Portanto, a resposta correta é GAVE UP."
+        "correct": 1,
+        "explanation": "'Give up' é abandonar algo que se estava tentando fazer, a reação natural depois de duas tentativas fracassadas. 'Take up' é o oposto, começar uma atividade nova, e 'bring up' é mencionar um assunto. Portanto, a resposta correta é 'gave up'."
       },
       {
         "id": "f2pv22",
@@ -1857,12 +1857,12 @@
         "question": "During the trip we had to _____ hot water for a week.",
         "options": [
           "go without",
-          "give in to",
           "do away with",
-          "bring up"
+          "give in to",
+          "put up with"
         ],
         "correct": 0,
-        "explanation": "GO WITHOUT é ficar sem alguma coisa, sobreviver sem ela. Portanto, a resposta correta é GO WITHOUT."
+        "explanation": "'Go without' é ficar sem alguma coisa e se virar assim mesmo, como passar uma semana sem água quente. 'Put up with' é aguentar algo desagradável (a água quente não seria o problema) e 'do away with' é eliminar algo por decisão própria. Portanto, a resposta correta é 'go without'."
       },
       {
         "id": "f2pv23",
@@ -1870,12 +1870,12 @@
         "question": "The contract is signed; there is no point in _____.",
         "options": [
           "crying over spilt milk",
-          "turning back the clock",
-          "giving in",
-          "going without"
+          "going the extra mile",
+          "fishing for compliments",
+          "facing the music"
         ],
         "correct": 0,
-        "explanation": "CRY OVER SPILT MILK é lamentar o que já aconteceu e não tem volta. Portanto, a resposta correta é CRYING OVER SPILT MILK."
+        "explanation": "'Cry over spilt milk' é lamentar o que já aconteceu e não tem volta, como um contrato já assinado. 'Go the extra mile' é fazer mais do que o esperado e 'face the music' é encarar as consequências, e nenhum dos dois é inútil depois de assinar. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'crying over spilt milk'."
       },
       {
         "id": "f2pv24",
@@ -1883,116 +1883,116 @@
         "question": "What's done is done — you can't _____ and undo the past.",
         "options": [
           "turn back the clock",
-          "cry over spilt milk",
-          "give in",
-          "do away with it"
+          "face the music",
+          "break the ice",
+          "go the extra mile"
         ],
         "correct": 0,
-        "explanation": "TURN BACK THE CLOCK é tentar voltar no tempo e desfazer o que já aconteceu. Portanto, a resposta correta é TURN BACK THE CLOCK."
+        "explanation": "'Turn back the clock' é voltar no tempo para desfazer o passado, justamente o que 'o que está feito, está feito' diz ser impossível. 'Break the ice' é quebrar o gelo numa conversa e 'face the music' é encarar as consequências, e nenhum dos dois desfaz o passado. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'turn back the clock'."
       },
       {
         "id": "f2pv25",
         "topic": "Phrasal Verbs – Learning",
         "question": "She was sick for a week and had to _____ the whole class.",
         "options": [
+          "come up with",
+          "put up with",
           "catch up with",
-          "drop out of",
-          "go over",
-          "turn in"
+          "get away with"
         ],
-        "correct": 0,
-        "explanation": "CATCH UP (WITH) é correr atrás do conteúdo perdido. Portanto, a resposta correta é CATCH UP WITH."
+        "correct": 2,
+        "explanation": "'Catch up with' é alcançar os outros, recuperar o conteúdo perdido, o que precisa fazer quem faltou uma semana. 'Come up with' é ter uma ideia e 'put up with' é aguentar algo chato; nenhum dos dois é recuperar a matéria. Portanto, a resposta correta é 'catch up with'."
       },
       {
         "id": "f2pv26",
         "topic": "Phrasal Verbs – Learning",
         "question": "He _____ the course after the second semester and never got his degree.",
         "options": [
-          "dropped out of",
           "caught up with",
-          "went over",
-          "took up"
+          "made up for",
+          "dropped out of",
+          "got away with"
         ],
-        "correct": 0,
-        "explanation": "DROP OUT (OF) é abandonar um curso antes de terminar. Portanto, a resposta correta é DROPPED OUT OF."
+        "correct": 2,
+        "explanation": "'Drop out of' é abandonar um curso antes de terminar, e por isso ele nunca pegou o diploma. 'Catch up with' seria alcançar a turma e 'make up for' seria compensar algo; nenhum dos dois explica ter ficado sem diploma. Portanto, a resposta correta é 'dropped out of'."
       },
       {
         "id": "f2pv27",
         "topic": "Phrasal Verbs – Learning",
         "question": "Let's _____ the answers once more before submitting.",
         "options": [
-          "go over",
+          "turn in",
           "take up",
-          "drop out of",
-          "turn in"
+          "go over",
+          "hand out"
         ],
-        "correct": 0,
-        "explanation": "GO OVER é revisar, conferir se está tudo certo. Portanto, a resposta correta é GO OVER."
+        "correct": 2,
+        "explanation": "'Go over' é revisar, conferir com cuidado antes de entregar. 'Turn in' já é entregar, o que não se faz antes de entregar, e 'hand out' é distribuir algo para as pessoas. Portanto, a resposta correta é 'go over'."
       },
       {
         "id": "f2pv28",
         "topic": "Phrasal Verbs – Learning",
         "question": "If you don't know the word, _____ it _____ in the dictionary.",
         "options": [
+          "make / up",
           "look / up",
-          "take / up",
-          "turn / in",
-          "go / over"
+          "turn / down",
+          "take / up"
         ],
-        "correct": 0,
-        "explanation": "LOOK UP é procurar uma informação num dicionário ou site. Portanto, a resposta correta é LOOK / UP."
+        "correct": 1,
+        "explanation": "'Look (something) up' é procurar uma informação no dicionário ou na internet; com pronome, ele fica no meio: 'look it up'. 'Make it up' seria inventar a palavra e 'take it up' seria começar uma atividade, sentidos que não servem para quem não conhece a palavra. Portanto, a resposta correta é 'look / up'."
       },
       {
         "id": "f2pv29",
         "topic": "Phrasal Verbs – Learning",
         "question": "She _____ pottery during the pandemic and never stopped.",
         "options": [
-          "took up",
+          "gave up",
           "turned in",
-          "dropped out",
-          "went over"
+          "took up",
+          "looked up"
         ],
-        "correct": 0,
-        "explanation": "TAKE UP é começar uma atividade nova. Portanto, a resposta correta é TOOK UP."
+        "correct": 2,
+        "explanation": "'Take up' é começar uma atividade nova, um hobby, e o 'never stopped' mostra que ela continua. 'Give up' seria abandonar, o contrário de nunca parar, e 'turn in' é entregar um trabalho. Portanto, a resposta correta é 'took up'."
       },
       {
         "id": "f2pv30",
         "topic": "Phrasal Verbs – Learning",
         "question": "You must _____ the essay to your teacher by Friday afternoon.",
         "options": [
+          "hand out",
           "turn in",
-          "take up",
-          "go over",
-          "catch up"
+          "give away",
+          "show off"
         ],
-        "correct": 0,
-        "explanation": "TURN IN é entregar um trabalho ao professor. Portanto, a resposta correta é TURN IN."
+        "correct": 1,
+        "explanation": "'Turn in' é entregar um trabalho a quem vai corrigir, com prazo, como uma redação ao professor. 'Hand out' é distribuir algo para várias pessoas e 'give away' é dar de presente ou doar, e nenhum dos dois tem prazo de entrega. Portanto, a resposta correta é 'turn in'."
       },
       {
         "id": "f2pv31",
         "topic": "Phrasal Verbs – Learning",
         "question": "He passed the final exam _____.",
         "options": [
+          "in cold blood",
+          "on hold",
           "with flying colors",
-          "as easy as ABC",
-          "over the clock",
-          "in the long run"
+          "at a crossroads"
         ],
-        "correct": 0,
-        "explanation": "WITH FLYING COLORS é passar com louvor, muito bem. Portanto, a resposta correta é WITH FLYING COLORS."
+        "correct": 2,
+        "explanation": "'With flying colors' é passar com louvor, com nota excelente. 'In cold blood' é 'a sangue frio' (usado para crimes) e 'on hold' é 'em espera'; nenhum dos dois descreve como alguém passou numa prova. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'with flying colors'."
       },
       {
         "id": "f2pv32",
         "topic": "Phrasal Verbs – Learning",
         "question": "For a native speaker, this exercise is _____.",
         "options": [
-          "as easy as ABC",
-          "with flying colors",
-          "turned in",
-          "taken up"
+          "as busy as a bee",
+          "as cold as ice",
+          "as blind as a bat",
+          "as easy as ABC"
         ],
-        "correct": 0,
-        "explanation": "AS EASY AS ABC é ser muito fácil. Portanto, a resposta correta é AS EASY AS ABC."
+        "correct": 3,
+        "explanation": "'As easy as ABC' é 'moleza', muito fácil, e o 'for a native speaker' deixa claro que o exercício não é difícil para ele. 'As busy as a bee' é muito ocupado e 'as cold as ice' é frio e distante, características de pessoas, não de exercícios. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'as easy as ABC'."
       },
       {
         "id": "f2pv33",
@@ -2000,38 +2000,38 @@
         "question": "He worked 70 hours a week for a year and completely _____.",
         "options": [
           "burned out",
-          "knuckled down",
+          "fell through",
           "measured up",
-          "drew up"
+          "knuckled down"
         ],
         "correct": 0,
-        "explanation": "BURN OUT é chegar à exaustão de tanto trabalhar. Portanto, a resposta correta é BURNED OUT."
+        "explanation": "'Burn out' é chegar à exaustão física e mental por excesso de trabalho, o resultado de um ano de 70 horas semanais. 'Fall through' é um plano que dá errado, não uma pessoa, e 'knuckle down' é começar a trabalhar pra valer, não o fim de um ano assim. Portanto, a resposta correta é 'burned out'."
       },
       {
         "id": "f2pv34",
         "topic": "Phrasal Verbs – Careers",
         "question": "The lawyer will _____ the first version of the contract.",
         "options": [
-          "draw up",
-          "fall through",
           "lay off",
-          "burn out"
+          "draw up",
+          "cut off",
+          "blow up"
         ],
-        "correct": 0,
-        "explanation": "DRAW UP é redigir, preparar um documento ou projeto inicial. Portanto, a resposta correta é DRAW UP."
+        "correct": 1,
+        "explanation": "'Draw up' é redigir, preparar um documento como um contrato. 'Lay off' é demitir funcionários e 'cut off' é interromper ou cortar; nenhum dos dois produz a primeira versão de um contrato. Portanto, a resposta correta é 'draw up'."
       },
       {
         "id": "f2pv35",
         "topic": "Phrasal Verbs – Careers",
         "question": "The deal _____ at the last minute.",
         "options": [
+          "burned out",
           "fell through",
-          "drew up",
-          "knuckled down",
-          "measured up"
+          "dropped by",
+          "loosened up"
         ],
-        "correct": 0,
-        "explanation": "FALL THROUGH é dar errado, o plano não se concretizar. Portanto, a resposta correta é FELL THROUGH."
+        "correct": 1,
+        "explanation": "'Fall through' é um plano ou negócio que não se concretiza, que cai na última hora. 'Burn out' é o esgotamento de uma pessoa e 'drop by' é fazer uma visita rápida; um negócio não se esgota nem faz visitas. Portanto, a resposta correta é 'fell through'."
       },
       {
         "id": "f2pv36",
@@ -2039,220 +2039,220 @@
         "question": "With the deadline approaching, the team finally _____ and worked through the weekend.",
         "options": [
           "knuckled down",
-          "fell through",
           "burned out",
-          "laid off"
+          "dropped out",
+          "gave in"
         ],
         "correct": 0,
-        "explanation": "KNUCKLE DOWN é meter a cara e começar a trabalhar de verdade. Portanto, a resposta correta é KNUCKLED DOWN."
+        "explanation": "'Knuckle down' é meter a cara, concentrar-se de verdade no trabalho, o que explica trabalhar no fim de semana. 'Burn out' seria ficar esgotado e 'drop out' seria abandonar, o contrário de trabalhar até o fim. Portanto, a resposta correta é 'knuckled down'."
       },
       {
         "id": "f2pv37",
         "topic": "Phrasal Verbs – Careers",
         "question": "The factory _____ two hundred workers last month.",
         "options": [
-          "laid off",
           "drew up",
-          "measured up",
-          "knuckled down"
+          "brought up",
+          "laid off",
+          "made up"
         ],
-        "correct": 0,
-        "explanation": "LAY OFF é demitir funcionários. Portanto, a resposta correta é LAID OFF."
+        "correct": 2,
+        "explanation": "'Lay off' é demitir funcionários, normalmente por falta de trabalho ou de dinheiro. 'Draw up' é redigir um documento e 'bring up' é criar uma criança ou mencionar um assunto; nenhum dos dois se faz com duzentos operários. Portanto, a resposta correta é 'laid off'."
       },
       {
         "id": "f2pv38",
         "topic": "Phrasal Verbs – Careers",
         "question": "The new supplier didn't _____ to our quality standards.",
         "options": [
+          "look up",
+          "own up",
           "measure up",
-          "lay off",
-          "fall through",
-          "draw up"
+          "add up"
         ],
-        "correct": 0,
-        "explanation": "MEASURE UP é corresponder ao esperado, mostrar-se à altura. Portanto, a resposta correta é MEASURE UP."
+        "correct": 2,
+        "explanation": "'Measure up (to)' é estar à altura, corresponder a um padrão exigido. 'Look up to' é admirar alguém e 'own up to' é admitir um erro; um fornecedor não admira nem confessa um padrão de qualidade. Portanto, a resposta correta é 'measure up'."
       },
       {
         "id": "f2pv39",
         "topic": "Phrasal Verbs – Careers",
         "question": "That market is _____ — everyone competes with everyone.",
         "options": [
+          "down-to-earth",
           "dog-eat-dog",
-          "the extra mile",
-          "burned out",
-          "drawn up"
+          "run-of-the-mill",
+          "hands-on"
         ],
-        "correct": 0,
-        "explanation": "DOG-EAT-DOG descreve uma competição sem escrúpulos. Portanto, a resposta correta é DOG-EAT-DOG."
+        "correct": 1,
+        "explanation": "'Dog-eat-dog' descreve uma competição feroz, em que cada um luta contra todos, como explica o fim da frase. 'Down-to-earth' é pé no chão, simples, e 'run-of-the-mill' é comum, sem nada de especial; nenhum dos dois fala de competição. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'dog-eat-dog'."
       },
       {
         "id": "f2pv40",
         "topic": "Phrasal Verbs – Careers",
         "question": "She always _____ for her students.",
         "options": [
+          "cuts corners",
+          "passes the buck",
           "goes the extra mile",
-          "is dog-eat-dog",
-          "falls through",
-          "lays off"
+          "calls the shots"
         ],
-        "correct": 0,
-        "explanation": "GO THE EXTRA MILE é fazer mais do que se espera. Portanto, a resposta correta é GOES THE EXTRA MILE."
+        "correct": 2,
+        "explanation": "'Go the extra mile' é fazer mais do que se espera, esforçar-se além do necessário por alguém. 'Cut corners' é o oposto, fazer de qualquer jeito para economizar esforço, e 'pass the buck' é empurrar a responsabilidade para outra pessoa. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'goes the extra mile'."
       },
       {
         "id": "f2pv41",
         "topic": "Phrasal Verbs – Leisure",
         "question": "It took him a year to _____ after the divorce.",
         "options": [
-          "move on",
-          "hold back",
-          "bottle up",
-          "blow up"
+          "blow up",
+          "show off",
+          "chicken out",
+          "move on"
         ],
-        "correct": 0,
-        "explanation": "MOVE ON é seguir em frente depois de uma experiência ruim. Portanto, a resposta correta é MOVE ON."
+        "correct": 3,
+        "explanation": "'Move on' é seguir em frente depois de uma experiência ruim, como um divórcio, e isso pode levar tempo. 'Blow up' é explodir de raiva e 'show off' é se exibir; nenhum dos dois é algo que leve um ano para conseguir. Portanto, a resposta correta é 'move on'."
       },
       {
         "id": "f2pv42",
         "topic": "Phrasal Verbs – Leisure",
         "question": "Fear of failing _____ many talented people.",
         "options": [
-          "holds back",
-          "loosens up",
           "backs up",
-          "moves on"
+          "looks after",
+          "cheers up",
+          "holds back"
         ],
-        "correct": 0,
-        "explanation": "HOLD BACK é impedir, atrapalhar o avanço de alguém. Portanto, a resposta correta é HOLDS BACK."
+        "correct": 3,
+        "explanation": "'Hold back' é impedir alguém de avançar, e o medo de errar faz isso com muita gente talentosa. 'Back up' é dar apoio e 'cheer up' é animar alguém, efeitos positivos que o medo de fracassar não tem. Portanto, a resposta correta é 'holds back'."
       },
       {
         "id": "f2pv43",
         "topic": "Phrasal Verbs – Leisure",
         "question": "Have a coffee with us and _____ a little.",
         "options": [
-          "loosen up",
-          "bottle up",
-          "hold back",
-          "blow up"
+          "blow up",
+          "burn out",
+          "show off",
+          "loosen up"
         ],
-        "correct": 0,
-        "explanation": "LOOSEN UP é relaxar, deixar de ser tão sério. Portanto, a resposta correta é LOOSEN UP."
+        "correct": 3,
+        "explanation": "'Loosen up' é relaxar, deixar de lado a tensão ou a formalidade, e um café com os amigos serve para isso. 'Blow up' é explodir de raiva e 'burn out' é esgotar-se de tanto trabalhar, o contrário de um convite para descansar. Portanto, a resposta correta é 'loosen up'."
       },
       {
         "id": "f2pv44",
         "topic": "Phrasal Verbs – Leisure",
         "question": "Whatever you decide, we will _____ you _____.",
         "options": [
-          "back / up",
           "hold / back",
-          "bottle / up",
-          "blow / up"
+          "let / down",
+          "tell / off",
+          "back / up"
         ],
-        "correct": 0,
-        "explanation": "BACK SOMEONE UP é dar apoio à pessoa. Portanto, a resposta correta é BACK / UP."
+        "correct": 3,
+        "explanation": "'Back (someone) up' é apoiar alguém, ficar do lado da pessoa, qualquer que seja a decisão. 'Let (someone) down' é decepcionar e 'tell (someone) off' é dar bronca, o contrário da promessa de apoio da frase. Portanto, a resposta correta é 'back / up'."
       },
       {
         "id": "f2pv45",
         "topic": "Phrasal Verbs – Leisure",
         "question": "He tends to _____ his frustrations instead of talking about them.",
         "options": [
-          "bottle up",
-          "loosen up",
           "back up",
-          "move on"
+          "make up",
+          "bottle up",
+          "give up"
         ],
-        "correct": 0,
-        "explanation": "BOTTLE UP é guardar o sentimento em vez de expressá-lo. Portanto, a resposta correta é BOTTLE UP."
+        "correct": 2,
+        "explanation": "'Bottle up' é guardar um sentimento só para si, sem expressá-lo, e o 'instead of talking about them' confirma isso. 'Back up' é apoiar e 'make up' é inventar; ninguém tem o costume de apoiar ou inventar as próprias frustrações em vez de falar delas. Portanto, a resposta correta é 'bottle up'."
       },
       {
         "id": "f2pv46",
         "topic": "Phrasal Verbs – Leisure",
         "question": "She kept quiet for months and then _____ in the meeting, shouting at everyone.",
         "options": [
-          "blew up",
           "loosened up",
-          "backed up",
-          "moved on"
+          "blew up",
+          "opened up",
+          "chickened out"
         ],
-        "correct": 0,
-        "explanation": "BLOW UP é explodir de raiva com alguém. Portanto, a resposta correta é BLEW UP."
+        "correct": 1,
+        "explanation": "'Blow up' é explodir de raiva de repente, e o 'shouting at everyone' mostra isso. 'Open up' é se abrir e falar dos sentimentos com calma, e 'loosen up' é relaxar, sentidos que não combinam com gritar com todo mundo. Portanto, a resposta correta é 'blew up'."
       },
       {
         "id": "f2pv47",
         "topic": "Phrasal Verbs – Leisure",
         "question": "Every long friendship has its _____.",
         "options": [
+          "odds and ends",
           "ups and downs",
-          "wills and ways",
-          "backs and ups",
-          "moves on"
+          "bits and pieces",
+          "peace and quiet"
         ],
-        "correct": 0,
-        "explanation": "UPS AND DOWNS são os altos e baixos, os momentos bons e ruins. Portanto, a resposta correta é UPS AND DOWNS."
+        "correct": 1,
+        "explanation": "'Ups and downs' são os altos e baixos, os bons e maus momentos que toda relação longa tem. 'Odds and ends' e 'bits and pieces' são coisinhas soltas, miudezas, e 'peace and quiet' é sossego; nenhum fala de fases boas e ruins. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'ups and downs'."
       },
       {
         "id": "f2pv48",
         "topic": "Phrasal Verbs – Leisure",
         "question": "She learned three languages on her own — _____.",
         "options": [
+          "easy come, easy go",
+          "crime doesn't pay",
           "where there's a will, there's a way",
-          "ups and downs",
-          "bottle up",
-          "loosen up"
+          "better late than never"
         ],
-        "correct": 0,
-        "explanation": "WHERE THERE'S A WILL, THERE'S A WAY: quem realmente quer, acha um jeito. Portanto, a resposta correta é WHERE THERE'S A WILL, THERE'S A WAY."
+        "correct": 2,
+        "explanation": "'Where there's a will, there's a way' é 'querer é poder': quem quer de verdade encontra um jeito, como aprender três línguas sozinha. 'Easy come, easy go' fala de algo que vem e vai fácil, e 'better late than never' é 'antes tarde do que nunca', e nada disso descreve o esforço dela. É um provérbio, uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'where there's a will, there's a way'."
       },
       {
         "id": "f2pv49",
         "topic": "Phrasal Verbs – Art",
         "question": "_____ the text once more and mark any typos.",
         "options": [
-          "Read through",
           "Make up",
-          "Make out",
-          "Hang out"
+          "Cross out",
+          "Read through",
+          "Turn in"
         ],
-        "correct": 0,
-        "explanation": "READ THROUGH é ler do começo ao fim, procurando erros. Portanto, a resposta correta é READ THROUGH."
+        "correct": 2,
+        "explanation": "'Read through' é ler um texto do começo ao fim, com atenção, procurando erros. 'Cross out' é riscar e 'turn in' é entregar; riscar ou entregar o texto não ajuda a marcar os erros de digitação. Portanto, a resposta correta é 'Read through'."
       },
       {
         "id": "f2pv50",
         "topic": "Phrasal Verbs – Art",
         "question": "He _____ the whole story to impress his classmates.",
         "options": [
+          "made out",
           "made up",
-          "read through",
-          "pored over",
-          "made out"
+          "turned down",
+          "cut off"
         ],
-        "correct": 0,
-        "explanation": "MAKE UP é inventar, criar algo que não existe. Portanto, a resposta correta é MADE UP."
+        "correct": 1,
+        "explanation": "'Make up' é inventar uma história que não aconteceu, o que alguém faz para impressionar os colegas. 'Make out' é conseguir enxergar ou entender algo com dificuldade, e 'cut off' é interromper; nenhum dos dois impressiona ninguém. Portanto, a resposta correta é 'made up'."
       },
       {
         "id": "f2pv51",
         "topic": "Phrasal Verbs – Art",
         "question": "She _____ the manuscript for hours, checking every detail.",
         "options": [
-          "pored over",
-          "hung out",
-          "came out",
-          "made up"
+          "made up",
+          "turned down",
+          "gave away",
+          "pored over"
         ],
-        "correct": 0,
-        "explanation": "PORE OVER é estudar algo com atenção intensa. Portanto, a resposta correta é PORED OVER."
+        "correct": 3,
+        "explanation": "'Pore over' é examinar algo com muita atenção e por muito tempo, como diz o 'checking every detail'. 'Turn down' é recusar o manuscrito e 'give away' é doá-lo; nenhuma das duas coisas leva horas nem confere detalhes. Portanto, a resposta correta é 'pored over'."
       },
       {
         "id": "f2pv52",
         "topic": "Phrasal Verbs – Art",
         "question": "The album _____ on all platforms last Friday.",
         "options": [
+          "hung out",
+          "dropped out",
           "came out",
-          "made out",
-          "pored over",
-          "read through"
+          "chickened out"
         ],
-        "correct": 0,
-        "explanation": "COME OUT é ser lançado, ficar disponível. Portanto, a resposta correta é CAME OUT."
+        "correct": 2,
+        "explanation": "'Come out' é ser lançado, ficar disponível ao público, como um álbum nas plataformas. 'Hang out' é passar o tempo com alguém e 'drop out' é abandonar um curso, coisas que pessoas fazem, e não discos. Portanto, a resposta correta é 'came out'."
       },
       {
         "id": "f2pv53",
@@ -2261,89 +2261,89 @@
         "options": [
           "make out",
           "make up",
-          "come out",
-          "hang out"
+          "look up",
+          "cross out"
         ],
         "correct": 0,
-        "explanation": "MAKE OUT é conseguir entender ou distinguir alguma coisa. Portanto, a resposta correta é MAKE OUT."
+        "explanation": "'Make out' é conseguir ler ou distinguir algo com dificuldade, o problema de uma letra ruim. 'Make up' seria inventar as palavras e 'look up' seria procurá-las no dicionário, e a letra feia não é o motivo de nenhuma das duas coisas. Portanto, a resposta correta é 'make out'."
       },
       {
         "id": "f2pv54",
         "topic": "Phrasal Verbs – Art",
         "question": "We used to _____ at the record shop after school.",
         "options": [
+          "chicken out",
+          "burn out",
           "hang out",
-          "come out",
-          "pore over",
-          "read through"
+          "drop out"
         ],
-        "correct": 0,
-        "explanation": "HANG OUT é passar tempo num lugar ou com um grupo. Portanto, a resposta correta é HANG OUT."
+        "correct": 2,
+        "explanation": "'Hang out' é passar o tempo num lugar ou com amigos, sem compromisso, como na loja de discos depois da aula. 'Burn out' é esgotar-se de trabalho e 'drop out' é abandonar os estudos; nenhum dos dois é um hábito de fim de tarde. Portanto, a resposta correta é 'hang out'."
       },
       {
         "id": "f2pv55",
         "topic": "Phrasal Verbs – Art",
         "question": "He lied about the budget and now he has to _____.",
         "options": [
+          "break the ice",
+          "call it a day",
           "face the music",
-          "be a drama queen",
-          "come out",
-          "make up"
+          "go the extra mile"
         ],
-        "correct": 0,
-        "explanation": "FACE THE MUSIC é encarar as consequências do que se fez. Portanto, a resposta correta é FACE THE MUSIC."
+        "correct": 2,
+        "explanation": "'Face the music' é encarar as consequências do que se fez, e é o que espera quem mentiu sobre o orçamento. 'Break the ice' é quebrar o gelo numa conversa e 'call it a day' é encerrar o expediente, e nada disso é consequência de uma mentira. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'face the music'."
       },
       {
         "id": "f2pv56",
         "topic": "Phrasal Verbs – Art",
         "question": "She cried for an hour over a broken mug — such a _____.",
         "options": [
-          "drama queen",
-          "helping hand",
           "night owl",
-          "couch potato"
+          "couch potato",
+          "early bird",
+          "drama queen"
         ],
-        "correct": 0,
-        "explanation": "DRAMA QUEEN é quem faz drama por qualquer coisa. Portanto, a resposta correta é DRAMA QUEEN."
+        "correct": 3,
+        "explanation": "'Drama queen' é quem faz drama exagerado por qualquer coisa, como chorar uma hora por uma caneca. 'Night owl' é quem gosta de ficar acordado até tarde e 'couch potato' é quem vive largado no sofá; nenhum dos dois explica o choro. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'drama queen'."
       },
       {
         "id": "f2pv57",
         "topic": "Phrasal Verbs – Communication",
         "question": "He _____ me _____ before I could finish my point, and finished it for me.",
         "options": [
-          "cut / off",
           "told / off",
-          "tuned / out",
-          "opened / up"
+          "let / down",
+          "cut / off",
+          "tuned / out"
         ],
-        "correct": 0,
-        "explanation": "CUT SOMEONE OFF é interromper quem está falando. Portanto, a resposta correta é CUT / OFF."
+        "correct": 2,
+        "explanation": "'Cut (someone) off' é interromper quem está falando, sem deixar terminar. 'Tell (someone) off' é dar bronca e 'tune (someone) out' é parar de prestar atenção, mas quem termina a frase do outro estava ouvindo e não dando bronca. Portanto, a resposta correta é 'cut / off'."
       },
       {
         "id": "f2pv58",
         "topic": "Phrasal Verbs – Communication",
         "question": "She knew about the promotion but never _____.",
         "options": [
-          "let on",
-          "cut off",
-          "told off",
-          "tuned out"
+          "gave in",
+          "blew up",
+          "moved on",
+          "let on"
         ],
-        "correct": 0,
-        "explanation": "LET ON é deixar escapar um segredo. Portanto, a resposta correta é LET ON."
+        "correct": 3,
+        "explanation": "'Let on' é deixar transparecer ou contar um segredo; 'never let on' é nunca dar sinal de que sabia. 'Give in' é ceder a uma pressão e 'blow up' é explodir de raiva, e nenhum dos dois tem a ver com guardar uma informação. Portanto, a resposta correta é 'let on'."
       },
       {
         "id": "f2pv59",
         "topic": "Phrasal Verbs – Communication",
         "question": "It took him months to _____ about how he was feeling.",
         "options": [
-          "open up",
-          "tell off",
-          "cut off",
-          "tune out"
+          "show off",
+          "go on",
+          "blow up",
+          "open up"
         ],
-        "correct": 0,
-        "explanation": "OPEN UP é se abrir, falar dos próprios sentimentos. Portanto, a resposta correta é OPEN UP."
+        "correct": 3,
+        "explanation": "'Open up (about)' é se abrir, falar dos próprios sentimentos, algo que pode levar meses. 'Show off' é se exibir e 'go on (about)' é falar sem parar de um assunto, o contrário de quem demorou a falar. Portanto, a resposta correta é 'open up'."
       },
       {
         "id": "f2pv60",
@@ -2351,25 +2351,25 @@
         "question": "If you disagree with the plan, _____ now.",
         "options": [
           "speak up",
-          "let on",
+          "give in",
           "tune out",
-          "cut off"
+          "hang up"
         ],
         "correct": 0,
-        "explanation": "SPEAK UP é falar sem medo, se posicionar. Portanto, a resposta correta é SPEAK UP."
+        "explanation": "'Speak up' é falar, dar a sua opinião sem medo, o que se espera de quem discorda de um plano. 'Give in' é ceder e 'tune out' é parar de prestar atenção, justamente o que alguém que discorda não deveria fazer. Portanto, a resposta correta é 'speak up'."
       },
       {
         "id": "f2pv61",
         "topic": "Phrasal Verbs – Communication",
         "question": "The coach _____ the players _____ for arriving late.",
         "options": [
+          "cut / off",
+          "backed / up",
           "told / off",
-          "opened / up",
-          "let / on",
-          "cut / off"
+          "cheered / up"
         ],
-        "correct": 0,
-        "explanation": "TELL SOMEONE OFF é dar uma bronca em alguém. Portanto, a resposta correta é TOLD / OFF."
+        "correct": 2,
+        "explanation": "'Tell (someone) off' é dar uma bronca em alguém por ter feito algo errado, como chegar atrasado. 'Back (someone) up' é apoiar e 'cheer (someone) up' é animar, reações que um técnico não teria com atrasos. Portanto, a resposta correta é 'told / off'."
       },
       {
         "id": "f2pv62",
@@ -2377,51 +2377,51 @@
         "question": "After ten minutes of complaints, I just _____ him _____ and thought about something else.",
         "options": [
           "tuned / out",
-          "told / off",
-          "opened / up",
-          "let / on"
+          "backed / up",
+          "looked / up",
+          "let / down"
         ],
         "correct": 0,
-        "explanation": "TUNE SOMEONE OUT é parar de prestar atenção, ignorar. Portanto, a resposta correta é TUNED / OUT."
+        "explanation": "'Tune (someone) out' é parar de prestar atenção em alguém, desligar, e pensar em outra coisa. 'Back (someone) up' é apoiar a pessoa e 'let (someone) down' é decepcioná-la; nenhum dos dois significa deixar de ouvir. Portanto, a resposta correta é 'tuned / out'."
       },
       {
         "id": "f2pv63",
         "topic": "Phrasal Verbs – Communication",
         "question": "He asked about her ex-husband at dinner and really _____.",
         "options": [
+          "pulled his weight",
+          "kept his word",
           "put his foot in his mouth",
-          "kept her posted",
-          "spoke up",
-          "let on"
+          "went the extra mile"
         ],
-        "correct": 0,
-        "explanation": "PUT YOUR FOOT IN YOUR MOUTH é falar algo inapropriado, dar uma gafe. Portanto, a resposta correta é PUT HIS FOOT IN HIS MOUTH."
+        "correct": 2,
+        "explanation": "'Put your foot in your mouth' é dar uma gafe, dizer algo inconveniente, como perguntar pelo ex-marido num jantar. 'Pull your weight' é fazer a sua parte num trabalho e 'keep your word' é cumprir o que prometeu, e nenhum dos dois é uma gafe. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'put his foot in his mouth'."
       },
       {
         "id": "f2pv64",
         "topic": "Phrasal Verbs – Communication",
         "question": "I'll _____ you _____ as soon as I hear from the lab.",
         "options": [
-          "keep / posted",
           "tell / off",
+          "keep / posted",
           "tune / out",
-          "cut / off"
+          "let / down"
         ],
-        "correct": 0,
-        "explanation": "KEEP SOMEONE POSTED é manter a pessoa informada. Portanto, a resposta correta é KEEP / POSTED."
+        "correct": 1,
+        "explanation": "'Keep (someone) posted' é manter alguém informado, avisar assim que houver novidade. 'Tell (someone) off' é dar bronca e 'let (someone) down' é decepcionar, e nenhum dos dois é o que se promete fazer ao receber notícias. 'Keep posted' é uma expressão fixa (verbo + adjetivo), não um phrasal verb. Portanto, a resposta correta é 'keep / posted'."
       },
       {
         "id": "f2pv65",
         "topic": "Phrasal Verbs – Crime",
         "question": "Two men _____ him _____ outside the stadium.",
         "options": [
-          "beat / up",
           "locked / up",
-          "blew / up",
-          "broke / into"
+          "let / down",
+          "beat / up",
+          "brought / up"
         ],
-        "correct": 0,
-        "explanation": "BEAT SOMEONE UP é espancar, bater muito em alguém. Portanto, a resposta correta é BEAT / UP."
+        "correct": 2,
+        "explanation": "'Beat (someone) up' é espancar, agredir alguém com socos e chutes. 'Lock (someone) up' é prender, o que cabe à polícia e não a dois homens na rua, e 'bring (someone) up' é criar uma criança. Portanto, a resposta correta é 'beat / up'."
       },
       {
         "id": "f2pv66",
@@ -2429,38 +2429,38 @@
         "question": "Someone _____ the shop and took all the laptops.",
         "options": [
           "broke into",
-          "beat up",
-          "blew up",
-          "got away with"
+          "ran into",
+          "looked into",
+          "did away with"
         ],
         "correct": 0,
-        "explanation": "BREAK INTO é invadir um lugar à força, geralmente para roubar. Portanto, a resposta correta é BROKE INTO."
+        "explanation": "'Break into' é invadir um lugar à força, geralmente para roubar, o que explica os notebooks levados. 'Run into' é esbarrar em alguém por acaso e 'look into' é investigar; quem investiga um roubo não é quem leva os notebooks. Portanto, a resposta correta é 'broke into'."
       },
       {
         "id": "f2pv67",
         "topic": "Phrasal Verbs – Crime",
         "question": "The gang _____ the bridge to block the police.",
         "options": [
-          "blew up",
-          "broke into",
-          "locked up",
-          "beat up"
+          "beat up",
+          "drew up",
+          "brought up",
+          "blew up"
         ],
-        "correct": 0,
-        "explanation": "BLOW UP é destruir com uma explosão. Portanto, a resposta correta é BLEW UP."
+        "correct": 3,
+        "explanation": "'Blow up' é destruir com uma explosão, um jeito de derrubar uma ponte para bloquear a polícia. 'Beat up' é espancar uma pessoa e 'draw up' é redigir um documento; nenhum dos dois se faz com uma ponte. Portanto, a resposta correta é 'blew up'."
       },
       {
         "id": "f2pv68",
         "topic": "Phrasal Verbs – Crime",
         "question": "The school finally _____ the old uniform rule.",
         "options": [
-          "did away with",
           "got away with",
-          "broke into",
-          "locked up"
+          "came up with",
+          "ran out of",
+          "did away with"
         ],
-        "correct": 0,
-        "explanation": "DO AWAY WITH é acabar com alguma coisa, eliminar. Portanto, a resposta correta é DID AWAY WITH."
+        "correct": 3,
+        "explanation": "'Do away with' é acabar com algo, eliminar uma regra antiga. 'Come up with' é criar uma ideia nova, e a regra já era antiga; 'get away with' é escapar da punição por algo errado. Portanto, a resposta correta é 'did away with'."
       },
       {
         "id": "f2pv69",
@@ -2469,50 +2469,50 @@
         "options": [
           "got away with",
           "did away with",
-          "broke into",
-          "blew up"
+          "came up with",
+          "broke into"
         ],
         "correct": 0,
-        "explanation": "GET AWAY WITH é fazer algo errado e não ser punido. Portanto, a resposta correta é GOT AWAY WITH."
+        "explanation": "'Get away with' é fazer algo errado e não ser pego nem punido, e o 'before anyone noticed' mostra isso. 'Do away with' é eliminar algo e 'come up with' é ter uma ideia; nenhum dos dois é algo que se faz escondido durante anos. Portanto, a resposta correta é 'got away with'."
       },
       {
         "id": "f2pv70",
         "topic": "Phrasal Verbs – Crime",
         "question": "The judge decided to _____ him _____ for eight years.",
         "options": [
-          "lock / up",
           "beat / up",
-          "blow / up",
-          "break / into"
+          "lock / up",
+          "tell / off",
+          "let / down"
         ],
-        "correct": 0,
-        "explanation": "LOCK SOMEONE UP é prender, colocar atrás das grades. Portanto, a resposta correta é LOCK / UP."
+        "correct": 1,
+        "explanation": "'Lock (someone) up' é prender, mandar para a cadeia, a decisão de um juiz por oito anos. 'Tell (someone) off' é dar uma bronca, que não dura oito anos, e 'beat (someone) up' é espancar, algo que um juiz não decide. Portanto, a resposta correta é 'lock / up'."
       },
       {
         "id": "f2pv71",
         "topic": "Phrasal Verbs – Crime",
         "question": "In the end he lost everything he had stolen — _____.",
         "options": [
-          "crime doesn't pay",
-          "in cold blood",
-          "got away with it",
-          "locked up"
+          "better late than never",
+          "practice makes perfect",
+          "where there's a will, there's a way",
+          "crime doesn't pay"
         ],
-        "correct": 0,
-        "explanation": "CRIME DOESN'T PAY: o crime traz mais problema do que benefício. Portanto, a resposta correta é CRIME DOESN'T PAY."
+        "correct": 3,
+        "explanation": "'Crime doesn't pay' é 'o crime não compensa': ele perdeu tudo o que tinha roubado. 'Practice makes perfect' é 'a prática leva à perfeição' e 'better late than never' é 'antes tarde do que nunca', e nenhum dos dois tira uma lição de um roubo. É um provérbio, uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'crime doesn't pay'."
       },
       {
         "id": "f2pv72",
         "topic": "Phrasal Verbs – Crime",
         "question": "The witnesses said the attack was carried out _____.",
         "options": [
-          "in cold blood",
-          "crime doesn't pay",
-          "locked up",
-          "blown up"
+          "with flying colors",
+          "for a change",
+          "on the house",
+          "in cold blood"
         ],
-        "correct": 0,
-        "explanation": "IN COLD BLOOD é a sangue frio, sem nenhuma emoção. Portanto, a resposta correta é IN COLD BLOOD."
+        "correct": 3,
+        "explanation": "'In cold blood' é 'a sangue frio', de forma calculada e sem emoção, como se descreve um ataque violento. 'With flying colors' é 'com louvor' e 'for a change' é 'para variar', expressões positivas ou banais que não descrevem um crime. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'in cold blood'."
       },
       {
         "id": "f2pv73",
@@ -2520,38 +2520,38 @@
         "question": "The team _____ the whole renovation in three weeks.",
         "options": [
           "carried out",
-          "dropped by",
-          "pitched in",
-          "made up for"
+          "made up for",
+          "turned down",
+          "called off"
         ],
         "correct": 0,
-        "explanation": "CARRY OUT é executar e concluir uma tarefa. Portanto, a resposta correta é CARRIED OUT."
+        "explanation": "'Carry out' é executar e concluir uma tarefa ou projeto, como uma reforma inteira em três semanas. 'Turn down' é recusar e 'call off' é cancelar; o 'in three weeks' mostra que a reforma foi feita, e não recusada nem cancelada. Portanto, a resposta correta é 'carried out'."
       },
       {
         "id": "f2pv74",
         "topic": "Phrasal Verbs – Caring",
         "question": "My neighbor _____ with a cake, without calling first.",
         "options": [
-          "dropped by",
-          "carried out",
           "dropped out",
-          "looked after"
+          "dropped by",
+          "gave in",
+          "moved on"
         ],
-        "correct": 0,
-        "explanation": "DROP BY é aparecer de surpresa para uma visita rápida. Portanto, a resposta correta é DROPPED BY."
+        "correct": 1,
+        "explanation": "'Drop by' é aparecer para uma visita rápida, muitas vezes sem avisar, como a vizinha com o bolo. 'Drop out' é abandonar um curso e 'give in' é ceder; nenhum dos dois é chegar à porta de alguém. Portanto, a resposta correta é 'dropped by'."
       },
       {
         "id": "f2pv75",
         "topic": "Phrasal Verbs – Caring",
         "question": "He _____ of the program halfway through.",
         "options": [
+          "ran out",
           "dropped out",
-          "dropped by",
-          "pitched in",
-          "carried out"
+          "sold out",
+          "checked out"
         ],
-        "correct": 0,
-        "explanation": "DROP OUT é largar algo antes de terminar. Portanto, a resposta correta é DROPPED OUT."
+        "correct": 1,
+        "explanation": "'Drop out (of)' é abandonar um curso ou programa antes de terminar. 'Run out of' é ficar sem estoque de algo e 'sell out of' é esgotar um produto à venda, sentidos que não servem para quem saiu de um programa no meio. Portanto, a resposta correta é 'dropped out'."
       },
       {
         "id": "f2pv76",
@@ -2559,38 +2559,38 @@
         "question": "Could you _____ the kids while I go to the pharmacy?",
         "options": [
           "look after",
-          "pitch in",
-          "carry out",
-          "drop by"
+          "look into",
+          "take after",
+          "carry out"
         ],
         "correct": 0,
-        "explanation": "LOOK AFTER é cuidar de alguém. Portanto, a resposta correta é LOOK AFTER."
+        "explanation": "'Look after' é cuidar de alguém, tomar conta das crianças por um tempo. 'Look into' é investigar e 'take after' é puxar a um parente (a criança que se parece com o pai); só 'look after' é tomar conta. Portanto, a resposta correta é 'look after'."
       },
       {
         "id": "f2pv77",
         "topic": "Phrasal Verbs – Caring",
         "question": "Everyone _____ to get the kitchen cleaned before midnight.",
         "options": [
-          "pitched in",
           "dropped out",
-          "looked after",
-          "dropped by"
+          "gave in",
+          "showed off",
+          "pitched in"
         ],
-        "correct": 0,
-        "explanation": "PITCH IN é entrar junto no trabalho, ajudar todo mundo. Portanto, a resposta correta é PITCHED IN."
+        "correct": 3,
+        "explanation": "'Pitch in' é entrar junto num trabalho, cada um ajudando para terminar logo. 'Drop out' seria abandonar a tarefa e 'show off' seria se exibir, o contrário de todos ajudarem a limpar a cozinha. Portanto, a resposta correta é 'pitched in'."
       },
       {
         "id": "f2pv78",
         "topic": "Phrasal Verbs – Caring",
         "question": "He bought her flowers to _____ forgetting the anniversary.",
         "options": [
+          "do away with",
           "make up for",
-          "look after",
-          "pitch in",
-          "carry out"
+          "put up with",
+          "look forward to"
         ],
-        "correct": 0,
-        "explanation": "MAKE UP FOR é compensar algo ruim com algo bom. Portanto, a resposta correta é MAKE UP FOR."
+        "correct": 1,
+        "explanation": "'Make up for' é compensar um erro com uma atitude boa, como dar flores depois de esquecer o aniversário. 'Put up with' é aguentar algo chato e 'look forward to' é esperar algo com ansiedade; ninguém compra flores para aguentar ou ansiar pelo próprio esquecimento. Portanto, a resposta correta é 'make up for'."
       },
       {
         "id": "f2pv79",
@@ -2598,25 +2598,25 @@
         "question": "During the flood, the volunteers gave the families _____.",
         "options": [
           "a helping hand",
-          "our share",
-          "a drop by",
-          "a carry out"
+          "the cold shoulder",
+          "a hard time",
+          "the green light"
         ],
         "correct": 0,
-        "explanation": "A HELPING HAND é uma ajuda, uma mão na roda. Portanto, a resposta correta é A HELPING HAND."
+        "explanation": "'Give someone a helping hand' é dar uma mão, ajudar, o que voluntários fazem numa enchente. 'Give someone the cold shoulder' é ignorar a pessoa e 'give someone a hard time' é dificultar a vida dela, o contrário do trabalho voluntário. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'a helping hand'."
       },
       {
         "id": "f2pv80",
         "topic": "Phrasal Verbs – Caring",
         "question": "Recycling at home is a simple way to _____.",
         "options": [
-          "do our share",
-          "give a helping hand to",
-          "make up for",
-          "pitch in for"
+          "cut corners",
+          "pass the buck",
+          "call it a day",
+          "do our share"
         ],
-        "correct": 0,
-        "explanation": "DO OUR SHARE é fazer a nossa parte. Portanto, a resposta correta é DO OUR SHARE."
+        "correct": 3,
+        "explanation": "'Do our share' é fazer a nossa parte, contribuir com o que nos cabe, como reciclar em casa. 'Cut corners' é fazer de qualquer jeito para poupar esforço e 'pass the buck' é empurrar a responsabilidade para outro, o oposto de contribuir. É uma expressão idiomática ('idiom'), não um phrasal verb. Portanto, a resposta correta é 'do our share'."
       }
     ]
   }

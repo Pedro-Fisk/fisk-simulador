@@ -111,7 +111,7 @@
       {
         "id": "i3m09",
         "topic": "Indicativo vs Subjuntivo",
-        "question": "'Me alegra que tú _____ (estar) bien.' ¿Qué modo verbal se necesita?",
+        "question": "'Me alegra que tú _____ (estar) bien.' ¿Qué forma completa la frase?",
         "options": [
           "estás",
           "estés",
@@ -119,7 +119,7 @@
           "estarías"
         ],
         "correct": 1,
-        "explanation": "Verbos de sentimento como 'alegrar' pedem Subjuntivo na oração subordinada: 'me alegra que estés bien'. Reação emocional → Subjuntivo."
+        "explanation": "Verbos de sentimento como 'alegrar' pedem Subjuntivo na oração subordinada: 'me alegra que estés bien'. Reação emocional → Subjuntivo. 'Estás' é Indicativo e 'estarás' e 'estarías' são futuro e condicional do Indicativo, que não cabem depois de 'me alegra que'. Portanto, a resposta correta é 'estés'."
       },
       {
         "id": "i3m10",
