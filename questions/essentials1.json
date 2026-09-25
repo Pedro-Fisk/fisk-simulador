@@ -271,13 +271,13 @@
         "topic": "Alphabet / Spelling",
         "question": "How do you spell the word 'BOOK' in English?",
         "options": [
-          "B-double O-K",
+          "B-O-K",
           "B-O-O-K",
           "B-U-C-K",
           "B-two O-K"
         ],
         "correct": 1,
-        "explanation": "Quando queremos soletrar uma palavra em inglês, dizemos cada letra separada, uma por uma. Neste caso, a palavra 'book' tem quatro letras: B, O, O, K. Portanto, a resposta correta é 'B-O-O-K'."
+        "explanation": "Soletrar é dizer cada letra, uma por uma: 'book' tem quatro letras, B, O, O, K. Em inglês também se diz 'B, double O, K' para as duas letras iguais. B-O-K tem um O só, B-U-C-K é outra palavra (buck) e 'two O' não se usa ao soletrar: o certo é 'double O'. Portanto, a resposta correta é 'B-O-O-K'."
       },
       {
         "id": "e1m22",
@@ -958,15 +958,15 @@
       {
         "id": "e1m74",
         "topic": "Alphabet / Spelling",
-        "question": "How do you spell 'APPLE' in English?",
+        "question": "Your friend spells a word: 'A, double P, L, E'. What is the word?",
         "options": [
-          "A-P-L-E",
-          "A-P-P-L-E",
-          "A-P-E-L",
-          "A-P-P-E-L"
+          "Aple",
+          "Apple",
+          "Apply",
+          "Appel"
         ],
         "correct": 1,
-        "explanation": "Para soletrar em inglês, dizemos cada letra individualmente. A palavra 'apple' tem cinco letras: A, P, P, L, E, com dois 'P's no meio. Portanto, a resposta correta é 'A-P-P-L-E'."
+        "explanation": "'Double P' quer dizer duas letras P seguidas. A, P, P, L, E forma 'apple' (maçã). 'Aple' tem um P só, 'apply' termina em Y e 'appel' troca a ordem do L e do E. Portanto, a resposta correta é 'Apple'."
       },
       {
         "id": "e1m75",
