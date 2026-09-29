@@ -594,15 +594,15 @@
       {
         "id": "f1m46",
         "topic": "Adjective Order",
-        "question": "My grandmother left me a _____ vase. (old, round, porcelain)",
+        "question": "My grandmother left me a _____ vase. (old, blue, porcelain)",
         "options": [
-          "old round porcelain",
-          "round old porcelain",
-          "porcelain old round",
-          "round porcelain old"
+          "old blue porcelain",
+          "blue old porcelain",
+          "porcelain old blue",
+          "blue porcelain old"
         ],
         "correct": 0,
-        "explanation": "Quando usamos três adjetivos, a ordem é: idade, forma e depois material. Neste caso, 'old' fala da idade, 'round' fala da forma, e 'porcelain' fala do material do vaso. Portanto, a resposta correta é 'OLD ROUND PORCELAIN'."
+        "explanation": "Quando usamos três adjetivos, a ordem é: idade, cor e depois material. Neste caso, 'old' fala da idade, 'blue' fala da cor, e 'porcelain' fala do material do vaso. Portanto, a resposta correta é 'OLD BLUE PORCELAIN'."
       },
       {
         "id": "f1m47",
