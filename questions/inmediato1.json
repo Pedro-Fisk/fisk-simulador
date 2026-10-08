@@ -3302,13 +3302,13 @@
         "topic": "Números Cardinales (de 100 en adelante)",
         "question": "El libro tiene _____ páginas. (332)",
         "options": [
-          "trescientos y treinta y dos",
-          "trescientos treinta dos",
-          "trecientos treinta y dos",
-          "trescientos treinta y dos"
+          "trescientas y treinta y dos",
+          "trescientas treinta dos",
+          "trescientos treinta y dos",
+          "trescientas treinta y dos"
         ],
         "correct": 3,
-        "explanation": "A conjunção 'y' só aparece entre a dezena e a unidade: 'treinta y dos'. Entre a centena e a dezena não se usa 'y', e a grafia de 300 é 'trescientos', com 's'. Portanto, a resposta correta é 'trescientos treinta y dos'."
+        "explanation": "As centenas de 200 a 900 concordam com o substantivo: 'páginas' é feminino, então é 'trescientas'. A conjunção 'y' só aparece entre a dezena e a unidade: 'treinta y dos'. Portanto, a resposta correta é 'trescientas treinta y dos'."
       },
       {
         "id": "i1f95",
