@@ -48,7 +48,7 @@
       padding: 3rem 1.5rem 2.5rem;
       border-bottom: 6px solid var(--red);
     }
-    .hero-logo { height: 46px; margin-bottom: 1rem; }
+    .hero-logo { height: 40px; margin-bottom: .7rem; }   /* a medida do Portal e do Hub */
     /* o logo e um link para o Portal desde 27/08/2026 */
     #logo-home { display:inline-block; text-decoration:none; cursor:pointer; transition:opacity .12s; }
     #logo-home:hover { opacity:.85; }
@@ -733,19 +733,14 @@
       transition: color .15s;
     }
     .hub-back-link:hover { color: #fff; }
-    /* Na barra da tela de exames ele vira um item do flex, não um elemento
-       solto no canto, e acompanha a cor do "Back" que fica ao lado. */
-    .page-header .hub-back-link {
-      position: static; color: #d8d5d5;
-      border-left: 1px solid #4a4444; padding-left: .8rem;
-    }
-    .page-header .hub-back-link:hover { color: #fff; }
-    /* No celular a barra não comporta dois rótulos e o nome do livro: a saída
-       vira só o ícone de casinha, mas continua ali. */
-    @media (max-width: 560px) {
-      .page-header .hub-back-link { font-size: 0; padding-left: .7rem; }
-      .page-header .hub-back-link::before { content: '\2302'; font-size: 1.15rem; }
-    }
+    /* O logo nas barras das telas internas (09/10/2026): toma o lugar do
+       "← Portal do Aluno" que ficava ao lado do "Back", e leva ao mesmo
+       destino do logo da primeira tela. Na prova é só a marca, sem link. */
+    .qh-logo { display: inline-flex; flex: none; line-height: 0; border-radius: 6px; transition: opacity .12s; }
+    .qh-logo img { height: 24px; width: auto; display: block; }
+    a.qh-logo:hover { opacity: .85; }
+    a.qh-logo:focus-visible { outline: 2px solid #fff; outline-offset: 3px; }
+    @media (max-width: 420px) { .qh-logo img { height: 20px; } }
     .portal-badge {
       display: inline-flex; align-items: center;
       background: rgba(0,0,0,.06); color: inherit;
@@ -1075,7 +1070,7 @@
 <div id="screen-exam" class="screen">
   <div class="page-header">
     <button class="back-btn" onclick="showScreen('books')">&larr; Back</button>
-    <a href="https://pedro-fisk.github.io/fisk-hub/" class="hub-back-link" id="hub-back-exam">&#8592; Fisk Hub</a>
+    <a href="https://pedro-fisk.github.io/fisk-hub/" class="qh-logo" id="hub-back-exam" aria-label="Início"><img src="https://raw.githubusercontent.com/Pedro-Fisk/fisk-hub/main/assets/fisk-logo.png" alt="Fisk" onerror="this.parentNode.style.display='none'"></a>
     <div class="page-header-text">
       <div class="book-name" id="exam-book-name"></div>
       <div class="exam-name" id="exam-subtitle">Choose your exam</div>
@@ -1163,6 +1158,7 @@
       <span id="prof-badge" class="prof-badge">&#128250; Professor Mode</span>
     </div>
     <div style="display:flex;align-items:center;gap:.6rem;">
+      <span class="qh-logo"><img src="https://raw.githubusercontent.com/Pedro-Fisk/fisk-hub/main/assets/fisk-logo.png" alt="Fisk" onerror="this.parentNode.style.display='none'"></span>
       <div style="display:flex;flex-direction:column;align-items:flex-end;gap:2px;">
         <div class="quiz-counter" id="quiz-counter">0 of 10</div>
         <div class="timer-display" id="timer-display">10:00</div>
@@ -1212,10 +1208,11 @@
   <div class="page-header">
     <button class="back-btn" onclick="showScreen('exam')">&larr; Back</button>
     <!-- Saída para o Portal também aqui: é a tela em que o aluno terminou e
-         quer sair, e sem isto ele teria de voltar duas telas para achar a
-         porta. Na tela do quiz não entra de propósito: um clique acidental no
-         meio da prova jogaria fora o que ele já respondeu. -->
-    <a href="https://pedro-fisk.github.io/fisk-hub/" class="hub-back-link" id="hub-back-results">&#8592; Fisk Hub</a>
+         quer sair. Desde 09/10/2026 a saída é o LOGO (o canto esquerdo fica
+         com um botão só, o "Back"). Na tela do quiz o logo é só a marca, sem
+         link: um clique acidental no meio da prova jogaria fora o que ele já
+         respondeu. -->
+    <a href="https://pedro-fisk.github.io/fisk-hub/" class="qh-logo" id="hub-back-results" aria-label="Início"><img src="https://raw.githubusercontent.com/Pedro-Fisk/fisk-hub/main/assets/fisk-logo.png" alt="Fisk" onerror="this.parentNode.style.display='none'"></a>
     <div class="page-header-text">
       <div class="book-name" id="results-title"></div>
       <div class="exam-name" id="results-subtitle"></div>
@@ -1295,6 +1292,8 @@ if (PROF_MODE) document.body.classList.add('prof-mode');
     qs.set('modo', PROF_MODE ? 'aluno' : 'professor');
     a.href = location.pathname + '?' + qs.toString() + location.hash;
     if (!a.textContent) a.textContent = UI_STRINGS.en[PROF_MODE ? 'trocaAluno' : 'trocaProf'];
+    /* troca no lugar: o voltar do navegador continua levando de onde a pessoa veio */
+    a.addEventListener('click', function (ev) { ev.preventDefault(); location.replace(a.href); });
   });
 })();
 
@@ -3299,9 +3298,7 @@ portalPracticeBoot();
 /* Para onde o "voltar" leva. A ferramenta atende DOIS públicos: o professor,
    que chega pelo Fisk Hub, e o aluno, que chega pelo Portal. O link fixo
    mandava todo mundo para o Hub, ou seja, o aluno caía na tela de login do
-   professor. Quem chega com ?raf= veio do Portal. E quando há histórico na
-   aba (navegação normal, não nova aba), voltar de verdade é melhor do que
-   qualquer URL fixa: devolve exatamente a página de origem. */
+   professor. Quem chega com ?raf= veio do Portal. */
 (function () {
   /* O parâmetro `raf` é o sinal de que veio do Portal, mesmo VAZIO: a direção
      entra com ele em branco, e testar o conteúdo mandaria justamente ela para
@@ -3320,14 +3317,14 @@ portalPracticeBoot();
     if (!el) return;
     if (qsp.has('raf')) {
       el.href = 'https://portalfisk.com.br/' + (raf ? '#raf=' + encodeURIComponent(raf) : '');
-      /* O logo entra por causa do href e do history.back(), mas NUNCA pelo
-         texto: reescrever o innerHTML dele apagaria a imagem e deixaria a
-         seta escrita no lugar do logo da escola. */
-      if (id !== 'logo-home') el.innerHTML = '&#8592; Portal do Aluno';
+      /* Os logos entram por causa do href, mas NUNCA pelo texto: reescrever
+         o innerHTML deles apagaria a imagem e deixaria a seta no lugar. */
+      if (id === 'hub-back') el.innerHTML = '&#8592; Portal do Aluno';
     }
-    el.addEventListener('click', function (ev) {
-      if (history.length > 1) { ev.preventDefault(); history.back(); }
-    });
+    /* SEM `history.back()` (09/10/2026): ele devolvia "a página anterior da
+       aba", que depois de trocar de modo era a própria ferramenta no outro
+       modo, e numa aba aberta por link era outro site. O href já leva o RAF
+       e o Portal entra direto com ele. */
   });
 })();
 </script>
