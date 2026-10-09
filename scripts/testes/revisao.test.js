@@ -117,5 +117,17 @@ ok('sem historico a fila e vazia e a URL e nula', r.fila.length===0 && r.url===n
 ok('a regra de dominar continua 70 com piso 6',
    D.REGRA.domina===70 && D.REGRA.piso===6, D.REGRA);
 
+/* ── o nome da divisão é o do livro: "Lección" nos Inmediato, "Lesson" nos de inglês ── */
+const mapaEs = { chaveDoNome:{'Inmediato 2':'inmediato2','Transitions 1':'transitions1'},
+  licoes:{ inmediato2:{'Futuro Simple':6}, transitions1:{'Tag Questions':1} } };
+ok('o aluno de espanhol le "Lección N"',
+   (D.ondeEstuda('Futuro Simple','Inmediato 2',mapaEs)||{}).rotulo==='Lección 6', D.ondeEstuda('Futuro Simple','Inmediato 2',mapaEs));
+ok('o de ingles continua em "Lesson N"',
+   (D.ondeEstuda('Tag Questions','Transitions 1',mapaEs)||{}).rotulo==='Lesson 1', D.ondeEstuda('Tag Questions','Transitions 1',mapaEs));
+/* e o Custom Practice: os tres Inmediato declaram a divisao no BOOKS do index.html */
+const html = require('fs').readFileSync(require('path').join(__dirname,'../../index.html'),'utf8');
+ok('os tres Inmediato tem divisao "Lección" no BOOKS',
+   (html.match(/^\s*inmediato[123]:.*divisao: 'Lección'/gm)||[]).length===3);
+
 console.log(falhas ? '\n'+falhas+' caso(s) falharam' : '\ntodos os casos passaram');
 process.exit(falhas?1:0);

@@ -78,7 +78,9 @@
     for (var i = 0; i < candidatos.length; i++) {
       var v = licoes[candidatos[i]] && licoes[candidatos[i]][topico];
       if (v === undefined) continue;
-      if (typeof v === 'number') return { tipo: 'licao', licao: v, rotulo: 'Lesson ' + v };
+      /* O nome da divisão é o do livro: os Inmediato contam "Lección", não "Lesson". */
+      if (typeof v === 'number') return { tipo: 'licao', licao: v,
+        rotulo: (/^inmediato/.test(candidatos[i]) ? 'Lección ' : 'Lesson ') + v };
       return { tipo: 'frente', rotulo: String(v) };
     }
     return null;
