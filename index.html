@@ -396,6 +396,8 @@
        A questão travada mostra o certo e o errado no próprio card, com a
        explicação embaixo. Midterm e Final continuam conferindo só no fim:
        eles simulam a prova. */
+    .fala-lab { display: block; margin: 14px 0 4px; padding: 12px 14px; border-radius: 12px; background: #eef4ff; border: 1.5px solid #c7d7f5; color: #1e3a8a; font-weight: 600; text-decoration: none; }
+    .fala-lab:hover { background: #e0ebff; }
     .q-card.fb-done { border-color: var(--gray-lt); }
     .q-card.fb-done .opt-btn { cursor: default; }
     .q-card.fb-done .opt-btn:hover { border-color: var(--gray-lt); }
@@ -2874,6 +2876,22 @@ function renderResults(score) {
   }
 
   document.getElementById('feedback-wrap').innerHTML = generateFeedback(score, wrongTopics, correctTopics);
+  /* Speaking Lab da mesma lição (23/10/2026): só quando o QP veio do portal
+     com aluno e lição (Pre-Checking, Explanation Video). O `?pratica=` do
+     Speaking abre direto a prática daquela lição; a identidade vai no fragmento. */
+  const FALA_ABREV = { essentials1: 'e1', essentials2: 'e2', transitions1: 't1', transitions2: 't2', fluency1: 'f1', fluency2: 'f2',
+    infocus: 'if', inmediato1: 'i1', inmediato2: 'i2', inmediato3: 'i3', teensconnect1: 'tc1', teensconnect2: 'tc2' };
+  if (PORTAL_RAF && PORTAL_LICAO && /^\d+$/.test(PORTAL_LICAO) && FALA_ABREV[state.book]) {
+    const es = bookLang(state.book) === 'es';
+    const url = 'https://portalfisk.com.br/speaking/?book=' + encodeURIComponent(BOOKS[state.book].name) +
+      '&pratica=' + FALA_ABREV[state.book] + '-l' + PORTAL_LICAO +
+      '#raf=' + encodeURIComponent(PORTAL_RAF) + (PORTAL_NOME ? '&nome=' + encodeURIComponent(PORTAL_NOME) : '');
+    const box = document.createElement('a');
+    box.className = 'fala-lab'; box.href = url; box.target = '_blank'; box.rel = 'noopener';
+    box.textContent = es ? '🎤 Ahora practica la expresión oral de esta lección en el Speaking Lab →'
+                         : '🎤 Now practice speaking this lesson in the Speaking Lab →';
+    document.getElementById('feedback-wrap').appendChild(box);
+  }
 
   const list = document.getElementById('review-list');
   list.innerHTML = state.questions.map((q, i) => {
