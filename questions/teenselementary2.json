@@ -472,7 +472,17 @@
           "am not"
         ],
         "correct": 1,
-        "explanation": "Na resposta curta, o sujeito muda e o verbo acompanha. Com 'I', a negativa do verbo to be no passado é 'wasn't'. Portanto, a resposta correta é 'No, I WASN'T.'"
+        "explanation": "Na resposta curta, o sujeito muda e o verbo acompanha. Com 'I', a negativa do verbo to be no passado é 'wasn't'. Portanto, a resposta correta é 'No, I WASN'T.'",
+        "dialogue": [
+          [
+            "A",
+            "Were you at the bakery this morning?"
+          ],
+          [
+            "B",
+            "No, I _____. I was at the post office."
+          ]
+        ]
       },
       {
         "id": "te2m37",
@@ -946,7 +956,17 @@
           "shes"
         ],
         "correct": 0,
-        "explanation": "Para responder de quem é algo sem repetir o objeto, usamos o pronome possessivo sozinho: 'hers'. O 'her' precisaria do substantivo junto, como 'her keyboard'. Portanto, a resposta correta é 'It's HERS.'"
+        "explanation": "Para responder de quem é algo sem repetir o objeto, usamos o pronome possessivo sozinho: 'hers'. O 'her' precisaria do substantivo junto, como 'her keyboard'. Portanto, a resposta correta é 'It's HERS.'",
+        "dialogue": [
+          [
+            "A",
+            "Whose keyboard is this?"
+          ],
+          [
+            "B",
+            "It's _____. Ana plays it every day."
+          ]
+        ]
       },
       {
         "id": "te2f13",
@@ -1544,7 +1564,17 @@
           "old"
         ],
         "correct": 1,
-        "explanation": "Para perguntar a duração de algo, quanto tempo durou, usamos 'how long'. A resposta fala de duas semanas, que é tempo. Portanto, a resposta correta é 'How LONG was your vacation?'"
+        "explanation": "Para perguntar a duração de algo, quanto tempo durou, usamos 'how long'. A resposta fala de duas semanas, que é tempo. Portanto, a resposta correta é 'How LONG was your vacation?'",
+        "dialogue": [
+          [
+            "A",
+            "How _____ was your vacation?"
+          ],
+          [
+            "B",
+            "It was two weeks."
+          ]
+        ]
       },
       {
         "id": "te2f59",

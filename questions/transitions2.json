@@ -1011,7 +1011,17 @@
           "already"
         ],
         "correct": 2,
-        "explanation": "Quando queremos dizer que algo que acontecia antes não acontece mais, usamos 'anymore' no final de uma frase negativa. Neste caso, a pessoa parou de tomar refrigerante, antes tomava, agora não toma mais. Portanto, a resposta correta é ANYMORE."
+        "explanation": "Quando queremos dizer que algo que acontecia antes não acontece mais, usamos 'anymore' no final de uma frase negativa. Neste caso, a pessoa parou de tomar refrigerante, antes tomava, agora não toma mais. Portanto, a resposta correta é ANYMORE.",
+        "dialogue": [
+          [
+            "A",
+            "Do you still drink a lot of soda?"
+          ],
+          [
+            "B",
+            "No, I don't drink a lot of soda _____."
+          ]
+        ]
       },
       {
         "id": "t2f13",
@@ -1297,7 +1307,17 @@
           "anymore"
         ],
         "correct": 3,
-        "explanation": "'Anymore' aparece no final de frases negativas para indicar que uma situação que existia antes mudou. A pergunta usa 'still' (ainda) e a resposta usa 'anymore' para dizer que a situação não existe mais. Portanto, a resposta correta é ANYMORE."
+        "explanation": "'Anymore' aparece no final de frases negativas para indicar que uma situação que existia antes mudou. A pergunta usa 'still' (ainda) e a resposta usa 'anymore' para dizer que a situação não existe mais. Portanto, a resposta correta é ANYMORE.",
+        "dialogue": [
+          [
+            "A",
+            "Do you still work at that bakery?"
+          ],
+          [
+            "B",
+            "No, I don't work there _____."
+          ]
+        ]
       },
       {
         "id": "t2f35",

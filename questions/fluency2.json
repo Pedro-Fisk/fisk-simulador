@@ -17,7 +17,17 @@
           "the"
         ],
         "correct": 1,
-        "explanation": "Quando alguém já mencionou um objeto e não queremos repetir o nome dele, usamos ONE no lugar. Neste caso, a pessoa perguntou sobre 'a pen' e a resposta diz 'sim, tenho um' sem precisar repetir 'a pen', ONE substitui o objeto já mencionado. Portanto, a resposta correta é ONE."
+        "explanation": "Quando alguém já mencionou um objeto e não queremos repetir o nome dele, usamos ONE no lugar. Neste caso, a pessoa perguntou sobre 'a pen' e a resposta diz 'sim, tenho um' sem precisar repetir 'a pen', ONE substitui o objeto já mencionado. Portanto, a resposta correta é ONE.",
+        "dialogue": [
+          [
+            "A",
+            "Do you have a pen?"
+          ],
+          [
+            "B",
+            "Yes, I have _____."
+          ]
+        ]
       },
       {
         "id": "f2m02",
@@ -121,7 +131,18 @@
           "Either"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dizer 'eu também não' (concordar com algo negativo) usamos 'Neither' seguido do auxiliar e do sujeito. Neste caso, a pessoa disse que não estava com fome e a resposta concorda: 'NEITHER am I'. Essa é a forma padrão e mais comum para concordância negativa. Portanto, a resposta correta é NEITHER."
+        "explanation": "Quando queremos dizer 'eu também não' (concordar com algo negativo) usamos 'Neither' seguido do auxiliar e do sujeito. Neste caso, a pessoa disse que não estava com fome e a resposta concorda: 'NEITHER am I'. Essa é a forma padrão e mais comum para concordância negativa. Portanto, a resposta correta é NEITHER.",
+        "dialogue": [
+          [
+            "A",
+            "I'm not hungry."
+          ],
+          [
+            "B",
+            "_____ am I."
+          ]
+        ],
+        "dialogueNote": "agreement with negative"
       },
       {
         "id": "f2m10",
@@ -134,7 +155,18 @@
           "Neither did"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dizer 'eu também' (concordar com algo positivo) usamos 'so' mais o verbo e o sujeito. Neste caso, a pessoa curtiu a festa e a resposta concorda: a estrutura é 'So + verbo + sujeito', ou seja, 'So did I'. Portanto, a resposta correta é SO did I."
+        "explanation": "Quando queremos dizer 'eu também' (concordar com algo positivo) usamos 'so' mais o verbo e o sujeito. Neste caso, a pessoa curtiu a festa e a resposta concorda: a estrutura é 'So + verbo + sujeito', ou seja, 'So did I'. Portanto, a resposta correta é SO did I.",
+        "dialogue": [
+          [
+            "A",
+            "I enjoyed the party."
+          ],
+          [
+            "B",
+            "_____ did I."
+          ]
+        ],
+        "dialogueNote": "agreement with positive"
       },
       {
         "id": "f2m11",
@@ -251,7 +283,18 @@
           "so do"
         ],
         "correct": 0,
-        "explanation": "Quando queremos discordar de algo negativo (dizer que você gosta de algo que a outra pessoa não gosta) usamos o verbo positivo com ênfase. Neste caso, a pessoa disse que não gosta de cenouras e a outra discorda: 'Really? I DO!', o 'do' com ênfase mostra que sim, gosta. Portanto, a resposta correta é DO."
+        "explanation": "Quando queremos discordar de algo negativo (dizer que você gosta de algo que a outra pessoa não gosta) usamos o verbo positivo com ênfase. Neste caso, a pessoa disse que não gosta de cenouras e a outra discorda: 'Really? I DO!', o 'do' com ênfase mostra que sim, gosta. Portanto, a resposta correta é DO.",
+        "dialogue": [
+          [
+            "A",
+            "I don't like carrots."
+          ],
+          [
+            "B",
+            "Really? I _____!"
+          ]
+        ],
+        "dialogueNote": "disagreement"
       },
       {
         "id": "f2m20",
@@ -303,7 +346,17 @@
           "the"
         ],
         "correct": 2,
-        "explanation": "Quando queremos nos referir a algo que já foi mencionado sem repetir o substantivo, usamos ONE no lugar. Neste caso, 'a pencil' já apareceu na pergunta e ONE evita a repetição: 'could you lend me ONE, please?'. 'A', 'an' e 'the' não ficam sozinhos, sem o substantivo. Portanto, a resposta correta é ONE."
+        "explanation": "Quando queremos nos referir a algo que já foi mencionado sem repetir o substantivo, usamos ONE no lugar. Neste caso, 'a pencil' já apareceu na pergunta e ONE evita a repetição: 'could you lend me ONE, please?'. 'A', 'an' e 'the' não ficam sozinhos, sem o substantivo. Portanto, a resposta correta é ONE.",
+        "dialogue": [
+          [
+            "A",
+            "Do you need a pencil?"
+          ],
+          [
+            "B",
+            "Yes, could you lend me _____, please?"
+          ]
+        ]
       },
       {
         "id": "f2m24",
@@ -316,7 +369,17 @@
           "the"
         ],
         "correct": 0,
-        "explanation": "Quando queremos nos referir a algo que já foi mencionado sem repeti-lo, usamos ONE. Neste caso, a pessoa perguntou sobre um supermercado ('a supermarket') e a resposta diz 'there's one', ONE evita repetir 'a supermarket'. Portanto, a resposta correta é ONE."
+        "explanation": "Quando queremos nos referir a algo que já foi mencionado sem repeti-lo, usamos ONE. Neste caso, a pessoa perguntou sobre um supermercado ('a supermarket') e a resposta diz 'there's one', ONE evita repetir 'a supermarket'. Portanto, a resposta correta é ONE.",
+        "dialogue": [
+          [
+            "A",
+            "Is there a supermarket near here?"
+          ],
+          [
+            "B",
+            "Yes, there's _____ on Main Street."
+          ]
+        ]
       },
       {
         "id": "f2m25",
@@ -381,7 +444,17 @@
           "Not either"
         ],
         "correct": 1,
-        "explanation": "Quando queremos concordar com algo negativo usando 'never', usamos 'Neither' antes do auxiliar e do sujeito. Essa é a forma padrão. Neste caso, nenhum dos dois foi ao Japão: 'NEITHER have I'. Portanto, a resposta correta é NEITHER."
+        "explanation": "Quando queremos concordar com algo negativo usando 'never', usamos 'Neither' antes do auxiliar e do sujeito. Essa é a forma padrão. Neste caso, nenhum dos dois foi ao Japão: 'NEITHER have I'. Portanto, a resposta correta é NEITHER.",
+        "dialogue": [
+          [
+            "A",
+            "I've never been to Japan."
+          ],
+          [
+            "B",
+            "_____ have I."
+          ]
+        ]
       },
       {
         "id": "f2m30",
@@ -394,7 +467,17 @@
           "Not"
         ],
         "correct": 2,
-        "explanation": "Quando queremos dizer 'eu também' (concordar com algo positivo) usamos 'So' antes do auxiliar e do sujeito. Neste caso, as duas pessoas sabem nadar bem: 'So CAN I'. A estrutura é 'So + auxiliar + sujeito'. Portanto, a resposta correta é SO."
+        "explanation": "Quando queremos dizer 'eu também' (concordar com algo positivo) usamos 'So' antes do auxiliar e do sujeito. Neste caso, as duas pessoas sabem nadar bem: 'So CAN I'. A estrutura é 'So + auxiliar + sujeito'. Portanto, a resposta correta é SO.",
+        "dialogue": [
+          [
+            "A",
+            "I can swim very well."
+          ],
+          [
+            "B",
+            "_____ can I."
+          ]
+        ]
       },
       {
         "id": "f2m31",
@@ -758,7 +841,18 @@
           "so do"
         ],
         "correct": 2,
-        "explanation": "Quando queremos discordar de algo negativo (dizer que você faz algo que a outra pessoa não faz) usamos o verbo auxiliar positivo com ênfase. Neste caso, a pessoa disse que nunca assiste TV, e você discorda porque assiste toda noite: 'Really? I DO!', o 'do' enfático expressa que você faz. Portanto, a resposta correta é DO."
+        "explanation": "Quando queremos discordar de algo negativo (dizer que você faz algo que a outra pessoa não faz) usamos o verbo auxiliar positivo com ênfase. Neste caso, a pessoa disse que nunca assiste TV, e você discorda porque assiste toda noite: 'Really? I DO!', o 'do' enfático expressa que você faz. Portanto, a resposta correta é DO.",
+        "dialogue": [
+          [
+            "A",
+            "I never watch TV."
+          ],
+          [
+            "B",
+            "Really? I _____ every night!"
+          ]
+        ],
+        "dialogueNote": "disagreement"
       },
       {
         "id": "f2m59",
@@ -771,7 +865,18 @@
           "so do"
         ],
         "correct": 1,
-        "explanation": "Quando queremos discordar de algo positivo (dizer que você não gosta de algo que a outra pessoa gosta) usamos o verbo auxiliar negativo com ênfase. Neste caso, a pessoa disse que ama música clássica, mas você não gosta: 'Really? I DON'T!', o 'don't' enfático expressa discordância. Portanto, a resposta correta é DON'T."
+        "explanation": "Quando queremos discordar de algo positivo (dizer que você não gosta de algo que a outra pessoa gosta) usamos o verbo auxiliar negativo com ênfase. Neste caso, a pessoa disse que ama música clássica, mas você não gosta: 'Really? I DON'T!', o 'don't' enfático expressa discordância. Portanto, a resposta correta é DON'T.",
+        "dialogue": [
+          [
+            "A",
+            "I love classical music."
+          ],
+          [
+            "B",
+            "Really? I _____!"
+          ]
+        ],
+        "dialogueNote": "disagreement"
       },
       {
         "id": "f2m60",
@@ -784,7 +889,18 @@
           "neither have"
         ],
         "correct": 1,
-        "explanation": "Quando queremos discordar de algo positivo (dizer que você não fez algo que a outra pessoa já fez) usamos o auxiliar negativo com ênfase. Neste caso, a pessoa já viu o filme, mas você não viu, tanto que ainda comprou ingressos: 'Have you? I HAVEN'T!' Portanto, a resposta correta é HAVEN'T."
+        "explanation": "Quando queremos discordar de algo positivo (dizer que você não fez algo que a outra pessoa já fez) usamos o auxiliar negativo com ênfase. Neste caso, a pessoa já viu o filme, mas você não viu, tanto que ainda comprou ingressos: 'Have you? I HAVEN'T!' Portanto, a resposta correta é HAVEN'T.",
+        "dialogue": [
+          [
+            "A",
+            "I've already seen that film. Have you?"
+          ],
+          [
+            "B",
+            "I _____! I just bought the tickets!"
+          ]
+        ],
+        "dialogueNote": "disagreement"
       },
       {
         "id": "f2m61",
@@ -797,7 +913,18 @@
           "so am"
         ],
         "correct": 0,
-        "explanation": "Quando queremos discordar de algo negativo (dizer que você está bem quando a outra pessoa não está) usamos o auxiliar positivo com ênfase. Neste caso, a pessoa não está se sentindo bem, mas você se sente ótimo: 'Aren't you? I AM feeling great!', o 'am' positivo expressa discordância. Portanto, a resposta correta é AM FEELING."
+        "explanation": "Quando queremos discordar de algo negativo (dizer que você está bem quando a outra pessoa não está) usamos o auxiliar positivo com ênfase. Neste caso, a pessoa não está se sentindo bem, mas você se sente ótimo: 'Aren't you? I AM feeling great!', o 'am' positivo expressa discordância. Portanto, a resposta correta é AM FEELING.",
+        "dialogue": [
+          [
+            "A",
+            "I'm not feeling well today."
+          ],
+          [
+            "B",
+            "Aren't you? I _____ great!"
+          ]
+        ],
+        "dialogueNote": "disagreement"
       },
       {
         "id": "f2m62",

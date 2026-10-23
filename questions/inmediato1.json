@@ -444,7 +444,17 @@
           "todos"
         ],
         "correct": 3,
-        "explanation": "'Todos los' + dia da semana indica uma frequência semanal regular: 'Estudio todos los martes y jueves'. 'Cada' não se usa com artigo ('cada martes'), e 'los' sozinho dobraria o artigo que já está na frase. Portanto, a resposta correta é 'todos'."
+        "explanation": "'Todos los' + dia da semana indica uma frequência semanal regular: 'Estudio todos los martes y jueves'. 'Cada' não se usa com artigo ('cada martes'), e 'los' sozinho dobraria o artigo que já está na frase. Portanto, a resposta correta é 'todos'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Con qué frecuencia estudias español?"
+          ],
+          [
+            "B",
+            "Estudio _____ los martes y jueves."
+          ]
+        ]
       },
       {
         "id": "i1m35",
@@ -860,7 +870,18 @@
           "nuestra"
         ],
         "correct": 2,
-        "explanation": "A pergunta usa 'tuya' (sua, de você) e a resposta indica que a mochila pertence a quem fala: 'mía'. Como 'mochila' é feminino singular, o possessivo tônico também vai para o feminino singular. 'Suya' seria de outra pessoa e 'nuestra' seria de um grupo. Portanto, a resposta correta é 'mía'."
+        "explanation": "A pergunta usa 'tuya' (sua, de você) e a resposta indica que a mochila pertence a quem fala: 'mía'. Como 'mochila' é feminino singular, o possessivo tônico também vai para o feminino singular. 'Suya' seria de outra pessoa e 'nuestra' seria de um grupo. Portanto, a resposta correta é 'mía'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Es tuya esa mochila?"
+          ],
+          [
+            "B",
+            "Sí, es _____."
+          ]
+        ],
+        "dialogueNote": "de mí"
       },
       {
         "id": "i1m67",
@@ -1146,7 +1167,17 @@
           "Nunca"
         ],
         "correct": 2,
-        "explanation": "'Una vez al año' = uma vez por ano. Para expressar frequência, usamos 'una vez / dos veces / tres veces + a la semana / al mes / al año'."
+        "explanation": "'Una vez al año' = uma vez por ano. Para expressar frequência, usamos 'una vez / dos veces / tres veces + a la semana / al mes / al año'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Con qué frecuencia vas al dentista?"
+          ],
+          [
+            "B",
+            "_____ al año."
+          ]
+        ]
       },
       {
         "id": "i1m89",
@@ -1328,7 +1359,17 @@
           "nuestras"
         ],
         "correct": 3,
-        "explanation": "'Nuestras' é a forma feminina plural do possessivo tônico de 'nosotros'. Como 'mochilas' é feminino plural, o possessivo concorda: 'son nuestras'. 'Tuyas' seria de 'tú', 'mías' de quem fala e 'suyas' de outras pessoas. Portanto, a resposta correta é 'nuestras'."
+        "explanation": "'Nuestras' é a forma feminina plural do possessivo tônico de 'nosotros'. Como 'mochilas' é feminino plural, o possessivo concorda: 'son nuestras'. 'Tuyas' seria de 'tú', 'mías' de quem fala e 'suyas' de outras pessoas. Portanto, a resposta correta é 'nuestras'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Son vuestras estas mochilas?"
+          ],
+          [
+            "B",
+            "Sí, son _____."
+          ]
+        ]
       },
       {
         "id": "i1m103",
@@ -1432,7 +1473,17 @@
           "él"
         ],
         "correct": 2,
-        "explanation": "O diálogo é formal ('Buenos días', 'doctor', '¿Cómo está?'), então a resposta devolve a pergunta com o pronome formal: '¿y usted?'. '¿Y tú?' só serve no tratamento informal. Portanto, a resposta correta é 'usted'."
+        "explanation": "O diálogo é formal ('Buenos días', 'doctor', '¿Cómo está?'), então a resposta devolve a pergunta com o pronome formal: '¿y usted?'. '¿Y tú?' só serve no tratamento informal. Portanto, a resposta correta é 'usted'.",
+        "dialogue": [
+          [
+            "A",
+            "Buenos días, doctor Ramos. ¿Cómo está?"
+          ],
+          [
+            "B",
+            "Muy bien, gracias, ¿y _____?"
+          ]
+        ]
       },
       {
         "id": "i1m111",
@@ -2030,7 +2081,18 @@
           "uno"
         ],
         "correct": 0,
-        "explanation": "Quando o ordinal não vem seguido de substantivo, ele mantém a forma completa: 'Vivo en el primero' (o substantivo 'piso' fica subentendido). A forma curta 'primer' só se usa diretamente antes de substantivo masculino singular, como em 'el primer piso'. Portanto, a resposta correta é 'primero'."
+        "explanation": "Quando o ordinal não vem seguido de substantivo, ele mantém a forma completa: 'Vivo en el primero' (o substantivo 'piso' fica subentendido). A forma curta 'primer' só se usa diretamente antes de substantivo masculino singular, como em 'el primer piso'. Portanto, a resposta correta é 'primero'.",
+        "dialogue": [
+          [
+            "A",
+            "¿En qué piso vives?"
+          ],
+          [
+            "B",
+            "Mi tía vive en el décimo y yo, en el _____."
+          ]
+        ],
+        "dialogueNote": "1º"
       },
       {
         "id": "i1m157",
@@ -2333,7 +2395,17 @@
           "En"
         ],
         "correct": 3,
-        "explanation": "Com meios de transporte (exceto 'a pie'), usamos 'en'. 'En taxi' = de táxi."
+        "explanation": "Com meios de transporte (exceto 'a pie'), usamos 'en'. 'En taxi' = de táxi.",
+        "dialogue": [
+          [
+            "A",
+            "¿Cómo vas al aeropuerto?"
+          ],
+          [
+            "B",
+            "_____ taxi."
+          ]
+        ]
       },
       {
         "id": "i1f20",
@@ -2398,7 +2470,17 @@
           "los"
         ],
         "correct": 2,
-        "explanation": "'El libro' é masculino singular. O pronome de complemento direto masculino singular é 'lo'. 'Lo tengo' = eu o tenho."
+        "explanation": "'El libro' é masculino singular. O pronome de complemento direto masculino singular é 'lo'. 'Lo tengo' = eu o tenho.",
+        "dialogue": [
+          [
+            "A",
+            "¿Tienes el libro?"
+          ],
+          [
+            "B",
+            "Sí, _____ tengo."
+          ]
+        ]
       },
       {
         "id": "i1f25",
@@ -2411,7 +2493,17 @@
           "los"
         ],
         "correct": 1,
-        "explanation": "'María' é feminino singular. O pronome de complemento direto feminino singular é 'la'. 'La veo' = eu a vejo."
+        "explanation": "'María' é feminino singular. O pronome de complemento direto feminino singular é 'la'. 'La veo' = eu a vejo.",
+        "dialogue": [
+          [
+            "A",
+            "¿Ves a María en la fiesta?"
+          ],
+          [
+            "B",
+            "Sí, _____ veo."
+          ]
+        ]
       },
       {
         "id": "i1f26",
@@ -2424,7 +2516,17 @@
           "los"
         ],
         "correct": 2,
-        "explanation": "'Las frutas' é feminino plural. O pronome de complemento direto feminino plural é 'las'. 'Las compro' = eu as compro."
+        "explanation": "'Las frutas' é feminino plural. O pronome de complemento direto feminino plural é 'las'. 'Las compro' = eu as compro.",
+        "dialogue": [
+          [
+            "A",
+            "¿Compras las frutas en el mercado?"
+          ],
+          [
+            "B",
+            "Sí, _____ compro allí."
+          ]
+        ]
       },
       {
         "id": "i1f27",
@@ -2437,7 +2539,17 @@
           "los"
         ],
         "correct": 3,
-        "explanation": "'Tus padres' é masculino plural. O pronome de complemento direto masculino plural é 'los'. 'Los llamo' = eu ligo para eles. Portanto, a resposta correta é 'los'."
+        "explanation": "'Tus padres' é masculino plural. O pronome de complemento direto masculino plural é 'los'. 'Los llamo' = eu ligo para eles. Portanto, a resposta correta é 'los'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Llamas a tus padres con frecuencia?"
+          ],
+          [
+            "B",
+            "Sí, _____ llamo todos los domingos."
+          ]
+        ]
       },
       {
         "id": "i1f28",
@@ -2840,7 +2952,17 @@
           "los"
         ],
         "correct": 3,
-        "explanation": "'Mis hermanos' é masculino plural. O pronome de complemento direto masculino plural é 'los'. 'Los veo' = eu os vejo."
+        "explanation": "'Mis hermanos' é masculino plural. O pronome de complemento direto masculino plural é 'los'. 'Los veo' = eu os vejo.",
+        "dialogue": [
+          [
+            "A",
+            "¿Ves a mis hermanos en la foto?"
+          ],
+          [
+            "B",
+            "Sí, _____ veo perfectamente."
+          ]
+        ]
       },
       {
         "id": "i1f59",
@@ -3074,7 +3196,17 @@
           "En"
         ],
         "correct": 3,
-        "explanation": "Em espanhol, a preposição 'en' é usada com meios de transporte: en autobús, en metro, en coche... A exceção é 'a pie' (a pé), que usa a preposição 'a'."
+        "explanation": "Em espanhol, a preposição 'en' é usada com meios de transporte: en autobús, en metro, en coche... A exceção é 'a pie' (a pé), que usa a preposição 'a'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Cómo vas a la universidad?"
+          ],
+          [
+            "B",
+            "_____ autobús."
+          ]
+        ]
       },
       {
         "id": "i1f72",
@@ -3594,7 +3726,17 @@
           "Por eso"
         ],
         "correct": 1,
-        "explanation": "Quando recusamos um convite e damos a desculpa, a justificativa começa com 'es que'. 'Por qué' serve para perguntar o motivo, 'porqué' com acento é o substantivo e 'por eso' indica consequência. Portanto, a resposta correta é 'Es que'."
+        "explanation": "Quando recusamos um convite e damos a desculpa, a justificativa começa com 'es que'. 'Por qué' serve para perguntar o motivo, 'porqué' com acento é o substantivo e 'por eso' indica consequência. Portanto, a resposta correta é 'Es que'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Quedamos el viernes para cenar?"
+          ],
+          [
+            "B",
+            "Lo siento, no puedo. _____ ese día trabajo hasta tarde."
+          ]
+        ]
       },
       {
         "id": "i1f117",
@@ -3633,7 +3775,17 @@
           "Por eso"
         ],
         "correct": 0,
-        "explanation": "Depois de um pedido de desculpas, a justificativa começa com 'es que'. 'Por qué' é a pergunta sobre o motivo, 'porqué' com acento é o substantivo e 'por eso' indica consequência, não causa. Portanto, a resposta correta é 'Es que'."
+        "explanation": "Depois de um pedido de desculpas, a justificativa começa com 'es que'. 'Por qué' é a pergunta sobre o motivo, 'porqué' com acento é o substantivo e 'por eso' indica consequência, não causa. Portanto, a resposta correta é 'Es que'.",
+        "dialogue": [
+          [
+            "A",
+            "Te llamé anoche y no me contestaste."
+          ],
+          [
+            "B",
+            "Perdón, _____ dejé el celular en casa."
+          ]
+        ]
       },
       {
         "id": "i1f120",
@@ -3698,7 +3850,17 @@
           "lo he traído"
         ],
         "correct": 0,
-        "explanation": "Com um verbo conjugado, o pronome de complemento direto vai antes dele, e 'los cuadernos' pede 'los'. No pretérito perfeito composto o pronome fica antes de 'he': 'los he traído'. Portanto, a resposta correta é 'los he traído'."
+        "explanation": "Com um verbo conjugado, o pronome de complemento direto vai antes dele, e 'los cuadernos' pede 'los'. No pretérito perfeito composto o pronome fica antes de 'he': 'los he traído'. Portanto, a resposta correta é 'los he traído'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Has traído los cuadernos?"
+          ],
+          [
+            "B",
+            "Sí, _____."
+          ]
+        ]
       },
       {
         "id": "i1f125",
@@ -3802,7 +3964,17 @@
           "No sé, tal vez..."
         ],
         "correct": 2,
-        "explanation": "'Aquí lo tienes' entrega o objeto, então a frase anterior tem que aceitar o pedido: '¡Claro que sí! Aquí lo tienes.'. As outras opções negam ou deixam em dúvida. Portanto, a resposta correta é '¡Claro que sí!'."
+        "explanation": "'Aquí lo tienes' entrega o objeto, então a frase anterior tem que aceitar o pedido: '¡Claro que sí! Aquí lo tienes.'. As outras opções negam ou deixam em dúvida. Portanto, a resposta correta é '¡Claro que sí!'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Me dejas tu cuaderno?"
+          ],
+          [
+            "B",
+            "_____ Aquí lo tienes."
+          ]
+        ]
       },
       {
         "id": "i1f133",
@@ -3815,7 +3987,17 @@
           "cómo no"
         ],
         "correct": 1,
-        "explanation": "Para negar um pedido, o livro dá a justificativa 'porque lo estoy usando'. As outras expressões servem para aceitar, e não combinam com 'Lo siento, no te lo puedo prestar'. Portanto, a resposta correta é 'lo estoy usando'."
+        "explanation": "Para negar um pedido, o livro dá a justificativa 'porque lo estoy usando'. As outras expressões servem para aceitar, e não combinam com 'Lo siento, no te lo puedo prestar'. Portanto, a resposta correta é 'lo estoy usando'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Me prestas tu diccionario?"
+          ],
+          [
+            "B",
+            "Lo siento, no te lo puedo prestar porque _____."
+          ]
+        ]
       },
       {
         "id": "i1f134",

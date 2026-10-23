@@ -290,7 +290,17 @@
           "has taken"
         ],
         "correct": 2,
-        "explanation": "Quando respondemos uma pergunta sobre quanto tempo algo levou no passado, usamos a forma passada de 'take'. Neste caso, a pergunta foi feita no passado com 'did', então a resposta também precisa ser no passado. Portanto, a resposta correta é 'TOOK'."
+        "explanation": "Quando respondemos uma pergunta sobre quanto tempo algo levou no passado, usamos a forma passada de 'take'. Neste caso, a pergunta foi feita no passado com 'did', então a resposta também precisa ser no passado. Portanto, a resposta correta é 'TOOK'.",
+        "dialogue": [
+          [
+            "A",
+            "How long did it take you to finish the book?"
+          ],
+          [
+            "B",
+            "It _____ me two hours."
+          ]
+        ]
       },
       {
         "id": "f1m23",
@@ -355,7 +365,17 @@
           "was fixing"
         ],
         "correct": 2,
-        "explanation": "Quando queremos explicar um estado presente (como mãos sujas) por causa de uma atividade recente que ficamos fazendo, usamos 'have/has been' + verbo com -ing. Neste caso, as mãos sujas mostram que a pessoa estava consertando a bicicleta por um tempo. Portanto, a resposta correta é 'HAVE BEEN FIXING'."
+        "explanation": "Quando queremos explicar um estado presente (como mãos sujas) por causa de uma atividade recente que ficamos fazendo, usamos 'have/has been' + verbo com -ing. Neste caso, as mãos sujas mostram que a pessoa estava consertando a bicicleta por um tempo. Portanto, a resposta correta é 'HAVE BEEN FIXING'.",
+        "dialogue": [
+          [
+            "A",
+            "Why are your hands so dirty?"
+          ],
+          [
+            "B",
+            "I _____ the bike."
+          ]
+        ]
       },
       {
         "id": "f1m28",
@@ -803,7 +823,17 @@
           "do"
         ],
         "correct": 1,
-        "explanation": "Quando queremos confirmar algo com ênfase (dizer que sim com convicção), usamos o 'does/do/did' sozinho na resposta. Neste caso, alguém pergunta se a professora usa roupas formais, e a resposta afirma com força: 'Yes, she does!'. Portanto, a resposta correta é 'DOES'."
+        "explanation": "Quando queremos confirmar algo com ênfase (dizer que sim com convicção), usamos o 'does/do/did' sozinho na resposta. Neste caso, alguém pergunta se a professora usa roupas formais, e a resposta afirma com força: 'Yes, she does!'. Portanto, a resposta correta é 'DOES'.",
+        "dialogue": [
+          [
+            "A",
+            "Does your teacher wear formal clothes?"
+          ],
+          [
+            "B",
+            "Yes, she _____!"
+          ]
+        ]
       },
       {
         "id": "f1f02",

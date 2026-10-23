@@ -407,7 +407,17 @@
           "Which"
         ],
         "correct": 1,
-        "explanation": "Quando queremos perguntar de quem é alguma coisa, usamos 'Whose'. Cuidado com 'Who's', que significa 'Who is'. Portanto, a resposta correta é 'WHOSE dog is this?'"
+        "explanation": "Quando queremos perguntar de quem é alguma coisa, usamos 'Whose'. Cuidado com 'Who's', que significa 'Who is'. Portanto, a resposta correta é 'WHOSE dog is this?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ dog is this?"
+          ],
+          [
+            "B",
+            "It's Amanda's."
+          ]
+        ]
       },
       {
         "id": "tc2m32",

@@ -1174,7 +1174,18 @@
      "2020"
     ],
     "correct": 3,
-    "explanation": "Quando corrigimos alguém, a força da voz cai sobre a palavra que muda a informação. Aqui tudo já foi dito antes, menos a data nova, então o peso vai para 2020. Portanto, a resposta correta é 2020."
+    "explanation": "Quando corrigimos alguém, a força da voz cai sobre a palavra que muda a informação. Aqui tudo já foi dito antes, menos a data nova, então o peso vai para 2020. Portanto, a resposta correta é 2020.",
+    "dialogue": [
+     [
+      "A",
+      "I heard the park opened in 2010."
+     ],
+     [
+      "B",
+      "No, it opened in 2020."
+     ]
+    ],
+    "dialogueNote": "Which word does B stress most strongly?"
    },
    {
     "id": "pw3u04p2",
@@ -1187,7 +1198,18 @@
      "near"
     ],
     "correct": 0,
-    "explanation": "A pergunta já trouxe a ideia de acampar, então essa parte é informação velha. O que é novo na resposta é o lugar, e é nele que a voz sobe. Portanto, a resposta correta é RIVER."
+    "explanation": "A pergunta já trouxe a ideia de acampar, então essa parte é informação velha. O que é novo na resposta é o lugar, e é nele que a voz sobe. Portanto, a resposta correta é RIVER.",
+    "dialogue": [
+     [
+      "A",
+      "Where did the group camp?"
+     ],
+     [
+      "B",
+      "They camped near the river."
+     ]
+    ],
+    "dialogueNote": "Which word carries the main stress in B's answer?"
    },
    {
     "id": "pw3u04p3",
@@ -2090,7 +2112,17 @@
      "run out of"
     ],
     "correct": 1,
-    "explanation": "Stand for é significar, é o que uma sigla representa. A resposta da conversa entrega o sentido: as letras representam o nome do grupo."
+    "explanation": "Stand for é significar, é o que uma sigla representa. A resposta da conversa entrega o sentido: as letras representam o nome do grupo.",
+    "dialogue": [
+     [
+      "A",
+      "What do the letters WWF ______ ?"
+     ],
+     [
+      "B",
+      "I think it is the name of a conservation group."
+     ]
+    ]
    },
    {
     "id": "pw3u07p1",
@@ -2363,7 +2395,17 @@
      "makes sense"
     ],
     "correct": 3,
-    "explanation": "Make sense é fazer sentido, ser uma explicação que a gente aceita. A resposta mostra a pessoa concordando e mudando o que ia fazer."
+    "explanation": "Make sense é fazer sentido, ser uma explicação que a gente aceita. A resposta mostra a pessoa concordando e mudando o que ia fazer.",
+    "dialogue": [
+     [
+      "A",
+      "Take the medicine with food so that it does not upset your stomach."
+     ],
+     [
+      "B",
+      "That ______ . I will do it that way."
+     ]
+    ]
    },
    {
     "id": "pw3u08v19",
@@ -2402,7 +2444,17 @@
      "relief"
     ],
     "correct": 2,
-    "explanation": "Nonsense é bobagem, uma ideia sem pé nem cabeça. A segunda frase confirma: não existe nenhuma evidência."
+    "explanation": "Nonsense é bobagem, uma ideia sem pé nem cabeça. A segunda frase confirma: não existe nenhuma evidência.",
+    "dialogue": [
+     [
+      "A",
+      "I read online that hot water burns body fat."
+     ],
+     [
+      "B",
+      "That is complete ______ . There is no evidence for it at all."
+     ]
+    ]
    },
    {
     "id": "pw3u08v22",

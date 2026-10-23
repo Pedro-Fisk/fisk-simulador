@@ -386,6 +386,12 @@
     }
     .opt-btn.chosen .opt-letter { background: #161414; color: #ffffff; }
 
+    /* diálogo: uma fala por linha, com quem fala à esquerda */
+    .q-dlg { display: grid; gap: .3em; }
+    .dlg-l { display: grid; grid-template-columns: max-content 1fr; gap: .6em; align-items: baseline; }
+    .dlg-p { font-family: var(--font-b); font-size: .72em; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; color: var(--gray); white-space: nowrap; }
+    .dlg-nota { font-family: var(--font-b); font-size: .82em; font-weight: 600; font-style: italic; color: var(--gray); }
+
     /* ── Correção na hora (Practice, Custom e Phrasal, 23/10/2026) ──
        A questão travada mostra o certo e o errado no próprio card, com a
        explicação embaixo. Midterm e Final continuam conferindo só no fim:
@@ -1898,6 +1904,7 @@ const UI_STRINGS = {
     loadErr:     'Could not load questions. Please check your connection.',
     answerRev:   'Answer Review',
     pickedLbl:   'You chose:',
+    pessoa:      'Person',
     retakeBtn:   'Retake Quiz',
     chooseBook:  'Choose another book',
     weakBtn:     n => `Practice Weak Points (${n} topic${n!==1?'s':''})`,
@@ -1952,6 +1959,7 @@ const UI_STRINGS = {
     loadErr:     'No se pudieron cargar las preguntas. Verifica tu conexión.',
     answerRev:   'Revisión de Respuestas',
     pickedLbl:   'Marcaste:',
+    pessoa:      'Persona',
     retakeBtn:   'Repetir Examen',
     chooseBook:  'Elegir otro libro',
     weakBtn:     n => `Repasar puntos débiles (${n} tema${n!==1?'s':''})`,
@@ -2036,7 +2044,7 @@ function profRender() {
   list.innerHTML = `
     <div class="q-card" id="qcard-0">
       <div class="q-num">${S.questionLbl} ${i + 1} &middot; <span style="text-transform:none;letter-spacing:0;font-weight:700;color:var(--black);">${q.topic}</span></div>
-      <div class="q-text">${q.question}</div>
+      <div class="q-text">${enunciadoHTML(q, S)}</div>
       <div class="opts-grid">
         ${q._opts.map((opt, j) => `
           <button class="opt-btn" id="prof-opt-${j}" onclick="profSelect(${j})">
@@ -2498,6 +2506,24 @@ function startQuiz() {
   showScreen('quiz');
 }
 
+/* ── Enunciado em diálogo (23/10/2026) ───────────────────────────────────
+   Questão de diálogo escrita numa linha só ("I've already seen that film.
+   Have you? I _____!") lia como uma pessoa só, e o aluno não percebia que a
+   lacuna é a RESPOSTA de outra pessoa (pedido do Pedro). O banco guarda as
+   falas em `dialogue` ([["A", "..."], ["B", "..."]]) e a instrução que não é
+   fala em `dialogueNote`; o `question` continua inteiro para quem lê o
+   banco de fora. Nota que termina em ":" ("Completa:") vem antes das falas;
+   as outras ("disagreement", "short answer") vêm depois, entre parênteses,
+   como estavam no enunciado. */
+function enunciadoHTML(q, S) {
+  if (!Array.isArray(q.dialogue) || !q.dialogue.length) return q.question;
+  const nota = q.dialogueNote ? String(q.dialogueNote) : '';
+  const antes = /:\s*$/.test(nota);
+  const falas = q.dialogue.map(([p, t]) =>
+    `<span class="dlg-l"><span class="dlg-p">${S.pessoa} ${p}</span><span class="dlg-t">${t}</span></span>`).join('');
+  return `<span class="q-dlg">${antes ? `<span class="dlg-nota">${nota}</span>` : ''}${falas}${nota && !antes ? `<span class="dlg-nota">(${nota})</span>` : ''}</span>`;
+}
+
 /* ── Render all questions ── */
 function renderQuiz() {
   const S = UI_STRINGS[bookLang(state.book)];
@@ -2505,7 +2531,7 @@ function renderQuiz() {
   list.innerHTML = state.questions.map((q, i) => `
     <div class="q-card" id="qcard-${i}">
       <div class="q-num">${S.questionLbl} ${i + 1} &middot; <span style="text-transform:none;letter-spacing:0;font-weight:700;color:var(--black);">${q.topic}</span></div>
-      <div class="q-text">${q.question}</div>
+      <div class="q-text">${enunciadoHTML(q, S)}</div>
       <div class="opts-grid">
         ${q._opts.map((opt, j) => `
           <button class="opt-btn" id="opt-${i}-${j}" onclick="selectOption(${i}, ${j})">
@@ -2887,7 +2913,7 @@ function renderResults(score) {
           ${badge}
           <div class="r-meta">
             <div class="r-qnum">${S.questionLbl} ${i + 1} · ${q.topic}</div>
-            <div class="r-qtxt">${q.question}</div>
+            <div class="r-qtxt">${enunciadoHTML(q, S)}</div>
           </div>
         </div>
         ${picked}

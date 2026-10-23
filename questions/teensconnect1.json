@@ -43,7 +43,17 @@
           "What's your phone number"
         ],
         "correct": 1,
-        "explanation": "A resposta foi um nome: 'My name is Pedro'. Então a pergunta só pode ser sobre o nome. Portanto, a resposta correta é 'What's your name?'"
+        "explanation": "A resposta foi um nome: 'My name is Pedro'. Então a pergunta só pode ser sobre o nome. Portanto, a resposta correta é 'What's your name?'",
+        "dialogue": [
+          [
+            "A",
+            "Hi, I'm Ana. _____?"
+          ],
+          [
+            "B",
+            "My name is Pedro."
+          ]
+        ]
       },
       {
         "id": "tc1m04",
@@ -82,7 +92,25 @@
           "Write it"
         ],
         "correct": 2,
-        "explanation": "Quando queremos que alguém fale as letras de uma palavra, uma por uma, pedimos 'Spell it, please'. Foi exatamente o que a pessoa fez: S-I-L-V-A. Portanto, a resposta correta é 'Spell it'."
+        "explanation": "Quando queremos que alguém fale as letras de uma palavra, uma por uma, pedimos 'Spell it, please'. Foi exatamente o que a pessoa fez: S-I-L-V-A. Portanto, a resposta correta é 'Spell it'.",
+        "dialogue": [
+          [
+            "A",
+            "What's your last name?"
+          ],
+          [
+            "B",
+            "It's Silva."
+          ],
+          [
+            "A",
+            "_____, please."
+          ],
+          [
+            "B",
+            "S-I-L-V-A."
+          ]
+        ]
       },
       {
         "id": "tc1m07",
@@ -173,7 +201,17 @@
           "This"
         ],
         "correct": 1,
-        "explanation": "'That' fala de uma pessoa só, então o verbo é 'is'. A pergunta fica 'Is that your dad?'. Portanto, a resposta correta é 'IS that your dad in the car?'"
+        "explanation": "'That' fala de uma pessoa só, então o verbo é 'is'. A pergunta fica 'Is that your dad?'. Portanto, a resposta correta é 'IS that your dad in the car?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ that your dad in the car?"
+          ],
+          [
+            "B",
+            "Yes, it is."
+          ]
+        ]
       },
       {
         "id": "tc1m14",
@@ -251,7 +289,17 @@
           "have"
         ],
         "correct": 1,
-        "explanation": "Para dizer a profissão de alguém, usamos o verbo to be: 'She is a lawyer'. Com 'she', o verbo é sempre 'is'. Portanto, a resposta correta é 'She IS a lawyer'."
+        "explanation": "Para dizer a profissão de alguém, usamos o verbo to be: 'She is a lawyer'. Com 'she', o verbo é sempre 'is'. Portanto, a resposta correta é 'She IS a lawyer'.",
+        "dialogue": [
+          [
+            "A",
+            "Who is that woman?"
+          ],
+          [
+            "B",
+            "She's my aunt. She _____ a lawyer."
+          ]
+        ]
       },
       {
         "id": "tc1m20",
@@ -264,7 +312,17 @@
           "How"
         ],
         "correct": 2,
-        "explanation": "A resposta fala de uma pessoa: 'He's my brother'. Quando queremos saber quem é alguém, perguntamos com 'Who'. Portanto, a resposta correta é 'WHO is this boy in the photo?'"
+        "explanation": "A resposta fala de uma pessoa: 'He's my brother'. Quando queremos saber quem é alguém, perguntamos com 'Who'. Portanto, a resposta correta é 'WHO is this boy in the photo?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ is this boy in the photo?"
+          ],
+          [
+            "B",
+            "He's my brother."
+          ]
+        ]
       },
       {
         "id": "tc1m21",
@@ -329,7 +387,17 @@
           "When"
         ],
         "correct": 0,
-        "explanation": "A resposta fala de uma coisa: 'It's an eraser'. Para perguntar o que é uma coisa, usamos 'What'. Portanto, a resposta correta é 'WHAT is this?'"
+        "explanation": "A resposta fala de uma coisa: 'It's an eraser'. Para perguntar o que é uma coisa, usamos 'What'. Portanto, a resposta correta é 'WHAT is this?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ is this?"
+          ],
+          [
+            "B",
+            "It's an eraser."
+          ]
+        ]
       },
       {
         "id": "tc1m26",
@@ -381,7 +449,17 @@
           "thirsty"
         ],
         "correct": 3,
-        "explanation": "Quem quer beber água está com sede, e 'com sede' em inglês é 'thirsty'. 'Sleepy' é com sono e 'angry' é bravo. Portanto, a resposta correta é 'I'm THIRSTY'."
+        "explanation": "Quem quer beber água está com sede, e 'com sede' em inglês é 'thirsty'. 'Sleepy' é com sono e 'angry' é bravo. Portanto, a resposta correta é 'I'm THIRSTY'.",
+        "dialogue": [
+          [
+            "A",
+            "How are you feeling?"
+          ],
+          [
+            "B",
+            "I want to drink water. I'm _____."
+          ]
+        ]
       },
       {
         "id": "tc1m30",
@@ -485,7 +563,17 @@
           "Where"
         ],
         "correct": 3,
-        "explanation": "A resposta fala de um lugar: 'in the backyard'. Para perguntar em que lugar algo está, usamos 'Where'. Portanto, a resposta correta é 'WHERE is the dog?'"
+        "explanation": "A resposta fala de um lugar: 'in the backyard'. Para perguntar em que lugar algo está, usamos 'Where'. Portanto, a resposta correta é 'WHERE is the dog?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ is the dog?"
+          ],
+          [
+            "B",
+            "It's in the backyard."
+          ]
+        ]
       },
       {
         "id": "tc1m38",
@@ -589,7 +677,17 @@
           "How"
         ],
         "correct": 2,
-        "explanation": "Para perguntar de que país uma pessoa é, usamos 'Where are you from?'. A resposta diz o país: Canadá. Portanto, a resposta correta é 'WHERE are you from?'"
+        "explanation": "Para perguntar de que país uma pessoa é, usamos 'Where are you from?'. A resposta diz o país: Canadá. Portanto, a resposta correta é 'WHERE are you from?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ are you from?"
+          ],
+          [
+            "B",
+            "I'm from Canada."
+          ]
+        ]
       },
       {
         "id": "tc1m46",
@@ -667,7 +765,17 @@
           "Does"
         ],
         "correct": 2,
-        "explanation": "Para perguntar se alguém gosta de algo, usamos 'Do you like...?'. A resposta 'Yes, I do' confirma que a pergunta é com 'do'. Portanto, a resposta correta é 'DO you like basketball?'"
+        "explanation": "Para perguntar se alguém gosta de algo, usamos 'Do you like...?'. A resposta 'Yes, I do' confirma que a pergunta é com 'do'. Portanto, a resposta correta é 'DO you like basketball?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ you like basketball?"
+          ],
+          [
+            "B",
+            "Yes, I do."
+          ]
+        ]
       },
       {
         "id": "tc1m52",
@@ -810,7 +918,17 @@
           "I'm from Brazil."
         ],
         "correct": 0,
-        "explanation": "A pergunta é sobre o número de telefone, então a resposta precisa dizer um número. Idade, nome e país respondem a outras perguntas. Portanto, a resposta correta é 'It's 5555-2380'."
+        "explanation": "A pergunta é sobre o número de telefone, então a resposta precisa dizer um número. Idade, nome e país respondem a outras perguntas. Portanto, a resposta correta é 'It's 5555-2380'.",
+        "dialogue": [
+          [
+            "A",
+            "What's your phone number?"
+          ],
+          [
+            "B",
+            "_____"
+          ]
+        ]
       },
       {
         "id": "tc1m63",
@@ -862,7 +980,17 @@
           "How"
         ],
         "correct": 2,
-        "explanation": "A resposta é o nome de uma pessoa. Para perguntar por uma pessoa, usamos 'Who'. Portanto, a resposta correta é 'WHO is your English teacher?'"
+        "explanation": "A resposta é o nome de uma pessoa. Para perguntar por uma pessoa, usamos 'Who'. Portanto, a resposta correta é 'WHO is your English teacher?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ is your English teacher?"
+          ],
+          [
+            "B",
+            "Mrs. Lima."
+          ]
+        ]
       },
       {
         "id": "tc1m67",
@@ -940,7 +1068,17 @@
           "How"
         ],
         "correct": 1,
-        "explanation": "A resposta fala de coisas: 'They are crayons'. Para perguntar que coisas são essas, usamos 'What'. Portanto, a resposta correta é 'WHAT are those on the teacher's desk?'"
+        "explanation": "A resposta fala de coisas: 'They are crayons'. Para perguntar que coisas são essas, usamos 'What'. Portanto, a resposta correta é 'WHAT are those on the teacher's desk?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ are those on the teacher's desk?"
+          ],
+          [
+            "B",
+            "They are crayons."
+          ]
+        ]
       },
       {
         "id": "tc1m73",
@@ -992,7 +1130,17 @@
           "He is in the bedroom."
         ],
         "correct": 1,
-        "explanation": "A pergunta 'How old...?' quer saber a idade, então a resposta traz um número de anos. Portanto, a resposta correta é 'He is nine years old'."
+        "explanation": "A pergunta 'How old...?' quer saber a idade, então a resposta traz um número de anos. Portanto, a resposta correta é 'He is nine years old'.",
+        "dialogue": [
+          [
+            "A",
+            "How old is your brother?"
+          ],
+          [
+            "B",
+            "_____"
+          ]
+        ]
       },
       {
         "id": "tc1m77",
@@ -1122,7 +1270,17 @@
           "What"
         ],
         "correct": 2,
-        "explanation": "A resposta fala dos dias da semana, ou seja, do momento da aula. Para perguntar o momento, usamos 'When'. Portanto, a resposta correta é 'WHEN is your English class?'"
+        "explanation": "A resposta fala dos dias da semana, ou seja, do momento da aula. Para perguntar o momento, usamos 'When'. Portanto, a resposta correta é 'WHEN is your English class?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ is your English class?"
+          ],
+          [
+            "B",
+            "On Mondays and Wednesdays."
+          ]
+        ]
       },
       {
         "id": "tc1m87",
@@ -1148,7 +1306,17 @@
           "Yes, I don't."
         ],
         "correct": 0,
-        "explanation": "A resposta curta positiva de 'Do you like...?' é 'Yes, I do'. Com o verbo 'like' na pergunta, a resposta usa 'do', não 'am'. Portanto, a resposta correta é 'Yes, I do'."
+        "explanation": "A resposta curta positiva de 'Do you like...?' é 'Yes, I do'. Com o verbo 'like' na pergunta, a resposta usa 'do', não 'am'. Portanto, a resposta correta é 'Yes, I do'.",
+        "dialogue": [
+          [
+            "A",
+            "Do you like martial arts?"
+          ],
+          [
+            "B",
+            "_____ I practice martial arts every week!"
+          ]
+        ]
       },
       {
         "id": "tc1m89",
@@ -1245,7 +1413,17 @@
           "Where are you"
         ],
         "correct": 2,
-        "explanation": "A resposta fala das horas: 'It's ten o'clock'. Para perguntar as horas, usamos 'What time is it?'. Portanto, a resposta correta é 'WHAT TIME is it?'"
+        "explanation": "A resposta fala das horas: 'It's ten o'clock'. Para perguntar as horas, usamos 'What time is it?'. Portanto, a resposta correta é 'WHAT TIME is it?'",
+        "dialogue": [
+          [
+            "A",
+            "_____?"
+          ],
+          [
+            "B",
+            "It's ten o'clock."
+          ]
+        ]
       },
       {
         "id": "tc1f06",
@@ -1427,7 +1605,17 @@
           "Is it"
         ],
         "correct": 1,
-        "explanation": "Na pergunta, a ordem muda: 'Is there...?'. A resposta 'No, there isn't' mostra que é uma coisa só (a park). Portanto, a resposta correta é 'IS THERE a park near your house?'"
+        "explanation": "Na pergunta, a ordem muda: 'Is there...?'. A resposta 'No, there isn't' mostra que é uma coisa só (a park). Portanto, a resposta correta é 'IS THERE a park near your house?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ a park near your house?"
+          ],
+          [
+            "B",
+            "No, there isn't."
+          ]
+        ]
       },
       {
         "id": "tc1f20",
@@ -1557,7 +1745,17 @@
           "Where"
         ],
         "correct": 2,
-        "explanation": "A resposta fala de um meio de transporte: 'By bike'. Para perguntar de que jeito alguém vai a um lugar, usamos 'How'. Portanto, a resposta correta é 'HOW do you get to school?'"
+        "explanation": "A resposta fala de um meio de transporte: 'By bike'. Para perguntar de que jeito alguém vai a um lugar, usamos 'How'. Portanto, a resposta correta é 'HOW do you get to school?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ do you get to school?"
+          ],
+          [
+            "B",
+            "By bike."
+          ]
+        ]
       },
       {
         "id": "tc1f30",
@@ -1713,7 +1911,17 @@
           "eating"
         ],
         "correct": 2,
-        "explanation": "A pergunta é sobre o que o coelho está fazendo agora, então a resposta usa o present continuous: 'is eating'. Portanto, a resposta correta é 'It IS EATING a carrot'."
+        "explanation": "A pergunta é sobre o que o coelho está fazendo agora, então a resposta usa o present continuous: 'is eating'. Portanto, a resposta correta é 'It IS EATING a carrot'.",
+        "dialogue": [
+          [
+            "A",
+            "What is the rabbit doing?"
+          ],
+          [
+            "B",
+            "It _____ a carrot."
+          ]
+        ]
       },
       {
         "id": "tc1f42",
@@ -1817,7 +2025,17 @@
           "How old"
         ],
         "correct": 1,
-        "explanation": "Para perguntar a quantidade de coisas que podemos contar, como camisetas, usamos 'How many'. A resposta é um número: dez. Portanto, a resposta correta é 'HOW MANY T-shirts do you have?'"
+        "explanation": "Para perguntar a quantidade de coisas que podemos contar, como camisetas, usamos 'How many'. A resposta é um número: dez. Portanto, a resposta correta é 'HOW MANY T-shirts do you have?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ T-shirts do you have?"
+          ],
+          [
+            "B",
+            "I have ten."
+          ]
+        ]
       },
       {
         "id": "tc1f50",
@@ -1869,7 +2087,17 @@
           "Where"
         ],
         "correct": 2,
-        "explanation": "A resposta começa com 'Because', que dá um motivo. A pergunta que pede um motivo é com 'Why'. Portanto, a resposta correta é 'WHY are you happy?'"
+        "explanation": "A resposta começa com 'Because', que dá um motivo. A pergunta que pede um motivo é com 'Why'. Portanto, a resposta correta é 'WHY are you happy?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ are you happy?"
+          ],
+          [
+            "B",
+            "Because it's my birthday!"
+          ]
+        ]
       },
       {
         "id": "tc1f54",
@@ -1882,7 +2110,17 @@
           "And"
         ],
         "correct": 1,
-        "explanation": "Para responder uma pergunta com 'Why', damos o motivo com 'Because'. 'Why' pergunta, 'because' responde. Portanto, a resposta correta é 'BECAUSE he can't go skateboarding today'."
+        "explanation": "Para responder uma pergunta com 'Why', damos o motivo com 'Because'. 'Why' pergunta, 'because' responde. Portanto, a resposta correta é 'BECAUSE he can't go skateboarding today'.",
+        "dialogue": [
+          [
+            "A",
+            "Why is Tom sad?"
+          ],
+          [
+            "B",
+            "_____ he can't go skateboarding today."
+          ]
+        ]
       },
       {
         "id": "tc1f55",

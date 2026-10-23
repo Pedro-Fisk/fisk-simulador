@@ -314,7 +314,17 @@
           "le"
         ],
         "correct": 1,
-        "explanation": "Com verbos como 'ver', 'llamar', 'visitar' e 'buscar', a pessoa é complemento direto, e o pronome concorda em gênero e número: 'a tus primos' vira 'los'. 'Le' e 'les' são pronomes de complemento indireto, usados com verbos como 'decir', 'enviar' e 'pedir', e 'las' é feminino. Portanto, a resposta correta é 'los'."
+        "explanation": "Com verbos como 'ver', 'llamar', 'visitar' e 'buscar', a pessoa é complemento direto, e o pronome concorda em gênero e número: 'a tus primos' vira 'los'. 'Le' e 'les' são pronomes de complemento indireto, usados com verbos como 'decir', 'enviar' e 'pedir', e 'las' é feminino. Portanto, a resposta correta é 'los'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Has visto a tus primos?"
+          ],
+          [
+            "B",
+            "Sí, _____ he visto hace un rato en la cafetería."
+          ]
+        ]
       },
       {
         "id": "i2m25",
@@ -1120,7 +1130,17 @@
           "le"
         ],
         "correct": 3,
-        "explanation": "Com verbos como 'escribir', 'enviar', 'decir' e 'pedir', a pessoa ('a tu abuela') é complemento indireto, e o pronome de CI é 'le' tanto para masculino quanto para feminino. 'La' e 'lo' são pronomes de complemento direto, usados com verbos como 'ver', 'llamar' e 'visitar', e 'les' é plural. Portanto, a resposta correta é 'le'."
+        "explanation": "Com verbos como 'escribir', 'enviar', 'decir' e 'pedir', a pessoa ('a tu abuela') é complemento indireto, e o pronome de CI é 'le' tanto para masculino quanto para feminino. 'La' e 'lo' são pronomes de complemento direto, usados com verbos como 'ver', 'llamar' e 'visitar', e 'les' é plural. Portanto, a resposta correta é 'le'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Has escrito a tu abuela?"
+          ],
+          [
+            "B",
+            "Sí, _____ escribí una carta la semana pasada."
+          ]
+        ]
       },
       {
         "id": "i2m95",
@@ -1133,7 +1153,17 @@
           "alguna"
         ],
         "correct": 0,
-        "explanation": "'Ninguno' concorda em gênero com o substantivo a que se refere; como falamos de 'amiga', a forma é 'ninguna'. Depois de um verbo negado não se usa 'alguna', e 'ningún' só aparece antes de substantivo masculino singular. Portanto, a resposta correta é 'ninguna'."
+        "explanation": "'Ninguno' concorda em gênero com o substantivo a que se refere; como falamos de 'amiga', a forma é 'ninguna'. Depois de um verbo negado não se usa 'alguna', e 'ningún' só aparece antes de substantivo masculino singular. Portanto, a resposta correta é 'ninguna'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Alguna amiga tuya vino a la fiesta?"
+          ],
+          [
+            "B",
+            "No, no vino _____."
+          ]
+        ]
       },
       {
         "id": "i2m96",
@@ -2385,7 +2415,18 @@
           "comeré"
         ],
         "correct": 0,
-        "explanation": "Com 'Yo que tú' o verbo fica no Condicional Simple e concorda com 'yo': 'comería'. O Imperfeito 'comía' fala do passado e 'comeré' é Futuro, não conselho. Portanto, a resposta correta é 'comería'."
+        "explanation": "Com 'Yo que tú' o verbo fica no Condicional Simple e concorda com 'yo': 'comería'. O Imperfeito 'comía' fala do passado e 'comeré' é Futuro, não conselho. Portanto, a resposta correta é 'comería'.",
+        "dialogue": [
+          [
+            "A",
+            "Tengo hambre, pero estoy a dieta."
+          ],
+          [
+            "B",
+            "Yo que tú _____ (comer) una fruta."
+          ]
+        ],
+        "dialogueNote": "Completa:"
       },
       {
         "id": "i2f82",
@@ -2398,7 +2439,18 @@
           "me pondría"
         ],
         "correct": 3,
-        "explanation": "'Ponerse' é reflexivo e 'poner' tem raiz irregular 'pondr-' no Condicional. Como quem aconselha é 'yo', o pronome é 'me': 'me pondría'. A forma 'te pondrías' é de 'tú'. Portanto, a resposta correta é 'me pondría'."
+        "explanation": "'Ponerse' é reflexivo e 'poner' tem raiz irregular 'pondr-' no Condicional. Como quem aconselha é 'yo', o pronome é 'me': 'me pondría'. A forma 'te pondrías' é de 'tú'. Portanto, a resposta correta é 'me pondría'.",
+        "dialogue": [
+          [
+            "A",
+            "No sé qué ropa llevar a la entrevista."
+          ],
+          [
+            "B",
+            "Yo que tú _____ (ponerse) una camisa blanca."
+          ]
+        ],
+        "dialogueNote": "Completa:"
       },
       {
         "id": "i2f83",
@@ -2619,7 +2671,17 @@
           "llévaselo"
         ],
         "correct": 2,
-        "explanation": "No imperativo afirmativo os pronomes vão depois do verbo, colados a ele numa só palavra, na ordem CI + CD: 'le' vira 'se' antes de 'las' (las llaves), e o verbo ganha acento para manter a sílaba tônica. 'Llévasela' e 'llévaselo' erram o número ou o gênero de 'las llaves'. Portanto, a resposta correta é 'llévaselas'."
+        "explanation": "No imperativo afirmativo os pronomes vão depois do verbo, colados a ele numa só palavra, na ordem CI + CD: 'le' vira 'se' antes de 'las' (las llaves), e o verbo ganha acento para manter a sílaba tônica. 'Llévasela' e 'llévaselo' erram o número ou o gênero de 'las llaves'. Portanto, a resposta correta é 'llévaselas'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Le llevo las llaves a Marta?"
+          ],
+          [
+            "B",
+            "Sí, _____ ahora mismo."
+          ]
+        ]
       },
       {
         "id": "i2f100",
@@ -2671,7 +2733,17 @@
           "se lo"
         ],
         "correct": 2,
-        "explanation": "Quando o complemento indireto 'le' aparece junto do direto 'la' (la verdad), o 'le' vira 'se': 'se la'. No imperativo negativo os dois ficam antes do verbo, na ordem CI + CD. Portanto, a resposta correta é 'se la'."
+        "explanation": "Quando o complemento indireto 'le' aparece junto do direto 'la' (la verdad), o 'le' vira 'se': 'se la'. No imperativo negativo os dois ficam antes do verbo, na ordem CI + CD. Portanto, a resposta correta é 'se la'.",
+        "dialogue": [
+          [
+            "A",
+            "¿Le digo la verdad a tu hermano?"
+          ],
+          [
+            "B",
+            "No, no _____ digas."
+          ]
+        ]
       },
       {
         "id": "i2f104",

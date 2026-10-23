@@ -69,7 +69,17 @@
           "How"
         ],
         "correct": 3,
-        "explanation": "Quando queremos perguntar como foi alguma coisa (uma viagem, um dia, um evento) usamos HOW. Neste caso, a resposta 'It was really nice!' mostra que a pergunta é sobre a qualidade da viagem. Portanto, a resposta correta é HOW."
+        "explanation": "Quando queremos perguntar como foi alguma coisa (uma viagem, um dia, um evento) usamos HOW. Neste caso, a resposta 'It was really nice!' mostra que a pergunta é sobre a qualidade da viagem. Portanto, a resposta correta é HOW.",
+        "dialogue": [
+          [
+            "A",
+            "_____ was your vacation?"
+          ],
+          [
+            "B",
+            "It was really nice!"
+          ]
+        ]
       },
       {
         "id": "e2m06",
@@ -82,7 +92,17 @@
           "by"
         ],
         "correct": 3,
-        "explanation": "Quando queremos dizer como chegamos a algum lugar, usamos BY antes do meio de transporte: by car, by bus, by train, by plane. Neste caso, a pessoa está dizendo que vem de carro para a escola. Portanto, a resposta correta é BY."
+        "explanation": "Quando queremos dizer como chegamos a algum lugar, usamos BY antes do meio de transporte: by car, by bus, by train, by plane. Neste caso, a pessoa está dizendo que vem de carro para a escola. Portanto, a resposta correta é BY.",
+        "dialogue": [
+          [
+            "A",
+            "How do you come to school?"
+          ],
+          [
+            "B",
+            "I come _____ car."
+          ]
+        ]
       },
       {
         "id": "e2m07",
@@ -147,7 +167,17 @@
           "am always surf"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dizer com que frequência fazemos algo, palavras como always, usually, often e never ficam entre a pessoa e o verbo. Neste caso, 'always' deve vir entre 'I' e 'surf'. Portanto, a resposta correta é I ALWAYS SURF the net."
+        "explanation": "Quando queremos dizer com que frequência fazemos algo, palavras como always, usually, often e never ficam entre a pessoa e o verbo. Neste caso, 'always' deve vir entre 'I' e 'surf'. Portanto, a resposta correta é I ALWAYS SURF the net.",
+        "dialogue": [
+          [
+            "A",
+            "How often do you surf the net?"
+          ],
+          [
+            "B",
+            "I _____ the net."
+          ]
+        ]
       },
       {
         "id": "e2m12",
@@ -186,7 +216,17 @@
           "cook"
         ],
         "correct": 1,
-        "explanation": "Quando queremos dizer o que estávamos fazendo em um momento específico do passado, usamos WAS ou WERE com o verbo com -ing. Neste caso, a pergunta é 'o que você estava fazendo?' e a resposta fala sobre a noite passada. Portanto, a resposta correta é WAS COOKING."
+        "explanation": "Quando queremos dizer o que estávamos fazendo em um momento específico do passado, usamos WAS ou WERE com o verbo com -ing. Neste caso, a pergunta é 'o que você estava fazendo?' e a resposta fala sobre a noite passada. Portanto, a resposta correta é WAS COOKING.",
+        "dialogue": [
+          [
+            "A",
+            "What were you doing last night?"
+          ],
+          [
+            "B",
+            "I _____ dinner."
+          ]
+        ]
       },
       {
         "id": "e2m15",
@@ -576,7 +616,17 @@
           "Which"
         ],
         "correct": 0,
-        "explanation": "Quando queremos perguntar sobre medidas ou características físicas, usamos HOW seguido de um adjetivo: HOW TALL (qual a altura), HOW LONG (qual o comprimento), HOW FAR (qual a distância). Portanto, a resposta correta é HOW."
+        "explanation": "Quando queremos perguntar sobre medidas ou características físicas, usamos HOW seguido de um adjetivo: HOW TALL (qual a altura), HOW LONG (qual o comprimento), HOW FAR (qual a distância). Portanto, a resposta correta é HOW.",
+        "dialogue": [
+          [
+            "A",
+            "_____ tall is the Eiffel Tower?"
+          ],
+          [
+            "B",
+            "About 330 meters."
+          ]
+        ]
       },
       {
         "id": "e2m45",
@@ -589,7 +639,17 @@
           "Which"
         ],
         "correct": 2,
-        "explanation": "Usamos HOW + adjetivo para perguntar sobre medidas e dimensões: HOW LONG (qual o comprimento/duração), HOW TALL (qual a altura). Neste caso, perguntamos o comprimento do rio. Portanto, a resposta correta é HOW."
+        "explanation": "Usamos HOW + adjetivo para perguntar sobre medidas e dimensões: HOW LONG (qual o comprimento/duração), HOW TALL (qual a altura). Neste caso, perguntamos o comprimento do rio. Portanto, a resposta correta é HOW.",
+        "dialogue": [
+          [
+            "A",
+            "_____ long is the Amazon River?"
+          ],
+          [
+            "B",
+            "About 6,400 km."
+          ]
+        ]
       },
       {
         "id": "e2m46",
@@ -602,7 +662,17 @@
           "How often"
         ],
         "correct": 0,
-        "explanation": "Usamos HOW LONG para perguntar sobre a duração de algo, um filme, uma aula, uma viagem. Neste caso, a resposta 'two hours long' indica duração. Portanto, a resposta correta é HOW LONG."
+        "explanation": "Usamos HOW LONG para perguntar sobre a duração de algo, um filme, uma aula, uma viagem. Neste caso, a resposta 'two hours long' indica duração. Portanto, a resposta correta é HOW LONG.",
+        "dialogue": [
+          [
+            "A",
+            "_____ is the movie?"
+          ],
+          [
+            "B",
+            "It's two hours long."
+          ]
+        ]
       },
       {
         "id": "e2m47",
@@ -615,7 +685,17 @@
           "How many"
         ],
         "correct": 2,
-        "explanation": "Usamos HOW FAR para perguntar sobre a distância entre dois lugares. Neste caso, a resposta '20 km' indica distância, não tempo nem tamanho. Portanto, a resposta correta é HOW FAR."
+        "explanation": "Usamos HOW FAR para perguntar sobre a distância entre dois lugares. Neste caso, a resposta '20 km' indica distância, não tempo nem tamanho. Portanto, a resposta correta é HOW FAR.",
+        "dialogue": [
+          [
+            "A",
+            "_____ is it from here to the airport?"
+          ],
+          [
+            "B",
+            "About 20 km."
+          ]
+        ]
       },
       {
         "id": "e2m48",
@@ -654,7 +734,17 @@
           "on"
         ],
         "correct": 3,
-        "explanation": "A expressão 'ir a pé' em inglês é ON FOOT, uma exceção à regra do BY + transporte. Quando alguém caminha até o destino, dizemos 'go on foot'. Portanto, a resposta correta é ON."
+        "explanation": "A expressão 'ir a pé' em inglês é ON FOOT, uma exceção à regra do BY + transporte. Quando alguém caminha até o destino, dizemos 'go on foot'. Portanto, a resposta correta é ON.",
+        "dialogue": [
+          [
+            "A",
+            "How do they get to school?"
+          ],
+          [
+            "B",
+            "They walk. They go _____ foot."
+          ]
+        ]
       },
       {
         "id": "e2m51",
@@ -680,7 +770,17 @@
           "How often"
         ],
         "correct": 3,
-        "explanation": "HOW OFTEN é a pergunta que usamos para saber com que frequência alguém faz algo. A resposta típica usa expressões como 'once a week', 'twice a month' ou 'three times a week'. Portanto, a resposta correta é HOW OFTEN."
+        "explanation": "HOW OFTEN é a pergunta que usamos para saber com que frequência alguém faz algo. A resposta típica usa expressões como 'once a week', 'twice a month' ou 'three times a week'. Portanto, a resposta correta é HOW OFTEN.",
+        "dialogue": [
+          [
+            "A",
+            "_____ do you exercise?"
+          ],
+          [
+            "B",
+            "Three times a week."
+          ]
+        ]
       },
       {
         "id": "e2m53",
@@ -966,7 +1066,17 @@
           "is"
         ],
         "correct": 3,
-        "explanation": "Para responder sobre a idade de alguém ou algo, usamos IS (singular) ou ARE (plural). Neste caso, 'it' é singular, então usamos IS. A estrutura completa é 'It IS three years old'. Portanto, a resposta correta é IS."
+        "explanation": "Para responder sobre a idade de alguém ou algo, usamos IS (singular) ou ARE (plural). Neste caso, 'it' é singular, então usamos IS. A estrutura completa é 'It IS three years old'. Portanto, a resposta correta é IS.",
+        "dialogue": [
+          [
+            "A",
+            "How old is your dog?"
+          ],
+          [
+            "B",
+            "It _____ three years old."
+          ]
+        ]
       },
       {
         "id": "e2m75",
@@ -1102,7 +1212,17 @@
           "they don't / don't"
         ],
         "correct": 0,
-        "explanation": "Quando queremos dar uma resposta negativa com WILL, usamos WON'T, que é a forma curta de 'will not'. Neste caso, a resposta curta é 'No, they won't' e a frase completa é 'They won't win'. Portanto, a resposta correta é THEY WON'T / WON'T."
+        "explanation": "Quando queremos dar uma resposta negativa com WILL, usamos WON'T, que é a forma curta de 'will not'. Neste caso, a resposta curta é 'No, they won't' e a frase completa é 'They won't win'. Portanto, a resposta correta é THEY WON'T / WON'T.",
+        "dialogue": [
+          [
+            "A",
+            "Will they win the game?"
+          ],
+          [
+            "B",
+            "No, _____. They _____ win."
+          ]
+        ]
       },
       {
         "id": "e2f10",
@@ -1180,7 +1300,18 @@
           "First"
         ],
         "correct": 1,
-        "explanation": "Quando dizemos quantas vezes algo acontece, usamos ONCE para uma vez, TWICE para duas vezes e, a partir de três, o número + TIMES (three times, four times). O número ONE nunca aparece junto de TIMES. Neste caso, é uma vez por semana. Portanto, a resposta correta é ONCE."
+        "explanation": "Quando dizemos quantas vezes algo acontece, usamos ONCE para uma vez, TWICE para duas vezes e, a partir de três, o número + TIMES (three times, four times). O número ONE nunca aparece junto de TIMES. Neste caso, é uma vez por semana. Portanto, a resposta correta é ONCE.",
+        "dialogue": [
+          [
+            "A",
+            "How often does your mother go to the supermarket?"
+          ],
+          [
+            "B",
+            "_____ a week."
+          ]
+        ],
+        "dialogueNote": "1x"
       },
       {
         "id": "e2f16",
@@ -1219,7 +1350,17 @@
           "it was"
         ],
         "correct": 2,
-        "explanation": "Quando queremos dar uma resposta curta a uma pergunta com 'Was there...?', repetimos THERE + o verbo no passado. Como a resposta começa com YES, o verbo fica na forma afirmativa, e como a pergunta fala de um estudante, no singular, usamos WAS. Portanto, a resposta correta é THERE WAS."
+        "explanation": "Quando queremos dar uma resposta curta a uma pergunta com 'Was there...?', repetimos THERE + o verbo no passado. Como a resposta começa com YES, o verbo fica na forma afirmativa, e como a pergunta fala de um estudante, no singular, usamos WAS. Portanto, a resposta correta é THERE WAS.",
+        "dialogue": [
+          [
+            "A",
+            "Was there a new student in class last week?"
+          ],
+          [
+            "B",
+            "Yes, _____."
+          ]
+        ]
       },
       {
         "id": "e2f19",
@@ -1232,7 +1373,17 @@
           "many"
         ],
         "correct": 2,
-        "explanation": "Quando queremos dizer 'um pouco' de algo que não dá para contar, usamos A LITTLE. Neste caso, mostarda não dá para contar, e a frase já tem a palavra 'little'. O que falta é só o artigo A. Portanto, a resposta correta é A."
+        "explanation": "Quando queremos dizer 'um pouco' de algo que não dá para contar, usamos A LITTLE. Neste caso, mostarda não dá para contar, e a frase já tem a palavra 'little'. O que falta é só o artigo A. Portanto, a resposta correta é A.",
+        "dialogue": [
+          [
+            "A",
+            "How much mustard do you want?"
+          ],
+          [
+            "B",
+            "Just _____ little."
+          ]
+        ]
       },
       {
         "id": "e2f20",
@@ -1245,7 +1396,18 @@
           "am"
         ],
         "correct": 2,
-        "explanation": "Quando tomamos uma decisão na hora, no exato momento em que falamos, usamos WILL. Neste caso, o telefone está tocando e a pessoa decide naquele instante que vai atender. Portanto, a resposta correta é WILL."
+        "explanation": "Quando tomamos uma decisão na hora, no exato momento em que falamos, usamos WILL. Neste caso, o telefone está tocando e a pessoa decide naquele instante que vai atender. Portanto, a resposta correta é WILL.",
+        "dialogue": [
+          [
+            "A",
+            "The phone is ringing!"
+          ],
+          [
+            "B",
+            "I _____ get it!"
+          ]
+        ],
+        "dialogueNote": "spontaneous decision"
       },
       {
         "id": "e2f21",
@@ -1297,7 +1459,17 @@
           "by"
         ],
         "correct": 3,
-        "explanation": "Quando queremos dizer qual é o meio de transporte, usamos BY: by bus, by car, by train, by plane. Neste caso, a pessoa está explicando como chegar à cidade de ônibus. Portanto, a resposta correta é BY."
+        "explanation": "Quando queremos dizer qual é o meio de transporte, usamos BY: by bus, by car, by train, by plane. Neste caso, a pessoa está explicando como chegar à cidade de ônibus. Portanto, a resposta correta é BY.",
+        "dialogue": [
+          [
+            "A",
+            "How can I get to this city?"
+          ],
+          [
+            "B",
+            "You can get there _____ bus."
+          ]
+        ]
       },
       {
         "id": "e2f25",
@@ -1310,7 +1482,17 @@
           "I"
         ],
         "correct": 2,
-        "explanation": "Os pronomes possessivos ficam sozinhos na frase, sem o nome do objeto: mine (o meu/a minha), yours (o seu/a sua), his (o dele), hers (o dela). Neste caso, estamos dizendo que o casaco pertence a nós, então usamos MINE. Portanto, a resposta correta é MINE."
+        "explanation": "Os pronomes possessivos ficam sozinhos na frase, sem o nome do objeto: mine (o meu/a minha), yours (o seu/a sua), his (o dele), hers (o dela). Neste caso, estamos dizendo que o casaco pertence a nós, então usamos MINE. Portanto, a resposta correta é MINE.",
+        "dialogue": [
+          [
+            "A",
+            "Is this coat yours?"
+          ],
+          [
+            "B",
+            "No, _____ is the black one over there."
+          ]
+        ]
       },
       {
         "id": "e2f26",
@@ -1479,7 +1661,17 @@
           "many"
         ],
         "correct": 2,
-        "explanation": "Em frases afirmativas usamos SOME com substantivos incontáveis, como 'coffee'. ANY não é usado em frase afirmativa, NO diria que não há café nenhum, o contrário do que a frase oferece, e MANY só acompanha coisas que dão para contar. Portanto, a resposta correta é SOME."
+        "explanation": "Em frases afirmativas usamos SOME com substantivos incontáveis, como 'coffee'. ANY não é usado em frase afirmativa, NO diria que não há café nenhum, o contrário do que a frase oferece, e MANY só acompanha coisas que dão para contar. Portanto, a resposta correta é SOME.",
+        "dialogue": [
+          [
+            "A",
+            "I'm thirsty."
+          ],
+          [
+            "B",
+            "There is _____ more coffee in the kitchen. Help yourself!"
+          ]
+        ]
       },
       {
         "id": "e2f39",
@@ -1570,7 +1762,17 @@
           "Saras"
         ],
         "correct": 2,
-        "explanation": "Para responder 'de quem é?' em inglês, usamos nome + 's. Neste caso, o livro pertence a Sara, então a resposta é SARA'S (sem precisar repetir a palavra 'book'). Portanto, a resposta correta é SARA'S."
+        "explanation": "Para responder 'de quem é?' em inglês, usamos nome + 's. Neste caso, o livro pertence a Sara, então a resposta é SARA'S (sem precisar repetir a palavra 'book'). Portanto, a resposta correta é SARA'S.",
+        "dialogue": [
+          [
+            "A",
+            "Whose book is this?"
+          ],
+          [
+            "B",
+            "It's _____."
+          ]
+        ]
       },
       {
         "id": "e2f46",
@@ -1687,7 +1889,17 @@
           "was working"
         ],
         "correct": 3,
-        "explanation": "Para descrever o que estava acontecendo em um momento específico do passado, usamos WAS/WERE + verbo com -ing. Neste caso, a pessoa estava trabalhando no jardim quando o telefone tocou. Portanto, a resposta correta é WAS WORKING."
+        "explanation": "Para descrever o que estava acontecendo em um momento específico do passado, usamos WAS/WERE + verbo com -ing. Neste caso, a pessoa estava trabalhando no jardim quando o telefone tocou. Portanto, a resposta correta é WAS WORKING.",
+        "dialogue": [
+          [
+            "A",
+            "What were you doing when I called?"
+          ],
+          [
+            "B",
+            "I _____ in the garden."
+          ]
+        ]
       },
       {
         "id": "e2f55",
@@ -1817,7 +2029,18 @@
           "Double"
         ],
         "correct": 2,
-        "explanation": "Em inglês, usamos ONCE (uma vez) e TWICE (duas vezes) para as primeiras frequências. A partir de três, usamos o número + TIMES (three times, four times). Neste caso, duas vezes por mês = TWICE a month. Portanto, a resposta correta é TWICE."
+        "explanation": "Em inglês, usamos ONCE (uma vez) e TWICE (duas vezes) para as primeiras frequências. A partir de três, usamos o número + TIMES (three times, four times). Neste caso, duas vezes por mês = TWICE a month. Portanto, a resposta correta é TWICE.",
+        "dialogue": [
+          [
+            "A",
+            "How often do you see your grandparents?"
+          ],
+          [
+            "B",
+            "_____ a month."
+          ]
+        ],
+        "dialogueNote": "2 times"
       },
       {
         "id": "e2f65",
@@ -1843,7 +2066,18 @@
           "First"
         ],
         "correct": 1,
-        "explanation": "ONCE é a forma usada para dizer 'uma vez'. TWICE é para duas vezes e, a partir de três, usamos o número + TIMES (three times, four times). Neste caso, é uma vez por semana. Portanto, a resposta correta é ONCE."
+        "explanation": "ONCE é a forma usada para dizer 'uma vez'. TWICE é para duas vezes e, a partir de três, usamos o número + TIMES (three times, four times). Neste caso, é uma vez por semana. Portanto, a resposta correta é ONCE.",
+        "dialogue": [
+          [
+            "A",
+            "How often do you clean your room?"
+          ],
+          [
+            "B",
+            "_____ a week."
+          ]
+        ],
+        "dialogueNote": "1x"
       },
       {
         "id": "e2f67",
@@ -1869,7 +2103,17 @@
           "they not"
         ],
         "correct": 0,
-        "explanation": "Para responder negativamente a uma pergunta com WERE, usamos WEREN'T (were not). Neste caso, a resposta curta negativa é 'No, they weren't'. Portanto, a resposta correta é THEY WEREN'T."
+        "explanation": "Para responder negativamente a uma pergunta com WERE, usamos WEREN'T (were not). Neste caso, a resposta curta negativa é 'No, they weren't'. Portanto, a resposta correta é THEY WEREN'T.",
+        "dialogue": [
+          [
+            "A",
+            "Were they at the party last night?"
+          ],
+          [
+            "B",
+            "No, _____."
+          ]
+        ]
       },
       {
         "id": "e2f69",
@@ -1882,7 +2126,17 @@
           "she did"
         ],
         "correct": 2,
-        "explanation": "Para responder afirmativamente a uma pergunta com WAS, usamos WAS na resposta curta: 'Yes, she was'. Neste caso, a pergunta é sobre ela (she), singular, no passado. Portanto, a resposta correta é SHE WAS."
+        "explanation": "Para responder afirmativamente a uma pergunta com WAS, usamos WAS na resposta curta: 'Yes, she was'. Neste caso, a pergunta é sobre ela (she), singular, no passado. Portanto, a resposta correta é SHE WAS.",
+        "dialogue": [
+          [
+            "A",
+            "Was she happy with the result?"
+          ],
+          [
+            "B",
+            "Yes, _____."
+          ]
+        ]
       },
       {
         "id": "e2f70",
@@ -1895,7 +2149,17 @@
           "I did"
         ],
         "correct": 1,
-        "explanation": "Quando respondemos a uma pergunta com WERE YOU, usamos 'Yes, I was'. Não 'I were', que é um erro comum. Portanto, a resposta correta é I WAS."
+        "explanation": "Quando respondemos a uma pergunta com WERE YOU, usamos 'Yes, I was'. Não 'I were', que é um erro comum. Portanto, a resposta correta é I WAS.",
+        "dialogue": [
+          [
+            "A",
+            "Were you tired after the trip?"
+          ],
+          [
+            "B",
+            "Yes, _____."
+          ]
+        ]
       },
       {
         "id": "e2f71",
@@ -1908,7 +2172,17 @@
           "it not was"
         ],
         "correct": 1,
-        "explanation": "Para dar uma resposta negativa com WAS para coisas (it), usamos WASN'T (was not): 'No, it wasn't'. Portanto, a resposta correta é IT WASN'T."
+        "explanation": "Para dar uma resposta negativa com WAS para coisas (it), usamos WASN'T (was not): 'No, it wasn't'. Portanto, a resposta correta é IT WASN'T.",
+        "dialogue": [
+          [
+            "A",
+            "Was the food at the restaurant good?"
+          ],
+          [
+            "B",
+            "No, _____."
+          ]
+        ]
       },
       {
         "id": "e2f72",
@@ -1973,7 +2247,18 @@
           "will"
         ],
         "correct": 3,
-        "explanation": "Usamos WILL para decisões tomadas no momento da fala. Neste caso, a pessoa vê que está chovendo e decide na hora buscar o guarda-chuva, uma decisão espontânea. Portanto, a resposta correta é WILL."
+        "explanation": "Usamos WILL para decisões tomadas no momento da fala. Neste caso, a pessoa vê que está chovendo e decide na hora buscar o guarda-chuva, uma decisão espontânea. Portanto, a resposta correta é WILL.",
+        "dialogue": [
+          [
+            "A",
+            "It's raining!"
+          ],
+          [
+            "B",
+            "Don't worry. I _____ get you an umbrella."
+          ]
+        ],
+        "dialogueNote": "spontaneous decision"
       },
       {
         "id": "e2f77",
@@ -1999,7 +2284,18 @@
           "am making"
         ],
         "correct": 2,
-        "explanation": "Quando alguém decide fazer algo para outra pessoa na hora (uma oferta espontânea), usamos WILL. Neste caso, a pessoa ouve que o amigo está com fome e decide na hora fazer um sanduíche. Portanto, a resposta correta é WILL."
+        "explanation": "Quando alguém decide fazer algo para outra pessoa na hora (uma oferta espontânea), usamos WILL. Neste caso, a pessoa ouve que o amigo está com fome e decide na hora fazer um sanduíche. Portanto, a resposta correta é WILL.",
+        "dialogue": [
+          [
+            "A",
+            "I'm hungry."
+          ],
+          [
+            "B",
+            "Wait, I _____ make you a sandwich."
+          ]
+        ],
+        "dialogueNote": "spontaneous decision"
       },
       {
         "id": "e2f79",
@@ -2181,7 +2477,17 @@
           "more beautiful"
         ],
         "correct": 2,
-        "explanation": "Quando queremos descrever COMO alguém faz algo, usamos um advérbio de modo, que em inglês geralmente termina em -LY: beautiful → BEAUTIFULLY. Advérbios modificam verbos, não substantivos. Portanto, a resposta correta é BEAUTIFULLY."
+        "explanation": "Quando queremos descrever COMO alguém faz algo, usamos um advérbio de modo, que em inglês geralmente termina em -LY: beautiful → BEAUTIFULLY. Advérbios modificam verbos, não substantivos. Portanto, a resposta correta é BEAUTIFULLY.",
+        "dialogue": [
+          [
+            "A",
+            "How does she sing?"
+          ],
+          [
+            "B",
+            "She sings _____."
+          ]
+        ]
       },
       {
         "id": "e2f93",
@@ -2207,7 +2513,17 @@
           "When"
         ],
         "correct": 2,
-        "explanation": "HOW é usado para perguntar de que maneira alguém faz algo, incluindo o meio de transporte. Neste caso, a resposta 'by train' descreve o modo de locomoção. Portanto, a resposta correta é HOW."
+        "explanation": "HOW é usado para perguntar de que maneira alguém faz algo, incluindo o meio de transporte. Neste caso, a resposta 'by train' descreve o modo de locomoção. Portanto, a resposta correta é HOW.",
+        "dialogue": [
+          [
+            "A",
+            "_____ do you go to work?"
+          ],
+          [
+            "B",
+            "I go by train."
+          ]
+        ]
       },
       {
         "id": "e2f95",

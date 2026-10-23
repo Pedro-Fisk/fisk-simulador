@@ -1161,7 +1161,17 @@
           "have"
         ],
         "correct": 0,
-        "explanation": "Quem responde quer contrariar a acusação, e é justamente para isso que serve a forma enfática. Como o fato aconteceu ontem à noite, usamos DID. Portanto, a resposta correta é DID."
+        "explanation": "Quem responde quer contrariar a acusação, e é justamente para isso que serve a forma enfática. Como o fato aconteceu ontem à noite, usamos DID. Portanto, a resposta correta é DID.",
+        "dialogue": [
+          [
+            "A",
+            "You never call me."
+          ],
+          [
+            "B",
+            "I _____ call you last night!"
+          ]
+        ]
       },
       {
         "id": "ifm90",
@@ -1622,7 +1632,17 @@
           "was"
         ],
         "correct": 1,
-        "explanation": "Quando queremos concordar com uma frase negativa de alguém, usamos 'neither' seguido do mesmo verbo de apoio que a pessoa usou. Neste caso, a frase original usa 'have', então a resposta de concordância também usa 'have', espelhando o verbo da frase anterior. Portanto, a resposta correta é NEITHER HAVE I."
+        "explanation": "Quando queremos concordar com uma frase negativa de alguém, usamos 'neither' seguido do mesmo verbo de apoio que a pessoa usou. Neste caso, a frase original usa 'have', então a resposta de concordância também usa 'have', espelhando o verbo da frase anterior. Portanto, a resposta correta é NEITHER HAVE I.",
+        "dialogue": [
+          [
+            "A",
+            "I have never been to Japan."
+          ],
+          [
+            "B",
+            "Neither _____ I."
+          ]
+        ]
       },
       {
         "id": "iff15",
@@ -2272,7 +2292,17 @@
           "Either"
         ],
         "correct": 0,
-        "explanation": "Para concordar com uma afirmação negativa, usamos 'neither' seguido de inversão (auxiliar + sujeito). 'Neither can I' é a forma padrão e mais comum de expressar concordância negativa. 'So can I' seria usado para concordar com afirmativas. 'Either' aparece no final da frase ('I can't either'), não no início com inversão. Portanto, a resposta correta é NEITHER."
+        "explanation": "Para concordar com uma afirmação negativa, usamos 'neither' seguido de inversão (auxiliar + sujeito). 'Neither can I' é a forma padrão e mais comum de expressar concordância negativa. 'So can I' seria usado para concordar com afirmativas. 'Either' aparece no final da frase ('I can't either'), não no início com inversão. Portanto, a resposta correta é NEITHER.",
+        "dialogue": [
+          [
+            "A",
+            "She can't drive."
+          ],
+          [
+            "B",
+            "_____ can I."
+          ]
+        ]
       },
       {
         "id": "iff65",
@@ -2285,7 +2315,17 @@
           "Also"
         ],
         "correct": 1,
-        "explanation": "Para concordar com uma afirmação positiva, usamos 'So + auxiliar + sujeito'. Neste caso, a afirmação original usa o Present Perfect ('I've been'), então a concordância é 'So have I'. 'Neither/Nor' são usados para concordar com frases negativas. 'Also' não funciona com essa estrutura de inversão. Portanto, a resposta correta é SO."
+        "explanation": "Para concordar com uma afirmação positiva, usamos 'So + auxiliar + sujeito'. Neste caso, a afirmação original usa o Present Perfect ('I've been'), então a concordância é 'So have I'. 'Neither/Nor' são usados para concordar com frases negativas. 'Also' não funciona com essa estrutura de inversão. Portanto, a resposta correta é SO.",
+        "dialogue": [
+          [
+            "A",
+            "I've been to Australia."
+          ],
+          [
+            "B",
+            "_____ have I."
+          ]
+        ]
       },
       {
         "id": "iff66",
@@ -2298,7 +2338,17 @@
           "was"
         ],
         "correct": 2,
-        "explanation": "Para concordar com uma frase negativa no Simple Past ('didn't attend'), usamos 'neither + did + sujeito'. O auxiliar deve espelhar o tempo verbal da frase original. Aqui, 'did' é o auxiliar do Simple Past. Portanto, a resposta correta é DID."
+        "explanation": "Para concordar com uma frase negativa no Simple Past ('didn't attend'), usamos 'neither + did + sujeito'. O auxiliar deve espelhar o tempo verbal da frase original. Aqui, 'did' é o auxiliar do Simple Past. Portanto, a resposta correta é DID.",
+        "dialogue": [
+          [
+            "A",
+            "My manager didn't attend the meeting."
+          ],
+          [
+            "B",
+            "Neither _____ mine."
+          ]
+        ]
       },
       {
         "id": "iff67",
@@ -2311,7 +2361,17 @@
           "would"
         ],
         "correct": 2,
-        "explanation": "Para concordar com uma afirmação positiva com 'will', usamos 'So + will + sujeito'. O auxiliar da resposta espelha o tempo verbal da afirmação original. Neste caso, a frase usa 'will be', então a concordância é 'So will Maria'. Portanto, a resposta correta é WILL."
+        "explanation": "Para concordar com uma afirmação positiva com 'will', usamos 'So + will + sujeito'. O auxiliar da resposta espelha o tempo verbal da afirmação original. Neste caso, a frase usa 'will be', então a concordância é 'So will Maria'. Portanto, a resposta correta é WILL.",
+        "dialogue": [
+          [
+            "A",
+            "Tom will be at the conference."
+          ],
+          [
+            "B",
+            "So _____ Maria."
+          ]
+        ]
       },
       {
         "id": "iff68",
@@ -3130,7 +3190,17 @@
           "lend / lend"
         ],
         "correct": 0,
-        "explanation": "\"Borrow\" é pegar emprestado (quem recebe) e \"lend\" é emprestar (quem dá). Quem pede usa borrow; quem tem o telefone usa lend. Portanto, a resposta correta é BORROW / LEND."
+        "explanation": "\"Borrow\" é pegar emprestado (quem recebe) e \"lend\" é emprestar (quem dá). Quem pede usa borrow; quem tem o telefone usa lend. Portanto, a resposta correta é BORROW / LEND.",
+        "dialogue": [
+          [
+            "A",
+            "Can I _____ your phone?"
+          ],
+          [
+            "B",
+            "Sorry. That's the only thing I never _____ to anyone."
+          ]
+        ]
       },
       {
         "id": "iff131",
@@ -4228,7 +4298,17 @@
           "So am I"
         ],
         "correct": 0,
-        "explanation": "Para concordar com uma frase NEGATIVA usamos \"Neither do I\" (ou \"I don't either\"). Portanto, a resposta correta é NEITHER DO I."
+        "explanation": "Para concordar com uma frase NEGATIVA usamos \"Neither do I\" (ou \"I don't either\"). Portanto, a resposta correta é NEITHER DO I.",
+        "dialogue": [
+          [
+            "A",
+            "I don't enjoy horror films."
+          ],
+          [
+            "B",
+            "_____."
+          ]
+        ]
       },
       {
         "id": "ifmet65",
@@ -4241,7 +4321,17 @@
           "I haven't either"
         ],
         "correct": 0,
-        "explanation": "Para concordar com uma frase afirmativa usamos \"So + auxiliar + sujeito\", repetindo o auxiliar da frase original: \"So have I\". Portanto, a resposta correta é SO HAVE I."
+        "explanation": "Para concordar com uma frase afirmativa usamos \"So + auxiliar + sujeito\", repetindo o auxiliar da frase original: \"So have I\". Portanto, a resposta correta é SO HAVE I.",
+        "dialogue": [
+          [
+            "A",
+            "I've already finished my part."
+          ],
+          [
+            "B",
+            "_____."
+          ]
+        ]
       }
     ]
   }

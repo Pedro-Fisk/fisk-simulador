@@ -95,7 +95,18 @@
           "Yes, he lives."
         ],
         "correct": 0,
-        "explanation": "Quando queremos dar uma resposta curta a uma pergunta feita com 'does', simplesmente repetimos o 'does' na resposta. Neste caso, a pergunta foi feita com 'does he'. Portanto, a resposta correta é 'Yes, he DOES'."
+        "explanation": "Quando queremos dar uma resposta curta a uma pergunta feita com 'does', simplesmente repetimos o 'does' na resposta. Neste caso, a pergunta foi feita com 'does he'. Portanto, a resposta correta é 'Yes, he DOES'.",
+        "dialogue": [
+          [
+            "A",
+            "Does he live in Paris?"
+          ],
+          [
+            "B",
+            "_____"
+          ]
+        ],
+        "dialogueNote": "short answer"
       },
       {
         "id": "e1m08",
@@ -251,7 +262,18 @@
           "No, she not is."
         ],
         "correct": 0,
-        "explanation": "Para responder negativamente a uma pergunta com o verbo 'to be', usamos a resposta curta: sujeito + verbo 'to be' negado. Neste caso, a resposta curta correta é 'she isn't'. Portanto, a resposta correta é 'SHE ISN'T'."
+        "explanation": "Para responder negativamente a uma pergunta com o verbo 'to be', usamos a resposta curta: sujeito + verbo 'to be' negado. Neste caso, a resposta curta correta é 'she isn't'. Portanto, a resposta correta é 'SHE ISN'T'.",
+        "dialogue": [
+          [
+            "A",
+            "Is Laura Japanese?"
+          ],
+          [
+            "B",
+            "_____"
+          ]
+        ],
+        "dialogueNote": "short answer"
       },
       {
         "id": "e1m20",
@@ -498,7 +520,17 @@
           "When"
         ],
         "correct": 3,
-        "explanation": "Para perguntar em que época ou data algo acontece, usamos 'when'. A resposta 'It's on June 15th' confirma que a pergunta é sobre uma data específica. Portanto, a resposta correta é 'WHEN is your birthday?'"
+        "explanation": "Para perguntar em que época ou data algo acontece, usamos 'when'. A resposta 'It's on June 15th' confirma que a pergunta é sobre uma data específica. Portanto, a resposta correta é 'WHEN is your birthday?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ is your birthday?"
+          ],
+          [
+            "B",
+            "It's on June 15th."
+          ]
+        ]
       },
       {
         "id": "e1m39",
@@ -511,7 +543,17 @@
           "What"
         ],
         "correct": 3,
-        "explanation": "Para perguntar sobre a identidade ou natureza de um OBJETO ou COISA, usamos 'what'. A resposta 'It's a laptop' confirma que a pergunta é sobre um objeto. Portanto, a resposta correta é 'WHAT is this?'"
+        "explanation": "Para perguntar sobre a identidade ou natureza de um OBJETO ou COISA, usamos 'what'. A resposta 'It's a laptop' confirma que a pergunta é sobre um objeto. Portanto, a resposta correta é 'WHAT is this?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ is this?"
+          ],
+          [
+            "B",
+            "It's a laptop."
+          ]
+        ]
       },
       {
         "id": "e1m40",
@@ -524,7 +566,17 @@
           "Where"
         ],
         "correct": 1,
-        "explanation": "Para perguntar o MOTIVO ou razão de algo, usamos 'why'. A resposta com 'because' confirma que a pergunta é sobre o motivo. Portanto, a resposta correta é 'WHY do you study English?'"
+        "explanation": "Para perguntar o MOTIVO ou razão de algo, usamos 'why'. A resposta com 'because' confirma que a pergunta é sobre o motivo. Portanto, a resposta correta é 'WHY do you study English?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ do you study English?"
+          ],
+          [
+            "B",
+            "Because I want to travel."
+          ]
+        ]
       },
       {
         "id": "e1m41",
@@ -537,7 +589,18 @@
           "No, they didn't."
         ],
         "correct": 0,
-        "explanation": "Para dar uma resposta curta negativa a uma pergunta com 'do', usamos 'don't' (do + not). Como o sujeito é 'they', usamos 'they don't'. Portanto, a resposta correta é 'No, they DON'T'."
+        "explanation": "Para dar uma resposta curta negativa a uma pergunta com 'do', usamos 'don't' (do + not). Como o sujeito é 'they', usamos 'they don't'. Portanto, a resposta correta é 'No, they DON'T'.",
+        "dialogue": [
+          [
+            "A",
+            "Do they play tennis?"
+          ],
+          [
+            "B",
+            "_____"
+          ]
+        ],
+        "dialogueNote": "short answer"
       },
       {
         "id": "e1m42",
@@ -550,7 +613,18 @@
           "Yes, she likes."
         ],
         "correct": 1,
-        "explanation": "Para dar uma resposta curta afirmativa a uma pergunta com 'does', repetimos o 'does' na resposta. O pronome 'your sister' vira 'she'. Portanto, a resposta correta é 'Yes, she DOES'."
+        "explanation": "Para dar uma resposta curta afirmativa a uma pergunta com 'does', repetimos o 'does' na resposta. O pronome 'your sister' vira 'she'. Portanto, a resposta correta é 'Yes, she DOES'.",
+        "dialogue": [
+          [
+            "A",
+            "Does your sister like chocolate?"
+          ],
+          [
+            "B",
+            "_____"
+          ]
+        ],
+        "dialogueNote": "short answer"
       },
       {
         "id": "e1m43",
@@ -563,7 +637,18 @@
           "No, I didn't."
         ],
         "correct": 2,
-        "explanation": "Para dar uma resposta curta negativa a uma pergunta com 'do you', usamos 'I don't' (I + do + not). Portanto, a resposta correta é 'No, I DON'T'."
+        "explanation": "Para dar uma resposta curta negativa a uma pergunta com 'do you', usamos 'I don't' (I + do + not). Portanto, a resposta correta é 'No, I DON'T'.",
+        "dialogue": [
+          [
+            "A",
+            "Do you speak French?"
+          ],
+          [
+            "B",
+            "_____"
+          ]
+        ],
+        "dialogueNote": "short answer"
       },
       {
         "id": "e1m44",
@@ -576,7 +661,18 @@
           "No, he does."
         ],
         "correct": 0,
-        "explanation": "Para dar uma resposta curta negativa a uma pergunta com 'does', usamos 'doesn't' (does + not). Como o sujeito é 'Peter' (equivalente a 'he'), usamos 'he doesn't'. Portanto, a resposta correta é 'No, he DOESN'T'."
+        "explanation": "Para dar uma resposta curta negativa a uma pergunta com 'does', usamos 'doesn't' (does + not). Como o sujeito é 'Peter' (equivalente a 'he'), usamos 'he doesn't'. Portanto, a resposta correta é 'No, he DOESN'T'.",
+        "dialogue": [
+          [
+            "A",
+            "Does Peter live near here?"
+          ],
+          [
+            "B",
+            "_____"
+          ]
+        ],
+        "dialogueNote": "short answer"
       },
       {
         "id": "e1m45",
@@ -849,7 +945,17 @@
           "is"
         ],
         "correct": 2,
-        "explanation": "Para dizer de onde alguém é, usamos o verbo 'to be'. Com o pronome 'I', o verbo 'to be' é sempre 'am'. Portanto, a resposta correta é 'I AM from Canada'."
+        "explanation": "Para dizer de onde alguém é, usamos o verbo 'to be'. Com o pronome 'I', o verbo 'to be' é sempre 'am'. Portanto, a resposta correta é 'I AM from Canada'.",
+        "dialogue": [
+          [
+            "A",
+            "Where are you from?"
+          ],
+          [
+            "B",
+            "I _____ from Canada."
+          ]
+        ]
       },
       {
         "id": "e1m66",
@@ -862,7 +968,17 @@
           "is"
         ],
         "correct": 0,
-        "explanation": "Para negar uma frase com o verbo 'to be', usamos 'is not' ou a forma contraída 'isn't'. Como o sujeito é 'he' (Paulo), usamos 'he isn't'. Portanto, a resposta correta é 'No, he ISN'T Spanish'."
+        "explanation": "Para negar uma frase com o verbo 'to be', usamos 'is not' ou a forma contraída 'isn't'. Como o sujeito é 'he' (Paulo), usamos 'he isn't'. Portanto, a resposta correta é 'No, he ISN'T Spanish'.",
+        "dialogue": [
+          [
+            "A",
+            "Is Paulo Spanish?"
+          ],
+          [
+            "B",
+            "No, he _____ Spanish. He's Portuguese."
+          ]
+        ]
       },
       {
         "id": "e1m67",
@@ -875,7 +991,17 @@
           "is"
         ],
         "correct": 3,
-        "explanation": "Para falar da nacionalidade de alguém com o verbo 'to be', com 'she' (ela) usamos sempre 'is'. Portanto, a resposta correta é 'She IS French'."
+        "explanation": "Para falar da nacionalidade de alguém com o verbo 'to be', com 'she' (ela) usamos sempre 'is'. Portanto, a resposta correta é 'She IS French'.",
+        "dialogue": [
+          [
+            "A",
+            "What is Mia's nationality?"
+          ],
+          [
+            "B",
+            "She _____ French."
+          ]
+        ]
       },
       {
         "id": "e1m68",
@@ -1063,7 +1189,18 @@
           "Yes, I watched a comedy last night."
         ],
         "correct": 3,
-        "explanation": "Quando queremos dar uma resposta completa e afirmativa no passado, usamos o verbo com -ed e repetimos a situação toda. Neste caso, a pergunta é sobre ter assistido a uma comédia ontem à noite. Portanto, a resposta correta é 'Yes, I WATCHED a comedy last night'."
+        "explanation": "Quando queremos dar uma resposta completa e afirmativa no passado, usamos o verbo com -ed e repetimos a situação toda. Neste caso, a pergunta é sobre ter assistido a uma comédia ontem à noite. Portanto, a resposta correta é 'Yes, I WATCHED a comedy last night'.",
+        "dialogue": [
+          [
+            "A",
+            "Did you watch a comedy last night?"
+          ],
+          [
+            "B",
+            "_____"
+          ]
+        ],
+        "dialogueNote": "long answer"
       },
       {
         "id": "e1f02",
@@ -1076,7 +1213,18 @@
           "No, she wasn't cry during the drama."
         ],
         "correct": 0,
-        "explanation": "Quando queremos dizer que não fizemos algo no passado, usamos 'didn't' + o verbo na forma simples, sem -ed. Neste caso, a resposta é negativa sobre chorar durante o drama. Portanto, a resposta correta é 'No, she DIDN'T CRY during the drama'."
+        "explanation": "Quando queremos dizer que não fizemos algo no passado, usamos 'didn't' + o verbo na forma simples, sem -ed. Neste caso, a resposta é negativa sobre chorar durante o drama. Portanto, a resposta correta é 'No, she DIDN'T CRY during the drama'.",
+        "dialogue": [
+          [
+            "A",
+            "Did she cry during the drama?"
+          ],
+          [
+            "B",
+            "_____"
+          ]
+        ],
+        "dialogueNote": "long answer"
       },
       {
         "id": "e1f03",
@@ -1102,7 +1250,17 @@
           "bought / bought"
         ],
         "correct": 1,
-        "explanation": "Quando queremos perguntar sobre uma ação passada com 'did', o verbo fica na forma simples; na resposta positiva, usamos a forma passada. Neste caso, 'buy' não segue a regra do -ed. O passado de 'buy' é 'bought'. Portanto, a resposta correta é 'Did Sara BUY? / Yes, she BOUGHT'."
+        "explanation": "Quando queremos perguntar sobre uma ação passada com 'did', o verbo fica na forma simples; na resposta positiva, usamos a forma passada. Neste caso, 'buy' não segue a regra do -ed. O passado de 'buy' é 'bought'. Portanto, a resposta correta é 'Did Sara BUY? / Yes, she BOUGHT'.",
+        "dialogue": [
+          [
+            "A",
+            "Did Sara _____ new clothes last weekend?"
+          ],
+          [
+            "B",
+            "Yes, she _____ new clothes."
+          ]
+        ]
       },
       {
         "id": "e1f05",
@@ -1245,7 +1403,17 @@
           "For"
         ],
         "correct": 0,
-        "explanation": "Quando queremos responder a uma pergunta com 'why' (por que), usamos 'because' (porque) para explicar o motivo. Neste caso, a pergunta pede o motivo de ir à academia. Portanto, a resposta correta é 'BECAUSE I want to stay fit'."
+        "explanation": "Quando queremos responder a uma pergunta com 'why' (por que), usamos 'because' (porque) para explicar o motivo. Neste caso, a pergunta pede o motivo de ir à academia. Portanto, a resposta correta é 'BECAUSE I want to stay fit'.",
+        "dialogue": [
+          [
+            "A",
+            "Why do you go to the gym?"
+          ],
+          [
+            "B",
+            "_____ I want to stay fit."
+          ]
+        ]
       },
       {
         "id": "e1f16",
@@ -1258,7 +1426,18 @@
           "Yes, she does."
         ],
         "correct": 1,
-        "explanation": "Quando queremos dar uma resposta curta a uma pergunta com 'can', simplesmente repetimos o 'can'. Neste caso, a pergunta foi feita com 'can' sobre a mãe dela (she). Portanto, a resposta correta é 'Yes, she CAN'."
+        "explanation": "Quando queremos dar uma resposta curta a uma pergunta com 'can', simplesmente repetimos o 'can'. Neste caso, a pergunta foi feita com 'can' sobre a mãe dela (she). Portanto, a resposta correta é 'Yes, she CAN'.",
+        "dialogue": [
+          [
+            "A",
+            "Can your mom run 10 kilometers?"
+          ],
+          [
+            "B",
+            "_____"
+          ]
+        ],
+        "dialogueNote": "short answer"
       },
       {
         "id": "e1f17",
@@ -1271,7 +1450,17 @@
           "Are"
         ],
         "correct": 2,
-        "explanation": "Quando queremos perguntar se alguém tem a habilidade de fazer algo, usamos 'can'. Aqui a resposta é 'Yes, I can', e a pergunta precisa começar com o mesmo verbo da resposta. Portanto, a resposta correta é 'CAN you play soccer?'"
+        "explanation": "Quando queremos perguntar se alguém tem a habilidade de fazer algo, usamos 'can'. Aqui a resposta é 'Yes, I can', e a pergunta precisa começar com o mesmo verbo da resposta. Portanto, a resposta correta é 'CAN you play soccer?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ you play soccer?"
+          ],
+          [
+            "B",
+            "Yes, I can. I'm a very good player."
+          ]
+        ]
       },
       {
         "id": "e1f18",
@@ -1284,7 +1473,17 @@
           "What"
         ],
         "correct": 2,
-        "explanation": "Quando queremos perguntar o dia em que algo acontece, usamos 'when'. A resposta 'It's on Friday' dá um dia da semana. 'Where' pergunta o lugar, 'who' pergunta a pessoa e 'what' pergunta a coisa. Portanto, a resposta correta é 'WHEN is the party?'"
+        "explanation": "Quando queremos perguntar o dia em que algo acontece, usamos 'when'. A resposta 'It's on Friday' dá um dia da semana. 'Where' pergunta o lugar, 'who' pergunta a pessoa e 'what' pergunta a coisa. Portanto, a resposta correta é 'WHEN is the party?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ is the party?"
+          ],
+          [
+            "B",
+            "It's on Friday."
+          ]
+        ]
       },
       {
         "id": "e1f19",
@@ -1297,7 +1496,17 @@
           "How"
         ],
         "correct": 1,
-        "explanation": "Quando queremos perguntar a hora exata em que algo acontece, usamos 'what time'. A resposta 'At 9 o'clock' dá um horário do relógio, e não um motivo ('why'), um lugar ('where') ou um modo ('how'). Portanto, a resposta correta é 'WHAT TIME do you get up on weekends?'"
+        "explanation": "Quando queremos perguntar a hora exata em que algo acontece, usamos 'what time'. A resposta 'At 9 o'clock' dá um horário do relógio, e não um motivo ('why'), um lugar ('where') ou um modo ('how'). Portanto, a resposta correta é 'WHAT TIME do you get up on weekends?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ do you get up on weekends?"
+          ],
+          [
+            "B",
+            "At 9 o'clock."
+          ]
+        ]
       },
       {
         "id": "e1f20",
@@ -1570,7 +1779,17 @@
           "Can"
         ],
         "correct": 3,
-        "explanation": "Para perguntar sobre a habilidade de alguém, usamos 'can', que nunca muda de forma, seja qual for o sujeito. Aqui a resposta é 'Yes, he can', e a pergunta precisa começar com o mesmo verbo da resposta. Portanto, a resposta correta é 'CAN your brother cook well?'"
+        "explanation": "Para perguntar sobre a habilidade de alguém, usamos 'can', que nunca muda de forma, seja qual for o sujeito. Aqui a resposta é 'Yes, he can', e a pergunta precisa começar com o mesmo verbo da resposta. Portanto, a resposta correta é 'CAN your brother cook well?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ your brother cook well?"
+          ],
+          [
+            "B",
+            "Yes, he can. He makes great pizza."
+          ]
+        ]
       },
       {
         "id": "e1f41",
@@ -1596,7 +1815,17 @@
           "Who"
         ],
         "correct": 2,
-        "explanation": "Para perguntar sobre um LUGAR (onde alguém foi ou está), usamos 'where'. A resposta 'To the beach' confirma que a pergunta é sobre um lugar. Portanto, a resposta correta é 'WHERE did you go last weekend?'"
+        "explanation": "Para perguntar sobre um LUGAR (onde alguém foi ou está), usamos 'where'. A resposta 'To the beach' confirma que a pergunta é sobre um lugar. Portanto, a resposta correta é 'WHERE did you go last weekend?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ did you go last weekend?"
+          ],
+          [
+            "B",
+            "To the beach."
+          ]
+        ]
       },
       {
         "id": "e1f43",
@@ -1609,7 +1838,17 @@
           "When"
         ],
         "correct": 3,
-        "explanation": "Para perguntar sobre o MOMENTO em que algo aconteceu, usamos 'when'. A resposta 'At 9 p.m.' confirma que a pergunta é sobre o horário. Portanto, a resposta correta é 'WHEN did they arrive?'"
+        "explanation": "Para perguntar sobre o MOMENTO em que algo aconteceu, usamos 'when'. A resposta 'At 9 p.m.' confirma que a pergunta é sobre o horário. Portanto, a resposta correta é 'WHEN did they arrive?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ did they arrive?"
+          ],
+          [
+            "B",
+            "At 9 p.m."
+          ]
+        ]
       },
       {
         "id": "e1f44",
@@ -1622,7 +1861,17 @@
           "Why"
         ],
         "correct": 2,
-        "explanation": "Para perguntar sobre uma COISA ou objeto, usamos 'what'. A resposta 'Some fruit and milk' confirma que a pergunta é sobre o que foi comprado. Portanto, a resposta correta é 'WHAT did you buy at the store?'"
+        "explanation": "Para perguntar sobre uma COISA ou objeto, usamos 'what'. A resposta 'Some fruit and milk' confirma que a pergunta é sobre o que foi comprado. Portanto, a resposta correta é 'WHAT did you buy at the store?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ did you buy at the store?"
+          ],
+          [
+            "B",
+            "Some fruit and milk."
+          ]
+        ]
       },
       {
         "id": "e1f45",
@@ -1635,7 +1884,18 @@
           "No, I eaten."
         ],
         "correct": 0,
-        "explanation": "Para dar uma resposta curta negativa a uma pergunta com 'did', usamos 'didn't' (did + not). A forma do verbo não aparece na resposta curta. Portanto, a resposta correta é 'No, I DIDN'T'."
+        "explanation": "Para dar uma resposta curta negativa a uma pergunta com 'did', usamos 'didn't' (did + not). A forma do verbo não aparece na resposta curta. Portanto, a resposta correta é 'No, I DIDN'T'.",
+        "dialogue": [
+          [
+            "A",
+            "Did you eat lunch?"
+          ],
+          [
+            "B",
+            "_____"
+          ]
+        ],
+        "dialogueNote": "short answer"
       },
       {
         "id": "e1f46",
@@ -1843,7 +2103,17 @@
           "Who"
         ],
         "correct": 2,
-        "explanation": "Para perguntar o MOTIVO pelo qual algo aconteceu, usamos 'why'. A resposta com 'because' (porque) confirma que a pergunta é sobre a razão. Portanto, a resposta correta é 'WHY did he leave early?'"
+        "explanation": "Para perguntar o MOTIVO pelo qual algo aconteceu, usamos 'why'. A resposta com 'because' (porque) confirma que a pergunta é sobre a razão. Portanto, a resposta correta é 'WHY did he leave early?'",
+        "dialogue": [
+          [
+            "A",
+            "_____ did he leave early?"
+          ],
+          [
+            "B",
+            "Because he was tired."
+          ]
+        ]
       },
       {
         "id": "e1f62",
@@ -1856,7 +2126,17 @@
           "Then"
         ],
         "correct": 2,
-        "explanation": "Para responder a uma pergunta com 'why', usamos 'because' para introduzir a razão ou motivo. 'Because' liga a pergunta à explicação. Portanto, a resposta correta é 'BECAUSE they want to live in Paris'."
+        "explanation": "Para responder a uma pergunta com 'why', usamos 'because' para introduzir a razão ou motivo. 'Because' liga a pergunta à explicação. Portanto, a resposta correta é 'BECAUSE they want to live in Paris'.",
+        "dialogue": [
+          [
+            "A",
+            "Why do they study French?"
+          ],
+          [
+            "B",
+            "_____ they want to live in Paris."
+          ]
+        ]
       },
       {
         "id": "e1f63",
@@ -1882,7 +2162,17 @@
           "Because"
         ],
         "correct": 3,
-        "explanation": "Toda resposta a uma pergunta com 'why?' começa com 'because' para introduzir a explicação. 'Why' pergunta o motivo; 'because' responde com o motivo. Portanto, a resposta correta é 'BECAUSE I got a good grade!'."
+        "explanation": "Toda resposta a uma pergunta com 'why?' começa com 'because' para introduzir a explicação. 'Why' pergunta o motivo; 'because' responde com o motivo. Portanto, a resposta correta é 'BECAUSE I got a good grade!'.",
+        "dialogue": [
+          [
+            "A",
+            "Why are you happy?"
+          ],
+          [
+            "B",
+            "_____ I got a good grade!"
+          ]
+        ]
       },
       {
         "id": "e1f65",
@@ -2090,7 +2380,17 @@
           "is"
         ],
         "correct": 2,
-        "explanation": "A resposta 'I'm reading' está no presente contínuo, então a pergunta também usa o presente contínuo. Com 'you', o verbo 'to be' é 'are'. Portanto, a resposta correta é 'What ARE you doing?'"
+        "explanation": "A resposta 'I'm reading' está no presente contínuo, então a pergunta também usa o presente contínuo. Com 'you', o verbo 'to be' é 'are'. Portanto, a resposta correta é 'What ARE you doing?'",
+        "dialogue": [
+          [
+            "A",
+            "What _____ you doing?"
+          ],
+          [
+            "B",
+            "I'm reading a book."
+          ]
+        ]
       }
     ]
   }
