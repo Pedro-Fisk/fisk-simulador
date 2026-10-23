@@ -386,6 +386,21 @@
     }
     .opt-btn.chosen .opt-letter { background: #161414; color: #ffffff; }
 
+    /* ── Correção na hora (Practice, Custom e Phrasal, 23/10/2026) ──
+       A questão travada mostra o certo e o errado no próprio card, com a
+       explicação embaixo. Midterm e Final continuam conferindo só no fim:
+       eles simulam a prova. */
+    .q-card.fb-done { border-color: var(--gray-lt); }
+    .q-card.fb-done .opt-btn { cursor: default; }
+    .q-card.fb-done .opt-btn:hover { border-color: var(--gray-lt); }
+    .opt-btn.fb-ok, .q-card.fb-done .opt-btn.fb-ok:hover { background: #d1fae5; border-color: #065f46; color: #065f46; }
+    .opt-btn.fb-ok .opt-letter { background: #065f46; color: #fff; }
+    .opt-btn.fb-err, .q-card.fb-done .opt-btn.fb-err:hover { background: #fee2e2; border-color: #991b1b; color: #991b1b; text-decoration: line-through; }
+    .opt-btn.fb-err .opt-letter { background: #991b1b; color: #fff; }
+    .opt-btn.fb-certa, .q-card.fb-done .opt-btn.fb-certa:hover { border-color: #065f46; border-style: dashed; }
+    .fb-line { margin-top: .7rem; font-size: .86rem; font-weight: 700; color: #065f46; }
+    .fb-line.err { color: #991b1b; }
+
     /* ── Results ── */
     .score-wrap {
       text-align: center; padding: 2.25rem 1.25rem 1.75rem;
@@ -702,6 +717,10 @@
     body.theme-dark .opt-btn     { background: #ece9e9; color: #161414; }
     body.theme-dark .opt-btn.chosen { background: #d6d1d1; }
     body.theme-dark .hint-box { background: #3b2e00; border-color: #92400e; color: #fde68a; }
+    body.theme-dark .opt-btn.fb-ok  { background: #bfeedd; }
+    body.theme-dark .opt-btn.fb-err { background: #f6caca; }
+    body.theme-dark .fb-line     { color: #6ee7b7; }
+    body.theme-dark .fb-line.err { color: #fca5a5; }
     body.theme-dark .r-card.r-correct { border-color: #065f46; }
     body.theme-dark .r-card.r-wrong   { border-color: #991b1b; }
     body.theme-dark #translator-panel { background: #201d1d; border-color: #3a3535; }
@@ -1866,6 +1885,9 @@ const UI_STRINGS = {
     customDescVocab:  'Select specific vocabulary and pronunciation topics',
     startBtn:    'Start Quiz →',
     quizSub:     n => `${n} question${n!==1?'s':''} · answer all and submit`,
+    quizSubTreino: n => `${n} question${n!==1?'s':''} · you see the answer right after each one`,
+    fbOk:        'Correct!',
+    fbErr:       l => `Not this time. The answer is ${l}.`,
     profSub:     n => `Professor Mode · ${n} question${n!==1?'s':''}`,
     submitBtn:   'Submit Quiz',
     clearBtn:    '✖ Clear',
@@ -1917,6 +1939,9 @@ const UI_STRINGS = {
     customDescVocab:  'Elige los temas de vocabulario y pronunciación',
     startBtn:    'Iniciar →',
     quizSub:     n => `${n} pregunta${n!==1?'s':''} · responde todas y envía`,
+    quizSubTreino: n => `${n} pregunta${n!==1?'s':''} · ves la respuesta justo después de cada una`,
+    fbOk:        '¡Correcto!',
+    fbErr:       l => `Esta vez no. La respuesta es ${l}.`,
     profSub:     n => `Modo Profesor · ${n} pregunta${n!==1?'s':''}`,
     submitBtn:   'Enviar',
     clearBtn:    '✖ Limpiar',
@@ -2451,7 +2476,9 @@ function startQuiz() {
     return;
   }
 
-  document.getElementById('quiz-subtitle').textContent = S.quizSub(total);
+  document.getElementById('quiz-subtitle').textContent = modoTreino() ? S.quizSubTreino(total) : S.quizSub(total);
+  /* Na correção na hora, limpar seria responder de novo já sabendo a certa. */
+  document.getElementById('btn-clear').style.display = modoTreino() ? 'none' : '';
   document.getElementById('quiz-counter').textContent = '0 ' + S.ofLbl + ' ' + total;
 
   renderQuiz();
@@ -2531,7 +2558,52 @@ function tocarAcerto() {
   } catch (e) {}
 }
 
+/* ── Correção na hora ────────────────────────────────────────────────────
+   Decisão de 23/10/2026, tirada dos dados de uso: uma em cada três tentativas
+   do Quick Practice fica abaixo de 60%, e o erro se concentra em poucos
+   tópicos. Ver a explicação só no fim, dez questões depois, separa o erro da
+   correção; no treino o aluno vê na hora, na própria questão.
+   Vale para Practice, Custom e Phrasal. Midterm e Final continuam como prova:
+   respondem tudo e conferem no fim. A resposta trava ao ser dada (sem isso o
+   aluno trocaria para a certa depois de vê-la, e o servidor pagaria um 10 que
+   ele não fez). O que vai para a nuvem não muda: as respostas, no envio. */
+function modoTreino() {
+  return !PROF_MODE && ['practice', 'custom', 'phrasal'].includes(state.exam);
+}
+function corrigirNaHora(qIdx, optIdx) {
+  const q = state.questions[qIdx];
+  const S = UI_STRINGS[bookLang(state.book)];
+  const card = document.getElementById(`qcard-${qIdx}`);
+  const acertou = optIdx === q._correct;
+  card.classList.add('fb-done');
+  q._opts.forEach((_, j) => {
+    const b = document.getElementById(`opt-${qIdx}-${j}`);
+    b.disabled = true;
+    if (j === optIdx) b.classList.add(acertou ? 'fb-ok' : 'fb-err');
+    else if (j === q._correct && !acertou) b.classList.add('fb-certa');
+  });
+  const linha = document.createElement('div');
+  linha.className = 'fb-line' + (acertou ? '' : ' err');
+  linha.textContent = acertou ? '✓ ' + S.fbOk : '✗ ' + S.fbErr(LETTERS[q._correct]);
+  card.appendChild(linha);
+  if (!acertou && q.explanation) {
+    const dica = document.createElement('div');
+    dica.className = 'hint-box';
+    dica.textContent = '💡 ' + q.explanation;
+    card.appendChild(dica);
+  }
+  if (acertou) tocarAcerto();
+}
+
 function selectOption(qIdx, optIdx) {
+  if (modoTreino()) {
+    if (state.answers[qIdx] !== undefined) return;
+    state.answers[qIdx] = optIdx;
+    document.getElementById(`qcard-${qIdx}`).classList.add('has-answer');
+    corrigirNaHora(qIdx, optIdx);
+    updateCounter();
+    return;
+  }
   const prev = state.answers[qIdx];
   if (prev !== undefined) {
     document.getElementById(`opt-${qIdx}-${prev}`).classList.remove('chosen');
