@@ -654,7 +654,7 @@
           "in case"
         ],
         "correct": 1,
-        "explanation": "UNLESS quer dizer \"a não ser que\": ela vai pedir demissão, a não ser que aumentem o salário dela. Com \"as long as\" a frase ficaria sem sentido — ela pediria demissão justamente se recebesse o aumento. Portanto, a resposta correta é UNLESS."
+        "explanation": "Quando a condição é negativa, no sentido de 'a não ser que', usamos 'unless'. Neste caso ela vai pedir demissão a não ser que aumentem o salário dela. Com 'as long as' a frase perderia o sentido, porque ela pediria demissão justamente se recebesse o aumento. Portanto, a resposta correta é UNLESS."
       },
       {
         "id": "ifm51",
@@ -841,15 +841,15 @@
       {
         "id": "ifm65",
         "topic": "Conditionals – Unless/As Long As",
-        "question": "We'll go ahead with the plan _____ management approves the budget.",
+        "question": "We'll go ahead with the plan _____ management rejects the budget.",
         "options": [
-          "if",
-          "provided that",
           "as long as",
-          "All of the above"
+          "provided that",
+          "if",
+          "unless"
         ],
         "correct": 3,
-        "explanation": "'If', 'provided that' e 'as long as' introduzem todas a mesma condição necessária para o plano avançar: a aprovação do orçamento. 'Provided that' e 'as long as' apenas reforçam que essa é a única condição, e nesta frase as três funcionam igualmente bem. Portanto, a resposta correta é ALL OF THE ABOVE."
+        "explanation": "Quando queremos dizer 'a não ser que', usamos 'unless'. Neste caso o plano segue em frente a não ser que a direção rejeite o orçamento. Com 'if', 'provided that' ou 'as long as' o plano avançaria justamente por causa da rejeição, o que não tem lógica. Portanto, a resposta correta é UNLESS."
       },
       {
         "id": "ifm66",

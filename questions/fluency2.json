@@ -82,7 +82,7 @@
           "do I"
         ],
         "correct": 2,
-        "explanation": "Quando queremos contar uma pergunta indiretamente, a ordem vira normal. Sujeito e depois verbo, sem o 'do' ou 'did'. Neste caso, a pergunta era 'Where do you live?' e ao contar, vira 'where I lived', o 'do' some e o verbo recua um tempo. Portanto, a resposta correta é where I LIVED."
+        "explanation": "Quando queremos contar uma pergunta indiretamente, a ordem vira normal. Sujeito e depois verbo, sem o 'do' ou 'did'. Neste caso, a pergunta era 'Where do you live?' e ao contar, vira 'where I lived', o 'do' some e o verbo recua um tempo. Portanto, a resposta correta é I."
       },
       {
         "id": "f2m07",
@@ -199,7 +199,7 @@
           "Himself"
         ],
         "correct": 1,
-        "explanation": "Quando o trecho com -ing é o sujeito da frase, quem indica de quem é o comportamento é a forma possessiva. Neste caso o egoísmo é dele: 'HIS being so selfish really annoys everyone'. 'Him', 'he' e 'himself' não abrem a frase nessa posição. Portanto, a resposta correta é HIS."
+        "explanation": "Quando o trecho com -ing é o sujeito da frase, quem indica de quem é o comportamento é a forma possessiva. Neste caso o egoísmo é dele: 'HIS being so selfish really annoys everyone'. Na conversa informal se ouve 'him' nessa posição, mas na escrita e nas provas a forma esperada é o possessivo; 'he' e 'himself' não cabem ali. Portanto, a resposta correta é HIS."
       },
       {
         "id": "f2m16",
@@ -221,7 +221,7 @@
         "options": [
           "if did I read",
           "whether I had read",
-          "if I have read",
+          "that I had read",
           "whether had I read"
         ],
         "correct": 1,
@@ -243,7 +243,7 @@
       {
         "id": "f2m19",
         "topic": "So / Neither – Disagreement",
-        "question": "I don't like carrots. Really? I _____!",
+        "question": "I don't like carrots. Really? I _____! (disagreement)",
         "options": [
           "do",
           "don't",
@@ -585,7 +585,7 @@
         "options": [
           "if I had spoken to",
           "whether had I spoken to",
-          "if I have spoken to",
+          "if did I speak to",
           "that I had spoken to"
         ],
         "correct": 0,
@@ -598,7 +598,7 @@
         "options": [
           "did I want",
           "I wanted",
-          "I want",
+          "wanted I",
           "do I want"
         ],
         "correct": 1,
@@ -610,7 +610,7 @@
         "question": "She asked, 'What time does the meeting start?' → She asked what time the meeting _____.",
         "options": [
           "does start",
-          "starts",
+          "does it start",
           "started",
           "start"
         ],
@@ -624,7 +624,7 @@
         "options": [
           "I had been",
           "had I been",
-          "I have been",
+          "had been I",
           "have I been"
         ],
         "correct": 0,
@@ -654,12 +654,12 @@
           "Ours"
         ],
         "correct": 1,
-        "explanation": "Quando o trecho com -ing é o sujeito da frase, usamos a forma possessiva antes do verbo com -ing. Neste caso quem fez a lição no prazo fomos nós: 'OUR doing the homework on time impressed the teacher'. 'Us', 'we' e 'ours' não funcionam como sujeito de um verbo com -ing. Portanto, a resposta correta é OUR."
+        "explanation": "Quando o trecho com -ing é o sujeito da frase, usamos a forma possessiva antes do verbo com -ing. Neste caso quem fez a lição no prazo fomos nós: 'OUR doing the homework on time impressed the teacher'. Na conversa informal se ouve 'us' nessa posição, mas na escrita e nas provas a forma esperada é o possessivo; 'we' e 'ours' não cabem ali. Portanto, a resposta correta é OUR."
       },
       {
         "id": "f2m51",
         "topic": "Possessive Before -ing",
-        "question": "_____ using your phone without asking was wrong, and I'm sorry.",
+        "question": "_____ forgetting your birthday was a terrible mistake.",
         "options": [
           "Me",
           "My",
@@ -667,7 +667,7 @@
           "Mine"
         ],
         "correct": 1,
-        "explanation": "Quando o trecho com -ing é o sujeito da frase, usamos a forma possessiva antes do verbo com -ing. Neste caso quem usou o celular fui eu: 'MY using your phone without asking was wrong'. 'Me', 'I' e 'mine' não abrem a frase nessa posição. Portanto, a resposta correta é MY."
+        "explanation": "Quando o trecho com -ing é o sujeito da frase, a norma formal pede o possessivo antes do -ing para dizer de quem é a ação. Neste caso quem esqueceu o aniversário fui eu: 'MY forgetting your birthday was a terrible mistake'. Na conversa informal se ouve 'me forgetting', mas na escrita e nas provas a forma esperada é o possessivo; 'I' e 'mine' não cabem nessa posição. Portanto, a resposta correta é MY."
       },
       {
         "id": "f2m52",
@@ -693,7 +693,7 @@
           "Theirs"
         ],
         "correct": 1,
-        "explanation": "Quando o trecho com -ing é o sujeito da frase, usamos a forma possessiva antes do verbo com -ing. Neste caso quem ganhou o campeonato foram eles: 'THEIR winning the championship made the whole school proud'. 'Them', 'they' e 'theirs' não servem como sujeito de um verbo com -ing. Portanto, a resposta correta é THEIR."
+        "explanation": "Quando o trecho com -ing é o sujeito da frase, usamos a forma possessiva antes do verbo com -ing. Neste caso quem ganhou o campeonato foram eles: 'THEIR winning the championship made the whole school proud'. Na conversa informal se ouve 'them' nessa posição, mas na escrita e nas provas a forma esperada é o possessivo; 'they' e 'theirs' não cabem ali. Portanto, a resposta correta é THEIR."
       },
       {
         "id": "f2m54",

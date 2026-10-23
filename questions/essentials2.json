@@ -209,7 +209,7 @@
           "one thousand nine hundred eighty-three",
           "nineteen eighty-three",
           "one nine eight three",
-          "nineteen hundred eighty-three"
+          "nineteen eighty-third"
         ],
         "correct": 1,
         "explanation": "Quando queremos dizer um ano em inglês, lemos em dois blocos de dois dígitos. Neste caso, 1983 vira 'nineteen' (19) mais 'eighty-three' (83). Portanto, a resposta correta é NINETEEN EIGHTY-THREE."
@@ -220,12 +220,12 @@
         "question": "How do you read the number 2,500?",
         "options": [
           "two thousands five hundred",
-          "twenty-five hundred",
+          "two thousand five hundred",
           "two million five hundred",
           "two thousand fifty"
         ],
         "correct": 1,
-        "explanation": "Na fala do dia a dia, os números de quatro dígitos são lidos em centenas: 2,500 vira TWENTY-FIVE HUNDRED, ou seja, 25 centenas. THOUSAND e HUNDRED nunca recebem -s depois de um número, então 'two thousands' não existe. 'Two million five hundred' seria 2.000.500 e 'two thousand fifty' seria 2.050. Portanto, a resposta correta é TWENTY-FIVE HUNDRED."
+        "explanation": "Quando lemos um número com milhar, dizemos THOUSAND e depois HUNDRED, sem -s: 2,500 vira TWO THOUSAND FIVE HUNDRED. 'Two thousands' não existe, 'two million five hundred' seria 2.000.500 e 'two thousand fifty' seria 2.050. Portanto, a resposta correta é TWO THOUSAND FIVE HUNDRED."
       },
       {
         "id": "e2m18",

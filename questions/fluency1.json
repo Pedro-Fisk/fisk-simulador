@@ -118,7 +118,7 @@
           "had / eaten",
           "have / eaten",
           "did / eat",
-          "were / eating"
+          "are / eating"
         ],
         "correct": 0,
         "explanation": "Quando queremos falar de algo que aconteceu antes de outro evento passado, usamos 'had' + a forma passada do verbo. Neste caso, eles já tinham comido antes de eu chegar, a refeição aconteceu primeiro, e depois eu cheguei. Portanto, a resposta correta é 'HAD / EATEN'."
@@ -128,7 +128,7 @@
         "topic": "Past Perfect",
         "question": "I couldn't pay because I _____ my wallet at home.",
         "options": [
-          "left",
+          "leave",
           "have left",
           "had left",
           "was leaving"
@@ -479,7 +479,7 @@
         "topic": "Past Perfect",
         "question": "The lights went out because someone _____ to pay the electricity bill.",
         "options": [
-          "didn't remember",
+          "won't remember",
           "doesn't remember",
           "hadn't remembered",
           "hasn't remembered"
@@ -1601,7 +1601,7 @@
       {
         "id": "f1f63",
         "topic": "Past Perfect",
-        "question": "The players were tired because they _____ for three hours.",
+        "question": "The players were exhausted because they _____ since seven in the morning.",
         "options": [
           "trained",
           "had been training",
@@ -1609,14 +1609,14 @@
           "were training"
         ],
         "correct": 1,
-        "explanation": "Quando queremos enfatizar a duração de uma atividade que aconteceu antes de outro evento passado, usamos 'had been' + verbo com -ing. Neste caso, três horas de treino causaram o cansaço, o treino aconteceu antes do cansaço que descrevemos. Portanto, a resposta correta é 'HAD BEEN TRAINING'."
+        "explanation": "Quando queremos enfatizar uma atividade que começou num ponto do passado e continuou até outro momento passado, usamos 'had been' + verbo com -ing. Neste caso, o treino começou às sete da manhã e durou até o momento do cansaço; com 'since', o past simple e o past continuous não servem. Portanto, a resposta correta é 'HAD BEEN TRAINING'."
       },
       {
         "id": "f1f64",
         "topic": "Past Perfect",
         "question": "She recognized the city because she _____ there as a child.",
         "options": [
-          "lived",
+          "lives",
           "has lived",
           "had lived",
           "was living"
@@ -1627,7 +1627,7 @@
       {
         "id": "f1f65",
         "topic": "Past Perfect",
-        "question": "Before I got the job, I _____ my CV several times.",
+        "question": "By the time I got the job, I _____ my CV several times.",
         "options": [
           "updated",
           "have updated",
@@ -1642,7 +1642,7 @@
         "topic": "Past Perfect",
         "question": "He realized he _____ the iron on when he was already at work.",
         "options": [
-          "left",
+          "leaves",
           "has left",
           "had left",
           "was leaving"
