@@ -1414,11 +1414,6 @@ const CLOUD = {
   appKey: 'fisk_0719bacbecc857f61d1e',
   tool: 'qp'
 };
-/* O AVATAR COMEMORA (Pedro, 26/10/2026; avatar-festa.js do portal): cada simulado terminado é um momento pequeno, e o
-   avatar do aluno sobe do canto a cada 3 no dia. Não na sala do professor (RAF 0000-000) nem no uso solto, sem RAF. */
-if (window.FiskAvatarFesta && PORTAL_RAF && PORTAL_RAF.replace(/[^0-9]/g, '') !== '0000000') {
-  try { window.FiskAvatarFesta.prepara({ raf: PORTAL_RAF, endpoint: CLOUD.endpoint, appKey: CLOUD.appKey, base: 'https://portalfisk.com.br/' }); } catch (e) {}
-}
 // "Fluency 2" → "fluency2", "In Focus" → "infocus", "Inmediato 2" → "inmediato2"
 /* Também aceita um degrau FANTASMA da escada (livro sem banco, como o Teens
    Connect 3): ele não abre card próprio, mas posiciona o aluno na trilha para
@@ -1480,6 +1475,12 @@ function livrosAteOEstagio(k) {
     if (i >= 0) return ESCADA_QP[trilha].slice(0, i + 1).filter(x => BOOKS[x]);
   }
   return [k];   // livro fora da escada: só ele mesmo
+}
+/* O AVATAR COMEMORA (Pedro, 26/10/2026; avatar-festa.js do portal): cada simulado terminado é um momento pequeno, e o
+   avatar do aluno sobe do canto a cada 3 no dia. Não na sala do professor (RAF 0000-000) nem no uso solto, sem RAF.
+   Mora fora do trecho BOOKS..livrosAteOEstagio: o teste do Fisk Worlds (worlds-perguntas) roda aquele trecho sem window. */
+if (window.FiskAvatarFesta && PORTAL_RAF && PORTAL_RAF.replace(/[^0-9]/g, '') !== '0000000') {
+  try { window.FiskAvatarFesta.prepara({ raf: PORTAL_RAF, endpoint: CLOUD.endpoint, appKey: CLOUD.appKey, base: 'https://portalfisk.com.br/' }); } catch (e) {}
 }
 (function portalBoot() {
   if (PORTAL_NOME) state.studentName = PORTAL_NOME;
