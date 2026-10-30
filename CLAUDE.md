@@ -151,9 +151,23 @@ Ele mora num terceiro bloco do JSON, `phrasal`, ao lado de `midterm` e `final`:
 - O traço dos nomes de tópico é **meia-risca `–`**, não hífen. O Portal compara
   esses nomes **letra por letra**; trocar um caractere quebra o botão de
   praticar sem erro visível.
-- Interface em inglês (espanhol nos Inmediato); explicações das questões em
-  **português**, sem metalinguagem — o padrão está em toda questão existente:
-  "Quando queremos… Portanto, a resposta correta é X."
+- Interface em inglês (espanhol nos Inmediato); explicações das questões dos
+  bancos de **inglês** em **português**, sem metalinguagem: "Quando queremos…
+  Portanto, a resposta correta é X."
+- ⚠️ **Banco de espanhol tem explicação em espanhol** (regra do Pedro,
+  30/10/2026: para o aluno de espanhol, tudo na tela é espanhol). Vale para
+  `inmediato1/2/3.json`, no próprio campo `explanation` (o Fisk Worlds e o
+  Modo Profesor leem esse mesmo campo). Espanhol claro, de aluno brasileiro
+  iniciante; pode citar a palavra portuguesa entre aspas para comparar
+  ("'pode' es portugués"), mas o texto em volta é espanhol. Fecho natural:
+  "Por eso, la respuesta correcta es X." Sem travessão. Alternativa também
+  nunca em português (distrator de interferência vira forma "espanholada"
+  errada, como 'traduzgo').
+- Texto que o aluno lê mora no `UI_STRINGS` (en/es), nunca solto no código:
+  o resultado (`fb`), o contador de tópicos, os "← Back", o toast da
+  carteira, a mensagem de indisponível e os rótulos de acessibilidade.
+  `fiskRegistrarUso("Quick Practice")` NÃO é texto de tela: é chave do painel
+  de uso, não traduza.
 - Commits e comentários em português.
 
 ## O que é fácil errar
